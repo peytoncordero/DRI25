@@ -8,8 +8,12 @@ learning objectives:
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
+facilitators: 
+    name: 'Ian Williams'
+    description: 'Here is a short bio.'
+
 estimated time:
-    - 10 hours
+    - 2-3 hours
 
 prerequisites:
     - command-line:
