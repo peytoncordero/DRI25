@@ -41,9 +41,8 @@ ethical considerations:
 
 # Acknowledgements
 
-TODO: Add acknowledgements to metadata
-
-- Current Author: [Stefano Morello](https://github.com/smorello87)
+- Current Author: [Silvia Rivera Alfaro](https://github.com/silvira)
+- Past contributing Author: [Stefano Morello](https://github.com/smorello87)
 - Past contributing Author: [Kelsey Chatlosh](https://github.com/kchatlosh)
 - Past contributing Author: [Patrick Smyth](https://github.com/smythp)
 - Past contributing Author: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
