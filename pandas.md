@@ -89,13 +89,17 @@ In essence, JupyterLite is a more nimble version of Jupyter Notebooks, suitable 
 
 Keeping all your files for a particular project in a designated file directory will keep your project organized and will make it easier to read in your files. 
 
-Let’s create a “pandas_workshop” folder in our JupyterLite code editor workspace. To do so, click on "Open Code Editor" in the top left corner of your screen. In the folders toolbar, click the icon for the folder with the + on it. This will create a new "Untitled Folder." You can rename the folder by highlighting it, then pressing the "control" key on your keyboard while clicking your mouse at the same (MacOS) or right-clicking (Windows), and selecting "Rename" from the drop-down menu. You can rename the folder: “pandas_workshop”.
+Let’s create a “pandas_workshop” folder in our JupyterLite code editor workspace: 
+- Click on "Open Code Editor" in the top right corner of this browser window. 
+- In the folders toolbar, click the icon for the folder with the '+' on it. This will create a new "Untitled Folder." 
+- To rename the folder, click on the folder name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
+- Rename the folder: “pandas_workshop”.
 
-Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder. The “refugee-arrivals-by-destination” CSV file contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
-
-Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
-
-Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. Once it's in that folder, you should be all set. 
+Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
+- Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
+- Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
+- Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
+- Once it's in that folder, you should be all set! 
 
 We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
 
@@ -134,14 +138,16 @@ If you don’t see an error when you run the notebook—that is, if there is no 
 
 ## Read in a CSV file as a DataFrame
 
-Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset. You want to make sure you save the dataset in the same location as your Jupyter Notebook, in this case the pandas_workshop folder saved on your Desktop. 
+Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset, which contains data about refugee arrivals to the United States between 2005 and 2015, including the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
+
+You want to make sure you save the dataset in the same location as your Jupyter Notebook, in this case the pandas_workshop folder. 
 
 
 ```python
 refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", encoding='utf-8')
 ```
 
-- With this command, we have created a **Pandas DataFrame** object, which is a 2-dimensional labeled data structure with columns of different types. You can think of it like a spreadsheet or SQL table, or a dictionary of Series objects. 
+- With this command, we are creating a **Pandas DataFrame** object, which is a 2-dimensional labeled data structure with columns of different types. You can think of it like a spreadsheet or SQL table, or a dictionary of Series objects. 
 - It is common practice to abbreviate DataFrame with “df”, as in refugee_df.  
 - When reading in the CSV file, we also specified the encoding and delimiter. The delimiter specifies the character that separates or “delimits” the columns in our dataset. For CSV files, the delimiter is usually a comma but it can also be a tab. 
 - UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
