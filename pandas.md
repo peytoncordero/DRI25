@@ -1,7 +1,7 @@
 ---
 title: 'Data Manipulation in Pandas and Python'
 cover title: Pandas
-description: 'In this workshop, we are going to learn some basic commands in Pandas, an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points organized in a table format.'
+description: 'In this workshop, we are going to learn some basic commands in Pandas, an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points organized in a table format. '
 
 programming_language: 'jupyter'
 
@@ -60,16 +60,7 @@ resources:
         description: Here are some of the keyboard shortcuts and text snippets to help you program faster!
         link: http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
 
-goals:
-    - description: 'In this workshop, you will learn to:'
-    - Import Pandas and read in a CSV file as a DataFrame
-    - Explore your data, including displaying and sampling the data
-    - Clean your data, including checking for duplicates and converting data types
-    - Filter your data, including renaming, selecting, dropping, and adding columns
-    - Analyze your data by sorting columns, grouping columns, and counting values
-    - Visualize your data with basic bar charts, pie charts, and time series
-    - Write a DataFrame to a CSV file
-    - Build your Pandas skills with the Pandas documentation and other resources
+
 
 
 
