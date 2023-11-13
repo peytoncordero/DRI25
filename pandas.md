@@ -60,7 +60,6 @@ resources:
         description: Here are some of the keyboard shortcuts and text snippets to help you program faster!
         link: http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
 
-
 ---
 
 # Preparing your workspace and folders
@@ -97,7 +96,7 @@ Once you’ve launched Jupyter Notebook, you can create the Jupyter notebook fil
 
 Even though Jupyter Notebook doesn’t force you to do so, it is very important to name your file, or you will end up later with a bunch of untitled files and you will have no idea what they are about. In the top left, click on the word Untitled and give your file a name such as “intro_pandas”.
 
-## Getting started with Pandas
+# Getting started with Pandas
 
 * Pandas is a Python software library
 * The name is derived from the term "panel data", an econometrics term for data sets that include observations over multiple time periods for the same individuals
@@ -105,7 +104,7 @@ Even though Jupyter Notebook doesn’t force you to do so, it is very important 
 * Knowing how to use Pandas is important if you plan on working with data organized in spreadsheets (either quantitative or qualitative)
 
 
-### Import Pandas
+## Import Pandas
 
 In the first blank cell, type the following command to import the Pandas library into our Jupyter Notebook. To run the command, you can click the “Run” button in the top toolbar, or you can click shift + return. 
 
@@ -123,7 +122,7 @@ If you don’t see an error when you run the notebook—that is, if there is no 
 
 ---
 
-### Read in a CSV file as a DataFrame
+## Read in a CSV file as a DataFrame
 
 Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset. You want to make sure you save the dataset in the same location as your Jupyter Notebook, in this case the pandas_workshop folder saved on your Desktop. 
 
@@ -138,9 +137,9 @@ refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", e
 - UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
 
 ---
-## Data exploration
+# Data exploration
 
-### Display the Dataframe
+## Display the Dataframe
 
 To display the DataFrame, we can run a cell with the variable name of the DataFrame:
 
@@ -290,7 +289,7 @@ Let’s take a look at a few elements in this DataFame:
     * NaN is the Pandas value for any missing data. 
 
 ---
-### Display a selection of the Dataframe
+## Display a selection of the Dataframe
 We can also display the first 2 rows of the DataFrame with the `.head()` method
 
 
@@ -655,7 +654,7 @@ refugee_df[-10:]
 
 
 ---
-### Display a random sample of the Dataframe
+## Display a random sample of the Dataframe
 
 We can also look at a random sample of data with the `.sample()` method
 
