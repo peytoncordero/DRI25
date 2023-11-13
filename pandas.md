@@ -61,16 +61,6 @@ resources:
         link: http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
 
 
-
-
-
-
-
-
-
-    
-
-
 ---
 
 # Preparing your workspace and folders
@@ -92,7 +82,7 @@ For the best possible experience, we suggest/encourage you to:
 * Only check the PandasWorkshop.ipynb file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn’t working. A big part of coding is learning to identify what we are doing wrong.
 * I would also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one. But those are only suggestions. Maybe they will work for you, maybe they won’t, so feel free to do what suits you best. You are in charge here!
 
-# Working with Jupyter Notebook
+# Working with Jupyter Light
 
 To get started with Jupyter notebook, you must first launch Jupyter Notebook from the “Anaconda Navigator” application on your computer. There are two ways to do this:
 
@@ -174,6 +164,127 @@ To display the DataFrame, we can run a cell with the variable name of the DataFr
 ```python
 refugee_df
 ```
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>origin</th>
+      <th>dest_state</th>
+      <th>dest_city</th>
+      <th>arrivals</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2005</td>
+      <td>Afghanistan</td>
+      <td>Alabama</td>
+      <td>Mobile</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2006</td>
+      <td>Afghanistan</td>
+      <td>Alabama</td>
+      <td>Mobile</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2007</td>
+      <td>Afghanistan</td>
+      <td>Alabama</td>
+      <td>Mobile</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2008</td>
+      <td>Afghanistan</td>
+      <td>Alabama</td>
+      <td>Mobile</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2009</td>
+      <td>Afghanistan</td>
+      <td>Alabama</td>
+      <td>Mobile</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>121240</th>
+      <td>2011</td>
+      <td>Vietnam</td>
+      <td>Wisconsin</td>
+      <td>Milwaukee</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>121241</th>
+      <td>2012</td>
+      <td>Vietnam</td>
+      <td>Wisconsin</td>
+      <td>Milwaukee</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>121242</th>
+      <td>2013</td>
+      <td>Vietnam</td>
+      <td>Wisconsin</td>
+      <td>Milwaukee</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>121243</th>
+      <td>2014</td>
+      <td>Vietnam</td>
+      <td>Wisconsin</td>
+      <td>Milwaukee</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>121244</th>
+      <td>2015</td>
+      <td>Vietnam</td>
+      <td>Wisconsin</td>
+      <td>Milwaukee</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>121245 rows × 5 columns</p>
+</div>
+
+
 
 
 Let’s take a look at a few elements in this DataFame: 
