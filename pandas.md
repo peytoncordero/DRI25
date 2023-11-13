@@ -72,6 +72,7 @@ Jupyter Notebooks - Full Research Lab:
 - Rich Outputs: Visualizations, graphs, and other dynamic outputs enrich your narrative, creating a comprehensive and visually engaging research document.
 
 </br>
+
 JupyterLite - Portable Research Kit:
 - Simplicity: JupyterLite is a simplified, more portable version. It's akin to having a compact research kit that allows you to conduct essential experiments without the full complexity of the lab.
 - Accessibility: When you need a quick, accessible environment for coding and exploration, JupyterLite provides a more straightforward setup. It's like having your essential tools ready without the need for a fully equipped lab.
