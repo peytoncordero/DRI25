@@ -134,7 +134,6 @@ This import statement not only imports the Pandas library but also gives it the 
 
 If you don’t see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a silent success.
 
----
 
 ## Read in a CSV file as a DataFrame
 
@@ -152,9 +151,9 @@ refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", e
 - When reading in the CSV file, we also specified the encoding and delimiter. The delimiter specifies the character that separates or “delimits” the columns in our dataset. For CSV files, the delimiter is usually a comma but it can also be a tab. 
 - UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
 
----
+
 # Data exploration
-In the following section we will learn how to view the DataFrame in additiont to viewing smaller sections of it. 
+In the following section we will learn how to view the DataFrame in addition to viewing smaller sections of it. 
 
 ## Display the Dataframe
 
@@ -305,7 +304,7 @@ Let’s take a look at a few elements in this DataFame:
 * NAN
     * NaN is the Pandas value for any missing data. 
 
----
+
 ## Display a selection of the Dataframe
 We can also display the first 2 rows of the DataFrame with the `.head()` method
 
@@ -670,7 +669,7 @@ refugee_df[-10:]
 
 
 
----
+
 ## Display a random sample of the Dataframe
 
 We can also look at a random sample of data with the `.sample()` method
@@ -837,7 +836,6 @@ refugee_df.sample(15)
 
 We can tell it's a random sample since the index numbers are completly disorganized. 
 
----
 # Basic data cleaning
 In the following sections we will review some basic data cleaning steps including checking and converting our data types in addition to checking and removing duplicate rows. 
 ## Data Types
@@ -913,7 +911,7 @@ Pandas uses a different lexicon to describe data types from those we learned in 
 
 
 
----
+
 
 ## Converting data types
 
