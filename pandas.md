@@ -71,66 +71,40 @@ Jupyter Notebooks - Full Research Lab:
 - Interactivity: Much like a lab where you can actively engage with your experiments, Jupyter Notebooks let you interactively run code cells, observe results, and refine your analyses on the fly.
 - Rich Outputs: Visualizations, graphs, and other dynamic outputs enrich your narrative, creating a comprehensive and visually engaging research document.
 
-</br>
 
 JupyterLite - Portable Research Kit:
 - Simplicity: JupyterLite is a simplified, more portable version. It's akin to having a compact research kit that allows you to conduct essential experiments without the full complexity of the lab.
 - Accessibility: When you need a quick, accessible environment for coding and exploration, JupyterLite provides a more straightforward setup. It's like having your essential tools ready without the need for a fully equipped lab.
 
-</br>
+
 Learning and On-the-Go:
 - Educational Tool: JupyterLite is often used for educational purposes or quick experiments. It serves as a friendly entry point for those learning about interactive computing without overwhelming them with the extensive features of the full Jupyter Notebooks.
 - Portability: JupyterLite is convenient for situations where the full-scale Jupyter environment might be impractical or unnecessary. It's like having a research companion that fits into your backpack.
-</br>
+
+
 In essence, JupyterLite is a more nimble version of Jupyter Notebooks, suitable for scenarios where a lighter computational environment is sufficient. It shares the same core principles of interactive computing but in a more accessible and portable form, making it a valuable tool for quick experiments, learning, and situations where resource constraints or simplicity are paramount.
-
-## JupyterLite: A Lightweight version of Jupyter
-JupyterLite is a lightweight distribution of the Jupyter interactive computing framework. Jupyter itself is a popular open-source project that allows users to create and share documents containing live code, equations, visualizations, and narrative text.
-
-JupyterLite is designed to be a minimal and easy-to-use version of Jupyter, suitable for environments where resources may be limited or where a simplified setup is preferred. It is often used for educational purposes, workshops, or quick demonstrations.
-
-
-
 
 
 # Preparing your workspace and folders
 
-In the following workshop, we are going to learn how to work with the Pandas package in order to wrangle, clean, analyze, and visualize our data. 
+Keeping all your files for a particular project in a designated file directory will keep your project organized and will make it easier to read in your files. 
 
-To interact with the Python Pandas package, we will use JupyterLight. A [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html#jupyter-notebook-interface) is a document that can combine live programming code, text, images, and pretty displays of data all in the same place. While it may seem like Jupyter Notebook is running from a website, it can actually be executed on a local desktop requiring no internet access or can be installed on a remote server and accessed through the internet. Review [Short Introduction to Jupyter Notebooks](https://curriculum.dhinstitutes.org/insights/short-introduction-to-jupyter-notebooks/) for more details. 
+Let’s create a “pandas_workshop” folder in our JupyterLite code editor workspace. To do so, click on "Open Code Editor" in the top left corner of your screen. In the folders toolbar, click the icon for the folder with the + on it. This will create a new "Untitled Folder." You can rename the folder by highlighting it, then pressing the "control" key on your keyboard while clicking your mouse at the same (MacOS) or right-clicking (Windows), and selecting "Rename" from the drop-down menu. You can rename the folder: “pandas_workshop”.
 
-We will go deeper into Jupyter Notebook in the following section. For now, let’s create a “pandas_workshop” folder on our Desktop. Keeping all your files for a particular project in a designated file directory will keep your project organized and will make it easier to read in your files. 
+Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder. The “refugee-arrivals-by-destination” CSV file contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
 
-The “refugee-arrivals-by-destination” CSV file, which you can download here <Download files='refugee-arrivals-by-destination.csv>, contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
+Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
 
-
-[Download](https://drive.google.com/drive/folders/17cAPHux4ileepqNce_5FdYoQaopK3wO5?usp=sharing) the “refugee-arrivals-by-destination” CSV file and save it in the “pandas_workshop” folder on your Desktop. 
+Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. Once it's in that folder, you should be all set. 
 
 We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
 
 For the best possible experience, we suggest/encourage you to:
-
-
-
 * Create an .ipynb file and follow the workshop typing all the code yourself.
 * Avoid copying/pasting the code. Much of learning has to do with you typing yourself.
 * Only check the PandasWorkshop.ipynb file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn’t working. A big part of coding is learning to identify what we are doing wrong.
 * I would also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one. But those are only suggestions. Maybe they will work for you, maybe they won’t, so feel free to do what suits you best. You are in charge here!
 
-# Working with Jupyter Light
-
-To get started with Jupyter notebook, you must first launch Jupyter Notebook from the “Anaconda Navigator” application on your computer. There are two ways to do this:
-
-
-
-1. Find “Anaconda Navigator” in the applications folder on your computer, and double-click on the app to open it. Once Anaconda Navigator opens, you can launch Jupyter Notebook by clicking the “Launch” button.
-2. OR, launch JupyterLab from a Terminal or Powershell by running: jupyter notebook
-
-Once you’ve launched Jupyter Notebook, you can create the Jupyter notebook file to run the workshop. From the Jupyter Home Tab in your Browser, find the  “pandas_workshop” folder saved on your Desktop, and start a New Python Notebook using the New button in the upper right corner. Running and saving your Jupyter Notebook from the same directory as your file will keep your project organized and will make it easier to read in your files. 
-
-
-
-Even though Jupyter Notebook doesn’t force you to do so, it is very important to name your file, or you will end up later with a bunch of untitled files and you will have no idea what they are about. In the top left, click on the word Untitled and give your file a name such as “intro_pandas”.
 
 # Getting started with Pandas
 
@@ -385,7 +359,7 @@ refugee_df.head(2)
 
 
 
-</br>
+
 We can accomplish the same task using a slice instead:
 
 
@@ -444,7 +418,7 @@ refugee_df[:2]
 
 
 
-</br>
+
 We can also display the last 10 rows of the DataFrame with the `.tail()` method
 
 
@@ -567,7 +541,7 @@ refugee_df.tail(10)
 
 
 
-</br>
+
 We can accomplish the same task using a slice instead:
 
 
@@ -946,7 +920,7 @@ refugee_df['year'] = pd.to_datetime(refugee_df['year'], format="%Y")
 
 This command translates to: for the “year” column in the “refugee_df” DataFrame, use the `to_datetime` method in the Pandas library to convert the values in the “year” column in the “refugee_df” DataFrame to datetime data types. We specify the format as `%Y` since this is the format of our data. 
 
-</br>
+
 We can then check to see if the data type was properly converted using the `.dtypes` object, which is similar to the `.info()` method, except it only provides information on data types.
 
 
