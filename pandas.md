@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Data Wrangling, Cleaning, and Analysis with Python and Pandas'
 cover title: Pandas
-description: 'In this workshop, we are going to learn some basic commands in [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html), an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points.'
+description: 'In this workshop, we are going to learn some basic commands in Pandas, an expansive Python library for working with tabular data like CSV files. You can think of Pandas as a more powerful version of Excel that operates within the Python environment, where you can wrangle, clean, analyze, and visualize data. Knowing how to use Pandas is important if you plan on working with datasets that include qualitative and/or quantitative data points organized in a table format.'
 
 programming_language: 'jupyter'
 
@@ -9,7 +9,6 @@ learning objectives:
     - Import Pandas and read in a CSV file as a DataFrame
     - Explore your data, including displaying and sampling the data
     - Clean your data, including checking for duplicates and converting data types
-    - Review and interpret summary statistics
     - Filter your data, including renaming, selecting, dropping, and adding columns
     - Analyze your data by sorting columns, grouping columns, and counting values
     - Visualize your data with basic bar charts, pie charts, and time series
@@ -17,43 +16,70 @@ learning objectives:
     - Build your Pandas skills with the Pandas documentation and other resources
 
 estimated time:
-    - 4 hours
+    - 3 hours
 
 prerequisites:
-    python:
-        description: (required) This workshop relies heavily on concepts from the Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about data analysis with Python and Pandas.
+    - python:
+        description: (required) This workshop relies heavily on concepts from the Intro to Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about data analysis with Python and Pandas.
         required: true
-    command-line:
+    - command-line:
         description: (recommended) This workshop makes some reference to concepts from the Command Line workshop, and having basic knowledge about how to use the command line will be central for anyone who wants to learn about text analysis with Python and Pandas.
         recommended: true
-installations:
-    pythonguide: 
-        description: (Required) You can use any installation of Python (but make sure it is of version 3). For our purposes, Anaconda will provide everything necessary for all the workshops that are part of the DHRI curriculum.
-        required: true
-    pandas:
-        description: (required) You will need to install the Pandas package into your Python packages for the purposes of this workshop. This guide will help you along the way.
-        required: true
-insights:
-    jupyter-notebooks:
-        description: (recommended) This workshop uses Jupyter Notebooks to process the Python commands in a clear and visual way. Anyone who wants to follow along in the workshop on data analysis with Python and Pandas should read this very short introduction to how to use Notebooks.
+    - data ethics: 
+        description: Data Ethics (Recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
+        recommended: true
+
+instructors: 
+    - 'Rebecca Krisel'
+
+authors:
+    - 'Rebecca Krisel'
+
+Editors:
+    - 'Stephen Zweibel'
 
 readings:
-    - "[A Beginner’s Tutorial to Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)"
+    - This workshop uses Jupyter Notebooks to process the Python commands in a clear and visual way. Read this very short introduction to how to use Notebooks [A Beginner’s Tutorial to Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)
     - "[Short Introduction to Jupyter Notebooks](https://curriculum.dhinstitutes.org/insights/short-introduction-to-jupyter-notebooks/)"
     - "[Guide To Data Cleaning: Definition, Benefits, Components, And How To Clean Your Data](https://www.tableau.com/learn/articles/what-is-data-cleaning)"
-
-projects:
-    - "[The Simplest Data Science Project Using Pandas & Matplotlib](https://towardsdatascience.com/the-simplest-data-science-project-using-pandas-matplotlib-9d7042e7ce6f)"
-    - "[Performing Sentiment Analysis Using Twitter Data](https://www.analyticsvidhya.com/blog/2021/07/performing-sentiment-analysis-using-twitter-data/)"
-    - "[Introduction to Data Visualization in Python with Pandas](https://stackabuse.com/introduction-to-data-visualization-in-python-with-pandas/)"
 
 ethical considerations:
     - The dataset we are using for this workshop is from the [U.S. Refugee Arrivals Data](https://github.com/BuzzFeedNews/2015-11-refugees-in-the-united-states/blob/master/data/WRAPS-arrivals-by-destination-2005-2015-clean.csv). This dataset contains data about refugee arrivals to the United States between 2005 and 2015 and was originally compiled from the Department of State’s Refugee Processing Center by Jeremy Singer-Vine for his BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) The “refugee-arrivals-by-destination” CSV file, which you can download [here](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/refugee-arrivals-by-destination.csv), contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
     - As with any dataset, responsible data analysis requires more than just technical tools like Pandas. We also need to interrogate the data. Who collected this data? How and why is this data being collected? What assumptions are baked into this data? What consequences does this data have in the world? What does this data tell us about our world? When exploring this dataset, we can consider the meaning of the status of refugee, who has a right to claim that status, and which refugees are considered eligible to legally resettle in the U.S.. We could also think about who may not be represented in this data, including asylum seekers who migrate to the U.S. and become undocumented immigrants while waiting for their asylum claims to be processed.
-    
+
+projects:
+    - The Simplest Data Science Project Using Pandas & Matplotlib:
+        description: Further deepen your Pandas skills while making beautiful data visualizations in Matplolib using a dataset (from Kaggle) of forest fires in Brazil.
+        link: https://towardsdatascience.com/the-simplest-data-science-project-using-pandas-matplotlib-9d7042e7ce6f
+    - Make a Gradebook With Python & pandas:
+        description: Learn how you can automate the process of calculating grades at the end of the semester using Pandas
+        link: https://realpython.com/pandas-project-gradebook/
 
 resources:
-    - "[Jupyter Notebook shortcuts, tips and tricks](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)"
+    - Jupyter Notebook shortcuts, tips and tricks:
+        description: Here are some of the keyboard shortcuts and text snippets to help you program faster!
+        link: http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
+
+goals:
+    - description: 'In this workshop, you will learn to:'
+    - Import Pandas and read in a CSV file as a DataFrame
+    - Explore your data, including displaying and sampling the data
+    - Clean your data, including checking for duplicates and converting data types
+    - Filter your data, including renaming, selecting, dropping, and adding columns
+    - Analyze your data by sorting columns, grouping columns, and counting values
+    - Visualize your data with basic bar charts, pie charts, and time series
+    - Write a DataFrame to a CSV file
+    - Build your Pandas skills with the Pandas documentation and other resources
+
+
+
+
+
+
+
+    
+
+
 ---
 
 # Preparing your workspace and folders
