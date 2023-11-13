@@ -138,6 +138,7 @@ refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", e
 
 ---
 # Data exploration
+In the following section we will learn how to view the DataFrame in additiont to viewing smaller sections of it. 
 
 ## Display the Dataframe
 
@@ -821,9 +822,9 @@ refugee_df.sample(15)
 We can tell it's a random sample since the index numbers are completly disorganized. 
 
 ---
-## Basic data cleaning
-
-### Data Types
+# Basic data cleaning
+In the following sections we will review some basic data cleaning steps including checking and converting our data types in addition to checking and removing duplicate rows. 
+## Data Types
 
 We can get information about the columns in the DataFrame by using the `.info()` method.
 
@@ -898,7 +899,7 @@ Pandas uses a different lexicon to describe data types from those we learned in 
 
 ---
 
-### Converting data types
+## Converting data types
 
 Keeping this in mind, it looks as though the data type for the year column is a “int64” instead of being “datetime64.” 
 
@@ -931,7 +932,7 @@ refugee_df.dtypes
 
 As we can see, the data in the “year” column was successfully transformed into the datetime64 data type.
 
-### Check for duplicate rows
+## Check for duplicate rows
 
 As part of our data cleaning process, we want to check for duplicate rows. We can do this by using the `.duplicated()` method inside a filter to isolate only the rows in the DataFrame that are exact duplicates. Filtering data by certain values is similar to selecting columns. We add the parameter `keep=False`, which will display all the duplicated values in the dataset — rather than just the first duplicated value keep='first' or the last duplicated value keep='last'.
 
@@ -1252,8 +1253,9 @@ refugee_df[refugee_df.duplicated(keep=False)]
 
 Great news! We successfully removed our duplicate rows!
 
-## Rename, select, drop, filter and add new columns
-### See list of columns
+# Rename, select, drop, filter and add new columns
+In the following section we will learn how to rename, select, drop, filter and add new columns
+## See list of columns
 
 To see a full list of the columns in our DataFrame, we can run the following command:
 
@@ -1271,7 +1273,7 @@ refugee_df.columns
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
 
-### Rename columns
+## Rename columns
 
 To improve the readability of our dataset, we can rename columns. In our case, let’s rename “dest_state” as “state” and “dest_city” as “city”. We will use the `.rename()` method and the columns= parameter. Note that in this case we are setting the DataFrame equal to the returned value of the method so as to save the results into the DataFrame.
 
@@ -1405,7 +1407,7 @@ refugee_df
 
 
 
-### Select columns
+## Select columns
 
 Let’s say we wanted to view data from just one column in the DataFrame. To do this, we could run the following command:
 
@@ -1587,7 +1589,7 @@ refugee_df[['state','city']]
 
 
 
-### Drop columns
+## Drop columns
 
 To remove a column from the DataFrame, we can use the `.drop()` method and include the column name. In our case, we could drop the “city” column and save the result as a new DataFrame “refugee_drop_df” so we don’t override our original DataFrame. 
 
@@ -1713,7 +1715,7 @@ refugee_drop_city_df
 
 
 
-### Filter columns
+## Filter columns
 
 We can filter a Pandas DataFrame to select only certain values. Filtering data by certain values is similar to selecting columns.
 
@@ -1855,7 +1857,7 @@ refugee_iraq_df
 
 We stored our results in a new variable `refugee_iraq_df`
 
-### Drop Rows
+## Drop Rows
 If we wanted to exclude all rows containing the value “Iraq”, we could run the following command:
 
 
@@ -1992,7 +1994,7 @@ refugee_drop_iraq_df
 
 
 
-### Add columns
+## Add columns
 
 We can also add columns to the DataFrame. For example, we can add a `percent_total` column to calculate the percentage of total refugee arrivals for each row.   
 
@@ -2148,15 +2150,16 @@ refugee_df
 
 You can read the command we just ran as: create a new column that calculates the number of arrivals in a row divided by the total number of arrivals in the dataset, times 100. The result of this calculation will equal the percentage of total refugee arrivals for each row.
 
-## Sort Columns, Groupby Columns, & Calculations
+# Sort Columns, Groupby Columns, & Calculations
+In the following section we will learn how to sort and group columns in order to perform calculations.  
 
-### Stacking requests
+## Stacking requests
 
 In this lesson, we will be using commands that stack various requests such as methods, parameters, operators, and more to define the command. Pandas encourages this kind of stacking, but it can seem overwhelming at first to beginners. For example, as we will see below, a command could include two or more methods that stack on top of each other, and end with a slice operator to view only the top N rows of the results. In addition, a command can include specific parameters to call out a particular column or to sort the data in descending order. 
 
 We will move slowly through each of the following commands to break them down. 
 
-### Sort columns
+## Sort columns
 
 To sort a DataFrame, we can use the `.sort_values()` method with the parameter by= and including the name of the column we want to sort by written in quotation marks. 
 
@@ -2340,7 +2343,7 @@ refugee_df.sort_values(by='arrivals', ascending=False)[:15]
 
 Note: In the command above, we used the `by=` parameter to specify that the data be sorted according to the `arrivals` column and we added the `ascending=False` parameter in order to request that the data be displayed with the highest number first. By default, Pandas will sort in `ascending` order, meaning from the smallest value to the largest value. We also added a Python list slice (i.e., [:15]) to view just the top 15 rows.
 
-### Groupby Columns
+## Groupby Columns
 
 We can group data and perform calculations on the groups using the `.groupby()` method. For example, to see the breakdown of the number of arrivals by country of origin, we can use the following command:
 
@@ -2405,7 +2408,7 @@ Let’s unpack the command to better understand these results:
 * .sort_values(ascending=False): This method specifies how we want our output to be sorted. We include the ascending=False parameter in order to request that the data be displayed with the highest percentage first.
 * [:20]: This Python slide specifies that we just want to see the top 20 rows.
 
-### Convert Series Object to Dataframe
+## Convert Series Object to Dataframe
 You will notice that our output is not a Dataframe. Instead, it's a Series Object, which doesn't allow us to select data or make further calculations on the data. We can convert it to a Dataframe by first storing the command above in a new variable and stacking two extra commands" `to_frame` and `reset_index`:
 
 
@@ -2547,7 +2550,7 @@ ref_sum_df
 
 
 
-## Basic data visualizations
+# Basic data visualizations
 
 To create plots and data visualization in Pandas, we can add the .plot() method to any DataFrame or Series object that has appropriate numeric data.
 
@@ -2564,7 +2567,7 @@ We can specify the title with the title= parameter and the kind of plot by alter
 * ‘hexbin’ for hexagonal bin plots
 * ‘pie’ for pie plots
 
-### Bar Charts
+## Bar Charts
 For example, we can visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a bar chart:
 
 
@@ -2595,7 +2598,7 @@ Let’s unpack the command to better understand these results:
     * We are also giving the chart a title with the “title='Total number of refugee arrivals in the U.S. \n by country of origin'” parameter. 
         * Note: By adding “\n” in the title text, we signify that the text that follows should be on a new line. 
 
-### Pie Charts
+## Pie Charts
 We can also visualize the data as a pie chart:
 
 
@@ -2625,7 +2628,7 @@ ref_sum_df.set_index('origin')[:10].plot(kind='pie', y='arrivals',
 
 
 
-### Time Series
+## Time Series
 
 We can also create time series using the Groupby method. For example, if we wanted to visualize the total number of refugees resettled in the U.S. across the 2005-2015 period, we would first create a Groupby object based on the “year” column (refer back to lesson 7 for more on Groupby objects). 
 
@@ -2683,7 +2686,7 @@ In this command, we are adding the .plot() method to request a chart, and specif
 
 
 
-## Write to CSV
+# Write to CSV
 
 To output a new CSV file, we can use the .to_csv method with a name for the file in quotation marks. For example, since we added the percent_total column to the refugee_df DataFrame, we may want to download the updated DataFrame as a CSV file to use it with other programs.  
 
@@ -2696,7 +2699,7 @@ In addition to a filename, we’re also specifying that the encoding is utf-8 an
 
  
 
-## Building your Pandas skills with the Pandas documentation and other resources
+# Building your Pandas skills with the Pandas documentation and other resources
 
 Learning how to ask the right questions in a search engine like Google in order to find the solution to what you are trying to accomplish is the name of the game when you are just starting out with Python. Since Pandas is a popular and well documented Python package, you are bound to find myriads of resources that can help you get where you are going. 
 
@@ -2716,7 +2719,7 @@ Let’s say you wanted to find out more about the .sort_values method we used in
 
 * If you don’t find an answer that makes sense to you on the Pandas documentation page, then look on Google for other resources. Some of our go-to websites for help are [Stack Overflow](https://stackoverflow.com/), [Geeks for Geeks](https://www.geeksforgeeks.org/), and [Data to Fish](https://datatofish.com/). 
 
-### Other Resources
+## Other Resources
 
 
 
