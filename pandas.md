@@ -2599,7 +2599,7 @@ ref_sum_df.plot(kind='bar', x= 'origin', y='arrivals',
 
 
     
-![png](output_68_1.png)
+![png](images/output_68_1.png)
     
 
 
@@ -2630,7 +2630,7 @@ ref_sum_df.set_index('origin')[:10].plot(kind='pie', y='arrivals',
 
 
     
-![png](output_70_1.png)
+![png](images/output_70_1.png)
     
 
 
@@ -2692,7 +2692,7 @@ total_arrivals_by_year.plot(kind='line', title="Total Number of Refugee Arrivals
 
 
     
-![png](output_76_1.png)
+![png](images/output_76_1.png)
     
 
 
