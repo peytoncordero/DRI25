@@ -44,7 +44,7 @@ readings:
     - "[Guide To Data Cleaning: Definition, Benefits, Components, And How To Clean Your Data](https://www.tableau.com/learn/articles/what-is-data-cleaning)"
 
 ethical considerations:
-    - The dataset we are using for this workshop is from the [U.S. Refugee Arrivals Data](https://github.com/BuzzFeedNews/2015-11-refugees-in-the-united-states/blob/master/data/WRAPS-arrivals-by-destination-2005-2015-clean.csv). This dataset contains data about refugee arrivals to the United States between 2005 and 2015 and was originally compiled from the Department of State’s Refugee Processing Center by Jeremy Singer-Vine for his BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) The “refugee-arrivals-by-destination” CSV file, which you can download here <Download files='refugee-arrivals-by-destination.csv>, contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
+    - The dataset we are using for this workshop is from the [U.S. Refugee Arrivals Data](https://github.com/BuzzFeedNews/2015-11-refugees-in-the-united-states/blob/master/data/WRAPS-arrivals-by-destination-2005-2015-clean.csv). This dataset contains data about refugee arrivals to the United States between 2005 and 2015 and was originally compiled from the Department of State’s Refugee Processing Center by Jeremy Singer-Vine for his BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) 
     - As with any dataset, responsible data analysis requires more than just technical tools like Pandas. We also need to interrogate the data. Who collected this data? How and why is this data being collected? What assumptions are baked into this data? What consequences does this data have in the world? What does this data tell us about our world? When exploring this dataset, we can consider the meaning of the status of refugee, who has a right to claim that status, and which refugees are considered eligible to legally resettle in the U.S.. We could also think about who may not be represented in this data, including asylum seekers who migrate to the U.S. and become undocumented immigrants while waiting for their asylum claims to be processed.
 
 projects:
@@ -61,12 +61,47 @@ resources:
         link: http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html
 
 ---
+# Jupyter & JupyterLite
+In this workshop, we are going to use JupyterLite as our Python environment, which is a lightweight version of Jupyter Notebooks.
+
+You can think of **Jupyter Notebooks** as a comprehensive toolset for interactive computing and data exploration. It's like a fully equipped research laboratory where you can seamlessly blend narrative text, code, and visualizations. **JupyterLite** is a streamlined, lightweight version of this toolset, offering a more agile and accessible environment.
+
+Jupyter Notebooks - Full Research Lab:
+- Versatility: Jupyter Notebooks are like a fully equipped research lab. They support various programming languages, allowing you to conduct diverse computational experiments.
+- Interactivity: Much like a lab where you can actively engage with your experiments, Jupyter Notebooks let you interactively run code cells, observe results, and refine your analyses on the fly.
+- Rich Outputs: Visualizations, graphs, and other dynamic outputs enrich your narrative, creating a comprehensive and visually engaging research document.
+
+</br>
+JupyterLite - Portable Research Kit:
+- Simplicity: JupyterLite is a simplified, more portable version. It's akin to having a compact research kit that allows you to conduct essential experiments without the full complexity of the lab.
+- Accessibility: When you need a quick, accessible environment for coding and exploration, JupyterLite provides a more straightforward setup. It's like having your essential tools ready without the need for a fully equipped lab.
+
+</br>
+Learning and On-the-Go:
+- Educational Tool: JupyterLite is often used for educational purposes or quick experiments. It serves as a friendly entry point for those learning about interactive computing without overwhelming them with the extensive features of the full Jupyter Notebooks.
+- Portability: JupyterLite is convenient for situations where the full-scale Jupyter environment might be impractical or unnecessary. It's like having a research companion that fits into your backpack.
+</br>
+In essence, JupyterLite is a more nimble version of Jupyter Notebooks, suitable for scenarios where a lighter computational environment is sufficient. It shares the same core principles of interactive computing but in a more accessible and portable form, making it a valuable tool for quick experiments, learning, and situations where resource constraints or simplicity are paramount.
+
+## JupyterLite: A Lightweight version of Jupyter
+JupyterLite is a lightweight distribution of the Jupyter interactive computing framework. Jupyter itself is a popular open-source project that allows users to create and share documents containing live code, equations, visualizations, and narrative text.
+
+JupyterLite is designed to be a minimal and easy-to-use version of Jupyter, suitable for environments where resources may be limited or where a simplified setup is preferred. It is often used for educational purposes, workshops, or quick demonstrations.
+
+
+
+
 
 # Preparing your workspace and folders
 
-In the following workshop, we are going to learn how to work with the Pandas package in order to wrangle, clean, analyze, and visualize our data. To interact with the Python Pandas package, we will use Jupyter Notebook. A [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html#jupyter-notebook-interface) is a document that can combine live programming code, text, images, and pretty displays of data all in the same place. While it may seem like Jupyter Notebook is running from a website, it can actually be executed on a local desktop requiring no internet access or can be installed on a remote server and accessed through the internet. Review [Short Introduction to Jupyter Notebooks](https://curriculum.dhinstitutes.org/insights/short-introduction-to-jupyter-notebooks/) for more details. 
+In the following workshop, we are going to learn how to work with the Pandas package in order to wrangle, clean, analyze, and visualize our data. 
+
+To interact with the Python Pandas package, we will use JupyterLight. A [Jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html#jupyter-notebook-interface) is a document that can combine live programming code, text, images, and pretty displays of data all in the same place. While it may seem like Jupyter Notebook is running from a website, it can actually be executed on a local desktop requiring no internet access or can be installed on a remote server and accessed through the internet. Review [Short Introduction to Jupyter Notebooks](https://curriculum.dhinstitutes.org/insights/short-introduction-to-jupyter-notebooks/) for more details. 
 
 We will go deeper into Jupyter Notebook in the following section. For now, let’s create a “pandas_workshop” folder on our Desktop. Keeping all your files for a particular project in a designated file directory will keep your project organized and will make it easier to read in your files. 
+
+The “refugee-arrivals-by-destination” CSV file, which you can download here <Download files='refugee-arrivals-by-destination.csv>, contains information about the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
+
 
 [Download](https://drive.google.com/drive/folders/17cAPHux4ileepqNce_5FdYoQaopK3wO5?usp=sharing) the “refugee-arrivals-by-destination” CSV file and save it in the “pandas_workshop” folder on your Desktop. 
 
