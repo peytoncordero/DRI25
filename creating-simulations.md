@@ -158,7 +158,6 @@ And that's it! You have successfully created a new die object that can be rolled
 If the user rolls a six, tell them that they're a winner and get a prize. If they didn't roll a 6, display that they're a loser.
 
 <Secret>
-Create a new variable that stores a roll. Then, use an `if else` statement to generate a message:
 
 ```python
 r = die.roll()
