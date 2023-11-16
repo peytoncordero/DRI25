@@ -159,6 +159,8 @@ If the user rolls a six, tell them that they're a winner and get a prize. If the
 
 <Secret>
 
+Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6.
+
 ```python
 r = die.roll()
 if r == 6:
@@ -270,7 +272,7 @@ What are some differences between a function and a method?
 
 <Secret>
 
-__1) Definition:__
+__Definition:__
 _Function_: A function is a self-contained block of code that performs a specific task and can be defined independently of any class or object. It takes input arguments, processes them, and returns a result.
 _Method_: A method is a function that is associated with an object or class. It is called on an object and can access the data within that object.
 
@@ -280,7 +282,7 @@ _Method_: Methods are associated with objects or classes and are called on insta
 
 __Syntax:__
 _Function_: Functions are defined using the `def` keyword and can be called using the function name.
-_Method_: Methods also use the def keyword but are defined within a class and are accessed using dot notation (`object.method()`) or `class.method()`).
+_Method_: Methods also use the def keyword but are defined within a class and are accessed using dot notation (`object.method()` or `class.method()`).
 
 Here's a simple example in Python to illustrate the differences:
 
