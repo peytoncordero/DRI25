@@ -269,7 +269,7 @@ And that's it! If you run the final cell, you should see a report of the results
 
 What are some differences between a function and a method?
 
-<Spoiler>
+<Secret>
     
 __Definition:__
 _Function_: A function is a self-contained block of code that performs a specific task and can be defined independently of any class or object. It takes input arguments, processes them, and returns a result.
@@ -302,7 +302,7 @@ Here's a simple example in Python to illustrate the differences:
     Math().add(1, 2)
 ```
 
-</Spoiler>
+</Secret>
 
 ### Key Terms
 
