@@ -159,8 +159,6 @@ If the user rolls a six, tell them that they're a winner and get a prize. If the
 
 <Secret>
 
-Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6.
-
 ```python
 r = die.roll()
 if r == 6:
