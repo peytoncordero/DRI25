@@ -157,7 +157,6 @@ And that's it! You have successfully created a new die object that can be rolled
 
 If the user rolls a six, tell them that they're a winner and get a prize. If they didn't roll a 6, display that they're a loser.
 
-<Secret>
 
 Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6.
 
@@ -168,7 +167,7 @@ if r == 6:
 else:
     print(f"You rolled a {r}, not nearly as cool as a 6...")
 ```
-</Secret>
+
 
 ## Evaluation
 
