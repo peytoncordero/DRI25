@@ -92,6 +92,9 @@ For the metadata, you should typically include some or all of the following:
 - The goals, which should be a list of goals that are relevant to the workshop
 
 The metadata you are currently seeing above is just an example, which you can use as a template for your own workshop. Make sure to follow the syntax exactly (or you will likely create errors), and to modify/delete any metadata that is not relevant to your workshop.
+
+MARKDOWN CAVEATS: 
+In paragraphs, left angle bracket / less than (<) and left curly brace ({) have to be escaped: \< or \{
 ---> 
 
 # Page 1
