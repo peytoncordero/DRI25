@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to HTML and CSS'
 cover title: HTML & CSS
-description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of what one needs to know to create useful and well-designed websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this website is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
+description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the world wide web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
@@ -75,6 +75,7 @@ CSS is usually used in conjunction with HTML. HTML tells the browser what the di
 Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
 However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](https://dhri-curriculum.github.io/Dhrift/workshops/html-css/?page=20).
+<!--- flagging this to fix with correct link--->
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet. 
 
