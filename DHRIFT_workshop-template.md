@@ -161,6 +161,7 @@ What are the characteristics of the REPL? Select all that apply.
 <!--- For quizzes, each list item in the <Quiz> tags is a potential answer. To indicate correct answers, place an asterisk at the end. --->
 
 Each section end should have a collection of key words related to the lesson, like so:
+
 <Keywords>
 - REPL
 - Function
