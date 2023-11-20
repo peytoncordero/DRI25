@@ -64,16 +64,6 @@ resources:
         description: See the Digital Fellows’ Python Cheat Sheet for handy commands that we cover in this workshop.
         link: https://curriculum.dhinstitutes.org/shortcuts/workshop/python
 
-goals:
-# Can customize intro sentence here
-    - description: 'In this workshop, you will learn to:'
-    - Become familiar with core programming concepts, including variables, loops, and conditionals.
-    - Distinguish among five core data types—integers, floats, strings, booleans, and lists.
-    - Engage with error output and use the internet and documentation to independently research language features.
-    - Learn how to find and import code from external sources to solve more complex problems.
-    - Run Python programs, both by interacting directly with the interpreter and by preparing and running scripts.
-    - Understand what Python is and, in general terms, what it can do.
-
 ---
 
 <!---
@@ -118,20 +108,29 @@ There are several components you can incorporate into your lessons, including:
 
 <PythonREPL/>
 
-2. The Python Editor: You can embed the Python Editor into your lessons by using the following tags below:
-
-<CodeEditor>
-greeting = "Hello World!"
-print(greeting)
-</CodeEditor>
-
-<!--- Anything between the tags will be displayed as runnable code in the editor, except for the command line and Jupyter. --->
-
-1. A download button: If you have files you'd like the participant to download, you can add a download button to your lessons with the appropriate files by using the following syntax:
+2. A download button: If you have files you'd like the participant to download, you can add a download button to your lessons with the appropriate files by using the following syntax:
 
 <Download files='your_file1.csv, your_file2.md'>
 
 Here, `your_file1` and `your_file2` are the two files to download (you can add as many as you'd like, just separate them with commas). The break tag at the end is just to add some space after the button. NOTE: You must include copies of the files indicated in the `uploads` folder.
+
+3. An info box: Use <Info> to highlight interesting additional information.
+
+<Info>
+Here's an interesting aside! 
+</Info>
+
+3. A way to link internally to other workshops.
+
+<Link workshop='python' page=5 />
+
+This is necessary when linking to another workshop page. 'workshop' is the workshop file name, and the 'page' can be found in the URL query string, for instance:   `?user=dhri-curriculum&repo=workshops&file=command-line&**page=15**&instUser=dhri-curriculum&instRepo=dhrift-site-template` 
+
+4. A <Secret> section for hiding answers, etc.
+
+ <Secret>
+ This is hidden until 'reveal' is clicked!
+ </Secret>
 
 <!--- Most workshop lessons should include some form of a challenge, a solution, and an evaluation. See below for an example of each. --->
 
@@ -157,6 +156,18 @@ What are the characteristics of the REPL? Select all that apply.
 </Quiz>
 
 <!--- For quizzes, each list item in the <Quiz> tags is a potential answer. To indicate correct answers, place an asterisk at the end. --->
+
+<!-- Each section end should have a collection of key words related to the lesson, like so: -->
+<Keywords>
+- First Term
+This is the definition of the first term.
+
+- Second Term
+This is one definition of the second term.
+This is more text for the second term.
+</Keywords>
+
+<!--- Keywords are a good way to reinforce the key concepts of the lesson. Definitions cannot be multiple paragraphs. --->
 
 # Section 2
 

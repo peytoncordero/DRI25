@@ -1,15 +1,19 @@
 ---
 title: 'Introduction to HTML and CSS'
 cover title: HTML & CSS
-description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of what one needs to know to create useful and well-designed websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this website is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
+description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the world wide web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
+facilitators: 
+    name: 'Ian Williams'
+    description: 'Here is a short bio.'
+
 estimated time:
-    - 10 hours
+    - 2-3 hours
 
 prerequisites:
     - command-line:
@@ -71,6 +75,7 @@ CSS is usually used in conjunction with HTML. HTML tells the browser what the di
 Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
 However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](https://dhri-curriculum.github.io/Dhrift/workshops/html-css/?page=20).
+<!--- flagging this to fix with correct link--->
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet. 
 
@@ -389,7 +394,7 @@ Which one of the following options is a relative link?
 
 Do you remember the glossary terms from this section?
 
-- [Attributes](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/attribute.md)
+- [Attributes](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/attributes.md)
 
 # Images
 
@@ -499,7 +504,7 @@ To **make a line break** or give space between different elements:
 <br />
 ```
 
-## Challenge
+## Optional: Advanced Challenge
 
 Here is a more advanced challenge if you're up for it: Add a table containing a schedule of events to your Institute website. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp).
 
@@ -994,11 +999,11 @@ HTML, or Hypertext Markup Language, organizes content on your page using element
   
 CSS, or Cascading Style Sheets, allows for further styling of your website through the application of a series of rule sets that are applied to different aspects/elements of your site. In order for CSS to render on a webpage, it must be integrated with your html, which can happen in three ways: inline, internal, and external. CSS rules can be of varying specificity, and in particular, through creating classes and IDs. We also discussed how the ordering of rule sets doesn't matter, because an important function of CSS is the way it filters and applies rules in accordance with the specificity of the rule.  
   
-Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents.  
+Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents. The choices made in designing websites are thus the products of particular circumstances that can be understood as socially, culturally, and historically particular.  
   
 While this is a good starting point, one important question remains: how can I get these text documents on the Internet so they can be accessed, and interacted with, and linked to by others? This is what we will discuss in the final lesson of this workshop.
 
-# Making your Website Public
+# Making Your Website Public
 
 Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website onto the Internet so it can be shared?  
   
