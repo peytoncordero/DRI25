@@ -152,7 +152,6 @@ And that's it! You have successfully created a new die object that can be rolled
 If the user rolls a six, tell them that they're a winner and get a prize. If they didn't roll a 6, display that they're a loser.
 
 <Secret>
-
 Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6.
 
 ```python
@@ -265,7 +264,7 @@ And that's it! If you run the final cell, you should see a report of the results
 What are some differences between a function and a method?
 
 <Secret>
-
+    
 __Definition:__
 _Function_: A function is a self-contained block of code that performs a specific task and can be defined independently of any class or object. It takes input arguments, processes them, and returns a result.
 _Method_: A method is a function that is associated with an object or class. It is called on an object and can access the data within that object.
@@ -296,6 +295,7 @@ Here's a simple example in Python to illustrate the differences:
     # method call
     Math().add(1, 2)
 ```
+
 </Secret>
 
 ### Key Terms
