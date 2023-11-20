@@ -303,10 +303,13 @@ Here's a simple example in Python to illustrate the differences:
 <Keywords>
 - class
 Classes allow us to create new types of software objects, with their own attributes and functionalities.
+
 - method
 Methods are functions that belong to a class. They are called using __.__ (dot) notation.
+
 - self
 The keyword self represents an instance of a class and binds its attributes with the given arguments.
+
 - return
 The return statement allows you to access a value once a given function or method has finished running.
 </Keywords>
