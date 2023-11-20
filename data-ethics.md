@@ -116,6 +116,11 @@ Research data can be defined as: (select all that apply)
 These are some (most!) of the shapes your research data might transform into.
 
 1. What are some forms of data you use in your work?
+
+<Secret>
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+</Secret>
+
 2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
 3. Where do you usually get your data from?
 
