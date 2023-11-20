@@ -112,7 +112,7 @@ There are several components you can incorporate into your lessons, including:
 
 <Download files='your_file1.csv, your_file2.md'>
 
-Here, `your_file1` and `your_file2` are the two files to download (you can add as many as you'd like, just separate them with commas). The break tag at the end is just to add some space after the button. NOTE: You must include copies of the files indicated in the `uploads` folder.
+Here, `your_file1` and `your_file2` are the two files to download (you can add as many as you'd like, just separate them with commas). The break tag at the end is just to add some space after the button. NOTE: You must include copies of the files indicated in the `uploads/<your_workshop>` folder.
 
 3. An info box: Use <Info> to highlight interesting additional information.
 
