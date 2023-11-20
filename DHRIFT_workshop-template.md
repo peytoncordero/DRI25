@@ -126,6 +126,12 @@ Here's an interesting aside!
 
 This is necessary when linking to another workshop page. 'workshop' is the workshop file name, and the 'page' can be found in the URL query string, for instance:   `?user=dhri-curriculum&repo=workshops&file=command-line&**page=15**&instUser=dhri-curriculum&instRepo=dhrift-site-template` 
 
+4. A <Secret> section for hiding answers, etc.
+
+ <Secret>
+ This is hidden until 'reveal' is clicked!
+ </Secret>
+
 <!--- Most workshop lessons should include some form of a challenge, a solution, and an evaluation. See below for an example of each. --->
 
 ## Challenge
