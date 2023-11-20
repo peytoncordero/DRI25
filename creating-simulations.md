@@ -300,10 +300,16 @@ Here's a simple example in Python to illustrate the differences:
 
 ### Key Terms
 
-- __class__: Classes allow us to create new types of software objects, with their own attributes and functionalities.
-- __method__: Methods are functions that belong to a class. They are called using __.__ (dot) notation.
-- __self__: The keyword self represents an instance of a class and binds its attributes with the given arguments.
-- __return__: The return statement allows you to access a value once a given function or method has finished running.
+<Keywords>
+- class
+Classes allow us to create new types of software objects, with their own attributes and functionalities.
+- method
+Methods are functions that belong to a class. They are called using __.__ (dot) notation.
+- self
+The keyword self represents an instance of a class and binds its attributes with the given arguments.
+- return
+The return statement allows you to access a value once a given function or method has finished running.
+</Keywords>
 
 # Part 2 - The Critter Simulator
 
@@ -585,10 +591,19 @@ Lastly, let's set up a basic environmental disaster scenario. To add this functi
 
 Using our `disasterChance` global value we set at the outset of the program, we test to see if a random number falls in its range (i.e., if it's within 0-9). If so, we will `del` (delete) some critters from our list, again taking a slice. We generate a random number between 5% and 20% to see how much damage the disaster will inflict. We multiply this value by the length of our critter list to get a 5-20% slice of our population, and then delete that slice. To keep tabs in our readout, we display a message saying a disaster has occurred, and print out the surviving population.
 
-## Key Terms
+### Key Terms
 
-- __global variables__: Unlike local variables, which are limited in scope, global variables can be accessed anywhere in your programs.
-- __len()__: The length function allows us to catch the number of elements in a given list.
-- __remove()__: Removes the current single value from a list.
-- __del()__: Removes a particular range or slice from a list.
-- __while__: While statements will loop through a set of instructions until certain conditions are met.
+<Keywords>
+- global variables
+ Unlike local variables, which are limited in scope, global variables can be accessed anywhere in your programs.
+- local variables
+Local variables are variables that are defined within a function or method. They are only accessible within the scope of that function or method.
+- len()
+The length function allows us to catch the number of elements in a given list.
+- remove()
+Removes the current single value from a list.
+- del()
+Removes a particular range or slice from a list.
+- while
+While statements will loop through a set of instructions until certain conditions are met.
+</Keywords>
