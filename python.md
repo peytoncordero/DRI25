@@ -152,6 +152,7 @@ Do you remember the glossary terms from this section?
 
 - [REPL](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/REPL.md)
 
+
 # Types
 
 Types are classifications that let the computer know how a programmer intends to use a piece of data. You can just think of them as, well, types of data.
@@ -206,6 +207,17 @@ Using the Python REPL, find __1)__ the type of `("12")`, and __2)__ the type of 
 3. A way of taking an input, transforming that input, and returning an output. The input goes in the parentheses `()`.
 
 These are all valid ways of thinking about functions. We'll be learning more about functions in later sections.
+
+<Keywords>
+- REPL
+The REPL is an interactive environment for writing and running Python code. It stands for Read-Evaluate-Print Loop.
+
+- Function
+Functions are a way of doing something in Python. They can be used to save code for reuse, or to take an input, transform that input, and return an output.
+
+- Method
+Methods are functions that are attached to a specific object. For example, the string method `upper()` is attached to the string `"hello"`, and can be called by writing `"hello".upper()`.
+</Keywords>
 
 ## Challenge
 
@@ -1385,7 +1397,7 @@ First we need to __import__ the module.  In the code editor below, write the fol
 
 `print(random.choice(motivational_phrases))`
 
-<CodeEditor>
+```python
 import random
 motivational_phrases = [
         "Importing modules is easy!",
@@ -1393,7 +1405,7 @@ motivational_phrases = [
         "You write lists like a pro!",
     ]
 print(random.choice(motivational_phrases))
-</CodeEditor>
+```
 
 Now, each time you run the code, you should see a different motivational phrase as output. The `random.choice` function chooses a random item from a list and returns it. The `.` syntax indicates that the function is coming from the `random` library.
 
@@ -1401,7 +1413,7 @@ Now, each time you run the code, you should see a different motivational phrase 
 
 The real point of this section is to learn `import`, which is where Python really starts to get interesting. Python comes with many libraries (importable collections of code), written by others that can be pulled into your program, allowing you to use that functionality. In this challenge, do a little research on Python libraries that might solve a problem for you or address a domain that you're interested in.
 
-Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and search google "<_thing you are interested in_> python library". You're almost certain to find some useful results. For example, if you wanted to find Python libraries for dealing with cleaning up HTML files, you might search one of these:
+Think of something you're interested in doing (statistics, text analysis, web scraping, quantitative analysis, processing Excel/PDF/image files) and search google "_thing you are interested in_ python library". You're almost certain to find some useful results. For example, if you wanted to find Python libraries for dealing with cleaning up HTML files, you might search one of these:
 
 > working with html python library
 
@@ -1494,14 +1506,14 @@ In this final challenge, we will work more with the `random` library. We'll use 
 
 Take a look at the following code:
 
-<CodeEditor>
+```python
 import random
 # create a 'roll' function to return a random # between 1-6
 def roll():
     return random.randint(1, 6)
 # roll the die and print the results
 print(f'You rolled a {roll()}.')
-</CodeEditor>
+```
 
 First, we `import` the random library into our program. Then, we create a `roll` function that returns a random number between 1 and 6. We'll use the `randint` function from the random library to generate a random number. The `randint` function takes two arguments, the minimum and maximum number that can be returned. We'll use `1` and `6` for the minimum and maximum numbers to create a standard die. To get at our result, we `return` the outcome of the function. 
 
@@ -1516,7 +1528,7 @@ Starting with the code above, roll the die twice, storing each result. Using bot
 ### Solution
 
 <Secret>
-<CodeEditor>
+```python
 import random
 # create a 'roll' function to return a random # between 1-6
 def roll():
@@ -1531,7 +1543,7 @@ elif die2 > die1:
     print('Second roll wins!')
 else:
     print('Tie!')
-</CodeEditor>
+```
 </Secret>
 
 # Theory to Practice
