@@ -153,12 +153,12 @@ What are the characteristics of the REPL? Select all that apply.
 
 <!-- Each section end should have a collection of key words related to the lesson, like so: -->
 <Keywords>
-First Term
-: This is the definition of the first term.
+- First Term
+This is the definition of the first term.
 
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
+- Second Term
+This is one definition of the second term.
+This is more text for the second term.
 </Keywords>
 
 <!--- Keywords are a good way to reinforce the key concepts of the lesson. Definitions cannot be multiple paragraphs. --->
