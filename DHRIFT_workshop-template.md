@@ -98,7 +98,7 @@ The metadata you are currently seeing above is just an example, which you can us
 
 Welcome to my workshop! This is the first page (the first lesson).
 
-<!--- Each h1 markdown header (the #) indicates the beginning of a new page. Use them to structure lessons in your workshops. --->
+<!--- Each h1 and h2 markdown header (the #) indicates the beginning of a new page. Use them to structure lessons in your workshops. --->
 
 To add a lesson, simply type your lesson content below the header. You can use typical markdown styles to format your text.
 
@@ -112,7 +112,7 @@ There are several components you can incorporate into your lessons, including:
 
 <Download files='your_file1.csv, your_file2.md'>
 
-Here, `your_file1` and `your_file2` are the two files to download (you can add as many as you'd like, just separate them with commas). The break tag at the end is just to add some space after the button. NOTE: You must include copies of the files indicated in the `uploads/<your_workshop>` folder.
+Here, `your_file1` and `your_file2` are the two files to download (you can add as many as you'd like, just separate them with commas). The break tag at the end is just to add some space after the button. NOTE: You must include copies of the files indicated in the `uploads` folder.
 
 3. An info box: Use <Info> to highlight interesting additional information.
 
@@ -125,12 +125,6 @@ Here's an interesting aside!
 <Link workshop='python' page=5 />
 
 This is necessary when linking to another workshop page. 'workshop' is the workshop file name, and the 'page' can be found in the URL query string, for instance:   `?user=dhri-curriculum&repo=workshops&file=command-line&**page=15**&instUser=dhri-curriculum&instRepo=dhrift-site-template` 
-
-4. A <Secret> section for hiding answers, etc.
-
- <Secret>
- This is hidden until 'reveal' is clicked!
- </Secret>
 
 <!--- Most workshop lessons should include some form of a challenge, a solution, and an evaluation. See below for an example of each. --->
 
@@ -159,12 +153,11 @@ What are the characteristics of the REPL? Select all that apply.
 
 <!-- Each section end should have a collection of key words related to the lesson, like so: -->
 <Keywords>
-- First Term
-This is the definition of the first term.
+- keyword 1
+definition 1
 
-- Second Term
-This is one definition of the second term.
-This is more text for the second term.
+- keyword 2
+definition 2
 </Keywords>
 
 <!--- Keywords are a good way to reinforce the key concepts of the lesson. Definitions cannot be multiple paragraphs. --->
