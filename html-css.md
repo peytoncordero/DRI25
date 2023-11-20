@@ -10,7 +10,7 @@ learning objectives:
 
 facilitators: 
     name: 'Ian Williams'
-    description: 'Here is a short bio.'
+    description: 'Here is a short biography.'
 
 estimated time:
     - 2-3 hours
