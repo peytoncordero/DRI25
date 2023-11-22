@@ -159,15 +159,6 @@ The REPL is useful for testing code on the fly, seeing if it works or what will 
 To use the REPL, just type `python` into your interpreter. You'll know you're there when you see the three `>>>`. To get out of the REPL, press `control-d` or type `quit()`.
 </Keywords>
 
-# Tutorial
-
-See this beginner's tutorial on the [REPL](https://pythonprogramminglanguage.com/repl/) from Learn Python.
-
-# Readings
-
-Check out this intermediate article on the [REPL](https://codewith.mu/en/tutorials/1.0/repl) and what it can do on Code With Mu.
-</Keywords>
-
 # Types
 
 Types are classifications that let the computer know how a programmer intends to use a piece of data. You can just think of them as, well, types of data.
