@@ -847,7 +847,7 @@ TODO: Figure out how to link to the correct section with either the h1 or h2 str
 
 <Info>__Tip__
 
-If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the [Troubleshooting](/document/html-css.md/?page=58) section for more information on common issues.
+If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the [Troubleshooting](?user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=47) section for more information on common issues.
 </Info>
 
 ## Evaluation
