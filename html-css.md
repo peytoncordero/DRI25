@@ -10,7 +10,7 @@ learning objectives:
 
 facilitators: 
     name: 'Ian Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the interesections of emerging technologies, human services, and organizational change. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000's.'
+    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the interesections of emerging technologies, human services, and organizational change. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000s.'
 
 estimated time:
     - 2-3 hours
