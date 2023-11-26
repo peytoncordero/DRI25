@@ -37,6 +37,8 @@ projects:
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
     - Creating websites also involves making sure that it is designed to be accessible for those with disabilities. If your website displays images, then each image should also contain [alt text](https://accessibility.psu.edu/images/alttext/) metadata that describes the image such that it is usable for screenreaders. Screenreaders make websites accessible for those with visual and/or auditory disabilities. Similarly, if your website involves showcasing audio-based information (like interviews or lectures) then you should provide a transcription of the audio. We will go over basic practices of making websites accessible in this workshop. You can learn more about accessibility standards and guidelines at the [W3C's page on Web Accessibility](https://www.w3.org/standards/webdesign/accessibility). Furthermore, there are also services like the [WAVE tool](https://wave.webaim.org/) that help identify ways of making websites more accessible.
+    <!-- add a section on project longevity, duty of care - ie Latour's essay on loving your monsters? -->
+    <!-- note something about ecological impact of websites and digital projects? -->
 
 resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
@@ -74,8 +76,7 @@ CSS is usually used in conjunction with HTML. HTML tells the browser what the di
 
 Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
-However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](https://dhri-curriculum.github.io/Dhrift/workshops/html-css/?page=20).
-<!--- flagging this to fix with correct link--->
+However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <link workshop='html-css' page ='20'> how to get your website from your local computer onto the internet </link>.
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet. 
 
