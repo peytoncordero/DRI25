@@ -919,6 +919,11 @@ refugee_df.sample(15)
 
 We can tell it's a random sample since the index numbers are completly disorganized. 
 
+<Keywords>
+- `.sample()`
+In Pandas, the `.sample()` method is used to randomly select a specified number of rows from a DataFrame. It provides a way to obtain a random subset of data for exploratory analysis or testing purposes.
+</Keywords>
+
 # Basic data cleaning
 In the following sections we will review some basic data cleaning steps including checking and converting our data types in addition to checking and removing duplicate rows. 
 ## Data Types
