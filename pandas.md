@@ -2600,14 +2600,14 @@ We can specify the title with the title= parameter and the kind of plot by alter
 
 
 
-* ‘bar’ or ‘barh’ for bar plots (h is for horizontal)
-* ‘hist’ for histogram
-* ‘box’ for boxplot
-* ‘kde’ or ‘density’ for density plots
-* ‘area’ for area plots
-* ‘scatter’ for scatter plots
-* ‘hexbin’ for hexagonal bin plots
-* ‘pie’ for pie plots
+* `bar` or `barh` for bar plots (h is for horizontal)
+* `hist` for histogram
+* `box` for boxplot
+* `kde` or `density` for density plots
+* `area` for area plots
+* `scatter` for scatter plots
+* `hexbin` for hexagonal bin plots
+* `pie` for pie plots
 
 ## Bar Charts
 For example, we can visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a bar chart:
@@ -2633,12 +2633,12 @@ ref_sum_df.plot(kind='bar', x= 'origin', y='arrivals',
 
 Let’s unpack the command to better understand these results:
 
-* ref_sum_df: This is the variable we created in the previous lesson summing the number of refugee arrivals by country of origin, with the output showing the top twenty rows sorted by descending order
-* .plot(kind='bar', x= 'origin', y='arrivals', title='Total number of refugee arrivals in the U.S. \n by country of origin'):
-    * Here we are using the .plot() method to create a visualization, and we are specifying that we want a bar chart with the “kind=’bar’” parameter. 
+* `ref_sum_df`: This is the variable we created in the previous lesson summing the number of refugee arrivals by country of origin, with the output showing the top twenty rows sorted by descending order
+* `.plot(kind='bar', x= 'origin', y='arrivals', title='Total number of refugee arrivals in the U.S. \n by country of origin')`:
+    * Here we are using the `.plot()` method to create a visualization, and we are specifying that we want a bar chart with the “kind=’bar’” parameter. 
     * We also specify the values for the x axis (orgin) and y axis (arrivals)
-    * We are also giving the chart a title with the “title='Total number of refugee arrivals in the U.S. \n by country of origin'” parameter. 
-        * Note: By adding “\n” in the title text, we signify that the text that follows should be on a new line. 
+    * We are also giving the chart a title with the `title='Total number of refugee arrivals in the U.S. \n by country of origin'` parameter. 
+        * Note: By adding `\n` in the title text, we signify that the text that follows should be on a new line. 
 
 ## Pie Charts
 We can also visualize the data as a pie chart:
@@ -2698,12 +2698,12 @@ Let’s break this command down:
 
 
 
-* We have two stacked methods here: .groupby() and .sum()
-* groupby('year')['arrivals']: For the Groupby object, groupby(year), we are isolating the “arrivals” column. Basically, we are asking to view the number of refugee arrivals by year. 
-* .sum(): This method returns the sum of the values over the requested axis. In our case, it will calculate the total number of refugee arrivals per year.
+* We have two stacked methods here: `.groupby()` and `.sum()`
+* `groupby('year')['arrivals']`: For the Groupby object, groupby(year), we are isolating the “arrivals” column. Basically, we are asking to view the number of refugee arrivals by year. 
+* `.sum()`: This method returns the sum of the values over the requested axis. In our case, it will calculate the total number of refugee arrivals per year.
 * We store our results in the `total_arrivals_by_year` variable
 
-Finally, we can add the .plot() method to create a line chart. 
+Finally, we can add the `.plot()` method to create a line chart. 
 
 
 ```python
@@ -2721,13 +2721,13 @@ total_arrivals_by_year.plot(kind='line', title="Total Number of Refugee Arrivals
     
 
 
-In this command, we are adding the .plot() method to request a chart, and specifying that we want a line graph with the “kind=line” parameter. We are also giving the chart a title with the “title='Total Number of Refugee Arrivals by Year'” parameter. 
+In this command, we are adding the `.plot()` method to request a chart, and specifying that we want a line graph with the “kind=line” parameter. We are also giving the chart a title with the “title='Total Number of Refugee Arrivals by Year'” parameter. 
 
 
 
 # Write to CSV
 
-To output a new CSV file, we can use the .to_csv method with a name for the file in quotation marks. For example, since we added the percent_total column to the refugee_df DataFrame, we may want to download the updated DataFrame as a CSV file to use it with other programs.  
+To output a new CSV file, we can use the `.to_csv` method with a name for the file in quotation marks. For example, since we added the percent_total column to the refugee_df DataFrame, we may want to download the updated DataFrame as a CSV file to use it with other programs.  
 
 
 ```python
