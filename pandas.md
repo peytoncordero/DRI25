@@ -970,6 +970,7 @@ refugee_df.dtypes
     arrivals               int64
     dtype: object
 
+ ![Data Types](/images/pandas/dtypes.png)
 
 
 As we can see, the data in the “year” column was successfully transformed into the datetime64 data type.
@@ -1311,7 +1312,7 @@ refugee_df.columns
 
     Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
 
-
+ ![List of Columns](/images/pandas/columns.png)
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
 
@@ -2399,7 +2400,7 @@ refugee_df.groupby('origin')
 
     <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f9b81ebc100>
 
-
+ ![GroupBy Object](/images/pandas/groupby_obj.png)
 
 This command created a Groupby object—grouped data that we can use to perform calculations such as counting the number of non-blank values in each column for each arrival by country of origin.
 
@@ -2436,7 +2437,7 @@ refugee_df.groupby('origin')['arrivals'].sum().sort_values(ascending=False)[:20]
     Colombia             1956
     Name: arrivals, dtype: int64
 
-
+ ![GroupBy Results](/images/pandas/groupby.png)
 
 These results show us the total number of arrivals by country of origin across the 2005-2015 period, in descending order, sliced for the top 20 results. 
 
@@ -2685,7 +2686,7 @@ refugee_df.groupby('year')
 
     <pandas.core.groupby.generic.DataFrameGroupBy object at 0x7f9bd6807e80>
 
-
+ ![GroupBy Object](/images/pandas/groupby_time.png)
 
 Next, we can create a new variable calculating the average number of refugees being resettled over time. 
 
