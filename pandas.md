@@ -116,14 +116,13 @@ Finally, let's launch a new JupyterLite Notebook from within the “pandas_works
 - Make sure you are in the “pandas_workshop” folder. If not, navigate there. 
 - From the launcher window, click the "Python (Pyodide)" button
 
-![Launch Notebook](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/launch_notebook.png "Launch Notebook")
 
-![Launch Notebook](images/pandas/launch_notebook.png)
+![Launch Notebook](/images/pandas/launch_notebook.png)
 
 - A new Jupyter Notebook will open. Rename the notebook by clicking on the notebook name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the notebook: “pandas_workshop”.
 
-![Rename Notebook](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/rename_notebook.png "Rename Notebook")
+![Rename Notebook](/images/pandas/rename_notebook.png "Rename Notebook")
 
 Hooray! You are all set to move forward!
 
