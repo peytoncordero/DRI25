@@ -93,7 +93,13 @@ Keeping all your files for a particular project in a designated file directory w
 
 Let’s create a “pandas_workshop” folder in our JupyterLite code editor workspace: 
 - Click on "Open Code Editor" in the top right corner of this browser window. 
+
+![Open Code Editor](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/open_editor.png "Open Code Editor")
+
 - In the folders toolbar, click the icon for the folder with the '+' on it. This will create a new "Untitled Folder." 
+
+![Create Folder](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/create_folder.png "Create Folder")
+
 - To rename the folder, click on the folder name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the folder: “pandas_workshop”.
 
@@ -102,14 +108,22 @@ Next, we will need to first download our dataset and then upload it to your new 
 - Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
 - Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
+![Upload File](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/upload_file.png "Upload File")
 - Once it's in that folder, you should be all set! 
 
 ## Launching a new JupyterLite Notebook
 Finally, let's launch a new JupyterLite Notebook from within the “pandas_workshop” folder. 
 - Make sure you are in the “pandas_workshop” folder. If not, navigate there. 
 - From the launcher window, click the "Python (Pyodide)" button
+
+![Launch Notebook](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/launch_notebook.png "Launch Notebook")
+
+![Launch Notebook](images/pandas/launch_notebook.png)
+
 - A new Jupyter Notebook will open. Rename the notebook by clicking on the notebook name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the notebook: “pandas_workshop”.
+
+![Rename Notebook](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/rename_notebook.png "Rename Notebook")
 
 Hooray! You are all set to move forward!
 
@@ -2611,7 +2625,7 @@ ref_sum_df.plot(kind='bar', x= 'origin', y='arrivals',
 
 
     
-![png](images/output_68_1.png)
+![Bar Chart](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/bar_chart.png "Bar Chart")
     
 
 
@@ -2641,8 +2655,7 @@ ref_sum_df.set_index('origin')[:10].plot(kind='pie', y='arrivals',
 
 
 
-    
-![png](images/output_70_1.png)
+![Pie Chart](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/pie_chart.png "Pie Chart")
     
 
 
@@ -2702,9 +2715,7 @@ total_arrivals_by_year.plot(kind='line', title="Total Number of Refugee Arrivals
 
 
 
-
-    
-![Time Series](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/output_76_1.png "Time Series")
+![Time Series](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/time_series.png "Time Series")
     
 
 
