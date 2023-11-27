@@ -128,7 +128,7 @@ Finally, let's launch a new JupyterLite Notebook from within the “pandas_works
 
 Hooray! You are all set to move forward!
 
-**Section below needs Review or might be deleted**
+~Section below needs Review or might be deleted~
 We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
 
 For the best possible experience, we suggest/encourage you to:
