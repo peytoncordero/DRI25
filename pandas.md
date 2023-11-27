@@ -2704,7 +2704,7 @@ total_arrivals_by_year.plot(kind='line', title="Total Number of Refugee Arrivals
 
 
     
-![png](DRI24/images/pandas/output_76_1.png)
+![Time Series](https://github.com/GC-DRI/DRI24/blob/main/images/pandas/output_76_1.png "Time Series")
     
 
 
