@@ -376,6 +376,11 @@ Let’s take a look at a few elements in this DataFame:
 * NAN
     * NaN is the Pandas value for any missing data. 
 
+<Keywords>
+- Index
+In a Pandas DataFrame, the index serves as a unique identifier for each row, allowing for easy access and manipulation of data. It provides a label for the rows, facilitating efficient data retrieval, alignment, and merging operations in various analytical tasks.
+</Keywords>
+
 
 ## Display a selection of the Dataframe
 We can also display the first 2 rows of the DataFrame with the `.head()` method
@@ -739,7 +744,13 @@ refugee_df[-10:]
 </table>
 </div>
 
+<Keywords>
+- Function vs. Method
+In Python, a function is a block of reusable code that can be defined and called independently of any object, while a method is a function associated with an object, often designed to operate on that specific object. Methods are invoked using dot notation on an instance of a class, whereas functions are typically standalone and can be called without an associated object.
 
+- `.head()` & `.tail()`
+In Pandas, the `.head()` method is used to display the first few rows of a DataFrame, providing a quick overview of its structure, while the `.tail()` method shows the last few rows. Both methods help users inspect data frames efficiently.
+</Keywords>
 
 
 ## Display a random sample of the Dataframe
