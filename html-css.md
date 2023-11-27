@@ -1070,7 +1070,7 @@ __1. True or False: Classes are used to create categories of related elements, I
 - False
 </Quiz>
 
-Revisit lesson [Classes and IDs](/workshops/html-css/?page=15) to learn more.
+Revisit lesson [Classes and IDs](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=40) to learn more.
 
 __2. Which one of the following options is a relative link? (Select one of the following)__
 
@@ -1079,7 +1079,7 @@ __2. Which one of the following options is a relative link? (Select one of the f
 - `<a href="https://www.nytimes.com/">The New York Times</a>`
 </Quiz>
 
-Revisit lesson [Links](/workshops/html-css/?page=7) to learn more.
+Revisit lesson [Links](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=13) to learn more.
 
 __3. Is the following code-snippet an example of inline styling or internal styling?__
 
@@ -1113,7 +1113,7 @@ __3. Is the following code-snippet an example of inline styling or internal styl
 - `Internal styling`*
 </Quiz>
 
-Revisit lesson [Integrating CSS and HTML](/workshops/html-css/?page=12) to learn more.
+Revisit lesson [Integrating CSS and HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=29) to learn more.
 
 __4. If I wanted to indicate that "About" is a subheading in my page, which element should I use? (Select one of the following)__
 
@@ -1122,7 +1122,7 @@ __4. If I wanted to indicate that "About" is a subheading in my page, which elem
 - `<head>`
 </Quiz>
 
-Revisit lesson [Paragraphs and Headings](/workshops/html-css/?page=6) to learn more.
+Revisit lesson [Paragraphs and Headings](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=10) to learn more.
 
 __5. Which one of these two HTML commands is also known as the “root element”? (Select one of the following)__
 
@@ -1131,7 +1131,7 @@ __5. Which one of these two HTML commands is also known as the “root element�
 - `<!DOCTYPE html>`*
 </Quiz>
 
-Revisit lesson [Basic Template for HTML](/workshops/html-css/?page=4) to learn more.
+Revisit lesson [Basic Template for HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=5) to learn more.
 
 __6. How do we associate a CSS file with an HTML page? (Select one of the following)__
 
@@ -1140,7 +1140,7 @@ __6. How do we associate a CSS file with an HTML page? (Select one of the follow
 - By putting the CSS file in the same folder as the HTML page.
 </Quiz>
 
-Revisit lesson [Rule Sets](/workshops/html-css/?page=13) to learn more.
+Revisit lesson [Rule Sets](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=36) to learn more.
 
 __7. Which one of the following statements is correct: (Select one of the following)__
 
@@ -1149,7 +1149,7 @@ __7. Which one of the following statements is correct: (Select one of the follow
 - Tags have opening and closing elements.
 </Quiz>
 
-Revisit lesson [Tags and Elements](/workshops/html-css/?page=5) to learn more.
+Revisit lesson [Tags and Elements](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=8) to learn more.
 
 __8. True or False: Does including “alt text” in websites improve their accessibility? (Select one of the following)__
 
@@ -1158,7 +1158,7 @@ __8. True or False: Does including “alt text” in websites improve their acce
 - False
 </Quiz>
 
-Revisit lesson [Images](/workshops/html-css/?page=8) to learn more.
+Revisit lesson [Images](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=19) to learn more.
 
 __9. Is CSS a markup language or a programming language? (Select one of the following)__
 
@@ -1167,7 +1167,7 @@ __9. Is CSS a markup language or a programming language? (Select one of the foll
 - Programming Language
 </Quiz>
 
-Revisit lesson [CSS Basics](/workshops/html-css/?page=11) to learn more.
+Revisit lesson [CSS Basics](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=27) to learn more.
 
 __10. True or False: The primary difference between markup languages and programming languages is that markup languages are used to determine the format, appearance, and purpose of content, whereas programming languages are used to transform data. (Select one of the following)__
 
@@ -1176,7 +1176,7 @@ __10. True or False: The primary difference between markup languages and program
 - False
 </Quiz>
 
-Revisit lesson [Getting Started with HTML and CSS](/workshops/html-css/?page=2) to learn more.
+Revisit lesson [Getting Started with HTML and CSS](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=2) to learn more.
 
 ## Suggested Further Readings
 
@@ -1233,4 +1233,4 @@ If you are unsure of which HTML/CSS commands to use, check out the [HTML Cheat S
 
 1. In this workshop, we have focused on the fundamentals of HTML and CSS. The point was to provide an introduction to the workings of websites. In practice, however, the websites that we desire to build will have complex use cases. What are some websites that you imagine building? What kinds of interactive features would you like to have in your website?
 
-2. Some websites provide information clearly and in an engaging manner. Others might inundate with a barrage of content that leaves one mystified. What would you say are some of the characteristics of well-designed websites? Which websites do you consider a joy to use? What design elements (such as font, color, layout, and menus) stand out to you as being particularly important in making good websites? 
+2. Some websites provide information clearly and in an engaging manner. Others might inundate with a barrage of content that leaves one mystified. What would you say are some of the characteristics of well-designed websites? Which websites do you consider a joy to use? What design elements (such as font, color, layout, and menus) stand out to you as being particularly important in making good websites?
