@@ -84,6 +84,14 @@ Learning and On-the-Go:
 
 In essence, JupyterLite is a more nimble version of Jupyter Notebooks, suitable for scenarios where a lighter computational environment is sufficient. It shares the same core principles of interactive computing but in a more accessible and portable form, making it a valuable tool for quick experiments, learning, and situations where resource constraints or simplicity are paramount.
 
+<Keywords>
+- Jupyter Notebook
+Comprehensive toolset for interactive computing and data exploration, blending narrative text, code, and visualizations
+
+- JupyterLite
+A lightweight version of Jupyter Notebook
+</Keywords>
+
 
 # Preparing your workspace and folders
 
