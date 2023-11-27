@@ -749,7 +749,7 @@ refugee_df[-10:]
 In Python, a function is a block of reusable code that can be defined and called independently of any object, while a method is a function associated with an object, often designed to operate on that specific object. Methods are invoked using dot notation on an instance of a class, whereas functions are typically standalone and can be called without an associated object.
 
 - .head() & .tail()
-In Pandas, the `.head()` method is used to display the first few rows of a DataFrame, providing a quick overview of its structure, while the `.tail()` method shows the last few rows. Both methods help users inspect data frames efficiently.
+In Pandas, the .head() method is used to display the first few rows of a DataFrame, providing a quick overview of its structure, while the .tail() method shows the last few rows. Both methods help users inspect data frames efficiently.
 </Keywords>
 
 
