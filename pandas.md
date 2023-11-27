@@ -111,6 +111,11 @@ Let’s create a “pandas_workshop” folder in our JupyterLite code editor wor
 - To rename the folder, click on the folder name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the folder: “pandas_workshop”.
 
+<Keywords>
+- Code editor
+A code editor is a software application that is specifically designed for writing and editing source code of computer programs. It provides features and tools to make the process of coding more efficient and productive for developers. Code editors are essential tools for software development and come in various forms, ranging from simple text editors to feature-rich integrated development environments (IDEs).
+</Keywords>
+
 ## Download the dataset & upload it into the code editor
 Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
 - Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
@@ -129,12 +134,20 @@ Finally, let's launch a new JupyterLite Notebook from within the “pandas_works
 
 ![Launch Notebook](/images/pandas/launch_notebook.png)
 
-- A new Jupyter Notebook will open. Rename the notebook by clicking on the notebook name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
+- A new JupyterLite Notebook will open. Rename the notebook by clicking on the notebook name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the notebook: “pandas_workshop”.
 
 ![Rename Notebook](/images/pandas/rename_notebook.png)
 
 Hooray! You are all set to move forward!
+
+<Keywords>
+- Jupyter Notebook
+Comprehensive toolset for interactive computing and data exploration, blending narrative text, code, and visualizations
+
+- JupyterLite
+A lightweight version of Jupyter Notebook
+</Keywords>
 
 ~Section below needs Review or might be deleted~
 We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
@@ -153,6 +166,11 @@ For the best possible experience, we suggest/encourage you to:
 * You can think of it as a FREE equivalent to Stata or SPSS for data manipulation and analysis. It is also more powerful than Excel
 * Knowing how to use Pandas is important if you plan on working with data organized in spreadsheets (either quantitative or qualitative)
 
+<Keywords>
+- Pandas
+A powerful Python library for data manipulation and analysis, particularly designed to handle structured data. It provides data structures like DataFrames that allow users to easily organize, clean, and analyze tabular data, such as spreadsheets or SQL tables. With Pandas, non-technical users can perform tasks like filtering, aggregating, and visualizing data without extensive programming knowledge, making it a valuable tool for data exploration and preparation.
+</Keywords>
+
 
 ## Import Pandas
 
@@ -170,12 +188,19 @@ This import statement not only imports the Pandas library but also gives it the 
 
 If you don’t see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a silent success.
 
+<Keywords>
+- Import
+In Python, the "import" keyword is used to bring external modules or libraries into your script, making their functionality available for use. Once imported, you can access the functions, classes, or variables defined in the module using the module's name as a prefix.
+
+- Silent Success
+In Python, a "silent success" typically refers to a successful operation or function call that does not produce any visible output or raise explicit errors. It implies that the operation was completed successfully, but the result might not be explicitly displayed, making it important for developers to check return values or logs to confirm the success.
+</Keywords>
 
 ## Read in a CSV file as a DataFrame
 
 Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset, which contains data about refugee arrivals to the United States between 2005 and 2015, including the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
 
-You want to make sure you save the dataset in the same location as your Jupyter Notebook, in this case the pandas_workshop folder. 
+You want to make sure you save the dataset in the same location as your JupyterLite Notebook, in this case the pandas_workshop folder. 
 
 
 ```python
@@ -186,6 +211,17 @@ refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", e
 - It is common practice to abbreviate DataFrame with “df”, as in refugee_df.  
 - When reading in the CSV file, we also specified the encoding and delimiter. The delimiter specifies the character that separates or “delimits” the columns in our dataset. For CSV files, the delimiter is usually a comma but it can also be a tab. 
 - UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
+
+<Keywords>
+- DataFrame
+In Python, a DataFrame is a two-dimensional, tabular data structure provided by the Pandas library. It organizes data into rows and columns, similar to a spreadsheet, and offers powerful tools for data manipulation, analysis, and cleaning.
+
+- Delimiter
+In a CSV (Comma-Separated Values) file, a delimiter is a character or sequence of characters that separates individual fields or data elements within each row. Common delimiters include commas, tabs, or semicolons, and they enable the proper parsing of data when reading or writing CSV files.
+
+- Encoding
+In the context of text data, encoding refers to the method used to represent characters as binary data. UTF-8, for example, is a widely used encoding that can represent most characters in the Unicode standard, allowing for the storage and transmission of text in multiple languages.
+</Keywords>
 
 
 # Data exploration
