@@ -89,17 +89,29 @@ In essence, JupyterLite is a more nimble version of Jupyter Notebooks, suitable 
 
 Keeping all your files for a particular project in a designated file directory will keep your project organized and will make it easier to read in your files. 
 
+## Creating a new folder
+
 Let’s create a “pandas_workshop” folder in our JupyterLite code editor workspace: 
 - Click on "Open Code Editor" in the top right corner of this browser window. 
 - In the folders toolbar, click the icon for the folder with the '+' on it. This will create a new "Untitled Folder." 
 - To rename the folder, click on the folder name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
 - Rename the folder: “pandas_workshop”.
 
+## Download the dataset & upload it into the code editor
 Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
 - Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
 - Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
 - Once it's in that folder, you should be all set! 
+
+## Launching a new JupyterLite Notebook
+Finally, let's launch a new JupyterLite Notebook from within the “pandas_workshop” folder. 
+- Make sure you are in the “pandas_workshop” folder. If not, navigate there. 
+- From the launcher window, click the "Python (Pyodide)" button
+- A new Jupyter Notebook will open. Rename the notebook by clicking on the notebook name while  pressing the "control" key on your keyboard at the same time (MacOS) or right-clicking on your mousepad (Windows), and selecting "Rename" from the drop-down menu. 
+- Rename the notebook: “pandas_workshop”.
+
+Hooray! You are all set to move forward!
 
 We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
 
