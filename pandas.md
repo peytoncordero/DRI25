@@ -223,6 +223,24 @@ In a CSV (Comma-Separated Values) file, a delimiter is a character or sequence o
 In the context of text data, encoding refers to the method used to represent characters as binary data. UTF-8, for example, is a widely used encoding that can represent most characters in the Unicode standard, allowing for the storage and transmission of text in multiple languages.
 </Keywords>
 
+## Evaluation
+
+What is the primary data structure in Pandas for working with tabular data?
+
+<Quiz>
+- Series
+- DataFrame*
+- Array
+- List
+</Quiz>
+
+What is a DataFrame?
+<Quiz>
+- A two-dimensional data structure*
+- A three-dimensional data structure
+- A single-dimensional data structure
+- A series object
+</Quiz>
 
 # Data exploration
 In the following section we will learn how to view the DataFrame in addition to viewing smaller sections of it. 
