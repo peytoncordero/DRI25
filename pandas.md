@@ -3092,7 +3092,14 @@ Let’s say you wanted to find out more about the .sort_values method we used  a
 
 ## Learning with Generative AI platforms
 
-Generative AI platforms like ChatGPT can be incredibly helpful in deepening your understanding of coding concepts in addition to helping you build your code. In this workshop we learned critical vocabulary such as "method" and "dataframe" that you can use to communicate with ChatGPT in order to ask it to build a Python script for you. Then, make sure to ask the platform to explain what each line of code is accomplishing so you can better understand the output it is giving you. 
+Generative AI platforms like ChatGPT can be incredibly helpful in deepening your understanding of coding concepts in addition to helping you build your code. In this workshop we learned critical vocabulary such as "method" and "dataframe" that you can use to communicate with ChatGPT in order to ask it to build a Python script for you. Make sure to ask the platform to explain what each line of code is accomplishing so you can better understand the output it is giving you. 
+
+Prompt examples include:
+Explain to me what a dataframe is like I'm an 8th grader
+
+Could you help me build a script to change the names of the columns in my dataframe?
+
+How can I convert a series object into a dataframe in Pandas?
 
 ## Other Resources
 
