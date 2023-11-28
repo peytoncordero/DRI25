@@ -126,6 +126,10 @@ Next, we will need to first download our dataset and then upload it to your new 
 
 - Once it's in that folder, you should be all set! 
 
+<Info>
+As you get more comfortable with coding in Python, you can also directly import a dataset into your Python environment using the requests library
+</Info>
+
 ## Launching a new JupyterLite Notebook
 Finally, let's launch a new JupyterLite Notebook from within the “pandas_workshop” folder. 
 - Make sure you are in the “pandas_workshop” folder. If not, navigate there. 
