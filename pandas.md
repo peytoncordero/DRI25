@@ -991,6 +991,10 @@ Which of the following commands would return the top three rows in a dataframe? 
 # Basic data cleaning
 In the following sections we will review some basic data cleaning steps including checking and converting our data types in addition to checking and removing duplicate rows. 
 
+<Info>
+Data cleaning is a crucial process for refining tabular data. Begin by addressing missing values. Tackle outliers to maintain data integrity and accuracy. Remove duplicates for a clean and unique dataset. Standardize formats for consistency, and finally, engage in feature engineering to enhance data insights and prepare it for analysis. These steps collectively ensure a refined and reliable foundation for effective data exploration and interpretation.
+</Info>
+
 ## Data Types
 
 We can get information about the columns in the DataFrame by using the `.info()` method.
@@ -2405,6 +2409,10 @@ What is the primary purpose of the == operator in Python?
 
 # Sort Columns, Groupby Columns, & Calculations
 In the following section we will learn how to sort and group columns in order to perform calculations.  
+
+<Info>
+Did you know you can perform both quantative and qualitative manipulations across entire columns in Pandas? You can use the .apply() method along with a lambda function or a user-defined function to transform text values. For instance, apply the .str accessor to access string methods like .lower() or .replace() for case normalization or substitution. The apply function works element-wise, allowing you to process each element in the column independently. This approach empowers you to clean, modify, or extract information from text columns with ease, facilitating comprehensive data preparation for analysis.
+</Info>
 
 ## Stacking requests
 
