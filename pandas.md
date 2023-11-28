@@ -1601,7 +1601,7 @@ refugee_df
 <Keywords>
 -.rename()
 In Pandas, the rename method is used to change the labels (names) of columns or index in a DataFrame. It allows for both selective renaming and modifying all labels using a dictionary or a function.
-<Keywords>
+</Keywords>
 
 ## Select columns
 
@@ -1786,7 +1786,7 @@ refugee_df[['state','city']]
 <Keywords>
 - DataFrame vs Series Object
 In Pandas, a Series is a one-dimensional labeled array that can hold any data type, while a DataFrame is a two-dimensional tabular data structure comprising multiple columns, each of which is a Series. Essentially, a DataFrame is a collection of Series that share the same index, providing a structure similar to a table in a relational database.
-<Keywords>
+</Keywords>
 
 
 ## Drop columns
@@ -1916,6 +1916,7 @@ refugee_drop_city_df
 <Keywords>
 - .drop()
 In Pandas, the drop method is used to remove specified rows or columns from a DataFrame. It returns a new DataFrame with the specified elements removed, and the original DataFrame remains unchanged unless the inplace parameter is set to True or the new DataFrame is stored in a new variable.
+</Keywords>
 
 ## Filter columns
 
@@ -2060,6 +2061,7 @@ We stored our results in a new variable `refugee_iraq_df`
 <Keywords>
 - ==
 In Python, the == operator is used for equality comparison, determining whether two values or expressions are equal. It returns True if the values are equal and False otherwise.
+</Keywords>
 
 ## Drop Rows
 If we wanted to exclude all rows containing the value “Iraq”, we could run the following command:
@@ -2199,7 +2201,7 @@ refugee_drop_iraq_df
 <Keywords>
 - !=
 In Python, the != operator is used for inequality comparison, checking whether two values or expressions are not equal. It returns True if the values are different and False if they are equal.
-<Keywords>
+</Keywords>
 
 ## Add columns
 
@@ -2941,7 +2943,7 @@ A bar chart is a visual representation of data that uses rectangular bars to sho
 
 - '\n'
 In Python, "\n" is an escape sequence representing a newline character. When encountered in a string, it causes a line break, moving the subsequent text to a new line, making it useful for formatting and organizing output.
-<Keywords>
+</Keywords>
 
 ## Pie Charts
 We can also visualize the data as a pie chart:
