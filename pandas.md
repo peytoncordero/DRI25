@@ -3074,7 +3074,7 @@ In Pandas, the .to_csv() method is used to write the contents of a DataFrame to 
 </Keywords>
 
 
-# Building your Pandas skills with the Pandas documentation and other resources
+# From theory to practice: Building your Pandas skills with the Pandas documentation and other resources
 
 Learning how to ask the right questions in a search engine like Google in order to find the solution to what you are trying to accomplish is the name of the game when you are just starting out with Python. Since Pandas is a popular and well documented Python package, you are bound to find myriads of resources that can help you get where you are going. 
 
