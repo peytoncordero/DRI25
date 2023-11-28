@@ -2894,8 +2894,11 @@ Data visualizations are important as they provide a clear and intuitive way to c
 
 - .plot()
 In Pandas, the .plot() method is used to create basic visualizations from DataFrame or Series data. It provides a convenient way to generate various plots, such as line charts, bar plots, and scatter plots, directly from Pandas objects for quick data exploration and analysis.
-
 </Keywords>
+
+<Info>
+Python boasts a vibrant ecosystem of open-source libraries for data visualizations, offering a wealth of options for enthusiasts and professionals alike. Matplotlib, the foundation for many other libraries, empowers users with high-quality and customizable plots. Seaborn, built on Matplotlib, enhances aesthetics and simplifies complex visualizations. Plotly, known for its interactivity, enables the creation of dynamic and shareable visualizations. Bokeh stands out for its interactive and real-time streaming capabilities. With these open-source tools, the Python community collaborates and innovates, fostering a dynamic environment for creative and effective data visualization solutions. 
+</Info>
 
 ## Bar Charts
 For example, we can visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a bar chart:
