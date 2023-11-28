@@ -2847,9 +2847,9 @@ refugee_df.groupby('state')['arrivals'].sum().sort_values(ascending=True)[:15]
 What is the primary purpose of the .reset_index() method in Pandas?
 
 <Quiz>
--  It reorganizes the DataFrame based on specified column values.
+- It reorganizes the DataFrame based on specified column values.
 - It converts a Pandas Series into a DataFrame.
--  It resets the index of a DataFrame, converting index values into columns.*
+- It resets the index of a DataFrame, converting index values into columns.*
 - It sorts the values of a DataFrame based on specified columns.
 </Quiz>
 
