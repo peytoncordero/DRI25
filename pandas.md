@@ -3076,23 +3076,19 @@ In Pandas, the .to_csv() method is used to write the contents of a DataFrame to 
 
 # From theory to practice: Building your Pandas skills with the Pandas documentation and other resources
 
+
 Learning how to ask the right questions in a search engine like Google in order to find the solution to what you are trying to accomplish is the name of the game when you are just starting out with Python. Since Pandas is a popular and well documented Python package, you are bound to find myriads of resources that can help you get where you are going. 
 
+## Pandas documentation and online tutorials
 A good first place to start when you are searching for answers with Pandas is to look at the Pandas documentation, which is fairly accessible to beginners, and is an incredible resource when you want to learn how to use a new command. It also offers a [User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html) for beginners with some fun exercises to deepen your learning.  
 
 Let’s say you wanted to find out more about the .sort_values method we used  and understand the different parameters the method accepts:
 
 
 
-* You could first search for .sort_values on the Pandas documentation website ([https://pandas.pydata.org](https://pandas.pydata.org)) and navigate to the “[pandas.DataFrame.sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html?highlight=sort_values#pandas-dataframe-sort-values)” documentation page.
-* Scroll through the page for the info, and look at the second section for examples of how to use the method and its various parameters. 
-
-
-
-
-
-
-* If you don’t find an answer that makes sense to you on the Pandas documentation page, then look on Google for other resources. Some of our go-to websites for help are [Stack Overflow](https://stackoverflow.com/), [Geeks for Geeks](https://www.geeksforgeeks.org/), and [Data to Fish](https://datatofish.com/). 
+1) You could first search for .sort_values on the Pandas documentation website ([https://pandas.pydata.org](https://pandas.pydata.org)) and navigate to the “[pandas.DataFrame.sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html?highlight=sort_values#pandas-dataframe-sort-values)” documentation page.
+1) Scroll through the page for the info, and look at the second section for examples of how to use the method and its various parameters. 
+1) If you don’t find an answer that makes sense to you on the Pandas documentation page, then look on Google for other resources. Some of our go-to websites for help are [Stack Overflow](https://stackoverflow.com/), [Geeks for Geeks](https://www.geeksforgeeks.org/), and [Data to Fish](https://datatofish.com/). 
 
 ## Learning with Generative AI platforms
 
