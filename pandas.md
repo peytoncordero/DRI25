@@ -153,14 +153,6 @@ Comprehensive toolset for interactive computing and data exploration, blending n
 A lightweight version of Jupyter Notebook
 </Keywords>
 
-~Section below needs Review or might be deleted~
-We’ve also saved all of the code for this section in a [Jupyter Notebook file](https://github.com/GCDigitalFellows/intro-pandas-dri-2022/blob/main/PandasWorkshop.ipynb). You should download it and save it in your “pandas_workshop” folder on your Desktop. In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it. 
-
-For the best possible experience, we suggest/encourage you to:
-* Create an .ipynb file and follow the workshop typing all the code yourself.
-* Avoid copying/pasting the code. Much of learning has to do with you typing yourself.
-* Only check the PandasWorkshop.ipynb file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn’t working. A big part of coding is learning to identify what we are doing wrong.
-* I would also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one. But those are only suggestions. Maybe they will work for you, maybe they won’t, so feel free to do what suits you best. You are in charge here!
 
 
 # Getting started with Pandas
