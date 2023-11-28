@@ -942,6 +942,52 @@ We can tell it's a random sample since the index numbers are completly disorgani
 In Pandas, the `.sample()` method is used to randomly select a specified number of rows from a DataFrame. It provides a way to obtain a random subset of data for exploratory analysis or testing purposes.
 </Keywords>
 
+## Challenge
+Using both the `.head()` method and a slice, display the top 9 rows of the DataFrame
+
+<Secret>
+```python
+refugee_df.head(9)
+refugee_df[:9]
+```
+</Secret>
+
+Display the last 5 rows of the DataFrame (there are two ways to do this)
+
+<Secret>
+```python
+refugee_df.tail(5)
+refugee_df[-5:]
+```
+</Secret>
+
+Display a random selection of 10 rows in the DataFrame
+
+<Secret>
+```python
+refugee_df.sample(10)
+```
+</Secret>
+
+## Evaluation
+
+What is the purpose of the head() method in Pandas?
+<Quiz>
+- To extract the first few rows of a DataFrame*
+- To display a summary of the data types in a DataFrame
+- To sort the DataFrame in ascending order
+- To count the number of rows in a DataFrame
+</Quiz>
+
+Which of the following commands would return the top three rows in a dataframe? Select all that apply
+
+<Quiz>
+- `refugee_df[0:3]`*
+- `refugee_df[0:4]`
+- `refugee_df[0:2]`
+- `refugee_df.head(3)`*
+</Quiz>
+
 # Basic data cleaning
 In the following sections we will review some basic data cleaning steps including checking and converting our data types in addition to checking and removing duplicate rows. 
 ## Data Types
