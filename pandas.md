@@ -941,6 +941,7 @@ In Pandas, the `.sample()` method is used to randomly select a specified number 
 ## Challenge
 Using both the `.head()` method and a slice, write code to display the top 9 rows of the DataFrame
 
+### Solution
 <Secret>
 ```python
 refugee_df.head(9)
@@ -950,6 +951,7 @@ refugee_df[:9]
 
 Write code to display the last 5 rows of the DataFrame (there are two ways to do this)
 
+### Solution
 <Secret>
 ```python
 refugee_df.tail(5)
@@ -959,6 +961,7 @@ refugee_df[-5:]
 
 Write code to display a random selection of 10 rows in the DataFrame
 
+### Solution
 <Secret>
 ```python
 refugee_df.sample(10)
@@ -2366,6 +2369,8 @@ In Pandas, the .sum() method is used to calculate the sum of values along a spec
 
 ## Challenge
 Write code for selecting the year, origin, and arrivals columns:
+
+### Solution
 <Secret>
 ```python
 new_df= refugee_df[['year', 'origin', 'arrivals']]
@@ -2373,6 +2378,8 @@ new_df= refugee_df[['year', 'origin', 'arrivals']]
 </Secret>
 
 Write code to drop all rows where the origin is Vietnam
+
+### Solution
 <Secret>
 ```python
 no_burma_df = refugee_df[refugee_df['origin'] != 'Vietnam']
@@ -2380,6 +2387,7 @@ no_burma_df = refugee_df[refugee_df['origin'] != 'Vietnam']
 </Secret>
 
 Write code to only keep rows where the arrival state is California:
+### Solution
 <Secret>
 ```python
 california_df = refugee_df[refugee_df['state'] == 'California']
@@ -2828,6 +2836,7 @@ In Pandas, the .reset_index() method is used to reset the index of a DataFrame, 
 ## Challenge
 Write code to create a GroupBy oject based on the 'state' column
 
+### Solution
 <Secret>
 ```python
 refugee_df.groupby('state')
@@ -2836,6 +2845,7 @@ refugee_df.groupby('state')
 
 Write code to sum the number of refugee arrivals by state with the output showing the top 15 rows sorted by ascending order:
 
+### Solution
 <Secret>
 ```python
 refugee_df.groupby('state')['arrivals'].sum().sort_values(ascending=True)[:15]
@@ -3042,6 +3052,7 @@ A time series is a sequence of data points collected or recorded over a period o
 ## Challenge
 Write code to visualize the data we got from our Groupby command looking at the total number of refugees by country of arrival as a scatter plot: 
 
+### Solution
 <Secret>
 ```python
 ref_sum_df.plot(kind='scatter', x= 'origin', y='arrivals', 
