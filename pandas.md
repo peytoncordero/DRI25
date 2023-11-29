@@ -231,6 +231,7 @@ What is the primary data structure in Pandas for working with tabular data?
 </Quiz>
 
 What is a DataFrame?
+
 <Quiz>
 - A two-dimensional data structure*
 - A three-dimensional data structure
@@ -971,6 +972,7 @@ refugee_df.sample(10)
 ## Evaluation
 
 What is the purpose of the `.head()` method in Pandas?
+
 <Quiz>
 - To extract the first few rows of a DataFrame*
 - To display a summary of the data types in a DataFrame
@@ -2406,6 +2408,7 @@ How do you select a specific column in a Pandas DataFrame named "df"?
 
 
 What is the primary purpose of the == operator in Python?
+
 <Quiz>
 - It assigns a value to a variable.
 - It makes sure two values are different. 
@@ -2864,6 +2867,7 @@ What is the primary purpose of the .reset_index() method in Pandas?
 </Quiz>
 
 When might you use the .to_frame() method in Pandas?
+
 <Quiz>
 - To group rows of a DataFrame based on one or more columns.
 - To reset the index of a DataFrame
@@ -2872,6 +2876,7 @@ When might you use the .to_frame() method in Pandas?
 </Quiz>
 
 What is the primary purpose of the .groupby() method in Pandas?
+
 <Quiz>
 - To sort the rows of a DataFrame based on specific column values.
 - To group rows of a DataFrame based on one or more columns.*
@@ -2880,6 +2885,7 @@ What is the primary purpose of the .groupby() method in Pandas?
 </Quiz>
 
 Which Pandas method is used to sort the rows of a DataFrame based on specified column values?
+
 <Quiz>
 - .reset_index()
 - .to_frame()
@@ -3062,6 +3068,7 @@ ref_sum_df.plot(kind='scatter', x= 'origin', y='arrivals',
 
 ## Evaluation
 Which Pandas method is commonly used to create basic visualizations, such as line charts, bar plots, and scatter plots, directly from DataFrame or Series data?
+
 <Quiz>
 - .format()
 - .visualize()
@@ -3070,6 +3077,7 @@ Which Pandas method is commonly used to create basic visualizations, such as lin
 </Quiz>
 
 What type of chart is best suited for illustrating numerical proportions in a dataset, where each slice represents a proportion of the whole?
+
 <Quiz>
 - Line chart
 - Bar chart
