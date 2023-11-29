@@ -3080,7 +3080,7 @@ What type of chart is best suited for illustrating numerical proportions in a da
 <Quiz>
 - Line chart
 - Bar chart
-- Pie chart
+- Pie chart*
 - Time series chart
 </Quiz>
 
