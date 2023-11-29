@@ -2406,14 +2406,13 @@ How do you select a specific column in a Pandas DataFrame named "df"?
 - df[["column_name"]]*
 </Quiz>
 
-
 What is the primary purpose of the == operator in Python?
 
 <Quiz>
 - It assigns a value to a variable.
 - It makes sure two values are different. 
 - It is used for mathematical addition.
-- It checks if two values or expressions are equal.
+- It checks if two values or expressions are equal.*
 </Quiz>
 
 # Sort Columns, Groupby Columns, & Calculations
