@@ -52,12 +52,12 @@ resources:
 
 A simulation is a model of a real-world system or process. Simulations are used to predict the behavior of a system, to test various conditions, or to analyze the effects of different variables. Simulations are often used in scientific research, but they can also be used to model social, economic, or political systems. For instance, during the Covid-19 pandemic, researchers used simulations to model the spread of the virus and to predict the effects of various public health measures. While the simulations we will create today will be very basic, they follow the same underlying logic as more complex simulations. 
 
-In this workshop, you will learn how to create very basic simulations using Jupyter notebook and the Python programming language. The workshop will employ the logic of Python's "object-oriented" methodology to create two small simulations:  a dice rolling simulation and a Critter simulation that tracks the population growth of an imaginary species of critter based on a variety of factors. 
+In this workshop, you will learn how to create very basic simulations using Jupyter notebooks and the Python programming language. The workshop will employ the logic of Python's "object-oriented" methodology to create two small simulations:  a dice rolling simulation and a Critter simulation that tracks the population growth of an imaginary species of critter based on a variety of factors. 
 
 <Info>[Object-oriented programming](https://www.techtarget.com/searchapparchitecture/definition/object-oriented-programming-OOP#:~:text=Object%2Doriented%20programming%20(OOP)%20is%20a%20computer%20programming%20model,has%20unique%20attributes%20and%20behavior.) is a programming paradigm that uses objects and their interactions to design applications and computer programs. It is based on the concept of objects, which can contain data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods).
 </Info>
 
-In this workshop, we will use Python's object-oriented methodology and Jupyter notebook to create objects that represent our dice and critters, and we will use methods to define the actions that our objects can take. In general, these exercises will expose you to some of the higher-level concepts integral to Python programming.
+In general, these exercises are meant to expose you to some of the higher-level concepts integral to Python programming. So, without further ado, let's begin!
 
 # Part 1 - Throwing Some Dice
 
@@ -83,7 +83,7 @@ Concepts we'll focus on:
 
 ## Getting Started
 
-In your Jupyter notebook, create a new Python file called `DiceSim`. Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
+Let's begin by opening Jupyter notebooks. On the side of the screen, click the "Open Code Editor" button to slide out the Jupyter environment. First, let's create a new Python file called `DiceSim` (the Python (Pyodide) version will suffice). Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
 
 ```python
 import random
@@ -101,7 +101,7 @@ Because we will be referencing the statistics library a few times in our code, w
 
 Next, let's create a `class` to represent our die object.  You can think of a class like a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have features attached to it for maintaining and modifying its state.
 
-For example, if we were to define a `Car` class, we might consider what attributes a car has:  brand, mileage, top speed, diesel or gas, stick or auto, 2-door or 4-door, etc. We could begin defining these characteristics as part of the overall class `Car` using variables. Variables particular to a class are called __data members__. We could then consider what actions a car can perform:  e.g., drive, brake, refuel, etc., and begin to write some functions in our `Car` class that describe these actions. Generally, functions that are specific to a certain class are called __methods__.  Unlike functions, methods use __.__ (dot) notation in order to be called--you'll see exactly what that means here shortly.
+For example, if we were to define a `Car` class, we might consider what attributes a car has:  brand, mileage, top speed, diesel or gas, stick or auto, 2-door or 4-door, etc. We could begin defining these characteristics as part of the overall class `Car` using variables. Variables particular to a class are called __data members__. We could then consider what actions a car can perform:  e.g., drive, brake, refuel, etc., and begin to write some functions in our `Car` class that describe these actions. Generally, functions that are specific to a certain class are called __methods__.  Unlike functions proper, methods use __.__ (dot) notation in order to be called--you'll see exactly what that means here shortly.
 
 Because we are creating a dice simulator here, let's go ahead and create a new class `Die`. In a new cell in your Jupyter notebook, type the following:
 
@@ -118,7 +118,7 @@ The `__init__` method is a special method that Python runs automatically wheneve
 
 Our other parameter is `sides`. We include this in our `__init__` because every die object that is created will have a certain number of sides (typically 6) as an attribute. In short, your `__init__` parameters should always include characteristics that you want _every newly created object in your class_ to have.  
 
-Next, we define our parameters, prefixed with `self`. Any variable prefixed with `self` is available to every method in the class, and we’ll also be able to access these variables through any instance created from the class. The line `self.sides`, for instance, takes the value associated with the parameter `sides` and assigns it to the local variable `sides`, which is then attached to the object being created.
+Next, we define our parameters, prefixed with `self`. Any variable prefixed with `self` is available to every method in the class, and we’ll also be able to access these variables through any instance created from the class. The line `self.sides`, for example, takes the value associated with the parameter `sides` and assigns it to the local variable `sides`, which is then attached to the object being created.
 
 ## Creating Our Method
 
@@ -134,7 +134,7 @@ We first define (`def`) our method, and pass in the parameter `self`, which allo
 
 ## Displaying Results
 
-Now that we have our class and our method set up, we can create (or _instantiate_) a new die object and give it a roll. In a new cell, type the following:
+Now that we have our class and our method set up, we can create (or "instantiate") a new die object and give it a roll. In a new cell, type the following:
 
 ```python
 die = Die(6)   
@@ -145,7 +145,7 @@ To create a new object, you begin as you would with any variable definition. Her
 
 Next, we use a `print` statement to display the results of our roll method. To call our roll method, we must use our die object and __.__ (dot) notation--recall that methods _need to act upon an object or instance of the class_ in order to be called.
 
-And that's it! You have successfully created a new die object that can be rolled.  If you run the cell, you should see your roll displayed. Additionally, each time you run the cell, you should see a new random number between 1 and 6.
+And that's it! You have successfully created a new die object that can be rolled.  If you run the cell, you should see your roll displayed. Additionally, each time you run the cell, you should see a new random number between 1 and 6 in your display.
 
 ## Challenge!
 
@@ -174,7 +174,7 @@ How are methods called?
 - `object.method_name.method()`
 </Quiz>
 
-# The Dice Simulator
+# Part 1 Cont'd - The Dice Simulator
 
 Now that we have our basic die object, let's create a dice rolling simulator. We will create a program that allows us to simulate our die roll `x` number of times and analyze the overall results. 
 
@@ -182,9 +182,9 @@ In particular, let's say that we wanted to throw our die object 1000 times (inst
 
 ## Creating a New Class
 
-Let's call our class `DiceSim`. What we want this class to do is to roll our die an x amount of times, and print the results. Thinking this through, we will likely want two methods:
+Let's call our class `DiceSim`. As we mentioned, what we want this class to do is to roll our die x amount of times, and print the results. Thinking this through, we will likely want two methods as part of this class:
 
-1. A method that utilizes our `roll()` method we've already created above and runs it 1000 times.
+1. A method that utilizes our `roll()` method we've already created above and runs it 1000 times, instead of just once.
 2. A method that analyzes the results of those 1000 rolls.  
 
 So, let's do just that:
@@ -205,7 +205,7 @@ class DiceSim:
         self.run()
 ```
 
-We will pass in our two parameters for the class, one for our roll method we created previously and the other for the number of iterations we want the simulator to run. Like before, we prefix each data member with `self` so that we can access the values from anywhere within our class. We also create a new empty list `results`, so that we have a place to store the results of our dice rolls. We also have one method call, `run()`. Calling a method in the initializer area like this means that it will run every time a new object of the `DiceSim` class is created.
+We will pass in our two parameters for the class, one for our roll method we created previously and the other for the number of iterations we want the simulator to run. Like before, we prefix each data member with `self` so that we can access the values from anywhere within our class. We also create a new empty list `results`, so that we have a place to store the results of our dice rolls. We also have one method call, `run()`. Calling a method in the initializer area like this means that it will automatically run every time a new object of the `DiceSim` class is created.
 
 ## Creating Our Class Methods
 
@@ -220,7 +220,7 @@ Next, let's define the methods for our simulator class. We will want one to run 
         self.report()
 ```
 
-In our `run()` method, we use a `for` loop to cycle through by the number of iterations we will set. We then store the results of the die roll method in a local variable `result`, and `append()` that result to our `results` list. Again, because we have called the `run()` method in our class initializer, it will run every time a new object of the `DiceSim` class is created. You can also see that we are running the `report()` method at the end of our `run()` method, so that we have a chain of events that will occur every time a new object is created.
+In our `run()` method, we use a `for` loop to cycle through by the number of iterations we will set. We then store the results of the die roll method in a local variable `result`, and `append()` that result to our `results` list. Again, because we have called the `run()` method in our class initializer, it will run every time a new object of the `DiceSim` class is created. You can also see that we are running a new `report()` method at the end of our `run()` method, so that we have a chain of events that will occur every time a new object is created.
 
 We then want to define our next method, `report()`, to analyze the results from `run()`.
 
@@ -255,7 +255,7 @@ die1 = Die(6)
 sim = DiceSim(die1.roll, 1000)
 ```
 
-First, we create a new instance of our `Die` class (remember, you can create as many new objects of a class as you'd like!) and give it 6 sides. Then, we create a new `sim` object. As parameters, we pass in our roll method and 1000, for the number of iterations to run.
+First, we create a new instance of our `Die` class (remember, you can create as many new objects of a class as you'd like) and give it 6 sides. Then, we create a new `sim` object. As parameters, we pass in our roll method and 1000, for the number of iterations to run.
 
 And that's it! If you run the final cell, you should see a report of the results of the simulation.
 
@@ -297,8 +297,6 @@ Here's a simple example in Python to illustrate the differences:
 ```
 
 </Secret>
-
-### Key Terms
 
 <Keywords>
 - class
@@ -393,7 +391,7 @@ We begin by defining our class, passing the `self` parameter like usual. Our oth
 
 ## Populating the Simulation
 
-Now that we have created our Critter class, let's create a function that will populate our simulation with critters. I say function (not method), because it will live outside of our Critter class. In fact, we'd likely want to create a _new_ Simulation class to control this aspect. Because our program is relatively simple, however, we'll simplify our code using a function. In a new cell, type the following:
+Now that we have created our Critter class, let's create a function that will populate our simulation with critters. I say function (not method), because it will live outside of our Critter class. Were we building a much more complex program, we'd likely want to create an entirely new Simulation class to control this aspect. Because our program is relatively simple, however, we'll simplify our code using a function. In a new cell, type the following:
 
 ```python
 #populate our simulation with critters
@@ -470,7 +468,17 @@ For a population growth simulation, another basic action our critters should tak
                             critterList.append(Critter(0)) # add newborn critter                
 ```
 
-Our method will take the two fertility parameters we established before, which determine the ages at which a critter can reproduce. Next, using a series of nested `for` loops, we'll take a look at each critter in the list to further see if they are suitable candidates for giving birth. We first check if they are female, and if so, check if they are within our circumscribed fertility age. If both of these conditions are satisfied, we'll then give the critter a 20% chance of getting pregnant with a simple `random` calculation. If the result is a 1, we'll create a new critter and append it to the critter list with an age of 0.   
+Our method will take the two fertility parameters we established before (which determine the ages at which a critter can reproduce) and use a `for` loop to take a look at each critter in the list to see if they are suitable candidates for giving birth. We first check if they are female, and if so, check if they are within our circumscribed fertility age. If both of these conditions are satisfied, we'll then give the critter a 20% chance of getting pregnant with a simple `random` calculation. If the result is a 1, we'll create a new critter and append it to the critter list with an age of 0.
+
+We can now run the `reproduce()` method in the same cell as the `gather()` method, like so:
+
+```python
+popSim()
+Critter.gather(food, resources)
+Critter.reproduce(fertility_x, fertility_y)
+```
+
+This will show you if any new critters were born in the first (and currently only) year of the simulation. Note that at the moment, you will not be able to see the new critters in the list, because we have not yet advanced the years or aged our existing critters. We will tackle those aspects soon.
 
 ### Challenge!
 
@@ -496,23 +504,13 @@ At the start of the reproduce method, create a new local variable to record how 
             print("New critters were born!")
 ```
 
-Note that you would not want to print out the message inside the `for` loop, because then you would display the message _every single_ time a new critter is created (making your readout very messy), rather than after _all_ new critters are created.
+Note that if you printed the message inside the `for` loop (instead of outside of its scope) you would display messages _every single_ time a new critter is created (making your readout rather messy), rather than after _all_ new critters are created.
 
 </Secret>
 
-After completing the challenge, you can run the `reproduce()` method in the same cell as the `gather()` method, like so:
-
-```python
-popSim()
-Critter.gather(food, resources)
-Critter.reproduce(fertility_x, fertility_y)
-```
-
-This will show you if any new critters were born in the first (and currently only) year of the simulation. Note that at the moment, you will not be able to see the new critters in the list, because we have not yet advanced the years or aged our existing critters. We will tackle those aspects next.
-
 ## The runYear() Function
 
-First, we will want to create the function that allows our simulation to run through a year and age our critters accordingly. Because this is a standalone function, write the following in a new cell below your `popSim()` function and method calls:
+Now that our critters can gather food and reproduce, we will want to create the function that allows our simulation to run through a year and age our critters accordingly. Because this is a standalone function, write the following in a new cell below your `popSim()` function and method calls:
 
 ```python
 def runYear(food, resources, fertility_x, fertility_y):
@@ -525,19 +523,17 @@ def runYear(food, resources, fertility_x, fertility_y):
             critterList.remove(critter)
         else:
             critter.age +=1
-
-    print(len(critterList))
 ```
 
 We will pass 4 arguments into this function:  our food, resource, and fertility values. The reason we need to get at these values is because we will want to then pass them into our Critter method calls. That is the first step we take: calling our `gather()` and `reproduce()` functions, at the beginning of each year. Because we are calling these methods outside of their class, we need to prefix the calls with our class name `Critter`. Because this function is meant to encapsulate the activities our critters undertake each year, it makes sense to call these methods here. Since we are calling them here, you can delete both method calls from the previous cell (in the cell with the `popSim()` function).
 
-Next, we will age our existing critters by one year. For now, let's set their maximum age to 50 years--once they are over 50 years, we will assume they die of old age, and we `remove` the critter from our list. Lastly, we print the length of our critter list.
+Next, we will age our existing critters by one year. For now, let's set their maximum age to 50 years--once they are over 50 years, we will assume they die of old age, and we `remove` the critter from our list. If they are not over 50, we simply add one year to their age.
 
 ## Running the Simulation
 
-If you call and run the runYear() function, you'll notice that we are not yet actually advancing the years in our simulation. Our goal is to run our simulation for a certain number of years, and then print out the results for each year.
+If you call and run the `runYear()` function, you'll notice that we are not yet actually advancing the years in our simulation. Our goal is to run our simulation for a certain number of years, and then print out the results for each year.
 
-To do this, we will want to create a `while` loop that will run our simulation until certain conditions are met. To do this, we can define a new cell that encapsulates both our `popSim()` function and our `runYear()` function. Firstly, then, delete any cells that contain these functions calls (we will call them in the new cell instead).
+To do this, we will want to create a `while` loop that will run our simulation repeatedly until certain conditions are met. To do this, we can define a new cell that encapsulates both our `popSim()` function and our `runYear()` function. Firstly, then, delete any cells that contain these functions calls (we will call them in the new designated cell instead).
 
 In the new cell, type the following:
 
@@ -560,7 +556,7 @@ Great! We now have a functioning simulation that allows our critters to gather f
 
 Sadly, starvation is a reality for many species. If the current food stockpile is not sufficient to feed every critter in a given year, we will (unfortunately) need to reduce our critter population accordingly.
 
-In order to simulate this on a basic level, we will want to add a few more lines to our `gather` method (because this method is concerned with food production/consumption). Let's go back to that method and add the following:
+In order to simulate this on a basic level, we will want to add a few more lines to our `gather` method (because this method is concerned with food production/consumption). Let's go back to that method and add the following code:
 
 ```python
         # if there are not enough able critters to produce food in the pop, food will deplete
@@ -580,7 +576,7 @@ As mentioned, for each critter to survive they will need exactly one unit of foo
 
 ## Environmental Disasters
 
-Lastly, let's set up a basic environmental disaster scenario. To add this functionality, we will want to add a few lines to our `runYear()` function. Let's go back to that function and add the following:
+Lastly, let's set up a basic environmental disaster scenario. To add this functionality, we will want to add a few lines to our `runYear()` function, so that every year we have a potential chance for a disaster. Let's go back to that function and add the following:
 
 ```python
     # set up chance for a disaster
@@ -592,21 +588,108 @@ Lastly, let's set up a basic environmental disaster scenario. To add this functi
     print(f"After reproducing and/or any disasters, critter population is currently {len(critterList)}.")
 ```
 
-Using our `disasterChance` global value we set at the outset of the program, we test to see if a random number falls in its range (i.e., if it's within 0-9). If so, we will `del` (delete) some critters from our list, again taking a slice. We generate a random number between 5% and 20% to see how much damage the disaster will inflict. We multiply this value by the length of our critter list to get a 5-20% slice of our population, and then delete that slice. To keep tabs in our readout, we display a message saying a disaster has occurred, and print out the surviving population.
+Using our `disasterChance` global value we set at the outset of the program, we test to see if a random number falls in its range (i.e., if it's within 0-9, so a 10% chance). If so, we will `del` (delete) some critters from our list, again taking a slice. We generate a random number between 5% and 20% to see how much damage the disaster will inflict. We multiply this value by the length of our critter list to get a 5-20% slice of our population, and then delete that slice. To keep tabs in our readout, we display a message saying a disaster has occurred, and print out the surviving population.
+
+If you run the simulation now, you should see that we now have a more interesting simulation playing out, with the new elements we defined factoring into our critter population growth (or lack thereof!).
+
+## Evaluation
+
+What is the difference between a global and a local variable?
+
+<Secret>
+__Global variables__ are variables that are defined outside of a function or class. They can be accessed _anywhere_ in your program. __Local variables__, on the other hand, are variables that are defined within a function or class/method. They are only accessible _within_ the scope of that function or class.
+</Secret>
 
 ### Key Terms
 
 <Keywords>
-- global variables
- Unlike local variables, which are limited in scope, global variables can be accessed anywhere in your programs.
-- local variables
-Local variables are variables that are defined within a function or method. They are only accessible within the scope of that function or method.
 - len()
 The length function allows us to catch the number of elements in a given list.
+
 - remove()
 Removes the current single value from a list.
+
 - del()
 Removes a particular range or slice from a list.
+
 - while
 While statements will loop through a set of instructions until certain conditions are met.
 </Keywords>
+
+# Theory to Practice
+
+Congratulations for making it this far! You now have a working simulation and a basic understanding of how to create your own classes, methods, and functions. These are key concepts in object-oriented programming, and will be useful to you as you continue to learn Python and other programming languages.
+
+Below are some additional ideas, challenges, and resources to help you continue to build on what you've learned.
+
+### Complicate Things! 
+
+To gain more familiarity with managing larger programs, try to add some more complexity to your simulation. Here are some ideas:
+
+- Create a new "play" method that allows your critters some much needed time for relaxation and fun. If critters are not able to play, they will become sad and unmotivated/unable to gather food for the population in a given year. If they are able to find time to play, however, they will be more motivated to gather food and will produce extra resources.
+- Add a new method that allows your critters to die of disease (instead of just starvation and disasters). If a critter survives a disease, they will be immune to it for the rest of their lives.
+- Create different temperaments or personalities for individual critters. For instance, some critters might be more aggressive and less likely to die of starvation, but more likely to die due to infighting with other critters. Other critters might be more motivated to find a mate and reproduce, but less likely to gather food. There are endless combinations you can envision and create!
+
+### Adding User Input
+
+If we were to run our simulation as it is, we would have to manually change the global variables each time we wanted to change the parameters of our simulation. This is not ideal, because it would require us to change the code every time we wanted to run a new simulation. If we were to ship this program to a client, we would want them to be able to easily change the parameters of the simulation without having to change the code itself.
+
+As you might recall from the Intro to Python workshop, a basic way we could do this is by using the `input()` function. For instance, you could allow the user to change the starting population of the program every time they run it, like so:
+
+```python
+# get user input for initial parameters
+startPopulation = int(input("How many critters would you like to start with? "))
+```
+
+Here we use the `input()` function to ask the user for input, and then store that input in our global variable. Note that we have to convert the input to an integer, because the `input()` function will always return a string.
+
+You can add this functionality to your program, and then run it to see how it works. You can also add additional `input()` statements to allow the user to change other parameters, like the fertility age range, the disaster chance, etc.
+
+### Visualize Your Simulation
+
+At the moment, our simulation output isn't very user-friendly. It is quite difficult to read and assess trends in the population growth (along with just not being very pretty to look at). If you want to take your simulation to the next level, you might try using the `matplotlib` library to create a visualization of your simulation. This will allow you to see the population growth in a plot graph, and will give you a better sense of how your population is evolving over time. 
+
+Let's look at a brief example of how we might achieve this functionality by plotting the population growth over time.
+
+To do this, you will first need to import the `matplotlib` library at the beginning of your program, like so:
+
+```python
+import matplotlib.pyplot as plt
+```
+
+Then, you will want to create a new list to store the population of your critters at the end of each year. To do this, add the following line to your global variables:
+
+```python
+popList = []
+```
+
+Next, you will want to add a new line to your `runYear()` function, like so:
+
+```python
+    # add the current population to our list
+    popList.append(len(critterList))
+```
+
+This will add the current population to our `popList` at the end of each year. Finally, you will want to add the following lines to the end of your simulation, after the `while` loop:
+
+```python
+# plot the results
+plt.plot(popList)
+plt.ylabel('Population')
+plt.xlabel('Year')
+plt.show()
+```
+
+This will plot the results of your simulation, showing the population growth over time. You can add this functionality to your program, and then run all cells to see how it works.
+
+### Additional Resources
+
+If you want to learn more about object-oriented programming in Python, I recommend checking out this W3 schools tutorial:  [Python Classes and Objects](https://www.w3schools.com/python/python_classes.asp)
+
+If you want to learn more about how to use `matplotlib`, you can check out the [official documentation](https://matplotlib.org/stable/tutorials/pyplot.html).
+
+
+
+
+
+
