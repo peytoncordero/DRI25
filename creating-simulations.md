@@ -597,7 +597,9 @@ If you run the simulation now, you should see that we now have a more interestin
 What is the difference between a global and a local variable?
 
 <Secret>
-__Global variables__ are variables that are defined outside of a function or class. They can be accessed _anywhere_ in your program. __Local variables__, on the other hand, are variables that are defined within a function or class/method. They are only accessible _within_ the scope of that function or class.
+__Global variables__ are variables that are defined outside of a function or class. They can be accessed _anywhere_ in your program. 
+
+__Local variables__, on the other hand, are variables that are defined within a function or class/method. They are only accessible _within_ the scope of that function or class.
 </Secret>
 
 ### Key Terms
@@ -629,21 +631,6 @@ To gain more familiarity with managing larger programs, try to add some more com
 - Create a new "play" method that allows your critters some much needed time for relaxation and fun. If critters are not able to play, they will become sad and unmotivated/unable to gather food for the population in a given year. If they are able to find time to play, however, they will be more motivated to gather food and will produce extra resources.
 - Add a new method that allows your critters to die of disease (instead of just starvation and disasters). If a critter survives a disease, they will be immune to it for the rest of their lives.
 - Create different temperaments or personalities for individual critters. For instance, some critters might be more aggressive and less likely to die of starvation, but more likely to die due to infighting with other critters. Other critters might be more motivated to find a mate and reproduce, but less likely to gather food. There are endless combinations you can envision and create!
-
-### Adding User Input
-
-If we were to run our simulation as it is, we would have to manually change the global variables each time we wanted to change the parameters of our simulation. This is not ideal, because it would require us to change the code every time we wanted to run a new simulation. If we were to ship this program to a client, we would want them to be able to easily change the parameters of the simulation without having to change the code itself.
-
-As you might recall from the Intro to Python workshop, a basic way we could do this is by using the `input()` function. For instance, you could allow the user to change the starting population of the program every time they run it, like so:
-
-```python
-# get user input for initial parameters
-startPopulation = int(input("How many critters would you like to start with? "))
-```
-
-Here we use the `input()` function to ask the user for input, and then store that input in our global variable. Note that we have to convert the input to an integer, because the `input()` function will always return a string.
-
-You can add this functionality to your program, and then run it to see how it works. You can also add additional `input()` statements to allow the user to change other parameters, like the fertility age range, the disaster chance, etc.
 
 ### Visualize Your Simulation
 
@@ -688,8 +675,7 @@ If you want to learn more about object-oriented programming in Python, I recomme
 
 If you want to learn more about how to use `matplotlib`, you can check out the [official documentation](https://matplotlib.org/stable/tutorials/pyplot.html).
 
-
-
+TODO: Add more resources here: maybe SimPy, etc.
 
 
 
