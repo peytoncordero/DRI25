@@ -35,11 +35,9 @@ ethical considerations:
     - Simulations are often used to model real-world scenarios. In this workshop, we will be creating a simulation that tracks the population growth of a proposed (imaginary) species of Critter, taking into account a variety of biological and environmental factors. While this simulation is not meant to be a realistic model, it is important to consider the ethical implications of creating simulations that are meant to model real-world scenarios. For example, what are the implications of creating a simulation that models the spread of a disease? What are the consequences if we fail to consider the racial or socioeconomic factors that might influence the spread of that disease? What about using that simulation to make policy decisions? These are all important questions to consider when creating simulations, and we encourage you to think through the ethical implications of your own simulations as you create them.
 
 projects:
-    - The NEH Impact Index:
-        description: 
-    - Mapping Arts NYC: 
-        description: 
-        link: 
+    - 4 Cool Simulation Projects with Python:
+        description: This video will give you some project ideas and links to the code for creating simulations in Python.
+        link: https://www.youtube.com/watch?v=M39R2A8kuh8
         
 resources:
     - Digital Fellows’ Python Cheat Sheet: 
@@ -602,8 +600,6 @@ __Global variables__ are variables that are defined outside of a function or cla
 __Local variables__, on the other hand, are variables that are defined within a function or class/method. They are only accessible _within_ the scope of that function or class.
 </Secret>
 
-### Key Terms
-
 <Keywords>
 - len()
 The length function allows us to catch the number of elements in a given list.
@@ -669,13 +665,17 @@ plt.show()
 
 This will plot the results of your simulation, showing the population growth over time. You can add this functionality to your program, and then run all cells to see how it works.
 
+To get more practice, try adding more elements to your plot, such as the food stockpile, or the number of able critters. You might also create entirely new plots detailing the trends of disasters or starvation. You can also try adding a legend to your plots, or changing the color of the lines. There are many ways to customize your plots using the `matplotlib` library, so check out the documentation linked in resources below and feel free to experiment! 
+
 ### Additional Resources
 
 If you want to learn more about object-oriented programming in Python, I recommend checking out this W3 schools tutorial:  [Python Classes and Objects](https://www.w3schools.com/python/python_classes.asp)
 
 If you want to learn more about how to use `matplotlib`, you can check out the [official documentation](https://matplotlib.org/stable/tutorials/pyplot.html).
 
-TODO: Add more resources here: maybe SimPy, etc.
+If you are interested in doing more with simulations in Python, you might want to check out the SimPy library, which allows you to create discrete event simulations. You can find the documentation [here](https://simpy.readthedocs.io/en/latest/). 
+
+PyChrono is another Python library that allows you to create simulations, but with a focus on physics. You can find more about the library [here](https://projectchrono.org/pychrono/).
 
 
 
