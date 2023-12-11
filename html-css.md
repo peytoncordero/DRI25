@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to HTML and CSS'
 cover title: HTML & CSS
-description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the world wide web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
+description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the World Wide Web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites and website templates. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
@@ -30,7 +30,7 @@ readings:
 
 podcasts:
     - "[Command Line Heroes: A Language For The Web](https://www.redhat.com/en/command-line-heroes/season-7/html) A fascinating and accessible discussion on the origins of HTML and some of the technological basis required to make it happen."
-    - "[Marketplace Tech: How the history of Blackness on the internet was erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview with Charleton McIlwain, Professor of Media and Communications at New York University, on his book **Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter.**"
+    - "[Marketplace Tech: How the history of Blackness on the internet was erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview is with Charleton McIlwain, Professor of Media, Culture, and Communications at New York University, on his book _Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter._"
 
 projects:
     - description: "HTML and CSS are fundamental to building websites. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included three different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
