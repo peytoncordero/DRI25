@@ -118,7 +118,7 @@ A code editor is a software application that is specifically designed for writin
 
 ## Download the dataset & upload it into the code editor
 Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
-- Click this button to download the dataset to your computer: <Download files='uploads/refugee-arrivals-by-destination.csv>
+- Click this button to download the dataset to your computer: <Download files='/uploads/pandas/refugee-arrivals-by-destination.csv'>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
 - Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
 
@@ -134,7 +134,7 @@ As you get more comfortable with coding in Python, you can also directly import 
 
 We’ve also saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
 
-- Click this button to download Jupyter Notebook file to your computer: <Download files='uploads/pandas_workshop_2024.ipynb>
+- Click this button to download Jupyter Notebook file to your computer: <Download files='/uploads/pandas/pandas_workshop_2024.ipynb'>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
 - Click the upward facing arrow symbol to upload your pandas_workshop_2024.ipynb file. 
 - Once it's in that folder, you should be all set! 
