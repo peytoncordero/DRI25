@@ -21,7 +21,7 @@ prerequisites:
         description: (required) This workshop relies heavily on concepts from the Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about higher-level Python concepts.
         required: true
     - data ethics: 
-        description: Data Ethics (Recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
+        description: (recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
         recommended: true
 
 authors:
@@ -327,7 +327,7 @@ __Concepts to focus on:__
 - Creating logical environment parameters
 - Component-driven design: separating out functions so that each has a single general purpose
 - Working with lists
-- Coordinating data among member functions
+- Coordinating data among member functions and methods
 
 ## Getting Started
 
@@ -343,7 +343,7 @@ When we write variables outside a specific function or class, they are considere
 
 Global variables are useful when you want multiple functions to be able to easily access their values. It is important to note, however, that it is generally good coding practice to _keep your use of global variables to a minimum_. Too many global variables will make your programs confusing for other programmers looking over your code, and will require more overhead/computing power than is usually necessary.
 
-Since our program is relatively small, and just to keep things simple for our example, we'll set up our initial parameters for the simulation as a series of global variables below our `import` statement, like so:
+Since our program is relatively small, and just to keep things simple for our example, we'll set up our initial parameters for the simulation as a series of global variables in a new cell below our `import` statement, like so:
 
 ```python
 # initial global parameters - variables that can be accessed anywhere in your program
@@ -423,7 +423,7 @@ for critter in critterList:
 
 Now that we have set up some very basic characteristics of our critters and a population to work with, we will want to let them perform some actions. We can do this by writing __methods__. Let's create two very basic methods, `gather()` and `reproduce()`.
 
-Each of these methods serve different purposes in our simulation. The `gather()` method will allow our critters to gather food, and will also determine if any critters starve to death from a stockpile shortage (we'll attempt the latter part later). The `reproduce()` method will allow our critters to reproduce (obviously), and will allow our overall population to grow as the years advance. Let's start with the `gather()` method.
+Each of these methods serve different purposes in our simulation. The `gather()` method will allow our critters to gather food, and will also determine if any critters starve to death from a stockpile shortage (we'll attempt this latter part later). The `reproduce()` method will allow our critters to reproduce (obviously), and will allow our overall population to grow as the years advance. Let's start with the `gather()` method.
 
 ## The gather() Method
 
