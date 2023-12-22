@@ -17,10 +17,10 @@ estimated time:
     - 3 hours
 
 prerequisites: 
-    - python: 
+    - Intro to Python: 
         description: (required) This workshop relies heavily on concepts from the Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about higher-level Python concepts.
         required: true
-    - data-ethics: 
+    - Data Ethics: 
         description: (recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
         recommended: true
 
@@ -82,7 +82,7 @@ A full source file of the program we will be writing in this section can be down
 
 You are welcome to use the source file as a reference, but we encourage you to try to write the code yourself first. If you get stuck, you can always refer to the source file for help. 
 
-<Info>To access the file, click the "Download" button above, and then save the file to your computer. You can then upload the file to your Jupyter environment by clicking the "Upload" button on the left-hand side of the environment.</Info>
+<Info>To access the file, click the "Download" button above, and then save the file to your computer. You can then upload the file to your Jupyter environment by clicking the "Upload" button on the left-hand side of the environment (the upward arrow).</Info>
 
 Let's begin writing our own program by opening Jupyter notebooks. On the side of the screen, click the "Open Code Editor" button to slide out the Jupyter environment. First, let's create a new Python file called `DiceSim` (the Python (Pyodide) version will suffice). Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
 
@@ -370,8 +370,8 @@ As you can see, each variable is commented to give some context for its use. The
 
 <table>
     <tr>
-        <th><emphasis>Variable</emphasis></th>
-        <th><emphasis>Description</emphasis></th>
+        <th>Variable</th>
+        <th>Description</th>
     </tr>
     <tr>
         <td><strong>startPopulation</strong></td>
