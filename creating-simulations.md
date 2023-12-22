@@ -17,10 +17,10 @@ estimated time:
     - 3 hours
 
 prerequisites: 
-    - intro to python: 
+    - python: 
         description: (required) This workshop relies heavily on concepts from the Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about higher-level Python concepts.
         required: true
-    - data ethics: 
+    - data-ethics: 
         description: (recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
         recommended: true
 
@@ -38,11 +38,6 @@ projects:
     - 4 Cool Simulation Projects with Python:
         description: This video will give you some project ideas and links to the code for creating simulations in Python.
         link: https://www.youtube.com/watch?v=M39R2A8kuh8
-        
-resources:
-    - Digital Fellows’ Python Cheat Sheet: 
-        description: See the Digital Fellows’ Python Cheat Sheet for handy commands that we cover in this workshop.
-        link: https://curriculum.dhinstitutes.org/shortcuts/workshop/python
 
 ---
 
@@ -79,9 +74,17 @@ Concepts we'll focus on:
 - Using stats methods
 - Printing results
 
+As you can see, we will be covering quite a lot of new concepts and skills. It is natural to feel a bit overwhelmed at first, but don't worry--we will be taking things step-by-step. Let's begin!
+
 ## Getting Started
 
-Let's begin by opening Jupyter notebooks. On the side of the screen, click the "Open Code Editor" button to slide out the Jupyter environment. First, let's create a new Python file called `DiceSim` (the Python (Pyodide) version will suffice). Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
+A full source file of the program we will be writing in this section can be downloaded here: <Download files='DiceSim_full.ipynb'>
+
+You are welcome to use the source file as a reference, but we encourage you to try to write the code yourself first. If you get stuck, you can always refer to the source file for help. 
+
+<Info>To access the file, click the "Download" button above, and then save the file to your computer. You can then upload the file to your Jupyter environment by clicking the "Upload" button on the left-hand side of the environment.</Info>
+
+Let's begin writing our own program by opening Jupyter notebooks. On the side of the screen, click the "Open Code Editor" button to slide out the Jupyter environment. First, let's create a new Python file called `DiceSim` (the Python (Pyodide) version will suffice). Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
 
 ```python
 import random
@@ -149,8 +152,10 @@ And that's it! You have successfully created a new die object that can be rolled
 
 If the user rolls a six, tell them that they're a winner and get a prize. If they didn't roll a 6, display that they're a loser.
 
+
+
 <Secret>
-Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6.
+Create a new variable that stores a roll. Then, use an `if` statement to check if the roll is equal to 6, and display the appropriate message using an `f-string`:
 
 ```python
 r = die.roll()
@@ -331,7 +336,11 @@ __Concepts to focus on:__
 
 ## Getting Started
 
-Create a new Python file called `CritterSim`. Because we will be using a lot of random values in our program, we'll first want to `import` the `random` module at the beginning of the file, like we did in the previous section:
+You can download the full source file for this section here: <Download files='CritterSim_full.ipynb'>
+
+Again, while you can use the source file as a reference, we encourage you to try to write the code yourself first. If you get stuck, you can always refer to the source file for help.
+
+To begin, let's create a new Jupyter Python file called `CritterSim`. Because we will be using a lot of random values in our program, we'll first want to `import` the `random` module at the beginning of the file, like we did in the previous section:
 
 ```python
 import random
@@ -359,19 +368,44 @@ critterList = []  # list to hold all critter objects
 
 As you can see, each variable is commented to give some context for its use. These variables will make more sense once we actually start to employ them, but let's do a quick run-through of their purposes:
 
-`startPopulation` is the initial number of Critters we want to start with in our simulation. Although 50 is not a realistic number (considering the real-life genetic consequences of inbreeding), it will work for the purposes of our simulation.
-
-`year` will be the variable we'll use to track what year of the simulation it is.
-
-`resources` is the number of individual `food` units our critters can produce. For our simulation, each critter will need exactly one unit of food to survive, so to give them a fighting chance we'll let each "able" critter (more on that later) produce 2 units.
-
-`food`constitutes the total number of units of food that all critters produce and have to eat in a given year.
-
-`fertility_x` constitutes the lowest possible age at which a critter can give birth (so they're not too young). Let's be optimistic with these critters and propose they can live for a rather long time (perhaps 50 years or so), and set the low fertility level to 10.
-
-`fertility_y` constitutes the highest possible age at which a critter can give birth (so they're not too old). To start, let's keep the fertility period rather short and set the maximum age to 20 (we can always adjust it later).
-
-`critterList` is a list that will contain the entire population of our critters. We will access and modify this list continuously in order to assess our total population growth.
+<table>
+    <tr>
+        <th>Variable</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>startPopulation</td>
+        <td>The initial number of Critters we want to start with in our simulation. Although 50 is not a realistic number (considering the real-life genetic consequences of inbreeding), it will work for the purposes of our simulation.</td>
+    </tr>
+    <tr>
+        <td>year</td>
+        <td>The variable we'll use to track what year of the simulation it is.</td>
+    </tr>
+    <tr>
+        <td>resources</td>
+        <td>The number of individual food units our critters can produce. For our simulation, each critter will need exactly one unit of food to survive, so to give them a fighting chance we'll let each "able" critter (more on that later) produce 2 units.</td>
+    </tr>
+    <tr>
+        <td>food</td>
+        <td>The total number of units of food that all critters produce and have to eat in a given year.</td>
+    </tr>
+    <tr>
+        <td>fertility_x</td>
+        <td>The lowest possible age at which a critter can give birth (so they're not too young). Let's be optimistic with these critters and propose they can live for a rather long time (perhaps 50 years or so), and set the low fertility level to 10.</td>
+    </tr>
+    <tr>
+        <td>fertility_y</td>
+        <td>The highest possible age at which a critter can give birth (so they're not too old). To start, let's keep the fertility period rather short and set the maximum age to 20 (we can always adjust it later).</td>
+    </tr>
+    <tr>
+        <td>disasterChance</td>
+        <td>The chance of a disaster occurring. We'll set this to 10% for now, but we can always adjust it later.</td>
+    </tr>
+    <tr>
+        <td>critterList</td>
+        <td>A list that will contain the entire population of our critters. We will access and modify this list continuously in order to assess our total population growth.</td>
+    </tr>
+</table>
 
 ## Creating the Critter Class
 
