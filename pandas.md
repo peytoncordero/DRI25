@@ -1480,12 +1480,9 @@ To see a full list of the columns in our DataFrame, we can run the following com
 refugee_df.columns
 ```
 
+Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
 
-
-
-    Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
-
- ![List of Columns](/images/pandas/columns.png)
+![List of Columns](/images/pandas/columns.png)
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
 
