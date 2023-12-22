@@ -374,35 +374,35 @@ As you can see, each variable is commented to give some context for its use. The
         <th>Description</th>
     </tr>
     <tr>
-        <td>startPopulation</td>
+        <td><strong>startPopulation</strong></td>
         <td>The initial number of Critters we want to start with in our simulation. Although 50 is not a realistic number (considering the real-life genetic consequences of inbreeding), it will work for the purposes of our simulation.</td>
     </tr>
     <tr>
-        <td>year</td>
+        <td><strong>year</strong></td>
         <td>The variable we'll use to track what year of the simulation it is.</td>
     </tr>
     <tr>
-        <td>resources</td>
+        <td><strong>resources</strong></td>
         <td>The number of individual food units our critters can produce. For our simulation, each critter will need exactly one unit of food to survive, so to give them a fighting chance we'll let each "able" critter (more on that later) produce 2 units.</td>
     </tr>
     <tr>
-        <td>food</td>
+        <td><strong>food</strong></td>
         <td>The total number of units of food that all critters produce and have to eat in a given year.</td>
     </tr>
     <tr>
-        <td>fertility_x</td>
+        <td><strong>fertility_x</strong></td>
         <td>The lowest possible age at which a critter can give birth (so they're not too young). Let's be optimistic with these critters and propose they can live for a rather long time (perhaps 50 years or so), and set the low fertility level to 10.</td>
     </tr>
     <tr>
-        <td>fertility_y</td>
+        <td><strong>fertility_y</strong></td>
         <td>The highest possible age at which a critter can give birth (so they're not too old). To start, let's keep the fertility period rather short and set the maximum age to 20 (we can always adjust it later).</td>
     </tr>
     <tr>
-        <td>disasterChance</td>
+        <td><strong>disasterChance</strong></td>
         <td>The chance of a disaster occurring. We'll set this to 10% for now, but we can always adjust it later.</td>
     </tr>
     <tr>
-        <td>critterList</td>
+        <td><strong>critterList</strong></td>
         <td>A list that will contain the entire population of our critters. We will access and modify this list continuously in order to assess our total population growth.</td>
     </tr>
 </table>
