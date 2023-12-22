@@ -370,8 +370,8 @@ As you can see, each variable is commented to give some context for its use. The
 
 <table>
     <tr>
-        <th>Variable</th>
-        <th>Description</th>
+        <th><emphasis>Variable</emphasis></th>
+        <th><emphasis>Description</emphasis></th>
     </tr>
     <tr>
         <td><strong>startPopulation</strong></td>
