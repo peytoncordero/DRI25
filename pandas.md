@@ -1619,7 +1619,7 @@ refugee_df
 </div>
 
 <Keywords>
--.rename()
+- .rename()
 In Pandas, the rename method is used to change the labels (names) of columns or index in a DataFrame. It allows for both selective renaming and modifying all labels using a dictionary or a function.
 </Keywords>
 
