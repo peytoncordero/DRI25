@@ -9,7 +9,7 @@ learning objectives:
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
 facilitators: 
-    name: 'Ian Williams'
+    name: 'Ian G. Williams'
     description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
 
 estimated time:
@@ -30,7 +30,7 @@ readings:
 
 podcasts:
     - "[Command Line Heroes: A Language For The Web](https://www.redhat.com/en/command-line-heroes/season-7/html) A fascinating and accessible discussion on the origins of HTML and some of the technological basis required to make it happen."
-    - "[Marketplace Tech: How The History of Blackness On The Internet Was Erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview is with Charleton McIlwain, Professor of Media, Culture, and Communications at New York University, on his book _Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter._"
+    - "[Marketplace Tech: How The History of Blackness On The Internet Was Erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview is with Charleton McIlwain, Professor of Media, Culture, and Communications at New York University, on his book _Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter._ The discussion touches upon the insibility and erasure of Black voices, perspectives, and contributions to the development of the Internet."
 
 projects:
     - description: "HTML and CSS are fundamental to building websites. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included three different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
