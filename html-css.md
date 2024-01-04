@@ -8,6 +8,8 @@ learning objectives:
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
+authors:
+
 instructors:
     - 'Ian G. Williams'
 
