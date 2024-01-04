@@ -8,6 +8,9 @@ learning objectives:
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
+instructors:
+    - 'Ian G. Williams'
+
 facilitators: 
     name: 'Ian G. Williams'
     description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
