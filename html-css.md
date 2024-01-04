@@ -9,7 +9,7 @@ learning objectives:
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
 instructors:
-    - '[Ian G. Williams](https://commons.gc.cuny.edu/members/igwilliams/)'
+    - 'Ian G. Williams'
 
 facilitators: 
     name: 'Ian G. Williams'
