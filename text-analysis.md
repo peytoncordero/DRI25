@@ -1,9 +1,10 @@
 title: 'Text Analysis Workshop'
-description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is how to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
+description: 'Digital technologies have made vast amounts of text available to researchers, and this same technological moment has provided us with the capacity to analyze that text faster than humanly possible. The first step in that analysis is to transform texts designed for human consumption into a form a computer can analyze. Using Python and the Natural Language ToolKit (commonly called NLTK), this workshop introduces strategies to turn qualitative texts into quantitative objects. Through that process, we will present a variety of strategies for simple analysis of text-based data.'
 cover_image: '/images/workshops/img7.jpg'
 programming_language: "jupyter"
 
 learning objectives:
+<<<<<<< HEAD
 	- Expand data manipulation possibilities beyond quantitative data
 	- Compare digital humanities and social science approaches to textual analysis.
 	- Shed light on the system of relations behind the generation of data and packages.
@@ -34,6 +35,38 @@ dependencies:
 	insights:
     	jupyter-notebooks:
 
+=======
+    - How to prepare texts for computational analysis, including strategies for transforming texts into numbers
+    - How to use NLTK methods such as `concordance` and `similar`
+    - How to clean and standardize your data, including powerful tools such as stemmers and lemmatizers
+    - Compare frequency distribution of words in a text to quantify the narrative arc
+    - Understand stop words and how to remove them when needed.
+    - Utilize Part-of-Speech tagging to gather insights about a text
+    - Transform any document that you have (or have access to) in a .txt format into a text that can be analyzed computationally
+    - How to tokenize your data and put it in a format compatible with Natural Language Toolkit.
+
+estimated time:
+    - 10 hours
+
+dependencies:
+    workshop prerequisites:
+        python:
+            description: (required) This workshop relies heavily on concepts from the Python workshop, and having a basic understanding of how to use the commands discussed in the workshop will be central for anyone who wants to learn about text analysis with Python and NLTK.
+            required: true
+        command-line:
+            description: (recommended) This workshop makes some reference to concepts from the Command Line workshop, and having basic knowledge about how to use the command line will be central for anyone who wants to learn about text analysis with Python and NLTK.
+            recommended: true
+    installations:
+        pythonguide: 
+            description: (Required) You can use any installation of Python (but make sure it is of version 3). For our purposes, Anaconda will provide everything necessary for all the workshops that are part of the DHRI curriculum.
+            required: true
+        nltk:
+            description: (required) You will need to install the NLTK package into your Python packages for the purposes of this workshop. This guide will help you along the way.
+            required: true
+    insights:
+        jupyter-notebooks:
+            description: (recommended) This workshop uses Jupyter Notebooks to process the Python commands in a clear and visual way. Anyone who wants to follow along in the workshop on text analysis with Python and NLTK should read this very short introduction to how to use Notebooks.
+>>>>>>> parent of 20a275f (learning objectives)
 
 readings:
 	- "[A Beginner’s Tutorial to Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)"
@@ -54,9 +87,13 @@ resources:
 
 # Text as Data
 
+<<<<<<< HEAD
 When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized.
 
 [needs a rewrite]
+=======
+When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. That has been done for a while, but now we can do it in a much larger scale, in a much faster way.
+>>>>>>> parent of 20a275f (learning objectives)
 
 Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
 What are basic ways to think about text as data?
