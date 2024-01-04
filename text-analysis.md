@@ -102,30 +102,38 @@ Which of the following could be considered a corpus?
 
 ## Keywords
 
-Do you remember the glossary terms from this section?
+Do you remember the glossary terms from this section? 
 
 - [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
+- **Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
+
 
 # Using the NLTK Corpus
 
 In the following sections, we are going to learn how to work with the NLTK Corpus and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
 
-## So What Corpus are We Using?
-Loading our copus we’re using into our JupyterLite notebook
+## Getting Started
 
-Start with a new JupyterLite file
+Start with a new JupyterLite file.
 
-**Review Jupyterlite commands**
- * Two modes – Edit Mode (to edit code, press Enter on any cell) and Command Mode (to run the code, press Escape on any cell)
- * When in Command Mode
- 	* Add new cells with “A”; delete cells with “B”
+**Reviewing Jupyterlite**
 
-All three of these commands can be written in the same cell and run all at once (<kbd>shift</kbd> + <kbd>enter</kbd>) or in different cells.
+
+*Edit Mode* - to edit code, <kbd> Enter</kbd> any cell
+
+*Command Mode* - to run the code, <kbd> Escape</kbd> on any cell
+
+When in *Command Mode*
+ * Add new cells with <kbd>A</kbd>
+ * Delete cells with <kbd>B</kbd>
+
+Run code in cell with (<kbd>shift</kbd> + <kbd>enter</kbd>).
 
 If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
 
-**Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
+## Loading Corpus
 
+First lines of code - importing NLTK library and the patch for running external (HTTP) links in our JupyterLite. 
 
 ```
 import nltk
@@ -133,7 +141,7 @@ import pyodide_http
 pyodide_http.patch_all()
 ```
 
-We will also need the `matplotlib` library later on, so import it now:
+We will also need the `matplotlib` library for data visualization, import it now:
 
 
 ```
