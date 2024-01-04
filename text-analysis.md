@@ -106,6 +106,122 @@ Do you remember the glossary terms from this section?
 
 - [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
 
+# Using the NLTK Corpus
+
+In the following sections, we are going to learn how to work with the NLTK Corpus and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
+
+## So What Corpus are We Using?
+Loading our copus we’re using into our JupyterLite notebook
+
+Start with a new JupyterLite file
+
+**Review Jupyterlite commands**
+ * Two modes – Edit Mode (to edit code, press Enter on any cell) and Command Mode (to run the code, press Escape on any cell)
+ * When in Command Mode
+ 	* Add new cells with “A”; delete cells with “B”
+
+All three of these commands can be written in the same cell and run all at once (<kbd>shift</kbd> + <kbd>enter</kbd>) or in different cells.
+
+If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
+
+**Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
+
+
+```
+import nltk
+import pyodide_http
+pyodide_http.patch_all()
+```
+
+We will also need the `matplotlib` library later on, so import it now:
+
+
+```
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
+
+`matplotlib` is a library for making graphs. In the middle of this tutorial, we are going to make a dispersion plot of words in our texts.
+
+Finally, because of a quirk of Jupyter notebooks, we need to specify that `matplotlib` should display its graphs in the notebook (as opposed to in a separate window), so we type this command (this is technically a Jupyter command, not Python):
+
+
+```
+
+nltk.download('all-corpora')
+```
+
+OR 
+
+```
+nltk.download('genesis')
+nltk.download('gutenberg')
+nltk.download('inaugural')
+nltk.download('nps_chat')
+nltk.download('treebank')
+nltk.download('webtext')
+nltk.download('wordnet')
+```
+
+Next, we need to load all of the NLTK corpora into our program. 
+
+The pre-loaded NLTK texts should appear again. These are preformatted data sets. We will still have to do some minor processing, but having the data in this format saves us a few steps. At the end of this tutorial, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). Sometimes it will behave like a string, and sometimes like a list of words.
+
+
+```
+from nltk.book import *
+```
+
+Notice that each of the texts already have a variable name. _Moby Dick_ is `text1`, _Sense and Sensibility_ is `text2`, and so on. When we want to work with those books, we will call them by their variable name, as you'll see soon.
+
+
+What does it look like we’re working with?
+
+
+## Explore
+Let's pick one of these books for exploration...
+```
+text2
+```
+
+What is this object? 
+What can we do with it? 
+What's a way that we can poke at this thing?
+Other commands from previous workshops we can throw at this thing?
+
+```
+type(text4)
+
+```
+Huh that's interesting, what does that mean? Let's check out what is in the object. Let’s look at the first 10 elements in this object...
+
+
+
+```
+text3[0:10]
+```
+The most famous opening line…
+
+Is this text structured.....? Recall date literacy
+
+So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
+
+How might this be different from other corpus that you work with?
+
+If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!
+
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Corpus](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/corpus.md)
+- [Jupyter Notebook](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/jupyter-notebook.md)
+- [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
+- [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
+
+
 # Cleaning and Normalizing
 
 Generally, however, our questions are more about topics rather than writing style. So, once we have a corpus—whether that is one text or millions—we usually want to clean and normalize it. There are three terms we are going to need:
