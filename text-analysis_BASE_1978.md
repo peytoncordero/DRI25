@@ -55,11 +55,6 @@ resources:
 
 When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
 
-Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
-What are basic ways to think about text as data?
-How do we get data ready to be analyzed?
-What can we learn from the data? 
-
 
 ## Corpora
 
