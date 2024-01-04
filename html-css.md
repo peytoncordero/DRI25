@@ -11,6 +11,9 @@ learning objectives:
 instructors:
     - 'Ian G. Williams'
 
+editors:
+    - 'Ian G. Williams'
+
 facilitators: 
     name: 'Ian G. Williams'
     description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
