@@ -10,7 +10,7 @@ learning objectives:
 
 facilitators: 
     name: 'Ian Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000s.'
+    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
 
 estimated time:
     - 2-3 hours
@@ -46,6 +46,7 @@ resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
     - "[CSS Cheat Sheet](https://courses.cs.washington.edu/courses/cse154/15sp/cheat-sheets/css-cheat-sheet.pdf): A cheat sheet with some common CSS commands."
     - "[Web Development with Accessibility in Mind](https://www.w3.org/standards/webdesign/accessibility): This guide was created by the W3C, which is the international community that develops Web standards. This guide provides information on ways of making websites more accessible to those with disabilities."
+    - "[Library of Congress: Sustainability of Digital Formats: Hypertext Markup Language (HTML) Format Family](https://www.loc.gov/preservation/digital/formats/fdd/fdd000475.shtml): This guide provides an archivist's view on preservation and sustainability concerns regarding HTML."
 
 ---
 
