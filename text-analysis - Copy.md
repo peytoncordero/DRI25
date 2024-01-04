@@ -56,7 +56,6 @@ resources:
 When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
 
 Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
-
 What are basic ways to think about text as data?
 How do we get data ready to be analyzed?
 What can we learn from the data? 
@@ -64,40 +63,38 @@ What can we learn from the data?
 
 ## Corpora
 
-> Definition of a corpus: “any collection of more than one text”
+The first step in gathering insights from texts is to create a **corpus**. A corpus is a collection of texts that are somehow related to each other. For example, the [Corpus of Contemporary American English](https://corpus.byu.edu/coca/), [Donald Trump's Tweets](http://www.trumptwitterarchive.com/), [text messages](https://byts.commons.gc.cuny.edu/) sent by bilingual young adults, [digitized newspapers](https://chroniclingamerica.loc.gov/newspapers/), or [books](https://www.gutenberg.org/) in the public domain are all corpora. There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
-In your own research, as we’ve learned in the data literacy portion, the relationship between finding data and research question is iterative. 
+The route you take from here will depend on your research question. Let's say, for example, that you want to examine gender differences in writing style. Based on previous linguistic research, you hypothesize that male-identified authors use more definitives than female-identified. So you collect two corpora—one written by men, one written by women—and you count the number of *the*s, *this*s, and *that*s compared to the number of *a*s, *an*s, and *one*s. Maybe you find a difference, maybe you don't. We can already see that this is a relatively crude way of going about answering this question, but it is a start.
 
-In this workshop, we will hold the big theoretical questions and use a commonly used, publicly available set of texts for our corpus - NLTK
+Keep in mind that, oftentimes our analysis of gender assumes pre-existing gender roles that reproduce gender as a binary system. Some digital humanists have pointed out that, if gender is binary, then the relation between male and female will likely be one of opposition. As [Laura Mandell](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01) says, the categories of "male" and "female" are socially constructed, and quantitative analysis practitioners should avoid jumping to conclusions about "male" and "female" styles of thinking and writing "as if the M/F terms were simple pointers to an unproblematic reality, transparently referential and not discursively constituted."
 
-But you can think about a corpus as *any* collection of texts that are somehow related to each other. 
+There has been some research about how the [linguistic complexity of written language](http://science.sciencemag.org/content/sci/331/6014/176.full.pdf) in long-form pieces (i.e., books, articles, letters, etc.) has decreased over time. Simply put, people today use shorter sentences with fewer embedded clauses and complex tense constructions than people did in the past. (Note that this is not necessarily a bad or good thing.) Based on this research, we want to know if short-form platforms are emblematic of the change (we predict that they are based on our own experience with short-form platforms like email and Twitter). One way to do this would be to use Part-of-Speech tagging. Part-of-Speech (POS) tagging is a way to identify the category of words in a given text.
 
-* 
-* 
-* 
+For example, the sentence:
 
-There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
+> I like the red bicycle.
 
-The route you take from here will depend on your research question. 
+has one pronoun, one verb, one determiner, one adjective, and one noun.
 
-What’s an example of textual corpora in your field of research?
+> (**I** : Pronoun), (**like** : Verb), (**the** : Determiner), (**red** : Adjective), (**bicycle** : Noun)
+
+NLTK uses the [Penn Tree Bank Tag Set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html). This is a very detailed tag list that goes far beyond just nouns, verbs, and adjectives, but gives insight into different types of nouns, prepositions, and verbs as well. Virtually all POS taggers will create a list of (word, POS) pairs. If newspaper articles have a higher ratio of function words (prepositions, auxiliaries, determiners, etc.) to semantic words (nouns, verbs, adjectives), than tweets, then we have one piece of evidence supporting our hypothesis. It's important to note here that we must use either ratios or otherwise normalized data (in the sense that raw numbers will not work). Because of the way that language works (function words are often repeated, for example), a sample of 100 words will have more unique words than a sample of 1,000. Therefore, to compare different data types (articles vs. tweets), this fact should be taken into account.
 
 ## A Note About Languages
 
-Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
+Even though in this workshop we will use the English language in the examples, NLTK does support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
-What’s languages are most frequently used for web content as of January 2023, by share of websites?
+If you are planning to work with other languages than English, you will have to figure out what tools are available and how to use them. Unfortunately, it is not something that can be fully explained in a general workshop like this. Some times it is as easy as changing `stopwords.words("English")` (a command we will teach you later) to `stopwords.words("Spanish")`. Occasionally, it will be harder than that. A search engine (Google, DuckDuckGo...) will be your best friend here.
 
 ## Evaluation
 
-Which of the following could be considered a corpus?
+Which of the following sentences is correct:
 
 <Quiz>
-- My 2 year-old nephew’s random keyboard mashings
-- Your grocery list for this past week
-- All of our grocery lists from this past week *
-- Your grocery lists from 2013-2023 *
-- Random sample of tweets containing #blessed *
+- A text is not data in itself, but can produce data if converted into numbers.
+- Part-of-Speech (POS) tagging can help identifying verbs, adjectives and nouns in a text.*
+- A corpus is any collection of texts, independently of being related to each other or not.
 </Quiz>
 
 ## Keywords
@@ -105,122 +102,6 @@ Which of the following could be considered a corpus?
 Do you remember the glossary terms from this section?
 
 - [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
-
-# Using the NLTK Corpus
-
-In the following sections, we are going to learn how to work with the NLTK Corpus and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
-
-## So What Corpus are We Using?
-Loading our copus we’re using into our JupyterLite notebook
-
-Start with a new JupyterLite file
-
-**Review Jupyterlite commands**
- * Two modes – Edit Mode (to edit code, press Enter on any cell) and Command Mode (to run the code, press Escape on any cell)
- * When in Command Mode
- 	* Add new cells with “A”; delete cells with “B”
-
-All three of these commands can be written in the same cell and run all at once (<kbd>shift</kbd> + <kbd>enter</kbd>) or in different cells.
-
-If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
-
-**Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
-
-
-```
-import nltk
-import pyodide_http
-pyodide_http.patch_all()
-```
-
-We will also need the `matplotlib` library later on, so import it now:
-
-
-```
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-%matplotlib inline
-```
-
-`matplotlib` is a library for making graphs. In the middle of this tutorial, we are going to make a dispersion plot of words in our texts.
-
-Finally, because of a quirk of Jupyter notebooks, we need to specify that `matplotlib` should display its graphs in the notebook (as opposed to in a separate window), so we type this command (this is technically a Jupyter command, not Python):
-
-
-```
-
-nltk.download('all-corpora')
-```
-
-OR 
-
-```
-nltk.download('genesis')
-nltk.download('gutenberg')
-nltk.download('inaugural')
-nltk.download('nps_chat')
-nltk.download('treebank')
-nltk.download('webtext')
-nltk.download('wordnet')
-```
-
-Next, we need to load all of the NLTK corpora into our program. 
-
-The pre-loaded NLTK texts should appear again. These are preformatted data sets. We will still have to do some minor processing, but having the data in this format saves us a few steps. At the end of this tutorial, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). Sometimes it will behave like a string, and sometimes like a list of words.
-
-
-```
-from nltk.book import *
-```
-
-Notice that each of the texts already have a variable name. _Moby Dick_ is `text1`, _Sense and Sensibility_ is `text2`, and so on. When we want to work with those books, we will call them by their variable name, as you'll see soon.
-
-
-What does it look like we’re working with?
-
-
-## Explore
-Let's pick one of these books for exploration...
-```
-text2
-```
-
-What is this object? 
-What can we do with it? 
-What's a way that we can poke at this thing?
-Other commands from previous workshops we can throw at this thing?
-
-```
-type(text4)
-
-```
-Huh that's interesting, what does that mean? Let's check out what is in the object. Let’s look at the first 10 elements in this object...
-
-
-
-```
-text3[0:10]
-```
-The most famous opening line…
-
-Is this text structured.....? Recall date literacy
-
-So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
-
-How might this be different from other corpus that you work with?
-
-If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!
-
-
-## Keywords
-
-Do you remember the glossary terms from this section?
-
-- [Corpus](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/corpus.md)
-- [Jupyter Notebook](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/jupyter-notebook.md)
-- [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
-- [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
-
 
 # Cleaning and Normalizing
 
