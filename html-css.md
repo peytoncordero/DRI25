@@ -10,7 +10,7 @@ learning objectives:
 
 facilitators: 
     name: 'Ian Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the interesections of emerging technologies, human services, and organizational change. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000s.'
+    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000s.'
 
 estimated time:
     - 2-3 hours
@@ -22,7 +22,7 @@ prerequisites:
 
 installations:
     - visual-studio-code: 
-        description: (Recommended) You can use any plain text editor, but for our purposes Visual Studio Code ("VS Code") will be used.
+        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used.
 
 readings:
     - "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
@@ -78,7 +78,7 @@ CSS is usually used in conjunction with HTML. HTML tells the browser what the di
 
 Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
-However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](?file=html-css&page=49).
+However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](?user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=49).
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet. 
 
