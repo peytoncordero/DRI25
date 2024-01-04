@@ -1075,7 +1075,7 @@ __1. True or False: Classes are used to create categories of related elements, I
 - False
 </Quiz>
 
-Revisit lesson <Link workshop='html-css' page='40'>`Classes and IDs`</Link>` to learn more.
+Revisit lesson <Link workshop='html-css' page='40'>`Classes and IDs`</Link> to learn more.
 
 __2. Which one of the following options is a relative link? (Select one of the following)__
 
