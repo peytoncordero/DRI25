@@ -1,95 +1,132 @@
----
 title: 'Text Analysis Workshop'
 description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is how to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
 cover_image: '/images/workshops/img7.jpg'
 programming_language: "jupyter"
 
 learning objectives:
-    - Expand data manipulation possibilities beyond quantitative data
-    - Compare digital humanities and social science approaches to textual analysis.
-    - Shed light on the system of relations behind the generation of data and packages.
-    - Experiment and play with data, this time with canonical or well-established data, helping us understand the conceptualization and operationalization steps of analysis.
-    - Use and examine NLTK as a package, which presents an opportunity to look under the hood.
-    - Prepare texts for computational analysis, using stemmers and lemmatizers, and stop words removal
+	- Expand data manipulation possibilities beyond quantitative data
+	- Compare digital humanities and social science approaches to textual analysis.
+	- Shed light on the system of relations behind the generation of data and packages.
+	- Experiment and play with data, this time with canonical or well-established corpora
+- Understand the conceptualization and operationalization steps of analysis.
+	- Use and examine NLTK, an opportunity to look under the hood of Python package
+	- Prepare texts for computational analysis, using stemmers and lemmatizers, and stop words removal
+	- Learn and practice for loops, list comprehension
 
 estimated time:
-    - 2 hours
+	- 2 hours
 
 dependencies:
-    workshop prerequisites:
-        python:
-            description: (required) This workshop relies heavily on concepts from previous Python workshops, and having a basic understanding of how to use the commands discussed in this workshop serves as a foundation for conducting text analysis.
-            required: true
-        command-line:
-            description: (recommended) This workshop makes some reference to concepts from the Command Line workshop, and having basic knowledge about how to use the command line will be central for anyone who wants to learn about text analysis with Python and NLTK.
-            recommended: true
-    installations:
-        pythonguide: 
-            description: (Required) You can use any installation of Python (but make sure it is of version 3). For our purposes, Anaconda will provide everything necessary for all the workshops that are part of the DHRI curriculum.
-            required: true
-        nltk:
-            description: (required) You will need to install the NLTK package into your Python packages for the purposes of this workshop. This guide will help you along the way.
-            required: true
-    insights:
-        jupyter-notebooks:
-            description: (recommended) This workshop uses Jupyter Notebooks to process the Python commands in a clear and visual way. Anyone who wants to follow along in the workshop on text analysis with Python and NLTK should read this very short introduction to how to use Notebooks.
+	workshop prerequisites:
+    	python:
+        	description: (required) This workshop relies heavily on concepts from previous Python workshops, and having a basic understanding of how to use the commands discussed in this workshop serves as a foundation for conducting text analysis.
+        	required: true
+    	command-line:
+        	description: (recommended) This workshop makes some reference to concepts from the Command Line workshop, and having basic knowledge about how to use the command line will be central for anyone who wants to learn about text analysis with Python and NLTK.
+        	recommended: true
+	installations:
+    	pythonguide:
+        	description: (Required) You can use any installation of Python (but make sure it is of version 3). For our purposes, Anaconda will provide everything necessary for all the workshops that are part of the DHRI curriculum.
+        	required: true
+    	nltk:
+        	description: (required) You will need to install the NLTK package into your Python packages for the purposes of this workshop. This guide will help you along the way.
+        	required: true
+	insights:
+    	jupyter-notebooks:
+
 
 readings:
-    - "[A Beginner’s Tutorial to Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)"
-    - "[What is text analysis](https://www.scribbr.com/methodology/textual-analysis/)"
+	- "[A Beginner’s Tutorial to Jupyter Notebooks](https://towardsdatascience.com/a-beginners-tutorial-to-jupyter-notebooks-1b2f8705888a)"
+	- "[What is text analysis](https://www.scribbr.com/methodology/textual-analysis/)"
 
 projects:
-    - "[Short list of academic Text & Data mining projects](https://libguides.bc.edu/textdatamining/projects)"
-    - "[Building a Simple Chatbot from Scratch in Python](https://github.com/parulnith/Building-a-Simple-Chatbot-in-Python-using-NLTK)"
-    - "[Classifying personality type by social media posts](https://github.com/TGDivy/MBTI-Personality-Classifier)"
+	- "[Short list of academic Text & Data mining projects](https://libguides.bc.edu/textdatamining/projects)"
+	- "[Building a Simple Chatbot from Scratch in Python](https://github.com/parulnith/Building-a-Simple-Chatbot-in-Python-using-NLTK)"
+	- "[Classifying personality type by social media posts](https://github.com/TGDivy/MBTI-Personality-Classifier)"
 
 ethical considerations:
-    - In working with massive amounts of text, it is natural to lose the original context. We must be aware of that and be careful when analyzing it.
-    - It is important to constantly question our assumptions and the indexes we are using. Numbers and graphs do not tell the story, our analysis does. We must be careful not to draw hasty and simplistic conclusions for things that are complex. Just because we found out that author A uses more unique words than author B, does it mean that A is a better writer than B?
+	- In working with massive amounts of text, it is natural to lose the original context. We must be aware of that and be careful when analyzing it.
+	- It is important to constantly question our assumptions and the indexes we are using. Numbers and graphs do not tell the story, our analysis does. We must be careful not to draw hasty and simplistic conclusions for things that are complex. Just because we found out that author A uses more unique words than author B, does it mean that A is a better writer than B?
 
 resources:
-    - "[Jupyter Notebook shortcuts, tips and tricks](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)"
+	- "[Jupyter Notebook shortcuts, tips and tricks](http://maxmelnick.com/2016/04/19/python-beginner-tips-and-tricks.html)"
 ---
 
 # Text as Data
 
-When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
+When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized.
 
+[needs a rewrite]
 
+Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
+What are basic ways to think about text as data?
+How do we get data ready to be analyzed?
+What can we learn from the data? 
+The data we use 
 ## Corpora
 
-The first step in gathering insights from texts is to create a **corpus**. A corpus is a collection of texts that are somehow related to each other. For example, the [Corpus of Contemporary American English](https://corpus.byu.edu/coca/), [Donald Trump's Tweets](http://www.trumptwitterarchive.com/), [text messages](https://byts.commons.gc.cuny.edu/) sent by bilingual young adults, [digitized newspapers](https://chroniclingamerica.loc.gov/newspapers/), or [books](https://www.gutenberg.org/) in the public domain are all corpora. There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
+> Definition of a corpus: “any collection of more than one text”
 
-The route you take from here will depend on your research question. Let's say, for example, that you want to examine gender differences in writing style. Based on previous linguistic research, you hypothesize that male-identified authors use more definitives than female-identified. So you collect two corpora—one written by men, one written by women—and you count the number of *the*s, *this*s, and *that*s compared to the number of *a*s, *an*s, and *one*s. Maybe you find a difference, maybe you don't. We can already see that this is a relatively crude way of going about answering this question, but it is a start.
+In your own research, as we’ve learned in the data literacy portion, the relationship between finding data and research question is iterative. 
 
-Keep in mind that, oftentimes our analysis of gender assumes pre-existing gender roles that reproduce gender as a binary system. Some digital humanists have pointed out that, if gender is binary, then the relation between male and female will likely be one of opposition. As [Laura Mandell](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01) says, the categories of "male" and "female" are socially constructed, and quantitative analysis practitioners should avoid jumping to conclusions about "male" and "female" styles of thinking and writing "as if the M/F terms were simple pointers to an unproblematic reality, transparently referential and not discursively constituted."
+In this workshop, we will hold the big theoretical questions and use a commonly used, publicly available set of texts for our corpus - NLTK
 
-There has been some research about how the [linguistic complexity of written language](http://science.sciencemag.org/content/sci/331/6014/176.full.pdf) in long-form pieces (i.e., books, articles, letters, etc.) has decreased over time. Simply put, people today use shorter sentences with fewer embedded clauses and complex tense constructions than people did in the past. (Note that this is not necessarily a bad or good thing.) Based on this research, we want to know if short-form platforms are emblematic of the change (we predict that they are based on our own experience with short-form platforms like email and Twitter). One way to do this would be to use Part-of-Speech tagging. Part-of-Speech (POS) tagging is a way to identify the category of words in a given text.
+But you can think about a corpus as *any* collection of texts that are somehow related to each other. 
 
-For example, the sentence:
+* 
+* 
+* 
 
-> I like the red bicycle.
+There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
-has one pronoun, one verb, one determiner, one adjective, and one noun.
+The route you take from here will depend on your research question. 
 
-> (**I** : Pronoun), (**like** : Verb), (**the** : Determiner), (**red** : Adjective), (**bicycle** : Noun)
+What’s an example of textual corpora in your field of research?
 
-NLTK uses the [Penn Tree Bank Tag Set](https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html). This is a very detailed tag list that goes far beyond just nouns, verbs, and adjectives, but gives insight into different types of nouns, prepositions, and verbs as well. Virtually all POS taggers will create a list of (word, POS) pairs. If newspaper articles have a higher ratio of function words (prepositions, auxiliaries, determiners, etc.) to semantic words (nouns, verbs, adjectives), than tweets, then we have one piece of evidence supporting our hypothesis. It's important to note here that we must use either ratios or otherwise normalized data (in the sense that raw numbers will not work). Because of the way that language works (function words are often repeated, for example), a sample of 100 words will have more unique words than a sample of 1,000. Therefore, to compare different data types (articles vs. tweets), this fact should be taken into account.
+SOME MORE SCAFFOLDING?
+## Note on Ethics
+How is textual corpus generated? 
+
+* 
+* 
+* 
+
 
 ## A Note About Languages
 
-Even though in this workshop we will use the English language in the examples, NLTK does support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
+Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
-If you are planning to work with other languages than English, you will have to figure out what tools are available and how to use them. Unfortunately, it is not something that can be fully explained in a general workshop like this. Some times it is as easy as changing `stopwords.words("English")` (a command we will teach you later) to `stopwords.words("Spanish")`. Occasionally, it will be harder than that. A search engine (Google, DuckDuckGo...) will be your best friend here.
+What’s languages are most frequently used for web content as of January 2023, by share of websites?
+
+
+https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/
+
+
+**Additional resources for non-English textual analysis**
+
+This is beyond the scope of this workshop but here are some starting off points to 
+
+## Package
+
+Some terminology as we bring in our packages:
+There are packages, which are just collection of modules and these modules are just files that contains a set of functions.  
+
+We are specifying which module we want to bring in from what package
+There are also some built in functions or actions that can be taken upon a text.
+
+What is this percentage sign? Magic function! With this backend, the output of plotting commands is displayed in Jupyter notebook, directly below the code cell that produced it. The resulting plots will then also be stored in the notebook document, not separate popup window.
+
 
 ## Evaluation
 
-Which of the following sentences is correct:
+Which of the following could be considered a corpus?
 
 <Quiz>
-- A text is not data in itself, but can produce data if converted into numbers.
-- Part-of-Speech (POS) tagging can help identifying verbs, adjectives and nouns in a text.*
-- A corpus is any collection of texts, independently of being related to each other or not.
+- My 2 year-old nephew’s random iPad mashings
+- Your grocery list for this past week
+- All of our grocery lists from this past week
+- Your grocery lists from 2013-2023
+- Random sample of tweets with #blessed
 </Quiz>
 
 ## Keywords
@@ -97,127 +134,113 @@ Which of the following sentences is correct:
 Do you remember the glossary terms from this section?
 
 - [NLTK](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/nltk.md)
-
-# Cleaning and Normalizing
-
-Generally, however, our questions are more about topics rather than writing style. So, once we have a corpus—whether that is one text or millions—we usually want to clean and normalize it. There are three terms we are going to need:
-
-- **Text normalization** is the process of taking a list of words and transforming it into a more uniform sequence. Usually, this involves removing punctuation, making the words all the same case, removing _stop words_, and either _stemming_ or _lemmatizing_ the words. It can also include expanding abbreviations or matching misspellings (but these are advanced practices that we will not cover).
-
-You probably know what removing punctuation and capitalization refer to, but the other terms may be new:
-
-- **Stop words** are words that appear frequently in a language, often adding grammatical structure, but little semantic content. There is no official list of stop words for any language, though there are some common, all-purpose lists built in to NLTK. However, different tasks require different lists. The purpose of removing stop words is to remove words that are so common that their meaning is diminished across a large number of texts.
-
-- **Stemming and lemmatizing** both of these processes try to consolidate words like "laughs" and "laughing" to  "laugh" since they all mean essentially the same thing, they are just inflected differently. So again, in an attempt to reduce the number of words, and get a realistic understanding of the meaning of a text, these words are collapsed. Stemming does this by cutting off the end (very fast), lemmatizing does this by looking up the dictionary form (very slow).
-
-Language is messy, and created for and by people, not computers. There is a lot of grammatical information in a sentence that a computer cannot use. For example, I could say to you:
-
-> The house is burning.
-
-and you would understand me. You would also understand if I say
-
-> house burn.
-
-The first has more information about tense, and which house in particular, but the sentiment is the same either way.
-
-In going from the first sentence to the normalized words, we removed the stop words (_the_ and _is_), and removed punctuation and case, and lemmatized what was left (_burning_ becomes _burn_—though we might have stemmed this, its impossible to tell from the example). This results in what is essentially a "bag of words," or a corpus of words without any structure. Because normalizing your text reduces the number of words (and therefore the number of dimensions in your data), and keeps only the words that contribute meaning to the document, this cleaning is usually desirable.
-
-This is a very important topic in Machine Learning tutorials. For the time being, we just need to know that there is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
-
-## A Note on Ethics
-
-The act of cleaning/normalizing subscribes text to predetermined categories of meaning, forcing meaning into existing "boxes," so to speak. This doesn't mean that we should avoid cleaning or normalizing text, but that we should be aware of how some textual reductions have the potential to affect meaning. How does quantification reinforce differences or stratifications within our data? We have to be careful about the kinds of questions we are asking, and how we might be reproducing some of our assumptions in our inquiry.
-
-To read more about ethics and text analysis, see Lauren Klein's "[Distant Reading After Moretti](https://arcade.stanford.edu/blogs/distant-reading-after-moretti)," where she questions, "Instead of first asking what can be modeled—what phenomena we can track at scale—we might instead ask: what might be hidden in this corpus?”
-
-## Evaluation
-
-Which one of the following sentences is correct:
-
-<Quiz>
-- Stop words are useless for text analysis, therefore the first step in any project is to remove them from the text.
-- In any type of data analysis, we usually want to cleanse the data in order to prepare it for the analysis. In text analysis, this process is called "text normalization" and can involve tasks such as removing undesired words and punctuation.*
-- Textual alterations can potentially change the original intended meaning. Therefore, we must always strive to work with the data exactly as it is in the source.
-</Quiz>
-
-## Keywords
-
-Do you remember the glossary terms from this section?
-
-- [Machine Learning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/machine-learning.md)
-- [Text Normalization](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/text-normalization.md)
+- Package
 
 # Using the NLTK Corpus
 
 In the following sections, we are going to learn how to work with the NLTK Corpus and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
 
-All of the code for this section is in a [Jupyter Notebook file](https://raw.githubusercontent.com/DHRI-Curriculum/text-analysis/v2.0/files/TextAnalysisWalkthrough.ipynb). You should download it and save it on your desired folder. Here, we are assuming you are saving in in the `files` folder inside the `text-analysis` folder.
+## So What Corpus are We Using?
+Loading our copus we’re using into our JupyterLite notebook
 
-In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can't seem to be able to advance in the workshop, you can open this file and see how we did it. Feel free to open the file right now (click on it), take a peek at its contents if you want, and close it.
+Start with a new JupyterLite file
 
-To do it, open your Jupyter Notebook, and navigate to the `files` folder inside the `text-analysis` folder. Click on the `TextAnalysisWalkthrough.ipynb` file. Once you are done, just close the tab.
+**Review Jupyterlite commands**
+ * Two modes – Edit Mode (to edit code, press Enter on any cell) and Command Mode (to run the code, press Escape on any cell)
+ * When in Command Mode
+ 	* Add new cells with “A”; delete cells with “B”
 
-![image of the Jupyter Notebook for this workshop](/images/text-analysis/TextAnalysisWalkthrough.png)
+All three of these commands can be written in the same cell and run all at once (<kbd>shift</kbd> + <kbd>enter</kbd>) or in different cells.
 
-For the best possible experience, we suggest/encourage you to:
-- Create an `.ipynb` file and follow the workshop typing all the code yourself.
-- Avoid copying/pasting the code. Much of learning has to do with you typing yourself.
-- Only check the `TextAnalysisWalkthrough.ipynb` file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn't working. A big part of coding is learning to identify what we are doing wrong.
-- I would also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one.
-
-But those are only suggestions. Maybe they will work for you, maybe they won't, so feel free to do as it best suit you. You are in charge here!
-
-## Creating a Jupyter Notebook File
-
-Now you will create your Jupyter notebook file, in which you will run the workshop. Return to the Jupyter Home Tab in your Browser (or, if you closed it completely, launch the Jupyter Notebook again), and start a New Python Notebook using the `New` button in the upper right corner.
-
-Even though Jupyter Notebook doesn't force you to do so, it is very important to name your file, or you will end up later with a bunch of untitled files and you will have no idea what they are about. In the top left, click in the word `Untitled` and give your file a name such as "intro_nltk".
-
-![image of a new jupyter notebook file](/images/text-analysis/change_title.jpg)
-
-In the first blank cell, type the following to import the NLTK library:
-
-```python
-import nltk
-```
+If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
 
 **Libraries** are sets of instructions that Python can use to perform specialized functions. The Natural Language ToolKit (`nltk`) is one such library. As the name suggests, its focus is on language processing.
 
+
+```
+import nltk
+import pyodide_http
+pyodide_http.patch_all()
+```
+
 We will also need the `matplotlib` library later on, so import it now:
 
-```python
-import matplotlib
+
+```
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+%matplotlib inline
 ```
 
 `matplotlib` is a library for making graphs. In the middle of this tutorial, we are going to make a dispersion plot of words in our texts.
 
 Finally, because of a quirk of Jupyter notebooks, we need to specify that `matplotlib` should display its graphs in the notebook (as opposed to in a separate window), so we type this command (this is technically a Jupyter command, not Python):
 
-```python
-%matplotlib inline
+
 ```
 
-All three of these commands can be written in the same cell and run all at once (<kbd>shift</kbd> + <kbd>enter</kbd>) or in different cells.
-
-![Image showing that the three lines given above can be written in a single cell in the Jupyter notebook, one after another](/images/text-analysis/imports.png)
-
-If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
-
-Next, we need to load all of the NLTK corpora into our program. Even though we downloaded them to our computer, we need to tell Python we want to use them.
-
-```python
-from nltk.book import *
+nltk.download('all-corpora')
 ```
+
+OR 
+
+```
+nltk.download('genesis')
+nltk.download('gutenberg')
+nltk.download('inaugural')
+nltk.download('nps_chat')
+nltk.download('treebank')
+nltk.download('webtext')
+nltk.download('wordnet')
+```
+
+Next, we need to load all of the NLTK corpora into our program. 
 
 The pre-loaded NLTK texts should appear again. These are preformatted data sets. We will still have to do some minor processing, but having the data in this format saves us a few steps. At the end of this tutorial, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). Sometimes it will behave like a string, and sometimes like a list of words.
 
-![Image showing a second cell with the output of "from nltk.book import *"](/images/text-analysis/nltkbook.png)
+
+```
+from nltk.book import *
+```
 
 Notice that each of the texts already have a variable name. _Moby Dick_ is `text1`, _Sense and Sensibility_ is `text2`, and so on. When we want to work with those books, we will call them by their variable name, as you'll see soon.
 
+
+What does it look like we’re working with?
+
+
+## Explore
+Let's pick one of these books for exploration...
+```
+text2
+```
+
+What is this object? 
+What can we do with it? 
+What's a way that we can poke at this thing?
+Other commands from previous workshops we can throw at this thing?
+
+```
+type(text4)
+
+```
+Huh that's interesting, what does that mean? Let's check out what is in the object. Let’s look at the first 10 elements in this object...
+
+
+
+```
+text3[0:10]
+```
+The most famous opening line…
+
+Is this text structured.....? Recall date literacy
+
+So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
+
+How might this be different from other corpus that you work with?
+
 If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!
 
-If you are sure you are running the code correctly, you probably have an installing issue, so you might have to go back to the installation instructions to figure it out.
 
 ## Keywords
 
@@ -228,9 +251,11 @@ Do you remember the glossary terms from this section?
 - [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
 - [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
 
-# Searching for Words
+# Searching for the Words
 
-Let's start by analyzing _Moby Dick_, which is `text1` for NLTK.
+Let’s start by analyzing any of the books, text1 through text10. 
+
+Pick one and think about its topic. 
 
 The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. Our text is behaving like one giant string, so concordance will just count the number of characters on either side. By default, this is 25 characters on either side of our target word (including spaces), but [you can change that if you want](http://www.nltk.org/_modules/nltk/text.html#Text.concordance).
 
@@ -294,11 +319,19 @@ text1.dispersion_plot(["whale", "monster"])
 
 A graph should appear with a tick mark everywhere that "whale" appears and everywhere that "monster" appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story — where the whale goes from being a whale to being a monster to being a whale again. If we did not know the story, this could give us hints of the narrative arc.
 
+text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne"])
+
+Looking at this plot, who is the main character?
+
+Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story.
+
+Now try with another book and another set of words: please report if you find a cool one!
+
+
 ## Challenge
 
 Try this with `text2`, _Sense and Sensibility_, [as we saw here](#downloading-the-corpus). Some relevant words are "marriage," "love," "home," "mother," "husband," "sister," and "wife." Pick a few to compare. You can compare an unlimited number, but it's easier to read a few at a time. (Note that the comma in our writing here is _inside_ the quotation mark, because that is how proper English grammar works. However, in Python, you would have to put commas _outside_ of the quotation marks to create a _list_.)
 
-NLTK has many more functions built-in, but some of the most powerful functions are related to cleaning, part-of-speech tagging, and other stages in the text analysis pipeline (where the pipeline refers to the process of loading, cleaning, and analyzing text).
 
 ## Solution
 
@@ -322,48 +355,119 @@ Check all sentences below that are correct:
 
 # Types vs. Tokens
 
-We will now turn our attention away from the NLTK library and work with our text using the _built-in Python functions_, the ones that come included with the Python language, rather than the NLTK library. (This difference is relevant because built-in python functions will work with any list of strings, while some of the functions that are specific to the NLTK library will require you to make your text "nltk ready". Don't worry about that now, we will show you how to do it later in this workshop).
+**Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo**
 
-First, let's find out how many times a given word appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words. Therefore, we will use the `count` function. We could just as easily do this with a text editor, but performing this in Python allows us to save it to a variable and then utilize this statistic in other calculations (for example, if we want to know what percentage of words in a corpus are 'lol', we would need a count of the 'lol's). In the next cell, type:
+How many words are there on the screen?
 
-```python
+A word "token" is a particular appearance of a given word in a text, these two appearances of “the”; a word "type" is the unique form of the word as a particular sequence of letters, which there are 2, at this stage of processing our text. This terminology is important to understand how we cutting down our list to be more meaningful.
+
+Depends on whether you are asking whether words refers to tokens or types: token is an instance of a type, so let's try this again: how many types of words are on the screen? How many tokens?
+
+How many words are in Moby Dick?
+```
+len(text1)
+```
+
+Let's find out how many times a given word appears in the corpus. In this case (and all cases going forward), our text will be treated as a list of words, using ‘count’ function. 
+
+
+
+```
 text1.count("whale")
 ```
 
-We see that "whale" occurs 906 times, but that seems a little low. Let's check the same thing, but now for "Whale" and "WHALE":
+We see that "whale" occurs 906 times.
+
+How about “Whale”?
 
 ```python
 text1.count("Whale")
 ```
+How about “WHALE”?
 
-```python
+```
 text1.count("WHALE")
 ```
 
 What is clear here is that the `count` method is case-sensitive.
-"Whale" with a capital "W" appears 282 times, and "WHALE" another 38 times. Depending on the type of analysis, this distinction can be a problem, and we might want "whale", "Whale" and "WHALE" to be collapsed into one single word. We will deal with that in a moment. For the time being, we will accept that we have three different entries for "whale."
 
-This gets at a distinction between **type** and **token**. "Whale" and "whale" are different types (as of now) because they do not match identically. Every instance of "whale" in the corpus is another **token**—it is an instance of the type, "whale." Therefore, there are 906 tokens of "whale" in our corpus, 282 tokens of "Whale" and 38 tokens of "WHALE".
+Three types for the word whale:
 
-But that's not what we want. Let's fix this by making all of the words lowercase. We will make a new list of words, and call it `text1_tokens`. We will fill this list with all the words in `text1`, but in their lowercase form. Python has a built-in function, `lower()` that takes all letters and makes them lowercase. In this same step, we are going to do a kind of tricky move, and only keep the words that are alphabetical and pass over anything that is punctuation or numbers. There is a built-in function, `isalpha()`, that will allow us to save only those words that are made of letters. If `isalpha()` is true, we'll make the word lowercase, and keep the word. If not, we'll pass over it and move to the next one.
 
-Type the following code into a new cell in your notebook. Pay special attention to the indentation, which must appear as below. (Note that in Jupyter Notebook, indentation usually comes automatically. If not, make sure to type the <kbd>space</kbd> key 4 times)
+| Type  | # of Tokens |
+| ----- |:------:|
+| whale | 906|
+| Whale | 282|
+| WHALE | 38 |
 
-```python
+
+But what do we need to do to the corpus so that all of the types of “whale” get treated the same way? 
+
+Why do we need each type to be treated the same way?
+
+<Secret>
+
+Make a list of all the words lowercase!
+
+Bonus: That also means removing non-words (i.e. punctuation)
+
+</Secret>
+
+## Make a list of all the words lowercase!
+
+
+Just like in cooking, let’s think about what we know and gather our ingredients to achieve our goal, “make a list of all the words lowercase”:
+
+ * We want a new list of the same corpus (text1) - performing any operation on the original would be irreversible 
+ * Python has a built-in function, ‘isalpha()’ that will allow us know (**True or False**) if a string object contains only alphabetic characters
+ * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
+ * Lastly, we have our original corpus object, text1
+
+**Practice**
+
+```
+string = "ELI5"
+print(string.isalpha())
+print(string.lower())
+
+```
+
+Let’s think through what we can do with these four ingredients to make a list of all the words lowercase:
+
+
+Logic of the code
+<Secret>
+Create new list.
+
+In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+ * If True, we want to convert it to lower case
+ * If False, ignore it
+Take this new lower case object and add it to our list
+
+</Secret>
+
+Code version
+
+<Secret>
+
+```
 text1_tokens = []
 for t in text1:
-    if t.isalpha():
-        t = t.lower()
-        text1_tokens.append(t)
+	if t.isalpha():
+    	t = t.lower()
+    	text1_tokens.append(t)
 ```
+</Secret>
+
 
 If everything went right, you should get no output. Remember the "silent success?"
 
+## Make a list of all the words lowercase with ONE LINE OF CODE
+
+
 Another way to perform the same action more tersely is to use what's called a [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). A list comprehension is a shorter, faster way to write a for-loop. It is syntactically a little more difficult to read (for a human), but, in this case, it's much faster to process.
 
-Don't worry too much about understanding the syntax of list comprehensions right now, just try to recognize on it the elements you've seen in the for loop. For every example, we will show both the for loop and list comprehension options so you can slowly get used to the latter.
-
-```python
+```
 text1_tokens = [t.lower() for t in text1 if t.isalpha()]
 ```
 
@@ -375,7 +479,7 @@ I suggest going back to the loop above, review it, try to understand why all ind
 
 Feel like you understand it? Try deleting it and writing the loop yourself without looking at this guide.
 
-You can also copy the whole loop to a new jupyter notebook cell and play around with it. What happens when you change the order of the commands? How about the indentation? Don't be afraid to break it.
+Play around! What happens if we got rid of the if statement? What happens when you change the order of the commands? How about the indentation? Don't be afraid to break it.
 
 If you feel like you are done playing with the loop, time to move to the next section to see the results.
 
@@ -390,7 +494,11 @@ Check all sentences below that are correct:
 - The `append()` method adds an item to the end of the list.*
 </Quiz>
 
+
+## Keywords
+
 Do you remember the glossary terms from this section?
+
 
 - [Token](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/token.md)
 - [Tokenizing](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tokenizing.md)
@@ -403,55 +511,66 @@ Great! Now `text1_tokens` is a list of all of the tokens in our corpus, with the
 ```python
 text1_tokens.count("whale")
 ```
+And now we have 1226 tokens for "whale", which is the exact sum of the counts we did before. 
 
-And now we have 1226 tokens for "whale", which is the exact some of the counts we did before. To double check, count "Whale" and "WHALE" again and you should see no results for them.
-
-Now we want to know how many words there are in our corpus—that is, how many tokens in total. Therefore, we want to ask, "What is the length of that list of words?" Python has a built-in `len` function that allows you to find out the length of many types. Pass it a list, and it will tell you how many items are in the list. Pass it a string, and it will tell you how many characters are in the string. Pass it a dictionary, and it will tell you how many items are in the dictionary. In the next cell, type:
-
+All the instances of "Whale", "whale", "WHALE" are now just "whale".
 ```python
+text1_tokens.count("Whale")
+```
+```python
+text1_tokens.count("WHALE")
+```
+
+Now we want to know how many words there are in our corpus—that is, how many tokens in total. 
+
+Therefore, we can ask, "What is the length of that list of words?" Python has a built-in `len` function that allows you to find out the length of different types of objects. 
+
+ * Pass it a list, and it will tell you how many items are in the list
+ * Pass it a string, and it will tell you how many characters are in the string
+ * Pass it a dictionary, and it will tell you how many items are in the dictionary. 
+
+How does the length of text1_tokens compare to original text1 object?
+
+```
+len(text1)
 len(text1_tokens)
 ```
+From our list of tokens, how do we get a list of the types? AKA how do we want a list of unique words? 
 
-Just for comparison, check out how many words were in `text1`—before we removed the punctuation and the numbers.
-
-```python
-len(text1)
-```
-
-We see there are over 218,000 words in _Moby Dick_ (including metadata). But this is the number of words total—we want to know the number of unique words. That is, we want to know how many _types_, not just how many tokens.
+Why would that be analytically important?
 
 In order to get unique words, rather than just all words in general, we will make a **set** from the list. A `set` in Python works just like it would [in math](https://en.wikipedia.org/wiki/Set_(mathematics)), it's all the unique values, with any duplicate items removed.
 
+```python
+list_example = [2,3,4,12,3,12,3,1,32]
+```
+
+What should expect from set(list_example)?
+
+<Secret>
+32, 1, 2, 3, 4, 12
+</Secret>
+
 So let's find out the length of our set. just like in math, we can also nest our functions. So, rather than saying `x = set(text1_tokens)` and then finding the length of "x", we can do it all in one step.
 
-```python
+How do we do that? 
+
+<Secret>
 len(set(text1_tokens))
-```
+</Secret>
+
 
 # Lexical Density
 
-Now we can calculate the **lexical density**, the number of unique words per total words. [Statistical studies](https://pdfs.semanticscholar.org/c2a8/56959d7f5880c98ccd4cfeb4b4f5b7133ec7.pdf) have shown that lexical density is a good metric to approximate lexical diversity—the range of vocabulary an author uses. For our first pass at lexical density, we will simply divide the number of unique words by the total number of words:
+Now we can calculate the **lexical density**, the number of unique words per total words. [Statistical studies](https://pdfs.semanticscholar.org/c2a8/56959d7f5880c98ccd4cfeb4b4f5b7133ec7.pdf) have shown that lexical density is a good metric to approximate lexical diversity—the range of vocabulary an author uses. This by no means suggests more or less sophistication.
+
+Gertrude Stein's "A rose is a rose is a rose is a rose" would be rendered meaningless otherwise. Or the book Jack Nicholson was writing in the Shining? "All work and no play, makes Jack a dull boy," typed out into haunted eternity?
+
+For our first pass at lexical density, we will simply divide the number of unique words by the total number of words:
 
 ```python
 len(set(text1_tokens)) / len(text1_tokens)
 ```
-
-If we want to use this metric to compare texts, we immediately notice a problem. Lexical density is dependent upon the length of a text and therefore is strictly a comparative measure. It is possible to compare 100 words from one text to 100 words from another, but because language is finite and repetitive, it is not possible to compare 100 words from one to 200 words from another. Even with these restrictions, lexical density is a useful metric in grade level estimations, [vocabulary use](http://www.mdpi.com/2226-471X/2/3/7) and genre classification, and a reasonable proxy for lexical diversity.
-
-Let's take this constraint into account by working with only the first 10,000 words of our text. First we need to slice our list, returning the words in position 0 to position 9,999 (we'll actually write it as "up to, but not including" 10,000).
-
-```python
-text1_slice = text1_tokens[0:10000]
-```
-
-Now we can do the same calculation we did above:
-
-```python
-len(set(text1_slice)) / len(text1_slice)
-```
-
-This is a much higher number, though the number itself is arbitrary. When comparing different texts, this step is essential to get an accurate measure.
-
 ## Challenge
 
 Let's compare the lexical density of _Moby Dick_ with _Sense and Sensibility_. Make sure to:
@@ -467,9 +586,9 @@ Remember to be aware of the ethical implications for the conclusions that we mig
 ```python
 text2_tokens = []
 for t in text2:
-    if t.isalpha():
-        t = t.lower()
-        text2_tokens.append(t)
+	if t.isalpha():
+    	t = t.lower()
+    	text2_tokens.append(t)
 
 text2_slice = text2_tokens[0:10000]
 
@@ -486,17 +605,88 @@ Check all sentences below that are correct:
 - Comparing the lexical density between texts of different sizes can give a problematic result. A possible solution is to use list slice and compare parts of both texts of a similar size.*
 </Quiz>
 
+# Cleaning and Normalizing
+
+Once we have a corpus—whether that is one text or millions—we usually want to clean and normalize it. There are three terms we are going to need:
+
+- **Text normalization** is the process of taking a list of words and transforming it into a more uniform sequence. Usually, this involves removing punctuation, making the words all the same case, removing _stop words_, and either _stemming_ or _lemmatizing_ the words. It can also include expanding abbreviations or matching misspellings (but these are advanced practices that we will not cover).
+
+You probably know what removing punctuation and capitalization refer to, but the other terms may be new:
+
+- **Stop words** are words that appear frequently in a language, often adding grammatical structure, but little semantic content. There is no official list of stop words for any language, though there are some common, all-purpose lists built in to NLTK. However, different tasks require different lists. The purpose of removing stop words is to remove words that are so common that their meaning is diminished across a large number of texts.
+
+- **Stemming and lemmatizing** both of these processes try to consolidate words like "laughs" and "laughing" to  "laugh" since they all mean essentially the same thing, they are just inflected differently. So again, in an attempt to reduce the number of words, and get a realistic understanding of the meaning of a text, these words are collapsed. Stemming does this by cutting off the end (very fast), lemmatizing does this by looking up the dictionary form (very slow).
+
+Language is messy, and created for and by people, not computers. There is a lot of grammatical information in a sentence that a computer cannot use. For example, I could say to you:
+
+> The house is burning.
+
+and you would understand me. You would also understand if I say
+
+> house burn.
+
+The first has more information about tense, and which house in particular, but the sentiment is the same either way.
+
+What's happening between "the house is burning" and "house burn"
+
+We removed the stop words (_the_ and _is_), and removed punctuation and case, and simplified what was left (_burning_ becomes _burn_). 
+
+This results in what is essentially a "bag of words," or a corpus of words without any structure. 
+
+Because normalizing your text reduces the number of words (and therefore the number of dimensions in your data), and keeps only the words that contribute meaning to the document, this cleaning is usually desirable.
+
+There is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
+
+## A Note on Ethics
+
+The act of cleaning/normalizing subscribes text to predetermined categories of meaning, forcing meaning into existing "boxes," so to speak. This doesn't mean that we should avoid cleaning or normalizing text, but that we should be aware of how some textual reductions have the potential to affect meaning. How does quantification reinforce differences or stratifications within our data? We have to be careful about the kinds of questions we are asking, and how we might be reproducing some of our assumptions in our inquiry.
+
+To read more about ethics and text analysis, see Lauren Klein's "[Distant Reading After Moretti](https://arcade.stanford.edu/blogs/distant-reading-after-moretti)," where she questions, "Instead of first asking what can be modeled—what phenomena we can track at scale—we might instead ask: what might be hidden in this corpus?”
+
+## Evaluation
+
+Which one of the following sentences is correct:
+
+<Quiz>
+- Stop words are useless for text analysis, therefore the first step in any project is to remove them from the text.
+- In any type of data analysis, we usually want to cleanse the data in order to prepare it for the analysis. In text analysis, this process is called "text normalization" and can involve tasks such as removing undesired words and punctuation.*
+- Textual alterations can potentially change the original intended meaning. Therefore, we must always strive to work with the data exactly as it is in the source.
+</Quiz>
+
+## Keywords
+
+Do you remember the glossary terms from this section?
+
+- [Machine Learning](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/machine-learning.md)
+- [Text Normalization](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/text-normalization.md)
+
+# Word Cloud
+
+Let's use another visual tool to see where we are in our data exploration process...a word cloud. It is a collection, or cluster, of words depicted in different sizes. The bigger and bolder the word appears, the more often it's mentioned within a text
+
+We are all familiar and we can use our list of tokens. Why would our list of unique words not be appropriate for a word cloud?
+
+text = text1_tokens
+wordcloud = WordCloud().generate(text)
+plt.imshow(wordcloud)
+
+text = str(text1_tokens)
+wordcloud = WordCloud().generate(text)
+plt.imshow(wordcloud)
+
+Is this useful? What are all these words? Does this tell me anything about Moby Dick? No, we need to clean this text!
+
 # Data Cleaning: Removing Stop Words
 
-Thus far, we have been asking questions that take stop words and grammatical features into account. For the most part, we want to exclude these features since they don't actually contribute very much semantic content to our models. Therefore, we will:
+We've completed one out of three steps of data cleaning.
 
-1. Remove capitalization and punctuation (we've already done this).
+1. Remove capitalization and punctuation
 2. Remove stop words.
 3. Lemmatize (or stem) our words, i.e. "jumping" and "jumps" become "jump."
 
-We already completed step one, and are now working with our `text1_tokens`. Remember, this variable, `text1_tokens`, contains a list of strings that we will work with. We want to remove the stop words from that list. The NLTK library comes with fairly comprehensive lists of stop words for many languages. Stop words are function words that contribute very little semantic meaning and most often have grammatical functions. Usually, these are function words such as determiners, prepositions, auxiliaries, and others.
+This next section, we will be cleaning our corpus by removing the stop words. In seeing getting the most frequent words, a lot of them were extremeley common words, so we should get rid of them because they don't tell us anything meaningful about the text, very little semantic meaning and most often have grammatical functions. Usually, these are function words such as determiners, prepositions, auxiliaries, and others.
 
-To use NLTK's stop words, we need to import the list of words from the corpus. (We could have done this at the beginning of our program, and in more fully developed code, we would put it up there, but this works, too.) In the next cell, type:
+To use NLTK's stop words, we need to import the list of words from the corpus. 
 
 ```python
 from nltk.corpus import stopwords
@@ -514,16 +704,35 @@ Now let's take a look at those words:
 print(stops)
 ```
 
-Now we want to go through all of the words in our text, and if that word is in the stop words list, remove it from our list. Otherwise, we want it to skip it. (The code below is slow, so it may take some time to process). The way we can write this in Python is:
+What's the logic we'll use to make a new list of the corpus without stop words?
+
+<Secret>
+
+
+we have a list of words from our corpus, we also have a list of words (stopword) we don't want in our new list, to check if every word is in this stopword list. 
+
+If the word is not in that list, we will keep it...
+
+Now we want to go through all of the words in our text, and if that word is in the stop words list, remove it from our list. Otherwise, we want it to skip it. (The code below is slow, so it may take some time to process).
+
+</Secret>
+
+**Code**
+
+<Secret>
+
 
 ```python
 text1_stops = []
 for t in text1_tokens:
-    if t not in stops:
-        text1_stops.append(t)
+	if t not in stops:
+    	text1_stops.append(t)
 ```
 
-A faster option, if you are feeling bold, would be using list comprehension:
+</Secret>
+
+
+Now try it with the one-liner, AKA list comprehension
 
 ```python
 text1_stops = [t for t in text1_tokens if t not in stops]
@@ -543,13 +752,44 @@ Now that we removed our stop words, let's see how many words are left in our lis
 len(text1_stops)
 ```
 
-You should get a much lower number.
+## Revised Word Cloud
 
-For reference, let's also check how many unique words there are. We will do this by making a set of words. Sets are the same in Python as they are in math, they are all of the unique words rather than all the words. So, if "whale" appears 200 times in the list of words, it will only appear once in the set.
 
 ```python
-len(set(text1_stops))
+
+text = str(text1_stops)
+wordcloud = WordCloud().generate(text)
+plt.imshow(wordcloud)
+
 ```
+
+## How do we get rid of parantheses? 
+
+Googling for the answers to your coding questions is an essential part of being a coder. let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
+
+Word Cloud python library displays an apostrophe
+
+https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word
+
+Direct Copy and Paste: 
+
+```
+string_text = ' '.join(tokenized_text)    
+wordcloud = WordCloud(width=1600, height=800).generate(string_text)
+```
+
+How do we need to adapt it to our code with our variables?
+
+```
+string_text = ' '.join(text1_stops)    
+wordcloud = WordCloud(width=1600, height=800).generate(string_text)
+```
+
+```
+wordcloud = WordCloud().generate(string_text)
+plt.imshow(wordcloud)
+```
+
 
 ## Evaluation
 
@@ -569,7 +809,11 @@ Do you remember the glossary terms from this section?
 
 # Data Cleaning: Lemmatizing Words
 
-Now that we've removed the stop words from our corpus, the next step is to stem or lemmatize the remaining words. This means that we will strip off the grammatical structure from the words. For example, `cats ⭢ cat`, and `walked ⭢ walk`. If that was all we had to do, we could stem the corpus and achieve the correct result, because stemming (as the name implies) really just means cutting off affixes to find the root (or the stem). Very quickly, however, this gets complicated, such as in the case of `men ⭢ man` and `sang ⭢ sing`. Lemmatization deals with this by looking up the word in a reference and finding the appropriate root (though note that this still is not entirely accurate). Lemmatization, therefore, takes a relatively long time, since each word must be looked up in a reference. NLTK comes with pre-built stemmers and lemmatizers.
+Now that we've removed the stop words from our corpus, the next step is to stem or lemmatize the remaining words. This means that we will strip off the grammatical structure from the words. For example, `cats ⭢ cat`, and `walked ⭢ walk`. This gets complicated, such as in the case of `men ⭢ man` and `sang ⭢ sing`. 
+
+Lemmatization deals with this by looking up the word in a reference and finding the appropriate root. So I have to import this module.
+
+NLTK comes with pre-built lemmatizers.
 
 We will use the WordNet Lemmatizer from the NLTK Stem library, so let's import that now:
 
@@ -608,8 +852,8 @@ Now we will lemmatize the words in the list.
 ```python
 text1_clean = []
 for t in text1_stops:
-    t_lem = wordnet_lemmatizer.lemmatize(t)
-    text1_clean.append(t_lem)
+	t_lem = wordnet_lemmatizer.lemmatize(t)
+	text1_clean.append(t_lem)
 ```
 
 And again, there is a faster version for you to use once you feel comfortable with list comprehensions:
@@ -620,7 +864,9 @@ text1_clean = [wordnet_lemmatizer.lemmatize(t) for t in text1_stops]
 
 ## Verifying Clean List Contents
 
-Let's check now to see the length of our final, cleaned version of the data, and then check the unique set of words. Notice how we will use the `print` function this time. Jupyter Notebook does print commands without the `print` function, but it will only print one thing per cell (the last command), and we wanted to print two different things:
+Let's check now to see the length of our final, cleaned version of the data, and then check the unique set of words. Notice how we will use the `print` function this time. 
+
+JupyterLite does print commands without the `print` function, but it will only print one thing per cell (the last command), and we wanted to print two different things:
 
 ```python
 print(len(text1_clean))
@@ -628,8 +874,6 @@ print(len(set(text1_clean)))
 ```
 
 If everything went right, you should have the same length as before, but a smaller number of unique words. That makes sense since we did not remove any word, we only changed some of them.
-
-Now if we were to calculate lexical density, we would be looking at how many word stems with semantic content are represented in _Moby Dick_, which is a different question than the one in our first analysis of lexical density.
 
 Why don't you try that by yourself? Try to remember how to calculate lexical density without looking back first. It is ok if you have forgotten.
 
@@ -693,8 +937,8 @@ Anyway, let's stem our text with the Porter Stemmer:
 ```python
 t1_porter = []
 for t in text1_clean:
-    t_stemmed = porter_stemmer.stem(t)
-    t1_porter.append(t_stemmed)
+	t_stemmed = porter_stemmer.stem(t)
+	t1_porter.append(t_stemmed)
 ```
 
 Or, if we want a faster way:
@@ -766,10 +1010,10 @@ Then we will loop through the words in our cleaned corpus, and see if any of the
 ```python
 my_list = []
 for word in b_words:
-    if word in text1_clean:
-        my_list.append(word)
-    else:
-        pass
+	if word in text1_clean:
+    	my_list.append(word)
+	else:
+    	pass
 ```
 
 And then we will print the results.
@@ -790,15 +1034,15 @@ You can obviously do this with much larger lists and even compare entire novels 
 
 1. A solution using a list comprehension would look like this:
 
-    ```python
-    my_list2 = [word for word in b_words if word in text1_clean]
-    ```
+	```python
+	my_list2 = [word for word in b_words if word in text1_clean]
+	```
 
 2. To compare the lists, you could run the following command:
 
-    ```python
-    my_list == my_list2
-    ```
+	```python
+	my_list == my_list2
+	```
 
 ## Evaluation
 
@@ -811,7 +1055,7 @@ Which one of the following sentences is correct:
 
 Now that we have seen and implemented a series of text analysis techniques, let's go to the Internet to find a new text. You could use something such as historic newspapers, or Supreme Court proceedings, or use any txt file on your computer. Here we will use [Project Gutenberg](http://www.gutenberg.org). Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including `.txt`. You can download these to your computer or access them via the url. We'll use the latter. We found _Don Quixote_ in the archive (see [here](http://www.gutenberg.org/files/996/996-0.txt)), and will work with that.
 
-The Python package `urllib` comes installed with Python, but is inactive by default, so we still need to import it to utilize the functions. Since we are only going to use the `urlopen` function, we will just import that one.
+The Python package `urllib` comes installed with Python. Since we are only going to use the `urlopen` function, we will just import that one.
 
 In the next cell, type:
 
@@ -919,25 +1163,25 @@ If you want to spice your challenge up, do the first three operations _in a sing
 
 1. Lowercase, remove punctuation and stop words:
 
-    ```python
-    dq_clean = []
-    for word in dq_text:
-        if word.isalpha():
-            if word.lower() not in stops:
-                dq_clean.append(word.lower())
-    print(dq_clean[:50])
-    ```
+	```python
+	dq_clean = []
+	for word in dq_text:
+    	if word.isalpha():
+        	if word.lower() not in stops:
+            	dq_clean.append(word.lower())
+	print(dq_clean[:50])
+	```
 
 2. Lemmatize:
 
-    ```python
-    from nltk.stem import WordNetLemmatizer
-    wordnet_lemmatizer = WordNetLemmatizer()
+	```python
+	from nltk.stem import WordNetLemmatizer
+	wordnet_lemmatizer = WordNetLemmatizer()
 
-    dq_lemmatized = []
-    for t in dq_clean:
-        dq_lemmatized.append(wordnet_lemmatizer.lemmatize(t))
-    ```
+	dq_lemmatized = []
+	for t in dq_clean:
+    	dq_lemmatized.append(wordnet_lemmatizer.lemmatize(t))
+	```
 
 ## Evaluation
 
@@ -994,10 +1238,10 @@ tag_dict = {}
 
 # For every word/tag pair in my list,
 for (word, tag) in dq_tagged:
-    if tag in tag_dict:
-        tag_dict[tag]+=1
-    else:
-        tag_dict[tag] = 1
+	if tag in tag_dict:
+    	tag_dict[tag]+=1
+	else:
+    	tag_dict[tag] = 1
 ```
 
 Now let's see what we got:
@@ -1014,8 +1258,8 @@ Now let's do it and find out what the most common tag is.
 
 ```python
 tag_dict_sorted = sorted(tag_dict.items(),
-			 reverse=True,
-			 key=lambda kv: kv[1])
+   		  reverse=True,
+   		  key=lambda kv: kv[1])
 ```
 
 Now let's check out what we have:
@@ -1047,11 +1291,11 @@ Do you remember the glossary terms from this section?
 # Theory to Practice
 
 Congratulations! You are done with the Text Analysis workshop!  
-  
+ 
 As you may expect, this course was only the beginning of your journey. NLTK is a vast and ever expanding world. The possibilities are numerous, with exciting new things coming everyday.  
-  
+ 
 Our goal was to show some of those possibilities, and equip you with enough tools/knowledge/skills to be able to keep advancing. In this page we suggest you further readings and other tutorials for which we feel you might be ready. Don't be afraid to try! It is also useful to come back to this workshop with fresh eyes after a while. It will help you solidify some of the knowledge and make some things more clear.  
-  
+ 
 Have a happy journey!
 
 ## Review your knowledge: 10 questions from the lessons
@@ -1179,3 +1423,5 @@ Revisit lesson [Data Cleaning: Lemmatizing Words](/workshops/text-analysis/?page
 - What are the limits of the kind of text analysis we just went throught? What is it good for? What is it not well suited to do?
 - What are the potential pitfalls for using massive data?
 - How can we use text analysis in teaching?
+
+
