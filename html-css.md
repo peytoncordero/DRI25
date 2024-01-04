@@ -852,7 +852,7 @@ TODO: Figure out how to link to the correct section with either the h1 or h2 str
 
 <Info>__Tip__
 
-If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the [Troubleshooting](?user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=47) section for more information on common issues.
+If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
 </Info>
 
 ## Evaluation
@@ -965,7 +965,7 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Institute Website Using CSS
 
-Using the CSS basics we've just reviewed, and the list of properties found on the [Properties page](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=45) and online, give your website some styling.  
+Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.  
   
 I encourage you to use an external stylesheet with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
 
@@ -1075,7 +1075,7 @@ __1. True or False: Classes are used to create categories of related elements, I
 - False
 </Quiz>
 
-Revisit lesson [Classes and IDs](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=40) to learn more.
+Revisit lesson <Link workshop='html-css' page='40'>`Classes and IDs`</Link>` to learn more.
 
 __2. Which one of the following options is a relative link? (Select one of the following)__
 
@@ -1084,7 +1084,7 @@ __2. Which one of the following options is a relative link? (Select one of the f
 - `<a href="https://www.nytimes.com/">The New York Times</a>`
 </Quiz>
 
-Revisit lesson [Links](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=13) to learn more.
+Revisit lesson<Link workshop='html-css' page='13'>`Links`</Link> to learn more.
 
 __3. Is the following code-snippet an example of inline styling or internal styling?__
 
@@ -1118,7 +1118,7 @@ __3. Is the following code-snippet an example of inline styling or internal styl
 - `Internal styling`*
 </Quiz>
 
-Revisit lesson [Integrating CSS and HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=29) to learn more.
+Revisit lesson <Link workshop='html-css' page='29'>`Integrating CSS and HTML`</Link> to learn more.
 
 __4. If I wanted to indicate that "About" is a subheading in my page, which element should I use? (Select one of the following)__
 
@@ -1127,7 +1127,7 @@ __4. If I wanted to indicate that "About" is a subheading in my page, which elem
 - `<head>`
 </Quiz>
 
-Revisit lesson [Paragraphs and Headings](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=10) to learn more.
+Revisit lesson <Link workshop='html-css' page='10'>`Paragraphs and Headings`</Link> to learn more.
 
 __5. Which one of these two HTML commands is also known as the “root element”? (Select one of the following)__
 
@@ -1136,7 +1136,7 @@ __5. Which one of these two HTML commands is also known as the “root element�
 - `<!DOCTYPE html>`*
 </Quiz>
 
-Revisit lesson [Basic Template for HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=5) to learn more.
+Revisit lesson <Link workshop='html-css' page='5'>`Basic Template for HTML`</Link> to learn more.
 
 __6. How do we associate a CSS file with an HTML page? (Select one of the following)__
 
@@ -1145,7 +1145,7 @@ __6. How do we associate a CSS file with an HTML page? (Select one of the follow
 - By putting the CSS file in the same folder as the HTML page.
 </Quiz>
 
-Revisit lesson [Rule Sets](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=36) to learn more.
+Revisit lesson <Link workshop='html-css' page='36'>`Rule Sets`</Link> to learn more.
 
 __7. Which one of the following statements is correct: (Select one of the following)__
 
@@ -1154,7 +1154,7 @@ __7. Which one of the following statements is correct: (Select one of the follow
 - Tags have opening and closing elements.
 </Quiz>
 
-Revisit lesson [Tags and Elements](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=8) to learn more.
+Revisit lesson <Link workshop='html-css' page='8'>`Tags and Elements`</Link> to learn more.
 
 __8. True or False: Does including “alt text” in websites improve their accessibility? (Select one of the following)__
 
@@ -1163,7 +1163,7 @@ __8. True or False: Does including “alt text” in websites improve their acce
 - False
 </Quiz>
 
-Revisit lesson [Images](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=19) to learn more.
+Revisit lesson <Link workshop='html-css' page='19'>`Images`</Link> to learn more.
 
 __9. Is CSS a markup language or a programming language? (Select one of the following)__
 
@@ -1172,7 +1172,7 @@ __9. Is CSS a markup language or a programming language? (Select one of the foll
 - Programming Language
 </Quiz>
 
-Revisit lesson [CSS Basics](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=27) to learn more.
+Revisit lesson <Link workshop='html-css' page='27'>`CSS Basics`</Link> to learn more.
 
 __10. True or False: The primary difference between markup languages and programming languages is that markup languages are used to determine the format, appearance, and purpose of content, whereas programming languages are used to transform data. (Select one of the following)__
 
@@ -1181,7 +1181,7 @@ __10. True or False: The primary difference between markup languages and program
 - False
 </Quiz>
 
-Revisit lesson [Getting Started with HTML and CSS](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=2) to learn more.
+Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and CSS`</Link> to learn more.
 
 ## Suggested Further Readings
 
