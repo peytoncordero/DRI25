@@ -1,16 +1,16 @@
 ---
-title: 'Data Ethics'
-cover title: Data Ethics
-description: 'What is data? What counts as data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation. '
+title: 'Data Literacies'
+cover title: Data Literacies
+description: 'What is data? What counts as data? What are the ethical implications when working with data? How can we manage our data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to management. 
 
 learning objectives:
-    - Know the stages of data analysis
-    - Understand the difference between proprietary and open data formats
-    - Become familiar with the specific requirements of "high quality data"
-    - Learn about ethical issues around working with different types of data and analysis
+    - Know the stages of data from collection to analysis
+    - Learn about ethical issues around working with different types of   data and analysis
+    - Learn best practices to manage and store data
+    
     
 estimated time:
-    - 3 - 4 hours
+    - 2 - 3 hours
 
 prerequisites: 
     - command-line:
@@ -26,7 +26,7 @@ readings:
     
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
-    - "[SAFElab](https://safelab.socialwork.columbia.edu/), led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media." 
+    - ( place holder safelab not accessible)
 
 ethical considerations:
     - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
