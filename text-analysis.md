@@ -6,8 +6,6 @@ programming_language: "jupyter"
 
 learning objectives:
     - Expand data manipulation possibilities beyond quantitative data
-    - Compare digital humanities and social science approaches to textual analysis.
-    - Shed light on the system of relations behind the generation of data and packages.
     - Experiment and play with data, this time with canonical or well-established data, helping us understand the conceptualization and operationalization steps of analysis.
     - Use and examine NLTK as a package, which presents an opportunity to look under the hood.
     - Prepare texts for computational analysis, using stemmers and lemmatizers, and stop words removal
