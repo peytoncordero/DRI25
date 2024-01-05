@@ -335,7 +335,7 @@ A word "token" is a particular appearance of a given word in a text, these two a
 Depends on whether you are asking whether words refers to tokens or types: token is an instance of a type, so let's try this again: how many types of words are on the screen? How many tokens?
 
 How many words are in Moby Dick?
-```
+```python
 len(text1)
 ```
 
@@ -343,7 +343,7 @@ Let's find out how many times a given word appears in the corpus. In this case (
 
 
 
-```
+```python
 text1.count("whale")
 ```
 
@@ -356,14 +356,13 @@ text1.count("Whale")
 ```
 How about “WHALE”?
 
-```
+```python
 text1.count("WHALE")
 ```
 
 What is clear here is that the `count` method is case-sensitive.
 
 Three types for the word whale:
-
 
 | Type  | # of Tokens |
 | ----- |:------:|
