@@ -100,7 +100,6 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
-## Evaluation
 
 Research data can be defined as: (select all that apply)
 
@@ -111,7 +110,26 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
-## Challenge: Forms of Data
+## Institutional Considerations for Data and Research
+ 
+##Institutional Review Board (IRB)
+
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
+
+Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
+
+###When is an IRB required?
+
+Usually, IRB review is required when *ALL* of the criteria below are met:
+
+* The investigator is conducting research or clinical investigation,
+* The proposed research or clinical investigation involves human subjects, and
+* Your university or research institution is engaged in the research or clinical investigation involving human subjects.
+
+For a checklist and examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
+
+
+## Challenge: Forms of Data and IRB Compliance
 
 These are some (most!) of the shapes your research data might transform into.
 
@@ -148,6 +166,10 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
+
+## Ethical Considerations and Impacts 
+
+
 
 ## Naming Conventions for Directory Structures
 
