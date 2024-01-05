@@ -1176,7 +1176,7 @@ Do you remember the glossary terms from this section?
 - [Metadata](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/metadata.md)
 - [Regular Expressions](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/regular-expressions.md)
 
-####~~~~~~~~~~
+>this should be the end
 
 # Using the NLTK Corpus
 
