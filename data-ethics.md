@@ -163,7 +163,7 @@ HRPP/IRB Required?
 Yes
 </secret>
                                                                              
-2.  Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
+3.  Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
 
