@@ -135,7 +135,7 @@ Every university or research institution must, legally, have its own or an affil
 
 ## Institutional Conmpliance for Data and Research (Cont'd)
 
-###When is an IRB required?
+### When is an IRB required?
 
 Usually, IRB review is required when *ALL* of the criteria below are met:
 
@@ -143,11 +143,11 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed research or clinical investigation involves human subjects, and
 * Your university or research institution is engaged in the research or clinical investigation involving human subjects.
 
-####Example: Oral History Projects
+#### Example: Oral History Projects
 
 Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
 
-1.  Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
 
 HRPP/IRB Required?
 
