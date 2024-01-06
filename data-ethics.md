@@ -98,9 +98,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Metadata & Paradata (e.g. `.xml`, `.json`)
 - Collection of digital objects acquired and generated during research
 
-
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
-
 
 Research data can be defined as: (select all that apply)
 
@@ -113,7 +111,7 @@ Research data can be defined as: (select all that apply)
 
 ## Institutional Compliance for Data and Research
  
-###Institutional Review Board (IRB)
+### Institutional Review Board (IRB)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
@@ -147,7 +145,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 
 Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
 
-1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or generalize findings.
 
 HRPP/IRB Required?
 
@@ -155,14 +153,14 @@ HRPP/IRB Required?
 HRPP/IRB not required.
 </Secret>                      
 
-2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
+2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g., designed to draw conclusions, inform policy, or generalize findings).    
 
 HRPP/IRB Required?
 
 <Secret>
 HRPP/IRB required!
 </Secret>
-                                                                             
+
 3. Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
@@ -171,7 +169,7 @@ HRPP/IRB Required?
 HRPP/IRB required!
 </Secret>
 
-For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
+For guidance and more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
 
 ## Challenge: Forms of Data and IRB Compliance
