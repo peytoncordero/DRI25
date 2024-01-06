@@ -145,16 +145,16 @@ Example: Oral History Projects
 |Activity                                                          |HRPP/IRB Review Required  |
 |:-----------------------------------------------------------------|:------------------------:|
 |Open-ended interviews, that ONLY document a specific historical   | No                       |
- event or the experiences of individuals without intent to draw	
- conclusions or	generalize findings  
-|Systematic investigations involving open-ended interviews that are| Yes                      |
- designed to develop or contribute to generalizable knowledge 
- (e.g.,designed	to draw conclusions, inform	policy,	or generalize	
- findings).                           
-|Creation of archives for the purpose of providing a resource for	| Yes                      |
- others to do research. The intent of the archive is to create a
- repository	of information for other investigators to conduct 
- research.
+|event or the experiences of individuals without intent to draw	   |                          |
+|conclusions or	generalize findings                                |                          |
+|Systematic investigations involving open-ended interviews that are | Yes                     |
+|designed to develop or contribute to generalizable knowledge       |                         |
+|(e.g.,designed	to draw conclusions, inform	policy,	or generalize	|                         |
+|findings).                                                         |                         |
+|Creation of archives for the purpose of providing a resource for	| Yes                     |
+|others to do research. The intent of the archive is to create a    |                         |
+|repository	of information for other investigators to conduct       |                         |
+|research.                                                          |                         |
 
 
 
