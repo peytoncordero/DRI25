@@ -9,7 +9,6 @@ learning objectives:
     - Consider ethicial implacations beyond the institution around working with different types of data and analysis of data
     - Learn best practices to manage and store data
     
-    
 estimated time:
     - 2 - 3 hours
 
@@ -151,7 +150,7 @@ HRPP/IRB Required?
 
 <Secret>
 HRPP/IRB not required.
-</Secret>                      
+</Secret>
 
 2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g., designed to draw conclusions, inform policy, or generalize findings).    
 
@@ -170,7 +169,6 @@ HRPP/IRB required!
 </Secret>
 
 For guidance and more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
-
 
 ## Challenge: Forms of Data and IRB Compliance
 
