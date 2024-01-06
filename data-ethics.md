@@ -152,7 +152,7 @@ Your oral history project does the following; do you need a CUNY HRPP/IRB?
 HRPP/IRB Required?
 
 <Secret>
-NO
+HRPP/IRB not required.
 </Secret>                      
 
 2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
@@ -160,7 +160,7 @@ NO
 HRPP/IRB Required?
 
 <Secret>
-Yes
+HRPP/IRB required!
 </Secret>
                                                                              
 3. Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
@@ -168,9 +168,8 @@ Yes
 HRPP/IRB Required?
 
 <Secret>
-Yes
+HRPP/IRB required!
 </Secret>
-
 
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
