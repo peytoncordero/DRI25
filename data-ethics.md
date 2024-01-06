@@ -155,7 +155,7 @@ HRPP/IRB Required?
 NO
 </Secret>                      
 
-2.  Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
+2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
 
 HRPP/IRB Required?
 
@@ -163,7 +163,7 @@ HRPP/IRB Required?
 Yes
 </Secret>
                                                                              
-3.  Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
+3. Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
 
