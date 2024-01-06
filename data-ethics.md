@@ -151,25 +151,25 @@ Your oral history project collects does the following, do you need a CUNY HRPP/I
 
 HRPP/IRB Required?
 
-<secret>
+<Secret>
 NO
-</secret>                      
+</Secret>                      
 
 2.  Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
 
 HRPP/IRB Required?
 
-<secret>
+<Secret>
 Yes
-</secret>
+</Secret>
                                                                              
 3.  Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
 
-<secret>
+<Secret>
 Yes
-</secret>
+</Secret>
 
 
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
@@ -182,19 +182,23 @@ These are some (most!) of the shapes your research data might transform into.
 1. What are some forms of data you use in your work?
 
 <Secret>
-1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
 </Secret>
 
 2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
-3. Where do you usually get your data from?
-
-### Solution:
 
 <Secret>
-1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
-2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology.
-3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter.
+Often times outputs are statistical analysis and various data visulaizations. This is also pretty common in the field of pyschology.
 </Secret>
+
+3. Where do you usually get your data from?
+
+<Secret>
+I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
+</Secret>
+
+
+
 
 # Stages of Data
 
