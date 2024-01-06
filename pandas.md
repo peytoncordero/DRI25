@@ -116,23 +116,11 @@ Let’s create a “pandas_workshop” folder in our JupyterLite code editor wor
 A code editor is a software application that is specifically designed for writing and editing source code of computer programs. It provides features and tools to make the process of coding more efficient and productive for developers. Code editors are essential tools for software development and come in various forms, ranging from simple text editors to feature-rich integrated development environments (IDEs).
 </Keywords>
 
-## Download the dataset & upload it into the code editor
-Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
-- Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv'>
-- Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
-- Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
-
-![Upload File](/images/pandas/upload_file.png)
-
-- Once it's in that folder, you should be all set! 
-
-<Info>
-As you get more comfortable with coding in Python, you can also directly import a dataset into your Python environment using the requests library
-</Info>
-
 ## Download the Full Code in a Jupyter Notebook & upload it into the code editor
 
-We’ve also saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
+We’ve saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
+
+<Jupyter gitFile={https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb} />
 
 - Click this button to download Jupyter Notebook file to your computer: <Download files='pandas_workshop_2024.ipynb'>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
@@ -214,11 +202,12 @@ In Python, a "silent success" typically refers to a successful operation or func
 
 Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset, which contains data about refugee arrivals to the United States between 2005 and 2015, including the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
 
-You want to make sure you save the dataset in the same location as your JupyterLite Notebook, in this case the pandas_workshop folder. 
+We will connect to the dataset directly from this [Github link](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/refugee-arrivals-by-destination.csv)  
 
 
 ```python
-refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", encoding='utf-8')
+url = 'https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/refugee-arrivals-by-destination.csv'
+refugee_df = pd.read_csv(url, delimiter=",", encoding='utf-8')
 ```
 
 - With this command, we are creating a **Pandas DataFrame** object, which is a 2-dimensional labeled data structure with columns of different types. You can think of it like a spreadsheet or SQL table, or a dictionary of Series objects. 
