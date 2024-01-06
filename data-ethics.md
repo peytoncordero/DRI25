@@ -145,7 +145,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 
 ####Example: Oral History Projects
 
-Your oral history project collects does the following, do you need a CUNY HRPP/IRB?                                         
+Your oral history project does the following, do you need a CUNY HRPP/IRB?                                         
 
 1.  Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
 
