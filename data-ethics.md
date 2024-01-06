@@ -140,7 +140,25 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed research or clinical investigation involves human subjects, and
 * Your university or research institution is engaged in the research or clinical investigation involving human subjects.
 
-For a checklist and examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
+Example: Oral History Projects
+
+|Activity                                                          |HRPP/IRB Review Required  |
+|:-----------------------------------------------------------------|:------------------------:|
+|Open-ended interviews, that ONLY document a specific historical   | No                       |
+ event or the experiences of individuals without intent to draw	
+ conclusions or	generalize findings  
+|Systematic investigations involving open-ended interviews that are| Yes                      |
+ designed to develop or contribute to generalizable knowledge 
+ (e.g.,designed	to draw conclusions, inform	policy,	or generalize	
+ findings).                           
+|Creation of archives for the purpose of providing a resource for	| Yes                      |
+ others to do research. The intent of the archive is to create a
+ repository	of information for other investigators to conduct 
+ research.
+
+
+
+For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
 
 ## Challenge: Forms of Data and IRB Compliance
