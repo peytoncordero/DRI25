@@ -140,7 +140,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed research or clinical investigation involves human subjects, and
 * Your university or research institution is engaged in the research or clinical investigation involving human subjects.
 
-#####Example: Oral History Projects
+####Example: Oral History Projects
 
 Activity                                                          
 
@@ -148,21 +148,21 @@ Activity
 
 HRPP/IRB Required
 <secret>
-  No
+No
 </secret>                       
 
 * Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
 
 HRPP/IRB Required
 <secret>
-  Yes
+Yes
 </secret> 
                                                                              
 * Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required
 <secret>
-  Yes
+Yes
 </secret> 
 
 
