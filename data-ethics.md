@@ -5,7 +5,7 @@ description: 'What is data? What counts as data? What are the ethical implicatio
 
 learning objectives:
     - Know the stages of data from collection to analysis
-    - Learn about intitutional requirnments when working with data
+    - Learn about intitutional compliance when working with data and digital projects
     - Consider ethicial implacations beyond the institution around working with different types of data and analysis of data
     - Learn best practices to manage and store data
     
@@ -111,7 +111,7 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
-## Institutional Considerations for Data and Research
+## Institutional Compliance for Data and Research
  
 ###Institutional Review Board (IRB)
 
@@ -133,7 +133,7 @@ Three core principles of the Belmont report are:
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
-## Institutional Considerations for Data and Research (Cont'd)
+## Institutional Conmpliance for Data and Research (Cont'd)
 
 ###When is an IRB required?
 
@@ -145,7 +145,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 
 ####Example: Oral History Projects
 
-Your oral history project does the following, do you need a CUNY HRPP/IRB?                                         
+Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
 
 1.  Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
 
