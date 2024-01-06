@@ -148,25 +148,25 @@ Activity
 
 HRPP/IRB Required?
 
-<quiz>
+<secret>
 NO
-</quiz>                      
+</secret>                      
 
 * Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
 
 HRPP/IRB Required?
 
-<quiz>
+<secret>
 Yes
-</quiz>
+</secret>
                                                                              
 * Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
 
-<quiz>
+<secret>
 Yes
-</quiz>
+</secret>
 
 
 
