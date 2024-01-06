@@ -140,23 +140,30 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed research or clinical investigation involves human subjects, and
 * Your university or research institution is engaged in the research or clinical investigation involving human subjects.
 
-Example: Oral History Projects
+#####Example: Oral History Projects
 
-|Activity                                                          |HRPP/IRB Review Required  |
-|:-----------------------------------------------------------------|:------------------------:|
-|Open-ended interviews, that ONLY document a specific historical   | No                       |
-event or the experiences of individuals without intent to draw	                           
-conclusions or	generalize findings     
-                         
-|Systematic investigations involving open-ended interviews that are | Yes                     |
-designed to develop or contribute to generalizable knowledge       
-(e.g.,designed	to draw conclusions, inform	policy,	or generalize	                         
-findings).    
+Activity                                                          
+
+* Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+
+HRPP/IRB Required
+<secret>
+  No
+</secret>                       
+
+* Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
+
+HRPP/IRB Required
+<secret>
+  Yes
+</secret> 
                                                                              
-|Creation of archives for the purpose of providing a resource for	| Yes                     |
-others to do research. The intent of the archive is to create a                            
-repository	of information for other investigators to conduct                                
-research.                                                          
+* Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
+
+HRPP/IRB Required
+<secret>
+  Yes
+</secret> 
 
 
 
