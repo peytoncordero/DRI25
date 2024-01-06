@@ -120,7 +120,7 @@ A code editor is a software application that is specifically designed for writin
 
 We’ve saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
 
-<Jupyter gitFile='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb/'>
+<Jupyter gitFile='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb' />
 
 - Click this button to download Jupyter Notebook file to your computer: <Download files='pandas_workshop_2024.ipynb'>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
