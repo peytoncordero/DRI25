@@ -1,16 +1,16 @@
 ---
-title: 'Data Ethics'
-cover title: Data Ethics
-description: 'What is data? What counts as data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation. '
+title: 'Data Literacies'
+cover title: Data Literacies
+description: 'What is data? What counts as data? What are the ethical implications when working with data? How can we manage our data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to management.'
 
 learning objectives:
-    - Know the stages of data analysis
-    - Understand the difference between proprietary and open data formats
-    - Become familiar with the specific requirements of "high quality data"
-    - Learn about ethical issues around working with different types of data and analysis
+    - Know the stages of data from collection to analysis
+    - Learn about ethical issues around working with different types of   data and analysis
+    - Learn best practices to manage and store data
+    
     
 estimated time:
-    - 3 - 4 hours
+    - 2 - 3 hours
 
 prerequisites: 
     - command-line:
@@ -26,13 +26,13 @@ readings:
     
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
-    - "[SAFElab](https://safelab.socialwork.columbia.edu/), led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media." 
+    - "[SAFElab](https://www.asc.upenn.edu/research/centers/safe-lab) led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media."
 
 ethical considerations:
     - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
     - De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/) found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
     - Consider how you may use [differential privacy](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686) as a strategy against re-identification. Consider the [US Census 2020 example](https://www.ncsl.org/research/redistricting/differential-privacy-for-census-data-explained.aspx) on utilizing this strategy to address privacy concerns.
-    - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
+    - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, we need to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
 
 additional datasets:
     - "[National Science Foundation's open datasets](https://catalog.data.gov/organization/nsf-gov)"
@@ -61,7 +61,7 @@ These quotes below offers a variety of perspectives to understanding research da
 
 > Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
 > 
-> — [OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)
+> — [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
 
 > The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
@@ -98,9 +98,8 @@ There are many ways to represent data, just as there are many sources of data. W
 - Collection of digital objects acquired and generated during research
 
 
-Adapted from: [Georgia Tech](https://www.gatech.edu/)
+Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
-## Evaluation
 
 Research data can be defined as: (select all that apply)
 
@@ -111,7 +110,70 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
-## Challenge: Forms of Data
+## Institutional Considerations for Data and Research
+ 
+###Institutional Review Board (IRB)
+
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
+
+Three core principles of the Belmont report are:
+
+1. Respect for persons:
+
+>> "Respect for persons incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. The principle of respect for persons thus divides into two separate moral requirements: the requirement to acknowledge autonomy and the requirement to protect those with diminished autonomy."
+
+2. Beneficence:
+
+>> "Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being... Two general rules have been formulated as complementary expressions of beneficent actions in this sense: (1) do not harm and (2) maximize possible benefits and minimize possible harms."
+
+3. Justice:
+
+>> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
+
+Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
+
+###When is an IRB required?
+
+Usually, IRB review is required when *ALL* of the criteria below are met:
+
+* The investigator is conducting research or clinical investigation,
+* The proposed research or clinical investigation involves human subjects, and
+* Your university or research institution is engaged in the research or clinical investigation involving human subjects.
+
+####Example: Oral History Projects
+
+Activity                                                          
+
+* Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+
+HRPP/IRB Required?
+
+<secret>
+NO
+</secret>                      
+
+* Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
+
+HRPP/IRB Required?
+
+<secret>
+Yes
+</secret>
+                                                                             
+* Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
+
+HRPP/IRB Required?
+
+<secret>
+Yes
+</secret>
+
+
+
+For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
+
+
+## Challenge: Forms of Data and IRB Compliance
 
 These are some (most!) of the shapes your research data might transform into.
 
@@ -148,6 +210,10 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
+
+## Ethical Considerations and Impacts 
+
+
 
 ## Naming Conventions for Directory Structures
 
