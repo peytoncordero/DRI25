@@ -112,7 +112,7 @@ Research data can be defined as: (select all that apply)
 
 ## Institutional Considerations for Data and Research
  
-##Institutional Review Board (IRB)
+Institutional Review Board (IRB)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
