@@ -177,24 +177,27 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 ## Challenge: Forms of Data and IRB Compliance
 
-These are some (most!) of the shapes your research data might transform into.
+Consider the following project ideas and the research data and compliance needed to complete them.
 
-1. What are some forms of data you use in your work?
+1. You are exploring discourse on various media ecosystems. What are some forms of data you use in your work? Would you need an IRB?
 
 <Secret>
-As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+You would most likely extract/scrape data that comes through a JSON file, which is a text-type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs and XLS.
+This project would most likely not require an IRB becuase you are not extracting identifiable  information on "human subjects".
 </Secret>
 
-2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
+2. You want to explore the ecosystem of the streets on NYC. What forms of data would you produce as your output? Would you need an IRB?
 
 <Secret>
-Often times outputs are statistical analysis and various data visulaizations. This is also pretty common in the field of pyschology.
+Your outputs would most likey be statistical or geospatial. 
+You will not need an IRb for this project since there are no "human subjects involved.
 </Secret>
 
-3. Where do you usually get your data from?
+3. You want to understand the immigrant experience of a certain peoples. Where do you most likely get your data from? Would you need an IRB?
 
 <Secret>
-I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter. 
+You would need to most likely conduct interviews and collect field notes in audio or video format. 
+You would most likely need an IRB and a [Standard Deed of Gift Agreemnet](https://guides.library.columbia.edu/ld.php?content_id=46588134) to public your findings. For more forms required for oral histories and archives see [Columbia Universities Guidlines](https://guides.library.columbia.edu/c.php?g=818237&p=6539627).
 </Secret>
 
 
