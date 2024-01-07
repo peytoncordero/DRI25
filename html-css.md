@@ -113,9 +113,9 @@ Do you remember the glossary terms from this section?
 
 **_Note_: please use Firefox or Chrome. Safari will not allow you to complete this activity.**
 
-<info> __Tip__:
+<Info> __Tip__:
 If you have not installed VS Code, you can click the following links for corresponding installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux).
-</info>
+</Info>
 
 1. Open a web browser, preferably [Firefox](https://www.github.com/DHRI-Curriculum/install/blob/v2.0/guides/firefox.md).
 2. Go to any website. The example below is from [paramajmera.github.io](http://paramajmera.github.io/).
