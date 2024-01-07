@@ -71,17 +71,42 @@ The Command Line Interface (CLI) provides a faster and more efficient system int
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
-![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png~ "Terminal")
+![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
 
 To refer to this interface, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
 As we mentioned on the front page of this workshop, the “command line” is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, we suggest [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), an essay written in 1945 reflecting on the role of science in World War II. We also recommend the podcast [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world) about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and later was a key pioneer for English-based computer programming languages. 
 
-## What Does "Text-based" Mean?
+# Command Line in History of Human-Computer Interaction
+Technology changes over time and human-computer interactions go hand in hand with the developments in hardware. Thus to get to the command line, it is worth contextualizing it along with other ways of interacting with computers.
 
-For those of us comfortable reading and writing, the idea of "text-based" in the context of computers can seem a bit strange. As we start to get comfortable typing commands to the computer, it's important to distinguish "text" from word processed, desktop publishing. In the latter case, we use software (think Microsoft Word or Google Docs) that displays what we want to produce without showing us the code the computer is reading to render the formatting. On the other hand, while less pretty to look at, plain text has the advantage of being manipulable in different contexts.
+Let’s start by saying that the first “computers” were humans. It was an occupation: people were paid to develop mathematical operations before we had electronic computers. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend Human Computers at NASA, a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
 
-Let's take a quick moment to discuss text and text editors.
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), a hardware of the size of a room (1,800 square feet) created in 1945 for warfare purposes. It was designed by two men and programmed by six women, whoever the references are usually to the hardware developers and not so much to the programmers. We recommend The Forgotten Female Programmers Who Created Modern Tech, a 6-minute radio program that includes the voice of one of the ENIAC programmers and helps to understand the role of women in developing programming. 
+
+As human-computer interaction depends on the available technology, ENIAC used punch cards. This is how a punched card looks. 
+
+![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.png "Punch cards Pilot ACE c 1950")
+
+Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. The proposal of a mechanical computer device using that technology dates from that time. Punch cards are made with a keypunch, a device for precisely punching holes. In its early times, it was manual and later on became electromechanical. This is a picture of a keypunch operator working for the US Census in 1950:
+
+![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.png "Keypunch_operator_1950_census_IBM_016")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Text Editors
 Add info
