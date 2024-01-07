@@ -45,7 +45,9 @@ ethical considerations:
 
 # Introduction
 
-Welcome to the Command Line Workshop! Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
+Welcome to the Command Line Workshop! 
+
+Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
 
 - Creating new files and directories 
 - Navigating the file structure in a computer. 
