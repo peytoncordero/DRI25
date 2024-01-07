@@ -148,8 +148,8 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 1. What is the command line? (Select one)
 <Quiz>
-A program to edit plain text.
-A text-based interface to communicate with the computer.*
+- A program to edit plain text.
+- A text-based interface to communicate with the computer.*
 </Quiz>
 
 2. What is the difference between a plain text document and a rich text document? (Select all that apply)
