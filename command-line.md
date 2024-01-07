@@ -416,14 +416,14 @@ You can then navigate to that projects folder and use the ls command to check th
 
 ## Activities
 
-**Review** 
-
+**Challenge** 
 —Check the directory you are in. 
-—Try and create a subfolder 
+—Create a subfolder 
 —Now go to that folder and create a file on your own inside of it! 
 
+Do you what to check the solution?
+
 <Secret>
-Solution
 1. Type pwd to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands cd and cd .., that we learned before
 2. Type mkdir name-of-your-subfolder to create a subfolder.
 3. Type cd name-of-your-folder to navigate to that folder.
