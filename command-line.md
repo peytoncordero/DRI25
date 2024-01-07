@@ -44,6 +44,7 @@ ethical considerations:
 - Current editor: [Kalle Westerling](https://github.com/kallewesterling)
 
 # Introduction
+
 Welcome to the Command Line Workshop! Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
 
 1) Creating new files and directories 
@@ -54,9 +55,7 @@ Welcome to the Command Line Workshop! Here you will learn about communicating in
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic skills that will help you build up other digital skills. Understanding these will help you advance more easily in other digital skills, such as learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are communicating with your computer when programming and the kind of details that will make a difference in that process. 
 
-
 The command line is a basic tool to create several projects. For example, you might use it to install certain programs, including server-side software (or more advanced software-as-a-service software). One popular software for digital archives that requires this type of installation is Omeka. The command line is also used in remote collaborations to access and control other computers via Secure Shell (SSH) protocol, which allows you to send commands securely over unsecured networks. 
-
 
 Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
 
