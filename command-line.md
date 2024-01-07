@@ -67,7 +67,13 @@ To get into this page of the workshop, you might have clicked on “next” or t
 
 To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
 
-The Command Line Interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn about! 
+The Command Line Interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn about! It allows you to
+
+- Easily automate tasks such as creating, copying, and converting files.
+- Set up your programming environment.
+- Run programs you create.
+- Access the (many) programs and utilities that do not have graphical equivalents.
+- Control other computers remotely.
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
@@ -84,83 +90,69 @@ Let’s start by saying that the first “computers” were humans. It was an oc
 
 The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), a hardware of the size of a room (1,800 square feet) created in 1945 for warfare purposes. It was designed by two men and programmed by six women, whoever the references are usually to the hardware developers and not so much to the programmers. We recommend The Forgotten Female Programmers Who Created Modern Tech, a 6-minute radio program that includes the voice of one of the ENIAC programmers and helps to understand the role of women in developing programming. 
 
-As human-computer interaction depends on the available technology, ENIAC used punch cards. This is how a punched card looks. 
+As human-computer interaction depends on the available technology, ENIAC used punch cards. This is how a punched card looks: 
 
-![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch cards Pilot ACE c 1950")
+![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
 
 Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. The proposal of a mechanical computer device using that technology dates from that time. Punch cards are made with a keypunch, a device for precisely punching holes. In its early times, it was manual and later on became electromechanical. This is a picture of a keypunch operator working for the US Census in 1950:
 
 ![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.jpg "Keypunch_operator_1950_census_IBM_016")
 
+# Sizing of the computers and human-computer interaction
+
+Just think how sizing goes from computers of the size of a room to computers that can fit in our hands! For the computer using punch cards, people interacting with the machines required specialized knowledge, especially mathematics. Using those computers was an action that required physically traveling to a place and going into a specific room. 
+
+Then computers started to size down. The interaction via command line dates from the mid-60s. The available hardware at that time was computer terminals. The CLI emerged as a development for these machines, which included keyboards! The command line was much friendlier than the punch cards.
+
+At that same time, another user-friendly-centered way of interacting with the computer started to emerge: the Graphic User Interface (GUI). While GUI can be navigated via a keyboard, an essential invention for the development of GUI was the mouse (1963) because it allows users to navigate the screen with the pointer and click on icons. At first, the interface was limited to specific programs, but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s.
+
+Currently, we have computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+
+Despite all these developments, to this day, the Command Line Interface continues to be a faster and more efficient way to interact with our computers for people working with computers. In our case, this is especially important for some digital projects.  
+
+# Text for the Command Line: differences between word processors and text editors
+
+We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
+
+"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to distinguish text editors from word processors.
+
+# Word processors
+
+Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We make choices and the program immediately displays the changes we want to produce without showing us the code the computer is reading to render the formatting. 
+
+![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable a number of visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
+
+To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. If we ask the Command Line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
+
+![This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts can not recognize (which show up as question marks). Here we reproduce only a very small part of the long result to give you a bit of the taste of the nonsense it is for humans: P K exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E](/images/command-line/CatWordDoc.png "Word Doc as visualized by Command Line")
+
+What happens in this example is that the computer tries to read the hidden code, but only Microsoft Word can read those instructions. This styled text produced by word processors is also known as rich text. 
+
+Following Unicode (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
 
 
+# Text editors
 
+To interact with the computer, we need to use plain text, which is text without hidden formatting. It is produced in text editors following international standards, thus it has the advantages of being manipulable in different editors and readable within the command line. 
 
+According to Unicode (version 13.0): “Plain text is a pure sequence of character codes” (p.18); it “is the underlying content stream to which formatting can be applied. [... It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards—if it's marked up, the markup will be human-readable. 
 
+Thus, an important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
 
+Text editors are not used to edit rich text documents. Word processors should not be used to edit plain text files, because the formatting would prevent programs from running and configuration files from being read correctly.
 
+While it doesn't matter which text editor you choose, you should try to become comfortable with at least one of them. In the end, choosing a text editor has as much to do with personality as it does with functionality!
 
-
-
-
-
-
-
-
-
-# Text Editors
-Add info
-
-## What is Text?
-
-Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in _Textual Scholarship_, "text" has its specific meanings. As scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us learned to use a word processor like Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
-
-![Word Doc](/images/command-line/worddoc.png)
-
-Users with visual disabilities, [click here](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/WordProcessorExample.docx) to download the Word file.
-
-If you ask the command line to read that file, this Word `.docx` file will look something like this
-
-![Word Doc as visualized by Command Line](/images/command-line/CatWordDoc.png)
-
-Users with visual disabilities, [click here](https://raw.githubusercontent.com/DHRI-Curriculum/command-line/v2.0/files/PK.md) to download the text file.
-
-Word documents which look like "just words!" are actually comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. Plain text files can be opened in a number of different editors and can be read within the command line.
-
-## Plain Text
-
-For the purposes of communicating with machines and between machines, we need characters to be as flexible as possible. Plain text include characters of readable material but not graphical representation.
-
-According to the [Unicode Standard](https://unicode.org/versions/Unicode13.0.0/),
-
-> Plain text is a pure sequence of character codes; plain Unicode-encoded text is therefore a sequence of Unicode character codes.
-
-Plain text shows its cards—if it's marked up, the markup will be human readable. Plain text can be moved between programs more fluidly and can respond to programmatic manipulations. Because it is not tied to a particular font or color or placement, plain text can be styled externally.
-
-A counterpoint to plain text is rich text (sometimes denoted by the Microsoft rich text format `.rtf` file extension) or "enriched text" (sometimes seen as an option in email programs). In rich text files, plain text is elaborated with formatting specific to the program in which they are made.
-
-Plain text has two main properties in regard to rich text:
-
-> Plain text is the underlying content stream to which formatting can be applied. Plain text is public, standardized, and universally readable.
-
-## Choosing a Text Editor
-
-An important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as `.txt`, `.csv`, or `.md`. Text editors are not used to edit rich text documents, such as `.docx` or `.rtf`, and rich text editors should not be used to edit plain text files. This is because rich text editors will add many invisible special characters that will prevent programs from running and configuration files from being read correctly.
-
-While it doesn't really matter which text editor you choose, you should try to become comfortable with at least one text editor.
-
-Choosing a text editor has as much to do with personality as it does with functionality. Graphical user interfaces (GUIs), user options, and "hackability" vary from program to program.
-
-## Default Recommendation
-
-For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across macOS, Windows, and Linux systems.
-
-You will have downloaded Visual Studio Code according to the [instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) on the installations page. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In other workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
 
 ## Evaluation
 
-1. What is the difference between a plain text document and a rich text document? (Select all that apply)
+1. What is the command line? (Select one)
+<Quiz>
+A program to edit plain text.
+A text-based interface to communicate with the computer.*
+</Quiz>
 
+2. What is the difference between a plain text document and a rich text document? (Select all that apply)
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Plain text cannot be marked up.
@@ -168,25 +160,46 @@ You will have downloaded Visual Studio Code according to the [instructions](http
 - One can't determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-2. What is the Command Line? How is it different from your text editor?
+**To think forward:**
+- In what ways do you interact with computers in your everyday life? 
+- What is the Command Line? How is it different from your text editor?
 
-# Why is the Command Line Useful?
 
-Initially, for some of us, the command line can feel a bit unfamiliar. Why step away from a point-and-click workflow? By using the command line, we move into an environment where we have more minute control over each task we'd like the computer to perform. Instead of ordering your food in a restaurant, you're stepping into the kitchen. It's more work, but there are also more possibilities.
+# Hands-on the command line!
 
-The command line allows you to...
+Every command we learn in the next pages will require you to practice it. For this, 
+we included an emulator of the command line on DHRIFT. 
 
-- Easily automate tasks such as creating, copying, and converting files.
-- Set up your programming environment.
-- Run programs you create.
-- Access the (many) programs and utilities that do not have graphical equivalents.
-- Control other computers remotely.
+To access the emulator, check the top-right side of the screen (or the top if you are using a small device) there is a rectangle with the text “Open Code Editor”. When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
 
-In addition to being a useful tool in itself, the command line gives you access to a second set of programs and utilities and is a complement to learning programming.
+Once it is open, you can resize it by clicking on the left border of the rectangle and dragging it to the desired size. (Your mouse pointer should change into the resize icon, a horizontal two-sided arrow).
 
-What if all these cool possibilities seem a bit abstract to you right now? That's alright! On a very basic level, most uses of the command line are about **showing information** that the computer has, or **modifying or making** things (files, programs, etc.) on the computer.
+If you want to hide the emulator to continue reading through the workshop, click on the “Close Code Editor” button, which will appear on the top. 
 
-In the next section, we'll make this a little more clear by getting started with the command line.
+Also, before you start, we want to share these tips to get ready:
+ 
+1. Go slow at first and check your spelling. One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read From A to Screen by Johanna Drucker. 
+
+2. Pay attention to detail. Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+
+3. Don’t cheese the game. While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+
+
+Now, we are ready to get started!
+
+
+
+
+
+# New
+Add info
+el taller anterior empieza aca
+
+
+
+
+
+
 
 # Getting to the Command Line
 
