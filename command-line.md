@@ -738,6 +738,7 @@ Our data set is a list of public domain items from the New York Public Library. 
 We said this data is a large amount of text. Let’s make some simple tests to see the length. 
 
 First, try using the cat command to look at the data. 
+
 ```console
 $ cat nypl_items.csv 
 ```
@@ -767,6 +768,7 @@ Flags indicate options that belog to specific commands. For example, in the comm
 ## Viewing Data in the command line
 
 We saw that the cat command was not very useful for this large data set. Instead, let’s use another tool, the less command. It allows us to get data one page at a time.
+
 ```console
 $ less nypl_items.csv
 ```
@@ -777,17 +779,20 @@ To view the file contents page by page, you may use the following keyboard short
 -Press the <kbd>b</kbd> key to view back one page.
 -Press the key <kbd>q</kbd> to return to the command line.
 Let’s try two more commands for viewing the contents of a file. The first one fo them is head:
+
 ```console
 $ head nypl_items.csv
 ```
 
 The output should be the very first section of the file, which is called head. The second command, by contrast, prints out the very last part of the file, which is called tail:
+
 ```console
 $ tail nypl_items.csv
 ```
 ## Cleaning the data
 
 We didn’t tell you this before, but there are duplicate lines in our data! Two, to be exact. Before removing them, let’s see how many entries are in our .csv file 
+
 ```console
 $ cat nypl_items.csv | wc -l
 100001
@@ -796,12 +801,14 @@ $ cat nypl_items.csv | wc -l
 This tells us there are 100,001 lines in our file. 
 
 To find and remove duplicate lines, we can use the uniq command combined via a pipe with other commands we used before. Let's try it out:
+
 ```console
 $ cat nypl_items.csv | uniq | wc -l
 99999
 ```
 
 OK, the count went down by two because the uniq command removed the duplicate lines. But which lines were duplicated?
+
 ```console
 $ cat nypl_items.csv | uniq -d
 ```
@@ -815,6 +822,7 @@ In this line we are combining two commands, the first one is to print out the da
 Use the commands you’ve learned so far to create a new version of the nypl_items.csv file with the duplicated lines removed. Hint: we created a new version of our cheat sheet after sorting it alphabetically. 
 
 <Secret>
+
 ```console
 $ cat nypl_items.csv | uniq > clean_nypl_items.csv
 ```
@@ -839,6 +847,7 @@ So we've cleaned our data set, but how do we find entries that use a particular 
 Here we can use the grep command, which stands for "global regular expression print." The grep command processes text line by line and prints any lines that match a specified pattern. 
 
 On the command line write
+
 ```console
 $ cat nypl_items.csv | grep -i "paris"
 ```
@@ -846,6 +855,7 @@ $ cat nypl_items.csv | grep -i "paris"
 This will print out all the lines that contain the word "Paris." The -i flag makes the command ignore capitalization. 
 
 Now we can use our wc -l command to see how many lines that are:
+
 ```console
 $ cat nypl_items.csv | grep -i "paris" | wc -l
 191
