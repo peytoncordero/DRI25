@@ -148,7 +148,7 @@ Research data can be defined as: (select all that apply)
 
 ## Institutional Compliance for Data and Research
  
-###Institutional Review Board (IRB)
+### Institutional Review Board (IRB)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
@@ -187,7 +187,7 @@ Your oral history project does the following; do you need a CUNY HRPP/IRB?
 HRPP/IRB Required?
 
 <Secret>
-NO
+No
 </Secret>                      
 
 2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
