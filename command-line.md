@@ -145,7 +145,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 # Evaluation
 
-1. What is the command line? (Select one)
+_1. What is the command line? (Select one)
 <Quiz>
 - A program to edit plain text.
 - A text-based interface to communicate with the computer.*
@@ -153,7 +153,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 - A programming language.
 </Quiz>
 
-2. What is the difference between a plain text document and a rich text document? (Select all that apply)
+_2. What is the difference between a plain text document and a rich text document? (Select all that apply)
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Plain text cannot be marked up.
@@ -189,6 +189,7 @@ Also, before you start, we want to share these tips to get ready:
 Now, we are ready to get started!
 
 # Navigating the command line
+
 **Command prompt $**
 
 $, which we will refer to as the "command prompt," is the place where you type commands you wish the computer to execute. We will now learn some of the most common commands.
