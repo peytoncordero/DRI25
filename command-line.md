@@ -18,7 +18,7 @@ estimated time:
         
 readings:
     - Neal Stephenson's ["In the Beginning... Was the Command Line"](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
-    -The paper [Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544) by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
+    - The paper [Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544) by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
     "More resources will be offered across the workshop."
 projects:
@@ -43,6 +43,23 @@ ethical considerations:
 - Past reviewer: [Di Yoong](https://github.com/dyoong)
 - Current editor: [Lisa Rhody](https://github.com/lmrhody)
 - Current editor: [Kalle Westerling](https://github.com/kallewesterling)
+
+# Introduction
+Welcome to the Command Line Workshop! Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
+
+1) Creating new files and directories 
+2) Navigating the file structure in a computer. 
+3) Moving content and files to new locations within the file structure. 
+4) Searching within text files. 
+5) Doing a basic exploration of a dataset. 
+
+Understanding the logic of the command line and the architecture of the information on a computer are basic skills that will help you build up other digital skills. Understanding these will help you advance more easily in other digital skills, such as learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are communicating with your computer when programming and the kind of details that will make a difference in that process. 
+
+
+The command line is a basic tool to create several projects. For example, you might use it to install certain programs, including server-side software (or more advanced software-as-a-service software). One popular software for digital archives that requires this type of installation is Omeka. The command line is also used in remote collaborations to access and control other computers via Secure Shell (SSH) protocol, which allows you to send commands securely over unsecured networks. 
+
+
+Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
 
 # What Is the Command Line?
 
