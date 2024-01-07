@@ -118,13 +118,14 @@ A code editor is a software application that is specifically designed for writin
 
 ## Download the Full Code in a Jupyter Notebook & upload it into the code editor
 
-We’ve saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
+We’ve saved all of the code for this section in a Jupyter Notebook file. 
+
+- To access this file, click the following button: 
 
 <Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb' />
 
-- Click this button to download Jupyter Notebook file to your computer: <Download files='pandas_workshop_2024.ipynb'>
-- Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
-- Click the upward facing arrow symbol to upload your pandas_workshop_2024.ipynb file. 
+- Open your code editor in the right hand corner and locate the `pandas_workshop_2024.ipynb` file
+- Finally, drag and drop the `pandas_workshop_2024.ipynb` file into your `pandas_workshop` folder 
 - Once it's in that folder, you should be all set! 
 
 In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it.
