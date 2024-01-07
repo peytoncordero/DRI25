@@ -417,9 +417,9 @@ You can then navigate to that projects folder and use the ls command to check th
 ## Activities
 
 **Challenge** 
-—Check the directory you are in. 
-—Create a subfolder 
-—Now go to that folder and create a file on your own inside of it! 
+— Check the directory you are in. 
+— Create a subfolder 
+— Now go to that folder and create a file on your own inside of it! 
 
 Do you what to check the solution?
 
