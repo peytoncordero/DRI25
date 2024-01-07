@@ -134,7 +134,7 @@ Three core principles of the Belmont report are:
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
-## Institutional Conmpliance for Data and Research (Cont'd)
+## Institutional Compliance for Data and Research (Cont'd)
 
 ### When is an IRB required?
 
