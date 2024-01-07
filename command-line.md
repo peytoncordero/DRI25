@@ -17,9 +17,6 @@ learning objectives:
 estimated time: 
     description: 3 hours
     
-prerequisites:
-    - None
-
 instructors: 
     - 'Silvia Rivera Alfaro'
 
