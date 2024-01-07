@@ -246,9 +246,9 @@ Now that we know 'thyself', our next step should be to understand where we are.
 
 # The filesystem: information structure on the computer 
 
-To work with the Command Line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the filesystem. 
+To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the filesystem. 
 
-We can think of a library as a good example. Visiting a library can be taken as a metaphor for going inside the computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we go to a shelf to find a book, we can see that the book is located on a shelf by subject and that even within the subject there are subsections. The library needs to be very organized as everyone coming to visit or working in the library needs to be able to find the books they are looking for. Additionally, as users, we should be able to always find the book in the same location.
+We can think of a library as a metaphor for going inside of a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the way in the building to access the shelf and retrieve any book they want from the collection. 
 
 The filesystem comes from the method of storage of paper documents, so it is quite close to the idea of the library, where each book could be taken as a file. However, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials to preserve memory and ensure accountability by institutions. As many of those materials are files, they put these files in folders. 
 
