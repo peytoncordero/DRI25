@@ -8,8 +8,7 @@ learning objectives:
     - Learn about intitutional compliance when working with data and digital projects
     - Consider ethicial implacations beyond the institution around working with different types of data and analysis of data
     - Learn best practices to manage and store data
-    
-    
+
 estimated time:
     - 2 - 3 hours
 
