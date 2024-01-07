@@ -30,7 +30,7 @@ prerequisites:
 
 installations:
     - visual-studio-code: 
-        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used. For installation instructions, click the corresponding link for [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux).
+        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used.
 
 readings:
     - "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
@@ -112,6 +112,10 @@ Do you remember the glossary terms from this section?
 # Opening Activity
 
 **_Note_: please use Firefox or Chrome. Safari will not allow you to complete this activity.**
+
+<info> __Tip__:
+If you have not installed VS Code, you can click the following links for corresponding installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux).
+</info>
 
 1. Open a web browser, preferably [Firefox](https://www.github.com/DHRI-Curriculum/install/blob/v2.0/guides/firefox.md).
 2. Go to any website. The example below is from [paramajmera.github.io](http://paramajmera.github.io/).
@@ -855,8 +859,6 @@ ID selectors look like this in the CSS—the name of the selector preceded by a 
     <li>About</li>
 </ul>
 ```
-
-TODO: Figure out how to link to the correct section with either the h1 or h2 structuring.
 
 <Info>__Tip__
 
