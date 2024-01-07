@@ -725,7 +725,11 @@ Only where you are located in the folder that contains the file the tab key will
 
 The Command Line can be a very powerful tool to analyze text data, especially when we use it to analyze a large amount of text, one that would be too large to work with by hand. In this section, we will analyze. 
 
-The data we will be using is already on the DHRIFT emulator. You can find it at /home/user/data. 
+The data we will be using is already on the DHRIFT emulator. The path to find it is 
+
+```console
+/home/user/data 
+```
 
 Check where you are located using pwd. If you are not in that working directory, use the necessary commands to access that location.
 
