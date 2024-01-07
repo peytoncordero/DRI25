@@ -150,6 +150,8 @@ While it doesn't matter which text editor you choose, you should try to become c
 <Quiz>
 - A program to edit plain text.
 - A text-based interface to communicate with the computer.*
+- A Graphical User Interface.
+- A programming language.
 </Quiz>
 
 2. What is the difference between a plain text document and a rich text document? (Select all that apply)
