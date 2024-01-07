@@ -23,6 +23,7 @@ readings:
     - "In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of 'smart big data.'"
     - "The book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of 'readymade' and 'custommade' data alongside ethics."
     - "[Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project."
+    - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh implores researchers to think beyond the IRB and consider "community engagement, citation, and data sharing" for ethically responsible digital research.
     
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
@@ -71,6 +72,17 @@ These quotes below offers a variety of perspectives to understanding research da
 
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
+## Being Data
+
+|Stage| Form|
+|*----*|*----*|
+|Raw|Textual|
+|Cleaned| Numeric|
+|Processed| Audio|
+|Analyzed|Video|
+|Visualized|Image|
+|     |Code|
+
 ## Forms of Data
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities:
@@ -111,11 +123,45 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
-## Challenge: Forms of Data
+## Institutional Compliance for Data and Research
+ 
+### Institutional Review Board (IRB)
 
-These are some (most!) of the shapes your research data might transform into.
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
-1. What are some forms of data you use in your work?
+Three core principles of the Belmont report are:
+
+1. Respect for persons:
+
+>> "Respect for persons incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. The principle of respect for persons thus divides into two separate moral requirements: the requirement to acknowledge autonomy and the requirement to protect those with diminished autonomy."
+
+2. Beneficence:
+
+>> "Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being... Two general rules have been formulated as complementary expressions of beneficent actions in this sense: (1) do not harm and (2) maximize possible benefits and minimize possible harms."
+
+3. Justice:
+
+>> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
+
+Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
+
+## Institutional Conmpliance for Data and Research (Cont'd)
+
+### When is an IRB required?
+
+Usually, IRB review is required when *ALL* of the criteria below are met:
+
+* The investigator is conducting research or clinical investigation,
+* The proposed research or clinical investigation involves human subjects, and
+* Your university or research institution is engaged in the research or clinical investigation involving human subjects.
+
+#### Example: Oral History Projects
+
+Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
+
+1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+
+HRPP/IRB Required?
 
 <Secret>
 1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
