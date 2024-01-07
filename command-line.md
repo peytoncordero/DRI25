@@ -60,7 +60,7 @@ resources:
         description: The Odin Project is an open learning resource. The Command Line Basics lessons include a number of projects for people interested in learning about the Command Line. 
         link: https://www.theodinproject.com/lessons/foundations-command-line-basics 
     - Awesome Bash:
-        description: a curated list of useful Bash scripts and resources
+        description: A curated list of useful Bash scripts and resources
         link: https://github.com/awesome-lists/awesome-bash 
 ---
 
@@ -76,35 +76,38 @@ Here you will learn about communicating instructions to your computer. At the en
 - Searching within text files. 
 - Doing a basic exploration of a dataset. 
 
-Understanding the logic of the command line and the architecture of the information on a computer are basic skills that will help you build up other digital skills. Understanding these will help you advance more easily in other digital skills, such as learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are communicating with your computer when programming and the kind of details that will make a difference in that process. 
+Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up other. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
 
-The command line is a basic tool to create several projects. For example, you might use it to install certain programs, including server-side software (or more advanced software-as-a-service software). One popular software for digital archives that requires this type of installation is Omeka. The command line is also used in remote collaborations to access and control other computers via Secure Shell (SSH) protocol, which allows you to send commands securely over unsecured networks. 
-
-Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
-
-# What Is the Command Line?
-
-To get into this page of the workshop, you might have clicked on “next” or touched the bottom with your finger. In this way, you are interacting with your computer. The command line is another means of human-computer interaction. 
-
-To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
-
-The Command Line Interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn about! It allows you to
+The command line is a basic tool to create several projects. It allows you to
 
 - Easily automate tasks such as creating, copying, and converting files.
 - Set up your programming environment.
 - Run programs you create.
 - Access the (many) programs and utilities that do not have graphical equivalents.
-- Control other computers remotely.
+- Access and control other computers remotely 
+- Collaborate remotely in digital projects
+- Install certain programs, including server-side software (or more advanced software-as-a-service software). 
+
+Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
+
+# What is the command line?
+
+To get to this page of the workshop, you might have clicked on `next` or touched the bottom with your finger. In this way, you are interacting with your computer. The command line is another means of human-computer interaction. 
+
+To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
+
+The command line interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn! 
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
 ![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
 
-To refer to this interface, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
+To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
-As we mentioned on the front page of this workshop, the “command line” is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, we suggest [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), an essay written in 1945 reflecting on the role of science in World War II. We also recommend the podcast [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world) about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and later was a key pioneer for English-based computer programming languages. 
+As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. Another useful resource is [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world), a podcast episode about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and became a key pioneer to interact with computers via  programming languages. 
 
 ## Command Line in History of Human-Computer Interaction
+
 Technology changes over time and human-computer interactions go hand in hand with the developments in hardware. Thus to get to the command line, it is worth contextualizing it along with other ways of interacting with computers.
 
 Let’s start by saying that the first “computers” were humans. It was an occupation: people were paid to develop mathematical operations before we had electronic computers. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
@@ -131,34 +134,33 @@ Currently, we have computers that can be transported in our hands, from smartpho
 
 Despite all these developments, to this day, the Command Line Interface continues to be a faster and more efficient way to interact with our computers for people working with computers. In our case, this is especially important for some digital projects.  
 
-# What is text for the Command Line?
+# What is text for the command line?
 
 We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
 
-"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast text editors and word processors.
+"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast *text editors* and *word processors*.
 
 ## Word processors
 
-Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We make choices and the program immediately displays the changes we want to produce without showing us the code the computer is reading to render the formatting. 
+Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We choose, for example, a new typografy and letter size and the program immediately displays the changes without showing us the code the computer is reading to render the formatting. 
 
 ![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable a number of visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
-To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML) instructions that only Microsoft Word can read. If we ask the Command Line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
+To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML), instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
 
 ![This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts can not recognize (which show up as question marks). Here we reproduce only a very small part of the long result to give you a bit of the taste of the nonsense it is for humans: P K exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E](/images/command-line/CatWordDoc.png "Word Doc as visualized by Command Line")
 
-What happens in this example is that the computer tries to read the hidden code, but only Microsoft Word can read those instructions. This styled text produced by word processors is also known as rich text. 
+The computer tried to read the hidden code, but only Microsoft Word can read those instructions. The styled text produced by word processors is known as *rich text*. 
 
 Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
 
-
 ## Text editors
 
-To interact with the computer, we need to use plain text, which is text without hidden formatting. It is produced in text editors following international standards, thus it has the advantages of being manipulable in different editors and readable within the command line. 
+To interact with the computer, we need to use *plain text*, which is text without hidden formatting. It is produced in text editors following international standards. Thus, it has the advantages of being manipulable in different editors and readable within the command line. 
 
 According to [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0): “Plain text is a pure sequence of character codes” (p.18); it “is the underlying content stream to which formatting can be applied. [... It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards—if it's marked up, the markup will be human-readable. 
 
-Thus, an important tool for programming and working in the command line is a text editor. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
+Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
 
 Text editors are not used to edit rich text documents. Word processors should not be used to edit plain text files, because the formatting would prevent programs from running and configuration files from being read correctly.
 
@@ -190,16 +192,15 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 # Hands-on the command line!
 
-Every command we learn in the next pages will require you to practice it. For this, 
-we included an emulator of the command line on DHRIFT. 
+Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
 
-To access the emulator, check the top-right side of the screen (or the top if you are using a small device) there is a rectangle with the text “Open Code Editor”. When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
+To access the emulator, check the top-right side of the screen (or the top if you are using a small device). There is a rectangle with the text "Open Code Editor". When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
 
 Once it is open, you can resize it by clicking on the left border of the rectangle and dragging it to the desired size. (Your mouse pointer should change into the resize icon, a horizontal two-sided arrow).
 
-If you want to hide the emulator to continue reading through the workshop, click on the “Close Code Editor” button, which will appear on the top. 
+You can hide the emulator to continue reading through the workshop. For this, click on the “Close Code Editor” button, which will appear on the top. You can close it and reopen it everytime you need; the information you have entered will continue to be there!
 
-Also, before you start, we want to share these tips to get ready:
+We also want to share these tips to get ready:
  
 **1. Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
 
@@ -207,8 +208,7 @@ Also, before you start, we want to share these tips to get ready:
 
 **3. Don’t cheese the game.** While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
-
-Now, we are ready to get started!
+Now, you are ready to get started!
 
 ## Navigating the command line
 
@@ -218,7 +218,7 @@ Now, we are ready to get started!
 $ 
 ```
 
-We will refer to '$' as the "command prompt." It is the place where you type commands for the computer to execute. We will now learn some of the most common commands.
+We will refer to '$' as the 'command prompt.' It is the place where you type commands for the computer to execute. We will now learn some of the most common commands.
 
 When you see the '$', you're in the right place. In the following lessons, we will refer to the command prompt using a '$'. 
 
@@ -226,17 +226,23 @@ However in different Operative Systems, the sign varies somewhat, and sometimes 
 
 ## Getting started: know thyself
 
-You may also see your username to the left of the command prompt $. Let's try our first command. Type the following and press enter on your keyboard:
+You may also see your username to the left of the command prompt $. Let's try our first command. Type the following commmand and press enter on your keyboard:
 
 ```console
 $ whoami
 ```
 
-The whoami command should print out your username. On DHRIFT the response should be “user”, but on each computer, this would change according to the name of your user.
+The `whoami` command should print out your username. On DHRIFT the response should be 
 
-Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
+```console
+user
+```
 
-If the first command was to let us know who we are, our next step should be to understand where we are. 
+On each computer, this would change according to the name username.
+
+Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+
+Now that we know 'thyself', our next step should be to understand where we are. 
 
 # The filesystem: information structure on the computer 
 
