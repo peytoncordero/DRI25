@@ -230,89 +230,65 @@ Later on, many users started to have  “their very own digital room”, and not
 
 Anyway, the new ways in which we store and create information in the present pose opportunities and challenges for the future. We suggest [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005), a dissertation to think about the present challenges of organizing our digital data. As for the command line, we need to understand and follow the hierarchical structure of the filesystem to guide the computer when we interact with it!
 
-# fin
-fin de textoooooo
+# Orienting Yourself in the Command Line: Folders
 
-OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
-
-Your computer's files are organized in what's known as a hierarchical filesystem. That means there's a top level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. You can draw these relationships in a tree:
-
-![An example of how a hierarchical filesystem looks](/images/command-line/hierarchical-filesystem-example.png)
-
-The root or highest-level folder on macOS is just called `/`. We won't need to go in there, though, since that's mostly just files for the operating system. On Windows, the root directory is usually called `C:`. (If you are curious why `C:` is the default name on Windows, you can read about it [here](http://www.todayifoundout.com/index.php/2015/04/c-drive-default-windows-based-computers-2).)
-
-Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing.
-
-OK, let's try a command that tells us where we are in the filesystem:
-
+We're going to try another command to understand. This time it will help us to understand where we are on the computer. Write the following command and press enter:
+ 
 ```console
 $ pwd
 ```
+You should get the output /home/user on DHRIFT. 
 
-You should get output like `/Users/your-username`. That means you're in the `your-username` directory in the `Users` folder inside the `/` or root directory. This directory is often called the "home" directory.
+The command pwd, which stands for "print working directory”, allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command pwd won't print anything except on your screen. This command is easier to grasp when we interpret "print" as "display." Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing.
 
-On Windows, your output would instead be `C:/Users/your-username`. The folder you're in is called the working directory, and `pwd` stands for "print working directory." "Print" as a word can be somewhat misleading. The command `pwd` won't actually print anything except on your screen. This command is easier to grasp when we interpret "print" as "display."
+Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. You can draw these relationships in a tree. 
 
-Now we know "where" we are. But what if we want to know what files and folders are in the `your-username` directory, a.k.a. the working directory? Try entering:
+![Screen shot of the icons of folders organized as a tree of the filesystem in the MacOS GIU](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
 
+That means there's a top-level or root folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The root or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just / on macOS and are called C: on Windows. 
+
+On your computer, you should get something like  /Users/your-username, which means you're in the your-username directory in the Users folder inside the / or root directory. This directory is often called the "home" directory.
+
+Now we know "where" we are. But what if we want to know what files and folders are contained in the same working directory where you are located right now? 
+
+# What's in the folder?
+
+To check what is contained in the folder, try entering:
 ```console
 $ ls
 ```
 
-You should see a number of folders, probably including `Documents`, `Desktop`, and so on. You may also see some files. These are the contents of the current working directory. `ls` will "list" the contents of the directory you are in.
+In this command, “ls” stands for list. It is a request to list the contents of your current working directory. 
 
-Wonder what's in the `Desktop` folder? Let's try navigating to it with the following command:
+You should see a list of folders and files contained in the current working directory where you are located. Usually, it might include folders such as Documents, and Desktop, and you may also see some files. In the case of the DHRIFT emulator, you should see command-line-treasure-hunt and data. 
 
+Wonder what's in the data folder? Let's try navigating to it with the following command:
 ```console
-$ cd Desktop
+$ cd data
 ```
+The cd command lets us "change directory." (Make sure the "d" in "data" is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
 
-The `cd` command lets us "change directory." (Make sure the "D" in "Desktop" is capitalized.) If the command was successful, you won't see any output. This is normal—often, the command line will succeed silently.
-
-So how do we know it worked? That's right, let's use our `pwd` command again. We should get:
-
+So how do we know it worked? Let's use our pwd command again! We should get:
 ```console
 $ pwd
-/Users/your-username/Desktop
 ```
+/home/user/data
 
-Now try `ls` again to see what's on your desktop. These three commands—`pwd`, `ls`, and `cd`—are the most commonly used in the terminal. Between them, you can orient yourself and move around.
+Now try the command ls again, to see what's on the data folder! 
 
-One more command you might find useful is `cd ..` which will move you one directory up in the filesystem. That's a `cd` with two periods after it:
+The commands pwd, ls, and cd are the three most commonly used in the terminal. Between them, you can orient yourself and move around.
 
+One more command you might find useful right now is cd .. which will move you to one directory up in the filesystem. That's a cd with two periods after it:
 ```console
 $ cd ..
 ```
 
-## Challenge
-
-Before moving on, take a minute to navigate through our computer's file system using the command line. Use the three commands you've just learned—`pwd`, `ls` and `cd`—eight (8) times each. Go poking around your `Photos` folder, or see what's so special about that root `/` directory. When you're done, come back to your "home" folder with
-
+Let's check it worked using our pwd command again! 
 ```console
-$ cd ~
+$ pwd
 ```
-
-(That's a tilde <kbd>~</kbd>, on the top left of your keyboard.) 
-
-### Compare with the GUI
-
-It's important to note that this is the same old information you can get by pointing and clicking displayed to you in a different way.
-
-Go ahead and use pointing and clicking to navigate to your working directory—you can get there a few ways, but try starting from "My Computer" and clicking down from there. You'll notice that the folder names should match the ones that the command line spits out for you, since it's the same information! We're just using a different mode of navigation around your computer to see it.
-
-## Solution
-
-1. Type `pwd` to see where on your computer you are located.
-2. Type `cd name-of-your-folder` to enter a subfolder.
-3. Type `ls` to see the content of that folder.
-4. Type `cd ..` to leave that folder.
-5. Type `pwd` to make sure you are back to the folder where you wish to be.
-6. Type `cd ~` to go back to your home folder.
-7. Type `pwd` to make sure you are in the folder where you wish to be.
-8. Type `cd /` to go back to your root folder.
-9. Type `ls` to see the content of folder you are currently in.
-10. Type `pwd` to make sure you are in the folder where you wish to be.
-11. Type `cd name-of-your-folder` to enter a subfolder.
+We should get:
+/home/user
 
 ## Evaluation
 
@@ -325,100 +301,202 @@ Go ahead and use pointing and clicking to navigate to your working directory—y
 - $ `whoami`
 </Quiz>
 
-2. When and why would you want to use the command line as opposed to your operating system's GUI?
-
 ## Keywords
-
-Do you remember the glossary terms from this section?
-
 - [Filesystem](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/filesystem.md)
 - [GUI](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/gui.md)
 - [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
 
-# Creating Files and Folders
+# Creating files
 
-## Creating a File
-
-So far, we've only performed commands that give us information. Let's use a command that creates something on the computer.
+So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! We will start with a file.
 
 First, make sure you're in your home directory:
-
 ```console
 $ pwd
-/Users/your-username
+/home/user
 ```
 
-Let's move to the `Desktop` folder, or "change directory" with `cd`:
-
-```console
-$ cd Desktop
-```
-
-Once you've made sure you're in the `Desktop` folder with `pwd`, let's try a new command:
-
+Once you've made sure you're in there, let's try a new command:
 ```console
 $ touch foo.txt
 ```
 
-The `touch` command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it.
+The touch command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it. Touch creates a new file if it doesn’t exist, but when the file exists, it will only modify the time when it was last accessed. 
 
-If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called `foo.txt` on the desktop. Pretty cool, right?
+In this case we are creating a .txt which means it is a new plain text file, but it could have been a .csv file which could be a list or representing a spreadsheet in plain text.
 
-## Handy Tip: Up Arrow
-
-Let's say you liked that `foo.txt` file so much you'd like another! In the terminal window, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit <kbd>enter</kbd> to create another `foo.txt,` (note - [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory, but it will update info about that file.) or you could use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to `foot.txt` to create a different file.
-
-As we start to write more complicated and longer commands in our terminal, the <kbd>up arrow</kbd> is a great shortcut so you don't have to spend lots of time typing.
-
-## Creating Folders
-
-OK, so we're going to be doing a lot of work during the Digital Humanities Research Institute. Let's create a `projects` folder on our desktop, where we can keep all our work in one place.
-
-First, let's check to make sure we're still in the `Desktop` folder with `pwd`:
-
+If the command succeeds, you won't see any output. So, let’s make sure the file is now part of your folder by using the command ls
 ```console
-$ pwd
-/Users/your-username/Desktop
+$ ls
 ```
 
-Once you've double-checked you're in `Desktop`, we'll use the `mkdir` or "make directory" command to make a folder called `projects`:
+See any differences? If the command was successful and you were in the right place, you should see a file called foo.txt in the home folder. Pretty cool, right?
 
+**Why the file is called foo.txt?**
+As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but foo is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
+
+# Handy Tip: Use the arrows on the keyboard! 
+
+Let's say you liked that 'foo.txt' file so much you'd like another! In the command line emulator, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote: “touch foo.txt” 
+
+If you keep pressing the up arrow you can see all the commands you wrote recently. You can navigate the comments with up and down arrows. 
+
+As we start to write more complicated and longer commands in our terminal, the up arrow is a great shortcut so you don't have to spend lots of time typing. 
+
+You can use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to 'foot.txt' to create a different file.
+
+# Creating folders 
+
+OK, so we're going to create a projects folder!
+First, let's check to make sure we're still in the Home folder with pwd:
+```console
+$ pwd
+/home/user
+```
+
+Once you've double-checked you're there, we'll use the mkdir or "make directory" command to make a folder called projects:
 ```console
 $ mkdir projects
 ```
 
-Now run `ls` to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, `cd` into it.
-
+Now run ls to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, cd into it.
 ```console
 $ cd projects
-$ pwd
-/Users/your-username/Desktop/projects
 ```
 
-OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier.
+And check that you are in the new folder
+```console
+$ pwd
+/home/user/projects
+```
 
-## Challenge
+OK, now you've got a projects folder! 
 
-Try and create a sub-folder and file on your own!
+In this case ‘projects’ is the name of the folder, but it could be called any name we wanted. For example, if we use $ mkdir bananas, then the directory would be ‘bananas’
 
-## Solution
+When you work on your computer and create folders, they should be visible on your graphical desktop too. 
 
-1. Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the [lesson on navigation](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=6).
-2. Type `mkdir name-of-your-subfolder` to create a subfolder.
-3. Type `cd name-of-your-folder` to navigate to that folder.
-4. Type `challenge.txt` to create a new text file.
-5. Type `ls` to check whether you created the file correctly.
+# Moving a file to our new folder
 
-## Evaluation
+Now that you have a folder for your projects, let’s move our first file to this folder. 
 
-What does the <kbd>up arrow</kbd> command do?
+First, be sure you are located in the current location of the file, which is /home/user/projects. If you are not there, use the commands we have learned to make projects your working directory.You need to be in the folder where the file is located to execute the next command successfully. 
 
+Once you are there, type the mv command followed by the name of the file you want to move and then the file path to your projects:
+```console
+$ mv foo.txt /home/user/projects
+```
+
+You can then navigate to that projects folder and use the ls command to check that the file is there. 
+
+# Activities
+
+**Review** 
+
+—Check the directory you are in. 
+—Try and create a subfolder 
+—Now go to that folder and create a file on your own inside of it! 
+
+<Secret>
+Solution
+
+1. Type pwd to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands cd and cd .., that we learned before
+2. Type mkdir name-of-your-subfolder to create a subfolder.
+3. Type cd name-of-your-folder to navigate to that folder.
+4. Type name-of-your-file.txt to create a new text file.
+5. Type ls to check whether you created the file correctly.
+</Secret>
+
+**Evaluation**
+
+What does the <kbd>up arrow</kbd> do?
 <Quiz>
 - It quits the Terminal/GitBash.
 - It undoes my last command.
 - It inserts my last command.*
 - It shows me what folder I am working in.
 </Quiz>
+
+**For further consideration**
+
+- Think of your current form of organizing information on your computer or a specific cloud service where you storage information. Do you follow a specific system to organize it? Is it possible for you to draw a diagram of it? 
+
+- Now, think of the how would be a good way to organize information when you create folders in that space - is it possible for you to draw a diagram?
+
+- Finally, think of the different spaces where you store your information. Is it possible to draw a diagram of how you organize your information in general and how these spaces interact?
+
+# Create your Command Line Cheat Sheet 
+
+In this section, we’ll create a text file that we can use to keep all the commands we learn in this workshop. 
+
+To know where we are creating this new file, first check where you are located:
+
+```console
+$ pwd
+/home/user/projects
+```
+
+If you are in the projects folder, stay there. If you are not there, use
+```console
+$ cd ~
+```
+
+This last sign is called tilde. The command “cd ~” gets you to your user folder, home. 
+
+Try the command pwd again, you should be in the home directory now /home/user/
+
+Now that you are there, access projects
+```console
+$ cd projects
+```
+
+It might seem repetitive or basic to check our location once again, but when you are working in a bigger project, being able to document the location of files to be able to know the path to access them is a very important task. Think again of our metaphor of looking for a book in the library: to enter a big building full of books and being able to find the one you are looking for, you need to have a sense of the structure and now where the book is located. 
+
+We are ready to create our first project: our very own cheat sheet! So let’s move forward with it. 
+
+For this project, we will use “echo”. Echo is a command to print plain text. Write
+ 
+```console
+$ echo “Hello world from the command line”
+```
+
+The output will be a line of text on the command line:
+```console
+Hello world from the command line
+```
+
+This is the way in which the CLI prints the text. How can we ask the computer to print a text on a file instead of printing it on the command line? 
+
+We use the redirect symbol (a greater-than symbol): 
+```console
+$ echo “This is my cheat sheet”  > cheat-sheet.txt
+```
+
+Now let’s check we created the file with the command 
+
+```console
+$ ls 
+```
+
+The output should include in the list a file called cheat-sheet.txt
+
+But we also want to make sure that our phrase “This is my cheat sheet” is in the file! How can we do that? Write: 
+
+```console
+$ cat cheat-sheet.txt 
+```
+
+The command “cat” is used to request your computer to print the file. It stands for “concatenate,” because it links strings of characters or files together from end to end. 
+
+The output should be the content of the file. In this case, the only content is 
+```console
+This is my cheat sheet.
+```
+
+# fin de update
+fin de textoooooo
+
+
 
 # Creating a Cheat Sheet
 
