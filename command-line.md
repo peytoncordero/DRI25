@@ -17,25 +17,36 @@ learning objectives:
 estimated time: 
     description: 3 hours
     
-workshop prerequisites:
+prerequisites:
     - None
+
+instructors: 
+    - 'Silvia Rivera Alfaro'
+
+authors:
+    - 'Silvia Rivera Alfaro'
+    - 'Stefano Morello'
+
+editors:
+    - 'Lisa Rhody' 
         
 readings:
     - Neal Stephenson's ["In the Beginning... Was the Command Line"](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
     - The paper [Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544) by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
+
+ethical considerations:
+    - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in On Software, or the Persistence of Visual Knowledge (2004), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts—predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argued, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.' If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in."
+
 projects:
+# Title and then description and link
     - description: "The command line is a great instrument for different projects and learning processes. Three of them are"
     - "Doing installations required for some programs"
     - "Collaborating remotely"
     - "Learning new programming languages"
-
-ethical considerations:
-    - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in On Software, or the Persistence of Visual Knowledge (2004), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts—predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argued, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.' If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in."
 ---
 
 # Acknowledgements
-
 - Current Author: [Silvia Rivera Alfaro](https://github.com/silvira)
 - Past contributing Author: [Stefano Morello](https://github.com/smorello87)
 - Past contributing Author: [Kelsey Chatlosh](https://github.com/kchatlosh)
