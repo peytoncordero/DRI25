@@ -51,12 +51,12 @@ projects:
    - Feminist Linguistics Repository:
         description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely.   
         link: https://repositorio.linguisticafeminista.com/ 
-    - Fair World 64: 
+   - Fair World 64: 
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
         link: https://academicworks.cuny.edu/gc_etds/3786/
    
 resources: 
-- Command Line Basics by The Odin Project:
+    - Command Line Basics by The Odin Project:
         description: The Odin Project is an open learning resource. The Command Line Basics lessons include a number of projects for people interested in learning about the Command Line. 
         link: https://www.theodinproject.com/lessons/foundations-command-line-basics 
     - Awesome Bash:
