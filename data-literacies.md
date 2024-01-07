@@ -236,11 +236,9 @@ You would most likely need an IRB and a [Standard Deed of Gift Agreemnet](https:
 </Secret>
 
 
-
-
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) **collection of "raw" data**, b) **processing and/or transforming data**, c) **cleaning**, d) **analysis**, and e) **visualization**. For example, we can consider the stages in the following way:
 
 1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
