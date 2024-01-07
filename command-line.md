@@ -321,7 +321,10 @@ $ pwd
 - [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
 
 # Creating files and folders 
+
 So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! 
+
+![Animation of a collage that says hello world and has a vintage computer.](/images/command-line/HelloWorld.gif "Hello World")
 
 ## Creating files
 
@@ -417,9 +420,9 @@ You can then navigate to that projects folder and use the ls command to check th
 ## Activities
 
 **Challenge** 
-— Check the directory you are in. 
-— Create a subfolder 
-— Now go to that folder and create a file on your own inside of it! 
+- Check the directory you are in. 
+- Create a subfolder 
+- Now go to that folder and create a file on your own inside of it! 
 
 Do you what to check the solution?
 
@@ -530,7 +533,7 @@ Be aware. To write in the file we used redirect. Redirect takes the output that 
 However, and with our pedagogical intention let’s overwrite the text by using the redirect symbol again. 
 
 ```console
-$ echo “Ups I overwrite my cheat sheet!”  > cheat-sheet.txt 
+$ echo “Ups! I am overwriting my cheat sheet!”  > cheat-sheet.txt 
 ```
 
 Check the file: 
@@ -546,23 +549,26 @@ How could we edit the text of our cheat sheet in a more practical way? Try
 ```console
 $ nano cheat-sheet.txt 
 ```
+Nano is a basic text editor. The output should look similar to this image: 
 
-Nano is a basic text editor. Once you are in the document change the information for:
+![The image shows how the nano editor, that is open with this command, looks](/images/command-line/nano.png "Nano")
+
+ Once you are in the document, navigate the text with the keyboard arrows. Then change the information for:
 
 ```console
-pwd    prints the working directory
-ls        lists the content of a folder
-cd       changes directory
-cd ..    goes up one directory 
+pwd     prints the working directory
+ls      lists the content of a folder
+cd      changes directory
+cd ..   goes up one directory 
 cd ~    goes to home directory 
 touch   creates a new file
-mv       move file
+mv      move file
 mkdir   creates a new folder 
 echo    prints plain text 
->       which is called tilde, prints into a specific file by overwriting it
+>       is called tilde, prints into a specific file by overwriting it
 ```
 
-When you finish, press command+shift to exit the text editor. Respond command+Y to save changes. 
+When you finish, press <kbd> control + shift </kbd> to exit the text editor. Respond <kbd> control + Y </kbd> to save changes. 
 
 Now we can check our file: 
 
@@ -570,7 +576,9 @@ Now we can check our file:
 $ cat cheat-sheet.txt 
 ```
 
-A final note:  There is a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. If there is already text in the file, this is a quick option to add information. However, this command is not available for the emulator we are using on DHRIFT by January 2024. 
+**Clarifying note:**  
+There is also a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. 
+If there is already text in the file, this is a quick option to add information. We are not trying it in the workshop as we wanted to be able to add longer text and multiple lines in a more efficient way. 
 
 ## Organizing your cheat sheet
 
@@ -662,6 +670,9 @@ Use the commands we have learned so far to go on a treasure hunt in the DHRIFT e
 Right now you should be able to read those instructions! Pay attention to them and remember to pay attention to spelling and case sensitivity so that your commands work well! 
 
 Good luck! 
+
+
+![Image that looks like a vintage videogame and has a cat saying you can do it next to a treasure.](/images/command-line/TreasureHunting.gif "Treasure Hunting")
 
 ## Evaluation
 
@@ -865,34 +876,34 @@ Let's think about the grep command. Select all that pertain to the command.
 
 ## Review
 Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
-```console
-wc     word count 
-sort   to organize the content of the file in alphabetically by line
-mv     to move files 
-control + C     to interrump the last command by stop running it
-less      to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
-head  to only see the first part of the file, e.g. head nypl_items.csv
-tail to only see the last part of the file, e.g. tail nypl_items.csv
-uniq (stands for unique) to print repeat lines only once
-grep stands for “global regular expression print’ 
 
-Flags —  marked with hyphens to indicate specific options to the commands
-wc -w ask to print the number of words
-sort -f to make sort noncase sensitive
-ls -l to show the long list (the details of the content)
-wc -l to show the number of lines
-wc -m to count the number of characters 
-head -n # to show a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
-tail-n # to show a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
+```console
+wcword      count 
+sort        to organize the content of the file in alphabetically by line
+mv          to move files 
+less        to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
+head        to only see the first part of the file, e.g. head nypl_items.csv
+tail        to only see the last part of the file, e.g. tail nypl_items.csv
+uniq        (stands for unique) to print repeat lines only once
+grep        stands for “global regular expression print’ 
+wc -w       asks to print the number of words
+sort -f     makes sort noncase sensitive
+ls -l       shows the long list (the details of the content)
+wc -l       shows the number of lines
+wc -m       counts the number of characters 
+head -n #   shows a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
+tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
 ```
+**Bonus:**
+We included the flag -n in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number simbol for the specific number of lines you want. 
 
 # Summary of the workshop
 
 You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is a good time to do a quick review! 
 
-According to the goals of the workshop, we learned that the command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
+The command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
 
-We learned that for the command line we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
+We learned that, for CLI, we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
 
 Via DHRIFT’s command line emulator, we interact with the computer on bash (or Terminal). We practiced commands for
 
@@ -906,7 +917,7 @@ And we documented those commands on a cheat sheet that can be used for reference
 
 The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
-In the next pages we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
+In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
 # Final Evaluation
 
