@@ -13,7 +13,7 @@ learning objectives:
     - Doing a basic exploration of a text dataset
 estimated time: 
     description: 3 hours
-    workshop prerequisites:
+workshop prerequisites:
         None
         
 readings:
