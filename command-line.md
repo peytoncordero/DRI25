@@ -187,91 +187,51 @@ Also, before you start, we want to share these tips to get ready:
 
 Now, we are ready to get started!
 
+# Navigating the command line
+**Command prompt $**
 
+$, which we will refer to as the "command prompt," is the place where you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
+When you see the $, you're in the right place. In the following lessons, we will refer to the command prompt using a $. 
 
+However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a % or a #. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
 
-# New
-Add info
-el taller anterior empieza aca
+# Getting started: know thyself
 
-
-
-
-
-
-
-# Getting to the Command Line
-
-## macOS
-
-If you're using macOS:
-
-1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
-
-2. Type `terminal` into the bar that appears.
-
-3. Select the first item that appears in the list.
-
-4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
-
-![Terminal in macOS](/images/command-line/osx_term.png)
-
-Please note: You can change the color of your Terminal or BashShell background and text by selecting `Shell` from the top menu bar, then selecting a theme from the menu under `New Window`.
-
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can hold the <kbd>command (⌘)</kbd> key while and press <kbd>space</kbd> to pull up Spotlight search, start typing `Terminal,` and then hit <kbd>enter</kbd> to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can really pick up speed when you practice!
-
-## Windows
-
-We won't be using Windows's own non-UNIX version of the command line. Instead, we will use Git Bash. If you haven't installed it yet, you can follow [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md). The reason we use Git Bash as the command line on Windows is that it makes you able to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
-
-1. Look for Git Bash in your programs menu and open.
-
-2. If you can't find the git folder, just type `git bash` in the search box and select `git bash` when it appears.
-
-3. Open the program.
-
-4. When the terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.You know you're in the right place when you see the `$`.
-
-  _Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system._
-
-![Terminal on Windows](/images/command-line/win_term.png)
-
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press <kbd>windows</kbd> to open the Start menu, start typing `git bash` and then hit <kbd>enter</kbd> to open a git bash window. This will pull up a command window without touching your mousepad.
-
-## Command Prompt `$`
-
-`$`, which we will refer to as the "command prompt," is the place you type commands you wish the computer to execute. We will now learn some of the most common commands.
-
-When you see the `$`, you're in the right place. As noted above, however, the sign varies somewhat between systems, and sometimes the sign is a `%` or a `#`. We call the sign the _command prompt_; it lets us know the computer is ready to receive a command.
-
-In the following lessons, we will refer to the command prompt using a `$`. Just make a note now of your sign, if it differs from the dollar sign. You will be able to follow along just fine as long as you understand that they all are different ways of knowing that you are "at the _command prompt_."
-
-# Prefatory Pro Tips
-
-Before we get started, I wanted to give you a couple of tips of things to keep in mind.
-
-1. Go slow at first and check your spelling! One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! _Keep this in mind!_ If at first something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies (check [Johanna Drucker](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) on the alphabet), in coding, each character has a discrete function including (especially!) spaces.
-
-2. Keep in mind that the command line and file systems on macOS and Unix are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
-
-3. While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
-
-Now, we are ready to get started.
-
-# Navigation
-
-## Getting started: know thyself
-
-You may also see your username to the left of the command prompt `$`. Let's try our first command. Type the following and press <kbd>enter</kbd> on your keyboard:
+You may also see your username to the left of the command prompt $. Let's try our first command. Type the following and press enter on your keyboard:
 
 ```console
 $ whoami
 ```
 
-The `whoami` command should print out your username. Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press <kbd>enter</kbd> on your keyboard, and receive output.
+The whoami command should print out your username. On DHRIFT the response should be “user”, but on each computer, this would change according to the name of your user.
 
-## Orienting Yourself in the Command Line: Folders
+Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output.
+
+If the first command was to let us know who we are, our next step should be to understand where we are. 
+
+# The filesystem: information structure on the computer 
+
+To work with the Command Line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the filesystem. 
+
+We can think of a library as a good example. Visiting a library can be taken as a metaphor for going inside the computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we go to a shelf to find a book, we can see that the book is located on a shelf by subject and that even within the subject there are subsections. The library needs to be very organized as everyone coming to visit or working in the library needs to be able to find the books they are looking for. Additionally, as users, we should be able to always find the book in the same location.
+
+The filesystem comes from the method of storage of paper documents, so it is quite close to the idea of the library, where each book could be taken as a file. However, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials to preserve memory and ensure accountability by institutions. As many of those materials are files, they put these files in folders. 
+
+It is important to highlight that the metaphor is not only about physical files and folders but also about keeping a hierarchical global organization within a space, thinking of the computer as those physical spaces. This organization should enable us to navigate our files and folders easily to know the route we have to take to get to a file. 
+
+# Issues of a metaphor
+
+At the moment the filesystem metaphor was already generalized (around the 1960s), only a limited audience had access to computers. It was pretty common for scholars and researchers to keep printed files and folders in the physical space and visit physical archives. Thus, users were familiar with the metaphor and it was easy to expect them to have a sense of how to store information in ways they could easily locate whenever they needed it. Additionally, if we think of hardware, back when computers were the size of a room, people went to share the physical space and store information: a shared room requires as much organization as possible. 
+
+The relationship of people with the filesystem and the sense of why we need hierarchical information seems to be changing. With time, computers became smaller devices and anyone with the purchasing power could take them home. The metaphor started somehow to become more distant, but families or any group of people sharing a computer still need to organize information to a certain extent. Thus, while physical files and folders were still pretty common in different contexts, it was easier to refer to the metaphor.
+
+Later on, many users started to have  “their very own digital room”, and not everyone keeps their room tidy! Additionally, over time it is more common to store and retrieve more digital than physical information, thus the metaphor and our experience with the archive becomes more distant. We suggest reading [File Not Found: A generation that grew up with Google is forcing professors](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z) to rethink their lesson plans. 
+
+Anyway, the new ways in which we store and create information in the present pose opportunities and challenges for the future. We suggest [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005), a dissertation to think about the present challenges of organizing our digital data. As for the command line, we need to understand and follow the hierarchical structure of the filesystem to guide the computer when we interact with it!
+
+# fin
+fin de textoooooo
 
 OK, we're going to try another command. But first, let's make sure we understand some things about how your computer's filesystem works.
 
