@@ -321,6 +321,9 @@ $ pwd
 - [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
 
 # Creating files and folders 
+
+![Animation of a collage that says hello world and has a vintage computer.](/images/command-line/HelloWorld.gif "Hello World")
+
 So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! 
 
 ## Creating files
@@ -417,9 +420,9 @@ You can then navigate to that projects folder and use the ls command to check th
 ## Activities
 
 **Challenge** 
-— Check the directory you are in. 
-— Create a subfolder 
-— Now go to that folder and create a file on your own inside of it! 
+- Check the directory you are in. 
+- Create a subfolder 
+- Now go to that folder and create a file on your own inside of it! 
 
 Do you what to check the solution?
 
@@ -530,7 +533,7 @@ Be aware. To write in the file we used redirect. Redirect takes the output that 
 However, and with our pedagogical intention let’s overwrite the text by using the redirect symbol again. 
 
 ```console
-$ echo “Ups I overwrite my cheat sheet!”  > cheat-sheet.txt 
+$ echo “Ups! I am overwriting my cheat sheet!”  > cheat-sheet.txt 
 ```
 
 Check the file: 
@@ -562,7 +565,7 @@ echo    prints plain text
 >       which is called tilde, prints into a specific file by overwriting it
 ```
 
-When you finish, press command+shift to exit the text editor. Respond command+Y to save changes. 
+When you finish, press <kbd> control + shift </kbd> to exit the text editor. Respond <kbd> control + Y </kbd> to save changes. 
 
 Now we can check our file: 
 
@@ -570,7 +573,9 @@ Now we can check our file:
 $ cat cheat-sheet.txt 
 ```
 
-A final note:  There is a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. If there is already text in the file, this is a quick option to add information. However, this command is not available for the emulator we are using on DHRIFT by January 2024. 
+**Clarifying note:**  
+There is also a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. 
+If there is already text in the file, this is a quick option to add information. We are not trying it in the workshop as we wanted to be able to add longer text and multiple lines in a more efficient way. 
 
 ## Organizing your cheat sheet
 
