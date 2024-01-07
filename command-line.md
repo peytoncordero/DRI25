@@ -310,9 +310,14 @@ We should get:
 - [GUI](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/gui.md)
 - [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
 
-# Creating files
+# Creating files and folders 
+So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! 
 
-So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! We will start with a file.
+Let's go! 
+
+## Creating files
+
+We will start with a file.
 
 First, make sure you're in your home directory:
 ```console
@@ -339,7 +344,7 @@ See any differences? If the command was successful and you were in the right pla
 **Why the file is called foo.txt?**
 As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but foo is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
 
-# Handy Tip: Use the arrows on the keyboard! 
+## Handy Tip: Use the arrows on the keyboard! 
 
 Let's say you liked that 'foo.txt' file so much you'd like another! In the command line emulator, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote: “touch foo.txt” 
 
@@ -349,7 +354,7 @@ As we start to write more complicated and longer commands in our terminal, the u
 
 You can use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to 'foot.txt' to create a different file.
 
-# Creating folders 
+## Creating folders 
 
 OK, so we're going to create a projects folder!
 First, let's check to make sure we're still in the Home folder with pwd:
@@ -380,7 +385,7 @@ In this case ‘projects’ is the name of the folder, but it could be called an
 
 When you work on your computer and create folders, they should be visible on your graphical desktop too. 
 
-# Moving a file to our new folder
+## Moving a file to our new folder
 
 Now that you have a folder for your projects, let’s move our first file to this folder. 
 
@@ -393,7 +398,7 @@ $ mv foo.txt /home/user/projects
 
 You can then navigate to that projects folder and use the ls command to check that the file is there. 
 
-# Activities
+## Activities
 
 **Review** 
 
@@ -429,7 +434,7 @@ What does the <kbd>up arrow</kbd> do?
 
 - Finally, think of the different spaces where you store your information. Is it possible to draw a diagram of how you organize your information in general and how these spaces interact?
 
-# Create your Command Line Cheat Sheet 
+## Create your Command Line Cheat Sheet 
 
 In this section, we’ll create a text file that we can use to keep all the commands we learn in this workshop. 
 
@@ -497,7 +502,7 @@ The output should be the content of the file. In this case, the only content is
 This is my cheat sheet.
 ```
 
-# How can we add more content? 
+## How can we add more content? 
 
 Be aware. To write in the file we used redirect. Redirect takes the output that we would have on the CLI and overwrites it in the file. It means that if we use it again on the same file to add a different phrase it would erase what you wrote previously by overwriting it. In this case, we knew it was a new file so we were not worried about it! 
 
@@ -542,7 +547,7 @@ $ cat cheat-sheet.txt
 
 A final note:  There is a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. If there is already text in the file, this is a quick option to add information. However, this command is not available for the emulator we are using on DHRIFT by January 2024. 
 
-# Organizing your cheat sheet
+## Organizing your cheat sheet
 
 Use pwd and cd to make sure you're in the folder with your cheat sheet. Then try:
 ```console
@@ -578,7 +583,7 @@ To create the new file with the sorted information:
 
 In this case want the sorted result to be saved in a new file, so we used the redirect symbol to create a new file as part of the second command.
 
-# On naming files and folders
+## On naming files and folders
 
 Just as organizing the information is important, the names of the files are important to facilitate our projects. So this is a note on digital best practices on naming files! 
 
@@ -616,7 +621,7 @@ Our graphical user interfaces (GUI) allow us to save files with spaces in the na
 
 Thus for digital best practices, we recommend making sure that file names contain no spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
 
-# FUN TIME: Treasure hunting! 
+## FUN TIME: Treasure hunting! 
 
 Use the commands we have learned so far to go on a treasure hunt in the DHRIFT emulator. 
 1. Access the folder command-line-treasure-hunt
@@ -640,7 +645,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-# Interlude: two command line secrets
+## Interlude: two command line secrets
 
 1. **Clearing the terminal**
 
@@ -661,7 +666,7 @@ In other words, anytime in the command line you can type as much of the file or 
 
 Only where you are located in the folder that contains the file the tab key will complete your writing. The same happens with almost all commands: they will only be executable if you are in the right location of the filesystem where the files are located. If not, the command will not be successful.
 
-# Working with Text data
+# Working with text data
 
 The Command Line can be a very powerful tool to analyze text data, especially when we use it to analyze a large amount of text, one that would be too large to work with by hand. In this section, we will analyze. 
 
@@ -673,7 +678,7 @@ Now that you are there, use ls to ask the list and find what our data set is. Yo
 
 Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma-separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
-# Exploring the text file
+## Exploring the text file
 
 We said this data is a large amount of text. Let’s make some simple tests to see the length. 
 
@@ -703,7 +708,7 @@ We had two commands combined as one single line with a pipe. The first command i
 
 Flags indicate options that belog to specific commands. For example, in the command wc we have various options. We used “-w” to select the “number of words”, but it could also be “wc -l” to show the number of lines or “wc -m” to count the number of characters. You can try these other commands if you want to explore further. 
 
-# Viewing Data in the command line
+## Viewing Data in the command line
 
 We saw that the cat command was not very useful for this large data set. Instead, let’s use another tool, the less command. It allows us to get data one page at a time.
 ```console
@@ -724,7 +729,7 @@ The output should be the very first section of the file, which is called head. T
 ```console
 $ tail nypl_items.csv
 ```
-# Cleaning the data
+## Cleaning the data
 
 We didn’t tell you this before, but there are duplicate lines in our data! Two, to be exact. Before removing them, let’s see how many entries are in our .csv file 
 ```console
@@ -747,7 +752,7 @@ $ cat nypl_items.csv | uniq -d
 
 In this line we are combining two commands, the first one is to print out the data. The second one is the uniq command with the -d flag, which is the option to print out the lines that have duplicates.
 
-# Activities
+## Activities
 
 **Challenge**
 
@@ -769,7 +774,7 @@ Flags are useful to create a new version of the file you are working on while pr
 Flags are a common way to specify options for the command line programs.* 
 </Quiz>
 
-# Search the data 
+## Search the data 
 
 So we've cleaned our data set, but how do we find entries that use a particular term? Let's say I want to find all the entries in our data set that use the term "Paris."
 
@@ -794,7 +799,7 @@ In this last command, we have used the cat command to read nypl_items.csv, take 
 
 In this command we used grep and said that it stands for regular expressions. Regular expressions are special strings representing a pattern to be matched in a search operation. grep gives us access to the power of regular expressions as we search for text.[k] Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. Regular expressions are commonly used in different programming languages.
 
-# Activities
+## Activities
 
 **Challenge**
 
@@ -819,7 +824,7 @@ Let's think about the grep command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-# Review
+## Review
 Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
 ```console
 wc     word count 
