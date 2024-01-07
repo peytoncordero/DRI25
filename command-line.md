@@ -19,7 +19,7 @@ estimated time:
 
 prerequisites: 
     - None: 
-        description: This workshop doesn't requiere previous knowledge. 
+        description: This workshop does not have any prerequisites. 
         required: true
 
 instructors: 
