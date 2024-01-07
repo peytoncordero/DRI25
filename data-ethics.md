@@ -73,6 +73,17 @@ These quotes below offers a variety of perspectives to understanding research da
 
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
+## Being Data
+
+|Stage| Form|
+|*----*|*----*|
+|Raw|Textual|
+|Cleaned| Numeric|
+|Processed| Audio|
+|Analyzed|Video|
+|Visualized|Image|
+|     |Code|
+
 ## Forms of Data
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities:
