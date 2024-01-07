@@ -76,7 +76,6 @@ Broadly, research data can be understood as **materials or information necessary
 
 <br />
 <table>
-    <caption><strong>A short list of data stages and forms.</strong></caption>
     <tr>
         <th>Stage</th>
         <th>Form</th>
