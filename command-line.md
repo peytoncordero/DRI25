@@ -322,9 +322,9 @@ $ pwd
 
 # Creating files and folders 
 
-![Animation of a collage that says hello world and has a vintage computer.](/images/command-line/HelloWorld.gif "Hello World")
-
 So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! 
+
+![Animation of a collage that says hello world and has a vintage computer.](/images/command-line/HelloWorld.gif "Hello World")
 
 ## Creating files
 
@@ -553,16 +553,16 @@ $ nano cheat-sheet.txt
 Nano is a basic text editor. Once you are in the document change the information for:
 
 ```console
-pwd    prints the working directory
-ls        lists the content of a folder
-cd       changes directory
-cd ..    goes up one directory 
+pwd     prints the working directory
+ls      lists the content of a folder
+cd      changes directory
+cd ..   goes up one directory 
 cd ~    goes to home directory 
 touch   creates a new file
-mv       move file
+mv      move file
 mkdir   creates a new folder 
 echo    prints plain text 
->       which is called tilde, prints into a specific file by overwriting it
+>       is called tilde, prints into a specific file by overwriting it
 ```
 
 When you finish, press <kbd> control + shift </kbd> to exit the text editor. Respond <kbd> control + Y </kbd> to save changes. 
@@ -898,7 +898,7 @@ tail-n # to show a specific number of lines of the head, e.g. tail -n 3 nypl_ite
 
 You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is a good time to do a quick review! 
 
-According to the goals of the workshop, we learned that the command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
+ We learned that the command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
 
 We learned that for the command line we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
 
@@ -914,7 +914,7 @@ And we documented those commands on a cheat sheet that can be used for reference
 
 The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
-In the next pages we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
+In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
 # Final Evaluation
 
