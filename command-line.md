@@ -36,9 +36,9 @@ editors:
     - 'Di Yoong'
     - 'Lisa Rhody' 
     - 'Kalle Westerling'
-        
+
 readings:
-    - Neal Stephenson's ["In the Beginning... Was the Command Line"](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
+    - Neal Stephenson's [In the Beginning... Was the Command Line](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
     - The paper [Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544) by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
 
@@ -47,10 +47,11 @@ ethical considerations:
 
 projects:
 # Title and then description and link
-    - description: "The command line is a great instrument for different projects and learning processes. Three of them are"
-    - "Doing installations required for some programs"
-    - "Collaborating remotely"
-    - "Learning new programming languages"
+ - description: "The command line is a great instrument for different projects and learning processes. Three of them are"
+    - Feminist Linguistics Repository:
+        description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely. 
+        link: https://repositorio.linguisticafeminista.com/ 
+
 ---
 
 # Introduction
