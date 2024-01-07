@@ -285,8 +285,8 @@ So how do we know it worked? Let's use our pwd command again! We should get:
 
 ```console
 $ pwd
-```
 /home/user/data
+```
 
 Now try the command ls again, to see what's on the data folder! 
 
@@ -298,14 +298,12 @@ One more command you might find useful right now is cd .. which will move you to
 $ cd ..
 ```
 
-Let's check it worked using our pwd command again! 
+Let's check it worked using our pwd again! 
 
 ```console
 $ pwd
-```
-We should get:
 /home/user
-
+```
 ## Evaluation
 
 1. What command do you run if you are trying to identify where in the filesystem you are currently located/working?
