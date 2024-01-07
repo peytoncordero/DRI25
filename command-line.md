@@ -874,24 +874,23 @@ Let's think about the grep command. Select all that pertain to the command.
 ## Review
 Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
 ```console
-wc     word count 
-sort   to organize the content of the file in alphabetically by line
-mv     to move files 
-control + C     to interrump the last command by stop running it
-less      to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
-head  to only see the first part of the file, e.g. head nypl_items.csv
-tail to only see the last part of the file, e.g. tail nypl_items.csv
-uniq (stands for unique) to print repeat lines only once
-grep stands for “global regular expression print’ 
+wcword      count 
+sort        to organize the content of the file in alphabetically by line
+mv          to move files 
+less        to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
+head        to only see the first part of the file, e.g. head nypl_items.csv
+tail        to only see the last part of the file, e.g. tail nypl_items.csv
+uniq        (stands for unique) to print repeat lines only once
+grep        stands for “global regular expression print’ 
 
-Flags —  marked with hyphens to indicate specific options to the commands
-wc -w ask to print the number of words
-sort -f to make sort noncase sensitive
-ls -l to show the long list (the details of the content)
-wc -l to show the number of lines
-wc -m to count the number of characters 
-head -n # to show a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
-tail-n # to show a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
+Flags
+wc -w       asks to print the number of words
+sort -f     makes sort noncase sensitive
+ls -l       shows the long list (the details of the content)
+wc -l       shows the number of lines
+wc -m       counts the number of characters 
+head -n #   shows a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
+tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
 ```
 
 # Summary of the workshop
