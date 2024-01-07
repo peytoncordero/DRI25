@@ -125,6 +125,7 @@ We’ve saved all of the code for this section in a Jupyter Notebook file.
 <Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb' />
 
 - Open your code editor in the right hand corner and locate the `pandas_workshop_2024.ipynb` file
+- When prompted, select the "Python Pyodide" kernel
 - Finally, drag and drop the `pandas_workshop_2024.ipynb` file into your `pandas_workshop` folder 
 - Once it's in that folder, you should be all set! 
 
@@ -213,8 +214,6 @@ refugee_df = pd.read_csv(url, delimiter=",", encoding='utf-8')
 
 - With this command, we are creating a **Pandas DataFrame** object, which is a 2-dimensional labeled data structure with columns of different types. You can think of it like a spreadsheet or SQL table, or a dictionary of Series objects. 
 - It is common practice to abbreviate DataFrame with “df”, as in refugee_df.  
-- When reading in the CSV file, we also specified the encoding and delimiter. The delimiter specifies the character that separates or “delimits” the columns in our dataset. For CSV files, the delimiter is usually a comma but it can also be a tab. 
-- UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
 
 <Keywords>
 - DataFrame
