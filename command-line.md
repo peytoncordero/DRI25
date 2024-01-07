@@ -323,19 +323,19 @@ $ pwd
 # Creating files and folders 
 So far, we've only performed commands that give us information. Let's use commands that create something new on the computer! 
 
-Let's go! 
-
 ## Creating files
 
 We will start with a file.
 
 First, make sure you're in your home directory:
+
 ```console
 $ pwd
 /home/user
 ```
 
 Once you've made sure you're in there, let's try a new command:
+
 ```console
 $ touch foo.txt
 ```
@@ -345,6 +345,7 @@ The touch command is used to create a file without any content. This command can
 In this case we are creating a .txt which means it is a new plain text file, but it could have been a .csv file which could be a list or representing a spreadsheet in plain text.
 
 If the command succeeds, you won't see any output. So, let’s make sure the file is now part of your folder by using the command ls
+
 ```console
 $ ls
 ```
@@ -368,22 +369,26 @@ You can use your left/right arrows to move the insert cursor around on the scree
 
 OK, so we're going to create a projects folder!
 First, let's check to make sure we're still in the Home folder with pwd:
+
 ```console
 $ pwd
 /home/user
 ```
 
 Once you've double-checked you're there, we'll use the mkdir or "make directory" command to make a folder called projects:
+
 ```console
 $ mkdir projects
 ```
 
 Now run ls to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, cd into it.
+
 ```console
 $ cd projects
 ```
 
 And check that you are in the new folder
+
 ```console
 $ pwd
 /home/user/projects
@@ -402,6 +407,7 @@ Now that you have a folder for your projects, let’s move our first file to thi
 First, be sure you are located in the current location of the file, which is /home/user/projects. If you are not there, use the commands we have learned to make projects your working directory.You need to be in the folder where the file is located to execute the next command successfully. 
 
 Once you are there, type the mv command followed by the name of the file you want to move and then the file path to your projects:
+
 ```console
 $ mv foo.txt /home/user/projects
 ```
@@ -456,6 +462,7 @@ $ pwd
 ```
 
 If you are in the projects folder, stay there. If you are not there, use
+
 ```console
 $ cd ~
 ```
@@ -465,6 +472,7 @@ This last sign is called tilde. The command “cd ~” gets you to your user fol
 Try the command pwd again, you should be in the home directory now /home/user/
 
 Now that you are there, access projects
+
 ```console
 $ cd projects
 ```
@@ -480,6 +488,7 @@ $ echo “Hello world from the command line”
 ```
 
 The output will be a line of text on the command line:
+
 ```console
 Hello world from the command line
 ```
@@ -487,6 +496,7 @@ Hello world from the command line
 This is the way in which the CLI prints the text. How can we ask the computer to print a text on a file instead of printing it on the command line? 
 
 We use the redirect symbol (a greater-than symbol): 
+
 ```console
 $ echo “This is my cheat sheet”  > cheat-sheet.txt
 ```
@@ -508,6 +518,7 @@ $ cat cheat-sheet.txt
 The command “cat” is used to request your computer to print the file. It stands for “concatenate,” because it links strings of characters or files together from end to end. 
 
 The output should be the content of the file. In this case, the only content is 
+
 ```console
 This is my cheat sheet.
 ```
@@ -523,6 +534,7 @@ $ echo “Ups I overwrite my cheat sheet!”  > cheat-sheet.txt
 ```
 
 Check the file: 
+
 ```console
 $ cat cheat-sheet.txt 
 ```
@@ -530,11 +542,13 @@ $ cat cheat-sheet.txt
 The output is different now! 
 
 How could we edit the text of our cheat sheet in a more practical way? Try 
+
 ```console
 $ nano cheat-sheet.txt 
 ```
 
 Nano is a basic text editor. Once you are in the document change the information for:
+
 ```console
 pwd    prints the working directory
 ls        lists the content of a folder
@@ -551,6 +565,7 @@ echo    prints plain text
 When you finish, press command+shift to exit the text editor. Respond command+Y to save changes. 
 
 Now we can check our file: 
+
 ```console
 $ cat cheat-sheet.txt 
 ```
@@ -560,11 +575,13 @@ A final note:  There is a way to add new text from the command line but without 
 ## Organizing your cheat sheet
 
 Use pwd and cd to make sure you're in the folder with your cheat sheet. Then try:
+
 ```console
 $ cat cheat-sheet.txt | sort
 ```
 
 As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MyCheatSheet.txt, you could use a > to print the output to a file, like this:
+
 ```console
 $ cat cheat-sheet.txt | sort > MyCheatSheet.txt
 ```
@@ -602,27 +619,32 @@ Your cheat sheet is titled cheat-sheet.txt instead of cheat sheet.txt for a reas
 Let’s see if you guessed by making a test! 
 
 Check you are in the folder named “projects”: 
+
 ```console
 $ pwd
 /home/user/projects
 ```
 
 Create a new subfolder with in projects: 
+
 ```console
 $ mkdir test
 ```
 Go to that directory 
+
 ```console
 $ cd test
 ```
 
 Now try to make a file named cheat sheet.txt and after that try to print it on the command line 
+
 ```console
 $ touch cheat sheet.txt
 $ cat cheat sheet.txt
 ```
 
-What was the output? To observe what happened when you created that file, ask the computer to list what is in the folder:
+What was the output? To observe what happened when you created that file, ask the computer to list what is in the folder
+
 ```console
 $ ls
 ```
@@ -644,6 +666,7 @@ Good luck!
 ## Evaluation
 
 What does effect does the following command produce? (select one)
+
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
@@ -660,6 +683,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 1. **Clearing the terminal**
 
 After running all the commands we have learned so far, the terminal might be quite full of text. For our next section, it might be nice to clear the terminal and have a fresh start. Use the command clear: 
+
 ```console
 $ clear
 ```
