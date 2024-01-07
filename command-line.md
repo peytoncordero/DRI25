@@ -145,7 +145,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 # Evaluation
 
-_1. What is the command line? (Select one)
+__1. What is the command line? (Select one)
 <Quiz>
 - A program to edit plain text.
 - A text-based interface to communicate with the computer.*
@@ -153,7 +153,7 @@ _1. What is the command line? (Select one)
 - A programming language.
 </Quiz>
 
-_2. What is the difference between a plain text document and a rich text document? (Select all that apply)
+__2. What is the difference between a plain text document and a rich text document? (Select all that apply)
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Plain text cannot be marked up.
@@ -164,7 +164,6 @@ _2. What is the difference between a plain text document and a rich text documen
 **To think forward:**
 - In what ways do you interact with computers in your everyday life? 
 - What is the Command Line? How is it different from your text editor?
-
 
 # Hands-on the command line!
 
@@ -179,11 +178,11 @@ If you want to hide the emulator to continue reading through the workshop, click
 
 Also, before you start, we want to share these tips to get ready:
  
-1. **Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
+**Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
 
-2. **Pay attention to detail.** Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+**Pay attention to detail.** Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
 
-3. **Don’t cheese the game.** While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+**Don’t cheese the game.** While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
 
 Now, we are ready to get started!
