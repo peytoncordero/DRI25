@@ -246,13 +246,13 @@ Now that we know 'thyself', our next step should be to understand where we are.
 
 # The filesystem: information structure on the computer 
 
-To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the filesystem. 
+To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
 
-We can think of a library as a metaphor for going inside of a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the way in the building to access the shelf and retrieve any book they want from the collection. 
+We can think of a library as a metaphor for going inside of a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
-The filesystem comes from the method of storage of paper documents, so it is quite close to the idea of the library, where each book could be taken as a file. However, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials to preserve memory and ensure accountability by institutions. As many of those materials are files, they put these files in folders. 
+The filesystem is named from a method to storage paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
 
-It is important to highlight that the metaphor is not only about physical files and folders but also about keeping a hierarchical global organization within a space, thinking of the computer as those physical spaces. This organization should enable us to navigate our files and folders easily to know the route we have to take to get to a file. 
+The metaphor is not about material files and folders, but about keeping a hierarchical global organization to contain information within a space. Computers are very alike libraries and archives in the ammounts of information they keep. The only difference is the materiality of the documents. 
 
 ## Issues of a metaphor
 
