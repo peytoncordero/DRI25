@@ -253,9 +253,7 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
 
-## image 
-/images/stage_of_data.jpg
-![Alt text](/images/Stage_of_data.jpg “Stages of data can be non-linear")
+![Stages of data are non-linear](/images/Stage_of_data.jpg “Stages of data can be non-linear")
 
 ## Ethical Considerations and Impacts 
 
