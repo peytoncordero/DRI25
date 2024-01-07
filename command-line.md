@@ -71,12 +71,11 @@ The Command Line Interface (CLI) provides a faster and more efficient system int
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
-!['It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write'](/images/command-line/How-command-Line-looks-like.png "Terminal")
+![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png~ "Terminal")
 
 To refer to this interface, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
 As we mentioned on the front page of this workshop, the “command line” is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, we suggest [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), an essay written in 1945 reflecting on the role of science in World War II. We also recommend the podcast [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world) about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and later was a key pioneer for English-based computer programming languages. 
-
 
 ## What Does "Text-based" Mean?
 
@@ -85,6 +84,7 @@ For those of us comfortable reading and writing, the idea of "text-based" in the
 Let's take a quick moment to discuss text and text editors.
 
 # Text Editors
+Add info
 
 ## What is Text?
 
