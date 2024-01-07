@@ -549,9 +549,11 @@ How could we edit the text of our cheat sheet in a more practical way? Try
 ```console
 $ nano cheat-sheet.txt 
 ```
+Nano is a basic text editor. The output should look similar to this image: 
+
 ![The image shows how the nano editor, that is open with this command, looks](/images/command-line/nano.png "Nano")
 
-Nano is a basic text editor. Once you are in the document change the information for:
+ Once you are in the document, navigate the text with the keyboard arrows. Then change the information for:
 
 ```console
 pwd     prints the working directory
@@ -884,8 +886,6 @@ head        to only see the first part of the file, e.g. head nypl_items.csv
 tail        to only see the last part of the file, e.g. tail nypl_items.csv
 uniq        (stands for unique) to print repeat lines only once
 grep        stands for “global regular expression print’ 
-
-Flags
 wc -w       asks to print the number of words
 sort -f     makes sort noncase sensitive
 ls -l       shows the long list (the details of the content)
@@ -894,6 +894,8 @@ wc -m       counts the number of characters
 head -n #   shows a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
 tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
 ```
+**Bonus:**
+We included the flag -n in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number simbol for the specific number of lines you want. 
 
 # Summary of the workshop
 
