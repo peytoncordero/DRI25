@@ -83,7 +83,7 @@ To refer to this interface, people also use the terms bash, terminal, or shell. 
 
 As we mentioned on the front page of this workshop, the “command line” is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, we suggest [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), an essay written in 1945 reflecting on the role of science in World War II. We also recommend the podcast [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world) about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and later was a key pioneer for English-based computer programming languages. 
 
-# Command Line in History of Human-Computer Interaction
+## Command Line in History of Human-Computer Interaction
 Technology changes over time and human-computer interactions go hand in hand with the developments in hardware. Thus to get to the command line, it is worth contextualizing it along with other ways of interacting with computers.
 
 Let’s start by saying that the first “computers” were humans. It was an occupation: people were paid to develop mathematical operations before we had electronic computers. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
@@ -98,7 +98,7 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
 
 ![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.jpg "Keypunch_operator_1950_census_IBM_016")
 
-# Sizing of the computers and human-computer interaction
+## Sizing of the computers and human-computer interaction
 
 Just think how sizing goes from computers of the size of a room to computers that can fit in our hands! For the computer using punch cards, people interacting with the machines required specialized knowledge, especially mathematics. Using those computers was an action that required physically traveling to a place and going into a specific room. 
 
@@ -116,7 +116,7 @@ We mentioned that the command line is text-based. As humans, we are used to text
 
 "Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast text editors and word processors.
 
-# Word processors
+## Word processors
 
 Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We make choices and the program immediately displays the changes we want to produce without showing us the code the computer is reading to render the formatting. 
 
@@ -131,7 +131,7 @@ What happens in this example is that the computer tries to read the hidden code,
 Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
 
 
-# Text editors
+## Text editors
 
 To interact with the computer, we need to use plain text, which is text without hidden formatting. It is produced in text editors following international standards, thus it has the advantages of being manipulable in different editors and readable within the command line. 
 
@@ -143,7 +143,7 @@ Text editors are not used to edit rich text documents. Word processors should no
 
 While it doesn't matter which text editor you choose, you should try to become comfortable with at least one of them. In the end, choosing a text editor has as much to do with personality as it does with functionality!
 
-# Evaluation
+## Evaluation
 
 __1. What is the command line? (Select one)
 <Quiz>
@@ -187,7 +187,7 @@ Also, before you start, we want to share these tips to get ready:
 
 Now, we are ready to get started!
 
-# Navigating the command line
+## Navigating the command line
 
 **Command prompt $**
 
@@ -200,7 +200,7 @@ When you see the '$', you're in the right place. In the following lessons, we wi
 
 However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a '%' or a '#'. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
 
-# Getting started: know thyself
+## Getting started: know thyself
 
 You may also see your username to the left of the command prompt $. Let's try our first command. Type the following and press enter on your keyboard:
 
@@ -224,7 +224,7 @@ The filesystem comes from the method of storage of paper documents, so it is qui
 
 It is important to highlight that the metaphor is not only about physical files and folders but also about keeping a hierarchical global organization within a space, thinking of the computer as those physical spaces. This organization should enable us to navigate our files and folders easily to know the route we have to take to get to a file. 
 
-# Issues of a metaphor
+## Issues of a metaphor
 
 At the moment the filesystem metaphor was already generalized (around the 1960s), only a limited audience had access to computers. It was pretty common for scholars and researchers to keep printed files and folders in the physical space and visit physical archives. Thus, users were familiar with the metaphor and it was easy to expect them to have a sense of how to store information in ways they could easily locate whenever they needed it. Additionally, if we think of hardware, back when computers were the size of a room, people went to share the physical space and store information: a shared room requires as much organization as possible. 
 
@@ -234,7 +234,7 @@ Later on, many users started to have  “their very own digital room”, and not
 
 Anyway, the new ways in which we store and create information in the present pose opportunities and challenges for the future. We suggest [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005), a dissertation to think about the present challenges of organizing our digital data. As for the command line, we need to understand and follow the hierarchical structure of the filesystem to guide the computer when we interact with it!
 
-# Orienting Yourself in the Command Line: Folders
+## Orienting Yourself in the Command Line: Folders
 
 We're going to try another command to understand. This time it will help us to understand where we are on the computer. Write the following command and press enter:
  
@@ -255,7 +255,7 @@ On your computer, you should get something like  /Users/your-username, which mea
 
 Now we know "where" we are. But what if we want to know what files and folders are contained in the same working directory where you are located right now? 
 
-# What's in the folder?
+## What's in the folder?
 
 To check what is contained in the folder, try entering:
 ```console
@@ -294,7 +294,7 @@ $ pwd
 We should get:
 /home/user
 
-# Evaluation
+## Evaluation
 
 1. What command do you run if you are trying to identify where in the filesystem you are currently located/working?
 
