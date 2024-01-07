@@ -145,7 +145,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 ## Evaluation
 
-__1. What is the command line? (Select one)
+1. What is the command line? (Select one)
 
 <Quiz>
 - A program to edit plain text.
@@ -154,7 +154,7 @@ __1. What is the command line? (Select one)
 - A programming language.
 </Quiz>
 
-__2. What is the difference between a plain text document and a rich text document?(Select all that apply)
+2. What is the difference between a plain text document and a rich text document?(Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
@@ -410,7 +410,6 @@ You can then navigate to that projects folder and use the ls command to check th
 
 <Secret>
 Solution
-
 1. Type pwd to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands cd and cd .., that we learned before
 2. Type mkdir name-of-your-subfolder to create a subfolder.
 3. Type cd name-of-your-folder to navigate to that folder.
@@ -421,6 +420,7 @@ Solution
 **Evaluation**
 
 What does the <kbd>up arrow</kbd> do?
+
 <Quiz>
 - It quits the Terminal/GitBash.
 - It undoes my last command.
@@ -700,6 +700,7 @@ $ cat nypl_items.csv | wc -w
 With larger amounts the data it might take some seconds to run each command before printing the single output we are requesting. 
 
 What is the output?
+
 <Secret>
 The total of words in the file should be 2,298,575.
 </Secret>
@@ -765,11 +766,13 @@ Use the commands you’ve learned so far to create a new version of the nypl_ite
 $ cat nypl_items.csv | uniq > clean_nypl_items.csv
 ```
 This will allow you to create a new version of the nypl_items.csv file with the duplicated lines removed. You can decide any name you prefer for your file!
+
 </Secret>
 
 **Evaluation**
 
 What do command linen flags allow you to do? (select one)
+
 <Quiz>
 Flags allow you to earmark the file you are working on.
 Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
@@ -812,6 +815,7 @@ If you want to get a little more milage out of the `grep` command, refer to [thi
 **Evaluation**
 
 What do pipes allow you to do? (select all that apply)
+
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
@@ -819,6 +823,7 @@ What do pipes allow you to do? (select all that apply)
 </Quiz>
 
 Let's think about the grep command. Select all that pertain to the command.
+
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
@@ -875,7 +880,7 @@ In the next pages we will explain how you can transfer this knowledge to your co
 
 Here are some questions from to review the lessons of the workshop:
 
-__1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)__
+_1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)__
 
 <Quiz>
 - It inserts my last command.*
@@ -897,8 +902,8 @@ __3. What effect does the following command produce?__
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
-
 (Select one of the following)
+
 <Quiz>
 - It replaces the content of the introduction.txt file with the line “Hello! My Name is Mark!”*
 - It adds the line “Hello! My Name is Mark!” to the existing content of the introduction.txt file.
@@ -907,6 +912,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 </Quiz>
 
 __4. What do pipes allow you to do? (Select all that apply)__
+
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
@@ -914,6 +920,7 @@ __4. What do pipes allow you to do? (Select all that apply)__
 </Quiz>
 
 __5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)__
+
 <Quiz>
 - `$ pwd`*
 - `$ ls`
@@ -922,6 +929,7 @@ __5. What command do you run if you are trying to identify where in the filesyst
 </Quiz>
 
 __6. Let's think about the `grep` command. Select all that pertain to the command.__
+
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
@@ -930,6 +938,7 @@ __6. Let's think about the `grep` command. Select all that pertain to the comman
 </Quiz>
 
 __7. What is the difference between a plain text document and a rich text document? (Select all that apply)__
+
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Rich text is styled text, i.e., plain text completed by information such as font size, format, and colors.*
