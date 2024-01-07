@@ -3,6 +3,7 @@ title: 'Command Line Workshop'
 cover title: 'Command Line'
 description: 'The command line is a way to interact with our computer. It is an important skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT, which includes an emulated command line to practice throught the workshop. This process will allow you to understand the logic of interacting with the computer and start feeling comfortable using the command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
 cover_image: '/images/workshops/img2.jpg'
+
 programming_language: 'computer'
 learning objectives: 
     - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for'
@@ -14,7 +15,7 @@ learning objectives:
 estimated time: 
     description: 3 hours
 workshop prerequisites:
-        None
+    - None
         
 readings:
     - Neal Stephenson's ["In the Beginning... Was the Command Line"](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
@@ -919,7 +920,7 @@ The basic steps you learned today will help as you'll further your digital skill
 
 In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
-# Final Evaluation
+## Final Evaluation
 
 Here are some questions from to review the lessons of the workshop:
 
