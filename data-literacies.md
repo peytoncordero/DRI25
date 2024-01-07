@@ -76,46 +76,31 @@ Broadly, research data can be understood as **materials or information necessary
 
 <br />
 <table>
-    <caption><strong>A short list of data stages and forms.</strong></caption>
     <tr>
         <th>Stage</th>
-        <th></th>
-        <th></th>
         <th>Form</th>
     </tr>
     <tr>
         <td>Raw</td>
-        <td></td>
-        <td></td>
         <td>Textual</td>
     </tr>
     <tr>
         <td>Cleaned</td>
-        <td></td>
-        <td></td>
         <td>Numeric</td>
     </tr>
     <tr>
         <td>Processed</td>
-        <td></td>
-        <td></td>
         <td>Audio</td>
     </tr>
     <tr>
         <td>Analyzed</td>
-        <td></td>
-        <td></td>
         <td>Video</td>
     </tr>
     <tr>
         <td>Visualized</td>
-        <td></td>
-        <td></td>
         <td>Image</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
         <td></td>
         <td>Code</td>
     </tr>
@@ -163,21 +148,21 @@ Research data can be defined as: (select all that apply)
 
 ## Institutional Compliance for Data and Research
  
-###Institutional Review Board (IRB)
+### Institutional Review Board (IRB)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
 Three core principles of the Belmont report are:
 
-1. Respect for persons:
+1. **Respect for persons**:
 
 >> "Respect for persons incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. The principle of respect for persons thus divides into two separate moral requirements: the requirement to acknowledge autonomy and the requirement to protect those with diminished autonomy."
 
-2. Beneficence:
+2. **Beneficence**:
 
 >> "Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being... Two general rules have been formulated as complementary expressions of beneficent actions in this sense: (1) do not harm and (2) maximize possible benefits and minimize possible harms."
 
-3. Justice:
+3. **Justice**:
 
 >> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
 
@@ -202,7 +187,7 @@ Your oral history project does the following; do you need a CUNY HRPP/IRB?
 HRPP/IRB Required?
 
 <Secret>
-NO
+No
 </Secret>                      
 
 2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
@@ -227,7 +212,7 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 ## Challenge: Forms of Data and IRB Compliance
 
-Consider the following project ideas and the research data and compliance needed to complete them.
+Consider the following project ideas and the research data and institutional compliance needed to complete them.
 
 1. You are exploring discourse on various media ecosystems. What are some forms of data you use in your work? Would you need an IRB?
 
