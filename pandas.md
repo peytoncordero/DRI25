@@ -118,7 +118,7 @@ A code editor is a software application that is specifically designed for writin
 
 ## Download the dataset & upload it into the code editor
 Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
-- Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv'>
+- Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
 - Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
 - Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
 
@@ -129,24 +129,6 @@ Next, we will need to first download our dataset and then upload it to your new 
 <Info>
 As you get more comfortable with coding in Python, you can also directly import a dataset into your Python environment using the requests library
 </Info>
-
-## Download the Full Code in a Jupyter Notebook & upload it into the code editor
-
-We’ve also saved all of the code for this section in a Jupyter Notebook file. You should download it and save it in the “pandas_workshop” folder you just created in the code editor. 
-
-- Click this button to download Jupyter Notebook file to your computer: <Download files='pandas_workshop_2024.ipynb'>
-- Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
-- Click the upward facing arrow symbol to upload your pandas_workshop_2024.ipynb file. 
-- Once it's in that folder, you should be all set! 
-
-In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it.
-
-For the best possible experience, we suggest/encourage you to:
-
-- Follow the workshop typing all the code yourself.
-- Avoid copying/pasting the code. Much of learning has to do with you typing yourself.
-- Only check the PandasWorkshop.ipynb file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn’t working. A big part of coding is learning to identify what we are doing wrong.
-- We also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one. But those are only suggestions. Maybe they will work for you, maybe they won’t, so feel free to do what suits you best. You are in charge here!
 
 ## Launching a new JupyterLite Notebook
 Finally, let's launch a new JupyterLite Notebook from within the “pandas_workshop” folder. 
@@ -1480,9 +1462,12 @@ To see a full list of the columns in our DataFrame, we can run the following com
 refugee_df.columns
 ```
 
-Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
 
-![List of Columns](/images/pandas/columns.png)
+
+
+    Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
+
+ ![List of Columns](/images/pandas/columns.png)
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
 
@@ -1619,7 +1604,7 @@ refugee_df
 </div>
 
 <Keywords>
-- .rename()
+-.rename()
 In Pandas, the rename method is used to change the labels (names) of columns or index in a DataFrame. It allows for both selective renaming and modifying all labels using a dictionary or a function.
 </Keywords>
 

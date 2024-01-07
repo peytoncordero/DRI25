@@ -1,17 +1,16 @@
 ---
-title: 'Data Literacies'
-cover title: Data Literacies
-description: 'What is data? What counts as data? What are the ethical implications when working with data? How can we manage our data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to management.'
+title: 'Data Ethics'
+cover title: Data Ethics
+description: 'What is data? What counts as data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. In this workshop we will be discussing the basics of research data, in terms of its material, transformation, and presentation. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to representation. '
 
 learning objectives:
-    - Know the stages of data from collection to analysis
-    - Learn about intitutional compliance when working with data and digital projects
-    - Consider ethicial implacations beyond the institution around working with different types of data and analysis of data
-    - Learn best practices to manage and store data
-    
+    - Know the stages of data analysis
+    - Understand the difference between proprietary and open data formats
+    - Become familiar with the specific requirements of "high quality data"
+    - Learn about ethical issues around working with different types of data and analysis
     
 estimated time:
-    - 2 - 3 hours
+    - 3 - 4 hours
 
 prerequisites: 
     - command-line:
@@ -28,13 +27,13 @@ readings:
     
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
-    - "[SAFElab](https://www.asc.upenn.edu/research/centers/safe-lab) led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media."
+    - "[SAFElab](https://safelab.socialwork.columbia.edu/), led by Dr. Desmond U. Patton, uses computational and social work approaches to understand the mechanisms of violence and work on prevention and intervention in violence that occur in neighborhoods and on social media." 
 
 ethical considerations:
     - Data and data analysis is [not free from bias](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4). There is no magic blackbox for which data emerges from and is contextually driven. As we think about the automation process of looking at "big" data, we have to be aware of [the biases that gets reproduced that is "hidden."](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
     - De-identified information can be [reconstructed from piecemeal data](https://techscience.org/a/2015092903/) found across different sources. When we consider what we are doing with the data we have collected, we also need to think about the possible re-identification of our participants. 
     - Consider how you may use [differential privacy](https://theconversation.com/explainer-what-is-differential-privacy-and-how-can-it-protect-your-data-90686) as a strategy against re-identification. Consider the [US Census 2020 example](https://www.ncsl.org/research/redistricting/differential-privacy-for-census-data-explained.aspx) on utilizing this strategy to address privacy concerns.
-    - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, we need to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
+    - Big data projects often times requiring sharing data sets across different individuals and teams. In addition, to ensure that our work is reproducible and accountable, we may also feel inclined to share the data collected. As such, figuring out [how to share such data](https://techscience.org/a/2015101601/) is crucial in the project planning stage.
 
 additional datasets:
     - "[National Science Foundation's open datasets](https://catalog.data.gov/organization/nsf-gov)"
@@ -63,7 +62,7 @@ These quotes below offers a variety of perspectives to understanding research da
 
 > Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
 > 
-> — [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
+> — [OMB-110, Subpart C, section 36, (d) (i)](http://www.whitehouse.gov/omb/circulars_a110/)
 
 
 > The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
@@ -111,8 +110,9 @@ There are many ways to represent data, just as there are many sources of data. W
 - Collection of digital objects acquired and generated during research
 
 
-Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
+Adapted from: [Georgia Tech](https://www.gatech.edu/)
 
+## Evaluation
 
 Research data can be defined as: (select all that apply)
 
@@ -125,7 +125,7 @@ Research data can be defined as: (select all that apply)
 
 ## Institutional Compliance for Data and Research
  
-###Institutional Review Board (IRB)
+### Institutional Review Board (IRB)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
 
@@ -145,7 +145,7 @@ Three core principles of the Belmont report are:
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
-## Institutional Compliance for Data and Research (Cont'd)
+## Institutional Conmpliance for Data and Research (Cont'd)
 
 ### When is an IRB required?
 
@@ -164,56 +164,19 @@ Your oral history project does the following; do you need a CUNY HRPP/IRB?
 HRPP/IRB Required?
 
 <Secret>
-NO
-</Secret>                      
-
-2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
-
-HRPP/IRB Required?
-
-<Secret>
-Yes
-</Secret>
-                                                                             
-3. Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
-
-HRPP/IRB Required?
-
-<Secret>
-Yes
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
 </Secret>
 
+2. What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
+3. Where do you usually get your data from?
 
-For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
-
-
-## Challenge: Forms of Data and IRB Compliance
-
-Consider the following project ideas and the research data and compliance needed to complete them.
-
-1. You are exploring discourse on various media ecosystems. What are some forms of data you use in your work? Would you need an IRB?
+### Solution:
 
 <Secret>
-You would most likely extract/scrape data that comes through a JSON file, which is a text-type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs and XLS.
-This project would most likely not require an IRB becuase you are not extracting identifiable  information on "human subjects".
+1. As I am currently exploring discourses on various social media ecosystem, I tend to extract/scrape data that comes through as JSON files, which is a text-file type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs or XLS.
+2. Often times outputs are statistical analysis and various data visualizations. This is also pretty comment in my field of psychology.
+3. I can get them from large databases like pushshift.io or scrape certain social media outlets directly such as Twitter.
 </Secret>
-
-2. You want to explore the ecosystem of the streets on NYC. What forms of data would you produce as your output? Would you need an IRB?
-
-<Secret>
-Your outputs would most likey be statistical or geospatial. 
-You will not need an IRb for this project since there are no "human subjects involved.
-</Secret>
-
-3. You want to understand the immigrant experience of a certain peoples. Where do you most likely get your data from? Would you need an IRB?
-
-<Secret>
-You would need to most likely conduct interviews and collect field notes in audio or video format. 
-You would most likely need an IRB and a [Standard Deed of Gift Agreemnet](https://guides.library.columbia.edu/ld.php?content_id=46588134) to public your findings. For more forms required for oral histories and archives see [Columbia Universities Guidlines](https://guides.library.columbia.edu/c.php?g=818237&p=6539627).
-</Secret>
-
-
-
 
 # Stages of Data
 
@@ -231,10 +194,6 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
-
-## Ethical Considerations and Impacts 
-
-
 
 ## Naming Conventions for Directory Structures
 
