@@ -191,11 +191,14 @@ Now, we are ready to get started!
 
 **Command prompt $**
 
-$, which we will refer to as the "command prompt," is the place where you type commands you wish the computer to execute. We will now learn some of the most common commands.
+```console
+$ 
+```
+'$', which we will refer to as the "command prompt," is the place where you type commands you wish the computer to execute. We will now learn some of the most common commands.
 
-When you see the $, you're in the right place. In the following lessons, we will refer to the command prompt using a $. 
+When you see the '$', you're in the right place. In the following lessons, we will refer to the command prompt using a '$'. 
 
-However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a % or a #. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
+However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a '%' or a '#'. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
 
 # Getting started: know thyself
 
