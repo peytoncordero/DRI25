@@ -549,6 +549,7 @@ How could we edit the text of our cheat sheet in a more practical way? Try
 ```console
 $ nano cheat-sheet.txt 
 ```
+![The image shows how the nano editor, that is open with this command, looks](/images/command-line/nano.png "Nano")
 
 Nano is a basic text editor. Once you are in the document change the information for:
 
@@ -873,6 +874,7 @@ Let's think about the grep command. Select all that pertain to the command.
 
 ## Review
 Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
+
 ```console
 wcword      count 
 sort        to organize the content of the file in alphabetically by line
@@ -897,9 +899,9 @@ tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_it
 
 You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is a good time to do a quick review! 
 
- We learned that the command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
+The command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
 
-We learned that for the command line we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
+We learned that, for CLI, we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
 
 Via DHRIFT’s command line emulator, we interact with the computer on bash (or Terminal). We practiced commands for
 
