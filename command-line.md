@@ -110,11 +110,11 @@ Currently, we have computers that can be transported in our hands, from smartpho
 
 Despite all these developments, to this day, the Command Line Interface continues to be a faster and more efficient way to interact with our computers for people working with computers. In our case, this is especially important for some digital projects.  
 
-# Text for the Command Line: differences between word processors and text editors
+# What is text for the Command Line?
 
 We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
 
-"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to distinguish text editors from word processors.
+"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast text editors and word processors.
 
 # Word processors
 
