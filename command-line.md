@@ -47,11 +47,11 @@ ethical considerations:
 
 Welcome to the Command Line Workshop! Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
 
-1) Creating new files and directories 
-2) Navigating the file structure in a computer. 
-3) Moving content and files to new locations within the file structure. 
-4) Searching within text files. 
-5) Doing a basic exploration of a dataset. 
+- Creating new files and directories 
+- Navigating the file structure in a computer. 
+- Moving content and files to new locations within the file structure. 
+- Searching within text files. 
+- Doing a basic exploration of a dataset. 
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic skills that will help you build up other digital skills. Understanding these will help you advance more easily in other digital skills, such as learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are communicating with your computer when programming and the kind of details that will make a difference in that process. 
 
@@ -61,9 +61,20 @@ Finally, there are other uses that you will find according to your interests and
 
 # What Is the Command Line?
 
-The command line is a text-based way of interacting with your computer. You may hear it called different names, such as the terminal, the shell, or bash. In practice, you can use these terms interchangeably. (If you're curious, though, you can read more about them [in the glossary](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/command-line.md).) The shell we use (whether terminal, shell, or bash) is a program that accepts commands as text input and converts commands into appropriate operating system functions.
+To get into this page of the workshop, you might have clicked on “next” or touched the bottom with your finger. In this way, you are interacting with your computer. The command line is another means of human-computer interaction. 
 
-The command line (of computers today) receives these commands as text that is typed in.
+To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
+
+The Command Line Interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn about! 
+
+In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
+
+![Terminal](/images/command-line/How-command-Line-looks-like.png "It is a simple program with a plain background and letters. On the first line it says: “Last Login: Wed Dec 27 16:34:06 on console”. The second line says: “(base) _silvira@Silvias-MBP ~ %” immediately followed by the cursor showing it is where you write.”)
+
+To refer to this interface, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
+
+As we mentioned on the front page of this workshop, the “command line” is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, we suggest As We May Think, an essay written in 1945 reflecting on the role of science in World War II. We also recommend the podcast Hello, World - Command Line Heroes Season 2 about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and later was a key pioneer for English-based computer programming languages. 
+
 
 ## What Does "Text-based" Mean?
 
