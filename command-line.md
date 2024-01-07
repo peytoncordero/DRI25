@@ -16,7 +16,12 @@ learning objectives:
 
 estimated time: 
     description: 3 hours
-    
+
+prerequisites: 
+    - None: 
+        description: This workshop doesn't requiere previous knowledge. 
+        required: true
+
 instructors: 
     - 'Silvia Rivera Alfaro'
 
