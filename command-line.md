@@ -180,11 +180,11 @@ If you want to hide the emulator to continue reading through the workshop, click
 
 Also, before you start, we want to share these tips to get ready:
  
-**Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
+**1. Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
 
-**Pay attention to detail.** Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
+**2. Pay attention to detail.** Keep in mind that the command line and file systems are usually pre-configured as cAsE-pReSeRvInG—so capitalizations also matter when typing commands and file and folder names.
 
-**Don’t cheese the game.** While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
+**3. Don’t cheese the game.** While copying and pasting from this handy tutorial may be tempting to avoid spelling errors and other things, we encourage you not to! Typing out each command will help you remember them and how they work.
 
 
 Now, we are ready to get started!
@@ -196,7 +196,8 @@ Now, we are ready to get started!
 ```console
 $ 
 ```
-'$', which we will refer to as the "command prompt," is the place where you type commands you wish the computer to execute. We will now learn some of the most common commands.
+
+We will refer to '$' as the "command prompt." It is the place where you type commands for the computer to execute. We will now learn some of the most common commands.
 
 When you see the '$', you're in the right place. In the following lessons, we will refer to the command prompt using a '$'. 
 
@@ -243,7 +244,11 @@ We're going to try another command to understand. This time it will help us to u
 ```console
 $ pwd
 ```
-You should get the output /home/user on DHRIFT. 
+You should get the output 
+
+```console
+/home/user on DHRIFT. 
+```
 
 The command pwd, which stands for "print working directory”, allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command pwd won't print anything except on your screen. This command is easier to grasp when we interpret "print" as "display." Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing.
 
@@ -260,6 +265,7 @@ Now we know "where" we are. But what if we want to know what files and folders a
 ## What's in the folder?
 
 To check what is contained in the folder, try entering:
+
 ```console
 $ ls
 ```
@@ -269,12 +275,14 @@ In this command, “ls” stands for list. It is a request to list the contents 
 You should see a list of folders and files contained in the current working directory where you are located. Usually, it might include folders such as Documents, and Desktop, and you may also see some files. In the case of the DHRIFT emulator, you should see command-line-treasure-hunt and data. 
 
 Wonder what's in the data folder? Let's try navigating to it with the following command:
+
 ```console
 $ cd data
 ```
 The cd command lets us "change directory." (Make sure the "d" in "data" is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
 
 So how do we know it worked? Let's use our pwd command again! We should get:
+
 ```console
 $ pwd
 ```
@@ -285,11 +293,13 @@ Now try the command ls again, to see what's on the data folder!
 The commands pwd, ls, and cd are the three most commonly used in the terminal. Between them, you can orient yourself and move around.
 
 One more command you might find useful right now is cd .. which will move you to one directory up in the filesystem. That's a cd with two periods after it:
+
 ```console
 $ cd ..
 ```
 
 Let's check it worked using our pwd command again! 
+
 ```console
 $ pwd
 ```
