@@ -79,43 +79,29 @@ Broadly, research data can be understood as **materials or information necessary
     <caption><strong>A short list of data stages and forms.</strong></caption>
     <tr>
         <th>Stage</th>
-        <th></th>
-        <th></th>
         <th>Form</th>
     </tr>
     <tr>
         <td>Raw</td>
-        <td></td>
-        <td></td>
         <td>Textual</td>
     </tr>
     <tr>
         <td>Cleaned</td>
-        <td></td>
-        <td></td>
         <td>Numeric</td>
     </tr>
     <tr>
         <td>Processed</td>
-        <td></td>
-        <td></td>
         <td>Audio</td>
     </tr>
     <tr>
         <td>Analyzed</td>
-        <td></td>
-        <td></td>
         <td>Video</td>
     </tr>
     <tr>
         <td>Visualized</td>
-        <td></td>
-        <td></td>
         <td>Image</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
         <td></td>
         <td>Code</td>
     </tr>
