@@ -53,7 +53,7 @@ projects:
         link: https://repositorio.linguisticafeminista.com/ 
     - Fair World 64: 
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
-        link: https://academicworks.cuny.edu/gc_etds/3786/ 
+        link: https://academicworks.cuny.edu/gc_etds/3786/
    
 resources: 
 - Command Line Basics by The Odin Project:
