@@ -212,7 +212,7 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 ## Challenge: Forms of Data and IRB Compliance
 
-Consider the following project ideas and the research data and compliance needed to complete them.
+Consider the following project ideas and the research data and institutional compliance needed to complete them.
 
 1. You are exploring discourse on various media ecosystems. What are some forms of data you use in your work? Would you need an IRB?
 
