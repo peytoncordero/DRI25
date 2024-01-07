@@ -48,13 +48,6 @@ ethical considerations:
     - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in On Software, or the Persistence of Visual Knowledge (2004), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts—predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argued, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.' If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in."
 
 projects:
-# Title and then description and link
-    - Command Line Basics by The Odin Project:
-        description: The Odin Project is an open learning resource. The Command Line Basics lessons include a number of projects for people interested in learning about the Command Line. 
-        link: https://www.theodinproject.com/lessons/foundations-command-line-basics 
-    - Awesome Bash:
-        description: a curated list of useful Bash scripts and resources
-        link: https://github.com/awesome-lists/awesome-bash 
    - Feminist Linguistics Repository:
         description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely.   
         link: https://repositorio.linguisticafeminista.com/ 
@@ -62,7 +55,13 @@ projects:
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
         link: https://academicworks.cuny.edu/gc_etds/3786/ 
    
-
+resources: 
+- Command Line Basics by The Odin Project:
+        description: The Odin Project is an open learning resource. The Command Line Basics lessons include a number of projects for people interested in learning about the Command Line. 
+        link: https://www.theodinproject.com/lessons/foundations-command-line-basics 
+    - Awesome Bash:
+        description: a curated list of useful Bash scripts and resources
+        link: https://github.com/awesome-lists/awesome-bash 
 ---
 
 # Introduction
