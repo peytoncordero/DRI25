@@ -56,7 +56,7 @@ projects:
         description: a curated list of useful Bash scripts and resources
         link: https://github.com/awesome-lists/awesome-bash 
    - Feminist Linguistics Repository:
-        description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely. 
+        description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely.   
         link: https://repositorio.linguisticafeminista.com/ 
     - Fair World 64: 
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
