@@ -143,8 +143,7 @@ Text editors are not used to edit rich text documents. Word processors should no
 
 While it doesn't matter which text editor you choose, you should try to become comfortable with at least one of them. In the end, choosing a text editor has as much to do with personality as it does with functionality!
 
-
-## Evaluation
+# Evaluation
 
 1. What is the command line? (Select one)
 <Quiz>
