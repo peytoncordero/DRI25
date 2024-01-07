@@ -493,102 +493,134 @@ The output should be the content of the file. In this case, the only content is
 This is my cheat sheet.
 ```
 
-# fin de update
-fin de textoooooo
+# How can we add more content? 
 
+Be aware. To write in the file we used redirect. Redirect takes the output that we would have on the CLI and overwrites it in the file. It means that if we use it again on the same file to add a different phrase it would erase what you wrote previously by overwriting it. In this case, we knew it was a new file so we were not worried about it! 
 
-
-# Creating a Cheat Sheet
-
-In this section, we'll create a text file that we can use as a cheat sheet. You can use it to keep track of all the awesome commands you're learning.
-
-## `Echo`
-
-Instead of creating an empty file like we did with `touch`, let's try creating a file with some text in it. But first, let's learn a new command: `echo`.
+However, and with our pedagogical intention let’s overwrite the text by using the redirect symbol again. 
 
 ```console
-$ echo "Hello from the command line"
-Hello from the command line
+$ echo “Ups I overwrite my cheat sheet!”  > cheat-sheet.txt 
 ```
 
-## Redirect (`>`)
-
-By default, the echo command just prints out the text we give it. Let's use it to create a file with some text in it:
-
+Check the file: 
 ```console
-$ echo "This is my cheat sheet" > cheat-sheet.txt
+$ cat cheat-sheet.txt 
 ```
 
-Now let's check the contents of the directory:
+The output is different now! 
 
+How could we edit the text of our cheat sheet in a more practical way? Try 
+```console
+$ nano cheat-sheet.txt 
+```
+
+Nano is a basic text editor. Once you are in the document change the information for:
+```console
+pwd    prints the working directory
+ls        lists the content of a folder
+cd       changes directory
+cd ..    goes up one directory 
+cd ~    goes to home directory 
+touch   creates a new file
+mv       move file
+mkdir   creates a new folder 
+echo    prints plain text 
+>       which is called tilde, prints into a specific file by overwriting it
+```
+
+When you finish, press command+shift to exit the text editor. Respond command+Y to save changes. 
+
+Now we can check our file: 
+```console
+$ cat cheat-sheet.txt 
+```
+
+A final note:  There is a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. If there is already text in the file, this is a quick option to add information. However, this command is not available for the emulator we are using on DHRIFT by January 2024. 
+
+# Organizing your cheat sheet
+
+Use pwd and cd to make sure you're in the folder with your cheat sheet. Then try:
+```console
+$ cat cheat-sheet.txt | sort
+```
+
+As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MyCheatSheet.txt, you could use a > to print the output to a file, like this:
+```console
+$ cat cheat-sheet.txt | sort > MyCheatSheet.txt
+```
+
+To find that this new file was created use the command ls. You should see the file as part of your results.
+
+**About these commands: the symbol |**
+
+We used | as part of our last two commands. This symbol is called “pipe”. Pipes allow you to ask your computer to take the output of one command and use it as the input of the next one. This will allow us to combine multiple commands on a single line.
+
+This diagram shows the process that pipes do:
+
+![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/pipes.png "Pipes diagram")
+
+To apply the diagram to our recent commands: 
+
+To sort the document: 
+- Command 1: $ cat cheat-sheet.txt
+- Command 2: Sort
+
+In this case we only want to see the final sorted result, so we want the computer to do both commands and show us only the final result. 
+
+To create the new file with the sorted information: 
+- Command 1: $ cat cheat-sheet.txt
+- Command 2: sort > MyCheatSheet.txt
+
+In this case want the sorted result to be saved in a new file, so we used the redirect symbol to create a new file as part of the second command.
+
+# On naming files and folders
+
+Just as organizing the information is important, the names of the files are important to facilitate our projects. So this is a note on digital best practices on naming files! 
+
+Your cheat sheet is titled cheat-sheet.txt instead of cheat sheet.txt for a reason. Can you guess why? 
+
+Let’s see if you guessed by making a test! 
+
+Check you are in the folder named “projects”: 
 ```console
 $ pwd
-/Users/your-username/projects
-$ ls
-cheat-sheet.txt
+/home/user/projects
 ```
 
-OK, so the file has been created. But what was the `>` in the command we used? On the command line, a `>` is known as a "redirect." It takes the output of a command and puts it in a file. Be careful, since it's possible to overwrite files with the `>` command.
-
-If you want to add text to a file but _not_ overwrite it, you can use the `>>` command, known as the redirect and append command, instead. If there's already a file with text in it, this command can add text to the file _without_ destroying and recreating it.
-
-## `Cat`
-
-Let's check if there's any text in `cheat-sheet.txt`.
-
+Create a new subfolder with in projects: 
 ```console
-$ cat cheat-sheet.txt
-This is my cheat sheet
+$ mkdir test
+```
+Go to that directory 
+```console
+$ cd test
 ```
 
-As you can see, the `cat` command prints the contents of a file to the screen. `cat` stands for "concatenate," because it can link strings of characters or files together from end to end.
+Now try to make a file named cheat sheet.txt and after that try to print it on the command line 
+```console
+$ touch cheat sheet.txt
+$ cat cheat sheet.txt
+```
 
-## A Note on File Naming
+What was the output? To observe what happened when you created that file, ask the computer to list what is in the folder:
+```console
+$ ls
+```
 
-Your cheat sheet is titled `cheat-sheet.txt` instead of `cheat sheet.txt` for a reason. Can you guess why?
+Our graphical user interfaces (GUI) allow us to save files with spaces in the name, and we usually don’t think about the consequences of those naming practices. Now imagine you are attempting to open a very important file for your project with a name such as final data.txt using the CLI! 
 
-Try to make a file titled `cheat sheet.txt` and observe what happens.
+Thus for digital best practices, we recommend making sure that file names contain no spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
 
-Now imagine you're attempting to open a very important data file using the command line that is titled `cheat sheet.txt`
+# FUN TIME: Treasure hunting! 
 
-For your digital best practices, we recommend making sure that file names contain no spaces—you can use creative capitalization, dashes, or underscores instead. Just keep in mind that the macOS and Unix file systems are usually pre-configured as cAsE-pReSeRvInG, which means that capitalization matters when you type commands to navigate between or do things to directories and files. You may also want to avoid using periods in your file names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually `file.pdf`).
+Use the commands we have learned so far to go on a treasure hunt in the DHRIFT emulator. 
+1. Access the folder command-line-treasure-hunt
+2. Once there, ask the computer to print the instructions on README.md
 
-## Using a Text Editor
+Right now you should be able to read those instructions! Pay attention to them and remember to pay attention to spelling and case sensitivity so that your commands work well! 
 
-The challenge for this section will be using a text editor, specifically Visual Studio Code ([install guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md)), to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as `.txt`, `.py` (Python scripts), and `.csv` (comma-separated values, also known as spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems.
-
-## Challenge
-
-You _could_ use the GUI to open your Visual Studio Code text editor—from your programs menu, via Finder or Applications or Launchpad in macOS, or via the Windows button in Windows—and then click `File` and then `Open` from the drop-down menu and navigate to your Desktop folder and click to open the `cheat-sheet.txt` file.
-
-_Or_, you can open that specific `cheat-sheet.txt` file in the Visual Studio Code text editor directly from the command line! Let's try that by using the `code` command followed by the name of your file in the command line. (Please note the command `code` prompts your computer to open Visual Code only if you have correctly completed [the software configuration](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) during installation.)
-
-Once you've got your cheat sheet open in the Visual Studio Code text editor, type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember, this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
-
-Save the file.
-
-Once you're done, check the contents of the file on the command line with the `cat` command followed by the name of your file.
-
-## Solution
-
-- Step 1
-    ```console
-    $ code cheat-sheet.txt
-    ```
-
-- Step 2
-    ```console
-    $ cat cheat-sheet.txt
-    My Institute Cheat Sheet
-
-    ls
-    lists files and folders in a directory
-
-    cd ~
-    change directory to home folder
-
-    ...
-    ```
+Good luck! 
 
 ## Evaluation
 
@@ -604,206 +636,178 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-# Pipes
+# Interlude: two command line secrets
 
-So far, you've learned a number of commands and one special symbol, the `>` or redirect. Now we're going to learn another, the `|` or "pipe."
+1. **Clearing the terminal**
 
-Pipes let you take the output of one command and use it as the input for another.
-
-![Pipes diagram](/images/command-line/pipes.png)
-
-Let's start with a simple example:
-
+After running all the commands we have learned so far, the terminal might be quite full of text. For our next section, it might be nice to clear the terminal and have a fresh start. Use the command clear: 
 ```console
-$ echo "Hello from the command line" | wc -w
-5
-```
-![Pipes diagram](/images/command-line/example_pipes.png)
-
-In this example, we take the output of the `echo` command ("Hello from the command line") and pipe it to the `wc` or word count command, adding a flag `-w` for number of words. The result is the number of words in the text that we entered. Flags marked with hyphens, such as `-l` or `-m`, indicate options which belong to specific commands.
-
-Let's try another. What if we wanted to put the commands in our cheat sheet in alphabetical order?
-
-Use `pwd` and `cd` to make sure you're in the folder with your cheat sheet. Then try:
-
-```console
-$ cat cheat-sheet.txt | sort
+$ clear
 ```
 
-You should see the contents of the cheat sheet file with each line rearranged in alphabetical order. If you wanted to save this output, you could use a `>` to print the output to a file, like this:
+The output should be the terminal clear! 
 
+2. **Tab for completion** 
+
+When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes tab completion, stage right!
+
+When you need to type out a file or folder name—for example, the name of a file we created: cheat-sheet.txt —in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the tab key. And voilà! Clicking that tab key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory. 
+
+In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and tab complete the rest! 
+
+Only where you are located in the folder that contains the file the tab key will complete your writing. The same happens with almost all commands: they will only be executable if you are in the right location of the filesystem where the files are located. If not, the command will not be successful.
+
+# Working with Text data
+
+The Command Line can be a very powerful tool to analyze text data, especially when we use it to analyze a large amount of text, one that would be too large to work with by hand. In this section, we will analyze. 
+
+The data we will be using is already on the DHRIFT emulator. You can find it at /home/user/data. 
+
+Check where you are located using pwd. If you are not in that working directory, use the necessary commands to access that location.
+
+Now that you are there, use ls to ask the list and find what our data set is. You should see a file named nypl_items.csv
+
+Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma-separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
+
+# Exploring the text file
+
+We said this data is a large amount of text. Let’s make some simple tests to see the length. 
+
+First, try using the cat command to look at the data. 
 ```console
-$ cat cheat-sheet.txt | sort > new-cheat-sheet.txt
+$ cat nypl_items.csv 
 ```
 
-## Evaluation
+What do you think in comparison to our earlier practice with the cat command? Now you might find the text being printed out goes by too fast to get any sense of it!  If the output is taking too long, you can click control + C [h]on your keyboard to cancel it.
 
+**How long is that file anyway?** 
+
+```console
+$ cat nypl_items.csv | wc -w
+```
+
+With larger amounts the data it might take some seconds to run each command before printing the single output we are requesting. 
+
+What is the output?
+<Secret>
+The total of words in the file should be 2,298,575.
+</Secret>
+
+**What is new in this command?**
+
+We had two commands combined as one single line with a pipe. The first command is to display the text of nypl_items.csv. The second command is “wc -w”. It asks the computer to print the number of words. This is something we learned earlier. The hyphen is a new element for us. It marks that the immediate element that follows it is a flag. 
+
+Flags indicate options that belog to specific commands. For example, in the command wc we have various options. We used “-w” to select the “number of words”, but it could also be “wc -l” to show the number of lines or “wc -m” to count the number of characters. You can try these other commands if you want to explore further. 
+
+# Viewing Data in the command line
+
+We saw that the cat command was not very useful for this large data set. Instead, let’s use another tool, the less command. It allows us to get data one page at a time.
+```console
+$ less nypl_items.csv
+```
+less gives you a paginated view of the data; it will show you the contents of a file or the output from a command or string of commands, page by page.
+To view the file contents page by page, you may use the following keyboard shortcuts: 
+
+-Press the <kbd>f</kbd> key to view forward one page
+-Press the <kbd>b</kbd> key to view back one page.
+-Press the key <kbd>q</kbd> to return to the command line.
+Let’s try two more commands for viewing the contents of a file. The first one fo them is head:
+```console
+$ head nypl_items.csv
+```
+
+The output should be the very first section of the file, which is called head. The second command, by contrast, prints out the very last part of the file, which is called tail:
+```console
+$ tail nypl_items.csv
+```
+# Cleaning the data
+
+We didn’t tell you this before, but there are duplicate lines in our data! Two, to be exact. Before removing them, let’s see how many entries are in our .csv file 
+```console
+$ cat nypl_items.csv | wc -l
+100001
+```
+
+This tells us there are 100,001 lines in our file. 
+
+To find and remove duplicate lines, we can use the uniq command combined via a pipe with other commands we used before. Let's try it out:
+```console
+$ cat nypl_items.csv | uniq | wc -l
+99999
+```
+
+OK, the count went down by two because the uniq command removed the duplicate lines. But which lines were duplicated?
+```console
+$ cat nypl_items.csv | uniq -d
+```
+
+In this line we are combining two commands, the first one is to print out the data. The second one is the uniq command with the -d flag, which is the option to print out the lines that have duplicates.
+
+# Activities
+
+**Challenge**
+
+Use the commands you’ve learned so far to create a new version of the nypl_items.csv file with the duplicated lines removed. Hint: we created a new version of our cheat sheet after sorting it alphabetically. 
+
+<Secret>
+```console
+$ cat nypl_items.csv | uniq > clean_nypl_items.csv
+```
+This will allow you to create a new version of the nypl_items.csv file with the duplicated lines removed. You can decide any name you prefer for your file!
+</Secret>
+
+**Evaluation**
+
+What do command linen flags allow you to do? (select one)
+<Quiz>
+Flags allow you to earmark the file you are working on.
+Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
+Flags are a common way to specify options for the command line programs.* 
+</Quiz>
+
+# Search the data 
+
+So we've cleaned our data set, but how do we find entries that use a particular term? Let's say I want to find all the entries in our data set that use the term "Paris."
+
+Here we can use the grep command, which stands for "global regular expression print." The grep command processes text line by line and prints any lines that match a specified pattern. 
+
+On the command line write
+```console
+$ cat nypl_items.csv | grep -i "paris"
+```
+
+This will print out all the lines that contain the word "Paris." The -i flag makes the command ignore capitalization. 
+
+Now we can use our wc -l command to see how many lines that are:
+```console
+$ cat nypl_items.csv | grep -i "paris" | wc -l
+191
+```
+
+In this last command, we have used the cat command to read nypl_items.csv, take the output, and pipe it into the grep -i command, which will ignore capitalization and find all instances of the word paris. We then take the output of that grep command and pipe it into the word count wc command with the -l lines option. The pipeline returns 191 letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
+
+**Regular expressions**
+
+In this command we used grep and said that it stands for regular expressions. Regular expressions are special strings representing a pattern to be matched in a search operation. grep gives us access to the power of regular expressions as we search for text.[k] Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. Regular expressions are commonly used in different programming languages.
+
+# Activities
+
+**Challenge**
+
+Use the grep command to explore our .csv file a bit. What areas are best covered by the data set? 
+
+If you want to get a little more mileage out of the grep command, refer to this tutorial on grep and regular expressions. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from a simple Google search, such as RegExr, which includes a handy cheat sheet.
+
+**Evaluation**
+ 
 What do pipes allow you to do? (select all that apply)
-
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-# Exploring Text Data
-
-So far the only text file we've been working with is our cheat sheet. Now, this is where the command line can be a very powerful tool: let's try working with a large text file, one that would be too large to work with by hand.
-
-Let's download the data we're going to work with:
-
-[Download `nypl_items.csv`](https://github.com/DHRI-Curriculum/command-line/raw/v2.0/files/nypl_items.csv)
-
-If you are using Chrome or Firefox, right click on the link above and select "Save Link As..."; make sure you name the file `nypl_items.csv`
-Please note that, occasionally, [Chrome "forgets" to add the extension to your downloaded file](/images/command-line/savelinkaschrome.png); therefore, if your filename doesn't end with `.csv`, [feel free to add it manually](/images/command-line/savelinkaschrome2.png).
-
-Our data set is a list of public domain items from the New York Public Library. It's in `.csv` format, which is a plain text spreadsheet format. CSV stands for "comma separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
-
-## Move Command
-
-Once the file is downloaded, move it from your `Downloads` folder to the `projects` folder on your desktop—either through the command line, or drag and drop in the GUI. Since this is indeed a command line workshop, you should try the former!
-
-To move this file using the command line, you first need to navigate to your `Downloads` folder where that file is saved. Then type the `mv` command followed by the name of the file you want to move and then the file path to your `projects` folder on your desktop, which is where you want to move that file to (note that `~` refers to your home folder):
-
-```console
-$ mv nypl_items.csv ~/Desktop/projects/
-```
-
-You can then navigate to that `projects` folder and use the `ls` command to check that the file is now there.
-
-## Viewing Data in the Command Line
-
-Try using `cat` to look at the data. You'll find it all goes by too fast to get any sense of it. (You can click <kbd>control</kbd> + <kbd>c</kbd> on your keyboard to cancel the output if it's taking too long.)
-
-Instead, let's use another tool, the `less` command, to get the data one page at a time:
-
-```console
-$ less nypl_items.csv
-...
-```
-
-`less` gives you a paginated view of the data; it will show you contents of a file or the output from a command or string of commands, page by page.
-
-To view the file contents page by page, you may use the following keyboard shortcuts (that should work on Windows using Git Bash or on macOS terminal):
-
-Click the <kbd>f</kbd> key to view forward one page, or the <kbd>b</kbd> key to view back one page.
-
-Once you're done, click the <kbd>q</kbd> key to return to the command line.
-
-Let's try two more commands for viewing the contents of a file:
-
-```console
-$ head nypl_items.csv
-...
-
-$ tail nypl_items.csv
-...
-```
-
-These commands print out the very first (the "head") and very last (the "tail") sections of the file, respectively.
-
-## Cleaning the Data
-
-We didn't tell you this before, but there are duplicate lines in our data! Two, to be exact. Before we try removing them, let's see how many entries are in our `.csv` file:
-
-```console
-$ cat nypl_items.csv | wc -l
-100001
-```
-
-This tells us there are 100,001 lines in our file. The `wc` tool stands for "word count," but it can also count characters and lines in a file. We tell `wc` to count lines by using the `-l` flag. If we wanted to count characters, we could use `wc -m`.
-
-To find and remove duplicate lines, we can use the `uniq` command. Let's try it out:
-
-```console
-$ cat nypl_items.csv | uniq | wc -l
-99999
-```
-
-OK, the count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
-
-```console
-$ cat nypl_items.csv | uniq -d
-...
-```
-
-The `uniq` command with the `-d` flag prints out the lines that have duplicates.
-
-## Challenge
-
-Use the commands you've learned so far to create a new version of the `nypl_items.csv` file with the duplicated lines removed. (Hint: _redirects_ from the lesson when we made a [cheat sheet](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=8) are your friend.)
-
-## Solution
-
-Type `pwd` to see where on your computer you are located. If you are not in the `projects` folder we just created, navigate to that folder using the commands you learned in the [lesson on navigation](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=6).
-
-Type `ls` to check whether the file `nypl_items.csv` is in your projects folder.
-
-Type `cat nypl_items.csv | uniq > new_nypl_items.csv` to create a new version of the `nypl_items.csv` file with the duplicated lines removed.
-
-## Evaluation
-
-What do command line flags allow you to do? (select one)
-
-<Quiz>
-- Flags allow you to earmark the file you are working on.
-- Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
-- Flags are a common way to specify options for command line programs.*
-</Quiz>
-
-## Keywords
-
-Do you remember the glossary terms from this section?
-
-- [Path](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/path.md)
-
-# Interlude
-
-## A Favorite Command Line Feature: Tab Completion
-
-When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes _tab completion_, stage right!
-
-When you need to type out a file or folder name—for example, the name of that csv file we've been working with: `nypl_items.csv`—in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the <kbd>tab</kbd> key. And voilà! Clicking that <kbd>tab</kbd> key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory.
-
-In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and <kbd>tab</kbd> complete the rest!
-
-## Clearing Text
-
-If all the text remaining in your terminal window is starting to overwhelm you, you have some options. You may type the `clear` command into the command line, or click the <kbd>command (⌘)</kbd> and <kbd>k</kbd> keys to clear the scrollback. Pressing the <kbd>command (⌘)</kbd> and <kbd>l</kbd> keys in macOS, or <kbd>control</kbd> and <kbd>l</kbd> in Windows will clear the output from your most recent command.
-
-# Searching Text Data
-
-So we've cleaned our data set, but how do we find entries that use a particular term?
-
-Let's say I want to find all the entries in our data set that use the term "Paris."
-
-Here we can use the `grep` command. `grep` stands for "global regular expression print." The `grep` command processes text line by line and prints any lines which match a specified pattern. Regular expressions are special strings representing a pattern to be matched in a search operation. `grep` gives us access to the power of regular expressions as we search for text.
-
-```console
-$ cat nypl_items.csv | grep -i "paris"
-...
-```
-
-This will print out all the lines that contain the word "Paris." (The `-i` flag makes the command ignore capitalization.) Let's use our `wc -l` command to see how many lines that is:
-
-```console
-$ cat nypl_items.csv | grep -i "paris" | wc -l
-191
-```
-
-Here we have asked `cat` to read `nypl_items.csv`, take the output and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word `paris`. We then take the output of that `grep` command and pipe it into the word count `wc` command with the `-l` lines option. The pipeline returns `191` letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
-
-## Challenge
-
-Use the `grep` command to explore our `.csv` file a bit. What areas are best covered by the data set?
-
-## Solution
-If you want to get a little more milage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
-
-## Evaluation
-
-Let's think about the `grep` command. Select all that pertain to the command.
-
+Let's think about the grep command. Select all that pertain to the command.
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
@@ -811,28 +815,81 @@ Let's think about the `grep` command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-# What We Have Learned
+# Activities
 
-Now is a good time to do a quick review!
+**Challenge**
 
-In this session, we learned:
+Use the grep command to explore our .csv file a bit. What areas are best covered by the data set? 
 
-- how to use `touch` and `echo` to create files
-- how to use `mkdir` to create folders
-- how to navigate our file structure by `cd`(change directory), `pwd` (print working directory), and `ls` (list)
-- how to use redirects (`>`) and pipes (`|`) to create a pipeline
-- how to explore a comma separated values (`.csv`) dataset using word and line counts, `head` and `tail`, and the concatenate command `cat`
-- how to search text files using the `grep` command
+<Secret>
+If you want to get a little more milage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
+</Secret>
 
-And we made a [cheat sheet](https://curriculum.dhinstitutes.org/workshops/command-line/lessons/?page=8) for reference!
+**Evaluation**
 
-When we started, we reviewed what text is—whether plain or enriched. We learned that text editors that don't fix formatting of font, color, and size, do allow for more flexible manipulation and multi-program use. If text is allowed to be a string of characters (and not specific characters chosen for their compliance with a designer's intention), that text can be fed through programs and altered with automated regularity. Text editors are different software than Bash (or Terminal), which is a text-based shell that allows you to interact directly with your operating system giving direct input and receiving output.
+What do pipes allow you to do? (select all that apply)
+<Quiz>
+- Pipes let you take the output of one command and use it as the input for another.*
+- Pipes allow you to combine multiple commands in a single line.*
+- Pipes let you work on multiple files at the same time.
+</Quiz>
 
-# Theory to Practice
+Let's think about the grep command. Select all that pertain to the command.
+<Quiz>
+- It searches the given file for lines containing a match to the given strings or words.*
+- It can be combined with other commands, so as to produce a search that matches their output.*
+- It produces a new file with the lines containing the strings or words you are searching.
+- It delete the strings or words you are searching from a file.
+</Quiz>
 
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your [version control with git](https://github.com/DHRI-Curriculum/git) or you'll have your text editor open while [writing python scripts](https://github.com/DHRI-Curriculum/python) or building basic websites with [HTML and CSS](https://github.com/DHRI-Curriculum/html-css). Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
+# Review
+Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
+```console
+wc     word count 
+sort   to organize the content of the file in alphabetically by line
+mv     to move files 
+control + C     to interrump the last command by stop running it
+less      to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
+head  to only see the first part of the file, e.g. head nypl_items.csv
+tail to only see the last part of the file, e.g. tail nypl_items.csv
+uniq (stands for unique) to print repeat lines only once
+grep stands for “global regular expression print’ 
 
-## Review your knowledge: 7 questions from the lessons
+Flags —  marked with hyphens to indicate specific options to the commands
+wc -w ask to print the number of words
+sort -f to make sort noncase sensitive
+ls -l to show the long list (the details of the content)
+wc -l to show the number of lines
+wc -m to count the number of characters 
+head -n # to show a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
+tail-n # to show a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
+```
+
+# Summary of the workshop
+
+You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is a good time to do a quick review! 
+
+According to the goals of the workshop, we learned that the command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
+
+We learned that for the command line we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
+
+Via DHRIFT’s command line emulator, we interact with the computer on bash (or Terminal). We practiced commands for
+
+1) Navigating the file structure in a computer (pwd, ls, cd, cd .., cd~).
+2) Creating new files and directories (ouch, echo, mkdir).
+3) Moving content (with redirect > and pipes |) and files (with mv) to new locations within the file structure.
+4) Searching within text files (cat, grep, less, head, tail, uniq)
+5) Doing a basic exploration of a text dataset (nypl_items.csv)
+
+And we documented those commands on a cheat sheet that can be used for reference!
+
+The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
+
+In the next pages we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
+
+# Final Evaluation
+
+Here are some questions from to review the lessons of the workshop:
 
 __1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)__
 
@@ -843,8 +900,6 @@ __1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)
 - It shows me what folder I am working in.
 </Quiz>
 
-Revisit lesson [Creating Files and Folders](/workshops/command-line/?page=9) to learn more.
-
 __2. What do command line flags allow you to do? (Select one of the following)__
 
 <Quiz>
@@ -853,8 +908,6 @@ __2. What do command line flags allow you to do? (Select one of the following)__
 - Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
 </Quiz>
 
-Revisit lesson [Exploring Text Data](/workshops/command-line/?page=12) to learn more.
-
 __3. What effect does the following command produce?__
 
 ```console
@@ -862,7 +915,6 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
 
 (Select one of the following)
-
 <Quiz>
 - It replaces the content of the introduction.txt file with the line “Hello! My Name is Mark!”*
 - It adds the line “Hello! My Name is Mark!” to the existing content of the introduction.txt file.
@@ -870,20 +922,14 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-Revisit lesson [Creating a Cheat Sheet](/workshops/command-line/?page=10) to learn more.
-
 __4. What do pipes allow you to do? (Select all that apply)__
-
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-Revisit lesson [Pipes](/workshops/command-line/?page=11) to learn more.
-
 __5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)__
-
 <Quiz>
 - `$ pwd`*
 - `$ ls`
@@ -891,10 +937,7 @@ __5. What command do you run if you are trying to identify where in the filesyst
 - `$ whoami`
 </Quiz>
 
-Revisit lesson [Navigation](/workshops/command-line/?page=8) to learn more.
-
 __6. Let's think about the `grep` command. Select all that pertain to the command.__
-
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
@@ -902,10 +945,7 @@ __6. Let's think about the `grep` command. Select all that pertain to the comman
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-Revisit lesson [Searching Text Data](/workshops/command-line/?page=14) to learn more.
-
 __7. What is the difference between a plain text document and a rich text document? (Select all that apply)__
-
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Rich text is styled text, i.e., plain text completed by information such as font size, format, and colors.*
@@ -913,27 +953,74 @@ __7. What is the difference between a plain text document and a rich text docume
 - One can’t determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-Revisit lesson [Text Editors](/workshops/command-line/?page=4) to learn more.
+**For further consideration**
 
-## Suggested Further Readings
+- What are some of the operations that the command line allowed you to do today that you could have not performed with the Graphical User Interface? 
+- What new information have you learned about your relationship with your machine in this workshop?
+
+# Transferring knowledge to your computer
+
+Now that you understand the CLI, you can apply this knowledge in your computer. 
+
+As we mentioned, technology changes according to the available hardware. However, computers also changed according to the proprietary programs promoted by different companies such as Mac and Windows. As we saw with word processors, proprietary software implies terminals for command lines that are not necessarily equal for everyone. 
+
+Thus, in this section, we help you get to the Command Line depending on the Operating System you use. We will talk about MacOS, Windows, and finally Linux.
+
+## MacOS Users
+
+If you're using macOS:
+1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
+2. Type “terminal” into the bar that appears.
+3. Select the first item that appears in the list.
+4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
+
+IMAGE of Terminal in macOS 
+
+Please note: You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
+
+Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can hold the command (⌘) key and press space to pull up Spotlight search, start typing Terminal, and then hit enter to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can pick up speed when you practice!
+
+## Windows Users
+
+Windows's own non-UNIX version of the command line. To use it:
+
+1. Open the start menu or press the Windows key at the same time that the letter R. 
+2. Type “cmd” and you will run the command box. 
+3. Press enter
+ 
+Another option for Windows users, if they want to use a UNIX version, is Git Bash. If you haven't installed it yet, you can follow these instructions. A reason to use Git Bash as the command line on Windows is to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
+
+After the installation:
+1. Look for Git Bash in your programs menu and open it.
+2. If you can't find the git folder, just type git bash in the search box and select git bash when it appears.
+3. Open the program.
+4. When the terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background. You know you're in the right place when you see the $.
+Note that the sign for you being in the right place might also be a % or a # depending on your operating system.
+
+IMAGE of Terminal on Windows 
+
+Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press windows to open the Start menu, start typing git bash, and then hit enter to open a git bash window. This will pull up a command window without touching your mousepad.
+
+## Linux Users
+
+The first option is to go to the applications menu. There will be a terminal icon. Click to launch it. 
+
+The second option is to use the Search button (the magnifying glass) a, write “terminal”, “command”, “prompt” or “shell”. Launch the terminal. 
+
+PENDIENTE IMAGEN
+
+## Resources to continue learning
 
 - Are you wondering how (else) the command line can be deployed for your scholarship? [Dennis Tenen and Grant Wythoff's "Sustainable Authorship in Plain Text using Pandoc and Markdown"](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) have some answers for you.
 - [Stephen Ramsay](https://www.unl.edu/english/stephen-ramsay) is a scholar that has thought at length about the way the command line is (or can be!) embedded in a researcher's praxis. If you're interested in reading his work, here are two of his finest essays: ["Life on the Command Line"](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html) and ["Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities"](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
 
-## Other Tutorials
-
+**Other Tutorials**
 - [*Data Science at the Command Line*](https://www.datascienceatthecommandline.com/) is an open access e-book by Jeroen Janssens, a hands-on guide that can help you become a more efficient and productive data scientist through the use of the command line.
 - [BashGuide](http://mywiki.wooledge.org/BashGuide) offers some good practice techniques for taking your BASH skills to a higher level by teaching you write some simple scripts.
 
-## Projects or Challenges to Try
-
+**Projects or Challenges to Try**
 - [More command line challenges](https://github.com/DHRI-Curriculum/command-line/blob/main/sections/15-challenges.md) devised by the GCDI team are available here.
 - When working with digital tools, it's usually a good idea to familiarize with their documentation. Here's the [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html), where you can find Bash features for beginners and advanced users.
 - [Pandoc](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) is an online software that allows users to convert file types through the command-line (from markdown to PDF, for example).
 - [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) is a command-line exercise to download videos from YouTube.com. It requires the Python interpreter.
 - Feeling super brave? You might want to give [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) a shot! MALLET is a "a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text." It includes tools for document classification, sequence tagging, topic modeling, and numerical optimization.
-
-## Discussion Questions
-
-- What are some of the operations that using the command line, as opposed as your GUI, allows you to perform?
-- What has learning to use the command line taught you about your machine?
