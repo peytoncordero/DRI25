@@ -47,7 +47,6 @@ ethical considerations:
 
 projects:
 # Title and then description and link
- - description: "The command line is a great instrument for different projects and learning processes. Three of them are"
     - Feminist Linguistics Repository:
         description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely. 
         link: https://repositorio.linguisticafeminista.com/ 
