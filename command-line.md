@@ -800,31 +800,6 @@ In this command we used grep and said that it stands for regular expressions. Re
 
 Use the grep command to explore our .csv file a bit. What areas are best covered by the data set? 
 
-If you want to get a little more mileage out of the grep command, refer to this tutorial on grep and regular expressions. If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from a simple Google search, such as RegExr, which includes a handy cheat sheet.
-
-**Evaluation**
- 
-What do pipes allow you to do? (select all that apply)
-<Quiz>
-- Pipes let you take the output of one command and use it as the input for another.*
-- Pipes allow you to combine multiple commands in a single line.*
-- Pipes let you work on multiple files at the same time.
-</Quiz>
-
-Let's think about the grep command. Select all that pertain to the command.
-<Quiz>
-- It searches the given file for lines containing a match to the given strings or words.*
-- It can be combined with other commands, so as to produce a search that matches their output.*
-- It produces a new file with the lines containing the strings or words you are searching.
-- It delete the strings or words you are searching from a file.
-</Quiz>
-
-# Activities
-
-**Challenge**
-
-Use the grep command to explore our .csv file a bit. What areas are best covered by the data set? 
-
 If you want to get a little more milage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
 
 **Evaluation**
