@@ -86,11 +86,11 @@ The first electronic programmable computer was ENIAC (Electrical Numerical Integ
 
 As human-computer interaction depends on the available technology, ENIAC used punch cards. This is how a punched card looks. 
 
-![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.png "Punch cards Pilot ACE c 1950")
+![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch cards Pilot ACE c 1950")
 
 Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. The proposal of a mechanical computer device using that technology dates from that time. Punch cards are made with a keypunch, a device for precisely punching holes. In its early times, it was manual and later on became electromechanical. This is a picture of a keypunch operator working for the US Census in 1950:
 
-![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.png "Keypunch_operator_1950_census_IBM_016")
+![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.jpg "Keypunch_operator_1950_census_IBM_016")
 
 
 
