@@ -116,19 +116,27 @@ Let’s create a “pandas_workshop” folder in our JupyterLite code editor wor
 A code editor is a software application that is specifically designed for writing and editing source code of computer programs. It provides features and tools to make the process of coding more efficient and productive for developers. Code editors are essential tools for software development and come in various forms, ranging from simple text editors to feature-rich integrated development environments (IDEs).
 </Keywords>
 
-## Download the dataset & upload it into the code editor
-Next, we will need to first download our dataset and then upload it to your new “pandas_workshop” folder: 
-- Click this button to download the dataset to your computer: <Download files='refugee-arrivals-by-destination.csv>
-- Locate the file on your personal computer. Next, go back to the code editor and double-click into your “pandas_workshop.” 
-- Click the upward facing arrow symbol to upload your refugee-arrivals-by-destination.csv file. 
+## Download the Full Code in a Jupyter Notebook & upload it into the code editor
 
-![Upload File](/images/pandas/upload_file.png)
+We’ve saved all of the code for this section in a Jupyter Notebook file. 
 
+- To access this file, click the following button: 
+
+<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/pandas_workshop_2024.ipynb' />
+
+- Open your code editor in the right hand corner and locate the `pandas_workshop_2024.ipynb` file
+- When prompted, select the "Python Pyodide" kernel
+- Finally, drag and drop the `pandas_workshop_2024.ipynb` file into your `pandas_workshop` folder 
 - Once it's in that folder, you should be all set! 
 
-<Info>
-As you get more comfortable with coding in Python, you can also directly import a dataset into your Python environment using the requests library
-</Info>
+In this file you will find all of the workshop commands and the expected outputs. If you ever feel stuck or can’t seem to be able to advance in the workshop, you can open this file and see how we did it.
+
+For the best possible experience, we suggest/encourage you to:
+
+- Follow the workshop typing all the code yourself.
+- Avoid copying/pasting the code. Much of learning has to do with you typing yourself.
+- Only check the PandasWorkshop.ipynb file if you get lost or if you are not able to get the right output. Before opening it, put some time trying to figure out by yourself why it isn’t working. A big part of coding is learning to identify what we are doing wrong.
+- We also caution you against working with both files open at the same time. It is easy to get confused and start modifying the wrong one. But those are only suggestions. Maybe they will work for you, maybe they won’t, so feel free to do what suits you best. You are in charge here!
 
 ## Launching a new JupyterLite Notebook
 Finally, let's launch a new JupyterLite Notebook from within the “pandas_workshop” folder. 
@@ -196,17 +204,16 @@ In Python, a "silent success" typically refers to a successful operation or func
 
 Next, we will read in our dataset saved as a CSV file. We will specifically work with the refugee-arrivals-by-destination.csv dataset, which contains data about refugee arrivals to the United States between 2005 and 2015, including the number of refugees who arrived in each U.S. city and state, the year that they arrived, and the country from which they arrived.
 
-You want to make sure you save the dataset in the same location as your JupyterLite Notebook, in this case the pandas_workshop folder. 
+We will connect to the dataset directly from this [Github link](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/refugee-arrivals-by-destination.csv)  
 
 
 ```python
-refugee_df = pd.read_csv('refugee-arrivals-by-destination.csv', delimiter=",", encoding='utf-8')
+url = 'https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/refugee-arrivals-by-destination.csv'
+refugee_df = pd.read_csv(url, delimiter=",", encoding='utf-8')
 ```
 
 - With this command, we are creating a **Pandas DataFrame** object, which is a 2-dimensional labeled data structure with columns of different types. You can think of it like a spreadsheet or SQL table, or a dictionary of Series objects. 
 - It is common practice to abbreviate DataFrame with “df”, as in refugee_df.  
-- When reading in the CSV file, we also specified the encoding and delimiter. The delimiter specifies the character that separates or “delimits” the columns in our dataset. For CSV files, the delimiter is usually a comma but it can also be a tab. 
-- UTF is “Unicode Transformation Format”, and ‘8’ means 8-bit values are used in the encoding. It is one of the most efficient and convenient encoding formats. In Python, strings are by default in utf-8 format which means each alphabet corresponds to a unique code point. Setting the encoding format ensures our strings are uniform.
 
 <Keywords>
 - DataFrame
@@ -1462,12 +1469,9 @@ To see a full list of the columns in our DataFrame, we can run the following com
 refugee_df.columns
 ```
 
+Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
 
-
-
-    Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
-
- ![List of Columns](/images/pandas/columns.png)
+![List of Columns](/images/pandas/columns.png)
 
 Our DataFrame has relatively few columns, so seeing the full list is not absolutely necessary in our case. This step becomes important when you are working with DataFrames with many columns. 
 
@@ -1604,7 +1608,7 @@ refugee_df
 </div>
 
 <Keywords>
--.rename()
+- .rename()
 In Pandas, the rename method is used to change the labels (names) of columns or index in a DataFrame. It allows for both selective renaming and modifying all labels using a dictionary or a function.
 </Keywords>
 

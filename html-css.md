@@ -1,16 +1,24 @@
 ---
 title: 'Introduction to HTML and CSS'
 cover title: HTML & CSS
-description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the world wide web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
+description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the World Wide Web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites and website templates. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
+authors:
+
+instructors:
+    - 'Ian G. Williams'
+
+editors:
+    - 'Ian G. Williams'
+
 facilitators: 
-    name: 'Ian Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the interesections of emerging technologies, human services, and organizational change. Ian likes to hang out in digital humanities spaces, and was creating websites in HTML back in the early 2000s.'
+    name: 'Ian G. Williams'
+    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
 
 estimated time:
     - 2-3 hours
@@ -19,20 +27,24 @@ prerequisites:
     - command-line:
         description: (Required) This workshop makes reference to concepts from the Command Line workshop, in particular, in creating new folders and files, as well as moving around in file directories. Completing the Command Line workshop will make you more comfortable with working with HTML/CSS.
         required: true
-
+        
 installations:
     - visual-studio-code: 
-        description: (Recommended) You can use any plain text editor, but for our purposes Visual Studio Code ("VS Code") will be used.
+        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used.
 
 readings:
     - "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
     - "[Digital History: A Guide To Gathering, Preserving, and Presenting the Past on the Web](http://chnm.gmu.edu/digitalhistory/) by Daniel J. Cohen and Roy Rosenzweig provides clear introduction to what a life-cycle of web-based digital humanities project might look like. The book covers a variety of aspects of a website project from initial planning, to website design, and even cultivating an audience. Participants are welcome to read as much of this free online book as suits them. I highly recommend reading the [introduction](http://chnm.gmu.edu/digitalhistory/introduction/) which helpfully explains the affordances and difficulties of web-based digital projects."
 
+podcasts:
+    - "[Command Line Heroes: A Language For The Web](https://www.redhat.com/en/command-line-heroes/season-7/html) A fascinating and accessible discussion on the origins of HTML and some of the technological basis required to make it happen."
+    - "[Marketplace Tech: How The History of Blackness On The Internet Was Erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview is with Charleton McIlwain, Professor of Media, Culture, and Communications at New York University, on his book _Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter._ The discussion touches upon the invisibility and erasure of Black voices, perspectives, and contributions to the development of the Internet."
+
 projects:
-    - description: "HTML and CSS are fundamental to building websites. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included three different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
-    - "[Digital Humanities Research Institute](https://www.dhinstitutes.org/): Our very own Digital Humanities Research Institute uses HTML, CSS, and other languages in its web site. Our web design aims to provide its workshops in a visual style that emphasizes accessibility, ease, and comfort."
+    - description: "HTML and CSS are fundamental to building websites. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included two different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
     - "[Colored Conventions](https://coloredconventions.org/): The Colored Conventions project is a community-based archive of nineteenth-century Black political organization. In its early stage, this project crowdsourced much of its data-gathering efforts by building an interface for volunteers to digitally transcribe archival texts. This project uses HTML and CSS in many of its aspects."
     - "[Musical Passage](http://www.musicalpassage.org/): Musical Passage is an exhibit of early African diasporic music. This website reproduces a transcriptions and renditions of songs performed by enslaved African people in the Caribbean in the early eighteenth century. This project uses HTML, CSS, and other languages to provide a multimodal experience for its visitors, who can see a historical document as well as listen to the earliest known record of African diasporic music."
+
 
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
@@ -42,6 +54,7 @@ resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
     - "[CSS Cheat Sheet](https://courses.cs.washington.edu/courses/cse154/15sp/cheat-sheets/css-cheat-sheet.pdf): A cheat sheet with some common CSS commands."
     - "[Web Development with Accessibility in Mind](https://www.w3.org/standards/webdesign/accessibility): This guide was created by the W3C, which is the international community that develops Web standards. This guide provides information on ways of making websites more accessible to those with disabilities."
+    - "[Library of Congress: Sustainability of Digital Formats: Hypertext Markup Language (HTML) Format Family](https://www.loc.gov/preservation/digital/formats/fdd/fdd000475.shtml): This guide provides an archivist's view on preservation and sustainability concerns regarding HTML."
 
 ---
 
@@ -74,7 +87,7 @@ CSS is usually used in conjunction with HTML. HTML tells the browser what the di
 
 Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
-However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss [how to get your website from your local computer onto the internet](?user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=49).
+However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='49'>`how to get your website from your local computer onto the internet`</Link>.
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet. 
 
@@ -99,6 +112,10 @@ Do you remember the glossary terms from this section?
 # Opening Activity
 
 **_Note_: please use Firefox or Chrome. Safari will not allow you to complete this activity.**
+
+<Info> __Tip__:
+If you have not installed VS Code, you can click the following links for corresponding installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux).
+</Info>
 
 1. Open a web browser, preferably [Firefox](https://www.github.com/DHRI-Curriculum/install/blob/v2.0/guides/firefox.md).
 2. Go to any website. The example below is from [paramajmera.github.io](http://paramajmera.github.io/).
@@ -843,11 +860,9 @@ ID selectors look like this in the CSS—the name of the selector preceded by a 
 </ul>
 ```
 
-TODO: Figure out how to link to the correct section with either the h1 or h2 structuring.
-
 <Info>__Tip__
 
-If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the [Troubleshooting](?user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=47) section for more information on common issues.
+If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
 </Info>
 
 ## Evaluation
@@ -960,7 +975,7 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Institute Website Using CSS
 
-Using the CSS basics we've just reviewed, and the list of properties found on the [Properties page](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=45) and online, give your website some styling.  
+Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.  
   
 I encourage you to use an external stylesheet with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
 
@@ -1070,7 +1085,7 @@ __1. True or False: Classes are used to create categories of related elements, I
 - False
 </Quiz>
 
-Revisit lesson [Classes and IDs](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=40) to learn more.
+Revisit lesson <Link workshop='html-css' page='40'>`Classes and IDs`</Link> to learn more.
 
 __2. Which one of the following options is a relative link? (Select one of the following)__
 
@@ -1079,7 +1094,7 @@ __2. Which one of the following options is a relative link? (Select one of the f
 - `<a href="https://www.nytimes.com/">The New York Times</a>`
 </Quiz>
 
-Revisit lesson [Links](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=13) to learn more.
+Revisit lesson<Link workshop='html-css' page='13'>`Links`</Link> to learn more.
 
 __3. Is the following code-snippet an example of inline styling or internal styling?__
 
@@ -1113,7 +1128,7 @@ __3. Is the following code-snippet an example of inline styling or internal styl
 - `Internal styling`*
 </Quiz>
 
-Revisit lesson [Integrating CSS and HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=29) to learn more.
+Revisit lesson <Link workshop='html-css' page='29'>`Integrating CSS and HTML`</Link> to learn more.
 
 __4. If I wanted to indicate that "About" is a subheading in my page, which element should I use? (Select one of the following)__
 
@@ -1122,7 +1137,7 @@ __4. If I wanted to indicate that "About" is a subheading in my page, which elem
 - `<head>`
 </Quiz>
 
-Revisit lesson [Paragraphs and Headings](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=10) to learn more.
+Revisit lesson <Link workshop='html-css' page='10'>`Paragraphs and Headings`</Link> to learn more.
 
 __5. Which one of these two HTML commands is also known as the “root element”? (Select one of the following)__
 
@@ -1131,7 +1146,7 @@ __5. Which one of these two HTML commands is also known as the “root element�
 - `<!DOCTYPE html>`*
 </Quiz>
 
-Revisit lesson [Basic Template for HTML](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=5) to learn more.
+Revisit lesson <Link workshop='html-css' page='5'>`Basic Template for HTML`</Link> to learn more.
 
 __6. How do we associate a CSS file with an HTML page? (Select one of the following)__
 
@@ -1140,7 +1155,7 @@ __6. How do we associate a CSS file with an HTML page? (Select one of the follow
 - By putting the CSS file in the same folder as the HTML page.
 </Quiz>
 
-Revisit lesson [Rule Sets](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=36) to learn more.
+Revisit lesson <Link workshop='html-css' page='36'>`Rule Sets`</Link> to learn more.
 
 __7. Which one of the following statements is correct: (Select one of the following)__
 
@@ -1149,7 +1164,7 @@ __7. Which one of the following statements is correct: (Select one of the follow
 - Tags have opening and closing elements.
 </Quiz>
 
-Revisit lesson [Tags and Elements](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=8) to learn more.
+Revisit lesson <Link workshop='html-css' page='8'>`Tags and Elements`</Link> to learn more.
 
 __8. True or False: Does including “alt text” in websites improve their accessibility? (Select one of the following)__
 
@@ -1158,7 +1173,7 @@ __8. True or False: Does including “alt text” in websites improve their acce
 - False
 </Quiz>
 
-Revisit lesson [Images](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=19) to learn more.
+Revisit lesson <Link workshop='html-css' page='19'>`Images`</Link> to learn more.
 
 __9. Is CSS a markup language or a programming language? (Select one of the following)__
 
@@ -1167,7 +1182,7 @@ __9. Is CSS a markup language or a programming language? (Select one of the foll
 - Programming Language
 </Quiz>
 
-Revisit lesson [CSS Basics](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=27) to learn more.
+Revisit lesson <Link workshop='html-css' page='27'>`CSS Basics`</Link> to learn more.
 
 __10. True or False: The primary difference between markup languages and programming languages is that markup languages are used to determine the format, appearance, and purpose of content, whereas programming languages are used to transform data. (Select one of the following)__
 
@@ -1176,7 +1191,7 @@ __10. True or False: The primary difference between markup languages and program
 - False
 </Quiz>
 
-Revisit lesson [Getting Started with HTML and CSS](user=GC-DRI&repo=DRI24&file=html-css&instUser=GC-DRI&instRepo=GCDRI24Schedule&page=2) to learn more.
+Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and CSS`</Link> to learn more.
 
 ## Suggested Further Readings
 
@@ -1231,6 +1246,6 @@ If you are unsure of which HTML/CSS commands to use, check out the [HTML Cheat S
 
 ## Discussion Questions
 
-1. In this workshop, we have focused on the fundamentals of HTML and CSS. The point was to provide an introduction to the workings of websites. In practice, however, the websites that we desire to build will have complex use cases. What are some websites that you imagine building? What kinds of interactive features would you like to have in your website?
+1. In this workshop, we focused on the fundamentals of HTML and CSS. The point was to provide an introduction to the workings of websites. In practice, however, the websites that we desire to build will have complex use cases. What are some websites that you imagine building? What kinds of interactive features would you like to have in your website?
 
 2. Some websites provide information clearly and in an engaging manner. Others might inundate with a barrage of content that leaves one mystified. What would you say are some of the characteristics of well-designed websites? Which websites do you consider a joy to use? What design elements (such as font, color, layout, and menus) stand out to you as being particularly important in making good websites?
