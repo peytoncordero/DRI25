@@ -26,9 +26,16 @@ instructors:
 authors:
     - 'Silvia Rivera Alfaro'
     - 'Stefano Morello'
+    - 'Kelsey Chatlosh'
+    - 'Patrick Smyth'
+    - 'Mary Catherine McKinniburgh' 
+    - 'Jojo Karlin'
+    - 'Kalle Westerling'
 
 editors:
+    - 'Di Yoong'
     - 'Lisa Rhody' 
+    - 'Kalle Westerling'
         
 readings:
     - Neal Stephenson's ["In the Beginning... Was the Command Line"](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
@@ -45,18 +52,6 @@ projects:
     - "Collaborating remotely"
     - "Learning new programming languages"
 ---
-
-# Acknowledgements
-- Current Author: [Silvia Rivera Alfaro](https://github.com/silvira)
-- Past contributing Author: [Stefano Morello](https://github.com/smorello87)
-- Past contributing Author: [Kelsey Chatlosh](https://github.com/kchatlosh)
-- Past contributing Author: [Patrick Smyth](https://github.com/smythp)
-- Past contributing Author: [Mary Catherine McKinniburgh](https://github.com/mckinniburgh)
-- Past contributing Author: [Jojo Karlin](https://github.com/jojokarlin/)
-- Past contributing Author: [Kalle Westerling](https://github.com/kallewesterling)
-- Past reviewer: [Di Yoong](https://github.com/dyoong)
-- Current editor: [Lisa Rhody](https://github.com/lmrhody)
-- Current editor: [Kalle Westerling](https://github.com/kallewesterling)
 
 # Introduction
 
