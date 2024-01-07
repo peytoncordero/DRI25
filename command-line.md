@@ -69,7 +69,7 @@ The Command Line Interface (CLI) provides a faster and more efficient system int
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
-![Terminal](/images/command-line/How-command-Line-looks-like.png "It is a simple program with a plain background and letters. On the first line it says: “Last Login: Wed Dec 27 16:34:06 on console”. The second line says: “(base) _silvira@Silvias-MBP ~ %” immediately followed by the cursor showing it is where you write.”)
+![Terminal](/images/command-line/How-command-Line-looks-like.png "It is a simple program with a plain background and letters. On the first line it says: “Last Login: Wed Dec 27 16:34:06 on console”. The second line says: “(base) _silvira@Silvias-MBP ~ %” immediately followed by the cursor showing it is where you write”)
 
 To refer to this interface, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
