@@ -2,9 +2,10 @@
 title: 'Command Line Workshop'
 cover title: 'Command Line'
 description: 'The command line is a way to interact with our computer. It is an important skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT, which includes an emulated command line to practice throught the workshop. This process will allow you to understand the logic of interacting with the computer and start feeling comfortable using the command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
-cover_image: '/images/workshops/img2.jpg'
+cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 
 programming_language: 'computer'
+
 learning objectives: 
     - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for'
     - Navigating the file structure in a computer.
@@ -12,8 +13,10 @@ learning objectives:
     - Moving content and files to new locations within the file structure. 
     - Searching within text files
     - Doing a basic exploration of a text dataset
+
 estimated time: 
     description: 3 hours
+    
 workshop prerequisites:
     - None
         
