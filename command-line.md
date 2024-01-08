@@ -999,29 +999,29 @@ We included the `flag -n` in the commands for your cheat sheet. It works as an o
 
 # Summary of the workshop
 
-You've made it through your introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is a good time to do a quick review! 
+You've made it through this introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is the time to do a quick review! 
 
-The command line interface is a way to interact with our computer and that it continues being more efficient and faster than other system interactions. 
+The command line interface is a way to interact with our computer that dates from the 1950s. In the present, it continues to be an important means for interacting with computers because it is more efficient and faster than other system interactions. 
 
-We learned that, for CLI, we need plain text. To understand the reasons we explored the difference between word processors and text editors. And how those programs, create rich text and plain text respectively
+We explored the difference between word processors and text editors and their relationship with rich text and plain text respectively. For CLI, we need plain text because rich text includes hidden code that cannot be read by the terminal.
 
-Via DHRIFT’s command line emulator, we interact with the computer on bash (or Terminal). We practiced commands for
+Via our emulator, we interacted with the computer on bash (or terminal). We practiced commands for
 
-1) Navigating the file structure in a computer (pwd, ls, cd, cd .., cd~).
-2) Creating new files and directories (ouch, echo, mkdir).
-3) Moving content (with redirect > and pipes |) and files (with mv) to new locations within the file structure.
-4) Searching within text files (cat, grep, less, head, tail, uniq)
-5) Doing a basic exploration of a text dataset (nypl_items.csv)
+1) Navigating the file structure in a computer (`pwd`, `ls`, `cd`, `cd ..`, `cd~`).
+2) Creating new files and directories (`touch`, `echo`, `mkdir`).
+3) Moving content ( `>`, `|`) and files (`v`) to new locations within the file structure.
+4) Searching within text files (`cat`, `nano`)
+5) Doing a basic exploration of a text dataset (`grep`, `less`, `head`, `tail`, `uniq`, `|`)
 
-And we documented those commands on a cheat sheet that can be used for reference!
+We documented the commands on a cheat sheet that can be used for reference! Additionally, we learn important tips to navigate the filesystem and to make our experience with the command line smoother and more efficient.
 
-The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
+The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git, or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
 In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
-## Final Evaluation
+## Final Review
 
-Here are some questions from to review the lessons of the workshop:
+Here are some questions to review the lessons of the workshop:
 
 _1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)__
 
@@ -1037,7 +1037,7 @@ __2. What do command line flags allow you to do? (Select one of the following)__
 <Quiz>
 - Flags are a common way to specify options for command line programs.*
 - Flags allow you to earmark the file you are working on.
-- Flags are useful to create a new version of the file you are working on, while preserving the old version for future access.
+- Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
 </Quiz>
 
 __3. What effect does the following command produce?__
@@ -1054,7 +1054,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-__4. What do pipes allow you to do? (Select all that apply)__
+__4. What do `|` allow you to do? (Select all that apply)__
 
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
@@ -1089,14 +1089,12 @@ __7. What is the difference between a plain text document and a rich text docume
 - One can’t determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-**For further consideration**
-
-- What are some of the operations that the command line allowed you to do today that you could have not performed with the Graphical User Interface? 
-- What new information have you learned about your relationship with your machine in this workshop?
+**Reflection**
+Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
 # Transferring knowledge to your computer
 
-Now that you understand the CLI, you can apply this knowledge in your computer. 
+Now that you understand the CLI, you can apply this knowledge to your computer. 
 
 As we mentioned, technology changes according to the available hardware. However, computers also changed according to the proprietary programs promoted by different companies such as Mac and Windows. As we saw with word processors, proprietary software implies terminals for command lines that are not necessarily equal for everyone. 
 
@@ -1108,13 +1106,19 @@ If you're using macOS:
 1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
 2. Type “terminal” into the bar that appears.
 3. Select the first item that appears in the list.
-4. When the Terminal pops up, you will likely see either a window with black text over white background or colored text over a black background.
+4. When the Terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background.
 
 IMAGE of Terminal in macOS 
 
 Please note: You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
 
+<Secret>
+    
 Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can hold the command (⌘) key and press space to pull up Spotlight search, start typing Terminal, and then hit enter to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can pick up speed when you practice!
+
+</Secret>
+
+
 
 ## Windows Users
 
@@ -1135,7 +1139,13 @@ Note that the sign for you being in the right place might also be a % or a # dep
 
 IMAGE of Terminal on Windows 
 
-Bonus points: if you really want to get the groove of just typing instead of pointing and clicking, you can press windows to open the Start menu, start typing git bash, and then hit enter to open a git bash window. This will pull up a command window without touching your mousepad.
+<Secret>
+    
+Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can press windows to open the Start menu, start typing git bash, and then hit enter to open a git bash window. This will pull up a command window without touching your mousepad.
+    
+</Secret>
+
+
 
 ## Linux Users
 
