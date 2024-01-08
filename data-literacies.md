@@ -243,7 +243,7 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
 2. In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
-    - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.
+    - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
 3. After collecting our data we then consider and make decisions in the processes of cleaning.
     - E.g. We have to transform some of the gender values and decide what to do with the missing fields.
 4. We then run our preliminary analysis of the data.
@@ -259,6 +259,13 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Ethical Considerations and Impacts 
 
+# Challenge: Ethical Considerations and Impacts 
+
+A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student counsel meeting as part of the cousel's attempt to persuade the adminstration to provide more funding to the graduate students. The student learns that they can analyze the data and great a visual using Chat GPT. For the sake of time, they decide to use Chat GPT to analyse and visualize the data set. What ethical considerations should the student evaluate? How might using Chat GPT impact the students surveyed?
+
+<Secret>
+Using a large language model application such as Chat GPT to analyze personal inforamtion collected by the survey can casue direct impact on the "human subjects" and reproduce catagories and information that can be harmful to the participants. The data inputed into Chat GPT is stored and used to produce outputs for other propmts unbeknowst to the graduate student researcher or the participants. Considering these impacts, it is best ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualizarion.
+</Secret> 
 
 
 ## Naming Conventions for Directory Structures
@@ -268,8 +275,6 @@ Before beginning your data collection, manipulation, and transformation, a good 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
 ### Keywords
-
-Do you remember the glossary terms from this section?
 
 - [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
 
@@ -334,8 +339,6 @@ The dataset is "raw" to me as I will likely be working on removing certain varia
 </Secret>
 
 ### Keywords
-
-Do you remember the glossary terms from this section?
 
 - [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
 - ["Raw" Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/raw-data.md)
