@@ -903,6 +903,15 @@ For a set of great questions to help you think through your data exploration and
 
 Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below the quiz segment you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.
 
+You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. 
+
+Some questions to ask in preperation are:
+- Who collected this data? 
+- How and why is this data being collected? 
+- What assumptions are baked into this data? 
+- What consequences do data have in the world? 
+- What does this data tell us about our world?
+
 ### Review your knowledge: 6 questions from the lessons
 
 TODO: fix links to pages of lessons
