@@ -263,7 +263,7 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 ## Naming Conventions for Directory Structures
 
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have you named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://guides.library.stanford.edu/data-best-practices/name-files)that demonstrates the problems of badly name files in our projects.
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
@@ -310,17 +310,27 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 ## Challenge: Raw Data and Labor
 
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
-2. How should we approach data that we have "scraped"?
-3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
-4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
-
-### Solution:
 
 <Secret>
-1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
-2. I think my approach to scraped data is similar to big data.
-3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
-4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
+I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
+</Secret>
+
+2. How should we approach data that we have "scraped"?
+
+<Secret>
+I think my approach to scraped data is similar to big data.
+</Secret>
+
+3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
+
+<Secret>
+Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
+</Secret>
+
+4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
+
+<Secret>
+The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 </Secret>
 
 ### Keywords
