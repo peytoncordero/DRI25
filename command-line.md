@@ -1026,18 +1026,22 @@ Here are some questions to review the lessons of the workshop:
 1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)
    
 <Quiz>
+    
 - It inserts my last command.*
 - It quits the Terminal/GitBash.
 - It undoes my last command.
 - It shows me what folder I am working in.
+  
 </Quiz>
 
 2. What do command line flags allow you to do? (Select one of the following)
 
 <Quiz>
+    
 - Flags are a common way to specify options for command line programs.*
 - Flags allow you to earmark the file you are working on.
 - Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
+  
 </Quiz>
 
 3. What effect does the following command produce?
@@ -1049,45 +1053,55 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 (Select one of the following)
 
 <Quiz>
+    
 - It replaces the content of the introduction.txt file with the line “Hello! My Name is Mark!”*
 - It adds the line “Hello! My Name is Mark!” to the existing content of the introduction.txt file.
 - It checks whether the content of the introduction.txt file contains the line “Hello! My Name is Mark!”
 - None of the above.
+  
 </Quiz>
 
 4. What do `|` allow you to do? (Select all that apply)
 
 <Quiz>
+    
 - Pipes let you take the output of one command and use it as the input for another.*
 - Pipes allow you to combine multiple commands in a single line.*
 - Pipes let you work on multiple files at the same time.
+  
 </Quiz>
 
 5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
    
 <Quiz>
+    
 - `$ pwd`*
 - `$ ls`
 - `$ cd`
 - `$ whoami`
+  
 </Quiz>
 
 6. Let's think about the `grep` command. Select all that pertain to the command.
    
 <Quiz>
+    
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
 - It produces a new file with the lines containing the strings or words you are searching.
 - It delete the strings or words you are searching from a file.
+  
 </Quiz>
 
 7. What is the difference between a plain text document and a rich text document? (Select all that apply)
    
 <Quiz>
+
 - Plain text contains no formatting, only line breaks and spacing.*
 - Rich text is styled text, i.e., plain text completed by information such as font size, format, and colors.*
 - Plain text cannot be marked up.
 - One can’t determine whether there is a difference between the two without looking at their content.
+  
 </Quiz>
 
 **Reflection**
