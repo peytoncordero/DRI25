@@ -1,6 +1,6 @@
 ---
 title: 'Text Analysis Workshop'
-description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is how to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
+description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is a way to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
 cover_image: '/images/workshops/img7.jpg'
 programming_language: "jupyter"
 
@@ -51,7 +51,9 @@ resources:
 
 # Text as Data
 
-When we think of "data," we often think of numbers, things that can be summarized, statisticized, and graphed. Rarely when I ask people "what is data?" do they respond "_Moby Dick_." And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
+When we think of "data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
+
+Rarely when I ask people "what is data?" do they respond with a book or newspaper collection or  And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
 
 Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
 
@@ -84,7 +86,17 @@ What’s an example of textual corpora in your field of research?
 
 Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
-What’s languages are most frequently used for web content as of January 2023, by share of websites?
+<Info>**Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
+
+* English at 58.8%
+* Russian at 5.3%
+* Spanish at 4.3 %
+* French at 3.7%
+* German at 3.7%
+</Info>
+
+Is this surprising?
+
 
 ## Evaluation
 
@@ -108,7 +120,9 @@ Do you remember the glossary terms from this section?
 
 # Using the NLTK Corpus
 
-In the following sections, we are going to learn how to work with the NLTK Corpus and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
+In the following sections, we are going to learn how to work with texts that come with the NLTK package and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
+
+Texts that 
 
 ## Getting Started
 
