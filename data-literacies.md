@@ -251,6 +251,8 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
     - E.g. We can present the result in a pie chart or a bar graph.
 
+# Stages of Data ( Cont'd)
+
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
 
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
