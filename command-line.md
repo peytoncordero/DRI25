@@ -1,13 +1,13 @@
 ---
 title: 'Command Line Workshop'
 cover title: 'Command Line'
-description: 'The command line is a way to interact with our computer. It is an important skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT, which includes an emulated command line to practice throught the workshop. This process will allow you to understand the logic of interacting with the computer and start feeling comfortable using the command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
+description: 'The command line is a way to interact with our computer. It is an important skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT, which includes an emulated command line to practice through the workshop. This process will allow you to understand the logic of interacting with the computer and start feeling comfortable using the command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
 cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 
 programming_language: 'computer'
 
 learning objectives: 
-    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for'
+    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for
     - Navigating the file structure in a computer.
     - Creating new files and directories.
     - Moving content and files to new locations within the file structure. 
@@ -128,13 +128,13 @@ Just think how sizing goes from computers of the size of a room to computers tha
 
 Then computers started to size down. The interaction via command line dates from the mid-60s. The available hardware at that time was [computer terminals](https://en.wikipedia.org/wiki/Computer_terminal). The CLI emerged as a development for these machines, which included keyboards! The command line was much friendlier than the punch cards.
 
-At that same time, another user-friendly-centered way of interacting with the computer started to emerge: the Graphic User Interface (GUI). While GUI can be navigated via a keyboard, an essential invention for the development of GUI was the mouse (1963) because it allows users to navigate the screen with the pointer and click on icons. At first, the interface was limited to specific programs, but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s.
+At that same time, another user-friendly-centered way of interacting with the computer started to emerge: the Graphic User Interface (GUI). While GUI can be navigated via a keyboard, an essential invention for the development of GUI was the mouse (1963) because it allows users to navigate the screen with the pointer and click on icons. At first, the interface was limited to specific programs but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s.
 
 Currently, we have computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
 Despite all these developments, to this day, the Command Line Interface continues to be a faster and more efficient way to interact with our computers for people working with computers. In our case, this is especially important for some digital projects.  
 
-# What is text for the command line?
+# What is a text for the command line?
 
 We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
 
@@ -144,13 +144,13 @@ We mentioned that the command line is text-based. As humans, we are used to text
 
 Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We choose, for example, a new typografy and letter size and the program immediately displays the changes without showing us the code the computer is reading to render the formatting. 
 
-![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable a number of visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
+![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
 To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML), instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
 
 ![This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts can not recognize (which show up as question marks). Here we reproduce only a very small part of the long result to give you a bit of the taste of the nonsense it is for humans: P K exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E](/images/command-line/CatWordDoc.png "Word Doc as visualized by Command Line")
 
-The computer tried to read the hidden code, but only Microsoft Word can read those instructions. The styled text produced by word processors is known as *rich text*. 
+The computer tried to read the hidden code, but only Microsoft Word could read those instructions. The styled text produced by word processors is known as *rich text*. 
 
 Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
 
@@ -250,21 +250,21 @@ To work with the command line it is important to understand that, in computers, 
 
 We can think of a library as a metaphor for going inside a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
-![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking checking the cards of the card catalog. A person opening a card catalog with their hand](/images/command-line/FileSystem-metaphor.gif "Libraries and Archives")
+![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking at the cards in the card catalog. A person opening a card catalog with their hand](/images/command-line/FileSystem.gif "Libraries and Archives")
 
 The filesystem is named after a method to store paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
 
-The metaphor is not about the material means to keep the files, but about keeping a hierarchical global organization to contain information within a space. Computers are very alike libraries and archives in the ammounts of information they keep. The only difference is the materiality of the documents. 
+The metaphor is not about the material means to keep the files, but about keeping a hierarchical global organization to contain information within a space. Computers are very alike libraries and archives in the amount of information they keep. The only difference is the materiality of the documents. 
 
 ## Issues of a metaphor
 
-When filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly reasearchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information, just as the library of our metaphor. And a shared room requires as much organization as possible. 
+When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information, just as the library of our metaphor. And a shared room requires as much organization as possible. 
 
-As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even the part of the information structure got fuzzy, the metaphor of the objects as a mean to keep order was useful, adding that many computers were a shared device. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
+As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
 
 Going back to the metaphor, now libraries store digital collections. We can visit them without the physical experience of the shelves and the information organized in the space. We also relate to new information structures in our everyday practices, as  the [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005) elaborates. 
 
-The filesystem is not so much a metaphor we live by. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an esential task to be able to interact with the computer and give it commands!
+The filesystem is not so much a metaphor we live by. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
 ## Orienting Yourself in the Command Line: Folders
 
