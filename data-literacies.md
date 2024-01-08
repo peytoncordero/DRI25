@@ -261,6 +261,8 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Challenge: Ethical Considerations and Impacts 
 
+Think of the following scenerio and the possible considerations and impacts for working with data. The reveal is one possible consideration. 
+
 A graduate student decides to analyze a data set they collected through surveying fellow graduate students. The survey asks students to denote their graduate level, current job, gross income, and housing status. The graduate student hopes to analyze the survey and present their findings at a student counsel meeting as part of the cousel's attempt to persuade the adminstration to provide more funding to the graduate students. The student learns that they can analyze the data and great a visual using Chat GPT. For the sake of time, they decide to use Chat GPT to analyse and visualize the data set. What ethical considerations should the student evaluate? How might using Chat GPT impact the students surveyed?
 
 <Secret>
