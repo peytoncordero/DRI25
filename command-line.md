@@ -102,35 +102,45 @@ In this image you can see how the Command Line Interface (CLI) looks on a Mac co
 
 To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
-As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. Another useful resource is [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world), a podcast episode about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and became a key pioneer in interacting with computers via  programming languages. 
+As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
-## Command Line in History of Human-Computer Interaction
+## Command Line in human-computer interaction
 
-Technology changes over time and human-computer interactions go hand in hand with the developments in hardware. Thus to get to the command line, it is worth contextualizing it along with other ways of interacting with computers.
+Technology changes over time and human-computer interactions (HCI) go hand in hand with the developments in hardware. Thus, to understand the command line is worth contextualizing it along other ways of interacting with computers.
 
-Let’s start by saying that the first “computers” were humans. It was an occupation: people were paid to develop mathematical operations before we had electronic computers. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), a hardware of the size of a room (1,800 square feet) created in 1945 for warfare purposes. It was designed by two men and programmed by six women, whoever the references are usually to the hardware developers and not so much to the programmers. We recommend [The Forgotten Female Programmers Who Created Modern Tech](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech), a 6-minute radio program that includes the voice of one of the ENIAC programmers and helps to understand the role of women in developing programming. 
+ENIAC (Electrical Numerical Integrator and Calculator) was the first electronic programmable computer. It was hardware the size of a room (1,800 square feet) created in 1945 for warfare purposes designed by two men and programmed by six women. 
 
-As human-computer interaction depends on the available technology, ENIAC used punch cards. This is how a punched card looks: 
+<Info>
+    
+Although ENIAC was developed by women and men, the references are usually to the hardware developers and not so much to the programmers. We recommend [The Forgotten Female Programmers Who Created Modern Tech](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech), a 6-minute radio program that includes the voice of one of the ENIAC programmers. This program helps to understand the role of women in programming. 
+
+</Info>
+
+As HCI depends on the available technology, ENIAC used *punch cards*. Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. This is how punched cards look: 
 
 ![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
 
-Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. The proposal of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) using that technology dates from that time. Punch cards are made with a keypunch, a device for precisely punching holes. In its early times, it was manual and later on became electromechanical. This is a picture of a keypunch operator working for the US Census in 1950:
-
-![An Afro-American woman working on an IBM keypunch.An Afro-American woman working on an IBM keypunch.](/images/command-line/Keypunch_operator.jpg "Keypunch_operator_1950_census_IBM_016")
+Punch cards, in fact, were important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines. However, punching cards, even with mechanical keypunchs, was not quick or friendly. 
 
 ## Sizing of the computers and human-computer interaction
+ 
+New technologies, including hardware and software, were required to allow new ways of interacting with these machines. The first computers required very specialized knowledge, especially mathematics, to be able to interact with them! That HCI also required physically traveling to a place and going into a specific room. 
 
-Just think how sizing goes from computers of the size of a room to computers that can fit in our hands! For the computer using punch cards, people interacting with the machines required specialized knowledge, especially mathematics. Using those computers was an action that required physically traveling to a place and going into a specific room. 
+The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! Interacting with the computer via the command line was much friendlier and more efficient than the punch cards.
 
-Then computers started to size down. The interaction via command line dates from the mid-60s. The available hardware at that time was [computer terminals](https://en.wikipedia.org/wiki/Computer_terminal). The CLI emerged as a development for these machines, which included keyboards! The command line was much friendlier than the punch cards.
+Making HCI easier or more efficient was part of the collective agenda. Another user-friendly interface emerged. GUI, which stands for Graphic User Interface allows users to communicate with the computer by clicking on icons. At first, the interface was limited to specific programs but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s. Though it is possible to navigate on GUI without it, the mouse -invented in 1963- was central to its popularization. 
 
-At that same time, another user-friendly-centered way of interacting with the computer started to emerge: the Graphic User Interface (GUI). While GUI can be navigated via a keyboard, an essential invention for the development of GUI was the mouse (1963) because it allows users to navigate the screen with the pointer and click on icons. At first, the interface was limited to specific programs but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s.
+Today we interact via GUI with computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
-Currently, we have computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+Despite all these technological developments, the Command Line Interface continues to be a faster and more efficient way to interact with our computers. This is especially important for people working on digital projects.  
 
-Despite all these developments, to this day, the Command Line Interface continues to be a faster and more efficient way to interact with our computers for people working with computers. In our case, this is especially important for some digital projects.  
+<Info>
+    
+We recommend [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world), a podcast episode about the computer programming pioneer Grace Hopper. In 1951, Hopper invented the first *compiler*, a program to translate a source code (e.g. English) to machine code (bytecode) or other programming languages. For her huge contribution to HCI, in the field people refer to her as the mother of computer science or the godmother of independent programming languages. Hopper was a computer scientist, mathematician, and rear admiral who joined the US Navy Reserves during World War II. Her career illustrates the relationship between computer innovation and warfare. 
+    
+</Info>
 
 # What is a text for the command line?
 
@@ -154,9 +164,9 @@ Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStanda
 
 ## Text editors
 
-To interact with the computer, we need to use *plain text*, which is text without hidden formatting. It is produced in text editors following international standards. Thus, it has the advantages of being manipulable in different editors and readable within the command line. 
+To interact with the computer, we need to use *plain text*, which is text without hidden formatting. It is produced by text editors following international standards. Thus, it has the advantages of being manipulable in different editors and readable within the command line. 
 
-According to [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0): “Plain text is a pure sequence of character codes” (p.18); it “is the underlying content stream to which formatting can be applied. [... It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards—if it's marked up, the markup will be human-readable. 
+According to [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0): “Plain text is a pure sequence of character codes” (p.18); “is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards. The only way it can be marked up is in ways that can not be hidden from the human eye. 
 
 Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
 
@@ -342,7 +352,9 @@ In DHRIFT, you will exit `/home/user/data` and move up to `/home/user`. Because 
 $ pwd
 /home/user
 ```
-## Evaluation
+## Review
+
+**Evaluation**
 
 1. What command do you run to identify the directory where you are currently located?
 
@@ -354,9 +366,17 @@ $ pwd
 </Quiz>
 
 **Keywords**
-- [Filesystem](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/filesystem.md)
-- [GUI](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/gui.md)
-- [Root](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/root.md)
+<Keywords>
+- Filesystem
+A filesystem (or file system) is a set of methods and data structures that an operating system (e.g., Windows, MacOS, Linux, etc.) uses to control how data is stored and retrieved on a disk (such as your computer’s hard drive, or even a USB pen drive). Some operating systems include support for more than one file system.
+
+- GUI
+"Graphical User Interface,” pronounced "gooey.” It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
+
+- Root
+The root is the top-level directory of a filesystem. Staying with the tree metaphor to represent a hierarchical structure, if the root is the starting point, the folders are the tree’s branches, and the files are the leaves. Please note that “root” is also often used as a synonym for the administrative user on a system.
+</Keywords>
+
 
 # Creating files and folders 
 
