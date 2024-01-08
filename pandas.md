@@ -16,7 +16,7 @@ learning objectives:
     - Build your Pandas skills with the Pandas documentation and other resources
 
 estimated time:
-    - 3 hours
+    - 2 hours
 
 prerequisites:
     - python:
@@ -26,7 +26,7 @@ prerequisites:
         description: (recommended) This workshop makes some reference to concepts from the Command Line workshop, and having basic knowledge about how to use the command line will be central for anyone who wants to learn about text analysis with Python and Pandas.
         recommended: true
     - data ethics: 
-        description: Data Ethics (Recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
+        description: (recommended) This workshop will give you a basis for thinking through the ethical considerations of your programming projects.
         recommended: true
 
 instructors: 
@@ -947,7 +947,7 @@ In Pandas, the `.sample()` method is used to randomly select a specified number 
 </Keywords>
 
 ## Challenge
-Using both the `.head()` method and a slice, write code to display the top 9 rows of the DataFrame
+Using both the `.head()` method and a slice, write code to display the top 9 rows of the DataFrame:
 
 ### Solution
 <Secret>
@@ -957,7 +957,7 @@ refugee_df[:9]
 ```
 </Secret>
 
-Write code to display the last 5 rows of the DataFrame (there are two ways to do this)
+Write code to display the last 5 rows of the DataFrame (there are two ways to do this:)
 
 ### Solution
 <Secret>
@@ -967,7 +967,7 @@ refugee_df[-5:]
 ```
 </Secret>
 
-Write code to display a random selection of 10 rows in the DataFrame
+Write code to display a random selection of 10 rows in the DataFrame:
 
 ### Solution
 <Secret>
@@ -1459,7 +1459,7 @@ What does the keep parameter in the .duplicated() method of Pandas control?
 
 
 # Rename, select, drop, filter and add new columns
-In the following section we will learn how to rename, select, drop, filter, and add new columns
+In the following section we will learn how to rename, select, drop, filter, and add new columns.
 
 ## See list of columns
 To see a full list of the columns in our DataFrame, we can run the following command:
@@ -1469,7 +1469,6 @@ To see a full list of the columns in our DataFrame, we can run the following com
 refugee_df.columns
 ```
 
-Index(['year', 'origin', 'dest_state', 'dest_city', 'arrivals'], dtype='object')
 
 ![List of Columns](/images/pandas/columns.png)
 
@@ -2383,7 +2382,7 @@ new_df= refugee_df[['year', 'origin', 'arrivals']]
 ```
 </Secret>
 
-Write code to drop all rows where the origin is Vietnam
+Write code to drop all rows where the origin is Vietnam:
 
 ### Solution
 <Secret>
@@ -2840,7 +2839,7 @@ In Pandas, the .reset_index() method is used to reset the index of a DataFrame, 
 </Keywords>
 
 ## Challenge
-Write code to create a GroupBy oject based on the 'state' column
+Write code to create a GroupBy object based on the 'state' column:
 
 ### Solution
 <Secret>
