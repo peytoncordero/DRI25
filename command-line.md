@@ -94,8 +94,6 @@ To get to this page of the workshop, you might have clicked on `next` or touched
 
 To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
 
-The command line interface (CLI) provides a faster and more efficient system interaction with our computers. This is why it is a basic skill to learn! 
-
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
 ![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
@@ -134,7 +132,7 @@ Making HCI easier or more efficient was part of the collective agenda. Another u
 
 Today we interact via GUI with computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
-Despite all these technological developments, the Command Line Interface continues to be a faster and more efficient way to interact with our computers. This is especially important for people working on digital projects.  
+Despite all these technological developments, the command line interface continues to be a faster and more efficient way to interact with our computers. This is especially important for people working on digital projects.  
 
 <Info>
     
@@ -246,11 +244,17 @@ The `whoami` command should print out your username. On DHRIFT the response shou
 user
 ```
 
-On each computer, this would change according to the name username.
-
 Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
 
 Now that we know 'thyself', our next step should be to understand where we are. 
+
+<Info>
+
+**Transfering `whoami` to your computer**
+Computers have the option of including multiple users. The output to `whoami` will be the individual username. Thus, it changes not only from one computer to another, but also from user to user.
+    
+</Info>
+
 
 # The filesystem: information structure on the computer 
 
@@ -274,9 +278,9 @@ Going back to the metaphor, now libraries store digital collections. We can visi
 
 The filesystem is not so much a metaphor we live by. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
-## Orienting Yourself in the Command Line: Folders
+## Orienting yourself in the command line: folders
 
-We're going to try another command to understand. This time it will help us to understand where we are on the computer. Write the following command and press enter:
+We're going to try another command. This time it will help us to understand where we are on the computer. Write the following command and press enter:
  
 ```console
 $ pwd
@@ -284,18 +288,22 @@ $ pwd
 You should get the output 
 
 ```console
-/home/user on DHRIFT. 
+/home/user 
 ```
 
-The command `pwd`, which stands for "print working directory”, allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command `pwd` won't print anything except on your screen. This command is easier to grasp when we interpret 'print' as 'display.'
+The command `pwd`, which stands for 'print working directory,' allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command `pwd` won't print anything except on your screen. This command is easier to grasp when we interpret 'print' as 'display.'
 
 Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. You can draw these relationships in a tree. 
 
 ![Screen shot of the icons of folders organized as a tree of the filesystem in the MacOS GIU](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
 
-In other words, there's a top-level or root folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The root or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
+In other words, there's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
 
-On your computer, when you execute `pwd`, you should get something like `/Users/your-username`. It means you're in the your-username directory in the Users folder inside the root directory. This directory is often called the *home*.
+When you execute `pwd` in your computer, the output will be similar to `/Users/your-username`. It means you're in the `your-username` directory in the `Users` folder inside the `root` directory. This directory is often called the `home`, as our output in the emulator: 
+
+```console
+/home/user 
+```
 
 Now we know where we are. But what if we want to know what this directory contains? 
 
@@ -309,17 +317,17 @@ $ ls
 
 In this command, `ls` stands for list. It is a request to list the contents of your current working directory. 
 
-The output is a list of folders and files contained by the directory. Usually, it might include folders such as Documents, and Desktop, and you may also see some files. In the case of the DHRIFT emulator, you should see `command-line-treasure-hunt` and `data`. 
+The output is a list of folders and files contained by the directory. Usually, it might include folders such as `Documents`, and `Desktop`, and you may also see some files. In the case of the emulator, you should see `command-line-treasure-hunt` and `data`. 
 
-**Wondering what's in `data`?** Let's move to it with the following command:
+**Are you wondering what's in `data`?** Let's access the folder with the following command:
 
 ```console
 $ cd data
 ```
 
-The `cd` command stands for "change directory." (Make sure the "d" in "data" is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
+The `cd` command stands for 'change directory.' (Make sure the 'd' in `data` is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
 
-However, there is an important change before the command prompt that indicates it worked. When we used `pwd` and the result was `/home/user` on DHRIFT, this is what we could see before `$`:
+However, there is an important change before the command prompt that indicates it succeeded. When we used `pwd` and the result was `/home/user`, this is what we could see before `$`:
 
 ```console
 user@:~$
@@ -329,29 +337,26 @@ After executing `cd data`, we see:
 ```console
 user@:~/data$
 ```
-The left side shows where we are located. However, as the filesystem contains so many directories and we will move across the system when we work on a project, the command `pwd` will always be central for finding the path to our working directory. Let's verify our location:
+The left side shows where we are located. However, as the filesystem contains so many directories and we will move across the system, the command `pwd` will always be central for retrieving the *path* to our working directory. Let's verify our location:
 
 ```console
 $ pwd
 /home/user/data
 ```
 
-Now that we are sure that we accessed `data`, use the command `ls` to get the list of what this folder contains. We need to be located inside a specific folder to find out about that folder.
+Now, use the command `ls` to get a list of what `data` contains. We need to be located inside a specific folder to find what it contains.
 
-All `pwd`, `ls`, and `cd` are three very commonly used commands. With them, you can orient yourself and move around.
+All `pwd`, `ls`, and `cd` are very commonly used commands. With them, you can orient yourself and move around.
 
-One more command you might find useful right now is `cd ..` (a `cd` with two periods), which will move you to one directory up in the filesystem:
+Another command you might find useful right now is `cd ..` (a `cd` with two periods), which will allow you to move  one directory up in the filesystem:
 
 ```console
 $ cd ..
-```
-
-In DHRIFT, you will exit `/home/user/data` and move up to `/home/user`. Because we changed our location within the filesystem, the information to the left of `$` will also change. Let's check with `pwd` again:
-
-```console
-$ pwd
 /home/user
 ```
+
+Because we changed our location within the filesystem, the information to the left of `$` also changed. 
+
 ## Review
 
 **Evaluation**
@@ -414,11 +419,13 @@ $ ls
 See any differences? If the command was successful, you should see a file called foo.txt in the home folder. Pretty cool, right?
 
 <Info>
+    
 **Why the file is called foo.txt?**
 As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but foo is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
+
 </Info>
 
-## Handy Tip: Use the arrows on the keyboard! 
+## Handy Tip: use your keyboard arrows! 
 
 Let's say you liked that 'foo.txt' file so much you'd like another! Instead of writing, now press the <kbd>up arrow</kbd> on your keyboard. You'll notice this action populates the terminal with the last command you wrote: `touch foo.txt` 
 
@@ -462,7 +469,9 @@ Congratulations! You've got yourself a `projects` folder!
 In this case `projects` is the name of the folder, but it could be called any name we wanted. For example, we could have used `$ mkdir bananas` and the directory would be `bananas`.
 
 <Info>
+    
 When you work on your computer and create folders, they will be visible on your GUI too. Paying attention to the path will help you find them easily later when you interact with your computer out of the command line.
+
 </Info>
 
 ## Moving a file to our new folder
@@ -478,7 +487,7 @@ $ pwd
 /home/user
 ```
 
-If you are not there, use the commands we have learned to navigate to the right directory. In bigger projects, you might also use `ls` if you want to double-check that you are in the folder that contains the file.
+If needed, use the commands we have learned so far to navigate to the right directory. In bigger projects, you might also use `ls` if you want to double-check that you are in the folder that contains the file.
 
 Once you are there, type the `mv` command followed by the name of the file that you want to move. After this, include the path to the folder where you want to move the file:
 
@@ -498,11 +507,13 @@ To check the result, use `cd` to access `/projects`. Then use `ls` to check that
 Do you want to check the solution?
 
 <Secret>
+    
 1. Type `pwd` to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands `cd` and `cd ...` that we learned before
 2. Type `mkdir` name-of-your-subfolder to create a subfolder.
 3. Type `cd name-of-your-folder` to navigate to that folder.
 4. Type `name-of-your-file.txt` to create a new text file.
 5. Type `ls` to check whether you created the file correctly.
+   
 </Secret>
 
 **Evaluation**
@@ -510,48 +521,46 @@ Do you want to check the solution?
 What does the <kbd>up arrow</kbd> do?
 
 <Quiz>
+    
 - It quits the Terminal/GitBash.
 - It undoes my last command.
 - It inserts my last command.*
 - It shows me what folder I am working in.
+  
 </Quiz>
 
-**Reflexion**
+**Reflection**
 *How do I organize my digital information?*
 -Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
 
-## Create your Command Line Cheat Sheet 
+## Create your command line cheat sheet 
 
-In this section, we’ll create a text file that we can use to keep all the commands we learned in this workshop. 
+We will create a text file to keep all the commands we learned in this workshop. 
 
-To know where we are creating this new file, first check where you are located:
+But first, check if we are located in the folder that we want to contain the file
 
 ```console
 $ pwd
 /home/user/projects
 ```
 
-If you are in the projects folder, stay there. If you are not there, use
+<Info>
+
+A useful command when you have to navigate from one path to another is 
 
 ```console
 $ cd ~
 ```
 
-This last sign is called *tilde*. The command `cd ~` gets you to your user folder, home. 
+The sign `~` is called *tilde*. The command `cd ~` gets you to your user folder, `home`. Once you are there, it will be easier to get to a new location. 
+    
+</Info>
 
-Try the command `pwd` again, you should be in the home directory now `/home/user/`
+It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of the metaphor of the library: to find a book, you need to know how to get to the right shelf. 
 
-Now that you are there, access projects
+**Now that we are ready, let's create the cheat sheet!**  
 
-```console
-$ cd projects
-```
-
-It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of our metaphor of looking for a book in the library. To find the one you are looking for, you need to know the path to get to the right shelf. 
-
-We are ready to create our first project: our very own cheat sheet! So let’s move forward with it. 
-
-For this project, we will use “echo”. Echo is a command to print plain text. Write
+For this project, we will use `echo`. `Echo` is a command to print plain text. Write
  
 ```console
 $ echo “Hello world from the command line”
@@ -563,9 +572,9 @@ The output will be a line of text on the command line:
 Hello world from the command line
 ```
 
-This is how the CLI prints the text. How can we ask the computer to print a text on a file instead of printing it on the command line? 
+This is how the CLI prints the text. How can we ask the computer to print this same text on a file instead of printing it in the terminal? 
 
-We use the redirect symbol (a greater-than symbol): 
+We use the redirect symbol `>` (a greater-than symbol): 
 
 ```console
 $ echo “This is my cheat sheet”  > cheat-sheet.txt
@@ -577,17 +586,17 @@ Now let’s check we created the file with the command
 $ ls 
 ```
 
-The output should include in the list a file called cheat-sheet.txt
+The output should include the file cheat-sheet.txt as part of the list. 
 
-But we also want to make sure that our phrase "This is my cheat sheet" is in the file! How can we do that? Write: 
+We also want to make sure that our phrase "This is my cheat sheet" is in the file! Write: 
 
 ```console
 $ cat cheat-sheet.txt 
 ```
 
-The command `cat` is used to request your computer to print the file. It stands for "concatenate," because it links strings of characters or files together from end to end. 
+The command `cat` is used to request your computer to print the file. It stands for 'concatenate,' because it links strings of characters or files together from end to end. 
 
-The output should be the content of the file. In this case, the only content is 
+The output should be the content of the file. In this case:
 
 ```console
 This is my cheat sheet.
@@ -595,12 +604,12 @@ This is my cheat sheet.
 
 ## How can we add more content? 
 
-Be aware. To write in the file we used redirect. Redirect takes the output that we would have on the CLI and overwrites it in the file. It means that if we use it again on the same file to add a different phrase it would erase what you wrote previously by overwriting it. In this case, we knew it was a new file so we were not worried about it. 
+**Be aware!** To write in the file we used the `>` command. Redirect takes the output and overwrites the file. It means that, if we use `>` again on the same file -trying to add new content- it would erase our previous `This is my cheat sheet` by overwriting it. We knew that we were creating a new file so it was no problem.
 
-With a pedagogical intention, let’s overwrite the text by using the redirect symbol again. 
+With a pedagogical intention, let’s overwrite the text by using `>` again. 
 
 ```console
-$ echo “Ups! I am overwriting my cheat sheet!”  > cheat-sheet.txt 
+$ echo “Yup, I know I am overwriting my cheat sheet!”  > cheat-sheet.txt 
 ```
 
 Check the file: 
@@ -611,16 +620,14 @@ $ cat cheat-sheet.txt
 
 The output is different now! 
 
-How could we edit the text of our cheat sheet more practically? Try 
+**How could we edit the text of our cheat sheet?** 
+
+Try 
 
 ```console
 $ nano cheat-sheet.txt 
 ```
-Nano is a basic text editor. The output should look similar to this image: 
-
-![The image shows how the nano editor, which is open with this command, looks](/images/command-line/nano.png "Nano")
-
-Once you are in, navigate the text with the keyboard arrows. Then change the information for:
+`Nano` is a basic text editor. Once you are in `nano`, navigate the text with the keyboard arrows. Then erase the phrase we used to demonstrate the overwrite and write instead:
 
 ```console
 pwd     prints the working directory
@@ -635,7 +642,7 @@ echo    prints plain text
 >       is called tilde, prints into a specific file by overwriting it
 ```
 
-When you finish, follow the instructions shown in `nano`, which are to press <kbd>control + X</kbd> to exit the text editor. Respond <kbd>Y</kbd> to save changes and press enter to execute it. You will go back to the command prompt.
+`Nano` includes a menu at the bottom. You select options with the keyboard. When you are done editing, press <kbd>control + X</kbd> to exit the text editor. Respond <kbd>Y</kbd> to save changes and press enter to execute it. You will go back to the command prompt.
 
 Now we can check our file: 
 
@@ -654,17 +661,17 @@ Use `pwd` and `cd` to make sure you're in the folder that contains your cheat sh
 $ cat cheat-sheet.txt | sort
 ```
 
-As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MyCheatSheet.txt. You could use a `>` command to print it to the new file, like this:
+As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MySortedCheatSheet.txt. You could use a `>` command to print it to the new file, like this:
 
 ```console
-$ cat cheat-sheet.txt | sort > MyCheatSheet.txt
+$ cat cheat-sheet.txt | sort > MySortedCheatSheet.txt
 ```
 
-To verify that the file was created use the command `ls`. You should see the file listed in the output.
+To verify that the file was created use the command `ls`. You should see the new file listed in the output.
 
 **What did we just do? The command `|`**
 
-We used `|` as part of our last two commands. This symbol is called "pipe". Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
+We used `|` as part of our last two commands. This symbol is called *pipe*. Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
 This diagram shows the process that pipes do:
 
@@ -682,7 +689,7 @@ To create the new file with the sorted information:
 - Command 1: `$ cat cheat-sheet.txt`
 - Command 2: `sort > MyCheatSheet.txt`
 
-In this case, the pipe has the same function but we added the command to redirect that output to a new file as part of the second command.
+In this case, `|` has the same function but we added the command to redirect that output to a new file as part of the second command.
 
 ## On naming files and folders
 
