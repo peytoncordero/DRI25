@@ -9,6 +9,7 @@ learning objectives:
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
 authors:
+    - 'Ian G. Williams'
 
 instructors:
     - 'Ian G. Williams'
@@ -30,7 +31,7 @@ prerequisites:
 
 installations:
     - visual-studio-code: 
-        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used.
+        description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 
 readings:
     - "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
@@ -45,10 +46,10 @@ projects:
     - "[Colored Conventions](https://coloredconventions.org/): The Colored Conventions project is a community-based archive of nineteenth-century Black political organization. In its early stage, this project crowdsourced much of its data-gathering efforts by building an interface for volunteers to digitally transcribe archival texts. This project uses HTML and CSS in many of its aspects."
     - "[Musical Passage](http://www.musicalpassage.org/): Musical Passage is an exhibit of early African diasporic music. This website reproduces a transcriptions and renditions of songs performed by enslaved African people in the Caribbean in the early eighteenth century. This project uses HTML, CSS, and other languages to provide a multimodal experience for its visitors, who can see a historical document as well as listen to the earliest known record of African diasporic music."
 
-
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
     - Creating websites also involves making sure that it is designed to be accessible for those with disabilities. If your website displays images, then each image should also contain [alt text](https://accessibility.psu.edu/images/alttext/) metadata that describes the image such that it is usable for screenreaders. Screenreaders make websites accessible for those with visual and/or auditory disabilities. Similarly, if your website involves showcasing audio-based information (like interviews or lectures) then you should provide a transcription of the audio. We will go over basic practices of making websites accessible in this workshop. You can learn more about accessibility standards and guidelines at the [W3C's page on Web Accessibility](https://www.w3.org/standards/webdesign/accessibility). Furthermore, there are also services like the [WAVE tool](https://wave.webaim.org/) that help identify ways of making websites more accessible.
+    - Creating websites, and posting them online, builds things that may be simultaneously ephemeral and permanent. A website may break down at a future point and require ongoing maintenance, modification, or other form of care. A website may even disappear over time through future changes to hosting infrastructure or other technological factors. Yet a website may also find itself living on, even after it has been removed deliberately or otherwise, through databases such as [The Internet Archive's Wayback Machine](https://archive.org/web/).
 
 resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
@@ -161,6 +162,10 @@ The **body section** contains the content of the page, including paragraphs, ima
 
 ## Activity
 
+<Info> __Tip__:
+If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
+</Info>
+
 Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). Inside that folder, create a new text file and save it as `index.html`.
 
 Let's use the command line to create the new folder and file:
@@ -179,7 +184,7 @@ Let's use the command line to create the new folder and file:
     ```
 
 4. Use your Visual Studio Code text editor to create a file called `index.html`: `code index.html`.
-5. Paste the template above (starting with `<!DOCTYPE html>`) into the new file.
+5. Paste the <Link workshop='html-css' page='4'>`template from the previous section`</Link> (starting with `<!DOCTYPE html>`) into the new file.
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
@@ -188,6 +193,10 @@ Once you've created your new file, open it with a web browser using your graphic
 On macOS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
 
 On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu. Select Firefox or Google Chrome from the app list that appears.
+
+<Info>__Tip__:
+You can also use the Live Server plugin to open it within VS Code. Right-click `index.html` and left-click `"Open With Live Server"` 
+</Info>
 
 ### What Happens?
 
@@ -469,13 +478,17 @@ Here are a few examples:
 
 - Some tags are self-closing, while others require a closing tag. Self-closing tags are called void tags, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
-- Your code should be nested. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors!
+- Your code should be nested. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
 
-# Major Challenge: Create an Institute Website
+<Info>__Tip:__
+While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
+</Info>
 
-In this major challenge, we will begin creating an introductory page for your a Digital Humanities Institute in your home institution. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about a Digital Humanities Institute that you might organize.  
+# Major Challenge: Create a Personal Website
+
+In this major challenge, we will begin creating a short personal website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character).  
   
-The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about your Digital Humanities Institute's organizers.  
+The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about yourself.  
   
 Add HTML to your `index.html` file. This page should include the following:
 
@@ -488,7 +501,7 @@ Add HTML to your `index.html` file. This page should include the following:
 - One image with alt text
 - A menu or navigation bar that links to your Home and About pages
 
-Think about the order of your content as you assemble the body of your page. Feel free to make up workshops or borrow language from our [Digital Humanities Institute](https://www.dhinstitutes.org/) website.  
+Think about the order of your content as you assemble the body of your page. Feel free to take language from your CV, or again, make something up for a fictional character. 
   
 Don't worry about getting the content just right. The important aspect of this exercise is to review the structure of a webpage, and practice creating a webpage.
 
@@ -518,7 +531,7 @@ To **make a line break** or give space between different elements:
 
 ## Optional: Advanced Challenge
 
-Here is a more advanced challenge if you're up for it: Add a table containing a schedule of events to your Institute website. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp).
+Here is a more advanced challenge if you're up for it: Add a table containing a list of projects for your website. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp).
 
 # CSS Basics
 
@@ -713,7 +726,7 @@ Note the different syntax being used to select items for for styling with rule s
 
 ## Challenge
 
-Copy and paste the CSS rules above into your `style.css` file and re-save the file. Then open or refresh your `index.html` file in your browser and see what happens.  
+Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into your `style.css` file and re-save the file. Then open or refresh your `index.html` file in your browser and see what happens.  
   
 ### What should happen?
   
@@ -856,8 +869,6 @@ ID selectors look like this in the CSS—the name of the selector preceded by a 
 </ul>
 ```
 
-TODO: Figure out how to link to the correct section with either the h1 or h2 structuring.
-
 <Info>__Tip__
 
 If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
@@ -971,7 +982,7 @@ Sets the font. Usually best to copy this from [Google Fonts](https://fonts.googl
 font-family: 'Lato', sans-serif;
 ```
 
-# Major Challenge: Styling Your Institute Website Using CSS
+# Major Challenge: Styling Your Personal Website Using CSS
 
 Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.  
   
@@ -1072,7 +1083,7 @@ This workshop has provided an introduction to HTML and CSS. Through its discussi
   
 Another way to build more complex design and functionality into your websites is by using a Content Management System (CMS), which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [Wordpress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
 
-We may also want to use our newfound HTML and CSS skills to more carefully examine existing online content, through comparisons of timestamped website versions using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162).
+We may also want to use our newfound HTML and CSS skills to more carefully examine existing online content, through comparisons of timestamped website versions using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into a web scraping script.
 
 ## Review your knowledge: 10 questions from the lessons
 
