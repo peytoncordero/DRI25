@@ -45,11 +45,11 @@ readings:
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
 
 ethical considerations:
-    - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in On Software, or the Persistence of Visual Knowledge (2004), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts—predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argued, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.' If commands are the ways in which a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in."
+    - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in On Software, or the Persistence of Visual Knowledge (2004), almost all computers (as in human computers) in the US during World War II were young women. Human computers received commands from analysts—predominantly men with the military—that they then had to interpret and act upon the machine. As Chun (p. 34) argued, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands ... The command line is a mere operating system (OS) simulation.' If commands are how a user communicates with machines, the command line (of computers today) receives these commands as text that is typed in."
 
 projects:
    - Feminist Linguistics Repository:
-        description: Digital specialiazed repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configurate a home server, and collaborate remotely.   
+        description: Digital specialized repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configuring a home server, and collaborating remotely.   
         link: https://repositorio.linguisticafeminista.com/ 
    - Fair World 64: 
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
@@ -57,7 +57,7 @@ projects:
    
 resources: 
     - Command Line Basics by The Odin Project:
-        description: The Odin Project is an open learning resource. The Command Line Basics lessons include a number of projects for people interested in learning about the Command Line. 
+        description: The Odin Project is an open learning resource. The Command Line Basics lessons include several projects for people interested in learning about the Command Line. 
         link: https://www.theodinproject.com/lessons/foundations-command-line-basics 
     - Awesome Bash:
         description: A curated list of useful Bash scripts and resources
@@ -76,7 +76,7 @@ Here you will learn about communicating instructions to your computer. At the en
 - Searching within text files. 
 - Doing a basic exploration of a dataset. 
 
-Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up other. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
+Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
 
 The command line is a basic tool to create several projects. It allows you to
 
@@ -104,7 +104,7 @@ In this image you can see how the Command Line Interface (CLI) looks on a Mac co
 
 To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
 
-As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relation of computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. Another useful resource is [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world), a podcast episode about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and became a key pioneer to interact with computers via  programming languages. 
+As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. Another useful resource is [Hello, World - Command Line Heroes Season 2](https://www.redhat.com/en/command-line-heroes/season-2/hello-world), a podcast episode about Grace Hopper, who was a computer scientist, mathematician, and rear admiral. Hopper joined the US Navy Reserves during World War II and became a key pioneer in interacting with computers via  programming languages. 
 
 ## Command Line in History of Human-Computer Interaction
 
@@ -226,7 +226,7 @@ However in different Operative Systems, the sign varies somewhat, and sometimes 
 
 ## Getting started: know thyself
 
-You may also see your username to the left of the command prompt $. Let's try our first command. Type the following commmand and press enter on your keyboard:
+You may also see your username to the left of the command prompt $. Let's try our first command. Type the following command and press enter on your keyboard:
 
 ```console
 $ whoami
