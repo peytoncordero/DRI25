@@ -250,7 +250,7 @@ To work with the command line it is important to understand that, in computers, 
 
 We can think of a library as a metaphor for going inside a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
-![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking checking the cards of the card catalog. A person opening a card catalog with their hand](/images/command-line/FilySystem-metaphor "Libraries and Archives")
+![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking checking the cards of the card catalog. A person opening a card catalog with their hand](/images/command-line/FileSystem-metaphor.gif "Libraries and Archives")
 
 The filesystem is named after a method to store paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
 
