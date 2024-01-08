@@ -248,9 +248,11 @@ Now that we know 'thyself', our next step should be to understand where we are.
 
 To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
 
-We can think of a library as a metaphor for going inside of a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
+We can think of a library as a metaphor for going inside a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
-The filesystem is named from a method to storage paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
+![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking checking the cards of the card catalog. A person opening a card catalog with their hand](/images/command-line/FilySystem-metaphor "Libraries and Archives")
+
+The filesystem is named after a method to store paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
 
 The metaphor is not about the material means to keep the files, but about keeping a hierarchical global organization to contain information within a space. Computers are very alike libraries and archives in the ammounts of information they keep. The only difference is the materiality of the documents. 
 
@@ -571,14 +573,14 @@ $ cat cheat-sheet.txt
 
 The output is different now! 
 
-How could we edit the text of our cheat sheet in a more practical way? Try 
+How could we edit the text of our cheat sheet more practically? Try 
 
 ```console
 $ nano cheat-sheet.txt 
 ```
 Nano is a basic text editor. The output should look similar to this image: 
 
-![The image shows how the nano editor, that is open with this command, looks](/images/command-line/nano.png "Nano")
+![The image shows how the nano editor, which is open with this command, looks](/images/command-line/nano.png "Nano")
 
  Once you are in the document, navigate the text with the keyboard arrows. Then change the information for:
 
