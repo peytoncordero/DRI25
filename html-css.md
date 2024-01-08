@@ -9,6 +9,7 @@ learning objectives:
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
 authors:
+    - 'Ian G. Williams'
 
 instructors:
     - 'Ian G. Williams'
@@ -162,7 +163,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 ## Activity
 
 <Info> __Tip__:
-If you have not already installed Visual Studio Code, you can click the following links for corresponding installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
+If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
 Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). Inside that folder, create a new text file and save it as `index.html`.
