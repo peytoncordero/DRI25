@@ -236,11 +236,9 @@ You would most likely need an IRB and a [Standard Deed of Gift Agreemnet](https:
 </Secret>
 
 
-
-
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) collection of "raw" data, b) processing and/or transforming data, c) cleaning, d) analysis, and e) visualization. For example, we can consider the stages in the following way:
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) **collection of "raw" data**, b) **processing and/or transforming data**, c) **cleaning**, d) **analysis**, and e) **visualization**. For example, we can consider the stages in the following way:
 
 1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
@@ -254,6 +252,8 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
     - E.g. I can present the result in a pie chart.
 
 This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
+
+![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
 
 ## Ethical Considerations and Impacts 
 
