@@ -194,8 +194,9 @@ On macOS, click on the Finder in your dock (the apps at the bottom of the screen
 On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu. Select Firefox or Google Chrome from the app list that appears.
 
 <Info>__Tip__:
-You can also use the Live Server plugin to open it within VS Code. Right-click `index.html` 
+You can also use the Live Server plugin to open it within VS Code. Right-click `index.html` and left-click `Open With live Server` 
 </Info>
+
 ### What Happens?
 
 When you open the empty template, you'll see only a blank web page. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
