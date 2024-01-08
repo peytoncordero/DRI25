@@ -957,7 +957,7 @@ refugee_df[:9]
 ```
 </Secret>
 
-Write code to display the last 5 rows of the DataFrame (there are two ways to do this:)
+Write code to display the last 5 rows of the DataFrame (there are two ways to do this):
 
 ### Solution
 <Secret>
