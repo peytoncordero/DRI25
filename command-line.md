@@ -277,55 +277,66 @@ You should get the output
 /home/user on DHRIFT. 
 ```
 
-The command pwd, which stands for "print working directory”, allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command pwd won't print anything except on your screen. This command is easier to grasp when we interpret "print" as "display." Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing.
+The command `pwd`, which stands for "print working directory”, allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command `pwd` won't print anything except on your screen. This command is easier to grasp when we interpret 'print' as 'display.'
 
-Note that we are using the word "directory" interchangeably with "folder"—they both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. You can draw these relationships in a tree. 
+Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. You can draw these relationships in a tree. 
 
 ![Screen shot of the icons of folders organized as a tree of the filesystem in the MacOS GIU](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
 
-That means there's a top-level or root folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The root or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just / on macOS and are called C: on Windows. 
+In other words, there's a top-level or root folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The root or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
 
-On your computer, you should get something like  /Users/your-username, which means you're in the your-username directory in the Users folder inside the / or root directory. This directory is often called the "home" directory.
+On your computer, when you execute `pwd`, you should get something like `/Users/your-username`. It means you're in the your-username directory in the Users folder inside the root directory. This directory is often called the *home*.
 
-Now we know "where" we are. But what if we want to know what files and folders are contained in the same working directory where you are located right now? 
+Now we know where we are. But what if we want to know what this directory contains? 
 
 ## What's in the folder?
 
-To check what is contained in the folder, try entering:
+To check the content of the folder, try entering:
 
 ```console
 $ ls
 ```
 
-In this command, “ls” stands for list. It is a request to list the contents of your current working directory. 
+In this command, `ls` stands for list. It is a request to list the contents of your current working directory. 
 
-You should see a list of folders and files contained in the current working directory where you are located. Usually, it might include folders such as Documents, and Desktop, and you may also see some files. In the case of the DHRIFT emulator, you should see command-line-treasure-hunt and data. 
+The output is a list of folders and files contained by the directory. Usually, it might include folders such as Documents, and Desktop, and you may also see some files. In the case of the DHRIFT emulator, you should see `command-line-treasure-hunt` and `data`. 
 
-Wonder what's in the data folder? Let's try navigating to it with the following command:
+**Wondering what's in `data`?** Let's move to it with the following command:
 
 ```console
 $ cd data
 ```
-The cd command lets us "change directory." (Make sure the "d" in "data" is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
 
-So how do we know it worked? Let's use our pwd command again! We should get:
+The `cd` command stands for "change directory." (Make sure the "d" in "data" is not capitalized.) If the command is successful, you won't see any output. This is normal—often, the command line will succeed silently. 
+
+However, there is an important change before the command prompt that indicates it worked. When we used `pwd` and the result was `/home/user` on DHRIFT, this is what we could see before `$`:
+
+```console
+user@:~$
+```
+After executing `cd data`, we see:
+
+```console
+user@:~/data$
+```
+The left side shows where we are located. However, as the filesystem contains so many directories and we will move across the system when we work on a project, the command `pwd` will always be central for finding the path to our working directory. Let's verify our location:
 
 ```console
 $ pwd
 /home/user/data
 ```
 
-Now try the command ls again, to see what's on the data folder! 
+Now that we are sure that we accessed `data`, use the command `ls` to get the list of what this folder contains. We need to be located inside a specific folder to find out about that folder.
 
-The commands pwd, ls, and cd are the three most commonly used in the terminal. Between them, you can orient yourself and move around.
+All `pwd`, `ls`, and `cd` are three very commonly used commands. With them, you can orient yourself and move around.
 
-One more command you might find useful right now is cd .. which will move you to one directory up in the filesystem. That's a cd with two periods after it:
+One more command you might find useful right now is `cd ..` (a `cd` with two periods), which will move you to one directory up in the filesystem:
 
 ```console
 $ cd ..
 ```
 
-Let's check it worked using our pwd again! 
+In DHRIFT, you will exit `/home/user/data` and move up to `/home/user`. Because we changed our location within the filesystem, the information to the left of `$` will also change. Let's check with `pwd` again:
 
 ```console
 $ pwd
@@ -333,7 +344,7 @@ $ pwd
 ```
 ## Evaluation
 
-1. What command do you run if you are trying to identify where in the filesystem you are currently located/working?
+1. What command do you run to identify the directory where you are currently located?
 
 <Quiz>
 - $ `ls`
