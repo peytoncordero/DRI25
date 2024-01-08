@@ -693,54 +693,58 @@ In this case, `|` has the same function but we added the command to redirect tha
 
 ## On naming files and folders
 
-Just as organizing the information is important, the names of the files are important to facilitate our projects. So this is a note on digital best practices on naming files! 
+Just as organizing the information is important, the names of the files make a difference when we are working on the command line. 
 
-Your cheat sheet is titled cheat-sheet.txt instead of cheat sheet.txt for a reason. Can you guess why? 
+Your cheat sheet is titled cheat-sheet.txt instead of cheat sheet.txt for a reason. Can you guess why?
 
-Let’s see if you guessed by making a test! 
+**Check your response**  
 
-Check you are in the folder named “projects”: 
-
-```console
-$ pwd
-/home/user/projects
-```
-
-Create a new subfolder with in projects: 
+Access the folder `project` (check were you are first!) and create a new subfolder: 
 
 ```console
 $ mkdir test
 ```
-Go to that directory 
+We will use `test` for this specific project. Go to that directory 
 
 ```console
 $ cd test
 ```
 
-Now try to make a file named cheat sheet.txt and after that try to print it on the command line 
+Now try creating a new file with the name *cheat sheet.txt* using `touch`
+
+```console
+$ touch cheat sheet.txt
+```
+Try printing it on the command line with `cat`
 
 ```console
 $ touch cheat sheet.txt
 $ cat cheat sheet.txt
 ```
 
-What was the output? To observe what happened when you created that file, ask the computer to list what is in the folder
+What was the output?
+
+Print the list of files contained in the folder to observe the problem
 
 ```console
 $ ls
 ```
 
-Our graphical user interfaces (GUI) allow us to save files with spaces in the name, and we usually don’t think about the consequences of those naming practices. Now imagine you are attempting to open a very important file for your project with a name such as final data.txt using the CLI! 
+Were you close in your first guess?
 
-Thus for digital best practices, we recommend making sure that file names contain no spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
+**Practices for better interaction with the computer**
+
+Our graphical user interfaces allow us to save files with spaces between words in the name, and we usually don’t think about the consequences of those naming practices. Imagine instead of *cheat sheet.txt* you were attempting to open a very important file for a project with a name such as *final data.txt* using the CLI! 
+
+For best digital practices, we recommend making sure that file names do *not* contain spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
 
 ## FUN TIME: Treasure hunting! 
 
-Use the commands we have learned so far to go on a treasure hunt in the DHRIFT emulator. 
+Use the commands we have learned so far to go on a treasure hunt. 
 1. Access the folder command-line-treasure-hunt
-2. Once there, ask the computer to print the instructions on README.md
+2. Once there, ask the computer to print the instructions from README.md
 
-Right now you should be able to read those instructions! Pay attention to them and remember to pay attention to spelling and case sensitivity so that your commands work well! 
+Right now you should be able to read those instructions! Pay attention to them and remember to take your time to check spelling and case sensitivity so that your commands work well! 
 
 Good luck! 
 
@@ -749,7 +753,7 @@ Good luck!
 
 ## Evaluation
 
-What does effect does the following command produce? (select one)
+What effect does the following command produce? (select one)
 
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
@@ -764,9 +768,11 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 ## Interlude: two command line secrets
 
+These two command lines are a treasure to make your work at the CLI easier and more efficient:
+
 1. **Clearing the terminal**
 
-After running all the commands we have learned so far, the terminal might be quite full of text. For our next section, it might be nice to clear the terminal and have a fresh start. Use the command clear: 
+After running all the commands we have learned so far, the terminal might be quite full of text. For our next section, it might be nice to `clear` the terminal and have a fresh start. Use the command `clear`: 
 
 ```console
 $ clear
@@ -774,15 +780,15 @@ $ clear
 
 The output should be the terminal clear! 
 
-2. **Tab for completion** 
+2. **<kbd>Tab</kbd> for completion** 
 
-When you are navigating in the command line, typing folder and file names can seem to go against the promise of easier communication with your computer. Here comes tab completion, stage right!
+When you are navigating in the command line, typing folder and file names can feel against the promise of easier communication with your computer. Here comes *<kbd>tab</kbd> completion*, stage right!
 
-When you need to type out a file or folder name—for example, the name of a file we created: cheat-sheet.txt —in the command line and want to move more quickly, you can just type out the beginning characters of that file name up until it's distinct in that folder and then click the tab key. And voilà! Clicking that tab key will complete the rest of that name for you, and it only works if that file or folder already exists within your working directory. 
+When you need to type out a file or folder name (e.g. cheat-sheet.txt) in the command line and want to move quickly, you can just type out the first characters of that file name up until it's distinct in that folder. At that point, click the <kbd>tab</kbd> key and voilà! This action will complete the rest of the name for you. 
 
-In other words, anytime in the command line you can type as much of the file or folder name that is unique within that directory, and tab complete the rest! 
+Note that it only works if that file or folder already exists within your working directory. In other words, anytime in the command line, you can type the part of the file or folder name that is unique within that directory, and <kbd>tab</kbd> complete the rest! 
 
-Only where you are located in the folder that contains the file the tab key will complete your writing. The same happens with almost all commands: they will only be executable if you are in the right location of the filesystem where the files are located. If not, the command will not be successful.
+The same happens with almost all commands: they will only be executable if you are in the right location of the filesystem where the files are located. If not, the command will not be successful.
 
 # Working with text data
 
