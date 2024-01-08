@@ -14,17 +14,16 @@ learning objectives:
     - Searching within text files
     - Doing a basic exploration of a text dataset
 
-estimated time: 
-    description: 3 hours
+estimated time: 3 hours
 
 prerequisites: 
     - None: 
         description: This workshop does not have any prerequisites. 
         required: true
 
-instructors: 
+instructors:
     - 'Silvia Rivera Alfaro'
-
+    
 authors:
     - 'Silvia Rivera Alfaro'
     - 'Stefano Morello'
