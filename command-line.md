@@ -910,9 +910,9 @@ This will allow you to create a new version of the nypl_items.csv file with the 
 What do command line flags allow you to do? (select one)
 
 <Quiz>
-Flags allow you to mark the file you are working on.
-Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
-Flags are a common way to specify options for the command line programs.* 
+- Flags allow you to mark the file you are working on.
+- Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
+- Flags are a common way to specify options for the command line programs.* 
 </Quiz>
 
 ## Search the data 
