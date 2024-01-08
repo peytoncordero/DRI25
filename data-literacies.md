@@ -259,7 +259,7 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Ethical Considerations and Impacts 
 
-# Challenge: Ethical Considerations and Impacts 
+## Challenge: Ethical Considerations and Impacts 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
 
