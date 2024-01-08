@@ -792,7 +792,7 @@ The same happens with almost all commands: they will only be executable if you a
 
 # Working with text data
 
-The Command Line can be a very powerful tool to analyze text data, especially when we use it to analyze a large amount of text, one that would be too large to work with by hand. In this section, we will analyze. 
+The command line can be a very powerful tool to analyze text data, especially when we use it for a large amount of text, one that would be too large to work with by hand. In this section, we will analyze a large text data set. 
 
 The data we will be using is already on the DHRIFT emulator. The path to find it is 
 
@@ -800,23 +800,23 @@ The data we will be using is already on the DHRIFT emulator. The path to find it
 /home/user/data 
 ```
 
-Check where you are located using pwd. If you are not in that working directory, use the necessary commands to access that location.
+Check where you are located using `pwd`. Use the necessary commands to access that path.
 
-Now that you are there, use ls to ask the list and find what our data set is. You should see a file named nypl_items.csv
+Now that you are there, use `ls` to find what our data set is. You should see a file named nypl_items.csv
 
-Our data set is a list of public domain items from the New York Public Library. It's in .csv format, which is a plain text spreadsheet format. CSV stands for "comma-separated values," and each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
+Our data set is a list of public domain items from the New York Public Library in .csv format, which is a plain text spreadsheet. CVS stands for 'comma-separated values' because each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
 ## Exploring the text file
 
-We said this data is a large amount of text. Let’s make some simple tests to see the length. 
+We said it is a large data set. Let’s make some simple tests to observe the length. 
 
-First, try using the cat command to look at the data. 
+First, try using the `cat` command to look at the data. 
 
 ```console
 $ cat nypl_items.csv 
 ```
 
-What do you think in comparison to our earlier practice with the cat command? Now you might find the text being printed out goes by too fast to get any sense of it!  If the output is taking too long, you can click control + C [h]on your keyboard to cancel it.
+What do you think of this outcome in comparison to our earlier practice with the `cat` command? You might find the text being printed out goes by too fast to get any sense of the content!  
 
 **How long is that file anyway?** 
 
@@ -824,7 +824,7 @@ What do you think in comparison to our earlier practice with the cat command? No
 $ cat nypl_items.csv | wc -w
 ```
 
-With larger amounts the data it might take some seconds to run each command before printing the single output we are requesting. 
+With larger amounts of data, it might take some seconds to run each command before printing the single output we are requesting. If the output is taking too long, you can click <kbd>control + C</kbd> on your keyboard to cancel it.
 
 What is the output?
 
@@ -834,30 +834,31 @@ The total of words in the file should be 2,298,575.
 
 **What is new in this command?**
 
-We had two commands combined as one single line with a pipe. The first command is to display the text of nypl_items.csv. The second command is “wc -w”. It asks the computer to print the number of words. This is something we learned earlier. The hyphen is a new element for us. It marks that the immediate element that follows it is a flag. 
+We had two commands combined as one single line with a pipe. The first command, `cat`, is to display the text of nypl_items.csv. The second command is `wc -w`. It asks the computer to print the number of words. `wc` stands for 'word count'. The symbol `-` is a new element for us. It marks that the immediate element that follows it is a *flag*. 
 
-Flags indicate options that belog to specific commands. For example, in the command wc we have various options. We used “-w” to select the “number of words”, but it could also be “wc -l” to show the number of lines or “wc -m” to count the number of characters. You can try these other commands if you want to explore further. 
+Flags indicate options that belong to specific commands. For example, in the command `wc` we have various options. We used `-w` to select the `number of words`, but it could also be `wc -l` to show the number of lines or `wc -m` to count the number of characters. You can try these other commands if you want to explore further. 
 
 ## Viewing Data in the command line
 
-We saw that the cat command was not very useful for this large data set. Instead, let’s use another tool, the less command. It allows us to get data one page at a time.
+We saw that the `cat` command was not very useful for this large data set. Instead, let’s use another tool: the `less` command. It allows us to get data one page at a time.
 
 ```console
 $ less nypl_items.csv
 ```
-less gives you a paginated view of the data; it will show you the contents of a file or the output from a command or string of commands, page by page.
-To view the file contents page by page, you may use the following keyboard shortcuts: 
+
+`less` gives you a paginated view of the data; it will show you the contents of a file or the output from a command or string of commands, page by page. To view the file contents page by page, you may use the following keyboard shortcuts: 
 
 -Press the <kbd>f</kbd> key to view forward one page
 -Press the <kbd>b</kbd> key to view back one page.
 -Press the key <kbd>q</kbd> to return to the command line.
-Let’s try two more commands for viewing the contents of a file. The first one fo them is head:
+
+Let’s try two more commands for viewing the contents of a file. The first is `head`:
 
 ```console
 $ head nypl_items.csv
 ```
 
-The output should be the very first section of the file, which is called head. The second command, by contrast, prints out the very last part of the file, which is called tail:
+The output should be the very first section of the file, which is called *head*. By contrast, the next command, `tail`, prints out the very last part of the file, which is called *tail*:
 
 ```console
 $ tail nypl_items.csv
@@ -873,22 +874,22 @@ $ cat nypl_items.csv | wc -l
 
 This tells us there are 100,001 lines in our file. 
 
-To find and remove duplicate lines, we can use the uniq command combined via a pipe with other commands we used before. Let's try it out:
+To find and remove duplicate lines, we can use the `uniq` command combined via `|` with other commands we used before. Let's try it out:
 
 ```console
 $ cat nypl_items.csv | uniq | wc -l
 99999
 ```
 
-OK, the count went down by two because the uniq command removed the duplicate lines. But which lines were duplicated?
+The count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
 
 ```console
 $ cat nypl_items.csv | uniq -d
 ```
 
-In this line we are combining two commands, the first one is to print out the data. The second one is the uniq command with the -d flag, which is the option to print out the lines that have duplicates.
+In this line, we are combining two commands, the first one is to print out the data. The second one is the `uniq` command with the `-d` flag, which is the option to print out the lines that have duplicates.
 
-## Activities
+## Review
 
 **Challenge**
 
@@ -899,58 +900,61 @@ Use the commands you’ve learned so far to create a new version of the nypl_ite
 ```console
 $ cat nypl_items.csv | uniq > clean_nypl_items.csv
 ```
-This will allow you to create a new version of the nypl_items.csv file with the duplicated lines removed. You can decide any name you prefer for your file!
+
+This will allow you to create a new version of the nypl_items.csv file with the duplicated lines removed. You can decide on any name you prefer for your file!
 
 </Secret>
 
 **Evaluation**
 
-What do command linen flags allow you to do? (select one)
+What do command line flags allow you to do? (select one)
 
 <Quiz>
-Flags allow you to earmark the file you are working on.
+Flags allow you to mark the file you are working on.
 Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
 Flags are a common way to specify options for the command line programs.* 
 </Quiz>
 
 ## Search the data 
 
-So we've cleaned our data set, but how do we find entries that use a particular term? Let's say I want to find all the entries in our data set that use the term "Paris."
+So we've cleaned our data set, but how do we find entries that use a particular term? 
 
-Here we can use the grep command, which stands for "global regular expression print." The grep command processes text line by line and prints any lines that match a specified pattern. 
+Let's find all the entries in our data set that use the term "Paris."
 
-On the command line write
+Here we can use the `grep` command, which stands for *global regular expression print.* The `grep` command processes text line by line and prints any lines that match a specified pattern. 
+
+On the command line write:
 
 ```console
 $ cat nypl_items.csv | grep -i "paris"
 ```
 
-This will print out all the lines that contain the word "Paris." The -i flag makes the command ignore capitalization. 
+This will print out all the lines that contain the word "Paris." The `-i` flag makes the command ignore capitalization. 
 
-Now we can use our wc -l command to see how many lines that are:
+Now we can use our `wc -l` command to see how many lines there are:
 
 ```console
 $ cat nypl_items.csv | grep -i "paris" | wc -l
 191
 ```
 
-In this last command, we have used the cat command to read nypl_items.csv, take the output, and pipe it into the grep -i command, which will ignore capitalization and find all instances of the word paris. We then take the output of that grep command and pipe it into the word count wc command with the -l lines option. The pipeline returns 191 letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
+In this last command, we have used the `cat` command to read nypl_items.csv. We take the output, and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word 'paris'. Then we take the output of that `grep` command and pipe it into the word count, `wc`, command with the `-l` lines option. The pipeline returns 191 letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
 
 **Regular expressions**
 
-In this command we used grep and said that it stands for regular expressions. Regular expressions are special strings representing a pattern to be matched in a search operation. grep gives us access to the power of regular expressions as we search for text.[k] Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. Regular expressions are commonly used in different programming languages.
+In this command, we used `grep` and said that it stands for regular expressions. Regular expressions are special strings representing a pattern to be matched in a search operation. `grep` gives us access to the power of regular expressions as we search for text. Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. Regular expressions are commonly used in different programming languages.
 
-## Activities
+## Review
 
 **Challenge**
 
-Use the grep command to explore our .csv file a bit. What areas are best covered by the data set? 
+Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set? 
 
-If you want to get a little more milage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
+If you want to get a little more mileage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
 
 **Evaluation**
 
-What do pipes allow you to do? (select all that apply)
+What do `|` allow you to do? (select all that apply)
 
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
@@ -958,7 +962,7 @@ What do pipes allow you to do? (select all that apply)
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-Let's think about the grep command. Select all that pertain to the command.
+Let's think about the `grep` command. Select all that pertain to the command.
 
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
@@ -967,8 +971,8 @@ Let's think about the grep command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-## Review
-Go to your projects folder and open your cheat-sheet.txt file using the nano command to add the new commands learned in the workshop: 
+## Ampliando our cheat sheet
+Go to your projects folder and open your cheat-sheet.txt file using the `nano` command to add the new commands learned in the workshop: 
 
 ```console
 wcword      count 
@@ -987,8 +991,11 @@ wc -m       counts the number of characters
 head -n #   shows a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
 tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
 ```
+
+<Info>
 **Bonus:**
-We included the flag -n in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number simbol for the specific number of lines you want. 
+We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
+</Info>
 
 # Summary of the workshop
 
