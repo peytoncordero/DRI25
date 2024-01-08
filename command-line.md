@@ -196,7 +196,7 @@ To access the emulator, check the top-right side of the screen (or the top if yo
 
 Once it is open, you can resize it by clicking on the left border of the rectangle and dragging it to the desired size. (Your mouse pointer should change into the resize icon, a horizontal two-sided arrow).
 
-You can hide the emulator to continue reading through the workshop. For this, click on the “Close Code Editor” button, which will appear on the top. You can close it and reopen it everytime you need; the information you have entered will continue to be there!
+You can hide the emulator to continue reading through the workshop. For this, click on the “Close Code Editor” button, which will appear on the top. You can close it and reopen it every time you need; the information you have entered will continue to be there!
 
 We also want to share these tips to get ready:
  
@@ -372,7 +372,7 @@ $ touch foo.txt
 
 The touch command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it. Touch creates a new file if it doesn’t exist, but when the file exists, it will only modify the time when it was last accessed. 
 
-In this case we are creating a .txt which means it is a new plain text file, but it could have been a .csv file which could be a list or representing a spreadsheet in plain text.
+In this case, we are creating a .txt which means it is a new plain text file, but it could have been a .csv file which could be a list or representing a spreadsheet in plain text.
 
 If the command succeeds, you won't see any output. So, let’s make sure the file is now part of your folder by using the command ls
 
@@ -398,14 +398,14 @@ You can use your left/right arrows to move the insert cursor around on the scree
 ## Creating folders 
 
 OK, so we're going to create a projects folder!
-First, let's check to make sure we're still in the Home folder with pwd:
+First, let's check to make sure we're still in the Home folder with `pwd`:
 
 ```console
 $ pwd
 /home/user
 ```
 
-Once you've double-checked you're there, we'll use the mkdir or "make directory" command to make a folder called projects:
+Once you've double-checked you're there, we'll use the `mkdir` or "make directory" command to make a folder called projects:
 
 ```console
 $ mkdir projects
@@ -426,7 +426,7 @@ $ pwd
 
 OK, now you've got a projects folder! 
 
-In this case ‘projects’ is the name of the folder, but it could be called any name we wanted. For example, if we use $ mkdir bananas, then the directory would be ‘bananas’
+In this case ‘projects’ is the name of the folder, but it could be called any name we wanted. For example, if we use `$ mkdir bananas`, then the directory would be ‘bananas’
 
 When you work on your computer and create folders, they should be visible on your graphical desktop too. 
 
@@ -434,7 +434,7 @@ When you work on your computer and create folders, they should be visible on you
 
 Now that you have a folder for your projects, let’s move our first file to this folder. 
 
-First, be sure you are located in the current location of the file, which is /home/user/projects. If you are not there, use the commands we have learned to make projects your working directory.You need to be in the folder where the file is located to execute the next command successfully. 
+First, be sure you are located in the current location of the file, which is /home/user/projects. If you are not there, use the commands we have learned to make projects your working directory. You need to be in the folder where the file is located to execute the next command successfully. 
 
 Once you are there, type the mv command followed by the name of the file you want to move and then the file path to your projects:
 
@@ -442,23 +442,23 @@ Once you are there, type the mv command followed by the name of the file you wan
 $ mv foo.txt /home/user/projects
 ```
 
-You can then navigate to that projects folder and use the ls command to check that the file is there. 
+You can then navigate to that `/projects` folder and use the `ls` command to check that the file is there. 
 
 ## Activities
 
 **Challenge** 
 - Check the directory you are in. 
 - Create a subfolder 
-- Now go to that folder and create a file on your own inside of it! 
+- Now go to that folder and create a file! 
 
-Do you what to check the solution?
+Do you want to check the solution?
 
 <Secret>
-1. Type pwd to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands cd and cd .., that we learned before
-2. Type mkdir name-of-your-subfolder to create a subfolder.
-3. Type cd name-of-your-folder to navigate to that folder.
-4. Type name-of-your-file.txt to create a new text file.
-5. Type ls to check whether you created the file correctly.
+1. Type `pwd` to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands `cd` and `cd ...` that we learned before
+2. Type `mkdir` name-of-your-subfolder to create a subfolder.
+3. Type `cd name-of-your-folder` to navigate to that folder.
+4. Type `name-of-your-file.txt` to create a new text file.
+5. Type `ls` to check whether you created the file correctly.
 </Secret>
 
 **Evaluation**
@@ -474,15 +474,15 @@ What does the <kbd>up arrow</kbd> do?
 
 **For further consideration**
 
-- Think of your current form of organizing information on your computer or a specific cloud service where you storage information. Do you follow a specific system to organize it? Is it possible for you to draw a diagram of it? 
+- Think of your current form of organizing information on your computer or a specific cloud service where you store information. Do you follow a specific system to organize it? Is it possible for you to draw a diagram of it? 
 
-- Now, think of the how would be a good way to organize information when you create folders in that space - is it possible for you to draw a diagram?
+- Now, think of how would be a good way to organize information when you create folders in that space. Is it possible for you to draw a diagram?
 
 - Finally, think of the different spaces where you store your information. Is it possible to draw a diagram of how you organize your information in general and how these spaces interact?
 
 ## Create your Command Line Cheat Sheet 
 
-In this section, we’ll create a text file that we can use to keep all the commands we learn in this workshop. 
+In this section, we’ll create a text file that we can use to keep all the commands we learned in this workshop. 
 
 To know where we are creating this new file, first check where you are located:
 
@@ -497,9 +497,9 @@ If you are in the projects folder, stay there. If you are not there, use
 $ cd ~
 ```
 
-This last sign is called tilde. The command “cd ~” gets you to your user folder, home. 
+This last sign is called *tilde*. The command `cd ~` gets you to your user folder, home. 
 
-Try the command pwd again, you should be in the home directory now /home/user/
+Try the command `pwd` again, you should be in the home directory now `/home/user/`
 
 Now that you are there, access projects
 
@@ -507,7 +507,7 @@ Now that you are there, access projects
 $ cd projects
 ```
 
-It might seem repetitive or basic to check our location once again, but when you are working in a bigger project, being able to document the location of files to be able to know the path to access them is a very important task. Think again of our metaphor of looking for a book in the library: to enter a big building full of books and being able to find the one you are looking for, you need to have a sense of the structure and now where the book is located. 
+It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of our metaphor of looking for a book in the library. To find the one you are looking for, you need to know the path to get to the right shelf. 
 
 We are ready to create our first project: our very own cheat sheet! So let’s move forward with it. 
 
@@ -523,7 +523,7 @@ The output will be a line of text on the command line:
 Hello world from the command line
 ```
 
-This is the way in which the CLI prints the text. How can we ask the computer to print a text on a file instead of printing it on the command line? 
+This is how the CLI prints the text. How can we ask the computer to print a text on a file instead of printing it on the command line? 
 
 We use the redirect symbol (a greater-than symbol): 
 
@@ -539,13 +539,13 @@ $ ls
 
 The output should include in the list a file called cheat-sheet.txt
 
-But we also want to make sure that our phrase “This is my cheat sheet” is in the file! How can we do that? Write: 
+But we also want to make sure that our phrase "This is my cheat sheet" is in the file! How can we do that? Write: 
 
 ```console
 $ cat cheat-sheet.txt 
 ```
 
-The command “cat” is used to request your computer to print the file. It stands for “concatenate,” because it links strings of characters or files together from end to end. 
+The command `cat` is used to request your computer to print the file. It stands for "concatenate," because it links strings of characters or files together from end to end. 
 
 The output should be the content of the file. In this case, the only content is 
 
@@ -555,9 +555,9 @@ This is my cheat sheet.
 
 ## How can we add more content? 
 
-Be aware. To write in the file we used redirect. Redirect takes the output that we would have on the CLI and overwrites it in the file. It means that if we use it again on the same file to add a different phrase it would erase what you wrote previously by overwriting it. In this case, we knew it was a new file so we were not worried about it! 
+Be aware. To write in the file we used redirect. Redirect takes the output that we would have on the CLI and overwrites it in the file. It means that if we use it again on the same file to add a different phrase it would erase what you wrote previously by overwriting it. In this case, we knew it was a new file so we were not worried about it. 
 
-However, and with our pedagogical intention let’s overwrite the text by using the redirect symbol again. 
+With a pedagogical intention, let’s overwrite the text by using the redirect symbol again. 
 
 ```console
 $ echo “Ups! I am overwriting my cheat sheet!”  > cheat-sheet.txt 
@@ -580,7 +580,7 @@ Nano is a basic text editor. The output should look similar to this image:
 
 ![The image shows how the nano editor, which is open with this command, looks](/images/command-line/nano.png "Nano")
 
- Once you are in the document, navigate the text with the keyboard arrows. Then change the information for:
+Once you are in, navigate the text with the keyboard arrows. Then change the information for:
 
 ```console
 pwd     prints the working directory
@@ -595,7 +595,7 @@ echo    prints plain text
 >       is called tilde, prints into a specific file by overwriting it
 ```
 
-When you finish, press <kbd> control + shift </kbd> to exit the text editor. Respond <kbd> control + Y </kbd> to save changes. 
+When you finish, follow the instructions shown in `nano`, which are to press <kbd>control + X</kbd> to exit the text editor. Respond <kbd>Y</kbd> to save changes and press enter to execute it. You will go back to the command prompt.
 
 Now we can check our file: 
 
@@ -603,47 +603,46 @@ Now we can check our file:
 $ cat cheat-sheet.txt 
 ```
 
-**Clarifying note:**  
-There is also a way to add new text from the command line but without overwriting. It is using append “>>”. This symbol uses two greater-than symbols together, but for the computer field it is called “append”. 
-If there is already text in the file, this is a quick option to add information. We are not trying it in the workshop as we wanted to be able to add longer text and multiple lines in a more efficient way. 
+**Bonus:**  
+There is another way to add new text from the command line without overwriting. It is using append `>>`. This symbol uses two greater-than symbols together, but for the computer field, it is called *append*. In this workshop, we prefer `nano` for its efficiency in editing the text of our cheat sheet. Append has its own uses for specific purposes, such as adding new entries to a data file. 
 
 ## Organizing your cheat sheet
 
-Use pwd and cd to make sure you're in the folder with your cheat sheet. Then try:
+Use `pwd` and `cd` to make sure you're in the folder that contains your cheat sheet. Then try:
 
 ```console
 $ cat cheat-sheet.txt | sort
 ```
 
-As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MyCheatSheet.txt, you could use a > to print the output to a file, like this:
+As output, you should see the contents of the cheat sheet file with each line rearranged in alphabetical order. Let’s say you want to save this output in a new file named MyCheatSheet.txt. You could use a `>` command to print it to the new file, like this:
 
 ```console
 $ cat cheat-sheet.txt | sort > MyCheatSheet.txt
 ```
 
-To find that this new file was created use the command ls. You should see the file as part of your results.
+To verify that the file was created use the command `ls`. You should see the file listed in the output.
 
-**About these commands: the symbol |**
+**What did we just do? The command `|`**
 
-We used | as part of our last two commands. This symbol is called “pipe”. Pipes allow you to ask your computer to take the output of one command and use it as the input of the next one. This will allow us to combine multiple commands on a single line.
+We used `|` as part of our last two commands. This symbol is called "pipe". Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
 This diagram shows the process that pipes do:
 
 ![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/pipes.png "Pipes diagram")
 
-To apply the diagram to our recent commands: 
+This is how the diagram relates to our recent commands: 
 
 To sort the document: 
-- Command 1: $ cat cheat-sheet.txt
-- Command 2: Sort
+- Command 1: `$ cat cheat-sheet.txt`
+- Command 2: `Sort`
 
-In this case we only want to see the final sorted result, so we want the computer to do both commands and show us only the final result. 
+The pipe allows us to put the printing of the file into the request to sort it as a single command, which generates one single output. 
 
 To create the new file with the sorted information: 
-- Command 1: $ cat cheat-sheet.txt
-- Command 2: sort > MyCheatSheet.txt
+- Command 1: `$ cat cheat-sheet.txt`
+- Command 2: `sort > MyCheatSheet.txt`
 
-In this case want the sorted result to be saved in a new file, so we used the redirect symbol to create a new file as part of the second command.
+In this case, the pipe has the same function but we added the command to redirect that output to a new file as part of the second command.
 
 ## On naming files and folders
 
