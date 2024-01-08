@@ -1,6 +1,6 @@
 ---
 title: 'Text Analysis Workshop'
-description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is how to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
+description: 'Analyzing textual data opens a new way to interrogate the world. Put simply, it is a way to "read" and interpret the incredible amount of text generated past and present. This workshop will introduce techniques that can help you get a handle on textual data, turn qualitative texts into quantitative objects. We will be using the Natural Language Toolkit (NLTK) package in Python and thinking through how to clean data and start using our analytical muscles to conceptualize and operationalize this textual data.'
 cover_image: '/images/workshops/img7.jpg'
 programming_language: "jupyter"
 
@@ -84,7 +84,7 @@ What’s an example of textual corpora in your field of research?
 
 Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
-What’s languages are most frequently used for web content as of January 2023, by share of websites?
+What’s languages are most frequently used for web content as of 2023, by share of websites?
 
 ## Evaluation
 
