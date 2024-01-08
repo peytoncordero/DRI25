@@ -421,7 +421,7 @@ Do you remember the glossary terms from this section?
 
 Images are another important component of websites. Sometimes these just help bring your website to life, but other times they can help communicate information to users.  
   
-Images are created with the `<img>` tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The `src` attribute stands for "source" and communicates secondary information to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
+Images are referenced with the `<img>` tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The `src` attribute stands for "source" and communicates secondary information to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
   
 The following element pulls in an image located in the same folder as the `.html` file:  
   
@@ -457,7 +457,7 @@ This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/
 
 Download and save an image from the web, or move an image from your computer into the same folder as your `index.html` file.
 
-Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.
+<Info>Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
 
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
