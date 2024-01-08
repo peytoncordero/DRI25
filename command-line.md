@@ -7,7 +7,7 @@ cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 programming_language: 'computer'
 
 learning objectives: 
-    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for
+    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction.' Additionally, you will be able to use the command line for
     - Navigating the file structure in a computer.
     - Creating new files and directories.
     - Moving content and files to new locations within the file structure. 
@@ -20,7 +20,6 @@ prerequisites:
     - None: 
         description: This workshop does not have any prerequisites. 
         required: true
-
 instructors:
     - 'Silvia Rivera Alfaro'
     
