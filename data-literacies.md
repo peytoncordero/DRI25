@@ -243,25 +243,27 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
 2. In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
-    - E.g. I think I can get the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). I will need to look at what variables exist in the dataset to find out if I can filter by gender and the variables that will correspond to copyrights.
+    - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.
 3. After collecting our data we then consider and make decisions in the processes of cleaning.
-    - E.g. I have to transform some of the gender values and decide what to do with the missing fields.
+    - E.g. We have to transform some of the gender values and decide what to do with the missing fields.
 4. We then run our preliminary analysis of the data.
-    - E.g. I can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
-5. At the end of our analysis, a decision is then made about how would we would present the data and its analysis.
-    - E.g. I can present the result in a pie chart.
+    - E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
+5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
+    - E.g. We can present the result in a pie chart or a bar graph.
 
-This is one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data.
+## Stages of Data ( Cont'd)
+
+The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
 
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
 
-## Ethical Considerations and Impacts 
+# Ethical Considerations and Impacts 
 
 
 
 ## Naming Conventions for Directory Structures
 
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have you named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://guides.library.stanford.edu/data-best-practices/name-files)that demonstrates the problems of badly name files in our projects.
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
@@ -308,17 +310,27 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 ## Challenge: Raw Data and Labor
 
 1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
-2. How should we approach data that we have "scraped"?
-3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
-4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
-
-### Solution:
 
 <Secret>
-1. I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
-2. I think my approach to scraped data is similar to big data.
-3. Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
-4. The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
+I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
+</Secret>
+
+2. How should we approach data that we have "scraped"?
+
+<Secret>
+I think my approach to scraped data is similar to big data.
+</Secret>
+
+3. How do you collect "raw" data? What are some of your practices? What are your field's practices?
+
+<Secret>
+Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
+</Secret>
+
+4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
+
+<Secret>
+The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
 </Secret>
 
 ### Keywords
