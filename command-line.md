@@ -375,87 +375,100 @@ $ pwd
 /home/user
 ```
 
-Once you've made sure you're in there, let's try a new command:
+Once you've made sure, let's try a new command:
 
 ```console
 $ touch foo.txt
 ```
 
-The touch command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it. Touch creates a new file if it doesn’t exist, but when the file exists, it will only modify the time when it was last accessed. 
+The `touch` command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it. `Touch` creates a new file if it doesn’t exist, but when the file exists, it will only modify the time when it was last accessed. 
 
-In this case, we are creating a .txt which means it is a new plain text file, but it could have been a .csv file which could be a list or representing a spreadsheet in plain text.
+In this case, we are creating a .txt, which means it is a new plain text file.  It could have been a .csv file, which would be a list or represent a spreadsheet in plain text.
 
-If the command succeeds, you won't see any output. So, let’s make sure the file is now part of your folder by using the command ls
+You won't see any output after executing this command. Let’s make sure the file is now part of your folder by using the command `ls`
 
 ```console
 $ ls
 ```
 
-See any differences? If the command was successful and you were in the right place, you should see a file called foo.txt in the home folder. Pretty cool, right?
+See any differences? If the command was successful, you should see a file called foo.txt in the home folder. Pretty cool, right?
 
+<Info>
 **Why the file is called foo.txt?**
 As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but foo is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
+</Info>
 
 ## Handy Tip: Use the arrows on the keyboard! 
 
-Let's say you liked that 'foo.txt' file so much you'd like another! In the command line emulator, press the <kbd>up arrow</kbd> on your keyboard. You'll notice this populates the line with the command that you just wrote: “touch foo.txt” 
+Let's say you liked that 'foo.txt' file so much you'd like another! Instead of writing, now press the <kbd>up arrow</kbd> on your keyboard. You'll notice this action populates the terminal with the last command you wrote: `touch foo.txt` 
 
-If you keep pressing the up arrow you can see all the commands you wrote recently. You can navigate the comments with up and down arrows. 
+If you keep pressing the <kbd>up arrow</kbd>, you will see all the commands you have written so far. You can navigate the commands with <kbd>up</kbd> and <kbd>down</kbd> arrows. 
 
-As we start to write more complicated and longer commands in our terminal, the up arrow is a great shortcut so you don't have to spend lots of time typing. 
+The <kbd>up arrow</kbd> is a great shortcut for efficiency. It will save us time typing, especially when writing longer commands.
 
-You can use your left/right arrows to move the insert cursor around on the screen so you can, for instance, change the file name to 'foot.txt' to create a different file.
+You can also use your <kbd>left</kbd> and <kbd>right</kbd> arrows to move the insert cursor within the line you are typing. This will allow you to make changes in one command if necessary. 
 
 ## Creating folders 
 
-OK, so we're going to create a projects folder!
-First, let's check to make sure we're still in the Home folder with `pwd`:
+OK, so we're going to create a `projects` folder!
+First, double check you are located at `home` using the `pwd` command:
 
 ```console
 $ pwd
 /home/user
 ```
 
-Once you've double-checked you're there, we'll use the `mkdir` or "make directory" command to make a folder called projects:
+Great! Use the `mkdir` or "make directory" command to create a folder called `projects`:
 
 ```console
 $ mkdir projects
 ```
 
-Now run ls to see if a projects folder has appeared. Once you confirm that the projects folder was created successfully, cd into it.
+Confirm that `projects` was created successfully using `ls`. Access the folder with the command `cd`.
 
 ```console
 $ cd projects
 ```
 
-And check that you are in the new folder
+Pay attention to the change before `$`, and double-check that you are in the new folder
 
 ```console
 $ pwd
 /home/user/projects
 ```
 
-OK, now you've got a projects folder! 
+Congratulations! You've got yourself a `projects` folder! 
 
-In this case ‘projects’ is the name of the folder, but it could be called any name we wanted. For example, if we use `$ mkdir bananas`, then the directory would be ‘bananas’
+In this case `projects` is the name of the folder, but it could be called any name we wanted. For example, we could have used `$ mkdir bananas` and the directory would be `bananas`.
 
-When you work on your computer and create folders, they should be visible on your graphical desktop too. 
+<Info>
+When you work on your computer and create folders, they will be visible on your GUI too. Paying attention to the path will help you find them easily later when you interact with your computer out of the command line.
+</Info>
 
 ## Moving a file to our new folder
 
-Now that you have a folder for your projects, let’s move our first file to this folder. 
+Now that you have a `projects` folder, let’s move foo.txt to this folder. 
 
-First, be sure you are located in the current location of the file, which is /home/user/projects. If you are not there, use the commands we have learned to make projects your working directory. You need to be in the folder where the file is located to execute the next command successfully. 
+You need to be located in the same folder that contains the file to be able to move it. This is why it is important to know the path to the file. In our case, we created foo.txt in `/home/user/`. 
 
-Once you are there, type the mv command followed by the name of the file you want to move and then the file path to your projects:
+Use `pdw` to make sure you are in the right folder.
+
+```console
+$ pwd
+/home/user
+```
+
+If you are not there, use the commands we have learned to navigate to the right directory. In bigger projects, you might also use `ls` if you want to double-check that you are in the folder that contains the file.
+
+Once you are there, type the `mv` command followed by the name of the file that you want to move. After this, include the path to the folder where you want to move the file:
 
 ```console
 $ mv foo.txt /home/user/projects
 ```
 
-You can then navigate to that `/projects` folder and use the `ls` command to check that the file is there. 
+To check the result, use `cd` to access `/projects`. Then use `ls` to check that the file is there. 
 
-## Activities
+## Review
 
 **Challenge** 
 - Check the directory you are in. 
@@ -483,13 +496,9 @@ What does the <kbd>up arrow</kbd> do?
 - It shows me what folder I am working in.
 </Quiz>
 
-**For further consideration**
-
-- Think of your current form of organizing information on your computer or a specific cloud service where you store information. Do you follow a specific system to organize it? Is it possible for you to draw a diagram of it? 
-
-- Now, think of how would be a good way to organize information when you create folders in that space. Is it possible for you to draw a diagram?
-
-- Finally, think of the different spaces where you store your information. Is it possible to draw a diagram of how you organize your information in general and how these spaces interact?
+**Reflexion**
+*How do I organize my digital information?*
+-Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
 
 ## Create your Command Line Cheat Sheet 
 
