@@ -276,7 +276,7 @@ As computers became smaller, anyone -with the purchasing power- could take home.
 
 Going back to the metaphor, now libraries store digital collections. We can visit them without the physical experience of the shelves and the information organized in the space. We also relate to new information structures in our everyday practices, as  the [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005) elaborates. 
 
-The filesystem is not so much a metaphor we live by. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
+The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
 ## Orienting yourself in the command line: folders
 
@@ -910,9 +910,9 @@ This will allow you to create a new version of the nypl_items.csv file with the 
 What do command line flags allow you to do? (select one)
 
 <Quiz>
-Flags allow you to mark the file you are working on.
-Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
-Flags are a common way to specify options for the command line programs.* 
+- Flags allow you to mark the file you are working on.
+- Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
+- Flags are a common way to specify options for the command line programs.* 
 </Quiz>
 
 ## Search the data 
@@ -1023,8 +1023,8 @@ In the next pages, we will explain how you can transfer this knowledge to your c
 
 Here are some questions to review the lessons of the workshop:
 
-_1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)__
-
+1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)
+   
 <Quiz>
 - It inserts my last command.*
 - It quits the Terminal/GitBash.
@@ -1032,7 +1032,7 @@ _1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)_
 - It shows me what folder I am working in.
 </Quiz>
 
-__2. What do command line flags allow you to do? (Select one of the following)__
+2. What do command line flags allow you to do? (Select one of the following)
 
 <Quiz>
 - Flags are a common way to specify options for command line programs.*
@@ -1040,11 +1040,12 @@ __2. What do command line flags allow you to do? (Select one of the following)__
 - Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
 </Quiz>
 
-__3. What effect does the following command produce?__
+3. What effect does the following command produce?
 
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
 ```
+
 (Select one of the following)
 
 <Quiz>
@@ -1054,7 +1055,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-__4. What do `|` allow you to do? (Select all that apply)__
+4. What do `|` allow you to do? (Select all that apply)
 
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
@@ -1062,8 +1063,8 @@ __4. What do `|` allow you to do? (Select all that apply)__
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-__5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)__
-
+5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
+   
 <Quiz>
 - `$ pwd`*
 - `$ ls`
@@ -1071,25 +1072,26 @@ __5. What command do you run if you are trying to identify where in the filesyst
 - `$ whoami`
 </Quiz>
 
-__6. Let's think about the `grep` command. Select all that pertain to the command.__
-
+6. Let's think about the `grep` command. Select all that pertain to the command.
+   
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
 - It can be combined with other commands, so as to produce a search that matches their output.*
 - It produces a new file with the lines containing the strings or words you are searching.
-- It delete the strings or words you are searching from a file.
+- It delete the strings or words you are searching from a file. 
 </Quiz>
 
-__7. What is the difference between a plain text document and a rich text document? (Select all that apply)__
+7. What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Rich text is styled text, i.e., plain text completed by information such as font size, format, and colors.*
 - Plain text cannot be marked up.
-- One can’t determine whether there is a difference between the two without looking at their content.
+- One can’t determine whether there is a difference between the two without looking at their content. 
 </Quiz>
 
-**Reflection**
+### Reflection
+
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
 # Transferring knowledge to your computer

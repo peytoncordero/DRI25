@@ -9,6 +9,7 @@ learning objectives:
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
 
 authors:
+    - 'Ian G. Williams'
 
 instructors:
     - 'Ian G. Williams'
@@ -48,7 +49,7 @@ projects:
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
     - Creating websites also involves making sure that it is designed to be accessible for those with disabilities. If your website displays images, then each image should also contain [alt text](https://accessibility.psu.edu/images/alttext/) metadata that describes the image such that it is usable for screenreaders. Screenreaders make websites accessible for those with visual and/or auditory disabilities. Similarly, if your website involves showcasing audio-based information (like interviews or lectures) then you should provide a transcription of the audio. We will go over basic practices of making websites accessible in this workshop. You can learn more about accessibility standards and guidelines at the [W3C's page on Web Accessibility](https://www.w3.org/standards/webdesign/accessibility). Furthermore, there are also services like the [WAVE tool](https://wave.webaim.org/) that help identify ways of making websites more accessible.
-    - Creating websites, and posting them online, builds things that may be simultaneously ephemeral and permanent. A website may break down at a future point and require ongoing maintenance, modification, or other form of care. A website may even disappear over time through future changes to hosting infrastructure or other technological factors. Yet a website may also find itself living on, even after it has been removed deliberately or otherwise, through databases such as [The Internet Archive's Wayback Machine](https://archive.org/web/).
+    - Creating websites, and posting them online, builds things that may be simultaneously ephemeral and permanent. A website may break down at a future point and require ongoing maintenance, modification, or other form of care. A website may even disappear over time through future changes to hosting infrastructure or other technological factors. Yet a website may also find itself living on, even after it has been removed deliberately or otherwise, through [search engine indexes](https://www.searchenginejournal.com/search-engines/website-indexing/) and databases such as [The Internet Archive's Wayback Machine](https://archive.org/web/).
 
 resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
@@ -162,7 +163,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 ## Activity
 
 <Info> __Tip__:
-If you have not already installed Visual Studio Code, you can click the following links for corresponding installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
+If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
 Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). Inside that folder, create a new text file and save it as `index.html`.
@@ -420,7 +421,7 @@ Do you remember the glossary terms from this section?
 
 Images are another important component of websites. Sometimes these just help bring your website to life, but other times they can help communicate information to users.  
   
-Images are created with the `<img>` tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The `src` attribute stands for "source" and communicates secondary information to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
+Images are referenced with the `<img>` tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The `src` attribute stands for "source" and communicates secondary information to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
   
 The following element pulls in an image located in the same folder as the `.html` file:  
   
@@ -456,7 +457,7 @@ This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/
 
 Download and save an image from the web, or move an image from your computer into the same folder as your `index.html` file.
 
-Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.
+<Info>Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
 
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
