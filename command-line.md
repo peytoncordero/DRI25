@@ -98,17 +98,24 @@ In this image you can see how the Command Line Interface (CLI) looks on a Mac co
 
 ![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
 
-To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
+To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably. 
 
 As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
-## Command Line in human-computer interaction
+## Command line and humans
 
-Technology changes over time and human-computer interactions (HCI) go hand in hand with the developments in hardware. Thus, to understand the command line is worth contextualizing it along other ways of interacting with computers.
+As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different HCI in relation to computer history to get a better understanding of where the command line stands.
 
-The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
 
-ENIAC (Electrical Numerical Integrator and Calculator) was the first electronic programmable computer. It was hardware the size of a room (1,800 square feet) created in 1945 for warfare purposes designed by two men and programmed by six women. 
+<Info>
+    
+We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943.
+*Bonus:* The archive is done in Omeka, a program that requires installations using the Command Line.
+
+</Info>
+
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet) conceived for warfare purposes. It was designed by two men and programmed by six women. 
 
 <Info>
     
@@ -116,23 +123,31 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 </Info>
 
-As HCI depends on the available technology, ENIAC used *punch cards*. Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. This is how punched cards look: 
+As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
 ![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
 
-Punch cards, in fact, were important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines. However, punching cards, even with mechanical keypunchs, was not quick or friendly. 
+<Info>
+    
+Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. They became important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines.
+    
+</Info>
 
-## Sizing of the computers and human-computer interaction
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, those first machines required very specialized knowledge, especially mathematics, to be able to communicate with them.
+
+## Resizing computers 
  
-New technologies, including hardware and software, were required to allow new ways of interacting with these machines. The first computers required very specialized knowledge, especially mathematics, to be able to interact with them! That HCI also required physically traveling to a place and going into a specific room. 
+New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
-The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! Interacting with the computer via the command line was much friendlier and more efficient than the punch cards.
+The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
-Making HCI easier or more efficient was part of the collective agenda. Another user-friendly interface emerged. GUI, which stands for Graphic User Interface allows users to communicate with the computer by clicking on icons. At first, the interface was limited to specific programs but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s. Though it is possible to navigate on GUI without it, the mouse -invented in 1963- was central to its popularization. 
+Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
 
-Today we interact via GUI with computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+At first, the interface was limited to specific programs. After the 1980s, it became central to operating systems, such as macOS, Linux, and Windows. You can navigate GUI with the keyboard, but the mouse -invented in 1963- was central to its popularization. 
 
-Despite all these technological developments, the command line interface continues to be a faster and more efficient way to interact with our computers. This is especially important for people working on digital projects.  
+Today, with computers that can be transported in our hands, we interact with them via touchscreen. And far from the first computers making mathematical operations, we use these machines for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+
+GUI is the friendlier interface to provide a good user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects.  
 
 <Info>
     
