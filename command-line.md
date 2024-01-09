@@ -577,8 +577,8 @@ What does the <kbd>up arrow</kbd> do?
 </Quiz>
 
 **Reflection**
-*How do I organize my digital information?*
--Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
+*How do you organize your digital information?*. Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? 
+Now, keep in mind your responses to these questions and relate them to the information from the workshop, what practices could help you improve in managing your digital information?
 
 ## Creating a cheat sheet 
 
@@ -1087,9 +1087,9 @@ In the next pages, we will explain how you can transfer this knowledge to your c
 
 ## Review
 
-Here are some questions to review the lessons of the workshop:
+**Questions to review the lessons of the workshop!**
 
-1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)
+What does the <kbd>up</kbd> arrow command do? (Select one of the following)
    
 <Quiz>
 - It inserts my last command.*
@@ -1098,7 +1098,7 @@ Here are some questions to review the lessons of the workshop:
 - It shows me what folder I am working in.
 </Quiz>
 
-2. What do command line flags allow you to do? (Select one of the following)
+What do command line flags allow you to do? (Select one of the following)
 
 <Quiz>
 - Flags are a common way to specify options for command line programs.*
@@ -1106,7 +1106,7 @@ Here are some questions to review the lessons of the workshop:
 - Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
 </Quiz>
 
-3. What effect does the following command produce?
+What effect does the following command produce?
 
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
@@ -1121,7 +1121,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-4. What do `|` allow you to do? (Select all that apply)
+What do `|` allow you to do? (Select all that apply)
 
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
@@ -1129,7 +1129,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
+What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
    
 <Quiz>
 - `$ pwd`*
@@ -1138,7 +1138,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - `$ whoami`
 </Quiz>
 
-6. Let's think about the `grep` command. Select all that pertain to the command.
+Let's think about the `grep` command. Select all that pertain to the command.
    
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
@@ -1147,7 +1147,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - It delete the strings or words you are searching from a file. 
 </Quiz>
 
-7. What is the difference between a plain text document and a rich text document? (Select all that apply)
+What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
