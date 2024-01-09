@@ -124,13 +124,13 @@ Do you remember the glossary terms from this section?
 3. Open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on Mac computers, this is usually a two-finger tap on the track pad, or you can press the <kbd>control</kbd> button then click the track pad).
 4. Select `View Page Source` from the dropdown menu.
 
-![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/capture.png)
+![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/param_capture.png)
 
 ### What You Are Seeing
 
 A second tab should open in your browser displaying the underlying code of the page. This is the code that is used to make and render the page in your web browser.
 
-![Image showing the page source information and underlying HTML code of a webpage](/images/html-css/capture_pageSource.png)
+![Image showing the page source information and underlying HTML code of a webpage](/images/html-css/param_capture_pagesource.png)
 
 In this workshop, we are going to learn how to read and write this code, and render it in the browser on your local computer. At the end we will discuss the next steps for how you could host your new website, making it available for browsing by others via the internet.
 
