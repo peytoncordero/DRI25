@@ -4,9 +4,12 @@ cover title: HTML & CSS
 description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the World Wide Web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites and website templates. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
+
+    - At the end of this workshop, you will be able to...
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
+    - Draw connections between HTML, CSS, and the workshops on the Command Line and Data Literacies.
 
 authors:
     - 'Ian G. Williams'
@@ -49,7 +52,7 @@ projects:
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
     - Creating websites also involves making sure that it is designed to be accessible for those with disabilities. If your website displays images, then each image should also contain [alt text](https://accessibility.psu.edu/images/alttext/) metadata that describes the image such that it is usable for screenreaders. Screenreaders make websites accessible for those with visual and/or auditory disabilities. Similarly, if your website involves showcasing audio-based information (like interviews or lectures) then you should provide a transcription of the audio. We will go over basic practices of making websites accessible in this workshop. You can learn more about accessibility standards and guidelines at the [W3C's page on Web Accessibility](https://www.w3.org/standards/webdesign/accessibility). Furthermore, there are also services like the [WAVE tool](https://wave.webaim.org/) that help identify ways of making websites more accessible.
-    - Creating websites, and posting them online, builds things that may be simultaneously ephemeral and permanent. A website may break down at a future point and require ongoing maintenance, modification, or other form of care. A website may even disappear over time through future changes to hosting infrastructure or other technological factors. Yet a website may also find itself living on, even after it has been removed deliberately or otherwise, through databases such as [The Internet Archive's Wayback Machine](https://archive.org/web/).
+    - Creating websites, and posting them online, builds things that may be simultaneously ephemeral and permanent. A website may break down at a future point and require ongoing maintenance, modification, or other form of care. A website may even disappear over time through future changes to hosting infrastructure or other technological factors. Yet a website may also find itself living on, even after it has been removed deliberately or otherwise, through [search engine indexes](https://www.searchenginejournal.com/search-engines/website-indexing/) and databases such as [The Internet Archive's Wayback Machine](https://archive.org/web/).
 
 resources:
     - "[HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php): A cheat sheet with some common HTML commands."
@@ -61,7 +64,7 @@ resources:
 
 # Getting Started with HTML and CSS
 
-Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
+Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. With hypertext, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
   
 <Info>**Fun fact**: More than 90% of all websites (whose markup language we know) use HTML
 [(w3techs.com)](https://w3techs.com/technologies/details/ml-html/all/all).</Info>
@@ -72,13 +75,15 @@ HTML is a markup language used to write web-based documents. It enables us to pr
 
 ### Markup Language vs. Programming Language
 
-HTML is a *markup* language, not a programming language. Programming languages are used to transform data, by creating scripts that organize an output of data based on a particular input of data. A markup language is used to control the presentation of data.
+HTML is a *markup* language, not a programming language. **Programming languages** are used to transform data, by creating scripts that organize an output of data based on a particular input of data. **A markup language** is used to control the presentation of data.
 
 For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table.
 
-Fundamentally, then, a script or program is a set of instructions given to the computer. A document in a markup language determines how information is presented to a user.
+<!--- TODO: Add images or diagrams of tables --->
 
-<Info>**Markup vs Markdown:** Markdown and HTML are both types of markup languages; Markdown is a play on words. Markup languages help format content.</Info>
+Fundamentally, then, a script or program is *a set of instructions given to the computer*. It follows the same logic as explored in the command line workshop. A document in a markup language determines how information is presented to a user.
+
+<Info>**Markup vs Markdown:** [Markdown](https://www.markdownguide.org/) and HTML are both types of markup languages; Markdown is a play on words. Markup languages help format content.</Info>
 
 ### Cascading Style Sheets (CSS)
 
@@ -455,9 +460,15 @@ This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/
 
 ## Activity
 
-Download and save an image from the web, or move an image from your computer into the same folder as your `index.html` file.
+Download and save an image from the web, download and save this image of a boiler, or move an image from your computer into the same folder as your `index.html` file.
+
+![Image of a boiler](/images/html-css/boiler.jpg)
 
 <Info>Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+
+```html
+<img alt="This is an image" src="image.jpeg" />
+```
 
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
@@ -476,7 +487,7 @@ As we’ve gone through the different components of creating a webpage, you like
   
 Here are a few examples:
 
-- Some tags are self-closing, while others require a closing tag. Self-closing tags are called void tags, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
+- Some tags are self-closing, while others require a closing tag. Self-closing tags are called **void tags**, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
 - Your code should be nested. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
 
