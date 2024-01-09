@@ -1142,7 +1142,8 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
-# Transferring knowledge to your computer
+# Transferring knowledge
+**How to use find the terminal in your computer**
 
 Now that you understand the CLI, you can apply this knowledge to your computer. 
 
