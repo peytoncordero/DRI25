@@ -61,7 +61,7 @@ resources:
 
 # Getting Started with HTML and CSS
 
-Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
+Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. With hypertext, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
   
 <Info>**Fun fact**: More than 90% of all websites (whose markup language we know) use HTML
 [(w3techs.com)](https://w3techs.com/technologies/details/ml-html/all/all).</Info>
@@ -72,13 +72,15 @@ HTML is a markup language used to write web-based documents. It enables us to pr
 
 ### Markup Language vs. Programming Language
 
-HTML is a *markup* language, not a programming language. Programming languages are used to transform data, by creating scripts that organize an output of data based on a particular input of data. A markup language is used to control the presentation of data.
+HTML is a *markup* language, not a programming language. **Programming languages** are used to transform data, by creating scripts that organize an output of data based on a particular input of data. **A markup language** is used to control the presentation of data.
 
 For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table.
 
-Fundamentally, then, a script or program is a set of instructions given to the computer. A document in a markup language determines how information is presented to a user.
+<!--- TODO: Add images or diagrams of tables --->
 
-<Info>**Markup vs Markdown:** Markdown and HTML are both types of markup languages; Markdown is a play on words. Markup languages help format content.</Info>
+Fundamentally, then, a script or program is *a set of instructions given to the computer*. It follows the same logic as explored in the command line workshop. A document in a markup language determines how information is presented to a user.
+
+<Info>**Markup vs Markdown:** [Markdown](https://www.markdownguide.org/) and HTML are both types of markup languages; Markdown is a play on words. Markup languages help format content.</Info>
 
 ### Cascading Style Sheets (CSS)
 
@@ -455,9 +457,15 @@ This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/
 
 ## Activity
 
-Download and save an image from the web, or move an image from your computer into the same folder as your `index.html` file.
+Download and save an image from the web, download and save this image of a boiler, or move an image from your computer into the same folder as your `index.html` file.
+
+![Image of a boiler](/images/html-css/boiler.jpg)
 
 <Info>Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+
+```html
+<img alt="This is an image" src="image.jpeg" />
+```
 
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 

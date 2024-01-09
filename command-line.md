@@ -155,37 +155,42 @@ We recommend [Hello, World - Command Line Heroes Season 2](https://www.redhat.co
     
 </Info>
 
-# What is a text for the command line?
+# Talking computer
+**What is *text* for computers?**
 
-We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
+To communicate with the computer via the command line we use *text inputs*. It is important to stop for a minute to define what *text* means in this context. 
 
-"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast *text editors* and *word processors*.
+As humans, we are used to thinking of written texts with several layers that go from the words to different fonts, sizes, bold and cursive letters, etc. These characteristics are for the human interpretation of a text, as they help to understand information. 
+
+For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. 
+
+If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side of the text.
 
 ## Word processors
 
-Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We choose, for example, a new typografy and letter size and the program immediately displays the changes without showing us the code the computer is reading to render the formatting. 
+Word processors are programs to write and edit a document, such as Microsoft Word or Google Docs. When we these programs, we input text (in the computer sense) and the processor encodes our desired changes into the text appearance. For example, when choosing a new typography, we immediately see the change on our end. What we don't see is that the program has a hidden code to do the formatting. 
 
 ![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
-To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML), instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
+To put it in another way, what looks like "just words!" in a word processor to us as humans is being encoded for the computer to execute changes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML). XML works as instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
 
 ![This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts can not recognize (which show up as question marks). Here we reproduce only a very small part of the long result to give you a bit of the taste of the nonsense it is for humans: P K exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E](/images/command-line/CatWordDoc.png "Word Doc as visualized by Command Line")
 
-The computer tried to read the hidden code, but only Microsoft Word could read those instructions. The styled text produced by word processors is known as *rich text*. 
+The computer tried to read with the encoding, but only Microsoft Word could read those instructions. The styled text produced by word processors is known as *rich text*.
 
-Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
+Rich text is text -in the computer sense- with rich encoding. The implementation of that encoding can be proprietary, as it is in the case of Microsoft Word, or can be open source, such as in Libre Office. In short, rich text carries complex formatting information that would cause our computer to get lost in translation! 
 
 ## Text editors
 
-To interact with the computer, we need to use *plain text*, which is text without hidden formatting. It is produced by text editors following international standards. Thus, it has the advantages of being manipulable in different editors and readable within the command line. 
+We need *plain text* to communicate with our computer. Plain text is the text without hidden formatting. It has the advantage of being manipulable in different editors, readable within the command line, and used for programming languages. 
 
-According to [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0): “Plain text is a pure sequence of character codes” (p.18); “is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards. The only way it can be marked up is in ways that can not be hidden from the human eye. 
+Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Plain text is a pure sequence of character codes” (p.18); “is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards to the computer. 
 
-Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
+To produce plain text we need *text editors*. Text editors are programs for editing plain text files. Some of the types of files that include plain text are  .txt, .csv, or .md. Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. 
 
-Text editors are not used to edit rich text documents. Word processors should not be used to edit plain text files, because the formatting would prevent programs from running and configuration files from being read correctly.
+Text editors are not used to edit rich text documents because of the encoding. In the same line, word processors should not be used to edit plain text files because we would add encoding that would prevent programs from running and configuration files from being read correctly.
 
-While it doesn't matter which text editor you choose, you should try to become comfortable with at least one of them. In the end, choosing a text editor has as much to do with personality as it does with functionality!
+While it doesn't matter which text editor you choose, you should try to become comfortable with at least one. Ultimately, choosing a text editor has as much to do with personality as it does with functionality!
 
 ## Evaluation
 
@@ -198,7 +203,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 - A programming language.
 </Quiz>
 
-2. What is the difference between a plain text document and a rich text document?(Select all that apply)
+2. What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
@@ -207,13 +212,13 @@ While it doesn't matter which text editor you choose, you should try to become c
 - One can't determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-**To think forward:**
-- In what ways do you interact with computers in your everyday life? 
-- What is the Command Line? How is it different from your text editor?
+**Reflection**
+As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
+Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
-# Hands-on the command line!
+# Hands-on!
 
-Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
+Now we start to interact with the computer via the command line! Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
 
 To access the emulator, check the top-right side of the screen (or the top if you are using a small device). There is a rectangle with the text "Open Code Editor". When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
 
@@ -271,7 +276,8 @@ Computers have the option of including multiple users. The output to `whoami` wi
 </Info>
 
 
-# The filesystem: information structure on the computer 
+# The filesystem 
+**information structure on the computer** 
 
 To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
 
@@ -293,7 +299,7 @@ Going back to the metaphor, now libraries store digital collections. We can visi
 
 The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
-## Orienting yourself in the command line: folders
+## Orienting yourself in the command line 
 
 We're going to try another command. This time it will help us to understand where we are on the computer. Write the following command and press enter:
  
@@ -440,7 +446,7 @@ As we mentioned in the ethical considerations of this workshop, the command line
 
 </Info>
 
-## Handy Tip: use your keyboard arrows! 
+## Handy Tip 
 
 Let's say you liked that 'foo.txt' file so much you'd like another! Instead of writing, now press the <kbd>up arrow</kbd> on your keyboard. You'll notice this action populates the terminal with the last command you wrote: `touch foo.txt` 
 
@@ -489,7 +495,7 @@ When you work on your computer and create folders, they will be visible on your 
 
 </Info>
 
-## Moving a file to our new folder
+## Moving a file
 
 Now that you have a `projects` folder, let’s move foo.txt to this folder. 
 
@@ -548,7 +554,7 @@ What does the <kbd>up arrow</kbd> do?
 *How do I organize my digital information?*
 -Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
 
-## Create your command line cheat sheet 
+## Creating a cheat sheet 
 
 We will create a text file to keep all the commands we learned in this workshop. 
 
@@ -617,7 +623,9 @@ The output should be the content of the file. In this case:
 This is my cheat sheet.
 ```
 
-## How can we add more content? 
+## Adding more content
+
+As we have been learning commands, we need to add more information in our cheat sheet.
 
 **Be aware!** To write in the file we used the `>` command. Redirect takes the output and overwrites the file. It means that, if we use `>` again on the same file -trying to add new content- it would erase our previous `This is my cheat sheet` by overwriting it. We knew that we were creating a new file so it was no problem.
 
@@ -753,10 +761,13 @@ Our graphical user interfaces allow us to save files with spaces between words i
 
 For best digital practices, we recommend making sure that file names do *not* contain spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
 
-## FUN TIME: Treasure hunting! 
+## Fun time 
+**Treasure hunting!** 
 
-Use the commands we have learned so far to go on a treasure hunt. 
-1. Access the folder command-line-treasure-hunt
+Now that you have learned commands to navigate the filesystem and create new files, we will go on a treasure hunt.
+
+To start the hunt
+1. Access the folder `command-line-treasure-hunt`
 2. Once there, ask the computer to print the instructions from README.md
 
 Right now you should be able to read those instructions! Pay attention to them and remember to take your time to check spelling and case sensitivity so that your commands work well! 
@@ -781,7 +792,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-## Interlude: two command line secrets
+## Interlude
 
 These two command lines are a treasure to make your work at the CLI easier and more efficient:
 
@@ -986,7 +997,7 @@ Let's think about the `grep` command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-## Ampliando our cheat sheet
+## Adding to the cheat sheet
 Go to your projects folder and open your cheat-sheet.txt file using the `nano` command to add the new commands learned in the workshop: 
 
 ```console
@@ -1012,7 +1023,7 @@ tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_it
 We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
 </Info>
 
-# Summary of the workshop
+# Summary 
 
 You've made it through this introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is the time to do a quick review! 
 
@@ -1034,7 +1045,7 @@ The basic steps you learned today will help as you'll further your digital skill
 
 In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
-## Final Review
+## Review
 
 Here are some questions to review the lessons of the workshop:
 
@@ -1105,7 +1116,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - One can’t determine whether there is a difference between the two without looking at their content. 
 </Quiz>
 
-### Reflection
+**Reflection**
 
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
@@ -1170,20 +1181,20 @@ The first option is to go to the applications menu. There will be a terminal ico
 
 The second option is to use the Search button (the magnifying glass) a, write “terminal”, “command”, “prompt” or “shell”. Launch the terminal. 
 
-PENDIENTE IMAGEN
+
 
 # Resources to continue learning
 
 - Are you wondering how (else) the command line can be deployed for your scholarship? [Dennis Tenen and Grant Wythoff's "Sustainable Authorship in Plain Text using Pandoc and Markdown"](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) have some answers for you.
-- [Stephen Ramsay](https://www.unl.edu/english/stephen-ramsay) is a scholar that has thought at length about the way the command line is (or can be!) embedded in a researcher's praxis. If you're interested in reading his work, here are two of his finest essays: ["Life on the Command Line"](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html) and ["Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities"](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
+- [Stephen Ramsay](https://www.unl.edu/english/stephen-ramsay) is a scholar who has thought at length about the way the command line is (or can be!) embedded in a researcher's praxis. If you're interested in reading his work, here are two of his finest essays: ["Life on the Command Line"](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html) and ["Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities"](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
 
 **Other Tutorials**
-- [*Data Science at the Command Line*](https://www.datascienceatthecommandline.com/) is an open access e-book by Jeroen Janssens, a hands-on guide that can help you become a more efficient and productive data scientist through the use of the command line.
-- [BashGuide](http://mywiki.wooledge.org/BashGuide) offers some good practice techniques for taking your BASH skills to a higher level by teaching you write some simple scripts.
+- [*Data Science at the Command Line*](https://www.datascienceatthecommandline.com/) is an open-access e-book by Jeroen Janssens, a hands-on guide that can help you become a more efficient and productive data scientist through the use of the command line.
+- [BashGuide](http://mywiki.wooledge.org/BashGuide) offers some good practice techniques for taking your BASH skills to a higher level by teaching you to write some simple scripts.
 
 **Projects or Challenges to Try**
 - [More command line challenges](https://github.com/DHRI-Curriculum/command-line/blob/main/sections/15-challenges.md) devised by the GCDI team are available here.
-- When working with digital tools, it's usually a good idea to familiarize with their documentation. Here's the [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html), where you can find Bash features for beginners and advanced users.
-- [Pandoc](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) is an online software that allows users to convert file types through the command-line (from markdown to PDF, for example).
-- [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) is a command-line exercise to download videos from YouTube.com. It requires the Python interpreter.
-- Feeling super brave? You might want to give [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) a shot! MALLET is a "a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text." It includes tools for document classification, sequence tagging, topic modeling, and numerical optimization.
+- When working with digital tools, it's usually a good idea to familiarize yourself with their documentation. Here's the [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html), where you can find Bash features for beginners and advanced users.
+- [Pandoc](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) is an online software that allows users to convert file types through the command line (from markdown to PDF, for example).
+- [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) is a command-line exercise to download videos from YouTube.com. It requires a Python interpreter.
+- Feeling super brave? You might want to give [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) a shot! MALLET is "a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text." It includes tools for document classification, sequence tagging, topic modeling, and numerical optimization.
