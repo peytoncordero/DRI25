@@ -139,7 +139,7 @@ New technologies, including hardware and software, were required to allow new wa
 
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
-Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
+Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI, pronounced "gooey"). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
 
 ![A Graphic User Interface from the 1980s](/images/command-line/GUI-IBM_PC_GEM.jpg "GUI")
 
