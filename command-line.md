@@ -168,9 +168,11 @@ To communicate with the computer via the command line we use *text inputs*. It i
 
 As humans, we are used to thinking of written texts with several layers that go from the words to different fonts, sizes, bold and cursive letters, etc. These characteristics are for the human interpretation of a text, as they help to understand information. 
 
-For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. 
+For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are not only letters, but also symbols. 
 
 ![A word is written colorfully. It says "Text! In simple plain lines and letters we see a mark that selects all "Text!" to annotate that that is a "string". Then, on the "x" it annotates "character". On the bottom you can read "character equals code unit" and "a code unit has a number of bites". ](/images/command-line/Text-computers.png "text")
+
+As English-speaking humans, we recognize here a word ("text") with an exclamation mark. The computer does not recognize a word, it looks at the string for code units.
 
 If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side.
 
@@ -716,11 +718,11 @@ To verify that the file was created use the command `ls`. You should see the new
 
 We used `|` as part of our last two commands. This symbol is called *pipe*. Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
-This diagram shows the process that pipes do:
+This diagram illustrates the process the computer will do when we use pipe.
 
-![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/pipes.png "Pipes diagram")
+![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/Pipe.png "Pipes diagram")
 
-This is how the diagram relates to our recent commands: 
+Now we will describe how the diagram relates to our recent commands: 
 
 To sort the document: 
 - Command 1: `$ cat cheat-sheet.txt`
@@ -1140,7 +1142,8 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
-# Transferring knowledge to your computer
+# Transferring knowledge
+**How to use find the terminal in your computer**
 
 Now that you understand the CLI, you can apply this knowledge to your computer. 
 
