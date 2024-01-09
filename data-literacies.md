@@ -739,17 +739,25 @@ Descriptive analysis helps us summarize a data set.
 ## Challenge: Analysis
 
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
-2. How do we guide our decisions of interpretation with our choices of analyses?
-3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
-4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
-
-### Solution:
 
 <Secret>
-1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
-2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
-3. Potential misuse that I am always concern with is the weaponization of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators.
-4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
+You may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. IMany end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+
+2. How do we guide our decisions of interpretation with our choices of analyses?
+
+<Secret>
+The interpretation of the results should align itself with the type of analyses that you ran. In addition, it should be guided in some capacity by previous work in this area to inform you understanding and the ethical implications you have evaluated.
+
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
+
+<Secret>
+Potential misuse we should concern ourselves with is the weaponization of marginalized participants' words and thoughts. We need to be wary the unintended use of our research because we can't consider every circumstances that the analysis can be misused or misquoted. When working on an oral history project, we may set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. Walsh in [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8#ch18) gives us an example of the Inter-University Consortium for Political and Social Research (ICPSR) that requires differnt "levels of restriction and access" to social media data.
+</Secret>
+
+4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
+
+<Secret> 
+4. In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communitiies, our priority is that our work is meaningful to them and the excitement of exploring a new tool can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 </Secret>
 
 ### Keywords
