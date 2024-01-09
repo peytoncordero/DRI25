@@ -169,9 +169,7 @@ Three core principles of the Belmont report are:
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
-## Institutional Compliance for Data and Research (Cont'd)
-
-### When is an IRB required?
+## When is an IRB required?
 
 Usually, IRB review is required when *ALL* of the criteria below are met:
 
@@ -252,17 +250,35 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
     - E.g. We can present the result in a pie chart or a bar graph.
 
-## Stages of Data ( Cont'd)
+## Stages of Data: Non-linear
 
 The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
 
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
 
-# Ethical Considerations and Impacts 
+# Ethics Beyond Compliance 
 
-As we explore stages of data, we will evaluate the ethical considerationss and implications beyond the institution and 
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as " as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
 
-## Challenge: Ethical Considerations and Impacts 
+### Levels of Impact
+
+Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible od probable impact[our work may have], rather than the prevention of the impact. 
+
+This session, drawing from Markham (2016), will focus on three levels of impact:
+
+1. Direct impacts on people
+2. Ramifications of (re)producing categories
+3. Social, political and economic effects. 
+
+Additionally, this workshop will address the range of impact, or the range of accessibility to your work:
+
+- to people with disabilities,
+- to people in different countries or who speak different languages, and
+- in terms of cost and proprietary accessibility.
+
+Throughout the workshop we will refer to the impacts by number for quick refernce.
+
+## Challenge: Ethics Beyond Compliance 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
 
@@ -273,6 +289,7 @@ Using a large language model application such as Chat GPT to analyze personal in
 </Secret> 
 
 This is only one of the possible considerations, but there are more to evaluate.
+
 
 ## Naming Conventions for Directory Structures
 
@@ -291,6 +308,14 @@ For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.e
 But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
+
+## Level of Impact I: Direct Impacts on People through Data Collection
+
+#### Direct effects on people
+
+#### What counts as "human"? What data should be off limits?
+
+###
 
 ## Data and Labor
 
@@ -431,6 +456,10 @@ Tiger,Jaws
 
 This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
+## Level of Impact II: Politics of Knowledge Production and Categorization
+
+
+
 ## The Importance of Using Open Data Formats
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
@@ -547,6 +576,9 @@ Do you remember the glossary terms from this section?
 - [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
 - [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
+
+## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
+
 
 # Side Note on Data Structures: Tidy Data
 
