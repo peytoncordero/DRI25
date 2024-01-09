@@ -125,7 +125,7 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
-![A used punch card](images/command-line/Punch-card.png "Punch card")
+![A used punch card](/images/command-line/Punch-card.png "Punch card")
 
 <Info>
     
