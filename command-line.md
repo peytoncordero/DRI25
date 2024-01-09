@@ -143,8 +143,6 @@ New technologies, including hardware and software, were required to allow new wa
 
 ![A computer terminal](images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
 
-*DEC VT100 terminal at the Living Computer Museum. Modified from the original photo by Jason Scott*
-
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
 Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
