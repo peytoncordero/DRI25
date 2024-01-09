@@ -135,6 +135,8 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
 
 Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, those first machines required very specialized knowledge, especially mathematics, to be able to communicate with them.
 
+![Two of the women who programmed ENIAC operating it](images/command-line/Two_women_operating_ENIAC.jpg)
+
 ## Resizing computers 
  
 New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
