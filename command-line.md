@@ -111,11 +111,11 @@ The first “computers” were humans: it was an occupation. Before electronic c
 <Info>
     
 We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943.
-*Bonus:* The archive is done in Omeka, a program that requires installations using the Command Line.
+**Bonus:** This archive is done with Omeka, a program that requires installations using the Command Line.
 
 </Info>
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes. It was designed by two men and programmed by six women. 
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes, which was designed by two men and programmed by six women. 
 
 <Info>
     
@@ -133,9 +133,7 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
     
 </Info>
 
-Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. Here is a picture of two programmers at ENIAC to illustrate this interaction.
-
-![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. 
 
 ## Resizing computers 
  
@@ -262,7 +260,7 @@ However in different Operative Systems, the sign varies somewhat, and sometimes 
 
 ## Getting started 
 
-There is basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+There is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
 
 Let's try our first command! 
 
@@ -311,7 +309,9 @@ The metaphor is not about the material means to keep the files, but about keepin
 
 ## Issues of a metaphor
 
-When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information, just as the library of our metaphor. And a shared room requires as much organization as possible. 
+When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
+
+![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
 As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
 
