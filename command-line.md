@@ -789,9 +789,12 @@ cheat  sheet.txt
 
 **Practices for better interaction with the computer**
 
-Our graphical user interfaces allow us to save files with spaces between words in the name, and we usually don’t think about the consequences of those naming practices. Imagine instead of *cheat sheet.txt* you were attempting to open a very important file for a project with a name such as *final data.txt* using the CLI! 
+Our graphical user interfaces allow us to save files with spaces between words in the name (e.g. 'interesting name.docx'), and we usually don’t think about the consequences of those naming practices. Imagine instead of 'cheat sheet.txt' you were attempting to open in the command line a very important file for a project such as '*final data.csv*' using the CLI! 
 
-For best digital practices, we recommend making sure that file names do *not* contain spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
+For best digital practices, we recommend:
+- Make sure that file names do *not* contain spaces.
+- Use creative capitalization (InterestingName.docx), dashes (interesting_name.docx), or underscores (interesting_name.docx) instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands.
+- Avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with file extensions (e.g., the full name of a PDF file is usually file.pdf) or system files (which contain core functions for your operative system). 
 
 ## Fun time 
 **Treasure hunting!** 
