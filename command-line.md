@@ -591,6 +591,8 @@ $ pwd
 /home/user/projects
 ```
 
+It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of the metaphor of the library: to find a book, you need to know how to get to the right shelf. 
+
 <Info>
 
 A useful command when you have to navigate from one path to another is 
@@ -602,8 +604,6 @@ $ cd ~
 The sign `~` is called *tilde*. The command `cd ~` gets you to your user folder, `home`. Once you are there, it will be easier to get to a new location. 
     
 </Info>
-
-It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of the metaphor of the library: to find a book, you need to know how to get to the right shelf. 
 
 **Now that we are ready, let's create the cheat sheet!**  
 
