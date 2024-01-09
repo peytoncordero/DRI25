@@ -7,12 +7,10 @@ cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 programming_language: 'computer'
 
 learning objectives: 
-    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for'
-    - Navigating the file structure in a computer.
-    - Creating new files and directories.
-    - Moving content and files to new locations within the file structure. 
-    - Searching within text files
-    - Doing a basic exploration of a text dataset
+    - description: 'At the end of this workshop, you will be able to' 
+    - Understand what the command line is and relate it to different ways for human-computer interaction. 
+    - Explain the usefulness of interacting with your computer via the command line.
+    - Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
 
 estimated time: 3 hours
 
@@ -66,27 +64,25 @@ resources:
 
 Welcome to the Command Line Workshop! 
 
-Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
+Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
 
-- Creating new files and directories 
-- Navigating the file structure in a computer. 
-- Moving content and files to new locations within the file structure. 
-- Searching within text files. 
-- Doing a basic exploration of a dataset. 
+- Understand what the command line is and relate it to different ways for human-computer interaction
+- Explain the usefulness of interacting with your computer via the command line
+- Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
 
 The command line is a basic tool to create several projects. It allows you to
 
-- Easily automate tasks such as creating, copying, and converting files.
-- Set up your programming environment.
-- Run programs you create.
-- Access the (many) programs and utilities that do not have graphical equivalents.
+- Easily automate tasks such as creating, copying, and converting files
+- Set up your programming environment
+- Run programs you create
+- Access the (many) programs and utilities that do not have graphical equivalents
 - Access and control other computers remotely 
 - Collaborate remotely in digital projects
-- Install certain programs, including server-side software (or more advanced software-as-a-service software). 
+- Install certain programs, including server-side software (or more advanced software-as-a-service software)
 
-Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
+And there are other uses that you will find according to your interests and the places your future projects might take you! 
 
 # What is the command line?
 
@@ -111,11 +107,11 @@ The first “computers” were humans: it was an occupation. Before electronic c
 <Info>
     
 We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943.
-*Bonus:* The archive is done in Omeka, a program that requires installations using the Command Line.
+**Bonus:** This archive is done with Omeka, a program that requires installations using the Command Line.
 
 </Info>
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes. It was designed by two men and programmed by six women. 
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes, which was designed by two men and programmed by six women. 
 
 <Info>
     
@@ -133,9 +129,7 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
     
 </Info>
 
-Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. Here is a picture of two programmers at ENIAC to illustrate this interaction.
-
-![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. 
 
 ## Resizing computers 
  
@@ -145,7 +139,7 @@ New technologies, including hardware and software, were required to allow new wa
 
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
-Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
+Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI, pronounced "gooey"). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
 
 ![A Graphic User Interface from the 1980s](/images/command-line/GUI-IBM_PC_GEM.jpg "GUI")
 
@@ -204,7 +198,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 ## Evaluation
 
-1. What is the command line? (Select one)
+What is the command line? (Select one)
 
 <Quiz>
 - A program to edit plain text.
@@ -213,7 +207,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 - A programming language.
 </Quiz>
 
-2. What is the difference between a plain text document and a rich text document? (Select all that apply)
+What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
@@ -262,7 +256,7 @@ However in different Operative Systems, the sign varies somewhat, and sometimes 
 
 ## Getting started 
 
-There is basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+There is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
 
 Let's try our first command! 
 
@@ -311,13 +305,21 @@ The metaphor is not about the material means to keep the files, but about keepin
 
 ## Issues of a metaphor
 
-When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information, just as the library of our metaphor. And a shared room requires as much organization as possible. 
+When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
+
+![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
 As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
 
-Going back to the metaphor, now libraries store digital collections. We can visit them without the physical experience of the shelves and the information organized in the space. We also relate to new information structures in our everyday practices, as  the [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005) elaborates. 
+![A smartphone being hold by someone in their hand](/images/command-line/pexels-mohi-syed-50614.jpg)
 
 The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
+
+<Info>
+    
+Going back to the metaphor, now libraries store digital collections. We can visit them without the physical experience of the shelves and the information organized in the space. We also relate to new information structures in our everyday practices, as  the [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005) elaborates. 
+    
+</Info>
 
 ## Orienting yourself in the command line 
 
@@ -402,24 +404,26 @@ Because we changed our location within the filesystem, the information to the le
 
 ## Review
 
-**Evaluation**
+### Evaluation
 
-1. What command do you run to identify the directory where you are currently located?
+What command do you run to identify the directory where you are currently located?
 
 <Quiz>
+    
 - $ `ls`
 - $ `pwd`*
 - $ `cd`
 - $ `whoami`
+  
 </Quiz>
 
-**Keywords**
+
 <Keywords>
 - Filesystem
 A filesystem (or file system) is a set of methods and data structures that an operating system (e.g., Windows, MacOS, Linux, etc.) uses to control how data is stored and retrieved on a disk (such as your computer’s hard drive, or even a USB pen drive). Some operating systems include support for more than one file system.
 
 - GUI
-"Graphical User Interface,” pronounced "gooey.” It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
+"Graphical User Interface," pronounced "gooey." It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
 
 - Root
 The root is the top-level directory of a filesystem. Staying with the tree metaphor to represent a hierarchical structure, if the root is the starting point, the folders are the tree’s branches, and the files are the leaves. Please note that “root” is also often used as a synonym for the administrative user on a system.
@@ -573,8 +577,8 @@ What does the <kbd>up arrow</kbd> do?
 </Quiz>
 
 **Reflection**
-*How do I organize my digital information?*
--Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
+*How do you organize your digital information?*. Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? 
+Now, keep in mind your responses to these questions and relate them to the information from the workshop, what practices could help you improve in managing your digital information?
 
 ## Creating a cheat sheet 
 
@@ -587,6 +591,8 @@ $ pwd
 /home/user/projects
 ```
 
+It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of the metaphor of the library: to find a book, you need to know how to get to the right shelf. 
+
 <Info>
 
 A useful command when you have to navigate from one path to another is 
@@ -598,8 +604,6 @@ $ cd ~
 The sign `~` is called *tilde*. The command `cd ~` gets you to your user folder, `home`. Once you are there, it will be easier to get to a new location. 
     
 </Info>
-
-It might seem repetitive or basic to check our location once again. However, when you are working on a bigger project, documenting the location of files is important, as we need to know the path to access them. Think again of the metaphor of the library: to find a book, you need to know how to get to the right shelf. 
 
 **Now that we are ready, let's create the cheat sheet!**  
 
@@ -755,21 +759,21 @@ We will use `test` for this specific project. Go to that directory
 $ cd test
 ```
 
-Now try creating a new file with the name *cheat sheet.txt* using `touch`
+Now try creating a new file with the name *cheat sheet.txt*  
 
 ```console
-$ touch cheat sheet.txt
+$ touch “This is my cheat sheet” 
 ```
-Try printing it on the command line with `cat`
+And include the same text that we included before
 
 ```console
-$ touch cheat sheet.txt
-$ cat cheat sheet.txt
+$ echo “This is my cheat sheet”  > cheat sheet.txt
 ```
 
 What was the output?
 
-Print the list of files contained in the folder to observe the problem
+**Understanding what happened**
+Print the list of files contained in the folder to observe the problem.
 
 ```console
 $ ls
@@ -777,11 +781,25 @@ $ ls
 
 Were you close in your first guess?
 
+<Secret>
+The output of printing the list of files in `test` will be
+    
+```console
+cheat  sheet.txt
+```
+
+It means that we created two files instead of a single one. The first of them `cheat` has no extension. The second one is a .txt file.
+</Secret>
+
+
 **Practices for better interaction with the computer**
 
-Our graphical user interfaces allow us to save files with spaces between words in the name, and we usually don’t think about the consequences of those naming practices. Imagine instead of *cheat sheet.txt* you were attempting to open a very important file for a project with a name such as *final data.txt* using the CLI! 
+Our graphical user interfaces allow us to save files with spaces between words in the name (e.g. 'interesting name.docx'), and we usually don’t think about the consequences of those naming practices. Imagine instead of 'cheat sheet.txt' you were attempting to open in the command line a very important file for a project such as '*final data.csv*' using the CLI! 
 
-For best digital practices, we recommend making sure that file names do *not* contain spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
+For best digital practices, we recommend:
+- Make sure that file names do *not* contain spaces.
+- Use creative capitalization (InterestingName.docx), dashes (interesting_name.docx), or underscores (interesting_name.docx) instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands.
+- Avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with file extensions (e.g., the full name of a PDF file is usually file.pdf) or system files (which contain core functions for your operative system). 
 
 ## Fun time 
 **Treasure hunting!** 
@@ -1069,9 +1087,9 @@ In the next pages, we will explain how you can transfer this knowledge to your c
 
 ## Review
 
-Here are some questions to review the lessons of the workshop:
+**Questions to review the lessons of the workshop!**
 
-1. What does the <kbd>up</kbd> arrow command do? (Select one of the following)
+What does the <kbd>up</kbd> arrow command do? (Select one of the following)
    
 <Quiz>
 - It inserts my last command.*
@@ -1080,7 +1098,7 @@ Here are some questions to review the lessons of the workshop:
 - It shows me what folder I am working in.
 </Quiz>
 
-2. What do command line flags allow you to do? (Select one of the following)
+What do command line flags allow you to do? (Select one of the following)
 
 <Quiz>
 - Flags are a common way to specify options for command line programs.*
@@ -1088,7 +1106,7 @@ Here are some questions to review the lessons of the workshop:
 - Flags are useful to create a new version of the file you are working on while preserving the old version for future access.
 </Quiz>
 
-3. What effect does the following command produce?
+What effect does the following command produce?
 
 ```console
 $ echo "Hello! My Name is Mark!" > introduction.txt
@@ -1103,7 +1121,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-4. What do `|` allow you to do? (Select all that apply)
+What do `|` allow you to do? (Select all that apply)
 
 <Quiz>
 - Pipes let you take the output of one command and use it as the input for another.*
@@ -1111,7 +1129,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - Pipes let you work on multiple files at the same time.
 </Quiz>
 
-5. What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
+What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
    
 <Quiz>
 - `$ pwd`*
@@ -1120,7 +1138,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - `$ whoami`
 </Quiz>
 
-6. Let's think about the `grep` command. Select all that pertain to the command.
+Let's think about the `grep` command. Select all that pertain to the command.
    
 <Quiz>
 - It searches the given file for lines containing a match to the given strings or words.*
@@ -1129,7 +1147,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - It delete the strings or words you are searching from a file. 
 </Quiz>
 
-7. What is the difference between a plain text document and a rich text document? (Select all that apply)
+What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
