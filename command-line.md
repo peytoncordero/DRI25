@@ -141,7 +141,7 @@ Punching cards was not a quick or friendly way to interact with computers -even 
  
 New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
-![A computer terminal](images/command-line/DEC_VT100_terminal_transparent.png)
+![A computer terminal](images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
 
 *DEC VT100 terminal at the Living Computer Museum (apparently connected to the museum's DEC PDP-11/70). Modified from the original photo (by Jason Scott) by removing the background.*
 
