@@ -102,11 +102,13 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
 
-The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. This is a photo of the team of computers who worked calculating the trajectory of the first US satellite, the Explorer 1. 
+ 
+![A group of all women human computers](/images/command-line/ComputersForExplorer1Trayectory.jpg)
 
 <Info>
     
-We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943.
+We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at NASA starting in 1943.
 **Bonus:** This archive is done with Omeka, a program that requires installations using the Command Line.
 
 </Info>
