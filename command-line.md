@@ -7,12 +7,10 @@ cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 programming_language: 'computer'
 
 learning objectives: 
-    - description: 'At the end of this workshop, you will understand the command line in relation to the history of computers and the development of other ways for human-computer interaction. Additionally, you will be able to use the command line for'
-    - Navigating the file structure in a computer.
-    - Creating new files and directories.
-    - Moving content and files to new locations within the file structure. 
-    - Searching within text files
-    - Doing a basic exploration of a text dataset
+    - description: 'At the end of this workshop, you will be able to' 
+    - Understand what the command line is and relate it to different ways for human-computer interaction. 
+    - Explain the usefulness of interacting with your computer via the command line.
+    - Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
 
 estimated time: 3 hours
 
