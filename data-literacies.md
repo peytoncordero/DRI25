@@ -24,7 +24,7 @@ readings:
     - "The book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of 'readymade' and 'custommade' data alongside ethics."
     - "[Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project."
     - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh advises researchers to think beyond the IRB and consider 'community engagement, citation, and data sharing' for ethically responsible digital research."
-    - "The article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism."
+    - "In the article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism."
 
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
@@ -169,9 +169,7 @@ Three core principles of the Belmont report are:
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
-## Institutional Compliance for Data and Research (Cont'd)
-
-### When is an IRB required?
+## When is an IRB required?
 
 Usually, IRB review is required when *ALL* of the criteria below are met:
 
@@ -252,17 +250,35 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
     - E.g. We can present the result in a pie chart or a bar graph.
 
-## Stages of Data ( Cont'd)
+## Stages of Data: Non-linear
 
 The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
 
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
 
-# Ethical Considerations and Impacts 
+# Ethics Beyond Compliance 
 
-As we explore stages of data, we will evaluate the ethical considerationss and implications beyond the institution and 
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as " as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
 
-## Challenge: Ethical Considerations and Impacts 
+### Levels of Impact
+
+Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible od probable impact[our work may have], rather than the prevention of the impact. 
+
+This session, drawing from Markham (2016), will focus on three levels of impact:
+
+1. Direct impacts on people
+2. Ramifications of (re)producing categories
+3. Social, political and economic effects. 
+
+Additionally, this workshop will address the range of impact, or the range of accessibility to your work:
+
+- to people with disabilities,
+- to people in different countries or who speak different languages, and
+- in terms of cost and proprietary accessibility.
+
+Throughout the workshop we will refer to the impacts by number for quick refernce.
+
+## Challenge: Ethics Beyond Compliance 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
 
@@ -273,6 +289,7 @@ Using a large language model application such as Chat GPT to analyze personal in
 </Secret> 
 
 This is only one of the possible considerations, but there are more to evaluate.
+
 
 ## Naming Conventions for Directory Structures
 
@@ -291,6 +308,14 @@ For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.e
 But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
+
+## Level of Impact I: Direct Impacts on People through Data Collection
+
+#### Direct effects on people
+
+#### What counts as "human"? What data should be off limits?
+
+###
 
 ## Data and Labor
 
@@ -431,6 +456,10 @@ Tiger,Jaws
 
 This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
+## Level of Impact II: Politics of Knowledge Production and Categorization
+
+
+
 ## The Importance of Using Open Data Formats
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
@@ -547,6 +576,9 @@ Do you remember the glossary terms from this section?
 - [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
 - [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
+
+## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
+
 
 # Side Note on Data Structures: Tidy Data
 
@@ -675,7 +707,17 @@ Measurements are *accurate* when: (select one)
 ## Challenge: When Do We Stop Cleaning?
 
 1. How do we know when our data is cleaned enough?
+
+<Secret>
+Often this is decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. Generally, empty entries are removed from the data sets. Perhaps if one is working with social media data, they may remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). One may decide here is where to cleaning. Some might suggest the removal of stop words like "the" "a" "an," but some may feel uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if one were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
+</Secret>
+
 2. What happens to the data that is removed?
+
+<Secret>
+Usually the IRB desires that the data is destroyed. Removed data can remain in the original "raw" file. The file that is cleaned is usually a duplicate file to allow for recovery in case a researcher made a poor decision in the process of cleaning.
+</Secret>
+
 3. Explore the `moSmall.csv` dataset.
     - Are all the measurements valid? Try checking the `Object ID` column for duplicates.
     - How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
@@ -684,17 +726,13 @@ Measurements are *accurate* when: (select one)
     - Is the collected data consistent? Does the column `Is Public Domain` correspond with the data in `Rights and Reproduction`? If it does not, which would you follow? Why?
     - As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
-### Solution:
-
 <Secret>
-1. I think this is often decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. I generally remove empty entries from my data sets. Working with social media data, I also usually remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). This is usually where I stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but I have always felt very uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if I were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
-2. For me, the data is often destroyed (usually because IRB desires it) or it remains in the original "raw" file. The file that I clean will always be a duplicate file to allow for recovery in case I made a poor decision in the process of cleaning.
-3. Exploring the dataset, here are my responses to the questions:
+3. Exploring the dataset, here are possible responses to the questions:
     - Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
-    - I will have to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
-    - The data collected is not completed. There are missing fields. Depending on where the missing field is, I may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, I will not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and I will choose to drop that row if this becomes a useful variable for my analysis.
-    - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. I am assuming that the NA can stand in for the object being in the public domain.
-    - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. I am assuming `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in my analysis, the proportion will only record female artists' objects against the rest of the collected items. I cannot necessarily answer the larger question of all non-cisgender men against the total in this case.
+    - You may choose to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
+    - The data collected is not completed. There are missing fields. Depending on where the missing field is, you may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, you may choose to not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and you may choose to drop that row if this becomes a useful variable for your analysis.
+    - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. You may assume that the NA can stand in for the object being in the public domain.
+    - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. You may assume `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in mythis analysis, the proportion will only record female artists' objects against the rest of the collected items. You may not to be able to necessarily answer the larger question of all non-cisgender men against the total in this case.
 </Secret>
 
 # More Stages of Data: Analyzed

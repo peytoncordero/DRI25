@@ -104,7 +104,7 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 ## Command line and humans
 
-As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different HCI in relation to computer history to get a better understanding of where the command line stands.
+As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
 
 The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
 
@@ -125,7 +125,7 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
-![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
+![A used punch card](/images/command-line/Punch-card.png "Punch card")
 
 <Info>
     
@@ -133,21 +133,27 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
     
 </Info>
 
-Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, those first machines required very specialized knowledge, especially mathematics, to be able to communicate with them.
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. Here is a picture of two programmers at ENIAC to illustrate this interaction.
+
+![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
 ## Resizing computers 
  
 New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
+![A computer terminal](/images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
+
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
 Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
+
+![A Graphic User Interface from the 1980s](/images/command-line/GUI-IBM_PC_GEM.jpg "GUI")
 
 At first, the interface was limited to specific programs. After the 1980s, it became central to operating systems, such as macOS, Linux, and Windows. You can navigate GUI with the keyboard, but the mouse -invented in 1963- was central to its popularization. 
 
 Today, with computers that can be transported in our hands, we interact with them via touchscreen. And far from the first computers making mathematical operations, we use these machines for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
-GUI is the friendlier interface to provide a good user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects.  
+GUI is the friendliest interface for user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects.  
 
 <Info>
     
@@ -162,9 +168,13 @@ To communicate with the computer via the command line we use *text inputs*. It i
 
 As humans, we are used to thinking of written texts with several layers that go from the words to different fonts, sizes, bold and cursive letters, etc. These characteristics are for the human interpretation of a text, as they help to understand information. 
 
-For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. 
+For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are not only letters, but also symbols. 
 
-If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side of the text.
+![A word is written colorfully. It says "Text! In simple plain lines and letters we see a mark that selects all "Text!" to annotate that that is a "string". Then, on the "x" it annotates "character". On the bottom you can read "character equals code unit" and "a code unit has a number of bites". ](/images/command-line/Text-computers.png "text")
+
+As English-speaking humans, we recognize here a word ("text") with an exclamation mark. The computer does not recognize a word, it looks at the string for code units.
+
+If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side.
 
 ## Word processors
 
@@ -216,9 +226,9 @@ While it doesn't matter which text editor you choose, you should try to become c
 As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
-# Hands-on the command line!
+# Hands-on!
 
-Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
+Now we start to interact with the computer via the command line! Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
 
 To access the emulator, check the top-right side of the screen (or the top if you are using a small device). There is a rectangle with the text "Open Code Editor". When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
 
@@ -250,9 +260,15 @@ When you see the '$', you're in the right place. In the following lessons, we wi
 
 However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a '%' or a '#'. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
 
-## Getting started: know thyself
+## Getting started 
 
-You may also see your username to the left of the command prompt $. Let's try our first command. Type the following command and press enter on your keyboard:
+There is basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+
+Let's try our first command! 
+
+**Know thyself**
+
+Type the following command and press enter on your keyboard:
 
 ```console
 $ whoami
@@ -264,7 +280,9 @@ The `whoami` command should print out your username. On DHRIFT the response shou
 user
 ```
 
-Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+If you notice, the command `whoami` stands for 'who am i?.' While this command might sound a bit silly, it is a very useful command. 
+
+For example, we might have multiple users for a digital project. Sometimes we might need to change from one user to another as not all users have the same permissions of access or for making specific changes. Therefore, we might want to check what user we are at a given moment to know if the command will be successful or change into the right user for the command.
 
 Now that we know 'thyself', our next step should be to understand where we are. 
 
@@ -276,9 +294,12 @@ Computers have the option of including multiple users. The output to `whoami` wi
 </Info>
 
 
-# The filesystem: information structure on the computer 
+# The filesystem 
+**information structure on the computer** 
 
 To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
+
+![Diagram of the filesystem. The top level has a folder called users with a line indicating that it has other folders over it. If we one level down there are there users, each of them with a folder. The users are user-name, someonelse and me-too. User-name has documents, applications, and desktop, and inside of documents has two other folders. The user someonelse has documents, applications, and desktop; additional this user has a folder called whatever that contains two folders. One of those folders contains another folder. The user called me-too has documents, applications, and desktops, and has one folder inside of documents](/images/command-line/Filesystem-diagram.png "Diagram of the filesystem")
 
 We can think of a library as a metaphor for going inside a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
@@ -298,7 +319,7 @@ Going back to the metaphor, now libraries store digital collections. We can visi
 
 The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
-## Orienting yourself in the command line: folders
+## Orienting yourself in the command line 
 
 We're going to try another command. This time it will help us to understand where we are on the computer. Write the following command and press enter:
  
@@ -313,11 +334,13 @@ You should get the output
 
 The command `pwd`, which stands for 'print working directory,' allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. The command `pwd` won't print anything except on your screen. This command is easier to grasp when we interpret 'print' as 'display.'
 
-Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. You can draw these relationships in a tree. 
+Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the filesystem. 
 
-![Screen shot of the icons of folders organized as a tree of the filesystem in the MacOS GIU](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
+Previously we shared a diagram of the system. Here we want to share how the system is represented in MacOS, a GUI:
 
-In other words, there's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
+![Screen shot of the icons of folders organized as a tree of the filesystem MacOS](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
+
+There are folders up in the hierarchy that we do not see in this representation. There's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
 
 When you execute `pwd` in your computer, the output will be similar to `/Users/your-username`. It means you're in the `your-username` directory in the `Users` folder inside the `root` directory. This directory is often called the `home`, as our output in the emulator: 
 
@@ -445,7 +468,7 @@ As we mentioned in the ethical considerations of this workshop, the command line
 
 </Info>
 
-## Handy Tip: use your keyboard arrows! 
+## Handy Tip 
 
 Let's say you liked that 'foo.txt' file so much you'd like another! Instead of writing, now press the <kbd>up arrow</kbd> on your keyboard. You'll notice this action populates the terminal with the last command you wrote: `touch foo.txt` 
 
@@ -494,7 +517,7 @@ When you work on your computer and create folders, they will be visible on your 
 
 </Info>
 
-## Moving a file to our new folder
+## Moving a file
 
 Now that you have a `projects` folder, let’s move foo.txt to this folder. 
 
@@ -553,7 +576,7 @@ What does the <kbd>up arrow</kbd> do?
 *How do I organize my digital information?*
 -Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? Having in mind your responses to these questions and the information from the workshop, what practices could help you improve in managing your digital information?
 
-## Create your command line cheat sheet 
+## Creating a cheat sheet 
 
 We will create a text file to keep all the commands we learned in this workshop. 
 
@@ -622,7 +645,9 @@ The output should be the content of the file. In this case:
 This is my cheat sheet.
 ```
 
-## How can we add more content? 
+## Adding more content
+
+As we have been learning commands, we need to add more information in our cheat sheet.
 
 **Be aware!** To write in the file we used the `>` command. Redirect takes the output and overwrites the file. It means that, if we use `>` again on the same file -trying to add new content- it would erase our previous `This is my cheat sheet` by overwriting it. We knew that we were creating a new file so it was no problem.
 
@@ -693,11 +718,11 @@ To verify that the file was created use the command `ls`. You should see the new
 
 We used `|` as part of our last two commands. This symbol is called *pipe*. Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
-This diagram shows the process that pipes do:
+This diagram illustrates the process the computer will do when we use pipe.
 
-![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/pipes.png "Pipes diagram")
+![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/Pipe.png "Pipes diagram")
 
-This is how the diagram relates to our recent commands: 
+Now we will describe how the diagram relates to our recent commands: 
 
 To sort the document: 
 - Command 1: `$ cat cheat-sheet.txt`
@@ -758,10 +783,13 @@ Our graphical user interfaces allow us to save files with spaces between words i
 
 For best digital practices, we recommend making sure that file names do *not* contain spaces. How? By using creative capitalization, dashes, or underscores instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands. You might also avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with system files or file extensions (e.g., the full name of a PDF file is usually file.pdf). 
 
-## FUN TIME: Treasure hunting! 
+## Fun time 
+**Treasure hunting!** 
 
-Use the commands we have learned so far to go on a treasure hunt. 
-1. Access the folder command-line-treasure-hunt
+Now that you have learned commands to navigate the filesystem and create new files, we will go on a treasure hunt.
+
+To start the hunt
+1. Access the folder `command-line-treasure-hunt`
 2. Once there, ask the computer to print the instructions from README.md
 
 Right now you should be able to read those instructions! Pay attention to them and remember to take your time to check spelling and case sensitivity so that your commands work well! 
@@ -786,7 +814,7 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - None of the above.
 </Quiz>
 
-## Interlude: two command line secrets
+## Interlude
 
 These two command lines are a treasure to make your work at the CLI easier and more efficient:
 
@@ -991,7 +1019,7 @@ Let's think about the `grep` command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-## Ampliando our cheat sheet
+## Adding to the cheat sheet
 Go to your projects folder and open your cheat-sheet.txt file using the `nano` command to add the new commands learned in the workshop: 
 
 ```console
@@ -1017,7 +1045,7 @@ tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_it
 We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
 </Info>
 
-# Summary of the workshop
+# Summary 
 
 You've made it through this introduction to the command line! By now, you have experienced some of the power of communicating with your computer using text commands. Now is the time to do a quick review! 
 
@@ -1039,7 +1067,7 @@ The basic steps you learned today will help as you'll further your digital skill
 
 In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
-## Final Review
+## Review
 
 Here are some questions to review the lessons of the workshop:
 
@@ -1110,11 +1138,12 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 - One can’t determine whether there is a difference between the two without looking at their content. 
 </Quiz>
 
-### Reflection
+**Reflection**
 
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
-# Transferring knowledge to your computer
+# Transferring knowledge
+**How to use find the terminal in your computer**
 
 Now that you understand the CLI, you can apply this knowledge to your computer. 
 
@@ -1175,20 +1204,20 @@ The first option is to go to the applications menu. There will be a terminal ico
 
 The second option is to use the Search button (the magnifying glass) a, write “terminal”, “command”, “prompt” or “shell”. Launch the terminal. 
 
-PENDIENTE IMAGEN
+
 
 # Resources to continue learning
 
 - Are you wondering how (else) the command line can be deployed for your scholarship? [Dennis Tenen and Grant Wythoff's "Sustainable Authorship in Plain Text using Pandoc and Markdown"](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) have some answers for you.
-- [Stephen Ramsay](https://www.unl.edu/english/stephen-ramsay) is a scholar that has thought at length about the way the command line is (or can be!) embedded in a researcher's praxis. If you're interested in reading his work, here are two of his finest essays: ["Life on the Command Line"](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html) and ["Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities"](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
+- [Stephen Ramsay](https://www.unl.edu/english/stephen-ramsay) is a scholar who has thought at length about the way the command line is (or can be!) embedded in a researcher's praxis. If you're interested in reading his work, here are two of his finest essays: ["Life on the Command Line"](https://files.zotero.net/eyJleHBpcmVzIjoxNTkyNjY1MDk3LCJoYXNoIjoiODFkNDJmZmU1ZjU3YzRmMDE2YTQ1ZmQwY2YzOTUwYmIiLCJjb250ZW50VHlwZSI6InRleHRcL2h0bWwiLCJjaGFyc2V0IjoidXRmLTgiLCJ6aXAiOjF9/07826342b83ea870f846cfa48f1b0eb8d3d51b78ceb1b05b1e014467d7241904/life-on-the-command-line.html) and ["Programming with Humanists: Reflections on Raising an Army of Hacker-Scholars in the Digital Humanities"](https://www.openbookpublishers.com/htmlreader/DHP/chap09.html)
 
 **Other Tutorials**
-- [*Data Science at the Command Line*](https://www.datascienceatthecommandline.com/) is an open access e-book by Jeroen Janssens, a hands-on guide that can help you become a more efficient and productive data scientist through the use of the command line.
-- [BashGuide](http://mywiki.wooledge.org/BashGuide) offers some good practice techniques for taking your BASH skills to a higher level by teaching you write some simple scripts.
+- [*Data Science at the Command Line*](https://www.datascienceatthecommandline.com/) is an open-access e-book by Jeroen Janssens, a hands-on guide that can help you become a more efficient and productive data scientist through the use of the command line.
+- [BashGuide](http://mywiki.wooledge.org/BashGuide) offers some good practice techniques for taking your BASH skills to a higher level by teaching you to write some simple scripts.
 
 **Projects or Challenges to Try**
 - [More command line challenges](https://github.com/DHRI-Curriculum/command-line/blob/main/sections/15-challenges.md) devised by the GCDI team are available here.
-- When working with digital tools, it's usually a good idea to familiarize with their documentation. Here's the [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html), where you can find Bash features for beginners and advanced users.
-- [Pandoc](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) is an online software that allows users to convert file types through the command-line (from markdown to PDF, for example).
-- [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) is a command-line exercise to download videos from YouTube.com. It requires the Python interpreter.
-- Feeling super brave? You might want to give [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) a shot! MALLET is a "a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text." It includes tools for document classification, sequence tagging, topic modeling, and numerical optimization.
+- When working with digital tools, it's usually a good idea to familiarize yourself with their documentation. Here's the [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html), where you can find Bash features for beginners and advanced users.
+- [Pandoc](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown) is an online software that allows users to convert file types through the command line (from markdown to PDF, for example).
+- [youtube-dl](https://ytdl-org.github.io/youtube-dl/index.html) is a command-line exercise to download videos from YouTube.com. It requires a Python interpreter.
+- Feeling super brave? You might want to give [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) a shot! MALLET is "a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text." It includes tools for document classification, sequence tagging, topic modeling, and numerical optimization.
