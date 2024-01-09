@@ -135,17 +135,19 @@ Punch cards have been around since 1725 to operate looms in textile manufacturin
 
 Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. Here is a picture of two programmers at ENIAC to illustrate this interaction.
 
-![Two of the women who programmed ENIAC operating it](images/command-line/Two_women_operating_ENIAC.jpg)
+![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
 ## Resizing computers 
  
 New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
-![A computer terminal](images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
+![A computer terminal](/images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
 
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
 Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
+
+![A Graphic User Interface from the 1980s](/images/command-line/GUI-IBM_PC_GEM.jpg "GUI")
 
 At first, the interface was limited to specific programs. After the 1980s, it became central to operating systems, such as macOS, Linux, and Windows. You can navigate GUI with the keyboard, but the mouse -invented in 1963- was central to its popularization. 
 
