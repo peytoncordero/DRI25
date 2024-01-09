@@ -115,7 +115,7 @@ We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancompute
 
 </Info>
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet) conceived for warfare purposes. It was designed by two men and programmed by six women. 
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes. It was designed by two men and programmed by six women. 
 
 <Info>
     
