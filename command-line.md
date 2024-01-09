@@ -760,17 +760,18 @@ $ cd test
 Now try creating a new file with the name *cheat sheet.txt*  
 
 ```console
-$ echo “This is my cheat sheet”  > cheat-sheet.txt
+$ touch “This is my cheat sheet” 
 ```
 And include the same text that we included before
 
 ```console
-$ echo “This is my cheat sheet”  > cheat-sheet.txt
+$ echo “This is my cheat sheet”  > cheat sheet.txt
 ```
 
 What was the output?
 
-Now, to understand what happened, print the list of files contained in the folder to observe the problem
+**Understanding what happened**
+Print the list of files contained in the folder to observe the problem.
 
 ```console
 $ ls
@@ -784,6 +785,8 @@ The output of printing the list of files in `test` will be
 ```console
 cheat  sheet.txt
 ```
+
+It means that we created two files instead of a single one. The first of them `cheat` has no extension. The second one is a .txt file.
 </Secret>
 
 
