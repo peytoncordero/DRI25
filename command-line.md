@@ -102,9 +102,9 @@ To refer to the CLI, people also use the terms bash, terminal, or shell. Althoug
 
 As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
-## Command Line in human-computer interaction
+## Command line and humans
 
-Technology changes over time and human-computer interactions (HCI) go hand in hand with the developments in hardware. Thus, to understand the command line is worth contextualizing it along other ways of interacting with computers.
+As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different HCI in relation to computer history to get a better understanding of where the command line stands.
 
 The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
 
@@ -115,7 +115,7 @@ We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancompute
 
 </Info>
 
-ENIAC (Electrical Numerical Integrator and Calculator) was the first electronic programmable computer. It was hardware the size of a room (1,800 square feet) created in 1945 for warfare purposes designed by two men and programmed by six women. 
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet) conceived for warfare purposes. It was designed by two men and programmed by six women. 
 
 <Info>
     
@@ -123,13 +123,17 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 </Info>
 
-As HCI depends on the available technology, ENIAC used *punch cards*. Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. This is how punched cards look: 
+As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
 ![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
 
-Punch cards, in fact, were important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines. However, punching cards, even with mechanical keypunchs, was not quick or friendly. 
+<Info>
+Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. Punch cards, in fact, were important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines.
+</Info>
 
-## Sizing of the computers and human-computer interaction
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. 
+
+## Sizing of the computers 
  
 New technologies, including hardware and software, were required to allow new ways of interacting with these machines. The first computers required very specialized knowledge, especially mathematics, to be able to interact with them! That HCI also required physically traveling to a place and going into a specific room. 
 
