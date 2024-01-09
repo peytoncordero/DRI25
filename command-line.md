@@ -170,6 +170,8 @@ As humans, we are used to thinking of written texts with several layers that go 
 
 For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. 
 
+![A a word is written colorfully. It says "Text! In simple plain line and letters we see a mark that selects all "Text!" to annotate that that is a "string". Then, on the "x" it annotates "character". On the bottom you can read "character equals code unit" and "a code unit has a number of bites". ](/images/command-line/Text-computers.png "text")
+
 If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side of the text.
 
 ## Word processors
