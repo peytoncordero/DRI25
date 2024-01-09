@@ -66,21 +66,21 @@ Welcome to the Command Line Workshop!
 
 Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
 
-- Understand what the command line is and relate it to different ways for human-computer interaction.
-- Explain the usefulness of interacting with your computer via the command line.
-- Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
+- Understand what the command line is and relate it to different ways for human-computer interaction
+- Explain the usefulness of interacting with your computer via the command line
+- Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
 
 The command line is a basic tool to create several projects. It allows you to
 
-- Easily automate tasks such as creating, copying, and converting files.
-- Set up your programming environment.
-- Run programs you create.
-- Access the (many) programs and utilities that do not have graphical equivalents.
+- Easily automate tasks such as creating, copying, and converting files
+- Set up your programming environment
+- Run programs you create
+- Access the (many) programs and utilities that do not have graphical equivalents
 - Access and control other computers remotely 
 - Collaborate remotely in digital projects
-- Install certain programs, including server-side software (or more advanced software-as-a-service software). 
+- Install certain programs, including server-side software (or more advanced software-as-a-service software)
 
 And there are other uses that you will find according to your interests and the places your future projects might take you! 
 
@@ -757,27 +757,35 @@ We will use `test` for this specific project. Go to that directory
 $ cd test
 ```
 
-Now try creating a new file with the name *cheat sheet.txt* using `touch`
+Now try creating a new file with the name *cheat sheet.txt*  
 
 ```console
-$ touch cheat sheet.txt
+$ echo “This is my cheat sheet”  > cheat-sheet.txt
 ```
-Try printing it on the command line with `cat`
+And include the same text that we included before
 
 ```console
-$ touch cheat sheet.txt
-$ cat cheat sheet.txt
+$ echo “This is my cheat sheet”  > cheat-sheet.txt
 ```
 
 What was the output?
 
-Print the list of files contained in the folder to observe the problem
+Now, to understand what happened, print the list of files contained in the folder to observe the problem
 
 ```console
 $ ls
 ```
 
 Were you close in your first guess?
+
+<Secret>
+The output of printing the list of files in `test` will be
+    
+```console
+cheat  sheet.txt
+```
+</Secret>
+
 
 **Practices for better interaction with the computer**
 
