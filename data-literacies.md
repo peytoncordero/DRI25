@@ -259,6 +259,8 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Ethical Considerations and Impacts 
 
+As we explore stages of data, we will evaluate the ethical considerationss and implications beyond the institution and 
+
 ## Challenge: Ethical Considerations and Impacts 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
@@ -903,7 +905,7 @@ For a set of great questions to help you think through your data exploration and
 
 Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below the quiz segment you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.
 
-You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. 
+You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. This dataset is adapted from the one compiled by Jeremy Singer-Vine for his 2015 BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) which includes information on refugee arrivals to the United States between 2005 and 2015 from the Department of State’s Refugee Processing Center." 
 
 Some questions to ask in preperation are:
 - Who collected this data? 
@@ -990,6 +992,7 @@ Revisit lesson [Side Note on Data Structures: Tidy Data](/workshops/data-ethics/
 - [Catherine D'Ignazio & Lauren F. Klein's Data Feminism](https://data-feminism.mitpress.mit.edu/) (scroll down the page to access the book chapters for free). It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political contexts in research, as well as providing an overview of the field.
 - [Feminist Data's Manifest-No](https://www.manifestno.com) discusses the realities of "big" data and the fallacies of unequal harm and risk distribution, particularly towards marginalized communities.
 - [Mimi Onuoha's Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets) looks at "blank spots that exist in spaces that are otherwise data-saturated," that usually affect those who are the most vulnerable.
+- [Digital Rhetorical Privacy Collective](https://drpcollective.com/) "is a coalition approach to studying privacy and surveillance in rhetoric, composition, and technical communication." The collective hosts the DRPC Privacy Week, provides teaching resources, and publishes a blog on all things privacy and writing. 
 
 ### Other Tutorials
 
