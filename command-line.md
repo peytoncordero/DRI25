@@ -406,13 +406,15 @@ Because we changed our location within the filesystem, the information to the le
 
 ### Evaluation
 
-1. What command do you run to identify the directory where you are currently located?
+What command do you run to identify the directory where you are currently located?
 
 <Quiz>
+    
 - $ `ls`
 - $ `pwd`*
 - $ `cd`
 - $ `whoami`
+  
 </Quiz>
 
 
