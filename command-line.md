@@ -720,7 +720,7 @@ We used `|` as part of our last two commands. This symbol is called *pipe*. Pipe
 
 This diagram shows the process that pipes do:
 
-![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/pipes.png "Pipes diagram")
+![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/Pipe.png "Pipes diagram")
 
 This is how the diagram relates to our recent commands: 
 
