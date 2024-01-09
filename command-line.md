@@ -315,7 +315,13 @@ When the filesystem became a generalized name (around the 1960s), only a limited
 
 As computers became smaller, anyone -with the purchasing power- could take home.  For many of these new users, the metaphor might have been more distant. However, files and folders were pretty common, and the users could relate to them. So, even if part of the information structure got fuzzy, the metaphor of the objects as a means to keep order was useful as one computer was shared per household or office. Later on, individuals started to have laptops as their personal digital space. And it is no secret that not everyone keeps their room tidy! 
 
+![A smartphone being hold by someone in their hand](/images/command-line/pexels-mohi-syed-50614.jpg)
+
+<Info>
+    
 Going back to the metaphor, now libraries store digital collections. We can visit them without the physical experience of the shelves and the information organized in the space. We also relate to new information structures in our everyday practices, as  the [Arium: Beyond the Desktop Metaphor](https://kilthub.cmu.edu/articles/thesis/Arium_Beyond_the_Desktop_Metaphor_A_new_way_of_navigating_searching_and_organizing_personal_digital_data/6723005) elaborates. 
+    
+</Info>
 
 The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
 
