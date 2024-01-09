@@ -64,13 +64,11 @@ resources:
 
 Welcome to the Command Line Workshop! 
 
-Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to use the command line for
+Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
 
-- Creating new files and directories 
-- Navigating the file structure in a computer. 
-- Moving content and files to new locations within the file structure. 
-- Searching within text files. 
-- Doing a basic exploration of a dataset. 
+- Understand what the command line is and relate it to different ways for human-computer interaction.
+- Explain the usefulness of interacting with your computer via the command line.
+- Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
 
@@ -84,7 +82,7 @@ The command line is a basic tool to create several projects. It allows you to
 - Collaborate remotely in digital projects
 - Install certain programs, including server-side software (or more advanced software-as-a-service software). 
 
-Finally, there are other uses that you will find according to your interests and the places your future projects might take you. 
+And there are other uses that you will find according to your interests and the places your future projects might take you! 
 
 # What is the command line?
 
