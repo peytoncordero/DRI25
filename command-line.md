@@ -359,7 +359,7 @@ Because we changed our location within the filesystem, the information to the le
 
 ## Review
 
-**Evaluation**
+### Evaluation
 
 1. What command do you run to identify the directory where you are currently located?
 
@@ -370,13 +370,13 @@ Because we changed our location within the filesystem, the information to the le
 - $ `whoami`
 </Quiz>
 
-**Keywords**
+
 <Keywords>
 - Filesystem
 A filesystem (or file system) is a set of methods and data structures that an operating system (e.g., Windows, MacOS, Linux, etc.) uses to control how data is stored and retrieved on a disk (such as your computer’s hard drive, or even a USB pen drive). Some operating systems include support for more than one file system.
 
 - GUI
-"Graphical User Interface,” pronounced "gooey.” It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
+"Graphical User Interface," pronounced "gooey." It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
 
 - Root
 The root is the top-level directory of a filesystem. Staying with the tree metaphor to represent a hierarchical structure, if the root is the starting point, the folders are the tree’s branches, and the files are the leaves. Please note that “root” is also often used as a synonym for the administrative user on a system.
