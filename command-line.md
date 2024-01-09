@@ -250,9 +250,15 @@ When you see the '$', you're in the right place. In the following lessons, we wi
 
 However in different Operative Systems, the sign varies somewhat, and sometimes the sign is a '%' or a '#'. In all cases, we call it a command prompt. It lets us know the computer is ready to receive a command.
 
-## Getting started: know thyself
+## Getting started 
 
-You may also see your username to the left of the command prompt $. Let's try our first command. Type the following command and press enter on your keyboard:
+There is basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+
+Let's try our first command! 
+
+**Know thyself**
+
+Type the following command and press enter on your keyboard:
 
 ```console
 $ whoami
@@ -264,7 +270,9 @@ The `whoami` command should print out your username. On DHRIFT the response shou
 user
 ```
 
-Congrats, you've executed your first command! This is a basic pattern of use in the command line: type a command, press enter on your keyboard, and receive output. 
+If you notice, the command `whoami` stands for 'who am i?.' While this command might sound a bit silly, it is a very useful command. 
+
+For example, we might have multiple users for a digital project. Sometimes we might need to change from one user to another as not all users have the same permissions of access or for making specific changes. Therefore, we might want to check what user we are at a given moment to know if the command will be successful or change into the right user for the command.
 
 Now that we know 'thyself', our next step should be to understand where we are. 
 
