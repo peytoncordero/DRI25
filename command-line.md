@@ -98,17 +98,24 @@ In this image you can see how the Command Line Interface (CLI) looks on a Mac co
 
 ![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
 
-To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably in relation to the command line.
+To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably. 
 
 As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
-## Command Line in human-computer interaction
+## Command line and humans
 
-Technology changes over time and human-computer interactions (HCI) go hand in hand with the developments in hardware. Thus, to understand the command line is worth contextualizing it along other ways of interacting with computers.
+As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different HCI in relation to computer history to get a better understanding of where the command line stands.
 
-The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943. 
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
 
-ENIAC (Electrical Numerical Integrator and Calculator) was the first electronic programmable computer. It was hardware the size of a room (1,800 square feet) created in 1945 for warfare purposes designed by two men and programmed by six women. 
+<Info>
+    
+We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at this institution starting in 1943.
+*Bonus:* The archive is done in Omeka, a program that requires installations using the Command Line.
+
+</Info>
+
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes. It was designed by two men and programmed by six women. 
 
 <Info>
     
@@ -116,23 +123,31 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 </Info>
 
-As HCI depends on the available technology, ENIAC used *punch cards*. Punch cards have been around since 1725 to operate looms in textile manufacturing; in the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. This is how punched cards look: 
+As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
 ![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
 
-Punch cards, in fact, were important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines. However, punching cards, even with mechanical keypunchs, was not quick or friendly. 
+<Info>
+    
+Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. They became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created the first program. She is known as the first computer programmer.
+    
+</Info>
 
-## Sizing of the computers and human-computer interaction
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, those first machines required very specialized knowledge, especially mathematics, to be able to communicate with them.
+
+## Resizing computers 
  
-New technologies, including hardware and software, were required to allow new ways of interacting with these machines. The first computers required very specialized knowledge, especially mathematics, to be able to interact with them! That HCI also required physically traveling to a place and going into a specific room. 
+New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
-The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! Interacting with the computer via the command line was much friendlier and more efficient than the punch cards.
+The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
-Making HCI easier or more efficient was part of the collective agenda. Another user-friendly interface emerged. GUI, which stands for Graphic User Interface allows users to communicate with the computer by clicking on icons. At first, the interface was limited to specific programs but was later included in operating systems, such as macOS, Linux, and Windows, in the 1980s. Though it is possible to navigate on GUI without it, the mouse -invented in 1963- was central to its popularization. 
+Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
 
-Today we interact via GUI with computers that can be transported in our hands, from smartphones to smartwatches. They are literally at our fingertips, as we interact with them via touchscreen. We can use them for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+At first, the interface was limited to specific programs. After the 1980s, it became central to operating systems, such as macOS, Linux, and Windows. You can navigate GUI with the keyboard, but the mouse -invented in 1963- was central to its popularization. 
 
-Despite all these technological developments, the command line interface continues to be a faster and more efficient way to interact with our computers. This is especially important for people working on digital projects.  
+Today, with computers that can be transported in our hands, we interact with them via touchscreen. And far from the first computers making mathematical operations, we use these machines for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
+
+GUI is the friendlier interface to provide a good user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects.  
 
 <Info>
     
@@ -140,37 +155,42 @@ We recommend [Hello, World - Command Line Heroes Season 2](https://www.redhat.co
     
 </Info>
 
-# What is a text for the command line?
+# Talking computer
+**What is *text* for computers?**
 
-We mentioned that the command line is text-based. As humans, we are used to text with different fonts, sizes, bold and cursive letters, etc. These characteristics are for human interpretation of a text. 
+To communicate with the computer via the command line we use *text inputs*. It is important to stop for a minute to define what *text* means in this context. 
 
-"Text-based" in the context of computers is merely the strings of words. To give a general sense of "text" when it comes to computers, we need to contrast *text editors* and *word processors*.
+As humans, we are used to thinking of written texts with several layers that go from the words to different fonts, sizes, bold and cursive letters, etc. These characteristics are for the human interpretation of a text, as they help to understand information. 
+
+For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. 
+
+If we don't want to get our computer lost in translation when communicating with it, we need to contrast *word processors* and *text editors* and the kind of text these tools produce. In other words, we need a basic understanding of what happens on the computer side of the text.
 
 ## Word processors
 
-Word processors are programs we use to write and edit a document, such as Microsoft Word or Google Docs. In them, we input text and the program allows us to make changes in the text appearance. We choose, for example, a new typografy and letter size and the program immediately displays the changes without showing us the code the computer is reading to render the formatting. 
+Word processors are programs to write and edit a document, such as Microsoft Word or Google Docs. When we these programs, we input text (in the computer sense) and the processor encodes our desired changes into the text appearance. For example, when choosing a new typography, we immediately see the change on our end. What we don't see is that the program has a hidden code to do the formatting. 
 
 ![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
-To put it in another way, what looks like "just words!" for users is formatted text using codes that the computer executes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML), instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
+To put it in another way, what looks like "just words!" in a word processor to us as humans is being encoded for the computer to execute changes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML). XML works as instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
 
 ![This screenshot of the Command Line trying to read a .docx file shows a very long string of symbols, letters from different alphabets, and even characters that our fonts can not recognize (which show up as question marks). Here we reproduce only a very small part of the long result to give you a bit of the taste of the nonsense it is for humans: P K exclamation mark control character question mark l Z square bracket Content_Types square bracket .xml question mark question mark question mark question mark n question mark 0E](/images/command-line/CatWordDoc.png "Word Doc as visualized by Command Line")
 
-The computer tried to read the hidden code, but only Microsoft Word could read those instructions. The styled text produced by word processors is known as *rich text*. 
+The computer tried to read with the encoding, but only Microsoft Word could read those instructions. The styled text produced by word processors is known as *rich text*.
 
-Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Rich text carries complex formatting information as well as text context [and its] representation may be implementation-specific or proprietary” (p.19). Surprising how much is going on behind the words shown on the screen in word processors! 
+Rich text is text -in the computer sense- with rich encoding. The implementation of that encoding can be proprietary, as it is in the case of Microsoft Word, or can be open source, such as in Libre Office. In short, rich text carries complex formatting information that would cause our computer to get lost in translation! 
 
 ## Text editors
 
-To interact with the computer, we need to use *plain text*, which is text without hidden formatting. It is produced by text editors following international standards. Thus, it has the advantages of being manipulable in different editors and readable within the command line. 
+We need *plain text* to communicate with our computer. Plain text is the text without hidden formatting. It has the advantage of being manipulable in different editors, readable within the command line, and used for programming languages. 
 
-According to [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0): “Plain text is a pure sequence of character codes” (p.18); “is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards. The only way it can be marked up is in ways that can not be hidden from the human eye. 
+Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, “Plain text is a pure sequence of character codes” (p.18); “is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards to the computer. 
 
-Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. A text editor is a program that allows you to edit plain text files, such as .txt, .csv, or .md. 
+To produce plain text we need *text editors*. Text editors are programs for editing plain text files. Some of the types of files that include plain text are  .txt, .csv, or .md. Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. 
 
-Text editors are not used to edit rich text documents. Word processors should not be used to edit plain text files, because the formatting would prevent programs from running and configuration files from being read correctly.
+Text editors are not used to edit rich text documents because of the encoding. In the same line, word processors should not be used to edit plain text files because we would add encoding that would prevent programs from running and configuration files from being read correctly.
 
-While it doesn't matter which text editor you choose, you should try to become comfortable with at least one of them. In the end, choosing a text editor has as much to do with personality as it does with functionality!
+While it doesn't matter which text editor you choose, you should try to become comfortable with at least one. Ultimately, choosing a text editor has as much to do with personality as it does with functionality!
 
 ## Evaluation
 
@@ -183,7 +203,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 - A programming language.
 </Quiz>
 
-2. What is the difference between a plain text document and a rich text document?(Select all that apply)
+2. What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
@@ -192,9 +212,9 @@ While it doesn't matter which text editor you choose, you should try to become c
 - One can't determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-**To think forward:**
-- In what ways do you interact with computers in your everyday life? 
-- What is the Command Line? How is it different from your text editor?
+**Reflection**
+As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
+Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
 # Hands-on the command line!
 

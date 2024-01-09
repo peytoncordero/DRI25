@@ -23,7 +23,8 @@ readings:
     - In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of 'smart big data.'
     - "The book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of 'readymade' and 'custommade' data alongside ethics."
     - "[Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project."
-    - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh implores researchers to think beyond the IRB and consider 'community engagement, citation, and data sharing' for ethically responsible digital research."
+    - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh advises researchers to think beyond the IRB and consider 'community engagement, citation, and data sharing' for ethically responsible digital research."
+    - "The article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism."
 
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
@@ -258,6 +259,8 @@ The previous page articulates one cycle in which data goes from collection to tr
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
 
 # Ethical Considerations and Impacts 
+
+As we explore stages of data, we will evaluate the ethical considerationss and implications beyond the institution and 
 
 ## Challenge: Ethical Considerations and Impacts 
 
@@ -725,6 +728,8 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 
 As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
+![Bias in= Bias out](/images/data-ethics/bias.png)
+
 ## Evaluation
 
 Descriptive analysis helps us summarize a data set.
@@ -737,22 +742,28 @@ Descriptive analysis helps us summarize a data set.
 ## Challenge: Analysis
 
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
-2. How do we guide our decisions of interpretation with our choices of analyses?
-3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
-4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
-
-### Solution:
 
 <Secret>
-1. I may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. I end up representing only those who fall within the "normal" curve which may not actually be an equitable representation.
-2. The interpretation of the results should align itself with the type of analyses that I ran. In addition, it should be guided in some capacity by previous work in this area to inform my understanding.
-3. Potential misuse that I am always concern with is the weaponization of marginalized participants' words and thoughts. I think I remain somewhat uncomfortable with the unintended use of my research because I don't think I can ever consider every circumstances that the analysis can be misused or misquoted. When I was working on an oral history project, I have set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators.
-4. In chasing the next big thing, the original intentions for beginning the project might be lost. For me, making sure that my work is meaningful to my communities is important and the excitement of exploring a new tool can sometimes distract me from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings me back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
+You may choose to leave out data that are perceived to be outliers, especially if they differ to much from the "normal" curve. IMany end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+
+2. How do we guide our decisions of interpretation with our choices of analyses?
+
+<Secret>
+The interpretation of the results should align itself with the type of analyses that you ran. In addition, it should be guided in some capacity by previous work in this area to inform you understanding and the ethical implications you have evaluated.
+
+3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
+
+<Secret>
+Potential misuse we should concern ourselves with is the weaponization of marginalized participants' words and thoughts. We need to be wary the unintended use of our research because we can't consider every circumstances that the analysis can be misused or misquoted. When working on an oral history project, we may set up some layers of boundaries to prevent too easy of an access to audio files as an attempt at negotiating access and protection of my narrators. Walsh in [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8#ch18) gives us an example of the Inter-University Consortium for Political and Social Research (ICPSR) that requires differnt "levels of restriction and access" to social media data.
+</Secret>
+
+4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
+
+<Secret> 
+4. In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communitiies, our priority is that our work is meaningful to them and the excitement of exploring a new tool can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 </Secret>
 
 ### Keywords
-
-Do you remember the glossary terms from this section?
 
 - [Descriptive Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/descriptive-analysis.md)
 - [Inferential Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/inferential-analysis.md)
@@ -760,7 +771,7 @@ Do you remember the glossary terms from this section?
 
 # More Stages of Data: Visualized
 
-Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data.
+Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data and the ethical considerations you have been evealuting throughout your project. 
 
 ### Examples of Data Visualization
 <table>
@@ -840,7 +851,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
     <tr>
 </table>
 
-This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
+This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. 
 
 An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
 
@@ -849,19 +860,33 @@ An example of effective data visualization can be seen in W.E.B. Du Bois [data p
 As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.
 
 1. What are we assuming when we choose to visually represent data in particular ways?
-2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
-3. How can data visualization mislead us? (for e.g. Nathan Yau discusses [how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/))
-4. How can data visualization help us tell a story? (for e.g. Data Feminism's [On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
-5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
-
-### Solution
 
 <Secret>
-1. An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion.
-2. Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like.
-3. Exaggerated differences through the choice of scales on the x and y-axis can misled a casual viewer to think that the data is representing a larger difference than it actually is reporting.
-4. Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story.
-5. The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, I'm not sure how effective it is.
+An underlying assumption we make is that the conventions of top-down, left-right is universal or at least universal enough for most folx to understand. This neglects potential right-to-left readers. Certain conventions that use color as a way to represent good and bad (e.g. green as good and red as bad) also assumes that this is an effective differentiation that excludes those who have visual impairments can decipher the data in a similar fashion.
+</Secret>
+
+2. As you may have realized, many of the visualization examples work with quantitative data, as such, how do you think we can visualize qualitative data? (e.g. Word Clouds, Heat Map)
+
+<Secret>
+Exploring [Voyant-Tools](https://voyant-tools.org/) can be a good place to start to see how visualization of qualitative data can look like.
+</Secret>
+
+3. How can data visualization mislead us? (for e.g. Nathan Yau discusses [how data visualization can lie](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/))
+
+<Secret>
+Exaggerated differences through the choice of scales on the x and y-axis can misled a casual viewer to think that the data is representing a larger difference than it actually is reporting.
+</Secret>
+
+4. How can data visualization help us tell a story? (for e.g. Data Feminism's [On rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3?readingCollection=0cd867ef))
+
+<Secret>
+Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story.
+</Secret>
+
+5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
+
+<Secret>
+The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, it make one wonder how effective it is.
 ![Plot of media objects in public domain by gender of artist](/images/data-ethics/genderPD.png)
 </Secret>
 
@@ -869,27 +894,10 @@ As we transform our results into visuals, we are also trying to tell a narrative
 
 Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
 
-## Final Activity
-
-In this final activity, we would like for you to think about some of the potential concerns that might come up in the scenario below and think about how you might approach them.
-
-You are interested in looking at the reactions to the democratic party presidential debates across time. You decided that you would use data from Twitter to analyze the responses. After collecting your data, you learned that your data has information from users who were later banned and included some tweets that were removed/deleted from the site.
-
-As you work through this activity, you can definitely choose to do so with your partner! And we highly encourage you to do so! Different perspectives can offer us different insights to our own gaps and help us in thinking through our decisions. Be prepared to discuss your thoughts and ideas when we "meet" for our sessions.
-
-### Some Guiding Questions
-
-1. What are some reasons you might have for anonymizing (or not) your data?
-    - Would your approach differ if the responses were anonymized v. not?
-2. Would you remove the data in your initially downloaded corpus?
-    - How might you be aware of the differences in the corpus you downloaded v. the most current information?
-3. Would the number of tweets generated impact your decisions?
-4. How might where you are at in the stages of data (e.g. "raw" data v. "cleaned" data v. analysed) affect your choices?
-
 ### Some Additional Exploration
 
 - If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, would that change the way you consider your answers to the previous questions?
-- Current [ethical guidelines](https://safelab.socialwork.columbia.edu/content/ethics) from SAFE Lab at Columbia University have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
+- Current [ethical guidelines](https://www.asc.upenn.edu/research/centers/safe-lab/ethics) from SAFE Lab at University of Pennsylvania have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
 
 # Some Concluding Thoughts
 
@@ -903,7 +911,7 @@ For a set of great questions to help you think through your data exploration and
 
 Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below the quiz segment you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.
 
-You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. 
+You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. This dataset is adapted from the one compiled by Jeremy Singer-Vine for his 2015 BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) which includes information on refugee arrivals to the United States between 2005 and 2015 from the Department of State’s Refugee Processing Center." 
 
 Some questions to ask in preperation are:
 - Who collected this data? 
@@ -990,6 +998,7 @@ Revisit lesson [Side Note on Data Structures: Tidy Data](/workshops/data-ethics/
 - [Catherine D'Ignazio & Lauren F. Klein's Data Feminism](https://data-feminism.mitpress.mit.edu/) (scroll down the page to access the book chapters for free). It looks at "big" data from a feminist perspective, and discuss the importance of understanding long histories and socio-political contexts in research, as well as providing an overview of the field.
 - [Feminist Data's Manifest-No](https://www.manifestno.com) discusses the realities of "big" data and the fallacies of unequal harm and risk distribution, particularly towards marginalized communities.
 - [Mimi Onuoha's Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets) looks at "blank spots that exist in spaces that are otherwise data-saturated," that usually affect those who are the most vulnerable.
+- [Digital Rhetorical Privacy Collective](https://drpcollective.com/) "is a coalition approach to studying privacy and surveillance in rhetoric, composition, and technical communication." The collective hosts the DRPC Privacy Week, provides teaching resources, and publishes a blog on all things privacy and writing. 
 
 ### Other Tutorials
 
