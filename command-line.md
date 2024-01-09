@@ -718,11 +718,11 @@ To verify that the file was created use the command `ls`. You should see the new
 
 We used `|` as part of our last two commands. This symbol is called *pipe*. Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
-This diagram shows the process that pipes do:
+This diagram illustrates the process the computer will do when we use pipe.
 
 ![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/Pipe.png "Pipes diagram")
 
-This is how the diagram relates to our recent commands: 
+Now we will describe how the diagram relates to our recent commands: 
 
 To sort the document: 
 - Command 1: `$ cat cheat-sheet.txt`
