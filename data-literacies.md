@@ -728,6 +728,8 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 
 As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
+
+
 ## Evaluation
 
 Descriptive analysis helps us summarize a data set.
