@@ -198,7 +198,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 ## Evaluation
 
-1. What is the command line? (Select one)
+What is the command line? (Select one)
 
 <Quiz>
 - A program to edit plain text.
@@ -207,7 +207,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 - A programming language.
 </Quiz>
 
-2. What is the difference between a plain text document and a rich text document? (Select all that apply)
+What is the difference between a plain text document and a rich text document? (Select all that apply)
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
