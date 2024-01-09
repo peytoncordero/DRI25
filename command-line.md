@@ -104,7 +104,7 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 ## Command line and humans
 
-As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why we are learning about CLI.
+As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
 
 The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities.
 
