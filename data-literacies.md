@@ -754,15 +754,13 @@ Descriptive analysis helps us summarize a data set.
 
 ### Keywords
 
-Do you remember the glossary terms from this section?
-
 - [Descriptive Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/descriptive-analysis.md)
 - [Inferential Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/inferential-analysis.md)
 - [Qualitative Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/qualitative-analysis.md)
 
 # More Stages of Data: Visualized
 
-Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data.
+Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data and the ethical considerations you have been evealuting throughout your project. 
 
 ### Examples of Data Visualization
 <table>
@@ -842,7 +840,7 @@ Visualizing your data helps you tell a story and construct a narrative that guid
     <tr>
 </table>
 
-This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data.
+This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. 
 
 An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
 
