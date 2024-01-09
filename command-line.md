@@ -142,6 +142,7 @@ Punching cards was not a quick or friendly way to interact with computers -even 
 New technologies, including hardware and software, were required to allow new ways of interacting with computers. 
 
 ![A computer terminal](images/command-line/DEC_VT100_terminal_transparent.png)
+*DEC VT100 terminal at the Living Computer Museum (apparently connected to the museum's DEC PDP-11/70). Modified from the original photo (by Jason Scott) by removing the background.*
 
 The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
 
