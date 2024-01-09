@@ -125,7 +125,7 @@ Although ENIAC was developed by women and men, the references are usually to the
 
 As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
 
-![Detail view of cards against dark grey background. for Pilot ACE computer built at the National Physical Laboratory c. 1950.](/images/command-line/Punch_cards.jpeg "Punch_cards_Pilot_ACE_c1950")
+![A used punch card](images/command-line/Punch-card.png "Punch card")
 
 <Info>
     
