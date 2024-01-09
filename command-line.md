@@ -129,7 +129,7 @@ As HCI depends on the available technology, ENIAC used *punch cards*. This is ho
 
 <Info>
     
-Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. They became important for computing way before electrical computers existed. The idea of [a mechanical computer device](https://en.wikipedia.org/wiki/Analytical_engine) was intertwined with the loom machines.
+Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. They became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created the first program. She is known as the first computer programmer.
     
 </Info>
 
