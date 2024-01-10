@@ -183,7 +183,7 @@ In this activity we to complete the following tasks
 
 To do this, we'll follow these steps. We'll use the command line to create the folders and file:
 
-1. Open your terminal. To do this: On Mac, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon ![icon](/images/html-css/terminaliconmac.png). On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+1. Open your terminal. To do this: On Mac, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon ![icon](/images/html-css/Terminaliconmac.png). On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 
 2. Navigate to your projects folder using this command:
 
