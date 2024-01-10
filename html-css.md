@@ -183,25 +183,49 @@ In this activity we to complete the following tasks
 
 To do this, we'll follow these steps. We'll use the command line to create the folders and file:
 
-1. Open your terminal. To do this:
+1. Open your terminal:
 
-- On Mac, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon.
-- On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+    On macOS, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon.
+
+    On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 
 2. Navigate to your projects folder using this command:
 
     ```console
-    $ cd ~/Desktop/projects
+    $ cd ~/Desktop/
     ```
 
-3. Create a new folder:
+3. Create the `projects` folder
+
+    ```console
+    $ mkdir projects
+    ```
+
+4. Navigate to the `projects`folder
+
+    ```console
+    $ cd projects
+    ```
+
+5. Create the `htmlprojects` subfolder:
 
     ```console
     $ mkdir htmlpractice
     ```
 
-4. Use your Visual Studio Code text editor to create a file called `index.html`: `code index.html`.
-5. Paste the <Link workshop='html-css' page='4'>`template from the previous section`</Link> (starting with `<!DOCTYPE html>`) into the new file.
+6. Create the `index.html` file:
+
+    ```console
+    $ touch index.html
+    ```
+
+7. Open the `index.html` file with VS Code.
+
+```console
+$ code index.html
+```
+
+8. Copy and paste the **HTML template** into the new file.
 
 ```html
 <!DOCTYPE html>
@@ -217,14 +241,16 @@ To do this, we'll follow these steps. We'll use the command line to create the f
 
 </html>
 ```
+**Note**
+    The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
+8. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
 
-Once you've created your new file, open it with a web browser using your graphical user interface:
+    - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
 
-On macOS, click on the Finder in your dock (the apps at the bottom of the screen) and click on Desktop on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your Desktop and find it from there. If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
+    - On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu.
 
-On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu. Select Firefox or Google Chrome from the app list that appears.
+    - For both operating systems, select **Firefox** or **Google Chrome** from the app list that appears.
 
 <Info>__Tip__:
 You can also use the Live Server plugin to open it within VS Code. Right-click `index.html` and left-click `"Open With Live Server"` 
@@ -232,13 +258,14 @@ You can also use the Live Server plugin to open it within VS Code. Right-click `
 
 ### What Happens?
 
-When you open the empty template, you'll see only a blank web page. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+When you open the empty template, you'll see only a blank web page that displays the two `...`. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
 
-### What Should Happen When I Open Each of my Two New Files?
+### What Should Happen?
 
-When you "View Page Source," you should see the code for the basic template.
+When you "**View Page Source**," you should see the code for the basic template.
 
 No content renders on the page, because there is no content in the template at this time.
+
 
 ## Evaluation
 
