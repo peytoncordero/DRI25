@@ -75,38 +75,7 @@ Broadly, research data can be understood as **materials or information necessary
 
 ## Being Data
 
-<br />
-<table>
-    <tr>
-        <th>Stage</th>
-        <th>Form</th>
-    </tr>
-    <tr>
-        <td>Raw</td>
-        <td>Textual</td>
-    </tr>
-    <tr>
-        <td>Cleaned</td>
-        <td>Numeric</td>
-    </tr>
-    <tr>
-        <td>Processed</td>
-        <td>Audio</td>
-    </tr>
-    <tr>
-        <td>Analyzed</td>
-        <td>Video</td>
-    </tr>
-    <tr>
-        <td>Visualized</td>
-        <td>Image</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>Code</td>
-    </tr>
-</table>
-
+![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code. ](/images/data-ethics/being-data.gif)
 
 ## Forms of Data
 
@@ -137,6 +106,7 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
+## Evaluate
 
 Research data can be defined as: (select all that apply)
 
@@ -208,7 +178,7 @@ Yes
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
 
-## Challenge: Forms of Data and IRB Compliance
+## Challenge: Forms of Data 
 
 Consider the following project ideas and the research data and institutional compliance needed to complete them.
 
