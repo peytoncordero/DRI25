@@ -22,7 +22,7 @@ editors:
 
 facilitators: 
     name: 'Ian G. Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. Ian likes to hang out with digital humanists, and was creating websites in HTML back in the early 2000s.'
+    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s.'
 
 estimated time:
     - 2-3 hours
@@ -41,6 +41,7 @@ readings:
     - "[Introduction Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
     - "[Digital History: A Guide To Gathering, Preserving, and Presenting the Past on the Web](http://chnm.gmu.edu/digitalhistory/) by Daniel J. Cohen and Roy Rosenzweig provides clear introduction to what a life-cycle of web-based digital humanities project might look like. The book covers a variety of aspects of a website project from initial planning, to website design, and even cultivating an audience. Participants are welcome to read as much of this free online book as suits them. I highly recommend reading the [introduction](http://chnm.gmu.edu/digitalhistory/introduction/) which helpfully explains the affordances and difficulties of web-based digital projects."
     - "[Taking a Glance at the History of HTML5](https://www.researchgate.net/publication/318259638_Taking_a_Glance_at_the_History_of_HTML5/references) by Raúl Tabarés Gutiérrez contextualizes the historical development and evolution of HTML within the context of the platform economy and Web 2.0. Gutiérrez argues that the arrival of HTML5 signaled a new moment in web standards, with social, political, and economic consequences we will see play out. A revised version of this conference paper can also be accessed through your institional library [here](https://doi.org/10.1016/j.techsoc.2021.101529)."
+    - "[Historiographies of Hypertext](https://dl.acm.org/doi/abs/10.1145/3603163.3609038) by Simon Rowberry takes a critical examination of historical narratives about the origins of hypertext, arguing that scholars should pay more attention to user communities and situate hypertext histories in broader, more comparative contexts."
 
 podcasts:
     - "[Command Line Heroes: A Language For The Web](https://www.redhat.com/en/command-line-heroes/season-7/html) A fascinating and accessible discussion on the origins of HTML and some of the technological basis required to make it happen."
