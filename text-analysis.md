@@ -51,36 +51,31 @@ resources:
 
 # Text as Data
 
-When we think of "data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
+When we think of "research data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
 
-Rarely when I ask people "what is data?" do they respond with a book or newspaper collection or  And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
+In Data Literacy, we covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
 
-Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
+This workshop approaches text analysis similar to introductions to quantitative analysis, starting with text analysis equivalents of the basics like mean, median, and mode. 
 
-What are basic ways to think about text as data?
-How do we get data ready to be analyzed?
-What can we learn from the data? 
+ * What are basic ways to think about text as data?
+ * How do we get text ready to be analyzed?
+ * What can we learn from the text computationally? 
 
 
 ## Corpora
 
-> Definition of a corpus: “any collection of more than one text”
+> A corpus is, simply put, a text under study or a set of texts to study (the plural is corpora) [Source](https://libguides.tulane.edu/text_analysis/corpora)
 
-In your own research, as we’ve learned in the data literacy portion, the relationship between finding data and research question is iterative. 
+That is, *any* collection of texts that are somehow related to each other. 
 
-In this workshop, we will hold the big theoretical questions and use a commonly used, publicly available set of texts for our corpus - NLTK
+In your own research, as we’ve learned in the data literacy portion, the relationship between corpus selection and research question is iterative. 
 
-But you can think about a corpus as *any* collection of texts that are somehow related to each other. 
-
-* 
-* 
-* 
+However, in this workshop, we will set aside the larger theoretical questions regarding corpus selection and focus on demonstrating the basics using a commonly used, publicly available set of texts for our corpus.
 
 There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
-The route you take from here will depend on your research question. 
-
-What’s an example of textual corpora in your field of research?
+<p style="text-align: center;">What’s an example of textual corpora in your field of research?
+</p>
 
 ## A Note About Languages
 
