@@ -79,7 +79,10 @@ There are infinitely many corpora, and, sometimes, you will want to make your ow
 
 ## A Note About Languages
 
-Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
+Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. 
+
+
+Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
 <Info>**Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
 
