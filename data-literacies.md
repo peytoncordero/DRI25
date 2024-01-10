@@ -580,7 +580,7 @@ Do you remember the glossary terms from this section?
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
 
-# Side Note on Data Structures: Tidy Data
+## Side Note on Data Structures: Tidy Data
 
 There are different guidelines to the processing of data, one of which is the [Tidy Data](https://www.jstatsoft.org/article/view/v059i10) format, which follows these rules in structuring data:
 
