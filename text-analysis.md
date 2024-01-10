@@ -453,12 +453,12 @@ Let’s think through what we can do with these three ingredients to make a list
 
 What do we need the code to do? 
 <Secret>
-1. Create new list.
+1.Create new list.
 
-2. In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
- * 2a. If True, we want to convert it to lower case
- * 2b. If False, ignore it
-3. Take this new lower case object and add it to our list
+2.In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+ * 2a.If True, we want to convert it to lower case
+ * 2b.If False, ignore it
+3.Take this new lower case object and add it to our list
 
 </Secret>
 
