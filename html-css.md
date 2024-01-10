@@ -6,10 +6,10 @@ description: 'HTML (Hypertext Markup Language) is used to create and organize th
 learning objectives:
 
     - At the end of this workshop, you will be able to...
-        - Familiarize yourself with the anatomy of a webpage and how the Internet works.
-        - Understand the basics of the HTML and CSS markup languages.
-        - Use HTML, CSS, and a text editor to build a small locally-hosted website.
-        - Draw connections between HTML, CSS, and the workshops on the Command Line and Data Literacies.
+    - Familiarize yourself with the anatomy of a webpage and how the Internet works.
+    - Understand the basics of the HTML and CSS markup languages.
+    - Use HTML, CSS, and a text editor to build a small locally-hosted website.
+    - Draw connections between HTML, CSS, and the workshops on the Command Line and Data Literacies.
 
 authors:
     - 'Ian G. Williams'
