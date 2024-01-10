@@ -81,13 +81,13 @@ Websites seem like these magical things that appear when we open our web browser
 
 HTML is a *markup* language, not a programming language. **Programming languages** are used to transform data, by creating scripts that organize an output of data based on a particular input of data. **A markup language** is used to control the presentation of data.
 
-For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table. Put simply, a programming table is **dynamic** while a markup table  is **static**.
+For a practical example of this difference, we can think about tables, asking what each type of language can and cannot do. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table. Put simply, a programming table is **dynamic** while a markup table  is **static**.
 
 <!--- TODO: Add images or diagrams of tables --->
 
 Fundamentally, then, a script or program is *a set of instructions given to the computer*. It follows the same logic as explored in the command line workshop. A document in a markup language determines how information is presented to a user.
 
-<Info>**Markup vs Markdown:** [Markdown](https://www.markdownguide.org/) and HTML are both types of markup languages; Markdown is a play on words. Markup languages help format content.</Info>
+<Info>**Markup vs Markdown:** [Markdown](https://www.markdownguide.org/) and HTML are both types of markup languages; Markdown is a play on words. [Markup languages](https://instruct.uwo.ca/english/706a/site/site/MLGen.html) help format content.</Info>
 
 ### Cascading Style Sheets (CSS)
 
