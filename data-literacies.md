@@ -180,14 +180,22 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 ## Challenge: Forms of Data 
 
-Consider the following project ideas and the research data and institutional compliance needed to complete them.
+What are some forms of data you use in your work?
+What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
+Where do you usually get your data from?
 
-1. You are exploring discourse on various media ecosystems. What are some forms of data you use in your work? Would you need an IRB?
+Below you will find three frontmatter pages of three digital projects. Each project is distinct in its As you explore the information Review the landing pages captured here for each digital project. From the informtaion provided in the screenshot, consider the forms of data used at retrevial, input, and output. 
+
+![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
+
+Where might the researcher(s) working on Human Computers At NASA retrieved the data used in this digital project?
 
 <Secret>
 You would most likely extract/scrape data that comes through a JSON file, which is a text-type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs and XLS.
 This project would most likely not require an IRB becuase you are not extracting identifiable  information on "human subjects".
 </Secret>
+
+![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Brooklyn-Oral-History-Collection.png)
 
 2. You want to explore the ecosystem of the streets on NYC. What forms of data would you produce as your output? Would you need an IRB?
 
@@ -195,6 +203,8 @@ This project would most likely not require an IRB becuase you are not extracting
 Your outputs would most likey be statistical or geospatial. 
 You will not need an IRb for this project since there are no "human subjects involved.
 </Secret>
+
+![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
 
 3. You want to understand the immigrant experience of a certain peoples. Where do you most likely get your data from? Would you need an IRB?
 
