@@ -68,7 +68,7 @@ resources:
 
 # Getting Started with HTML and CSS
 
-Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between links, traveling from page to page until we find what we need. With **hypertext**, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
+Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between navigate through information via links, traveling from page to page until we find what we need. Our journey through hypertext is unique to our experience. Information retrieval systems such as encyclopedia indexes and library cataloging systems pre-date digital navigation tools such as links, but follow the same logic. With **hypertext**, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
   
 <Info>**Fun fact**: More than 90% of all websites (whose markup language we know) use HTML
 [(w3techs.com)](https://w3techs.com/technologies/details/ml-html/all/all).</Info>
@@ -82,6 +82,13 @@ Websites seem like these magical things that appear when we open our web browser
 HTML is a *markup* language, not a programming language. **Programming languages** are used to transform data, by creating scripts that organize an output of data based on a particular input of data. **A markup language** is used to control the presentation of data.
 
 For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table.
+
+
+|  This 	|  is 	|   a	|   static	|  table  |
+|---	|---	|---	|---	|---    |
+|  It 	|  displays 	|   information	|   but	| cannot|
+|   manipulate 	|  or 	|  transform 	|  it 	| 
+|   However	|   a	|   dynamic	|   table	| can |
 
 <!--- TODO: Add images or diagrams of tables --->
 
@@ -1409,6 +1416,8 @@ Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and
 - Vincent Brown, [“Mapping a Slave Revolt: Visualizing Spatial History through the Archives of Slavery”](https://doi.org/10.1215/01642472-3315826) _Social Text_ 33, no. 4 125 (2015): 134–41. This is a scholarly article that provides insight into how websites are used as digital humanities research tools. In this article, Vincent Brown describes the [_Slave Revolt in Jamaica, 1760–1761: A Cartographic Narrative_](http://revolt.axismaps.com/) project, a digital archive and interactive map of Tacky's Rebellion. The article explores the potential of the digital in enabling a "rhetorical practice that can define, clarify, and advocate visions of the world that might otherwise go unarticulated."  
 
 - Elizabeth Maddock Dillon, [“By Design: Remapping the Colonial Archive”](https://doi.org/10.1215/01642472-3315838), _Social Text_ 33, no. 4 125 (2015): 142–147. This scholarly article also discusses the [_Slave Revolt in Jamaica, 1760–1761: A Cartographic Narrative_](http://revolt.axismaps.com/) project, a digital archive and interactive map of Tacky's Rebellion. Elizabeth Maddock Dillon argues for the centrality of the question of design in building websites. Dillon underscores the importance of thoughtful attention to the arrangement of imagery and text, the choice of iconography used to express information, and the form of data visualizations when creating online digital humanities projects.
+
+- Marc McDayter, ["English 405F: Hypertext Editions: Theory, Practice, and Problems"](https://instruct.uwo.ca/english/706a/site/). This class website provides a thorough overview of literary theory and technical background about hypertext. It helps the reader navigate HTML in a larger context of literature and technical languages.
 
 ## Other Tutorials
 
