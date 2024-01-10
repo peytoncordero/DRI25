@@ -64,7 +64,8 @@ This workshop approaches text analysis similar to introductions to quantitative 
 
 ## Corpora
 
-A corpus is, simply put, a text under study or a set of texts to study (the plural is corpora) [Source](https://libguides.tulane.edu/text_analysis/corpora)
+<Info>A corpus is, simply put, a text under study or a set of texts to study (the plural is corpora) [Source](https://libguides.tulane.edu/text_analysis/corpora)
+</Info>
 
 That is, *any* collection of texts that are somehow related to each other. 
 
@@ -139,7 +140,8 @@ When in *Command Mode*
 
 Run code in cell with (<kbd>shift</kbd> + <kbd>enter</kbd>).
 
-> If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
+<Info>If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
+</Info>
 
 ## Loading Corpus
 
@@ -195,9 +197,7 @@ text2
 ```
 What is this object? 
 
-What commands from previous workshops we can throw at this thing?
-What's a way that we can poke at this thing?
-
+How can we poke at this thing? What commands from previous workshops can we use?
 
 ```
 type(text4)
@@ -217,15 +217,15 @@ This may be the most famous opening line in the Western canon.
 
 As far as we can tell, is this text structured...?
 
+*Recall the Data Ethics workshop section on structured data.*
+
 <Secret>
 No, it is not organized or structured in a well-defined way or according to any rules. It appears to be just a list of all the words in the book. The text is not arranged in rows or columns, for example.
 </Secret>
 
-*Recall the Data Ethics workshop section on structured data.*
-
 So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
 
-> If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!
+<Info>If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!</Info>
 
 ## Keywords
 
@@ -235,21 +235,25 @@ Do you remember the glossary terms from this section?
 - [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
 - [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
 
-# Conceptualizing
+# Conceptualization
 
 Pick a text, text1 through text9, and think about its topic. 
 
-Some of these texts, such as the Book of Genesis or a collection of Inaugural Addresses, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
+Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural Addresses of US Presidents_, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
 
 In our own research, these preconveived notions is **theory**. 
- * The conceptualization stage of research is *defining* the concept of our research question
- 
-Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research"
 
-Example: US President
+> What can we expect from a dataset of NYC real estate prices over time, based on what we think we know about changes in neighborhood composition?
+
+The conceptualization stage of research is *defining* the concept of our research question.
+ 
+Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research" [Source] (https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+
+Example: Suppose we want to examine the concept of patriotism in the Inaugural Addresses corpus. We find that political theorist, Maurizio Viroli, defines the "language of patriotism" as "been used over the centuries to strengthen or invoke love of political institutions and the way of life that sustains the common liberty of a people, that is love of the republic." [Source](https://academic.oup.com/book/12461)
 
 # Searching for the Words
 
+What should we do with this definition of patriotism?
 
 The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. 
 
@@ -258,25 +262,44 @@ Our text is behaving like one giant string, so concordance will just count the n
 In the next JupyterLite cell, try:
 
 ```python
-text1.concordance("whale")
+text4.concordance("love")
 ```
 
-The output shows us the 25 characters on either side of the word "whale" in _Moby Dick_. Let's try this with another word, "love." Just replace the word "whale" with "love," and we get the contexts in which Melville uses "love" in _Moby Dick_. `concordance` is used (behind the scenes) for several other functions, including `similar` and `common_contexts`.
+The output shows us the 25 characters on either side of the word "love" in _Inaugural Addresses of US Presidents_. Let's try this with another word, "patriotism." Just replace the word "love" with "patriotism," and we get the contexts in which Presidents uses "patriotism" in their speeches.
 
-Let's now see which words appear in similar contexts as the word "love." NLTK has a built-in function for this as well: `similar`.
+Our question maybe, is the way "love" is used similar to how "patriotism" is used?
+
+Let's now see whether "love" and "patriotism" share similar neighbor words. NLTK has a built-in function for this as well: `similar`.
 
 ```python
-text1.similar("love")
+text4.similar("love")
 ```
-
-Behind the scenes, Python found all the contexts where the word "love" appears. It also finds similar environments, and then what words were common among the similar contexts. This gives a sense of what other words appear in similar contexts. This is somewhat interesting in itself, but more interesting if we compare it to something else. Let's take a look at another text. What about _Sense and Sensibility_ (`text2`)? Let's see what words are similar to "love" in Jane Austen's writing. In the next cell, type:
+How does this work? similar("love") returns a list of other words that appear in similar contexts as "love," the same context being the words on either side of this target word. 
 
 ```python
-text2.similar("love")
+text4.similar("patriotism")
 ```
 
-We can compare the two and see immediately that Melville and Austen use the word "love" differently.
+<Secret>
+They actually don't share the same contexts - "patriotism" does not show up on the list of similar words for "love". But "people", "government", "confidence", "freedom" showed up on both lists. Perhaps this is how patriotism relates to love -- through these concepts. 
+</Secret>
 
+## Operationalization
+
+After conceptualization, we measure for these concepts: reach for the empirical. 
+
+> "Choices made during this phase are always tied to the question “Are we
+measuring what we intend to measure?” Does our operationalization match
+our conceptual definition? To ensure validity we must recognize gaps between
+what is important and what is easy to measure." [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+
+As good researchers, we know that we must make a strong theorectical and empirical case for why what we're measuring reflects our concept. 
+
+Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?
+
+<p style="text-align: center;">
+"When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
+</p>
 ## Evaluation
 
 Which one of the following sentences is correct?
@@ -291,11 +314,13 @@ Which one of the following sentences is correct?
 Do you remember the glossary terms from this section?
 
 - [Concordance](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/concordance.md)
-- [Phatic Language](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/phatic-language.md)
+
 
 # Positioning Words
 
-In many ways, `concordance` and `similar` are heightened word searches that tell us something about what is happening near the target words. Another metric we can use is to visualize where the words appear in the text. In the case of _Moby Dick_, we want to compare where "whale" and "monster" appear throughout the text. In this case, the text is functioning as a list of words, and will make a mark where each word appears, offset from the first word. We will _pass_ this _function_ a _list_ of _strings_ to plot. In the next cell, type:
+In many ways, `concordance` and `similar` are heightened word searches that tell us something about what is happening near the target words. 
+
+Another metric we can use is to visualize where the words appear in the text. In the case of _Moby Dick_, we want to compare where "whale" and "monster" appear throughout the text. In this case, the text is functioning as a list of words, and will make a mark where each word appears, offset from the first word. We will _pass_ this _function_ a _list_ of _strings_ to plot. In the next cell, type:
 
 ```python
 text1.dispersion_plot(["whale", "monster"])
@@ -303,21 +328,24 @@ text1.dispersion_plot(["whale", "monster"])
 
 A graph should appear with a tick mark everywhere that "whale" appears and everywhere that "monster" appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story — where the whale goes from being a whale to being a monster to being a whale again. If we did not know the story, this could give us hints of the narrative arc.
 
+```python
 text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne"])
+```
 
-Looking at this plot, who is the main character?
+Looking at this visualization, who is the main character?
 
-Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story.
-
-Now try with another book and another set of words: please report if you find a cool one!
-
+Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Wihtout even knowing the story of _Sense and Sensibility_, we might be able to guess the narrative, maybe even relationships between characters, helping us develop a visual of the story.
 
 ## Challenge
 
-Try this with `text2`, _Sense and Sensibility_, [as we saw here](#downloading-the-corpus). Some relevant words are "marriage," "love," "home," "mother," "husband," "sister," and "wife." Pick a few to compare. You can compare an unlimited number, but it's easier to read a few at a time. (Note that the comma in our writing here is _inside_ the quotation mark, because that is how proper English grammar works. However, in Python, you would have to put commas _outside_ of the quotation marks to create a _list_.)
+Pick another text with a few words you want to compare. You can compare an unlimited number, but it's easier to read a few at a time. 
 
+<Info>Note that the comma in our writing here is _inside_ the quotation mark, because that is how proper English grammar works. However, in Python, you would have to put commas _outside_ of the quotation marks to create a _list_.
+</Info>
 
 ## Solution
+
+Examples:
 
 ```python
 text2.dispersion_plot(["love", "marriage"])
@@ -341,11 +369,15 @@ Check all sentences below that are correct:
 
 **Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo**
 
-How many words are there on the screen?
+How many words are there in this sentence?
 
-A word "token" is a particular appearance of a given word in a text, these two appearances of “the”; a word "type" is the unique form of the word as a particular sequence of letters, which there are 2, at this stage of processing our text. This terminology is important to understand how we cutting down our list to be more meaningful.
+Depends on whether you are asking whether words refers to tokens or types.
 
-Depends on whether you are asking whether words refers to tokens or types: token is an instance of a type, so let's try this again: how many types of words are on the screen? How many tokens?
+A word "token" is a particular appearance of a given word in a text, there are 8 instances of the word b/Buffalo. 
+
+A word "type" is the unique form of the word as a particular sequence of letters, which there are 2, "Buffalo" and "buffalo." 
+
+This terminology is important to understand how we cutting down our list to be more meaningful.
 
 How many words are in Moby Dick?
 ```python
@@ -386,8 +418,6 @@ Three types for the word whale:
 
 But what do we need to do to the corpus so that all of the types of “whale” get treated the same way? 
 
-Why do we need each type to be treated the same way?
-
 <Secret>
 
 Make a list of all the words lowercase!
@@ -396,40 +426,46 @@ Bonus: That also means removing non-words (i.e. punctuation)
 
 </Secret>
 
+Why would we want each type to be treated the same way?
+
 ## Make a list of all the words lowercase!
 
+Just like in cooking, let’s think about what we know and gather our ingredients to achieve our recipe, “make a list of all the words lowercase”:
 
-Just like in cooking, let’s think about what we know and gather our ingredients to achieve our goal, “make a list of all the words lowercase”:
+**We want a new list of the same corpus (text1) but performing any operation on the original would be irreversible**
 
- * We want a new list of the same corpus (text1) - performing any operation on the original would be irreversible 
+[Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
+
  * Python has a built-in function, ‘isalpha()’ that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
  * Lastly, we have our original corpus object, text1
 
 **Practice**
 
-```
+```python
 string = "ELI5"
 print(string.isalpha())
 print(string.lower())
 
 ```
 
-Let’s think through what we can do with these four ingredients to make a list of all the words lowercase:
+Let’s think through what we can do with these three ingredients to make a list of all the words lowercase:
 
+What do we need the code to do? 
 
-Logic of the code
 <Secret>
-Create new list.
 
-In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+>>Create new list.
+
+>>In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
  * If True, we want to convert it to lower case
  * If False, ignore it
-Take this new lower case object and add it to our list
+
+>>Take this new lower case object and add it to our list
 
 </Secret>
 
-Code version
+Python version
 
 <Secret>
 
