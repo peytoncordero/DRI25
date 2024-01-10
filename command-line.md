@@ -198,7 +198,9 @@ Text editors are not used to edit rich text documents because of the encoding. I
 
 While it doesn't matter which text editor you choose, you should try to become comfortable with at least one. Ultimately, choosing a text editor has as much to do with personality as it does with functionality!
 
-## Evaluation
+## Review
+
+**Evaluation**
 
 What is the command line? (Select one)
 
