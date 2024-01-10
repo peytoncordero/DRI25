@@ -179,24 +179,24 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 
 #### Example: Oral History Projects
 
-Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
+Your oral history project does the following; do you need a CUNY HRPP/IRB?
 
-1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or generalize findings.
 
 HRPP/IRB Required?
 
 <Secret>
 No
-</Secret>                      
+</Secret>
 
-2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).    
+2. Systematic investigations involving open-ended interviews that are designed to develop or contribute to generalizable knowledge (e.g.,designed to draw conclusions, inform policy, or generalize findings).
 
 HRPP/IRB Required?
 
 <Secret>
 Yes
 </Secret>
-                                                                             
+
 3. Creation of archives for the purpose of providing a resource for others to do research. The intent of the archive is to create a repository of information for other investigators to conduct research.
 
 HRPP/IRB Required?
@@ -204,7 +204,6 @@ HRPP/IRB Required?
 <Secret>
 Yes
 </Secret>
-
 
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
@@ -580,7 +579,7 @@ Do you remember the glossary terms from this section?
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
 
-# Side Note on Data Structures: Tidy Data
+## Side Note on Data Structures: Tidy Data
 
 There are different guidelines to the processing of data, one of which is the [Tidy Data](https://www.jstatsoft.org/article/view/v059i10) format, which follows these rules in structuring data:
 
