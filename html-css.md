@@ -48,9 +48,10 @@ podcasts:
     - "[Marketplace Tech: How The History of Blackness On The Internet Was Erased](https://www.marketplace.org/shows/marketplace-tech/how-the-history-of-blackness-on-the-internet-was-erased/) this podcast interview is with Charleton McIlwain, Professor of Media, Culture, and Communications at New York University, on his book _Black Software: The Internet and Racial Justice, from AfroNet to Black Lives Matter._ The discussion touches upon the invisibility and erasure of Black voices, perspectives, and contributions to the development of the Internet."
 
 projects:
-    - description: "HTML and CSS are fundamental to building websites, and to the Internet as we know it today. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included two different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
+    - description: "HTML and CSS are fundamental to building websites, and to the Internet as we know it today. Almost all web-based projects use HTML and CSS in some aspect of their web design. I have included three different kinds of projects that use HTML and CSS to to bring to notice a diversity of ways of using the internet and websites in digital humanities projects:"
     - "[Colored Conventions](https://coloredconventions.org/): The Colored Conventions project is a community-based archive of nineteenth-century Black political organization. In its early stage, this project crowdsourced much of its data-gathering efforts by building an interface for volunteers to digitally transcribe archival texts. This project uses HTML and CSS in many of its aspects."
     - "[Musical Passage](http://www.musicalpassage.org/): Musical Passage is an exhibit of early African diasporic music. This website reproduces a transcriptions and renditions of songs performed by enslaved African people in the Caribbean in the early eighteenth century. This project uses HTML, CSS, and other languages to provide a multimodal experience for its visitors, who can see a historical document as well as listen to the earliest known record of African diasporic music."
+    - "[The Disability History Museum](https://www.disabilitymuseum.org/dhm/index.html) is a virtual museum that 'aims to provide all site visitors, people with and without disabilities, researchers, teachers and students, with a wide array of tools to help deepen their understanding of human variation and difference, and to expand appreciation of how vital to our common life the experiences of people with disabilities have always been.' In addition to its rich resources, the website's HTML code offers useful examples of inclusive design and use of alt text for images."
 
 ethical considerations:
     - Building websites can involve making information public on the internet, which raises a host of intellectual property and legal concerns. It is very important to make sure that you prominently declare which creative commons licenses you are using for your website so that visitors to your website are aware of the ways in which they can use the information that you are providing. Learn more about choosing the appropriate creative commons license on [the Creative Commons website](https://creativecommons.org/choose/). Similarly, if your website uses images, videos, or any kind of document from other sources (like archives, artists, newspapers, etc.) you must be sure to cite these sources and make sure that you have the necessary permissions to reproduce these works.
@@ -443,13 +444,13 @@ If I wanted to indicate that "About" is a subheading in my page, which element s
 
 # Links
 
-Links are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites.  
+**Links** are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites.
   
-The `<a>` tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web. You can also use it to link to a particular location on a page—we'll see an example of this in the section on Classes and IDs.
+The **`<a>`** tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web. You can also use it to link to a particular location on a page—we'll see an example of this in the section on Classes and IDs.
 
 ## Option One: Relative Links
 
-Relative links take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
+**Relative links** take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
 
 The following appears as a link to the `about.html` page in the same folder as `index.html`:
 
@@ -465,7 +466,7 @@ This link is asking the browser to look for a file titled `about.html` in the sa
 
 ## Option Two: Absolute Links
 
-An absolute link includes information that allows the browser to find resources on other websites. This information includes the site domain—such as `google.com`—and often the protocol—such as `http` or `https`.
+An **absolute link** includes information that allows the browser to find resources on other websites. This information includes the site domain—such as `google.com`—and often the protocol—such as `http` or `https`.
 
 ```html
 <a href="https://www.google.com">Google</a>
@@ -479,7 +480,7 @@ This pathway is directing your browser to look online for this text document at 
 
 ## More on Links
 
-Each example above includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer secondary information about an element.
+Each example above includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
 
 The `<a>` tag, or anchor tag, creates a link. The text within the `<a>` and `</a>` tags, the anchor text, is what a visitor to the site will see and can click on. The `href=` attribute tells the browser where the user should be directed when they click the link.
 
@@ -489,17 +490,51 @@ There is another technical difference between the two options above.
 
 Use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
 
+For other instances, such as referring to pages or information on external sites, use absolute links.
+
 ## Activity
 
 1. Create a new text file called `about.html` in your `htmlpractice` folder. Copy over the HTML from your `index.html` file, but change the text in the `<h1>` element to "About."
+
+From your command line you can enter this code:
+
+```console
+$ touch about.html
+```
+
+If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
+
+```console
+$ cd ~Desktop/projects/htmlpractice
+```
+
 2. In your `index.html` file, add a relative link leading to your "About" page.
+
+```html
+<a href="about.html">About</a>
+```
+
 3. Also add a relative link from your "About" page to your `index.html` page. In this link, call your `index.html` page "Home" (Reminder: `index.html` is the default homepage)
+
+```html
+<a href="home.html">Home</a>
+```
+
 4. Lastly, include an absolute link to a page of your choosing. Remember that an absolute link includes the protocol (for example, `http:`) and also a domain (for example, `cuny.edu`), such as `http://cuny.edu/about`.
-5. Re-save your text files and reopen or refresh them in your browser.
+
+```html
+<a href="http://cuny.edu/about">CUNY</a>
+```
+
+5. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser.
 
 ### Check If It Worked
 
 When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page.
+
+<!---TODO: add graphic, video, or image showing connection --->
+
+Congratulations, you have just created hyperlinks. This is a foundational component of the entire Internet.
 
 ## Evaluation
 
@@ -518,9 +553,9 @@ Do you remember the glossary terms from this section?
 
 # Images
 
-Images are another important component of websites. Sometimes these just help bring your website to life, but other times they can help communicate information to users.  
+**Images** are another important component of websites. Sometimes these just help bring your website to life, but other times they can help communicate information to users.  
   
-Images are referenced with the `<img>` tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The `src` attribute stands for "source" and communicates secondary information to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
+Images are referenced with the **`<img>`** tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The **`src`** attribute stands for **"source"** and communicates __secondary information__ to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
   
 The following element pulls in an image located in the same folder as the `.html` file:  
   
@@ -528,15 +563,15 @@ The following element pulls in an image located in the same folder as the `.html
 <img src="scream.jpeg" />
 ```
 
-The same rules apply here as with the `href` attribute: if the image is not located in the same folder as the document you are writing in, the browser won't find it. If the browser cannot find an image resource, you will see a broken image icon, such as this one from Chrome:  
+The same rules apply here as with the `href` attribute: __if the image is not located in the same folder as the document you are writing in, the browser won't find it__. If the browser cannot find an image resource, you will see a broken image icon, such as this one from Chrome:
   
 ![Chrome broken image icon](/images/html-css/broken.png)
   
-Note: Some sites use a lot of images. When this is the case, it can be helpful to keep images in a separate folder within your site's structure. To enable the browser to find an image in that case, just add the directory in front of the file name. For example, if you have a folder named images in the same folder as your index.html file, and scream.jpeg is in that folder, you'd change the void tag above to `<img src="images/scream.jpeg" />`.
+**Note:** __Some sites use a lot of images__. When this is the case, it can be helpful to keep images in a separate folder within your site's structure. To enable the browser to find an image in that case, just add the directory in front of the file name. For example, if you have a folder named images in the same folder as your `index.html` file, and `scream.jpeg` is in that folder, you'd change the void tag above to `<img src="images/scream.jpeg" />`.
 
 ## Making Images Accessible
 
-As briefly noted earlier, alternative text, or alt text, is descriptive "text associated with an image that serves the same purpose and conveys the same essential information as the image" (see [Wikipedia Manual of Style/Accessibility/Alternative Text for Images](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Accessibility/Alternative_text_for_images) for more), and is important for ensuring content conveyed by images is accessible to all.
+As briefly noted earlier, alternative text, or **alt text**, is descriptive "text associated with an image that __serves the same purpose and conveys the same essential information__ as the image" (see [Wikipedia Manual of Style/Accessibility/Alternative Text for Images](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Accessibility/Alternative_text_for_images) for more), and is important for ensuring content conveyed by images is more accessible than an image alone.
 
 To add alternative text to an image, you add an additional attribute, `alt` followed by your descriptive text. For example:
 
@@ -558,7 +593,8 @@ Download and save an image from the web, download and save this image of a boile
 
 ![Image of a boiler](/images/html-css/boiler.jpg)
 
-<Info>Tip: Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+<Info>__Tip:__
+Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
 
 ```html
 <img alt="This is an image" src="image.jpeg" />
@@ -577,13 +613,13 @@ Does including "alt text" in websites improve their accessibility?
 
 # Conventions
 
-As we’ve gone through the different components of creating a webpage, you likely have noticed some common conventions or industry standards for creating a webpage using HTML. Can you guess any of these?  
+As we’ve gone through the different components of creating a webpage, you likely have noticed some common **conventions** or **industry standards** for creating a webpage using HTML. Can you guess any of these?  
   
 Here are a few examples:
 
 - Some tags are self-closing, while others require a closing tag. Self-closing tags are called **void tags**, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
-- Your code should be nested. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
+- Your code should be **nested**. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
 
 <Info>__Tip:__
 While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
@@ -595,7 +631,7 @@ In this major challenge, we will begin creating a short personal website, which 
   
 The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about yourself.  
   
-Add HTML to your `index.html` file. This page should include the following:
+Add HTML to your `index.html` file. This page should include the following component:
 
 - Doctype
 - Root element
@@ -606,15 +642,15 @@ Add HTML to your `index.html` file. This page should include the following:
 - One image with alt text
 - A menu or navigation bar that links to your Home and About pages
 
-Think about the order of your content as you assemble the body of your page. Feel free to take language from your CV, or again, make something up for a fictional character. 
+Think about the order of your content as you assemble the body of your page. Feel free to take language from your CV, or make something up for a fictional character. 
   
-Don't worry about getting the content just right. The important aspect of this exercise is to review the structure of a webpage, and practice creating a webpage.
+Don't worry about getting the content just right. The important aspect of this exercise is to review the **structure of a webpage**, and **practice creating a webpage**.
 
 ## Additional Tags
 
 Here are two additional tags that might come in handy in assembling your page:
 
-To **make a list**, you open and close it with the `<ul>` tags, and each item is an enclosed `<li>` tag:
+To **make a list**, you open and close it with the **`<ul>`** tags, and each item is an enclosed **`<li>`** tag:
 
 ```html
 <ul>
@@ -624,7 +660,7 @@ To **make a list**, you open and close it with the `<ul>` tags, and each item is
 </ul>
 ```
 
-The HTML above will produce an unordered (bulleted) list. To create an ordered (numbered) list instead, just substitute `<ol>` and `</ol>` for `<ul>` and `</ul>`.
+The HTML above will produce an unordered (bulleted) list. To create an ordered (numbered) list instead, just substitute **`<ol>`** and **`</ol>`** for `<ul>` and `</ul>`.
 
 (This may come in handy when making your menu or navigation bar.)
 
@@ -636,11 +672,33 @@ To **make a line break** or give space between different elements:
 
 ## Optional: Advanced Challenge
 
-Here is a more advanced challenge if you're up for it: Add a table containing a list of projects for your website. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp).
+Here is a more advanced challenge if you're up for it: Add a **table** containing a list of projects, research areas, or interests for your website. Insert a **break** before and after the table. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp). Here is the sample code from the previous section.
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+```
+
+```html
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+```
+
+```html
+<br />
+```
 
 # CSS Basics
 
-CSS stands for Cascading Style Sheets. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page.  
+Now that we have covered the fundamentals of HTML, it's time to move on to CSS.
+
+**CSS** stands for **Cascading Style Sheets**. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page.  
   
 Examples of what CSS can help you determine include:
 
@@ -652,7 +710,7 @@ Examples of what CSS can help you determine include:
 
 ## Evaluation
 
-Is CSS a markup language or a programming language?
+Is CSS a __markup language__ or a __programming language__?
 
 <Quiz>
 - Markup Language*
@@ -669,7 +727,7 @@ In order for CSS to inform the style of the content on the page, it must be inte
 
 ## Option 1: Inline
 
-Inline styling adds CSS directly into the HTML of a page to adjust the style of particular parts of a page.
+**Inline** styling adds CSS directly into the HTML of a page to adjust the style of particular parts of a page.
 
 For example, if you want the text of your first paragraph to be red, but the text of your second paragraph to be blue:
 
@@ -691,9 +749,11 @@ For example, if you want the text of your first paragraph to be red, but the tex
 </html>
 ```
 
+<!--- Add screenshot of the output --->
+
 ## Option 2: Internal
 
-Internal styling also adds CSS directly into the HTML, but keeps it separate from the content code of the page by adding it into the head using the `<style>` tag. When using internal styling you are providing styling rules for the entire page. For example, if you want all headings to be blue:
+**Internal** styling also adds CSS directly into the HTML, but keeps it separate from the content code of the page by adding it into the head using the `<style>` tag. When using internal styling you are providing styling rules for the entire page. For example, if you want all headings to be blue:
 
 ```html
 <!DOCTYPE html>
@@ -726,7 +786,7 @@ Internal styling also adds CSS directly into the HTML, but keeps it separate fro
 
 ## Option 3: External (Recommended)
 
-External styling creates a completely separate document for your CSS that will be linked to your HTML in the head section of your HTML document using the code below. This separate document is called a _stylesheet_ and is often named `style.css`. The document is linked through a void `<link>` tag that lives inside the parent `<head>` tag. Its `href` attribute is a relative link to the document somewhere in relation to the document that references it.
+**External** styling creates a completely separate document for your CSS that will be linked to your HTML in the head section of your HTML document using the code below. This separate document is called a _stylesheet_ and is often named `style.css`. The document is linked through a void `<link>` tag that lives inside the parent `<head>` tag. Its `href` attribute is a relative link to the document somewhere in relation to the document that references it.
 
 ```html
 <!DOCTYPE html>
@@ -744,19 +804,23 @@ External styling creates a completely separate document for your CSS that will b
 
 ## Best Practices
 
-It's best practice to use Option 3, external styling, for a number of reasons:
+It's best practice to use Option 3, **external styling**, for a number of reasons:
 
 1. It helps us remember what each language focuses on: HTML is for _content_, CSS is for _styling_. (This is sometimes referred to as the principle of ["separation of concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/))
 2. It helps us maintain consistency across the various pages of our site as _multiple HTML files can link to the same stylesheet_.
 3. Because multiple HTML files can link to the same CSS file, it's not necessary to write the same CSS code multiple times. Once suffices. (This is sometimes referred to as the ["Don't Repeat Yourself" principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), or simply _DRY_.)
 
-Option 3, external styling, is preferred by most web developers because it's more manageable and because it lends itself to greater consistency across the entire site.
+Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
 
 ## Challenge: Activity
 
 Create a blank stylesheet using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
 
-To link your stylesheet with your `index.html` file, insert the following code into the head element of that `index.html` file:
+```console
+$ touch style.css
+```
+
+To link your stylesheet with your `index.html` file, insert the following code into the `<head>` element of that `index.html` file:
 
 ```html
 <link rel="stylesheet" href="style.css" />
@@ -764,7 +828,7 @@ To link your stylesheet with your `index.html` file, insert the following code i
 
 ## Evaluation
 
-Is the following code-snippet an example of inline styling or internal styling?  
+Is the following code-snippet an example of **inline styling** or **internal styling**?  
   
 ```html
 <!DOCTYPE html>
@@ -798,7 +862,7 @@ Is the following code-snippet an example of inline styling or internal styling?
 
 # Rule Sets
 
-CSS is based on selectors and declarations, which together form rule sets (or just "rules"). Rule sets comprise an external styling file with a `.css` extension. Here is the contents of a sample `.css` file:
+CSS is based on **selectors** and **declarations**, which together form rule sets (or just "rules"). Rule sets comprise an external styling file with a **`.css`** extension. Here is the contents of a sample `.css` file:
 
 ```css
 h1 {
@@ -823,9 +887,9 @@ p {
 }
 ```
 
-The first rule (which starts with the `h1` selector) applies to all `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings.  
+The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings.  
   
-The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon (`;`).  
+The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  
   
 Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
 
@@ -833,10 +897,34 @@ Note the different syntax being used to select items for for styling with rule s
 
 Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into your `style.css` file and re-save the file. Then open or refresh your `index.html` file in your browser and see what happens.  
   
+```css
+h1 {
+    color: orange;
+    font-style: italic;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#navbar {
+    background-color: yellow;
+    padding: 80px;
+}
+
+.intro {
+    font-family: arial;
+    background-color: grey;
+    color: dark-grey;
+}
+```
 ### What should happen?
   
 The formatting of the text on your page should change accordingly. Your `<h1>` should be orange and italic, for example.  
-  
+
+<!--TODO: screenshot of output -->
+
 What are some other rules you might set for different HTML elements? Do a quick Google search for a CSS rule that changes the appearance of your page, such as putting a border around an element.
 
 ## Evaluation
@@ -872,15 +960,15 @@ p strong {
 }
 ```
 
-...then the text of your paragraph would be green, but where the strong tag is found in the paragraph, the text would be bold and red. In other words, the more specific styling for the `<strong>` text in your paragraph will override the less specific styling of the paragraph in general. This would occur **regardless of the order these rule sets appear in the stylesheet.**  
+...then the text of your paragraph would be green, but where the strong tag is found in the paragraph, __the text would be bold and red__. In other words, the more specific styling for the `<strong>` text in your paragraph will override the less specific styling of the paragraph in general. This would occur **regardless of the order these rule sets appear in the stylesheet.**  
   
 This rule also applies to how you integrate CSS into your HTML to style your content. For example, if you link to an external stylesheet, and you add inline or internal CSS into your HTML, the inline or internal CSS will override the rules set in the external stylesheet. Similarly, the inline CSS will override the internal CSS.
 
 # Classes and IDs
 
-Classes and IDs enable more fine-grained styling by allowing you to define your own selectors. The difference between classes and IDs is that IDs are unique, used to identify one specific element or part of an element, whereas classes are used to identify multiple instances of the same type of element.  
+**Classes** and **IDs** enable more fine-grained styling by allowing you to define your own selectors. The difference between classes and IDs is that IDs are unique, used to identify one specific element or part of an element, whereas classes are used to identify multiple instances of the same type of element.  
   
-Basically, if you're styling a part of your page that is unique, such as the navbar or footer, use an ID. If you're styling something that recurs in different places, like an info box or form field, use a class.  
+Basically, if you're styling a part of your page that is unique, such as the navbar or footer, use an ID. If you're styling something that recurs in different places, like an info box or form field, use a class. 
   
 Incorporating classes and IDs into the styling of your document includes two steps:
 
@@ -925,7 +1013,7 @@ In HTML, classes and ids are added to the first part of a tag. Here's an example
 
 Note that it's possible to assign more than one class to an element—just leave a blank space between the two classes, as in the baseball examples above.
 
-Bonus: ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this: `<a href="#mets">Mets</a>`.
+**Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this: `<a href="#mets">Mets</a>`.
 
 ## CSS Selectors
 
@@ -956,7 +1044,7 @@ Class selectors in CSS are denoted with a period in front of the class name you'
 
 ## ID Selectors
 
-ID selectors look like this in the CSS—the name of the selector preceded by a hashmark (`#`) (also known as a pound sign or octothorpe):
+**ID selectors** look like this in the CSS—the name of the selector preceded by a hashmark (`#`) (also known as a pound sign or octothorpe):
 
 ```css
 #navbar {
@@ -976,12 +1064,12 @@ ID selectors look like this in the CSS—the name of the selector preceded by a 
 
 <Info>__Tip__
 
-If you run into an error, be sure to check your punctuation. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
+If you run into an error, be sure to _check your punctuation_. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
 </Info>
 
 ## Evaluation
 
-True or False: Classes are used to create categories of related elements, IDs are used create unique identifiers.
+**True or False:** Classes are used to create categories of related elements, IDs are used create unique identifiers.
 
 <Quiz>
 - True*
@@ -998,7 +1086,7 @@ Do you remember the glossary terms from this section?
 
 # Useful Properties
 
-Below is a list of useful properties that can be modified with CSS, compiled by Digital Fellow [Patrick Smyth](http://smythp.com). There are also [CSS cheatsheets](https://courses.cs.washington.edu/courses/cse154/15sp/cheat-sheets/css-cheat-sheet.pdf) available online.
+Below is a list of **useful properties** that can be modified with CSS, compiled by Digital Fellow [Patrick Smyth](http://smythp.com). There are also [CSS cheatsheets](https://courses.cs.washington.edu/courses/cse154/15sp/cheat-sheets/css-cheat-sheet.pdf) available online.
 
 ### Color
 
@@ -1089,10 +1177,11 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Personal Website Using CSS
 
-Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.  
+Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.
   
 I encourage you to use an external stylesheet with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
 
+For this challenge:
 - Change the color and size of your heading text.
 - Change the font of your paragraph text.
 - Change the background color of your navigation bar or menu.
@@ -1111,7 +1200,7 @@ This will tell your HTML document to apply the style rules from the text file na
 
 It is common—especially in the beginning—that you'll add or amend something to/in your text editor, but it won't present when rendered by your browser.  
   
-Your first inclination should be to scan the text in your editor for errors. Nesting will help tremendously with this task. Oftentimes it is as little as forgetting a semicolon or closing tag.  
+**Your first inclination should be to scan the text in your editor for errors**. Nesting will help tremendously with this task. Oftentimes it is as little as forgetting a semicolon or closing tag.  
   
 Another investigative tactic is to **View Page Source** on the page opened in the browser.  
   
@@ -1121,19 +1210,19 @@ If you think it is an **error with the CSS**, then from the Page Source you'll n
 
 # Workshop Summary
 
-Through this workshop, you have learned the basics of two of the most commonly-used languages for building on the web: HTML and CSS.  
+Through this workshop, you have learned the basics of two of the most commonly-used languages for building on the web: HTML and CSS.
   
-HTML, or Hypertext Markup Language, organizes content on your page using elements denoted by tags (`<...>`). When rendered by your browser, these tags tell your browser that certain content is paragraph text, while other content is heading or title text, and so on. You can also use image (`<img>`) and link or anchor (`<a>`) tags to tell the browser to render an image on the page, or take the visitor to another page on your or another website. We also discussed some important conventions to consider when creating HTML documents, such as nesting.  
+**HTML, or Hypertext Markup Language**, organizes content on your page using elements denoted by tags (`<...>`). When rendered by your browser, these tags tell your browser that certain content is paragraph text, while other content is heading or title text, and so on. You can also use image (`<img>`) and link or anchor (`<a>`) tags to tell the browser to render an image on the page, or take the visitor to another page on your or another website. We also discussed some important conventions to consider when creating HTML documents, such as nesting.  
   
-CSS, or Cascading Style Sheets, allows for further styling of your website through the application of a series of rule sets that are applied to different aspects/elements of your site. In order for CSS to render on a webpage, it must be integrated with your html, which can happen in three ways: inline, internal, and external. CSS rules can be of varying specificity, and in particular, through creating classes and IDs. We also discussed how the ordering of rule sets doesn't matter, because an important function of CSS is the way it filters and applies rules in accordance with the specificity of the rule.  
+**CSS, or Cascading Style Sheets**, allows for further styling of your website through the application of a series of rule sets that are applied to different aspects/elements of your site. In order for CSS to render on a webpage, it must be integrated with your html, which can happen in three ways: inline, internal, and external. CSS rules can be of varying specificity, and in particular, through creating classes and IDs. We also discussed how the ordering of rule sets doesn't matter, because an important function of CSS is the way it filters and applies rules in accordance with the specificity of the rule.  
   
-Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents. The choices made in designing websites are thus the products of particular circumstances that can be understood as socially, culturally, and historically specific.  
+Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents. The choices made in designing websites are thus the products of particular circumstances that can be understood as socially, culturally, and historically specific. They set the foundation for the Internet as we know it today, and understanding a little HTML and CSS can go a long way in looking under the 'black box'.
   
 While this is a good starting point, one important question remains: how can I get these text documents on the Internet so they can be accessed, and interacted with, and linked to by others? This is what we will discuss in the final lesson of this workshop.
 
 # Making Your Website Public
 
-Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website onto the Internet so it can be shared?  
+Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website onto the Internet so it can be shared?
   
 To get your site on the internet, you'll need **hosting**—that is, a remote computer that will stay on day in and day out to serve the website to visitors. In theory, you could host your website on your own computer, but in practice, it usually makes sense to purchase hosting from a hosting company or use a free service.  
   
@@ -1141,11 +1230,11 @@ You'll also need a way of getting your website to your host. That's where FTP, o
 
 ## FTP
 
-FTP is a protocol used to share files from your computer (_a client_) to another computer called a server, and back again over the Internet. This is something we do _all the time_, but we refer to it as "uploading" and "downloading."  
+**FTP** is a protocol used to share files from your computer (_a client_) to another computer called a server, and back again over the Internet. This is something we do _all the time_, but we refer to it as "uploading" and "downloading."  
   
-Note: Though FTP stands for file transfer protocol, you are not really transferring or moving your files from your computer; instead they are _copied_ to the server. Fear not!  
+Note: Though FTP stands for **file transfer protocol**, you are not really transferring or moving your files from your computer; instead they are _copied_ to the server. Fear not!  
   
-In order to transfer your website files (also called your website's directory) to a server you will need:
+In order to transfer your website files (also called your website's **directory**) to a server you will need:
 
 1. Access to the Internet.
 2. An FTP Client.
@@ -1186,9 +1275,9 @@ Do you remember the glossary terms from this section?
 
 This workshop has provided an introduction to HTML and CSS. Through its discussion of tags, elements, and attributes, we have tried to cover the basic ways in which web pages are initially constructed in plaintext and then rendered on browsers. As we concieve of digital humanities projects, however, our visions quickly exceed the capacity of the commands that was covered in this workshop. Not only might we be interested in making information public on the internet, but we might also be interested in providing tools that facilitate interactivity and ease of use with the content that we are curating. Building these tools and incorporating them in our websites requires the additional knowledge of languages like Javascript, SQL, and [Python](http://www.github.com/DHRI-Curriculum/python), among many others. Digital humanities projects are often collaborative endeavors and bringing someone into the project who has these skills is an effective way to building well-designed websites.  
   
-Another way to build more complex design and functionality into your websites is by using a Content Management System (CMS), which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [Wordpress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
+Another way to build more complex design and functionality into your websites is by using a **Content Management System (CMS)**, which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [Wordpress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
 
-We may also want to use our newfound HTML and CSS skills to more carefully examine existing online content, through comparisons of timestamped website versions using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into a web scraping script.
+We may also want to use our newfound HTML and CSS skills to **more carefully examine existing online content**, through comparisons of timestamped website backups using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into creating a web scraping script.
 
 ## Review your knowledge: 10 questions from the lessons
 
