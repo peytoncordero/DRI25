@@ -37,6 +37,7 @@ installations:
         description: (Recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 
 readings:
+    - "[Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) by Tim Berners-Lee. This concept paper, originally published in 1989 and converted to HTML format here, is the proposal that led to HTML. It is a foundational document of the Internet.
     - "[Introduction: Promises and Perils of Digital History](http://chnm.gmu.edu/digitalhistory/introduction/)"
     - "[Digital History: A Guide To Gathering, Preserving, and Presenting the Past on the Web](http://chnm.gmu.edu/digitalhistory/) by Daniel J. Cohen and Roy Rosenzweig provides clear introduction to what a life-cycle of web-based digital humanities project might look like. The book covers a variety of aspects of a website project from initial planning, to website design, and even cultivating an audience. Participants are welcome to read as much of this free online book as suits them. I highly recommend reading the [introduction](http://chnm.gmu.edu/digitalhistory/introduction/) which helpfully explains the affordances and difficulties of web-based digital projects."
 
@@ -262,14 +263,17 @@ $ code index.html
     - For both operating systems, select **Firefox** or **Google Chrome** from the app list that appears.
 
 <Info>__Tip__:
-You can also use the Live Server plugin to open it within VS Code. Right-click `index.html` and left-click `"Open With Live Server"` 
+You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
 </Info>
 
 ### What Happens?
 
-When you open the empty template, you'll see only a blank web page that displays the two `...`. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+When you open the empty template, you'll see a mostly blank web page that displays the two `...`. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
 
 ### What Should Happen?
+
+
+
 
 When you "**View Page Source**," you should see the code for the basic template.
 
