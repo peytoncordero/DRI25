@@ -136,7 +136,7 @@ In this workshop, we are going to learn how to read and write this code, and ren
 
 # Basic Template for HTML
 
-Below is a basic template for an empty HTML Document.
+Below is a basic template for an empty HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -190,6 +190,22 @@ Let's use the command line to create the new folder and file:
 
 4. Use your Visual Studio Code text editor to create a file called `index.html`: `code index.html`.
 5. Paste the <Link workshop='html-css' page='4'>`template from the previous section`</Link> (starting with `<!DOCTYPE html>`) into the new file.
+
+<secret>
+```
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        ...
+    </head>
+
+    <body>
+        ...
+    </body>
+</html>
+```
+</secret>
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
