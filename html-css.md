@@ -4,9 +4,12 @@ cover title: HTML & CSS
 description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the World Wide Web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites and website templates. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
+
+    - At the end of this workshop, you will be able to...
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
+    - Draw connections between HTML, CSS, and the workshops on the Command Line and Data Literacies.
 
 authors:
     - 'Ian G. Williams'
@@ -121,19 +124,19 @@ Do you remember the glossary terms from this section?
 3. Open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on Mac computers, this is usually a two-finger tap on the track pad, or you can press the <kbd>control</kbd> button then click the track pad).
 4. Select `View Page Source` from the dropdown menu.
 
-![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/capture.png)
+![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/param_capture.png)
 
 ### What You Are Seeing
 
 A second tab should open in your browser displaying the underlying code of the page. This is the code that is used to make and render the page in your web browser.
 
-![Image showing the page source information and underlying HTML code of a webpage](/images/html-css/capture_pageSource.png)
+![Image showing the page source information and underlying HTML code of a webpage](/images/html-css/param_capture_pagesource.png)
 
 In this workshop, we are going to learn how to read and write this code, and render it in the browser on your local computer. At the end we will discuss the next steps for how you could host your new website, making it available for browsing by others via the internet.
 
 # Basic Template for HTML
 
-Below is a basic template for an empty HTML Document.
+Below is a basic template for an empty HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -187,6 +190,21 @@ Let's use the command line to create the new folder and file:
 
 4. Use your Visual Studio Code text editor to create a file called `index.html`: `code index.html`.
 5. Paste the <Link workshop='html-css' page='4'>`template from the previous section`</Link> (starting with `<!DOCTYPE html>`) into the new file.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        ...
+    </head>
+
+    <body>
+        ...
+    </body>
+
+</html>
+```
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
@@ -484,7 +502,7 @@ As we’ve gone through the different components of creating a webpage, you like
   
 Here are a few examples:
 
-- Some tags are self-closing, while others require a closing tag. Self-closing tags are called void tags, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
+- Some tags are self-closing, while others require a closing tag. Self-closing tags are called **void tags**, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
 - Your code should be nested. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
 
