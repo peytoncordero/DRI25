@@ -198,7 +198,9 @@ Text editors are not used to edit rich text documents because of the encoding. I
 
 While it doesn't matter which text editor you choose, you should try to become comfortable with at least one. Ultimately, choosing a text editor has as much to do with personality as it does with functionality!
 
-## Evaluation
+## Review
+
+**Evaluation**
 
 What is the command line? (Select one)
 
@@ -221,6 +223,13 @@ What is the difference between a plain text document and a rich text document? (
 **Reflection**
 As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
+
+<Keywords>
+- GUI
+"Graphical User Interface," pronounced "gooey." It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
+
+</Keywords>
+
 
 # Hands-on!
 
@@ -423,9 +432,6 @@ What command do you run to identify the directory where you are currently locate
 <Keywords>
 - Filesystem
 A filesystem (or file system) is a set of methods and data structures that an operating system (e.g., Windows, MacOS, Linux, etc.) uses to control how data is stored and retrieved on a disk (such as your computer’s hard drive, or even a USB pen drive). Some operating systems include support for more than one file system.
-
-- GUI
-"Graphical User Interface," pronounced "gooey." It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
 
 - Root
 The root is the top-level directory of a filesystem. Staying with the tree metaphor to represent a hierarchical structure, if the root is the starting point, the folders are the tree’s branches, and the files are the leaves. Please note that “root” is also often used as a synonym for the administrative user on a system.
