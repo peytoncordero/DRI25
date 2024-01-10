@@ -442,7 +442,7 @@ Just like in cooking, let’s think about what we know and gather our ingredient
 
 **Practice**
 
-```
+```python
 string = "ELI5"
 print(string.isalpha())
 print(string.lower())
@@ -453,12 +453,12 @@ Let’s think through what we can do with these three ingredients to make a list
 
 What do we need the code to do? 
 <Secret>
-1.Create new list.
+Create new list.
 
-2.In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
- * 2a.If True, we want to convert it to lower case
- * 2b.If False, ignore it
-3.Take this new lower case object and add it to our list
+In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+ * If True, we want to convert it to lower case
+ * If False, ignore it
+Take this new lower case object and add it to our list
 
 </Secret>
 
