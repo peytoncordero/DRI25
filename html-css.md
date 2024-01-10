@@ -81,14 +81,14 @@ Websites seem like these magical things that appear when we open our web browser
 
 HTML is a *markup* language, not a programming language. **Programming languages** are used to transform data, by creating scripts that organize an output of data based on a particular input of data. **A markup language** is used to control the presentation of data.
 
-For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table.
+For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table. Put simply, a programming table is **dynamic** while a markup table  is **static**.
 
 
-|  This 	|  is 	|   a	|   static	|  table  |
-|---	|---	|---	|---	|---    |
-|  It 	|  displays 	|   information	|   but	| cannot|
-|   manipulate 	|  or 	|  transform 	|  it 	| 
-|   However	|   a	|   dynamic	|   table	| can |
+| This  | is     | a             | static      | table   |
+|-------|--------|---------------|-------------|---------|
+| It    | can    | dipslay       | information | but     |
+| it    | cannot | transform it. | A           | dynamic |
+| table | can    | manipulate    | its         | content.|
 
 <!--- TODO: Add images or diagrams of tables --->
 
