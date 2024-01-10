@@ -106,7 +106,7 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
-### What data do you use?
+## What data do you use?
 
 ![A bar graph of the types of data DRI Winter 2024 participants use in their research.](/images/data-ethics/DRI24-participant-research-data-type.png)
 
@@ -125,21 +125,29 @@ Research data can be defined as: (select all that apply)
  
 ### Institutional Review Board (IRB)
 
-The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB).
+The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
+
+It is importnat to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage about harm done to people during unethical research studies, such as the [Tuskegee Syphillis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html)  
 
 Three core principles of the Belmont report are:
 
 1. **Respect for persons**:
 
+<Secret>
 >> "Respect for persons incorporates at least two ethical convictions: first, that individuals should be treated as autonomous agents, and second, that persons with diminished autonomy are entitled to protection. The principle of respect for persons thus divides into two separate moral requirements: the requirement to acknowledge autonomy and the requirement to protect those with diminished autonomy."
+</Secret>
 
 2. **Beneficence**:
 
+<Secret>
 >> "Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being... Two general rules have been formulated as complementary expressions of beneficent actions in this sense: (1) do not harm and (2) maximize possible benefits and minimize possible harms."
+</Secret>
 
 3. **Justice**:
 
+<Secret>
 >> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
+</Secret>
 
 Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
 
