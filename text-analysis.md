@@ -453,13 +453,14 @@ Let’s think through what we can do with these three ingredients to make a list
 
 What do we need the code to do? 
 <Secret>
-Create new list.
 
-In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+>>Create new list.
+
+>>In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
  * If True, we want to convert it to lower case
  * If False, ignore it
 
-Take this new lower case object and add it to our list
+>>Take this new lower case object and add it to our list
 </Secret>
 
 Python version
