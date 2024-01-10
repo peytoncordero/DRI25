@@ -106,6 +106,10 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
+### What data do you use?
+
+![A bar graph of the types of data DRI Winter 2024 participants use in their research.](/images/data-ethics/DRI24-participant-research-data-type.png)
+
 ## Evaluate
 
 Research data can be defined as: (select all that apply)
