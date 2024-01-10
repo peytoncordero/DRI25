@@ -181,7 +181,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 
 Your oral history project does the following; do you need a CUNY HRPP/IRB?                                         
 
-1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or	generalize findings.
+1. Open-ended interviews, that ONLY document a specific historical event or the experiences of individuals without intent to draw conclusions or generalize findings.
 
 HRPP/IRB Required?
 
@@ -204,7 +204,6 @@ HRPP/IRB Required?
 <Secret>
 Yes
 </Secret>
-
 
 For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
 
