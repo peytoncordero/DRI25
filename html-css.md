@@ -171,7 +171,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
-In this activity we to complete the following tasks
+In this activity we to complete the following tasks:
 
 1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
 
@@ -180,6 +180,8 @@ In this activity we to complete the following tasks
 3. Inside that folder, create a new text file and save it as `index.html`.
 
 4. Add the basic HTML template to `index.html`
+
+5. Open `index.html` in a browswer and view the source code.
 
 To do this, we'll follow these steps. We'll use the command line to create the folders and file:
 
@@ -195,13 +197,13 @@ To do this, we'll follow these steps. We'll use the command line to create the f
     $ cd ~/Desktop/
     ```
 
-3. Create the `projects` folder
+3. Create the `projects` folder:
 
     ```console
     $ mkdir projects
     ```
 
-4. Navigate to the `projects`folder
+4. Navigate to the `projects`folder:
 
     ```console
     $ cd projects
@@ -219,13 +221,13 @@ To do this, we'll follow these steps. We'll use the command line to create the f
     $ touch index.html
     ```
 
-7. Open the `index.html` file with VS Code.
+7. Open the `index.html` file with VS Code:
 
 ```console
 $ code index.html
 ```
 
-8. Copy and paste the **HTML template** into the new file.
+8. Copy and paste the **HTML template** we saw in the last page into the new file:
 
 ```html
 <!DOCTYPE html>
@@ -241,12 +243,19 @@ $ code index.html
 
 </html>
 ```
+9. Save the changes to the file.
+
 **Note**
     The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-8. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
+10. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
 
-    - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
+    - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
+        If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
+
+        ```console
+        $ open index.html
+        ```
 
     - On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu.
 
