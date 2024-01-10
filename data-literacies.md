@@ -75,38 +75,7 @@ Broadly, research data can be understood as **materials or information necessary
 
 ## Being Data
 
-<br />
-<table>
-    <tr>
-        <th>Stage</th>
-        <th>Form</th>
-    </tr>
-    <tr>
-        <td>Raw</td>
-        <td>Textual</td>
-    </tr>
-    <tr>
-        <td>Cleaned</td>
-        <td>Numeric</td>
-    </tr>
-    <tr>
-        <td>Processed</td>
-        <td>Audio</td>
-    </tr>
-    <tr>
-        <td>Analyzed</td>
-        <td>Video</td>
-    </tr>
-    <tr>
-        <td>Visualized</td>
-        <td>Image</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>Code</td>
-    </tr>
-</table>
-
+![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code. ](/images/data-ethics/being-data.gif)
 
 ## Forms of Data
 
