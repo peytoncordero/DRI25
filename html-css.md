@@ -83,13 +83,6 @@ HTML is a *markup* language, not a programming language. **Programming languages
 
 For a practical example of this difference, we can think about tables. A programming language can help you search through a table, understand the kinds of data the table includes, find particular data points, or transform its content into other kinds of data, such as frequencies. A markup language would instead determine the content, layout, and visual presentation of the table. Put simply, a programming table is **dynamic** while a markup table  is **static**.
 
-
-| This  | is     | a             | static      | table   |
-|-------|--------|---------------|-------------|---------|
-| It    | can    | dipslay       | information | but     |
-| it    | cannot | transform it. | A           | dynamic |
-| table | can    | manipulate    | its         | content.|
-
 <!--- TODO: Add images or diagrams of tables --->
 
 Fundamentally, then, a script or program is *a set of instructions given to the computer*. It follows the same logic as explored in the command line workshop. A document in a markup language determines how information is presented to a user.
@@ -632,9 +625,9 @@ Here are a few examples:
 While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
 </Info>
 
-# Major Challenge: Create a Personal Website
+# Major Challenge: Create a Small Website
 
-In this major challenge, we will begin creating a short personal website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character).  
+In this major challenge, we will begin creating a "small" website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character). Parim Satyal's website on [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) may provide some inspiration.
   
 The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about yourself.  
   
@@ -655,7 +648,7 @@ Don't worry about getting the content just right. The important aspect of this e
 
 ## Additional Tags
 
-Here are two additional tags that might come in handy in assembling your page:
+Here are three additional tags that might come in handy in assembling your page:
 
 To **make a list**, you open and close it with the **`<ul>`** tags, and each item is an enclosed **`<li>`** tag:
 
@@ -677,10 +670,24 @@ To **make a line break** or give space between different elements:
 <br />
 ```
 
+To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers.
+
+```html
+<!--- --->
+```
+
 ## Optional: Advanced Challenge
 
-Here is a more advanced challenge if you're up for it: Add a **table** containing a list of projects, research areas, or interests for your website. Insert a **break** before and after the table. You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp). Here is the sample code from the previous section.
+Here is a more advanced challenge if you're up for it. Feel free to try this on your on time.
 
+1. Add a **list** and an **unordered list** to your website. They can contain anything.
+2. Add a **table** containing a list of projects, research areas, or interests for your website.
+3. Insert a **break** before and after the table.
+4. Add a **comment** somewhere in the body of the text.
+
+You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp). Here is the sample code from the previous section.
+
+**List**
 ```html
 <ul>
     <li>Item 1</li>
@@ -689,6 +696,7 @@ Here is a more advanced challenge if you're up for it: Add a **table** containin
 </ul>
 ```
 
+**Ordered list**
 ```html
 <ol>
     <li>Item 1</li>
@@ -697,8 +705,14 @@ Here is a more advanced challenge if you're up for it: Add a **table** containin
 </ol>
 ```
 
+**Line break**
 ```html
 <br />
+```
+
+**Comment**
+```html
+<!--- --->
 ```
 
 # CSS Basics
