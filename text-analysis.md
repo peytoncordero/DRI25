@@ -51,40 +51,37 @@ resources:
 
 # Text as Data
 
-When we think of "data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
+When we think of "research data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
 
-Rarely when I ask people "what is data?" do they respond with a book or newspaper collection or  And yet, more and more, text is data. Whether it is _Moby Dick_, or every romance novel written since 1750, or today's newspaper or twitter feed, we are able to transform written (and spoken) language into data that can be quantified and visualized. 
+In Data Ethics, we covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
 
-Approaching this similar to how one learns quantitative analysis…we start the basics like mean median mode. 
+This workshop approaches text analysis similar to introductions to quantitative analysis, starting with text analysis equivalents of the basics like mean, median, and mode. 
 
-What are basic ways to think about text as data?
-How do we get data ready to be analyzed?
-What can we learn from the data? 
+ * What are basic ways to think about text as data?
+ * How do we get text ready to be analyzed?
+ * What can we learn from the text computationally? 
 
 
 ## Corpora
 
-> Definition of a corpus: “any collection of more than one text”
+A corpus is, simply put, a text under study or a set of texts to study (the plural is corpora) [Source](https://libguides.tulane.edu/text_analysis/corpora)
 
-In your own research, as we’ve learned in the data literacy portion, the relationship between finding data and research question is iterative. 
+That is, *any* collection of texts that are somehow related to each other. 
 
-In this workshop, we will hold the big theoretical questions and use a commonly used, publicly available set of texts for our corpus - NLTK
+In your own research, as we’ve learned in the Data Ethics, the relationship between corpus selection and research question is iterative. 
 
-But you can think about a corpus as *any* collection of texts that are somehow related to each other. 
-
-* 
-* 
-* 
+However, in this workshop, we will set aside the larger theoretical questions regarding corpus selection and focus on demonstrating the basics using a commonly used, publicly available set of texts for our corpus.
 
 There are infinitely many corpora, and, sometimes, you will want to make your own—that is, one that best fits your research question.
 
-The route you take from here will depend on your research question. 
-
-What’s an example of textual corpora in your field of research?
+<p style="text-align: center;">What’s an example of textual corpora in your field of research?
+</p>
 
 ## A Note About Languages
 
-Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. Many existing tools for textual analysis, including the NLTK package in this workshop, do support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
+Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. No citation needed, just the body of post-structuralist scholarship. 
+
+Many existing tools for textual analysis, including the NLTK package used in this workshop, support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
 <Info>**Fun fact**: What five languages most frequently used for web content as of 2023, by share of websites [(Source)](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/)?
 
@@ -95,7 +92,9 @@ Languages are inherently social, fraught with the power dynamics inherent in any
 * German at 3.7%
 </Info>
 
-Is this surprising?
+
+<p style="text-align: center;">Is this surprising?
+</p>
 
 
 ## Evaluation
@@ -120,9 +119,9 @@ Do you remember the glossary terms from this section?
 
 # Using the NLTK Corpus
 
-In the following sections, we are going to learn how to work with texts that come with the NLTK package and go through a series of methods that come built-in to NLTK that allow us to turn our words into numbers and visualizations.
+In the following sections, we will learn how to work with texts that come with the NLTK package and go through a series of built-in methods in NLTK that enable us to convert our words into numbers and create visualizations. 
 
-Texts that 
+The Python we will be learning builds on the foundations from Intro to Python and the Pandas workshop.
 
 ## Getting Started
 
@@ -130,10 +129,9 @@ Start with a new JupyterLite file.
 
 **Reviewing Jupyterlite**
 
+*Edit Mode* - to edit code, <kbd>Enter</kbd> any cell
 
-*Edit Mode* - to edit code, <kbd> Enter</kbd> any cell
-
-*Command Mode* - to run the code, <kbd> Escape</kbd> on any cell
+*Command Mode* - to edit the notebook (move up and down cells, etc), <kbd>Escape</kbd> on any cell
 
 When in *Command Mode*
  * Add new cells with <kbd>A</kbd>
@@ -180,13 +178,9 @@ nltk.download('treebank')
 nltk.download('webtext')
 nltk.download('wordnet')
 ```
-
-
 The pre-loaded NLTK texts are preformatted data sets. 
 
-At the end of this workshop, we will make our own corpus. This is a special type of python object specific to NLTK (it isn't a string, list, or dictionary). 
-
-Here, we are importing just the books:
+Here, we are importing just the books from NLTK:
 
 ```
 from nltk.book import *
@@ -194,44 +188,42 @@ from nltk.book import *
 
 Notice that each of the texts already have a variable name. _Moby Dick_ is `text1`, _Sense and Sensibility_ is `text2`, and so on. When we want to work with those books, we will call them by their variable name, as you'll see soon.
 
-
-Recognize any of the other texts?
-
 ## Explore
 Let's pick one of these books for exploration...
 ```
 text2
 ```
-
 What is this object? 
 
-What can we do with it? 
-
+What commands from previous workshops we can throw at this thing?
 What's a way that we can poke at this thing?
 
-Other commands from previous workshops we can throw at this thing?
 
 ```
 type(text4)
-
 ```
 Huh that's interesting, what does that mean? 
+
+These text objects are a special type of python object specific to NLTK (it isn't a string, list, or dictionary). 
+
+At the end of this workshop, we will make our own corpus, which will demonstrate how "processed" this NLTK text object is.
 
 Let's check out what is in the object. Let’s look at the first 10 elements in this object...
 
 ```
 text3[0:10]
 ```
-The most famous opening line…maybe in the Western cannon.
+This may be the most famous opening line in the Western canon. 
 
-Is this text structured...?
+As far as we can tell, is this text structured...?
 
-*Recall data literacy workshop section on structured data.*
+<Secret>
+No, it is not organized or structured in a well-defined way or according to any rules. It appears to be just a list of all the words in the book. The text is not arranged in rows or columns, for example.
+</Secret>
 
-How might this be different from other corpus that you work with?
+*Recall the Data Ethics workshop section on structured data.*
 
 So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
-
 
 > If you got any error messages, check the code and make sure you typed everything correctly. Even spaces before words matter!
 
@@ -240,15 +232,24 @@ So what we'll be doing the rest of the workshop is to whittle down this text to 
 Do you remember the glossary terms from this section?
 
 - [Corpus](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/corpus.md)
-- [Jupyter Notebook](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/jupyter-notebook.md)
 - [Library](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/library.md)
 - [Matplotlib](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/matplotlib.md)
 
+# Conceptualizing
+
+Pick a text, text1 through text9, and think about its topic. 
+
+Some of these texts, such as the Book of Genesis or a collection of Inaugural Addresses, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
+
+In our own research, these preconveived notions is **theory**. 
+ * The conceptualization stage of research is *defining* the concept of our research question
+ 
+Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research"
+
+Example: US President
+
 # Searching for the Words
 
-Let’s start by analyzing any of the books, text1 through text10. 
-
-Pick one and think about its topic. 
 
 The first function we will look at is `concordance`. "Concordance" in this context means the characters on either side of the word. 
 
