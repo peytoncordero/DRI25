@@ -29,7 +29,7 @@ estimated time:
 
 prerequisites:
     - command-line:
-        description: (Required) This workshop makes reference to concepts from the Command Line workshop, in particular, in creating new folders and files, as well as moving around in file directories. Completing the Command Line workshop will make you more comfortable with working with HTML/CSS.
+        description: (Required) This workshop makes reference to concepts from the Command Line workshop, in particular, in creating new folders and files, as well as moving around in file directories. It includes opportunities to utilize Command Line on your operating system. Completing the Command Line workshop will make you more comfortable with working with HTML/CSS.
         required: true
 
 installation:
