@@ -434,7 +434,7 @@ Just like in cooking, let’s think about what we know and gather our ingredient
 
 **We want a new list of the same corpus (text1) but performing any operation on the original would be irreversible**
 
-(Mise en place)[https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/]
+[Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
 
  * Python has a built-in function, ‘isalpha()’ that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
