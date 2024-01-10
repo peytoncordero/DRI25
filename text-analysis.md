@@ -418,8 +418,6 @@ Three types for the word whale:
 
 But what do we need to do to the corpus so that all of the types of “whale” get treated the same way? 
 
-Why do we need each type to be treated the same way?
-
 <Secret>
 
 Make a list of all the words lowercase!
@@ -428,12 +426,16 @@ Bonus: That also means removing non-words (i.e. punctuation)
 
 </Secret>
 
+Why would we want each type to be treated the same way?
+
 ## Make a list of all the words lowercase!
 
+Just like in cooking, let’s think about what we know and gather our ingredients to achieve our recipe, “make a list of all the words lowercase”:
 
-Just like in cooking, let’s think about what we know and gather our ingredients to achieve our goal, “make a list of all the words lowercase”:
+**We want a new list of the same corpus (text1) but performing any operation on the original would be irreversible**
 
- * We want a new list of the same corpus (text1) - performing any operation on the original would be irreversible 
+(Mise en place)[https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/]
+
  * Python has a built-in function, ‘isalpha()’ that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
  * Lastly, we have our original corpus object, text1
@@ -447,21 +449,20 @@ print(string.lower())
 
 ```
 
-Let’s think through what we can do with these four ingredients to make a list of all the words lowercase:
+Let’s think through what we can do with these three ingredients to make a list of all the words lowercase:
 
-
-Logic of the code
+What do we need the code to do? 
 <Secret>
-Create new list.
+1. Create new list.
 
-In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
- * If True, we want to convert it to lower case
- * If False, ignore it
-Take this new lower case object and add it to our list
+2. In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
+ * 2a. If True, we want to convert it to lower case
+ * 2b. If False, ignore it
+3. Take this new lower case object and add it to our list
 
 </Secret>
 
-Code version
+Python version
 
 <Secret>
 
