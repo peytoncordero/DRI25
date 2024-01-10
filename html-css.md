@@ -268,17 +268,19 @@ You can also use the **Live Server plugin** to open `index.html` from within VS 
 
 ### What Happens?
 
-When you open the empty template, you'll see a mostly blank web page that displays the two `...`. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+When you open the empty template, you'll see a mostly blank web page that displays nothing except `... ...`. Open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+
+![Secondary menu](/images/html-css/index_blank_rightclick.png)
 
 ### What Should Happen?
 
-
-
-
 When you "**View Page Source**," you should see the code for the basic template.
 
-No content renders on the page, because there is no content in the template at this time.
+![Source code](/images/html-css/index_blank_source.pnd)
 
+Viewing the page, no content should render except for `... ...`, because there is no content in the template at this time.
+
+![Front matter](/images/html-css/index_blank.png)
 
 ## Evaluation
 
@@ -319,7 +321,7 @@ Elements which have an opening and closing tag can have other elements inside th
 </p>
 ```
 
-Other elements have self-closing tags as with the `<img>` (image) element below. These tags are also called **void tags**.
+Other elements have self-closing tags as with the `<img>` (image) element below. These tags are also called **void tags**. Read more about void tags [here](https://developer.mozilla.org/en-US/docs/Glossary/Void_element).
 
 ```html
 <img src="image.jpeg" />
