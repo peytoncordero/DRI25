@@ -400,30 +400,31 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example above or create your own:
 
-- Title
+- **Title**
 
 ```html
-<title> </title>
+<title></title>
 ```
 
-- Heading
+- **Heading**
 
 ```html
-<h1>
-
-</h1>    
+<h1></h1>    
 ```
 
-- Paragraph
+- **Paragraph**
 
 ```html
-<p>
-</p> 
+<p></p> 
 ```
 
 Then, re-save the file. Open it in your browser again or refresh the page if still opened.
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
+
+<Info>__Tip__:
+Although you don't need to break lines between opening and closing tags, note the conventions in the sample code of the boiler story, which follow industry standards.
+</Info>
 
 ### What Should You See?
 
