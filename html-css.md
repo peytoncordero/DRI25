@@ -22,7 +22,7 @@ editors:
 
 facilitators: 
     name: 'Ian G. Williams'
-    description: 'Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s.'
+    description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
 
 estimated time:
     - 2-3 hours
