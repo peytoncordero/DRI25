@@ -171,11 +171,23 @@ The **body section** contains the content of the page, including paragraphs, ima
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
-Create a folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`). Inside that folder, create a new text file and save it as `index.html`.
+In this activity we to complete the following tasks
 
-Let's use the command line to create the new folder and file:
+1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
 
-1. Open your terminal.
+2. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
+
+3. Inside that folder, create a new text file and save it as `index.html`.
+
+4. Add the basic HTML template to `index.html`
+
+To do this, we'll follow these steps. We'll use the command line to create the folders and file:
+
+1. Open your terminal. To do this:
+
+- On Mac, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon.
+- On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+
 2. Navigate to your projects folder using this command:
 
     ```console
