@@ -394,6 +394,7 @@ A word "type" is the unique form of the word as a particular sequence of letters
 This terminology is important to understand how we cutting down our list to be more meaningful.
 
 How many words are in Moby Dick?
+
 ```python
 len(text1)
 ```
