@@ -233,7 +233,11 @@ Now, think of factors that can affect how people interact with computers and the
 
 # Hands-on!
 
-Now we start to interact with the computer via the command line! Every command we learn in the next pages will require you to practice it. For this, we included an emulator of the command line on DHRIFT. 
+Now we start to interact with the computer via the command line! Every command we learn in the next pages will require you to practice it. 
+
+For the purposes of this workshop, we included an emulator of the command line on DHRIFT. It is a program that allows us to recreate the terminal (program where you use the command line) in this very tab of your browser without having to open the terminal on your computer. The emulator contains all the necessary files for the exercises. 
+
+We are demonstrating the function and language of the command line in this emulator because it ensures that anyone taking the workshop has the same conditions to follow. Using this emulator is a pedagogical decision that comes from previous experiences teaching this workshop with users working on different Operative Systems (e.g. macOS and Windows) at the same time, where the passing of the workshop would be affected for differences in the systems. At the end of the workshop, we include a section that will allow you to transfer the knowledge to your own computer. 
 
 To access the emulator, check the top-right side of the screen (or the top if you are using a small device). There is a rectangle with the text "Open Code Editor". When you click on it, the emulator will be displayed as part of the same windows where you are reading this text in your navigator. 
 
@@ -241,7 +245,7 @@ Once it is open, you can resize it by clicking on the left border of the rectang
 
 You can hide the emulator to continue reading through the workshop. For this, click on the “Close Code Editor” button, which will appear on the top. You can close it and reopen it every time you need; the information you have entered will continue to be there!
 
-We also want to share these tips to get ready:
+Additionally, we want to share these tips to get ready:
  
 **1. Go slow at first and check your spelling.** One of the biggest things you can do to make sure your code runs correctly and you can use the command line successfully is to make sure you check your spelling! Keep this in mind! If at first, something doesn't work, check your spelling! Unlike in human reading, where letters operate simultaneously as atomistic symbols and as complex contingencies, in coding, each character has a discrete function including (especially!) spaces. We invite you to read [From A to Screen](https://genius.com/Johanna-drucker-from-a-to-screen-annotated) by Johanna Drucker. 
 
@@ -287,7 +291,7 @@ user
 
 If you notice, the command `whoami` stands for 'who am i?.' While this command might sound a bit silly, it is a very useful command. 
 
-For example, we might have multiple users for a digital project. Sometimes we might need to change from one user to another as not all users have the same permissions of access or for making specific changes. Therefore, we might want to check what user we are at a given moment to know if the command will be successful or change into the right user for the command.
+For example, we might have multiple users for a digital project. Sometimes we might need to change from one user to another as not all users have the same permissions for making specific changes. Therefore, we might want to check what user we are at a given moment to know if the command will be successful or change into the right user for the command.
 
 Now that we know 'thyself', our next step should be to understand where we are. 
 
@@ -300,7 +304,7 @@ Computers have the option of including multiple users. The output to `whoami` wi
 
 
 # The filesystem 
-**information structure on the computer** 
+### Information structure on the computer 
 
 To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
 
