@@ -163,7 +163,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
-Next, we need to load all of the NLTK corpora into our program. `all-corpora` will download every resource within NLTK (a bit of an overkill) but interesting to see. 
+Next, we need to load all of the NLTK corpora into our program. `all-corpora` will download every resource within NLTK (a bit of an overkill) but interesting to see. Takes a couple minutes to load.  
 
 ```
 nltk.download('all-corpora')
@@ -192,14 +192,15 @@ Notice that each of the texts already have a variable name. _Moby Dick_ is `text
 
 ## Explore
 Let's pick one of these books for exploration...
-```
+
+```python 
 text2
 ```
 What is this object? 
 
 How can we poke at this thing? What commands from previous workshops can we use?
 
-```
+```python
 type(text4)
 ```
 Huh that's interesting, what does that mean? 
@@ -210,7 +211,7 @@ At the end of this workshop, we will make our own corpus, which will demonstrate
 
 Let's check out what is in the object. Let’s look at the first 10 elements in this object...
 
-```
+```python
 text3[0:10]
 ```
 This may be the most famous opening line in the Western canon. 
