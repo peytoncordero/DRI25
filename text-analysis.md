@@ -194,14 +194,14 @@ Notice that each of the texts already have a variable name. _Moby Dick_ is `text
 Let's pick one of these books for exploration...
 
 ```python 
-text2
+text3
 ```
 What is this object? 
 
 How can we poke at this thing? What commands from previous workshops can we use?
 
 ```python
-type(text2)
+type(text3)
 ```
 Huh that's interesting, what does that mean? 
 
@@ -212,9 +212,16 @@ At the end of this workshop, we will make our own corpus, which will demonstrate
 Let's check out what is in the object. Let’s look at the first 10 elements in this object...
 
 ```python
-text2[0:10]
+text3[0:10]
 ```
-This may be the most famous opening line in the Western canon. 
+
+Pop quiz: 
+
+This may be the most famous <u> # of words </u>  in the Western canon. 
+
+<Secret>
+10! Get the elements from position 0 to position 10 (not included)
+</Secret>
 
 As far as we can tell, is this text structured...?
 
