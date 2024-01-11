@@ -24,7 +24,7 @@ readings:
     - "The book, [Bit By Bit: Social Research in Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of 'readymade' and 'custommade' data alongside ethics."
     - "[Ten Simple Rules for Responsible Big Data Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5373508/) explores some guidelines for addressing complex ethical issues that arise in any research project."
     - "In [The Challenges and Possibilities of Social Media Data: New Directions in Literary Studies and the Digital Humanities](https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/a57b98ab-0f10-45d0-b205-3e563aab7ea8), Melania Walsh advises researchers to think beyond the IRB and consider 'community engagement, citation, and data sharing' for ethically responsible digital research."
-    - "In the article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism." (You may access the full version through your univesity's library system.)
+    - "In the article ['Data Colonialism: Rethinking Big Data’s Relation to the Contemporary Subject'](https://journals.sagepub.com/doi/abs/10.1177/1527476418796632?journalCode=tvna) Nick Couldry and  Ulises A. Mejias argue that our relationship with data is a new form of colonialism where the 'exploitation of human beings through data' is akin to historical colonialism. You may access the full version through your univesity's library system."
 
 projects:
     - "The [Data for Public Good](https://dataforgood.commons.gc.cuny.edu/) is a semester-long collaborative project led by CUNY graduate students. Each semester, a different public-interest dataset is explored to present information that is useful and informative to a public audience."
@@ -75,7 +75,7 @@ Broadly, research data can be understood as **materials or information necessary
 
 ## Being Data
 
-![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code. ](/images/data-ethics/being-data.gif)
+![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code.](/images/data-ethics/being-data.gif)
 
 ## Forms of Data
 
@@ -204,7 +204,7 @@ Below you will find two frontmatter pages of two distinct digital projects. As y
 [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/) is an archival project that "seeks to shed light on the buried stories of African American women with math and science degrees who began working at NACA (now NASA) in 1943 in secret, segregated facilities."
 
 <Secret>
-From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data maybe outputed as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. 
+From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data maybe outputed as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. This is the [data source page](https://omeka.macalester.edu/humancomputerproject/items/browse) for Human Computers At NASA.
 </Secret>
 
 ![Screenshot of the frontmatter of an audio community mapping project called Listen for the Iraqis in NYC!](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
@@ -212,7 +212,7 @@ From the image, we can deduce that newspaper articles (digital copies of text) a
 [Listen for the Iraqis in NYC!](https://www.arcgis.com/apps/Cascade/index.html?appid=caace3a2d1624aecac2754b5802de3fc) is an audio community mapping project that seeks to locate the Iraqi population in nYC using their own voices. 
 
 <Secret>
-From the image, we can deduce that audio recordings of participants and a map (geospatial data) were used to complile this project. Given the details in the text on the right of the screen, we learn that the researcher will provide a map (geospatial data) and testemants (audio files) for us to peruse. The researcher has gathered digital field notes in the form of audio files from participants through a survey.
+From the image, we can deduce that audio recordings of participants and a map (geospatial data) were used to complile this project. Given the details in the text on the right of the screen, we learn that the researcher will provide a map (geospatial data) and testemants (audio files) for us to peruse. The researcher has gathered digital field notes in the form of audio files from participants through a survey. The Call for Participants for Listen for the Iraqis in NYC! can be found [here](https://docs.google.com/document/d/1G8RxmEILImlW4O5LgRQ5I3e3JOlg0Sg6b7dM2CmrvEQ/edit).
 </Secret>
 
 # Stages of Data
