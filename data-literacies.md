@@ -127,7 +127,7 @@ Research data can be defined as: (select all that apply)
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
 
-It is importnat to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage about harm done to people during unethical research studies, such as the [Tuskegee Syphillis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html)  
+It is importnat to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage was brought about harm done to people during unethical research studies, such as the [Tuskegee Syphillis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html).
 
 Three core principles of the Belmont report are:
 
@@ -158,6 +158,8 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The investigator is conducting research or clinical investigation,
 * The proposed research or clinical investigation involves human subjects, and
 * Your university or research institution is engaged in the research or clinical investigation involving human subjects.
+
+An IRB is an institutional complaince that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project ethics beyond compliance.
 
 #### Example: Oral History Projects
 
