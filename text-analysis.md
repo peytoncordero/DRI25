@@ -463,7 +463,7 @@ What do we need the code to do?
 
 </Secret>
 
-Python version
+Python Code version
 
 <Secret>
 
@@ -479,11 +479,11 @@ for t in text1:
 
 If everything went right, you should get no output: 
 
-**[jazz hands]**
+:open_hands: 
 
 Silent success! 
 
-**[jazz hands]**
+:open_hands: 
 
 You just wrote your first for-loop!
 
