@@ -217,36 +217,52 @@ From the image, we can deduce that audio recordings of participants and a map (g
 
 # Stages of Data
 
-We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of a) **collection of "raw" data**, b) **processing and/or transforming data**, c) **cleaning**, d) **analysis**, and e) **visualization**. For example, we can consider the stages in the following way:
+We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
 
-1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
-    - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
+**collection of "raw" data**
 
-2. In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
-    - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
+We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
 
-3. After collecting our data we then consider and make decisions in the processes of cleaning.
-    - E.g. We have to transform some of the gender values and decide what to do with the missing fields.
+- E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
 
-4. We then run our preliminary analysis of the data.
-    - E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
+**processing and/or transforming data**
 
-5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
-    - E.g. We can present the result in a pie chart or a bar graph.
+In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
+
+- E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
+
+**cleaning**
+
+After collecting our data we then consider and make decisions in the processes of cleaning.
+
+- E.g. We have to transform some of the gender values and decide what to do with the missing fields.
+
+**analysis**
+
+We then run our preliminary analysis of the data.
+
+- E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
+
+**visualization**
+
+At the end of our analysis, a decision is then made about how we would present the data and its analysis.
+- E.g. We can present the result in a pie chart or a bar graph.
 
 ## Stages of Data: Non-linear
 
-![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
+![Stages of data are non-linear](/images/data-ethics/stages-of-data-non-linear.png)
 
-<info>
+<Info>
+
 The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
-</info>
+
+</Info>
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as " as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as "as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
 
-### Levels of Impact
+## Levels of Impact
 
 Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible od probable impact[our work may have], rather than the prevention of the impact. 
 
