@@ -1,7 +1,7 @@
 ---
 title: 'Command Line Workshop'
 cover title: 'Command Line'
-description: 'The command line is a way to interact with our computer. It is an important skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT, which includes an emulated command line to practice through the workshop. This process will allow you to understand the logic of interacting with the computer and start feeling comfortable using the command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
+description: 'The command line is a way to interact with our computer via text. It is a foundational skill for digital projects as it allows us to understand the architecture of computer systems. In this workshop, you will be able to learn basic commands while working on DHRIFT with an emulated command line. At the end of the workshop, you will learn how to transfer these skills to your computer. After that, you will have working knowledge to continue learning according to the needs of your projects.'
 cover_image: '/images/workshops/Cover_RT-11_help.jpg'
 
 programming_language: 'computer'
@@ -9,7 +9,6 @@ programming_language: 'computer'
 learning objectives: 
     - description: 'At the end of this workshop, you will be able to' 
     - Understand what the command line is and relate it to different ways for human-computer interaction. 
-    - Explain the usefulness of interacting with your computer via the command line.
     - Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
 
 estimated time: 3 hours
@@ -67,10 +66,9 @@ Welcome to the Command Line Workshop!
 Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
 
 - Understand what the command line is and relate it to different ways for human-computer interaction
-- Explain the usefulness of interacting with your computer via the command line
 - Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset
 
-Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others. It will also help you advance more easily when you are learning programming languages. The basic knowledge you get from this workshop helps you to understand how you are interacting with your computer when programming and the kind of details that will make a difference in that process. 
+Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others by providing you with foundational knowledge about human-computer interaction. This workshop will also help you advance more easily when learning programming languages by helping you understand how our commands are translated to computers and the details that make a difference in the interaction with your computers. 
 
 The command line is a basic tool to create several projects. It allows you to
 
@@ -92,9 +90,9 @@ To be precise, the command line is a text-based interface that allows you to com
 
 In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
 
-![It is a simple program with a plain background and letters. On the first line it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
+![It is a simple program with a plain background and letters. On the first line, it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
 
-To refer to the CLI, people also use the terms bash, terminal, or shell. Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably. 
+To refer to the CLI, people also use the terms "Bash", "Terminal", or "Shell". Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably. 
 
 As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
@@ -102,14 +100,14 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
 
-The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The majority were women, as they were contracted as cheaper labor, despite having the same abilities. This is a photo of the team of computers who worked calculating the trajectory of the first US satellite, the Explorer 1. 
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority were women](https://www.jstor.org/stable/25147356?seq=1), as they were contracted as cheaper labor, despite having the same abilities. This is a photo of the team of computers who worked calculating the trajectory of the first US satellite, the Explorer 1. 
  
 ![A group of all women human computers](/images/command-line/ComputersForExplorer1Trayectory.jpg)
 
 <Info>
     
 We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at NASA starting in 1943.
-**Bonus:** This archive is done with Omeka, a program that requires installations using the Command Line.
+**Bonus:** This archive is done with Omeka, a program that requires installations using the command line.
 
 </Info>
 
@@ -127,7 +125,7 @@ As HCI depends on the available technology, ENIAC used *punch cards*. This is ho
 
 <Info>
     
-Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s they became key to the Industrial Revolution, as they were used to automate the operation of the loom. They became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created the first program. She is known as the first computer programmer.
+Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s, they were used to automate the operation of the loom, key to the Industrial Revolution. This type of card became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created a program. She is known as the first computer programmer.
     
 </Info>
 

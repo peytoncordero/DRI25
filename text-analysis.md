@@ -220,7 +220,7 @@ text3[0:10]
 
 Pop quiz: 
 
-1. This may be the most famous <u> # of words </u>  in the Western canon. 
+1. This may be the most famous <u> number of words </u>  in the Western canon. 
 
 <Secret>
 10! Get the elements from position 0 to position 10 (not included)
@@ -394,6 +394,7 @@ A word "type" is the unique form of the word as a particular sequence of letters
 This terminology is important to understand how we cutting down our list to be more meaningful.
 
 How many words are in Moby Dick?
+
 ```python
 len(text1)
 ```
@@ -723,6 +724,8 @@ Let's use another visual tool to see where we are in our data exploration proces
 
 We are all familiar and we can use our list of tokens. Why would our list of unique words not be appropriate for a word cloud?
 
+The following code is copied from the [Word Cloud Python Package documentation](https://amueller.github.io/word_cloud/auto_examples/simple.html#sphx-glr-auto-examples-simple-py). 
+
 ```python
 text = text1_tokens
 wordcloud = WordCloud().generate(text)
@@ -825,14 +828,14 @@ plt.imshow(wordcloud)
 
 ## How do we get rid of apostrophes? 
 
-Googling for the answers to your coding questions is an essential part of being a coder. let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
+Googling for the answers to your coding questions is an essential part of being a coder. Let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
 
+Try googling: 
 [Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
 
 <Secret>
 Google search results may vary but this is one I got in Jan. 2024
-[Word Cloud python library displays an apostrophe at the end of every word]
-(https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
+[Word Cloud python library displays an apostrophe at the end of every word](https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
 </Secret>
 
 Direct Copy and Paste from Stack Overflow: 
@@ -1208,20 +1211,25 @@ Finally, if we want to use the NLTK specific functions:
 ```python
 dq_text.similar("WINDMILLS")
 ```
-Why didn't that work?
+Did that work?
 
 <Secret>
 
-we would have to make a specific NLTK `Text` object.
 
 ```python
 dq_nltk_text = nltk.Text(dq_text)
 ```
 
-And we could check that it worked by running:
+We would have to make a specific NLTK `Text` object.
+</Secret>
+
+How do we check if that worked?
+
+<Secret>
 
 ```python
 type(dq_nltk_text)
+dq_nltk_text.similar("WINDMILLS")
 ```
 
 </Secret>
