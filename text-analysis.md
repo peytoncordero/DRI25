@@ -217,19 +217,21 @@ text3[0:10]
 
 Pop quiz: 
 
-This may be the most famous <u> # of words </u>  in the Western canon. 
+1. This may be the most famous <u> # of words </u>  in the Western canon. 
 
 <Secret>
 10! Get the elements from position 0 to position 10 (not included)
 </Secret>
 
-As far as we can tell, is this text structured...?
+2. As far as we can tell, is this text structured...?
 
 *Recall the Data Ethics workshop section on structured data.*
 
 <Secret>
 No, it is not organized or structured in a well-defined way or according to any rules. It appears to be just a list of all the words in the book. The text is not arranged in rows or columns, for example.
 </Secret>
+
+**What's Next?**
 
 So what we'll be doing the rest of the workshop is to whittle down this text to a smaller list of words, a "more meaningful" list of words. 
 
@@ -255,7 +257,8 @@ In our own research, these preconveived notions is **theory**.
 
 The conceptualization stage of research is *defining* the concept of our research question.
  
-Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research" [Source] (https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research
+[Source] (https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
 Example: Suppose we want to examine the concept of patriotism in the Inaugural Addresses corpus. We find that political theorist, Maurizio Viroli, defines the "language of patriotism" as "been used over the centuries to strengthen or invoke love of political institutions and the way of life that sustains the common liberty of a people, that is love of the republic." [Source](https://academic.oup.com/book/12461)
 
