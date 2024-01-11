@@ -260,11 +260,19 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as "as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight. Using this definiton of ethics, we then consider ethics as situated. **Situated ethics refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [Helen Simons and Robin Usher, Situated Ethics in Educational Research, 2000](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). 
+
+Situated ethics argues that ethical concerns will vary amongst people, disciplines, projects, tools, and contexts depending on the particular situated perspective of that person, group, or project.
+
+Thinking through how ethical ideas and practices, or lack thereof, are situated may prompt questions such as: How is data retrieved? By whom? For whom? From where? Why? 
+
+<Info>
+In the Command Line workshop you learned about the history of the computer and considered the questions: How were computers developed? By whom? Where? Why?
+</Info>
 
 ## Levels of Impact
 
-Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible od probable impact[our work may have], rather than the prevention of the impact. 
+Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible or probable impactn[our work may have], rather than the prevention of the impact. 
 
 This session, drawing from Markham (2016), will focus on three levels of impact:
 
@@ -290,8 +298,9 @@ A graduate student decides to analyze a data set they collected through surveyin
 Using a large language model application such as Chat GPT to analyze personal inforamtion collected by the survey can casue direct impact on the "human subjects" and reproduce catagories and information that can be harmful to the participants. The data inputed into Chat GPT is stored and used to produce outputs for other propmts unbeknowst to the graduate student researcher or the participants. Considering these impacts, it is best ethical practice for the graduate student to use a tool that is private and secure for their analysis and visualizarion.
 </Secret> 
 
-This is only one of the possible considerations, but there are more to evaluate.
-
+<Info>
+The reveal above is only one of the possible considerations, but there might be many others to evaluate.
+</Info>
 
 ## Naming Conventions for Directory Structures
 
