@@ -194,39 +194,26 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 ## Challenge: Forms of Data 
 
-What are some forms of data you use in your work?
-What about forms of data that you produce as your output? Perhaps there are some forms that are typical of your field.
-Where do you usually get your data from?
-
-Below you will find three frontmatter pages of three digital projects. Each project is distinct in its As you explore the information Review the landing pages captured here for each digital project. From the informtaion provided in the screenshot, consider the forms of data used at retrevial, input, and output. 
+Below you will find two frontmatter pages of two distinct digital projects. As you inspect the information present in each image, consider these questions:
+1. What are some forms of data used in the project?
+2. What are some forms of data outputed by the project?
+3. Where was the data retrieved from to complete the project? 
 
 ![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
 
-Where might the researcher(s) working on Human Computers At NASA retrieved the data used in this digital project?
+[Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/) is an archival project that "seeks to shed light on the buried stories of African American women with math and science degrees who began working at NACA (now NASA) in 1943 in secret, segregated facilities."
 
 <Secret>
-You would most likely extract/scrape data that comes through a JSON file, which is a text-type that is often used to structure large data sets. Sometimes they also come in other forms of data bases such as CSVs and XLS.
-This project would most likely not require an IRB becuase you are not extracting identifiable  information on "human subjects".
+From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data maybe outputed as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. 
 </Secret>
 
-![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Brooklyn-Oral-History-Collection.png)
+![Screenshot of the frontmatter of an audio community mapping project called Listen for the Iraqis in NYC!](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
 
-2. You want to explore the ecosystem of the streets on NYC. What forms of data would you produce as your output? Would you need an IRB?
+[Listen for the Iraqis in NYC!](https://www.arcgis.com/apps/Cascade/index.html?appid=caace3a2d1624aecac2754b5802de3fc) is an audio community mapping project that seeks to locate the Iraqi population in nYC using their own voices. 
 
 <Secret>
-Your outputs would most likey be statistical or geospatial. 
-You will not need an IRb for this project since there are no "human subjects involved.
+From the image, we can deduce that audio recordings of participants and a map (geospatial data) were used to complile this project. Given the details in the text on the right of the screen, we learn that the researcher will provide a map (geospatial data) and testemants (audio files) for us to peruse. The researcher has gathered digital field notes in the form of audio files from participants through a survey.
 </Secret>
-
-![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
-
-3. You want to understand the immigrant experience of a certain peoples. Where do you most likely get your data from? Would you need an IRB?
-
-<Secret>
-You would need to most likely conduct interviews and collect field notes in audio or video format. 
-You would most likely need an IRB and a [Standard Deed of Gift Agreemnet](https://guides.library.columbia.edu/ld.php?content_id=46588134) to public your findings. For more forms required for oral histories and archives see [Columbia Universities Guidlines](https://guides.library.columbia.edu/c.php?g=818237&p=6539627).
-</Secret>
-
 
 # Stages of Data
 
@@ -234,20 +221,26 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
+
 2. In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
     - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
+
 3. After collecting our data we then consider and make decisions in the processes of cleaning.
     - E.g. We have to transform some of the gender values and decide what to do with the missing fields.
+
 4. We then run our preliminary analysis of the data.
     - E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
+
 5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
     - E.g. We can present the result in a pie chart or a bar graph.
 
 ## Stages of Data: Non-linear
 
-The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
-
 ![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
+
+<info>
+The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
+</info>
 
 # Ethics Beyond Compliance 
 
