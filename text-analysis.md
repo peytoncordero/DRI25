@@ -1219,7 +1219,8 @@ We would have to make a specific NLTK `Text` object.
 dq_nltk_text = nltk.Text(dq_text)
 ```
 
-And we could check that it worked by running:
+And we can check that it worked by running:
+
 
 ```python
 type(dq_nltk_text)
