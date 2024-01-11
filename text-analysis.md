@@ -307,11 +307,11 @@ what is important and what is easy to measure." [Source](https://www.frontiersin
 
 As good researchers, we know that we must make a strong theorectical and empirical case for why what we're measuring reflects our concept. 
 
+"When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
+
 <Info>Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?</Info>
 
-<p style="text-align: center;">
-"When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
-</p>
+
 ## Evaluation
 
 Which one of the following sentences is correct?
