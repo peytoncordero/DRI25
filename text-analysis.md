@@ -961,24 +961,21 @@ print(len(text1_clean_test))
 
 How to write the previous two for-loops in list comprehension?
 
-<Secret>
-
 
 Lemmatize then stem:
 
-
+<Secret>
 ```python
 text1_clean = [wordnet_lemmatizer.lemmatize(porter_stemmer.stem(t)) for t in text1_stops]
 ```
+</Secret>
 
 Stem then lemmatize:
 
-
+<Secret>
 ```python
 text1_clean_test = [porter_stemmer.stem(wordnet_lemmatizer.lemmatize(t)) for t in text1_stops]
 ```
-
-
 </Secret>
 
 
