@@ -310,7 +310,7 @@ To work with the command line it is important to understand that, in computers, 
 
 ![Diagram of the filesystem. The top level has a folder called users with a line indicating that it has other folders over it. If we one level down there are there users, each of them with a folder. The users are user-name, someonelse and me-too. User-name has documents, applications, and desktop, and inside of documents has two other folders. The user someonelse has documents, applications, and desktop; additional this user has a folder called whatever that contains two folders. One of those folders contains another folder. The user called me-too has documents, applications, and desktops, and has one folder inside of documents](/images/command-line/Filesystem-diagram.png "Diagram of the filesystem")
 
-The adoption of this method responds to the possibilities new computers and became generalized at the beginning of the 1960s. According to [Microsoft](https://learn.microsoft.com/en-us/windows/win32/stg/the-evolution-of-file-systems) 
+The adoption of this method responds to the possibilities new computers and became generalized at the beginning of the 1960s. According to [Microsoft]:(https://learn.microsoft.com/en-us/windows/win32/stg/the-evolution-of-file-systems) 
 
 >"The advent of computer systems that could run more than one application required a mechanism to ensure that applications did not write over each other's data. Application developers addressed this problem by adopting a single standard for distinguishing disk sectors in use from those that were free by marking them accordingly. In time, these standards coalesced to become a disk operating system, which provided various services to the applications, including a file system for managing persistent storage. With the advent of a file system, applications no longer had to deal directly with the physical storage medium. Instead, they simply told the file system to write blocks of data to the disk and let the file system worry about how to do it. In addition, the file system allowed applications to create data hierarchies through an abstraction known as a directory. A directory could contain not only files but other directories, which in turn could contain their own files and directories, and so on".
 
@@ -324,7 +324,7 @@ The metaphor is not about the material means to keep the files, but about keepin
 
 ## Issues of a metaphor
 
-When the file system became a generalized name in the 1960s, only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
+As we mentioned, the file system dates from the 1960s. At that time, only a limited audience had access to computers Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
 
 ![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
@@ -332,7 +332,7 @@ As computers became smaller, anyone -with the purchasing power- could take home.
 
 ![A smartphone being hold by someone in their hand](/images/command-line/pexels-mohi-syed-50614.jpg)
 
-The metaphor that originated the term filesystem is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the filesystem continues to be an essential task to be able to interact with the computer and give it commands!
+The metaphor that originated the term file system is not so clear in our lives anymore. This can challenge those teaching and learning about computers, as you can read in the article [File Not Found](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z). However, as for the command line, understanding the hierarchical structure of the file system continues to be an essential task to be able to interact with the computer and give it commands!
 
 <Info>
     
