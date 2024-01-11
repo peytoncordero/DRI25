@@ -303,24 +303,28 @@ Computers have the option of including multiple users. The output to `whoami` wi
 </Info>
 
 
-# The filesystem 
+# The file system 
 ### Information structure on the computer 
 
-To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *filesystem*. 
+To work with the command line it is important to understand that, in computers, information is organized hierarchically. The method of organization and data structure is called the *file system*. 
 
 ![Diagram of the filesystem. The top level has a folder called users with a line indicating that it has other folders over it. If we one level down there are there users, each of them with a folder. The users are user-name, someonelse and me-too. User-name has documents, applications, and desktop, and inside of documents has two other folders. The user someonelse has documents, applications, and desktop; additional this user has a folder called whatever that contains two folders. One of those folders contains another folder. The user called me-too has documents, applications, and desktops, and has one folder inside of documents](/images/command-line/Filesystem-diagram.png "Diagram of the filesystem")
 
-We can think of a library as a metaphor for going inside a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
+The adoption of this method responds to the possibilities new computers and became generalized at the beginning of the 1960s. According to [Microsoft](https://learn.microsoft.com/en-us/windows/win32/stg/the-evolution-of-file-systems) 
+
+>"The advent of computer systems that could run more than one application required a mechanism to ensure that applications did not write over each other's data. Application developers addressed this problem by adopting a single standard for distinguishing disk sectors in use from those that were free by marking them accordingly. In time, these standards coalesced to become a disk operating system, which provided various services to the applications, including a file system for managing persistent storage. With the advent of a file system, applications no longer had to deal directly with the physical storage medium. Instead, they simply told the file system to write blocks of data to the disk and let the file system worry about how to do it. In addition, the file system allowed applications to create data hierarchies through an abstraction known as a directory. A directory could contain not only files but other directories, which in turn could contain their own files and directories, and so on".
+
+As the file system is a way of structured storage, we can think of a library as a metaphor for visiting the inside of a computer. Libraries have very systematic ways of organizing knowledge with a hierarchical system. When we approach a shelf, we can see that books are located by subject and that, even within a subject, there are subtopics, that can be categorized even further. The library contains many books and needs to be able to include new books over time. Additionally, libraries need to organize their books in a way that their many users can easily find the path in the building to access the shelf and retrieve any book they want from the collection. 
 
 ![Four videos together. One with a person taking a book from a bookshelf at a library. One video of boxes at an archive. A  person looking at the cards in the card catalog. A person opening a card catalog with their hand](/images/command-line/FileSystem.gif "Libraries and Archives")
 
-The filesystem is named after a method to store paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
+The file system is named after a method to store paper documents. It is quite close to the idea of the library, where each book could be taken as a file. In fact, we could move from libraries to archives. Archives also organize knowledge, but they differ by keeping unpublished materials and gray literature. As many of those materials are files, they keep these files in folders. In this case, the organization should also enable us to easily find the path to the documents. 
 
 The metaphor is not about the material means to keep the files, but about keeping a hierarchical global organization to contain information within a space. Computers are very alike libraries and archives in the amount of information they keep. The only difference is the materiality of the documents. 
 
 ## Issues of a metaphor
 
-When the filesystem became a generalized name (around the 1960s), only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
+When the file system became a generalized name in the 1960s, only a limited audience had access to computers. Those users, mostly researchers and specialists, might have a close relationship with the spaces we mentioned in the metaphor. Additionally, thinking of hardware, when computers were the size of a room, people shared a physical space to store information (in punch cards), just as the library of our metaphor. This picture of two programmers at ENIAC helps us imagine how this shared room required as much organization as possible.
 
 ![Two of the women who programmed ENIAC operating it](/images/command-line/Two_women_operating_ENIAC.jpg)
 
