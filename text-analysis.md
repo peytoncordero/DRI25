@@ -143,6 +143,9 @@ Run code in cell with (<kbd>shift</kbd> + <kbd>enter</kbd>).
 <Info>If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
 </Info>
 
+JupyterLite print commands without the `print` function, but it will only print one thing per cell (the last command). Some times we want to print more than one thing so we should specify `print`. 
+
+
 ## Loading Corpus
 
 First lines of code - import `NLTK` library and the patch for running external (HTTP) links in our JupyterLite, `pyodide_http`. 
@@ -911,7 +914,7 @@ It didn't work, but...
 wordnet_lemmatizer.lemmatize("better", pos='a')
 ```
 
-... sometimes we can get better results if we define a specific part of speech(pos). "a" is for "adjective", as we learned [here](http://www.nltk.org/_modules/nltk/corpus/reader/wordnet.html).
+... sometimes we can get better results if we define a specific part of speech(pos). "a" is for "adjective", as we learned (here)[http://www.nltk.org/_modules/nltk/corpus/reader/wordnet.html].
 
 ```python
 print(wordnet_lemmatizer.lemmatize('abandon'))
@@ -937,17 +940,47 @@ for t in text1_stops:
 	text1_clean.append(t_lem)
 ```
 
-And again, there is a faster version for you to use once you feel comfortable with list comprehensions:
+Maybe we stem THEN lemmatize...
 
 ```python
-text1_clean = [wordnet_lemmatizer.lemmatize(t) for t in text1_stops]
+text1_clean_test = []
+for t in text1_stops:
+    t_lem = wordnet_lemmatizer.lemmatize(t)
+    t_stem = porter_stemmer.stem(t_lem)
+    text1_clean_test.append(t_stem)
 ```
+
+How do these compare two compare?
+
+```python
+print(len(text1_clean))
+
+print(len(text1_clean_test))
+```
+## Evaluation
+
+How to write the previous two for-loops in list comprehension?
+
+<Secret>
+
+Lemmatize then stem 
+
+```python
+text1_clean = [wordnet_lemmatizer.lemmatize(porter_stemmer.stem(t)) for t in text1_stops]
+```
+Stem then lemmatize
+
+```python
+text1_clean_test = [porter_stemmer.stem(wordnet_lemmatizer.lemmatize(t)) for t in text1_stops]
+```
+
+</Secret>
+
 
 ## Verifying Clean List Contents
 
-Let's check now to see the length of our final, cleaned version of the data, and then check the unique set of words. Notice how we will use the `print` function this time. 
+Let's check now to see the length of our final, cleaned version of the data, and then check the unique set of words. 
 
-JupyterLite does print commands without the `print` function, but it will only print one thing per cell (the last command), and we wanted to print two different things:
 
 ```python
 print(len(text1_clean))
