@@ -724,6 +724,8 @@ Let's use another visual tool to see where we are in our data exploration proces
 
 We are all familiar and we can use our list of tokens. Why would our list of unique words not be appropriate for a word cloud?
 
+The following code is copied from the [Word Cloud Python Package documentation](https://amueller.github.io/word_cloud/auto_examples/simple.html#sphx-glr-auto-examples-simple-py). 
+
 ```python
 text = text1_tokens
 wordcloud = WordCloud().generate(text)
@@ -828,12 +830,12 @@ plt.imshow(wordcloud)
 
 Googling for the answers to your coding questions is an essential part of being a coder. let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
 
+Try googling: 
 [Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
 
 <Secret>
 Google search results may vary but this is one I got in Jan. 2024
-[Word Cloud python library displays an apostrophe at the end of every word]
-(https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
+[Word Cloud python library displays an apostrophe at the end of every word](https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
 </Secret>
 
 Direct Copy and Paste from Stack Overflow: 
