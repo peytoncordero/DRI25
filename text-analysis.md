@@ -1132,7 +1132,7 @@ Now let's specify which URL we are going to use. Though you might be able to fin
 Set the URL we want to a variable:
 
 ```python
-my_url = "http://www.gutenberg.org/files/996/996-0.txt"
+my_url = "https://raw.githubusercontent.com/GITenberg/Don-Quixote_996/master/996.txt"
 ```
 
 We still need to open the file and read the file. You will have to do this with files stored locally as well. (in which case, you would type the path to the file (i.e., `data/texts/mytext.txt`) in place of `my_url`)
@@ -1154,8 +1154,14 @@ Now let's check on what kind of object we have in the "don" variable. Type:
 ```python
 type(don)
 ```
+This should be a string. 
 
-This should be a string. Great! We have just read in our first file.
+But what's in the don object anyway...
+
+```python
+don
+```
+Great! We have just read in our first file.
 
 # Make Your Own Corpus (continued)
 
