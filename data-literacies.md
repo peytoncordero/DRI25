@@ -247,7 +247,7 @@ We then run our preliminary analysis of the data.
 
 At the end of our analysis, a decision is then made about how we would present the data and its analysis.
 
--E.g. We can present the result in a pie chart or a bar graph.
+- E.g. We can present the result in a pie chart or a bar graph.
 
 ## Stages of Data: Non-linear
 
