@@ -787,8 +787,6 @@ for t in text1_tokens:
     	text1_stops.append(t)
 ```
 
-The code below is slow, so it may take some time to process.
-
 
 </Secret>
 
@@ -893,6 +891,7 @@ porter_stemmer = PorterStemmer()
 
 ```
 Let's compare stemming and lemmatizing
+
 ```python
 print(wordnet_lemmatizer.lemmatize('berry'))
 print(wordnet_lemmatizer.lemmatize('berries'))
