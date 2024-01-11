@@ -481,9 +481,11 @@ for t in text1:
 
 If everything went right, you should get no output: 
 
-**jazz hands**
+**[jazz hands]**
+
 Silent success! 
-**jazz hands**
+
+**[jazz hands]**
 
 You just wrote your first for-loop!
 
