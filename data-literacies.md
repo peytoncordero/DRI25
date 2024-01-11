@@ -260,9 +260,9 @@ The previous page articulates one cycle in which data goes from collection to tr
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as " as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as "as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight." [author name]. Using this definiton of ethics, we then should consider ethics as situated--given that our notions of ethics are situated in our lived experinces. How can we account for everyone's lived experince? How can we have the foresight to limit harm done onto others? We cannot possibly know what we do not know to make all the correct ethical choices, but we can consider the impacts our scholarship and research have to help us make the best ethical decisions to mitigate the affect of harm that can possibly occurdone intentionally or unintentionally to real people.
 
-### Levels of Impact
+## Levels of Impact
 
 Taken from [Annette Markham's "OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/), levels of impact as discussed here are evaluation of "the possible od probable impact[our work may have], rather than the prevention of the impact. 
 
