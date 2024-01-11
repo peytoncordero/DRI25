@@ -1214,6 +1214,7 @@ Did that work?
 
 We would have to make a specific NLTK `Text` object.
 
+
 ```python
 dq_nltk_text = nltk.Text(dq_text)
 ```
