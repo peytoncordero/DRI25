@@ -236,7 +236,7 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 ## Stages of Data: Non-linear
 
-![Stages of data are non-linear](/images/data-ethics/stages_of_data.png)
+![Stages of data are non-linear](/images/data-ethics/stages-of-data-non-linear.pngpng)
 
 <Info>
 
