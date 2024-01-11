@@ -1183,7 +1183,10 @@ Since this is a list, we can look at any slice of it that we want. Let's inspect
 don_tokens[:10]
 ```
 
-That looks like metadata—not what we want to analyze. We will strip this off before proceeding. If you were doing this to many texts, you would want to use [Regular Expressions](https://regexone.com/). Regular Expressions are an extremely powerful way to match text in a document. However, we are just using this text, so we could either guess, or cut and paste the text into a text reader and identify the position of the first content (i.e., how many words in is the first word). That is the route we are going to take. We found that the content begins at word 320, so let's make a slice of the text from word position 320 to the end.
+<Info>That looks like metadata—not what we want to analyze. We will strip this off before proceeding. If you were doing this to many texts, you would want to use [Regular Expressions](https://regexone.com/). Regular Expressions are an extremely powerful way to match text in a document. 
+</Info>
+
+We are just using this text, so we could either guess, or cut and paste the text into a text reader and identify the position of the first content (i.e., how many words in is the first word). That is the route we are going to take. We found that the content begins at word 320, so let's make a slice of the text from word position 320 to the end.
 
 ```python
 dq_text = don_tokens[320:]
@@ -1192,7 +1195,7 @@ dq_text = don_tokens[320:]
 Now print the first 30 words to see if it worked:
 
 ```python
-print(dq_text[:30]
+print(dq_text[:30])
 ```
 
 Finally, if we want to use the NLTK specific functions:
@@ -1201,6 +1204,13 @@ Finally, if we want to use the NLTK specific functions:
 - `similar`
 - `dispersion_plot`
 - or others from the [NLTK book](https://www.nltk.org/book/)
+
+```python
+dq_text.similar("WINDMILLS")
+```
+Why didn't that work?
+
+<Secret>
 
 we would have to make a specific NLTK `Text` object.
 
@@ -1213,6 +1223,8 @@ And we could check that it worked by running:
 ```python
 type(dq_nltk_text)
 ```
+
+</Secret>
 
 But if we only need to use the built-in Python functions, we can just stick with our list of words in `dq_text`.
 
