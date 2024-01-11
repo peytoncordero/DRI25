@@ -272,7 +272,7 @@ In the Command Line workshop you learned about the history of the computer and c
 
 ## Levels of Impact
 
-Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methododlogy dependent on reflection, awarness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact." This "impact approach" helps us expand our ethical imagination and consider ethics beyond compliance. 
+Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methododlogy dependent on reflection, awarness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact." This "impact approach" helps us expand our ethical imagination and consider ethics beyond perscriptives and compliance. 
 
 This session, drawing from Markham (2016), will focus on three levels of impact:
 
