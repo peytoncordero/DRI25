@@ -1051,6 +1051,10 @@ We've made a nice image here, but it might be easier to comprehend as a list. Be
 my_dist.most_common(20)
 ```
 
+
+
+## Challenge
+
 What about if we are interested in a list of specific words—perhaps to identify texts that have biblical references. Let's make a (short) list of words that might suggest a biblical reference and see if they appear in _Moby Dick_. Set this list equal to a variable:
 
 ```python
@@ -1058,6 +1062,8 @@ b_words = ['god', 'apostle', 'angel']
 ```
 
 Then we will loop through the words in our cleaned corpus, and see if any of them are in our list of biblical words. We'll then save into another list just those words that appear in both.
+
+<Secret>
 
 ```python
 my_list = []
@@ -1068,21 +1074,21 @@ for word in b_words:
     	pass
 ```
 
+</Secret>
+
+
 And then we will print the results.
+
+<Secret>
 
 ```python
 print(my_list)
 ```
+</Secret>
 
-You can obviously do this with much larger lists and even compare entire novels if you wish, though it would take a while with this approach. You can use this to get similarity measures and answer related questions.
+Now try with list comprehension
 
-## Challenge
-
-1. Try to get the same result of the loop above (the one with "my_list"), but this time with a list comprehension. Save this other list as "my_list2".
-
-2. Compare both lists to see if they are identical.
-
-## Solution
+## Challenge Part 2
 
 1. A solution using a list comprehension would look like this:
 
@@ -1105,7 +1111,11 @@ Which one of the following sentences is correct:
 
 # Make Your Own Corpus
 
-Now that we have seen and implemented a series of text analysis techniques, let's go to the Internet to find a new text. You could use something such as historic newspapers, or Supreme Court proceedings, or use any txt file on your computer. Here we will use [Project Gutenberg](http://www.gutenberg.org). Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including `.txt`. You can download these to your computer or access them via the url. We'll use the latter. We found _Don Quixote_ in the archive (see [here](http://www.gutenberg.org/files/996/996-0.txt)), and will work with that.
+Now that we have seen and implemented a series of text analysis techniques, let's go to the Internet to find a new text. 
+
+You could use something such as historic newspapers, or Supreme Court proceedings, or use any txt file on your computer. Here we will use [Project Gutenberg](http://www.gutenberg.org). 
+
+Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including `.txt`. You can download these to your computer or access them via the url. We'll use the latter. We found _Don Quixote_ in the archive (see [here](http://www.gutenberg.org/files/996/996-0.txt)), and will work with that.
 
 The Python package `urllib` comes installed with Python. Since we are only going to use the `urlopen` function, we will just import that one.
 
