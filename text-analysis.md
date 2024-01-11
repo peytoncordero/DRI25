@@ -458,8 +458,8 @@ What do we need the code to do?
 >>Create new list.
 
 >>In each element (in our case, it is each word) of the original corpus object, we ask, **True or False**,
- * If True, we want to convert it to lower case
- * If False, ignore it
+ * If **True**, we want to convert it to lower case
+ * If **False**, ignore it
 
 >>Take this new lower case object and add it to our list
 
@@ -479,12 +479,16 @@ for t in text1:
 </Secret>
 
 
-If everything went right, you should get no output. Remember the "silent success?"
+If everything went right, you should get no output**"silent success?"**
+
+You just wrote your first for-loop!
 
 ## Make a list of all the words lowercase with ONE LINE OF CODE
 
 
-Another way to perform the same action more tersely is to use what's called a [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). A list comprehension is a shorter, faster way to write a for-loop. It is syntactically a little more difficult to read (for a human), but, in this case, it's much faster to process.
+Another way to perform the same action more succinctly is to use what's called a [list comprehension](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions). 
+
+A list comprehension is a shorter, faster way to write a for-loop. It is syntactically a little more difficult to read (for a human), but, in this case, it's much faster to process.
 
 ```
 text1_tokens = [t.lower() for t in text1 if t.isalpha()]
@@ -517,7 +521,6 @@ Check all sentences below that are correct:
 ## Keywords
 
 Do you remember the glossary terms from this section?
-
 
 - [Token](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/token.md)
 - [Tokenizing](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tokenizing.md)
@@ -583,7 +586,9 @@ len(set(text1_tokens))
 
 Now we can calculate the **lexical density**, the number of unique words per total words. [Statistical studies](https://pdfs.semanticscholar.org/c2a8/56959d7f5880c98ccd4cfeb4b4f5b7133ec7.pdf) have shown that lexical density is a good metric to approximate lexical diversity—the range of vocabulary an author uses. This by no means suggests more or less sophistication.
 
-Gertrude Stein's "A rose is a rose is a rose is a rose" would be rendered meaningless otherwise. Or the book Jack Nicholson was writing in the Shining? "All work and no play, makes Jack a dull boy," typed out into haunted eternity?
+Gertrude Stein's "A rose is a rose is a rose is a rose" would be rendered meaningless otherwise.  
+
+Or the book Jack Nicholson was writing in _The Shining_? "All work and no play, makes Jack a dull boy," typed out into haunted eternity? It would be less scary if there was only one sentence...
 
 For our first pass at lexical density, we will simply divide the number of unique words by the total number of words:
 
@@ -656,7 +661,7 @@ What's happening between "the house is burning" and "house burn"
 
 We removed the stop words (_the_ and _is_), and removed punctuation and case, and simplified what was left (_burning_ becomes _burn_). 
 
-This results in what is essentially a "bag of words," or a corpus of words without any structure. 
+This results in what is essentially a "bag of words," or a corpus of words without grammar. 
 
 Because normalizing your text reduces the number of words (and therefore the number of dimensions in your data), and keeps only the words that contribute meaning to the document, this cleaning is usually desirable.
 
@@ -688,19 +693,25 @@ Do you remember the glossary terms from this section?
 
 # Word Cloud
 
-Let's use another visual tool to see where we are in our data exploration process...a word cloud. It is a collection, or cluster, of words depicted in different sizes. The bigger and bolder the word appears, the more often it's mentioned within a text
+Let's use another visual tool to see where we are in our data exploration process...a word cloud. It is a collection, or cluster, of words depicted in different sizes. The bigger and bolder the word appears, the more often it's mentioned within a text.
 
 We are all familiar and we can use our list of tokens. Why would our list of unique words not be appropriate for a word cloud?
 
+```python
 text = text1_tokens
 wordcloud = WordCloud().generate(text)
 plt.imshow(wordcloud)
+```
 
+```python
 text = str(text1_tokens)
 wordcloud = WordCloud().generate(text)
 plt.imshow(wordcloud)
+```
 
-Is this useful? What are all these words? Does this tell me anything about Moby Dick? No, we need to clean this text!
+Is this useful? What are all these words? Does this tell me anything about Moby Dick? 
+
+No, we need to clean this text!
 
 # Data Cleaning: Removing Stop Words
 
@@ -710,7 +721,7 @@ We've completed one out of three steps of data cleaning.
 2. Remove stop words.
 3. Lemmatize (or stem) our words, i.e. "jumping" and "jumps" become "jump."
 
-This next section, we will be cleaning our corpus by removing the stop words. In seeing getting the most frequent words, a lot of them were extremeley common words, so we should get rid of them because they don't tell us anything meaningful about the text, very little semantic meaning and most often have grammatical functions. Usually, these are function words such as determiners, prepositions, auxiliaries, and others.
+This next section, we will be cleaning our corpus by removing the stop words. In seeing getting the most frequent words, a lot of them were extremely common words, so we should get rid of them because they don't tell us anything meaningful about the text, very little semantic meaning and most often have grammatical functions. Usually, these are function words such as determiners, prepositions, auxiliaries, and others.
 
 To use NLTK's stop words, we need to import the list of words from the corpus. 
 
@@ -734,12 +745,11 @@ What's the logic we'll use to make a new list of the corpus without stop words?
 
 <Secret>
 
+Start with a new empty list.
 
-we have a list of words from our corpus, we also have a list of words (stopword) we don't want in our new list, to check if every word is in this stopword list. 
+we have a list of words from our corpus, we also have a list of words (stopword) we don't want in our new list, to check if every element is in this stopword list. 
 
-If the word is not in that list, we will keep it...
-
-Now we want to go through all of the words in our text, and if that word is in the stop words list, remove it from our list. Otherwise, we want it to skip it. (The code below is slow, so it may take some time to process).
+If the word is not in that list, we will append to our new list.
 
 </Secret>
 
@@ -747,6 +757,7 @@ Now we want to go through all of the words in our text, and if that word is in t
 
 <Secret>
 
+The code below is slow, so it may take some time to process.
 
 ```python
 text1_stops = []
@@ -756,7 +767,6 @@ for t in text1_tokens:
 ```
 
 </Secret>
-
 
 Now try it with the one-liner, AKA list comprehension
 
@@ -780,7 +790,6 @@ len(text1_stops)
 
 ## Revised Word Cloud
 
-
 ```python
 
 text = str(text1_stops)
@@ -789,13 +798,17 @@ plt.imshow(wordcloud)
 
 ```
 
-## How do we get rid of parantheses? 
+## How do we get rid of apostrophes? 
 
 Googling for the answers to your coding questions is an essential part of being a coder. let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
 
-Word Cloud python library displays an apostrophe
+[Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
 
-https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word
+<Secret>
+Google search results may vary but this is one I got in Jan. 2024
+[Word Cloud python library displays an apostrophe at the end of every word]
+(https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
+</Secret>
 
 Direct Copy and Paste: 
 
