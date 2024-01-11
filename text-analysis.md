@@ -1220,13 +1220,14 @@ dq_nltk_text = nltk.Text(dq_text)
 We would have to make a specific NLTK `Text` object.
 </Secret>
 
+How do we check if that worked?
 
 <Secret>
 
 ```python
 type(dq_nltk_text)
+dq_nltk_text.similar("WINDMILLS")
 ```
-And we can check that it worked by running:
 
 </Secret>
 
