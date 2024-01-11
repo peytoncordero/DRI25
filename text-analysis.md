@@ -300,14 +300,14 @@ They actually don't share the same contexts - "patriotism" does not show up on t
 
 After conceptualization, we measure for these concepts: reach for the empirical. 
 
-> "Choices made during this phase are always tied to the question “Are we
+"Choices made during this phase are always tied to the question “Are we
 measuring what we intend to measure?” Does our operationalization match
 our conceptual definition? To ensure validity we must recognize gaps between
 what is important and what is easy to measure." [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
 As good researchers, we know that we must make a strong theorectical and empirical case for why what we're measuring reflects our concept. 
 
-Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?
+<Info>Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?</Info>
 
 <p style="text-align: center;">
 "When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
