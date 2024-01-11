@@ -158,7 +158,7 @@ We recommend [Hello, World - Command Line Heroes Season 2](https://www.redhat.co
 </Info>
 
 # Talking computer
-**What is *text* for computers?**
+### What is *text* for computers?
 
 To communicate with the computer via the command line we use *text inputs*. It is important to stop for a minute to define what *text* means in this context. 
 
@@ -200,7 +200,7 @@ While it doesn't matter which text editor you choose, you should try to become c
 
 ## Review
 
-**Evaluation**
+### Evaluation
 
 What is the command line? (Select one)
 
@@ -220,7 +220,7 @@ What is the difference between a plain text document and a rich text document? (
 - One can't determine whether there is a difference between the two without looking at their content.
 </Quiz>
 
-**Reflection**
+### Reflection
 As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
