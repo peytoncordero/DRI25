@@ -430,15 +430,13 @@ Why would we want each type to be treated the same way?
 
 ## Make a list of all the words lowercase!
 
-Just like in cooking, let’s think about what we know and gather our ingredients to achieve our recipe, “make a list of all the words lowercase”:
-
-**We want a new list of the same corpus (text1) but performing any operation on the original would be irreversible**
+Just like in cooking, let’s think about what we know and gather our ingredients to achieve our recipe: “Make a list of all the words lowercase”
 
 [Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
 
  * Python has a built-in function, `isalpha()` that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
- * Lastly, we have our original corpus object, text1
+ * Lastly, we have our original corpus object, text1 but performing any operation on the original would be irreversible
 
 **Practice**
 
