@@ -259,7 +259,7 @@ In our own research, these preconveived notions is **theory**.
 The conceptualization stage of research is *defining* the concept of our research question.
  
 Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research
-[Source] (https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
+[Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
 Example: Suppose we want to examine the concept of patriotism in the Inaugural Addresses corpus. We find that political theorist, Maurizio Viroli, defines the "language of patriotism" as "been used over the centuries to strengthen or invoke love of political institutions and the way of life that sustains the common liberty of a people, that is love of the republic." [Source](https://academic.oup.com/book/12461)
 
