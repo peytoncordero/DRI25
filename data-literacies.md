@@ -288,6 +288,12 @@ Additionally, this workshop will address the range of impact, or the range of ac
 
 Throughout the workshop we will refer to the impacts by number for quick refernce.
 
+<Info>
+**Reflection**
+Now would be a good point to reflect on some ethical debates and conserns happening in your field
+</Info>
+
+
 ## Challenge: Ethics Beyond Compliance 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
