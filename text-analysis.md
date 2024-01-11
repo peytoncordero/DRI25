@@ -479,7 +479,11 @@ for t in text1:
 </Secret>
 
 
-If everything went right, you should get no output: [jazz hands]"silent success?" [jazz hands] asda
+If everything went right, you should get no output: 
+
+**jazz hands**
+Silent success! 
+**jazz hands**
 
 You just wrote your first for-loop!
 
