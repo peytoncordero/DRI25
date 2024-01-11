@@ -51,19 +51,22 @@ In this workshop we will be discussing the basics of research data in terms of m
 These quotes below offers **a variety of perspectives** to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
 *University*
-> Material or information on which an argument, theory, test or hypothesis, or another research output is based.
-> 
-> — [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
+
+Material or information on which an argument, theory, test or hypothesis, or another research output is based.
+
+— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 *Digital Project Management*
-> What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
-> 
-> — [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
+
+What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
+
+— [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 
 *Government Insitution*
-> Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
-> 
-> — [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
+
+Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
+
+— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
 *Data Science*
 
