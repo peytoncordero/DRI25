@@ -174,7 +174,7 @@ If we don't want to get our computer lost in translation when communicating with
 
 ## Word processors
 
-Word processors are programs to write and edit a document, such as Microsoft Word or Google Docs. When we these programs, we input text (in the computer sense) and the processor encodes our desired changes into the text appearance. For example, when choosing a new typography, we immediately see the change on our end. What we don't see is that the program has a hidden code to do the formatting. 
+Word processors are programs to write and edit a document, such as Microsoft Word or Google Docs. When we use these programs, we input text (in the computer sense) and the processor encodes our desired changes into the text appearance. For example, when choosing a new typography, we immediately see the change on our end. What we don't see is that the program has a hidden code to do the formatting. 
 
 ![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is “What do we mean by “text editor”?” The body of the text says: “While these words on this assumed “blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
