@@ -258,7 +258,7 @@ In our own research, these preconveived notions is **theory**.
 
 The conceptualization stage of research is *defining* the concept of our research question.
  
-Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research
+Key Question: "Who are the domain experts, and how have they approached the topic? We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research.
 [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
 Example: Suppose we want to examine the concept of patriotism in the Inaugural Addresses corpus. We find that political theorist, Maurizio Viroli, defines the "language of patriotism" as "been used over the centuries to strengthen or invoke love of political institutions and the way of life that sustains the common liberty of a people, that is love of the republic." [Source](https://academic.oup.com/book/12461)
@@ -341,8 +341,7 @@ text1.dispersion_plot(["whale", "monster"])
 A graph should appear with a tick mark everywhere that "whale" appears and everywhere that "monster" appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story — where the whale goes from being a whale to being a monster to being a whale again. If we did not know the story, this could give us hints of the narrative arc.
 
 ```python
-text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne"])
-```
+text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne","Margaret"])```
 
 Looking at this visualization, who is the main character?
 
@@ -507,7 +506,13 @@ Another way to perform the same action more succinctly is to use what's called a
 A list comprehension is a shorter, faster way to write a for-loop. It is syntactically a little more difficult to read (for a human), but, in this case, it's much faster to process.
 
 ```
-text1_tokens = [t.lower() for t in text1 if t.isalpha()]
+text1_tokens_LC = [t.lower() for t in text1 if t.isalpha()]
+```
+
+Let's check if they are the same...
+
+```
+text1_tokens == text1_tokens_LC 
 ```
 
 ## Take a Breath
@@ -594,7 +599,9 @@ So let's find out the length of our set. just like in math, we can also nest our
 How do we do that? 
 
 <Secret>
+```python
 len(set(text1_tokens))
+```
 </Secret>
 
 
