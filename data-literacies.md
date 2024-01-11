@@ -221,27 +221,27 @@ We begin without data. Then it is observed, or made, or imagined, or generated. 
 
 **collection of "raw" data**
 
-1. We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
+We start with formulating a research question(s) or hypotheses and set up a project to answer our question(s).
     - E.g. What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists and also in public domain?
 
 **processing and/or transforming data**
 
-2. In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
+In the process of setting up the project, we make decisions on what kind of data we think can help us to answer the question.
     - E.g. We may retrieve the data from the Met's [open access data set](https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv). We will need to look at what variables exist in the dataset to find out if we can filter by gender and the variables that will correspond to copyrights.( Note: if the file opens as a web page, you would need to use your machine's 'save as' option to save it as a csv file to view it in a tabular form.)
 
 **cleaning**
 
-3. After collecting our data we then consider and make decisions in the processes of cleaning.
+After collecting our data we then consider and make decisions in the processes of cleaning.
     - E.g. We have to transform some of the gender values and decide what to do with the missing fields.
 
 **analysis**
 
-4. We then run our preliminary analysis of the data.
+We then run our preliminary analysis of the data.
     - E.g. We can run an analysis of the subset of non cis-gender men and public domain media objects against the total number of media objects to find out the proportion.
 
 **visualization**
 
-5. At the end of our analysis, a decision is then made about how we would present the data and its analysis.
+At the end of our analysis, a decision is then made about how we would present the data and its analysis.
     - E.g. We can present the result in a pie chart or a bar graph.
 
 ## Stages of Data: Non-linear
