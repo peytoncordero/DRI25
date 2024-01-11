@@ -828,7 +828,7 @@ plt.imshow(wordcloud)
 
 ## How do we get rid of apostrophes? 
 
-Googling for the answers to your coding questions is an essential part of being a coder. let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
+Googling for the answers to your coding questions is an essential part of being a coder. Let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
 
 Try googling: 
 [Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
