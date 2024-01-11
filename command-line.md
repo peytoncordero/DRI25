@@ -166,7 +166,7 @@ To communicate with the computer via the command line we use *text inputs*. It i
 
 For computers, text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are letters(a, ñ, ș, î), numbers (1,٣,3), spaces, tab (tab), punctuation marks (¿?, “”), and symbols (@ , %, $), control characters (bell, new line, end of text), even emojis can count as characters. So in “This %%$$# i5 s7ilL t3xt for a computer” the computer will count 39 characters, including the spaces. 
 
-As humans, we are used to thinking of written texts as interweaving the words, syntax, and discourse that together form a fabric (text comes from the same Latin root that textile: *texere*, “to weave”). Because of this, we usually interpret the formatting of a written piece along with the text to give meaning. Formatting includes fonts, sizes, bold and cursive letters, etc. These characteristics are part of the text as a textile, they work for our human interpretation of a text. 
+As humans, we are used to thinking of written texts as interweaving the words, syntax, and discourse that together form a fabric ("text" comes from the same Latin root that "textile": *texere*, “to weave”). Because of this, we usually interpret the formatting of a written piece along with the text to give meaning. Formatting includes fonts, sizes, bold and cursive letters, etc. These characteristics are part of the text as a textile, they work for our human interpretation of a text. 
 
 As English-speaking humans, we recognize here a word ("text") with an exclamation mark. The computer does not recognize a word, it looks at the string for code units.
 
