@@ -253,7 +253,8 @@ Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural
 
 In our own research, these preconveived notions is **theory**. 
 
-> What can we expect from a dataset of NYC real estate prices over time, based on what we think we know about changes in neighborhood composition?
+<Info>What can we expect from a dataset of NYC real estate prices over time, based on what we think we know about changes in neighborhood composition?
+</Info>
 
 The conceptualization stage of research is *defining* the concept of our research question.
  
