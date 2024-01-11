@@ -201,7 +201,7 @@ What is this object?
 How can we poke at this thing? What commands from previous workshops can we use?
 
 ```python
-type(text4)
+type(text2)
 ```
 Huh that's interesting, what does that mean? 
 
@@ -212,7 +212,7 @@ At the end of this workshop, we will make our own corpus, which will demonstrate
 Let's check out what is in the object. Let’s look at the first 10 elements in this object...
 
 ```python
-text3[0:10]
+text2[0:10]
 ```
 This may be the most famous opening line in the Western canon. 
 
