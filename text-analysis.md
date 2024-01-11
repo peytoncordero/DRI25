@@ -1208,11 +1208,11 @@ Finally, if we want to use the NLTK specific functions:
 ```python
 dq_text.similar("WINDMILLS")
 ```
-Why didn't that work?
+Did that work?
 
 <Secret>
 
-we would have to make a specific NLTK `Text` object.
+We would have to make a specific NLTK `Text` object.
 
 ```python
 dq_nltk_text = nltk.Text(dq_text)
