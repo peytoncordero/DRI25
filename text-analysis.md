@@ -436,7 +436,7 @@ Just like in cooking, let’s think about what we know and gather our ingredient
 
 [Mise en place](https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/)
 
- * Python has a built-in function, ‘isalpha()’ that will allow us know (**True or False**) if a string object contains only alphabetic characters
+ * Python has a built-in function, `isalpha()` that will allow us know (**True or False**) if a string object contains only alphabetic characters
  * Python has a built-in function, `lower()` that takes a character string and converts all the letters to lower case
  * Lastly, we have our original corpus object, text1
 
@@ -479,7 +479,7 @@ for t in text1:
 </Secret>
 
 
-If everything went right, you should get no output: [jazz hands]"silent success?" [jazz hands]
+If everything went right, you should get no output: [jazz hands]"silent success?" [jazz hands] asda
 
 You just wrote your first for-loop!
 
