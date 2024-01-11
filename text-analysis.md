@@ -1212,18 +1212,21 @@ Did that work?
 
 <Secret>
 
-We would have to make a specific NLTK `Text` object.
 
 ```python
 dq_nltk_text = nltk.Text(dq_text)
 ```
 
-And we can check that it worked by running:
+We would have to make a specific NLTK `Text` object.
+</Secret>
 
+
+<Secret>
 
 ```python
 type(dq_nltk_text)
 ```
+And we can check that it worked by running:
 
 </Secret>
 
