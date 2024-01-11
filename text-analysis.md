@@ -780,14 +780,15 @@ Python Code Version
 
 <Secret>
 
-The code below is slow, so it may take some time to process.
-
 ```python
 text1_stops = []
 for t in text1_tokens:
 	if t not in stops:
     	text1_stops.append(t)
 ```
+
+The code below is slow, so it may take some time to process.
+
 
 </Secret>
 
