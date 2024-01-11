@@ -914,7 +914,7 @@ It didn't work, but...
 wordnet_lemmatizer.lemmatize("better", pos='a')
 ```
 
-... sometimes we can get better results if we define a specific part of speech(pos). "a" is for "adjective", as we learned (here)[http://www.nltk.org/_modules/nltk/corpus/reader/wordnet.html].
+... sometimes we can get better results if we define a specific part of speech(pos). "a" is for "adjective", as we learned [here](http://www.nltk.org/_modules/nltk/corpus/reader/wordnet.html).
 
 ```python
 print(wordnet_lemmatizer.lemmatize('abandon'))
@@ -928,7 +928,7 @@ print(porter_stemmer.stem('abandonment'))
 ```
 Still not perfect, but a bit better. So the question is, how to choose between stemming and lemmatizing? As many things in text analysis, that depends. The best way to go is experimenting, seeing the results and choosing the one that better fits your goals.
 
-As a general rule, stemming is faster while lemmatizing is more accurate (but not always, as we just saw). There is a body of literature that discusses this (question)[https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html].
+As a general rule, stemming is faster while lemmatizing is more accurate (but not always, as we just saw). There is a body of literature that discusses this [question](https://nlp.stanford.edu/IR-book/html/htmledition/stemming-and-lemmatization-1.html).
 
 Now we will lemmatize and stem the words in one go:
 
