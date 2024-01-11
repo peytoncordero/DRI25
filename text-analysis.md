@@ -479,11 +479,11 @@ for t in text1:
 
 If everything went right, you should get no output: 
 
-:open_hands: 
+_jazz hands_
 
 Silent success! 
 
-:open_hands: 
+_jazz hands_
 
 You just wrote your first for-loop!
 
