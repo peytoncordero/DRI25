@@ -137,9 +137,11 @@ New technologies, including hardware and software, were required to allow new wa
 
 ![A computer terminal](/images/command-line/DEC_VT100_terminal_transparent.png "Computer terminal")
 
-The command line was possible when computers started to size down. The CLI dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards.
+The command line dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards:
 
-Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI, pronounced "gooey"). This is the interface we are more familiar with. In GUI, you communicate with the computer by selecting icons. 
+>“It allowed programmers to directly enter their programs and data into the computer, execute those programs, view the results, and make any needed corrections – all without the need for clunky keypunch machines, massive printers, and human operators. When personal computers began to emerge in the late 1970’s and early 1980’s, they too adopted the command line interface.” ([Watson Interactive Learning Suite Suite](http://watson.latech.edu/book/future/futureEvolving.html#))
+
+Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI, pronounced "gooey"). This is the interface we are more familiar with, this is the pointing and clicking. In GUI, you communicate with the computer by selecting icons. 
 
 ![A Graphic User Interface from the 1980s](/images/command-line/GUI-IBM_PC_GEM.jpg "GUI")
 
@@ -147,7 +149,7 @@ At first, the interface was limited to specific programs. After the 1980s, it be
 
 Today, with computers that can be transported in our hands, we interact with them via touchscreen. And far from the first computers making mathematical operations, we use these machines for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
-GUI is the friendliest interface for user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects.  
+GUI is the friendliest interface for user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects. So, far from being something from the past, as many users might have felt when GUI became popular, it is actually an everyday skill for many people working with computers, especially those working with networks, systems, and servers.  
 
 <Info>
     
@@ -160,11 +162,11 @@ We recommend [Hello, World - Command Line Heroes Season 2](https://www.redhat.co
 
 To communicate with the computer via the command line we use *text inputs*. It is important to stop for a minute to define what *text* means in this context. 
 
-As humans, we are used to thinking of written texts with several layers that go from the words to different fonts, sizes, bold and cursive letters, etc. These characteristics are for the human interpretation of a text, as they help to understand information. 
-
-For computers, however, text is something else. Text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are not only letters, but also symbols. 
-
 ![A word is written colorfully. It says "Text! In simple plain lines and letters we see a mark that selects all "Text!" to annotate that that is a "string". Then, on the "x" it annotates "character". On the bottom you can read "character equals code unit" and "a code unit has a number of bites". ](/images/command-line/Text-computers.png "text")
+
+For computers, text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are letters(a, ñ, ș, î), numbers (1,٣,3), spaces, tab (tab), punctuation marks (¿?, “”), and symbols (@ , %, $), control characters (bell, new line, end of text), even emojis can count as characters. So in “This %%$$# i5 s7ilL t3xt for a computer” the computer will count 39 characters, including the spaces. 
+
+As humans, we are used to thinking of written texts as interweaving the words, syntax, and discourse that together form a fabric (text comes from the same Latin root that textile: *texere*, “to weave”). Because of this, we usually interpret the formatting of a written piece along with the text to give meaning. Formatting includes fonts, sizes, bold and cursive letters, etc. These characteristics are part of the text as a textile, they work for our human interpretation of a text. 
 
 As English-speaking humans, we recognize here a word ("text") with an exclamation mark. The computer does not recognize a word, it looks at the string for code units.
 
