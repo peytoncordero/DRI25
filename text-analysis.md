@@ -996,7 +996,7 @@ Now let's have a look at the words Melville uses in _Moby Dick_. We'd like to lo
 sorted(set(text1_clean))[:30]
 ```
 
-`sorted` combined with `set` should give us a list of all the unique words in _Moby Dick_ in alphabetical order, but we only want to see the first ones. Notice how there are some words we wouldn't have expected, such as 'abandon', 'abandoned', 'abandonedly', and 'abandonment'. This process is far from perfect, but it is useful. However, depending on your goal, a different process, like _stemming_ might be better.
+`sorted` combined with `set` should give us a list of all the unique words in _Moby Dick_ in alphabetical order, but we only want to see the first ones. Notice how there are some words we wouldn't have expected, such as 'abandon', and 'abandonedli'. This process is far from perfect, but it is useful. 
 
 ## Evaluation
 
