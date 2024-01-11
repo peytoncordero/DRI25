@@ -220,7 +220,7 @@ text3[0:10]
 
 Pop quiz: 
 
-1. This may be the most famous <u> # of words </u>  in the Western canon. 
+1. This may be the most famous <u> number of words </u>  in the Western canon. 
 
 <Secret>
 10! Get the elements from position 0 to position 10 (not included)
