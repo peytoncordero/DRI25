@@ -432,7 +432,7 @@ What command do you run to identify the directory where you are currently locate
 - $ `ls`
 - $ `pwd`*
 - $ `cd`
-- $ `whoami`
+- - $ `whoami`
   
 </Quiz>
 
