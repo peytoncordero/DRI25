@@ -977,7 +977,7 @@ $ cat nypl_items.csv | uniq | wc -l
 100001
 ```
 
-The count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
+The count went down by three because the `uniq` command removed the duplicate lines. But which lines were duplicated?
 
 ```console
 $ cat nypl_items.csv | uniq -d
