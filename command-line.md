@@ -900,7 +900,7 @@ Check where you are located using `pwd`. Use the necessary commands to access th
 
 Now that you are there, use `ls` to find what our data set is. You should see a file named nypl_items.csv
 
-Our data set is a list of public domain items from the New York Public Library in .csv format, which is a plain text spreadsheet. CVS stands for 'comma-separated values' because each field in the spreadsheet is separated with a comma. It's all still plain text, though, so we can manipulate the data using the command line.
+Our data set is a list of public domain items from the New York Public Library in .csv format, which is a plain text spreadsheet. The extension *.csv* stands for 'comma-separated values' because each field in the spreadsheet is separated by a comma. It's all still plain text, though, so we can manipulate the data using the command line.
 
 ## Exploring the text file
 
@@ -914,7 +914,8 @@ $ cat nypl_items.csv
 
 What do you think of this outcome in comparison to our earlier practice with the `cat` command? You might find the text being printed out goes by too fast to get any sense of the content!  
 
-**How long is that file anyway?** 
+### Characteristics of our dataset
+**How long is that file anyway?**
 
 ```console
 $ cat nypl_items.csv | wc -w
@@ -928,11 +929,12 @@ What is the output?
 The total of words in the file should be 2,298,575.
 </Secret>
 
-**What is new in this command?**
+### The symbol `-`
+**What did we do here?**
 
 We had two commands combined as one single line with a pipe. The first command, `cat`, is to display the text of nypl_items.csv. The second command is `wc -w`. It asks the computer to print the number of words. `wc` stands for 'word count'. The symbol `-` is a new element for us. It marks that the immediate element that follows it is a *flag*. 
 
-Flags indicate options that belong to specific commands. For example, in the command `wc` we have various options. We used `-w` to select the `number of words`, but it could also be `wc -l` to show the number of lines or `wc -m` to count the number of characters. You can try these other commands if you want to explore further. 
+Flags indicate options that belong to specific commands. For example, in the command `wc` we have various options. We used `-w` to select the `number of words`, but it could also be `wc -l` to show the number of lines or `wc -m` to count the number of characters. You can try these by making changes in our last command. Remember that you can use the arrows to make the task easier.
 
 ## Viewing Data in the command line
 
@@ -944,9 +946,9 @@ $ less nypl_items.csv
 
 `less` gives you a paginated view of the data; it will show you the contents of a file or the output from a command or string of commands, page by page. To view the file contents page by page, you may use the following keyboard shortcuts: 
 
--Press the <kbd>f</kbd> key to view forward one page
--Press the <kbd>b</kbd> key to view back one page.
--Press the key <kbd>q</kbd> to return to the command line.
+- Press the <kbd>f</kbd> key to view forward one page
+- Press the <kbd>b</kbd> key to view back one page.
+- Press the key <kbd>q</kbd> to return to the command line.
 
 Let’s try two more commands for viewing the contents of a file. The first is `head`:
 
