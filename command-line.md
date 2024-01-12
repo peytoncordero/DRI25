@@ -429,7 +429,7 @@ What command do you run to identify the directory where you are currently locate
 <Quiz>
     
 - $ `ls`
-- $ `pwd` *
+- $ `pwd`*
 - $ `cd`
 - $ `whoami`
 
