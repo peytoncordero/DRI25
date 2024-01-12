@@ -701,15 +701,15 @@ $ nano cheat-sheet.txt
 
 ```console
 pwd     prints the working directory
-ls      lists the content of a folder
-cd      changes directory
-cd ..   goes up one directory 
-cd ~    goes to the home directory 
+ls	    lists the content of a folder
+cd	    changes directory
+cd ..	goes up one directory 
+cd ~	goes to the home directory 
 touch   creates a new file
-mv      move file
+mv 	    move file
 mkdir   creates a new folder 
 echo    prints plain text 
->       is called tilde, prints into a specific file by overwriting it
+>     	uses the output of a command as input for a file
 ```
 
 `Nano` includes a menu at the bottom. You select options with the keyboard. When you are done editing, press <kbd>control + X</kbd> to exit the text editor. Respond <kbd>Y</kbd> to save changes and press enter to execute it. You will go back to the command prompt.
