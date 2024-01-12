@@ -1179,11 +1179,7 @@ Thinking of the experience with the CLI in this workshop, what are some operatio
 # Transferring knowledge
 ### How to use find the terminal in your computer
 
-Now that you understand the CLI, you can apply this knowledge to your computer. 
-
-As we mentioned, technology changes according to the available hardware. However, computers also changed according to the proprietary programs promoted by different companies such as Mac and Windows. As we saw with word processors, proprietary software implies terminals for command lines that are not necessarily equal for everyone. 
-
-Thus, in this section, we help you get to the Command Line depending on the Operating System you use. We will talk about MacOS, Windows, and finally Linux.
+Now that you understand the CLI, you can apply this knowledge to your computer. In this section, we help you get to the command line depending on your Operating System. We will talk about MacOS, Windows, and Linux. As you will see, companies such as Apple and Windows have proprietary software, the case can be too for the terminal.
 
 ## MacOS Users
 
