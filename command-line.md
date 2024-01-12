@@ -772,9 +772,10 @@ Just as organizing the information is important, the names of the files make a d
 
 Your cheat sheet is titled cheat-sheet.txt instead of cheat sheet.txt for a reason. Can you guess why?
 
+### Experiment
 **Check your response**  
 
-Access the folder `project` (check were you are first!) and create a new subfolder: 
+Access the folder `project` (check where you are first!) and create a new subfolder: 
 
 ```console
 $ mkdir test
@@ -798,7 +799,8 @@ $ echo “This is my cheat sheet”  > cheat sheet.txt
 
 What was the output?
 
-**Understanding what happened**
+### Understanding what happened**
+
 Print the list of files contained in the folder to observe the problem.
 
 ```console
@@ -818,7 +820,8 @@ It means that we created two files instead of a single one. The first of them `c
 </Secret>
 
 
-**Practices for better interaction with the computer**
+### Practices for better interaction with the computer
+
 
 Our graphical user interfaces allow us to save files with spaces between words in the name (e.g. 'interesting name.docx'), and we usually don’t think about the consequences of those naming practices. Imagine instead of 'cheat sheet.txt' you were attempting to open in the command line a very important file for a project such as '*final data.csv*' using the CLI! 
 
