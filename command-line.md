@@ -552,7 +552,7 @@ $ pwd
 
 If needed, use the commands we have learned so far to navigate to the right directory. In bigger projects, you might also use `ls` if you want to double-check that you are in the folder that contains the file.
 
-Once you are there, type the `mv` command followed by the name of the file that you want to move. After this, include the path to the folder where you want to move the file:
+Once you are there, type the `mv` command followed by the name of the file that you want to move. After this, include the path to the folder where you want to move the file to:
 
 ```console
 $ mv foo.txt /home/user/projects
@@ -562,7 +562,8 @@ To check the result, use `cd` to access `/projects`. Then use `ls` to check that
 
 ## Review
 
-**Challenge** 
+### Challenge
+
 - Check the directory you are in. 
 - Create a subfolder 
 - Now go to that folder and create a file! 
@@ -579,7 +580,7 @@ Do you want to check the solution?
    
 </Secret>
 
-**Evaluation**
+### Evaluation
 
 What does the <kbd>up arrow</kbd> do?
 
@@ -592,9 +593,13 @@ What does the <kbd>up arrow</kbd> do?
   
 </Quiz>
 
-**Reflection**
-*How do you organize your digital information?*. Think of the digital information you produce and store: where do you keep it? Do you follow a specific system to organize it? Is it possible for you to draw a diagram representing it? 
-Now, keep in mind your responses to these questions and relate them to the information from the workshop, what practices could help you improve in managing your digital information?
+### Reflection
+
+*How do you organize your digital information?*. Think of the digital information you produce and store: 
+Where do you keep it? 
+Do you follow a specific system to organize it? 
+Is it possible for you to draw a diagram representing it? 
+Now, keep in mind your responses to these questions and relate them to the information from the workshop: what practices could help you improve in managing your digital information?
 
 ## Creating a cheat sheet 
 
