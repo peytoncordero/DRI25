@@ -961,14 +961,14 @@ $ tail nypl_items.csv
 ```
 ## Cleaning the data
 
-We didn’t tell you this before, but there are duplicate lines in our data! Two, to be exact. Before removing them, let’s see how many entries are in our .csv file 
+We didn’t tell you this before, but there are duplicate lines in our data! Four, to be exact. Before removing them, let’s see how many entries are in our .csv file 
 
 ```console
 $ cat nypl_items.csv | wc -l
 100004
 ```
 
-This tells us there are 100,001 lines in our file. 
+This tells us there are 100,004 lines in our file. 
 
 To find and remove duplicate lines, we can use the `uniq` command combined via `|` with other commands we used before. Let's try it out:
 
