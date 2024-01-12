@@ -1075,25 +1075,35 @@ Let's think about the `grep` command. Select all that pertain to the command.
 Go to your projects folder and open your cheat-sheet.txt file using the `nano` command to add the new commands learned in the workshop: 
 
 ```console
-wcword      count 
-sort        to organize the content of the file in alphabetically by line
-mv          to move files 
-less        to ge a paginated view of the data. To navigate thes paginated view use: “f” for forward, b for back, q for quit - this is not “control + C” because ‘less’ waits for user input
-head        to only see the first part of the file, e.g. head nypl_items.csv
-tail        to only see the last part of the file, e.g. tail nypl_items.csv
-uniq        (stands for unique) to print repeat lines only once
-grep        stands for “global regular expression print’ 
-wc -w       asks to print the number of words
-sort -f     makes sort noncase sensitive
-ls -l       shows the long list (the details of the content)
-wc -l       shows the number of lines
+wc 	  	    word count 
+sort        organizes the content of the file in alphabetically by line
+mv          moves files 
+less        gets a paginated view of the data. To navigate: “f” for forward, b for back, q for quit 
+head       	shows only the first part of the file
+tail        shows only the last part of the file
+uniq        prints repeat lines only once
+grep       	stands for “global regular expression print’ 
+wc -w      	asks to print the number of words
+sort -f     makes sort non case sensitive
+ls -l	  	shows the long list (the details of the content)
+wc -l    	shows the number of lines
 wc -m       counts the number of characters 
-head -n #   shows a specific number of lines of the head, e.g. head -n 1 nypl_items.csv 
-tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_items.csv
+head -n     shows a specific number of lines of the head
+tail -n		shows a specific number of lines of the head
 ```
 
 <Info>
-**Bonus:** We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
+
+**Bonus:** We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. Try it with our dataset:
+
+```console
+head -n 1 nypl_items.csv 
+```
+
+```console
+tail -n 3 nypl_items.csv
+```
+
 </Info>
 
 # Summary 
