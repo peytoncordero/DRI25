@@ -428,7 +428,7 @@ Because we changed our location within the file system, the information to the l
 What command do you run to identify the directory where you are currently located?
 
 <Quiz>
-    
+
 - $ `ls`
 - $ `pwd`*
 - $ `cd`
