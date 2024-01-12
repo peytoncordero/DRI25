@@ -424,16 +424,16 @@ Because we changed our location within the file system, the information to the l
 ## Review
 
 ### Evaluation
-
 What command do you run to identify the directory where you are currently located?
 
 <Quiz>
+
 - $ `ls`
 - $ `pwd`*
 - $ `cd`
 - $ `whoami`
-</Quiz>
 
+</Quiz>
 
 <Keywords>
 - Filesystem
