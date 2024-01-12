@@ -1177,7 +1177,7 @@ What is the difference between a plain text document and a rich text document? (
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
 
 # Transferring knowledge
-**How to use find the terminal in your computer**
+### How to use find the terminal in your computer
 
 Now that you understand the CLI, you can apply this knowledge to your computer. 
 
@@ -1188,14 +1188,13 @@ Thus, in this section, we help you get to the Command Line depending on the Oper
 ## MacOS Users
 
 If you're using macOS:
+
 1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
 2. Type “terminal” into the bar that appears.
 3. Select the first item that appears in the list.
 4. When the Terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background.
 
-IMAGE of Terminal in macOS 
-
-Please note: You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
+transPlease note: You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
 
 <Secret>
     
@@ -1203,41 +1202,33 @@ Bonus points: if you want to get the groove of just typing instead of pointing a
 
 </Secret>
 
-
-
 ## Windows Users
 
-Windows's own non-UNIX version of the command line. To use it:
+### Alternative 1: Power Shell
+
+With this terminal, you will apply the same commands we have learned today. Here you can find the [Windows documentation to use Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4). To access this terminal you have two options:
+
+Go to the Start menu. Type PowerShell. Click on the Windows Power Shell to open it. 
+Go to the Start menu. Click Start. Then click on All Programs. Go to Accessories. There, click the Windows PowerShell folder. There you will see Windows PowerShell. Click on it to open it.
+
+
+ ### Alternative 2: Command 
+ 
+Windows also has a proprietary version of the command line. For this reason, some of the commands differ from those we studied in this workshop. Use [this Windows documentation](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) to find the commands if you want to use this version. 
+
+To use it:
 
 1. Open the start menu or press the Windows key at the same time that the letter R. 
 2. Type “cmd” and you will run the command box. 
-3. Press enter
- 
-Another option for Windows users, if they want to use a UNIX version, is Git Bash. If you haven't installed it yet, you can follow these instructions. A reason to use Git Bash as the command line on Windows is to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
-
-After the installation:
-1. Look for Git Bash in your programs menu and open it.
-2. If you can't find the git folder, just type git bash in the search box and select git bash when it appears.
-3. Open the program.
-4. When the terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background. You know you're in the right place when you see the $.
-Note that the sign for you being in the right place might also be a % or a # depending on your operating system.
-
-IMAGE of Terminal on Windows 
-
-<Secret>
-    
-Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can press windows to open the Start menu, start typing git bash, and then hit enter to open a git bash window. This will pull up a command window without touching your mousepad.
-    
-</Secret>
-
+3. Press enter 
 
 
 ## Linux Users
 
-The first option is to go to the applications menu. There will be a terminal icon. Click to launch it. 
+If you are a Linux user, you can learn about the command line in [this Ubuntu tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). You have two options to get to the terminal:
 
-The second option is to use the Search button (the magnifying glass) a, write “terminal”, “command”, “prompt” or “shell”. Launch the terminal. 
-
+1. Go to the applications menu. There will be a terminal icon. Click to launch it.
+2. Use the Search button (the magnifying glass) a, write “terminal”, “command”, “prompt” or “shell”. Launch the terminal. 
 
 
 # Resources to continue learning
