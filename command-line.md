@@ -946,7 +946,9 @@ $ less nypl_items.csv
 
 - Press the <kbd>f</kbd> key to view forward one page
 - Press the <kbd>b</kbd> key to view back one page.
-- Press the key <kbd>q</kbd> to return to the command line.
+- Press the key <kbd>q</kbd> to exit this view.
+
+‘less’ waits for user input, this is why you need to exit the view to see the command prompt again.
 
 Let’s try two more commands for viewing the contents of a file. The first is `head`:
 
