@@ -1104,23 +1104,22 @@ The command line interface is a way to interact with our computer that dates fro
 
 We explored the difference between word processors and text editors and their relationship with rich text and plain text respectively. For CLI, we need plain text because rich text includes hidden code that cannot be read by the terminal.
 
-Via our emulator, we interacted with the computer on bash (or terminal). We practiced commands for
+Via our emulator, we interacted with the computer on a terminal and practiced commands for
 
 1) Navigating the file structure in a computer (`pwd`, `ls`, `cd`, `cd ..`, `cd~`).
 2) Creating new files and directories (`touch`, `echo`, `mkdir`).
 3) Moving content ( `>`, `|`) and files (`v`) to new locations within the file structure.
 4) Searching within text files (`cat`, `nano`)
-5) Doing a basic exploration of a text dataset (`grep`, `less`, `head`, `tail`, `uniq`, `|`)
+5) Doing a basic exploration of a text dataset (`grep`, `less`, `head`, `tail`, `uniq`, `|`, `-`)
 
-We documented the commands on a cheat sheet that can be used for reference! Additionally, we learn important tips to navigate the filesystem and to make our experience with the command line smoother and more efficient.
+We documented the commands on a cheat sheet that can be used for reference! Additionally, we learn important tips to navigate the file system and to make our experience with the command line smoother and more efficient.
 
 The basic steps you learned today will help as you'll further your digital skills. For example, you might work with the command line interface to set up your version control with git, or you'll have your text editor open while writing Python scripts or building basic websites with HTML and CSS. Having a grasp of command line basics will not only make you more familiar with how your computer and basic programming work, but it will also give you access to tools and communities that will expand your research.
 
-In the next pages, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
+On the next page, we make a general review. Then, we will explain how you can transfer this knowledge to your computer. We also share resources for independent learning. 
 
 ## Review
-
-**Questions to review the lessons of the workshop!**
+### From the lessons of the workshop!
 
 What does the <kbd>up</kbd> arrow command do? (Select one of the following)
    
