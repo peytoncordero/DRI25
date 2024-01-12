@@ -961,7 +961,7 @@ $ tail nypl_items.csv
 ```
 ## Cleaning the data
 
-We didn’t tell you this before, but there are duplicate lines in our data! Four, to be exact. Before removing them, let’s see how many entries are in our .csv file 
+We didn’t tell you this before, but there are duplicate lines in our data! Three, to be exact. Before removing them, let’s see how many entries are in our .csv file 
 
 ```console
 $ cat nypl_items.csv | wc -l
@@ -974,7 +974,7 @@ To find and remove duplicate lines, we can use the `uniq` command combined via `
 
 ```console
 $ cat nypl_items.csv | uniq | wc -l
-100000
+100001
 ```
 
 The count went down by two because the `uniq` command removed the duplicate lines. But which lines were duplicated?
