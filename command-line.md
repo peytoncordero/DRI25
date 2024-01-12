@@ -728,7 +728,7 @@ $ cat cheat-sheet.txt
 
 ## Organizing your cheat sheet
 
-Use `pwd` and `cd` to make sure you're in the folder that contains your cheat sheet. Then try:
+To organize the content of the cheat sheet, try
 
 ```console
 $ cat cheat-sheet.txt | sort
@@ -742,13 +742,14 @@ $ cat cheat-sheet.txt | sort > MySortedCheatSheet.txt
 
 To verify that the file was created use the command `ls`. You should see the new file listed in the output.
 
-**What did we just do? The command `|`**
+### Pipe `|`
+**What did we just do?**
 
 We used `|` as part of our last two commands. This symbol is called *pipe*. Pipes tell your computer to take the output of one command and use it as the input of the next one. They allow us to combine multiple commands on a single line without any extra steps.
 
-This diagram illustrates the process the computer will do when we use pipe.
+This diagram illustrates the process the computer will do when we use a pipe.
 
-![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, then go to the third command. Then, it has an arrow coming from the last part of the process indicading that only after completing all the commands we will have an output](/images/command-line/Pipe.png "Pipes diagram")
+![The image shows three commands connected with pipes and describes the flux in which the computer will complete one command, go to the next command, and then go to the third command. Then, it has an arrow coming from the last part of the process indicating that only after completing all the commands we will have an output](/images/command-line/Pipe-diagram.png "Pipes diagram")
 
 Now we will describe how the diagram relates to our recent commands: 
 
