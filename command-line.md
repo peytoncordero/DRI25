@@ -355,13 +355,13 @@ You should get the output
 
 The command `pwd`, which stands for 'print working directory,' allows you to know the current working directory where you are located. "Print" as a word can be somewhat misleading. This command is easier to grasp when we interpret 'print' as 'display' because the information is printed on our screen,  specifically, on the Terminal.
 
-Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory is how it relates to the hierarchy. As we mentioned, the information in the computer is organized hierarchically in the file system. 
+Note that we are using the word 'directory' interchangeably with 'folder.' They both refer to the same thing, even though the folder is the container and the directory  is how it relates to the hierarchy in the file system. 
 
-Previously we shared a diagram of the system. Here we want to share how the system is represented in MacOS, a GUI:
+Previously we shared a diagram of the file system. You might be familiar with this representation through the GUI of your favorite operative system. For example, we illustrate below with an image of the MacOS file explorer: 
 
 ![Screen shot of the icons of folders organized as a tree of the filesystem MacOS](/images/command-line/hierarchical-filesystem-example.png "An example of how a hierarchical filesystem looks")
 
-There are folders up in the hierarchy that we do not see in this representation. There's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
+Upper in the hierarchy, there are directories that we do not see in this representation. There's a top-level or `root` folder on your system. That folder has other folders in it, and those folders have folders in them, and so on. The `root` or highest-level folder contains mostly files for the operating system, and we usually don’t have to go there. These folders are called just `/` on macOS and are called `C:` on Windows. 
 
 When you execute `pwd` in your computer, the output will be similar to `/Users/your-username`. It means you're in the `your-username` directory in the `Users` folder inside the `root` directory. This directory is often called the `home`, as our output in the emulator: 
 
