@@ -1174,10 +1174,12 @@ What do `|` allow you to do? (Select all that apply)
 What command do you run if you are trying to identify where in the filesystem you are currently located/working? (Select all that apply)
    
 <Quiz>
+    
 - `$ pwd`*
 - `$ ls`
 - `$ cd`
 - `$ whoami`
+    
 </Quiz>
 
 Let's think about the `grep` command. Select all that pertain to the command.
