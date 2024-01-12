@@ -1194,13 +1194,7 @@ If you're using macOS:
 3. Select the first item that appears in the list.
 4. When the Terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background.
 
-transPlease note: You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
-
-<Secret>
-    
-Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can hold the command (⌘) key and press space to pull up Spotlight search, start typing Terminal, and then hit enter to open a terminal window. This will pull up a terminal window without touching your mousepad. For super bonus points, try to navigate like this for the next fifteen minutes, or even the rest of this session—it is tricky and sometimes a bit tiring when you start, but you can pick up speed when you practice!
-
-</Secret>
+You can change the color of your Terminal or BashShell background and text by selecting Shell from the top menu bar, and then selecting a theme from the menu under New Window.
 
 ## Windows Users
 
