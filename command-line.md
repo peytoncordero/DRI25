@@ -754,14 +754,14 @@ This diagram illustrates the process the computer will do when we use a pipe.
 Now we will describe how the diagram relates to our recent commands: 
 
 To sort the document: 
-- Command 1: `$ cat cheat-sheet.txt`
-- Command 2: `Sort`
+Command 1 `$ cat cheat-sheet.txt`
+Command 2: `Sort`
 
 The pipe allows us to put the printing of the file into the request to sort it as a single command, which generates one single output. 
 
 To create the new file with the sorted information: 
-- Command 1: `$ cat cheat-sheet.txt`
-- Command 2: `sort > MyCheatSheet.txt`
+Command 1 `$ cat cheat-sheet.txt`
+Command 2 `sort > MyCheatSheet.txt`
 
 In this case, `|` has the same function but we added the command to redirect that output to a new file as part of the second command.
 
