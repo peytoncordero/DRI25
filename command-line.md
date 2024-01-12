@@ -846,7 +846,8 @@ Good luck!
 
 ![Image that looks like a vintage videogame and has a cat saying you can do it next to a treasure.](/images/command-line/TreasureHunting.gif "Treasure Hunting")
 
-## Evaluation
+## Review
+### Evaluation
 
 What effect does the following command produce? (select one)
 
