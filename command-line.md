@@ -985,11 +985,13 @@ The count went down by two because the `uniq` command removed the duplicate line
 $ cat nypl_items.csv | uniq -d
 ```
 
-In this line, we are combining two commands, the first one is to print out the data. The second one is the `uniq` command with the `-d` flag, which is the option to print out the lines that have duplicates.
+In this line, we are combining two commands:
+- The first one is to print out the data.
+- The second one is the `uniq` command with the `-d` flag, which is the option to print out the lines that have duplicates.
 
 ## Review
 
-**Challenge**
+### Challenge
 
 Use the commands you’ve learned so far to create a new version of the nypl_items.csv file with the duplicated lines removed. Hint: we created a new version of our cheat sheet after sorting it alphabetically. 
 
@@ -1003,7 +1005,7 @@ This will allow you to create a new version of the nypl_items.csv file with the 
 
 </Secret>
 
-**Evaluation**
+### Evaluation
 
 What do command line flags allow you to do? (select one)
 
@@ -1038,19 +1040,19 @@ $ cat nypl_items.csv | grep -i "paris" | wc -l
 
 In this last command, we have used the `cat` command to read nypl_items.csv. We take the output, and pipe it into the `grep -i` command, which will ignore capitalization and find all instances of the word 'paris'. Then we take the output of that `grep` command and pipe it into the word count, `wc`, command with the `-l` lines option. The pipeline returns 191 letting us know that "Paris" (or "paris") occurs on 191 lines of our data set.
 
-**Regular expressions**
+### Regular expressions
 
 In this command, we used `grep` and said that it stands for regular expressions. Regular expressions are special strings representing a pattern to be matched in a search operation. `grep` gives us access to the power of regular expressions as we search for text. Regular expressions (or regex) provide methods to search for text in more advanced ways, including specific wildcards, matching ranges of characters such as letters and numbers, and detecting features such as the beginning and end of lines. Regular expressions are commonly used in different programming languages.
 
 ## Review
 
-**Challenge**
+### Challenge
 
 Use the `grep` command to explore our .csv file a bit. What areas are best covered by the data set? 
 
 If you want to get a little more mileage out of the `grep` command, refer to [this tutorial on grep and regular expressions](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux). If you want to experiment with regular expressions in an easy-to-use environment, numerous regex test interfaces are available from [a simple google search](https://www.google.com/search?w&q=regex+tester), such as [RegExr](https://regexr.com/), which includes a handy cheat sheet.
 
-**Evaluation**
+### Evaluation
 
 What do `|` allow you to do? (select all that apply)
 
@@ -1069,7 +1071,7 @@ Let's think about the `grep` command. Select all that pertain to the command.
 - It delete the strings or words you are searching from a file.
 </Quiz>
 
-## Adding to the cheat sheet
+### Adding to the cheat sheet
 Go to your projects folder and open your cheat-sheet.txt file using the `nano` command to add the new commands learned in the workshop: 
 
 ```console
@@ -1091,8 +1093,7 @@ tail-n #    shows a specific number of lines of the head, e.g. tail -n 3 nypl_it
 ```
 
 <Info>
-**Bonus:**
-We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
+**Bonus:** We included the `flag -n` in the commands for your cheat sheet. It works as an option for head and tail, to show only a specific number of lines. You can select the number of lines you want to see by replacing the number symbol for the specific number of lines you want. 
 </Info>
 
 # Summary 
