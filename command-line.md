@@ -603,9 +603,7 @@ Now, keep in mind your responses to these questions and relate them to the infor
 
 ## Creating a cheat sheet 
 
-We will create a text file to keep all the commands we learned in this workshop. 
-
-But first, check if we are located in the folder that we want to contain the file
+We will create a text file to keep all the commands we learned in this workshop. But first, let’s make sure we save it in the `projects` folder by checking our current working directory:
 
 ```console
 $ pwd
@@ -626,7 +624,7 @@ The sign `~` is called *tilde*. The command `cd ~` gets you to your user folder,
     
 </Info>
 
-**Now that we are ready, let's create the cheat sheet!**  
+### Now that we are ready, let's create the cheat sheet!
 
 For this project, we will use `echo`. `Echo` is a command to print plain text. Write
  
@@ -647,14 +645,15 @@ We use the redirect symbol `>` (a greater-than symbol):
 ```console
 $ echo “This is my cheat sheet”  > cheat-sheet.txt
 ```
-
-Now let’s check we created the file with the command 
+In this case, the computer will create a new file while including the content. Now, for our learning objective, let’s check the file is there with the command 
 
 ```console
 $ ls 
 ```
 
 The output should include the file cheat-sheet.txt as part of the list. 
+
+### Opening the file
 
 We also want to make sure that our phrase "This is my cheat sheet" is in the file! Write: 
 
@@ -690,6 +689,7 @@ $ cat cheat-sheet.txt
 
 The output is different now! 
 
+### Editing the text
 **How could we edit the text of our cheat sheet?** 
 
 Try 
@@ -697,14 +697,14 @@ Try
 ```console
 $ nano cheat-sheet.txt 
 ```
-`Nano` is a basic text editor. Once you are in `nano`, navigate the text with the keyboard arrows. Then erase the phrase we used to demonstrate the overwrite and write instead:
+`Nano` is a basic text editor. Once you are in `nano`, navigate the text with the keyboard arrows. Then, erase the phrase we used to demonstrate the overwrite and write instead:
 
 ```console
 pwd     prints the working directory
 ls      lists the content of a folder
 cd      changes directory
 cd ..   goes up one directory 
-cd ~    goes to home directory 
+cd ~    goes to the home directory 
 touch   creates a new file
 mv      move file
 mkdir   creates a new folder 
@@ -720,8 +720,11 @@ Now we can check our file:
 $ cat cheat-sheet.txt 
 ```
 
-**Bonus:**  
-There is another way to add new text from the command line without overwriting. It is using append `>>`. This symbol uses two greater-than symbols together, but for the computer field, it is called *append*. In this workshop, we prefer `nano` for its efficiency in editing the text of our cheat sheet. Append has its own uses for specific purposes, such as adding new entries to a data file. 
+<Info>
+    
+**Bonus:** There is another way to add new text from the command line without overwriting. It is using append `>>`. This symbol uses two greater-than symbols together, but for the computer field, it is called *append*. In this workshop, we prefer `nano` for its efficiency in editing the text of our cheat sheet. Append has its own uses for specific purposes, such as adding new entries to a data file. 
+
+</Info>
 
 ## Organizing your cheat sheet
 
