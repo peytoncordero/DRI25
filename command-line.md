@@ -864,9 +864,9 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 
 ## Interlude
 
-These two command lines are a treasure to make your work at the CLI easier and more efficient:
+These two command lines are a treasure to make your work at the CLI easier and more efficient.
 
-1. **Clearing the terminal**
+### Clearing the terminal
 
 After running all the commands we have learned so far, the terminal might be quite full of text. For our next section, it might be nice to `clear` the terminal and have a fresh start. Use the command `clear`: 
 
@@ -876,7 +876,7 @@ $ clear
 
 The output should be the terminal clear! 
 
-2. **<kbd>Tab</kbd> for completion** 
+### <kbd>Tab</kbd> for completion
 
 When you are navigating in the command line, typing folder and file names can feel against the promise of easier communication with your computer. Here comes *<kbd>tab</kbd> completion*, stage right!
 
