@@ -379,9 +379,9 @@ To check the content of the folder, try entering:
 $ ls
 ```
 
-In this command, `ls` stands for list. It is a request to list the contents of your current working directory. 
+In this command, `ls` stands for list. It is a request to print the list of the contents of your current working directory. 
 
-The output is a list of folders and files contained by the directory. Usually, it might include folders such as `Documents`, and `Desktop`, and you may also see some files. In the case of the emulator, you should see `command-line-treasure-hunt` and `data`. 
+The output is the list of folders and files contained by the directory. Usually, it might include folders such as `Documents`, and `Desktop`, and you may also see some files. In the case of the emulator, you should see `command-line-treasure-hunt` and `data`. 
 
 **Are you wondering what's in `data`?** Let's access the folder with the following command:
 
@@ -412,14 +412,14 @@ Now, use the command `ls` to get a list of what `data` contains. We need to be l
 
 All `pwd`, `ls`, and `cd` are very commonly used commands. With them, you can orient yourself and move around.
 
-Another command you might find useful right now is `cd ..` (a `cd` with two periods), which will allow you to move  one directory up in the filesystem:
+Another command you might find useful right now is `cd ..` (a `cd` with two periods), which will allow you to move  one directory up in the file system:
 
 ```console
 $ cd ..
 /home/user
 ```
 
-Because we changed our location within the filesystem, the information to the left of `$` also changed. 
+Because we changed our location within the file system, the information to the left of `$` also changed. 
 
 ## Review
 
@@ -471,7 +471,7 @@ $ touch foo.txt
 
 The `touch` command is used to create a file without any content. This command can be used when you don’t have any data yet to store in it. `Touch` creates a new file if it doesn’t exist, but when the file exists, it will only modify the time when it was last accessed. 
 
-In this case, we are creating a .txt, which means it is a new plain text file.  It could have been a .csv file, which would be a list or represent a spreadsheet in plain text.
+In this case, we are creating a .txt, which means it is a new plain text file. It could have been a .csv file, which is a spreadsheet in plain text.
 
 You won't see any output after executing this command. Let’s make sure the file is now part of your folder by using the command `ls`
 
@@ -484,7 +484,7 @@ See any differences? If the command was successful, you should see a file called
 <Info>
     
 **Why the file is called foo.txt?**
-As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but foo is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
+As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but *foo* is a common name in Computer Science which possibly comes from the unfortunate abbreviation for “fucked up beyond all repair” from the Second World War. 
 
 </Info>
 
@@ -514,7 +514,7 @@ Great! Use the `mkdir` or "make directory" command to create a folder called `pr
 $ mkdir projects
 ```
 
-Confirm that `projects` was created successfully using `ls`. Access the folder with the command `cd`.
+Access the folder with the command `cd`.
 
 ```console
 $ cd projects
