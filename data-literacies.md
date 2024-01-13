@@ -52,6 +52,7 @@ These quotes below offers **a variety of perspectives** to understanding researc
 
 *University*
 Material or information on which an argument, theory, test or hypothesis, or another research output is based.
+
 >>— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 
@@ -62,21 +63,27 @@ What constitutes such data will be determined by the community of interest throu
 
 
 *Government Insitution*
-
 Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
 
-— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
+>>— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
 *Data Science*
-
 The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
 
-— [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
+>>— [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
 
 
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
+<Info>
+**Reflection** What is definition of data in your field? 
+</Info>
+
 ## Being Data
+
+Data exists in different forms and goes through a series of stages. It can be in any of these forms at different stages of its development into a conclusion.
+
+Here you will find the terms we will use throughout the workshop for the stages of data and the terms for the forms of data.
 
 ![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code.](/images/data-ethics/being-data.gif)
 
