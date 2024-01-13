@@ -458,20 +458,18 @@ What command do you run to identify the directory where you are currently locate
 </Quiz>
 
 <Keywords>
-- File system (or filesystem)
-Hierarchical method to organize the information in the computers composed of files and folders. 
-
 - Directory
 Cataloging structure that organizes the folders within the file system hierarchy. 
 
 - File
-Resource used to encode data that is storage with a filename
+A unit to store data as bytes on a computer or storage device
+
+- File system (or filesystem)
+Hierarchical method to organize the information in the computers composed of files and folders. 
 
 -Folder
-Storage spaces that contain files and other folders, allowing to organize the computer.
-
+A storage space that contains files and other folders.
 </Keywords>
-
 
 # Creating files and folders 
 
