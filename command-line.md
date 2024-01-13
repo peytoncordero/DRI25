@@ -98,7 +98,7 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 ## Command line and humans
 
-As we mentioned, the command line is a way of interacting with computers. Human-computer interactions (HCI) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
+As we mentioned, the command line is a way of interacting with computers. [Human-computer interactions (HCI)](https://ieeexplore.ieee.org/abstract/document/9140327) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
 
 The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority were women](https://www.jstor.org/stable/25147356?seq=1), as they were contracted as cheaper labor, despite having the same abilities. This is a photo of the team of computers who worked calculating the trajectory of the first US satellite, the Explorer 1. 
  
@@ -111,7 +111,7 @@ We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancompute
 
 </Info>
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for warfare purposes, which was designed by two men and programmed by six women. 
+The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for [warfare purposes](https://www.jstor.org/stable/45363261), which was designed by two men and programmed by six women. 
 
 <Info>
     
