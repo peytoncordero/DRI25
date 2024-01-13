@@ -462,7 +462,7 @@ What command do you run to identify the directory where you are currently locate
 Cataloging structure that organizes the folders within the file system hierarchy. 
 
 - File
-A unit to store data as bytes on a computer or storage device
+A unit to store data as bytes on a storage device, such as a hard drive, which can be accessed by a computer.
 
 - File system (or filesystem)
 Hierarchical method to organize the information in the computers composed of files and folders. 
@@ -625,6 +625,17 @@ Where do you keep it?
 Do you follow a specific system to organize it? 
 Is it possible for you to draw a diagram representing it? 
 Now, keep in mind your responses to these questions and relate them to the information from the workshop: what practices could help you improve in managing your digital information?
+
+<Keywords
+- Home
+User’s directory in a multi-user computer. 
+
+- Path
+A string of characters that includes the information on the folder where a file or a folder is located and allows to locate it within the directory.
+
+- Root
+Highest directory in the hierarchy of the file system, e.g. "C:/" on Windows and "Macintosh HD" on Mac
+</Keywords>
 
 ## Creating a cheat sheet 
 
