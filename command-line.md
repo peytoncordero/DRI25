@@ -631,7 +631,7 @@ Now, keep in mind your responses to these questions and relate them to the infor
 User’s directory in a multi-user computer. 
 
 - Path
-A string of characters that includes the information on the folder where a file or a folder is located and allows to locate it within the directory.
+A string of characters that represents the location of a file or folder within a directory.
 
 - Root
 Highest directory in the hierarchy of the file system, e.g. "C:/" on Windows and "Macintosh HD" on Mac
