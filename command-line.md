@@ -149,7 +149,7 @@ At first, the interface was limited to specific programs. After the 1980s, it be
 
 Today, with computers that can be transported in our hands, we interact with them via touchscreen. And far from the first computers making mathematical operations, we use these machines for as many tasks as we can imagine, from performing basic calculations to asking for directions on a map.
 
-GUI is the friendliest interface for user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects. So, far from being something from the past, as many users might have felt when GUI became popular, it is actually an everyday skill for many people working with computers, especially those working with networks, systems, and servers.  
+GUI is the friendliest interface for user experience. However, the command line continues to be a faster and more efficient way to interact with our computers. These characteristics make the CLI especially important for people working on digital projects. So, far from being something from the past, as many users might have felt when GUI became popular, the command line is actually an everyday skill for many people working with computers, especially those working with networks, systems, and servers.  
 
 <Info>
     
