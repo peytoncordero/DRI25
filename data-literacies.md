@@ -89,9 +89,10 @@ Here you will find the terms we will use throughout the workshop for the stages 
 
 ## Forms of Data
 
-There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities: add sentence here:Collection of digital objects acquired and generated during research
+There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
 
-<!---Ask question about data forms--->
+**What are some forms of data you use in your research?**
+
 <Secret>
 - Non-digital text (lab books, field notebooks)
 - Digital texts or digital copies of text
@@ -105,7 +106,8 @@ There are many ways to represent data, just as there are many sources of data. W
 - Curriculum materials (e.g. course syllabi)
 </Secret>
 
-<!--- Add a question here about data formats--->
+**The above forms of data can be formated in different structures using various open source or proprietary computing applications. For example a digital text can be foramted as a spreadsheet or a database. What formats have you used to structure or organize your data?**
+
 <Secret>
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
 - Audio (e.g. `.mp3`, `.wav`, `.aac`)
@@ -119,6 +121,11 @@ There are many ways to represent data, just as there are many sources of data. W
 - Metadata & Paradata (e.g. `.xml`, `.json`)
 <Secret>
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
+
+<Info>
+**Reminder** 
+As mentioned in the Command Line workshop, proprietory software is owned byt the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware.
+</Info> 
 
 
 ## What forms of data do you use?
@@ -136,9 +143,11 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
-## Institutional Compliance for Data and Research
+# Institutional Compliance for Data and Research
  
 ### Institutional Review Board (IRB)
+
+Before we discuss our ethical obligations when working with data, let's review the institutional ethical perspective.
 
 The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
 
