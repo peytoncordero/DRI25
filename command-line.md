@@ -225,8 +225,29 @@ As the command line is a way to interact with a computer, think of how you inter
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
 <Keywords>
-- GUI
-"Graphical User Interface," pronounced "gooey." It’s a system of interactive visual components for computer software… basically, anything on a computer that isn't in the command line. All familiar elements of day-to-day computer tasks such as images, windows, prompts, buttons, and progress bars are part of the GUI. The way most people interact with computers. Some tasks can only be done in a GUI, while others can only be done in the command line.
+- Command line (CLI)
+An interface to communicate with our computers via text.
+
+- Graphical User Interface (GUI, pronounced "gooey")
+A graphical interface that allows the user to interact with the computer by pointing and clicking.
+
+-Operating system
+A program with an interface that allows human-computer communications, making it easier to control the programs. Windows, MacOS, and Linux are examples of operative systems.
+
+-Text
+“A  string of characters. 
+
+-Plain text
+Text without any encoding. 
+
+-Rich text 
+Text that contains encoding, proprietary or open, for formatting the tex in terms of fonts, colors, etc.
+
+-Text editor
+Programs used for creating plain text.
+
+-Word processor
+Programs that are used to create rich text, providing the text of encoding automally when the user chooses a specific style. 
 
 </Keywords>
 
