@@ -241,7 +241,7 @@ A program with an interface that allows human-computer communications, making it
 Text without any encoding. 
 
 -Rich text 
-Text that contains encoding, proprietary or open, for formatting the tex in terms of fonts, colors, etc.
+Text that contains encoding, proprietary or open, for formatting the text in terms of fonts, colors, etc.
 
 -Text editor
 Programs used for creating plain text.
@@ -603,7 +603,7 @@ What does the <kbd>up arrow</kbd> do?
 
 <Quiz>
     
-- It quits the Terminal/GitBash.
+- It quits the terminal.
 - It undoes my last command.
 - It inserts my last command.*
 - It shows me what folder I am working in.
@@ -617,6 +617,30 @@ Where do you keep it?
 Do you follow a specific system to organize it? 
 Is it possible for you to draw a diagram representing it? 
 Now, keep in mind your responses to these questions and relate them to the information from the workshop: what practices could help you improve in managing your digital information?
+
+<Keywords>
+- File system (or filesystem)
+Hierarchical method to organize the information in the computers composed of files and folders. 
+
+- Directory
+Cataloging structure that organizes the folders within the file system hierarchy. 
+
+- File
+Resource used to encode data that is storage with a filename
+
+-Folder
+Storage spaces that contain files and other folders, allowing to organize the computer.
+
+- Home
+User’s directory in a multi-user computer. 
+
+- Path
+String of characters that allows to locate a folder or file within the directory.
+
+- Rooth
+Highest directory in the hierarchy of the file system.
+</Keywords>
+
 
 ## Creating a cheat sheet 
 
