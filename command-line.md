@@ -224,7 +224,17 @@ What is the difference between a plain text document and a rich text document? (
 As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
-<Keywords>
+<Keywords
+- Home
+User’s directory in a multi-user computer. 
+
+- Path
+String of characters that allows to locate a folder or file within the directory.
+
+- Rooth
+Highest directory in the hierarchy of the file system.
+</Keywords>
+
 - Command line (CLI)
 An interface to communicate with our computers via text.
 
@@ -467,14 +477,6 @@ Resource used to encode data that is storage with a filename
 -Folder
 Storage spaces that contain files and other folders, allowing to organize the computer.
 
-- Home
-User’s directory in a multi-user computer. 
-
-- Path
-String of characters that allows to locate a folder or file within the directory.
-
-- Rooth
-Highest directory in the hierarchy of the file system.
 </Keywords>
 
 
