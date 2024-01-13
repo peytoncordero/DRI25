@@ -51,16 +51,15 @@ In this workshop we will be discussing the basics of research data in terms of m
 These quotes below offers **a variety of perspectives** to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
 *University*
-
 Material or information on which an argument, theory, test or hypothesis, or another research output is based.
+>>— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
-— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 *Digital Project Management*
-
 What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
 
-— [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
+>>— [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
+
 
 *Government Insitution*
 
@@ -83,8 +82,10 @@ Broadly, research data can be understood as **materials or information necessary
 
 ## Forms of Data
 
-There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities:
+There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities: add sentence here:Collection of digital objects acquired and generated during research
 
+<!---Ask question about data forms--->
+<Secret>
 - Non-digital text (lab books, field notebooks)
 - Digital texts or digital copies of text
 - Statistical analysis (SPSS, SAS, R)
@@ -95,6 +96,10 @@ There are many ways to represent data, just as there are many sources of data. W
 - Protein or genetic sequences
 - Artistic products
 - Curriculum materials (e.g. course syllabi)
+</Secret>
+
+<!--- Add a question here about data formats--->
+<Secret>
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
 - Audio (e.g. `.mp3`, `.wav`, `.aac`)
 - Video (e.g. `.mov`, `.mp4`)
@@ -105,12 +110,11 @@ There are many ways to represent data, just as there are many sources of data. W
 - Web files (e.g. `.html`, `.asp`, `.php`)
 - Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
 - Metadata & Paradata (e.g. `.xml`, `.json`)
-- Collection of digital objects acquired and generated during research
-
-
+<Secret>
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
-## What data do you use?
+
+## What forms of data do you use?
 
 ![A bar graph of the types of data DRI Winter 2024 participants use in their research.](/images/data-ethics/DRI24-participant-research-data-type.png)
 
