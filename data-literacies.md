@@ -119,12 +119,11 @@ There are many ways to represent data, just as there are many sources of data. W
 - Web files (e.g. `.html`, `.asp`, `.php`)
 - Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
 - Metadata & Paradata (e.g. `.xml`, `.json`)
-<Secret>
+</Secret>
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
 <Info>
-**Reminder** 
-As mentioned in the Command Line workshop, proprietory software is owned byt the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware.
+As mentioned in the Command Line workshop, proprietory software is owned by the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware.
 </Info> 
 
 
