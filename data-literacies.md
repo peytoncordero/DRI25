@@ -76,12 +76,12 @@ The short answer is that we can’t always trust empirical measures at face valu
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
 <Info>
-**Reflection** What is definition of data in your field? 
+**Reflection** What is the definition of data in your field? 
 </Info>
 
 ## Being Data
 
-Data exists in different forms and goes through a series of stages. It can be in any of these forms at different stages of its development into a conclusion.
+Data exists in different forms and goes through a series of stages. It can be in any of these forms, or types/methods of storing gathered data, at different stages of manipulation by a researcher to take the data from informtion to conclusion.
 
 Here you will find the terms we will use throughout the workshop for the stages of data and the terms for the forms of data.
 
@@ -105,8 +105,9 @@ There are many ways to represent data, just as there are many sources of data. W
 - Artistic products
 - Curriculum materials (e.g. course syllabi)
 </Secret>
+<!--introduce applicants dataset before hand -->
 
-**The above forms of data can be formated in different structures using various open source or proprietary computing applications. For example a digital text can be foramted as a spreadsheet or a database. What formats have you used to structure or organize your data?**
+**The above forms of data can be formated in different structures using various open source or proprietary computing applications. For example, the text in your application can be  of  can be foramted as a spreadsheet or a database. What formats have you used to structure or organize your data?**
 
 <Secret>
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
@@ -119,7 +120,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Web files (e.g. `.html`, `.asp`, `.php`)
 - Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
 - Metadata & Paradata (e.g. `.xml`, `.json`)
-<Secret>
+</Secret>
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
 <Info>
