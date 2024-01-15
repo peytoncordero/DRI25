@@ -222,7 +222,7 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 Below you will find two frontmatter pages of two distinct digital projects. As you inspect the information present in each image, consider these questions:
 1. What are some forms of data used in the project?
-2. What are some forms of data outputed by the project?
+2. What are some forms of data outputted by the project?
 3. Where was the data retrieved from to complete the project? 
 
 ![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
@@ -319,7 +319,6 @@ Throughout the workshop we will refer to the impacts by number for quick refernc
 Now would be a good point to reflect on some ethical debates and conserns happening in your field
 </Info>
 
-
 ## Challenge: Ethics Beyond Compliance 
 
 Think of the following scenerio and the possible considerations and impacts for working with data. 
@@ -334,15 +333,6 @@ Using a large language model application such as Chat GPT to analyze personal in
 The reveal above is only one of the possible considerations, but there might be many others to evaluate.
 </Info>
 
-## Naming Conventions for Directory Structures
-
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have you named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://guides.library.stanford.edu/data-best-practices/name-files)that demonstrates the problems of badly name files in our projects.
-
-For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
-
-### Keywords
-
-- [Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/data.md)
 
 # Stages of Data: Raw
 
@@ -357,8 +347,6 @@ If you are interested in further exploration and discussion of the ethics of "ra
 #### Direct effects on people
 
 #### What counts as "human"? What data should be off limits?
-
-###
 
 ## Data and Labor
 
@@ -419,85 +407,20 @@ The dataset is "raw" to me as I will likely be working on removing certain varia
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. The following sections describe a few common formats for structured data.
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
 
-## XML
+Here is a reminder of the list of structred forms or formats we reviewed earlier in the workshop:
+- Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
+- Audio (e.g. `.mp3`, `.wav`, `.aac`)
+- Video (e.g. `.mov`, `.mp4`)
+- Computer Aided Design/CAD (`.cad`)
+- Databases (e.g. `.sql`)
+- Geographic Information Systems (GIS) and spatial data (e.g. `.shp`, `.dbf`, `.shx`)
+- Digital copies of images (e.g. `.png`, `.jpeg`, `.tiff`)
+- Web files (e.g. `.html`, `.asp`, `.php`)
+- Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
+- Metadata & Paradata (e.g. `.xml`, `.json`)
 
-**XML** or eXstensible Markup Language, uses a nested structure, where the "tags" like `<Cat>` contain other tags inside them, like `<firstName>`. This format is good for organizing the layout of a document in a tree-like format, just like HTML, where we want to nest elements like a sentence within a paragraph, for example. XML does not carry any information about how to be displayed and can be used in a variety of presentation scenarios.
-
-```xml
-<Cats>
-    <Cat>
-        <firstName>Smally</firstName>
-        <lastName>McTiny</lastName>
-    </Cat>
-    <Cat>
-        <firstName>Kitty</firstName>
-        <lastName>Kitty</lastName>
-    </Cat>
-    <Cat>
-        <firstName>Foots</firstName>
-        <lastName>Smith</lastName>
-    </Cat>
-    <Cat>
-        <firstName>Tiger</firstName>
-        <lastName>Jaws</lastName>
-    </Cat>
-</Cats>
-```
-
-![Screenshot of XML cats file](/images/data-ethics/cats_XML.png)
-
-This file is viewed on an online [XML Viewer](https://www.xmlviewer.org/). If you would like to, you can either copy the code chunk above to try it out on [XML Viewer](https://www.xmlviewer.org) or [download the XML file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.xml) to try it out in other viewers. To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
-
-For example, after downloading the file, can you try to open this file in your browser? (Psst! Try right clicking on `cats.xml` in your local directory and choosing `Open with Other Application` in the drop down menu to select the browser of your choice.)
-
-## JSON
-
-**JSON** or JavaScript Object Notation, also uses a nesting structure, but with the addition of *key/value* pairs, like the `"firstName"` *key* which is tied to the `Smally` *value* (at least for the first cat!). JSON is popular with web applications that save and send data from your browser to web servers, because it uses the main language of web browsers, JavaScript, to work with data.
-
-```json
-{
-    "Cats": [
-        {
-            "firstName": "Smally",
-            "lastName": "McTiny"
-        },
-        {
-            "firstName": "Kitty",
-            "lastName": "Kitty"
-        },
-        {
-            "firstName": "Foots",
-            "lastName":"Smith"
-        },
-        {
-            "firstName": "Tiger",
-            "lastName":"Jaws"
-        }
-    ]
-} 
-```
-
-![Screenshot of JSON cats file](/images/data-ethics/cats_JSON.png)
-
-This file is viewed on my Firefox browser from my local directory. To view it in your browser, you can drag and drop the local file onto a open tab or window. You can also [download the JSON file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.json) and try opening it in other viewers (e.g. R Studio, webviewers like Code Beautify's [JSON Viewer](https://codebeautify.org/jsonviewer)). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
-
-## CSV
-
-**CSV** or Comma Separated Values uses—you guessed it!—commas to separate values. Each line (First Name, Last Name) is a new "record" and each column (separated by a comma) is a new "field." This data format stores tabular data in a clean way that facilitates the transfer between different data architectures. As data types go, it is very rudimentary (even predating computers!) and is easy to type, without needing special characters beyond a comma.
-
-```
-First Name,Last Name
-Smally,McTiny
-Kitty,Kitty
-Foots,Smith
-Tiger,Jaws
-```
-
-![Screenshot of CSV cats file](/images/data-ethics/cats_CSV.png)
-
-This file is viewed on my VSCode with the extension `Excel Viewer`. To view in VSCode, [install the extension](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer) in VSCode, open the .csv, and then right click on the file and click `Open Preview`. You can also [download the CSV file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) to open it in other viewers (e.g. Microsoft Excel, Notepad). To save the file onto your local computer, **right click** on `Raw` button (top right-hand corner of the data set) and click `Save Link As...` to save the file onto your local computer.
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
 
