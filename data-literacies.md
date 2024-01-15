@@ -83,7 +83,7 @@ Broadly, research data can be understood as **materials or information necessary
 
 ## Being Data
 
-Data exists in different forms and goes through a series of stages. It can be in any of these forms, or types/methods of storing gathered data, at different stages of manipulation by a researcher to take the data from informtion to conclusion.
+Data exists in different forms and goes through a series of stages. It can be in any of these forms, or types/methods of storing gathered data, at different stages of manipulation by a researcher to take the data from information to conclusion.
 
 Here you will find the terms we will use throughout the workshop for the stages of data and the terms for the forms of data.
 
