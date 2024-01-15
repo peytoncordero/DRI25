@@ -66,18 +66,7 @@ resources:
 
 # Introduction
 
-Welcome to the Command Line Workshop! 
-
-Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
-
-- Identify the command line and historicize it among other forms of human-computer interaction. 
-- Explain the benefits of interacting with your computer from the command line.
-- Navigate your filesystem using the command line. 
-- Create new files and directories.  
- - Move content and files in the filesystem. 
-- Search across and within text files.
-
-Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others by providing you with foundational knowledge about human-computer interaction. This workshop will also help you advance more easily when learning programming languages by helping you understand how our commands are translated to computers and the details that make a difference in the interaction with your computers. 
+Welcome to the Command Line Workshop! Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others by providing you with foundational knowledge about human-computer interaction. This workshop will also help you advance more easily when learning programming languages by helping you understand how our commands are translated to computers and the details that make a difference in the interaction with your computers. 
 
 The command line is a basic tool to create several projects. It allows you to
 
