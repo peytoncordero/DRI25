@@ -17,7 +17,7 @@ prerequisites:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
 before getting started:
-    - "[Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. You can download the file by selcting the 'Download' button below.
+    - "[Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. This dataset is the responses to the question,“Describe one or more of the research materials you either a) previously worked with; and/or b) are interested in working with”, collected from DRI 2024 attendees. You can download the file by selcting the 'Download' button below.
 
     <Download files='Research_Data_DRI24.csv'>
 
