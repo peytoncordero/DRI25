@@ -44,7 +44,7 @@ readings:
     - In [*Accessibility of Command Line Interfaces*](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544)*, Harini Sampath, Alice Merrick, and Andrew Macvean reflect on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
 
-ethical considerations:
+ethical:
     -  "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in *On Software, or the Persistence of Visual Knowledge* (2004), almost all human computers in the US during World War II were young women. Human computers received commands from analysts —predominantly men with the military— that they then had to interpret and act upon the machine. As Chun argues, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands’.”   
     
 projects:
