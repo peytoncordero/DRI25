@@ -17,7 +17,9 @@ prerequisites:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
 before getting started:
-    - "[Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the _Download the workshop dataset_ link and choose `Save Link As...`. Note: It is important to make sure your file is saved as a `.csv` file. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess)."
+    - "[Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. You can download the file by selcting the 'Download' button below.
+
+    <Download files='Research_Data_DRI24.csv'>
 
 readings:
     - In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of 'smart big data.'
