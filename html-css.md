@@ -284,7 +284,7 @@ When you open the empty template, you'll see a mostly blank web page that displa
 
 When you "**View Page Source**," you should see the code for the basic template.
 
-![Source code](/images/html-css/index_blank_source.pnd)
+![Source code](/images/html-css/index_blank_source.png)
 
 Viewing the page, no content should render except for `... ...`, because there is no content in the template at this time.
 
