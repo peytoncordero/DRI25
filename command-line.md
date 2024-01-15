@@ -224,43 +224,36 @@ What is the difference between a plain text document and a rich text document? (
 As the command line is a way to interact with a computer, think of how you interact with computers in your everyday life. For example, consider the number of hours you interact with computers per day, the reasons or goals for interacting with them, and the number of computers you might interact with within a day.
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
-<Keywords
-- Home
-User’s directory in a multi-user computer. 
+<Keywords>
 
-- Path
-String of characters that allows to locate a folder or file within the directory.
-
-- Rooth
-Highest directory in the hierarchy of the file system.
-</Keywords>
+- Character
+ An individual symbol that is represented by bytes to the computer.
 
 - Command line (CLI)
 An interface to communicate with our computers via text.
 
 - Graphical User Interface (GUI, pronounced "gooey")
-A graphical interface that allows the user to interact with the computer by pointing and clicking.
+A graphical interface that allows the user to interact with the computer by selecting icons or text boxes via keyboard, mouse, touchscreen or other stimulus.
 
 -Operating system
-A program with an interface that allows human-computer communications, making it easier to control the programs. Windows, MacOS, and Linux are examples of operative systems.
+Software that manages the hardware and programs of your computer. Windows, MacOS, and Linux are examples of operative systems.
 
 -Text
-“A  string of characters. 
+“A string of characters. 
 
 -Plain text
-Text without any encoding. 
+Text without any encoding, which means without formatting the text in terms of fonts, colors, etc.
 
 -Rich text 
-Text that contains encoding, proprietary or open, for formatting the text in terms of fonts, colors, etc.
+Text that contains encoding, proprietary or open, for formatting the text.
 
 -Text editor
-Programs used for creating plain text.
+A program used for creating plain text.
 
 -Word processor
-Programs that are used to create rich text, providing the text of encoding automally when the user chooses a specific style. 
+A program used to create rich text.
 
 </Keywords>
-
 
 # Hands-on!
 
@@ -465,20 +458,18 @@ What command do you run to identify the directory where you are currently locate
 </Quiz>
 
 <Keywords>
-- File system (or filesystem)
-Hierarchical method to organize the information in the computers composed of files and folders. 
-
 - Directory
 Cataloging structure that organizes the folders within the file system hierarchy. 
 
 - File
-Resource used to encode data that is storage with a filename
+A unit to store data as bytes on a storage device, such as a hard drive, which can be accessed by a computer.
+
+- File system (or filesystem)
+Hierarchical method to organize the information in the computers composed of files and folders. 
 
 -Folder
-Storage spaces that contain files and other folders, allowing to organize the computer.
-
+A storage space that contains files and other folders.
 </Keywords>
-
 
 # Creating files and folders 
 
@@ -634,6 +625,17 @@ Where do you keep it?
 Do you follow a specific system to organize it? 
 Is it possible for you to draw a diagram representing it? 
 Now, keep in mind your responses to these questions and relate them to the information from the workshop: what practices could help you improve in managing your digital information?
+
+<Keywords
+- Home
+User’s directory in a multi-user computer. 
+
+- Path
+A string of characters that represents the location of a file or folder within a directory.
+
+- Root
+Highest directory in the hierarchy of the file system, e.g. "C:/" on Windows and "Macintosh HD" on Mac
+</Keywords>
 
 ## Creating a cheat sheet 
 
