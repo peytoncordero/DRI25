@@ -40,8 +40,8 @@ editors:
     - 'Kalle Westerling'
 
 readings:
-    - Neal Stephenson's *[In the Beginning... Was the Command Line](https://web.stanford.edu/class/cs81n/command.txt)* is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
-    - *[Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544)* by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
+    - Neal Stephenson's [*In the Beginning... Was the Command Line*](https://web.stanford.edu/class/cs81n/command.txt)* is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
+    - [*Accessibility of Command Line Interfaces*](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544)* by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
 
 ethical considerations:
