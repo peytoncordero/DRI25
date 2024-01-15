@@ -8,8 +8,12 @@ programming_language: 'computer'
 
 learning objectives: 
     - description: 'At the end of this workshop, you will be able to' 
-    - Understand what the command line is and relate it to different ways for human-computer interaction. 
-    - Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset.
+    - Identify the command line and historicize it among other forms of human-computer interaction. 
+    - Explain the benefits of interacting with your computer from the command line.
+    - Navigate your filesystem using the command line. 
+    - Create new files and directories.  
+    - Move content and files in the filesystem. 
+    - Search across and within text files.
 
 estimated time: 3 hours
 
@@ -36,8 +40,8 @@ editors:
     - 'Kalle Westerling'
 
 readings:
-    - Neal Stephenson's [In the Beginning... Was the Command Line](https://web.stanford.edu/class/cs81n/command.txt) is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
-    - The paper [Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544) by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
+    - Neal Stephenson's *[In the Beginning... Was the Command Line](https://web.stanford.edu/class/cs81n/command.txt)* is a useful piece to grasp the relationship between (and the affordances of) the command line and the GUI.
+    - *[Accessibility of Command Line Interfaces](https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544)* by Harini Sampath, Alice Merrick, Andrew Macvean, reflects on the challenges of interacting with the computer via command line for users with visual disabilities.
     - Douglas Rushkoff's [*Program or Be Programmed*](http://www.youtube.com/watch?v=BXjRaoTPlPE) based on his book with the same title.
 
 ethical considerations:
@@ -66,8 +70,12 @@ Welcome to the Command Line Workshop!
 
 Here you will learn about communicating instructions to your computer. At the end of this workshop, you will be able to 
 
-- Understand what the command line is and relate it to different ways for human-computer interaction
-- Use the command line for navigating the filesystem, creating new files and directories, moving content and files in the filesystem, searching within text files, and doing a basic exploration of a text dataset
+- Identify the command line and historicize it among other forms of human-computer interaction. 
+- Explain the benefits of interacting with your computer from the command line.
+- Navigate your filesystem using the command line. 
+- Create new files and directories.  
+ - Move content and files in the filesystem. 
+- Search across and within text files.
 
 Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others by providing you with foundational knowledge about human-computer interaction. This workshop will also help you advance more easily when learning programming languages by helping you understand how our commands are translated to computers and the details that make a difference in the interaction with your computers. 
 
