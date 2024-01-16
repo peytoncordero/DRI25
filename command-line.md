@@ -97,7 +97,7 @@ As we mentioned on the front page of this workshop, the command line is laden wi
 
 The command line is a way of interacting with computers. Historically, [human-computer interaction (HCI)](https://ieeexplore.ieee.org/abstract/document/9140327) has driven hardware development. In this section, we learn about different forms HCI to understand why the command line is a basic and useful digital skill.
 
-The first "computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority](https://www.jstor.org/stable/25147356?seq=1) were women:they were contracted as cheaper labor, despite having the same abilities, who were treated as secretaries. The photo below shows the women computers who calculated the trajectory of the first US satellite, the Explorer 1. 
+The first "computers" were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority](https://www.jstor.org/stable/25147356?seq=1) were women:they were contracted as cheaper labor, despite having the same abilities, who were treated as secretaries. The photo below shows the women computers who calculated the trajectory of the first US satellite, the Explorer 1. 
  
 ![A group of all women human computers](/images/command-line/ComputersForExplorer1Trayectory.jpg)
 
@@ -136,7 +136,7 @@ New technologies, including hardware and software, were required to allow new wa
 
 The command line dates from the 1950s. It emerged related to teletype machines and computer terminals, which included keyboards! This way of HCI was much friendlier and more efficient than the punch cards:
 
->"It allowed programmers to directly enter their programs and data into the computer, execute those programs, view the results, and make any needed corrections – all without the need for clunky keypunch machines, massive printers, and human operators. When personal computers began to emerge in the late 1970’s and early 1980’s, they too adopted the command line interface.” ([Watson Interactive Learning Suite Suite](http://watson.latech.edu/book/future/futureEvolving.html#))
+>"It allowed programmers to directly enter their programs and data into the computer, execute those programs, view the results, and make any needed corrections – all without the need for clunky keypunch machines, massive printers, and human operators. When personal computers began to emerge in the late 1970’s and early 1980’s, they too adopted the command line interface." ([Watson Interactive Learning Suite Suite](http://watson.latech.edu/book/future/futureEvolving.html#))
 
 Looking for new ways of HCI, another user-friendly option emerged: the Graphic User Interface (GUI, pronounced "gooey"). This is the interface we are more familiar with, this is the pointing and clicking. In GUI, you communicate with the computer by selecting icons. 
 
@@ -161,9 +161,9 @@ To communicate with the computer via the command line we use *text inputs*. It i
 
 ![A word is written colorfully. It says "Text! In simple plain lines and letters we see a mark that selects all "Text!" to annotate that that is a "string". Then, on the "x" it annotates "character". On the bottom you can read "character equals code unit" and "a code unit has a number of bites". ](/images/command-line/Text-computers.png "text")
 
-For computers, text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are letters(a, ñ, ș, î), numbers (1,٣,3), spaces, tab (tab), punctuation marks (¿?, "”), and symbols (@ , %, \), control characters (bell, new line, end of text), even emojis can count as characters. So in "This %%??# i5 s7ilL t3xt for a computer” the computer will count 39 characters, including the spaces. 
+For computers, text is merely the strings of *characters*. Characters are individual symbols that are represented by bytes to the computer. For example, in this image, we have a string of 5 characters. Characters are letters(a, ñ, ș, î), numbers (1,٣,3), spaces, tab (tab), punctuation marks (¿?, ""), and symbols (@ , %, \), control characters (bell, new line, end of text), even emojis can count as characters. So in "This %%??# i5 s7ilL t3xt for a computer" the computer will count 39 characters, including the spaces. 
 
-As humans, we are used to thinking of written texts as interweaving the words, syntax, and discourse that together form a fabric ("text" comes from the same Latin root that "textile": *texere*, "to weave”). Because of this, we usually interpret the formatting of a written piece along with the text to give meaning. Formatting includes fonts, sizes, bold and cursive letters, etc. These characteristics are part of the text as a textile, they work for our human interpretation of a text. 
+As humans, we are used to thinking of written texts as interweaving the words, syntax, and discourse that together form a fabric ("text" comes from the same Latin root that "textile": *texere*, "to weave"). Because of this, we usually interpret the formatting of a written piece along with the text to give meaning. Formatting includes fonts, sizes, bold and cursive letters, etc. These characteristics are part of the text as a textile, they work for our human interpretation of a text. 
 
 As English-speaking humans, we recognize here a word ("text") with an exclamation mark. The computer does not recognize a word, it looks at the string for code units.
 
@@ -173,7 +173,7 @@ If we don't want to get our computer lost in translation when communicating with
 
 Word processors are programs to write and edit a document, such as Microsoft Word or Google Docs. When we use these programs, we input text (in the computer sense) and the processor encodes our desired changes into the text appearance. For example, when choosing a new typography, we immediately see the change on our end. What we don't see is that the program has a hidden code to do the formatting. 
 
-![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is "What do we mean by "text editor”?” The body of the text says: "While these words on this assumed "blank” document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
+![The image is a screenshot of Microsoft Word. We see what is written in the document. The title is "What do we mean by "text editor"?" The body of the text says: "While these words on this assumed "blank" document will hopefully print the way they look to you on your screen (with margins and fonts as you design them), this text is far from plain. In fact, Microsoft Word is a processor (emphasis on processor) with many hidden codes to help you with your desktop publishing. While these features enable many visual effects, the hidden codes become obstacles when you attempt to automate processing with the computer.](/images/command-line/worddoc.png "Word Doc")
 
 To put it in another way, what looks like "just words!" in a word processor to us as humans is being encoded for the computer to execute changes. For example, the words of the Microsoft Word document reproduced above are comprised of an archive of extensible markup language (XML). XML works as instructions that only Microsoft Word can read. If we ask the command line to read that same Word .docx file, the result would be a mixture of symbols as we show below:
 
@@ -187,7 +187,7 @@ Rich text is text -in the computer sense- with rich encoding. The implementation
 
 We need *plain text* to communicate with our computer. Plain text is the text without hidden formatting. It has the advantage of being manipulable in different editors, readable within the command line, and used for programming languages. 
 
-Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, "Plain text is a pure sequence of character codes” (p.18); "is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable” (p.19). We could say that plain text shows its cards to the computer. 
+Following [Unicode](https://www.unicode.org/versions/Unicode13.0.0/UnicodeStandard-13.0.pdf) (version 13.0), which is the international standard for displaying letters and symbols in a computer, "Plain text is a pure sequence of character codes" (p.18); "is the underlying content stream to which formatting can be applied. [It is] public, standardized, and universally readable" (p.19). We could say that plain text shows its cards to the computer. 
 
 To produce plain text we need *text editors*. Text editors are programs for editing plain text files. Some of the types of files that include plain text are  .txt, .csv, or .md. Because we need plain text to interact with the computer, text editors are an important tool for programming and working in the command line. 
 
@@ -264,7 +264,7 @@ To access the emulator, check the top-right side of the screen (or the top if yo
 
 Once it is open, you can resize it by clicking on the left border of the rectangle and dragging it to the desired size. (Your mouse pointer should change into the resize icon, a horizontal two-sided arrow).
 
-You can hide the emulator to continue reading through the workshop. For this, click on the "Close Code Editor” button, which will appear on the top. You can close it and reopen it every time you need; the information you have entered will continue to be there!
+You can hide the emulator to continue reading through the workshop. For this, click on the "Close Code Editor" button, which will appear on the top. You can close it and reopen it every time you need; the information you have entered will continue to be there!
 
 Additionally, we want to share these tips to get ready:
  
@@ -506,7 +506,7 @@ See any differences? If the command was successful, you should see a file called
 <Info>
     
 **Why the file is called foo.txt?**
-As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but *foo* is a common name in Computer Science which possibly comes from the unfortunate abbreviation for "fucked up beyond all repair” from the Second World War. 
+As we mentioned in the ethical considerations of this workshop, the command line is laden with masculine and military metaphors. You could use any name, but *foo* is a common name in Computer Science which possibly comes from the unfortunate abbreviation for "fucked up beyond all repair" from the Second World War. 
 
 </Info>
 
@@ -662,7 +662,7 @@ The sign `~` is called *tilde*. The command `cd ~` gets you to your user folder,
 For this project, we will use `echo`. `Echo` is a command to print plain text. Write
  
 ```console
-$ echo "Hello world from the command line”
+$ echo "Hello world from the command line"
 ```
 
 The output will be a line of text on the command line:
@@ -676,7 +676,7 @@ This is how the CLI prints the text. How can we ask the computer to print this s
 We use the redirect symbol `>` (a greater-than symbol): 
 
 ```console
-$ echo "This is my cheat sheet”  > cheat-sheet.txt
+$ echo "This is my cheat sheet"  > cheat-sheet.txt
 ```
 In this case, the computer will create a new file while including the content. Now, for our learning objective, let’s check the file is there with the command 
 
@@ -711,7 +711,7 @@ As we have been learning commands, we need to add more information in our cheat 
 With a pedagogical intention, let’s overwrite the text by using `>` again. 
 
 ```console
-$ echo "Yup, I know I am overwriting my cheat sheet!”  > cheat-sheet.txt 
+$ echo "Yup, I know I am overwriting my cheat sheet!"  > cheat-sheet.txt 
 ```
 
 Check the file: 
@@ -822,12 +822,12 @@ $ cd test
 Now try creating a new file with the name *cheat sheet.txt*  
 
 ```console
-$ touch "This is my cheat sheet” 
+$ touch "This is my cheat sheet" 
 ```
 And include the same text that we included before
 
 ```console
-$ echo "This is my cheat sheet”  > cheat sheet.txt
+$ echo "This is my cheat sheet"  > cheat sheet.txt
 ```
 
 What was the output?
@@ -1096,7 +1096,7 @@ Go to your projects folder and open your cheat-sheet.txt file using the `nano` c
 wc 	  	    word count 
 sort        organizes the content of the file in alphabetically by line
 mv          moves files 
-less        gets a paginated view of the data. To navigate: "f” for forward, b for back, q for quit 
+less        gets a paginated view of the data. To navigate: "f" for forward, b for back, q for quit 
 head       	shows only the first part of the file
 tail        shows only the last part of the file
 uniq        prints repeat lines only once
@@ -1175,9 +1175,9 @@ $ echo "Hello! My Name is Mark!" > introduction.txt
 (Select one of the following)
 
 <Quiz>
-- It replaces the content of the introduction.txt file with the line "Hello! My Name is Mark!”*
-- It adds the line "Hello! My Name is Mark!” to the existing content of the introduction.txt file.
-- It checks whether the content of the introduction.txt file contains the line "Hello! My Name is Mark!”
+- It replaces the content of the introduction.txt file with the line "Hello! My Name is Mark!"*
+- It adds the line "Hello! My Name is Mark!" to the existing content of the introduction.txt file.
+- It checks whether the content of the introduction.txt file contains the line "Hello! My Name is Mark!"
 - None of the above.
 </Quiz>
 
@@ -1247,7 +1247,7 @@ Now that you understand the CLI, you can apply this knowledge to your computer. 
 If you're using macOS:
 
 1. Click the Spotlight Search button (the magnifying glass) in the top right of your desktop.
-2. Type "terminal” into the bar that appears.
+2. Type "terminal" into the bar that appears.
 3. Select the first item that appears in the list.
 4. When the Terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background.
 
@@ -1270,7 +1270,7 @@ Windows also has a proprietary version of the command line. For this reason, som
 To use it:
 
 1. Open the start menu or press the Windows key at the same time that the letter R. 
-2. Type "cmd” and you will run the command box. 
+2. Type "cmd" and you will run the command box. 
 3. Press enter 
 
 
@@ -1279,7 +1279,7 @@ To use it:
 If you are a Linux user, you can learn about the command line in [this Ubuntu tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview). You have two options to get to the terminal:
 
 1. Go to the applications menu. There will be a terminal icon. Click to launch it.
-2. Use the Search button (the magnifying glass) a, write "terminal”, "command”, "prompt” or "shell”. Launch the terminal. 
+2. Use the Search button (the magnifying glass) a, write "terminal", "command", "prompt" or "shell". Launch the terminal. 
 
 
 # Resources to continue learning
