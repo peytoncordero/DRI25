@@ -13,6 +13,7 @@ learning objectives:
 
 authors:
     - 'Ian G. Williams'
+    - 'Patrick Smyth'
 
 instructors:
     - 'Ian G. Williams'
