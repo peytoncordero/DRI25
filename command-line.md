@@ -590,13 +590,11 @@ To check the result, use `cd` to access `/projects`. Then use `ls` to check that
 Do you want to check the solution?
 
 <Secret>
-    
 1. Type `pwd` to see where you are located. If you are not in the projects folder we just created, navigate to that folder using the commands `cd` and `cd ...` that we learned before
 2. Type `mkdir` name-of-your-subfolder to create a subfolder.
 3. Type `cd name-of-your-folder` to navigate to that folder.
 4. Type `name-of-your-file.txt` to create a new text file.
 5. Type `ls` to check whether you created the file correctly.
-   
 </Secret>
 
 ### Evaluation
