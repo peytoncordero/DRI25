@@ -13,6 +13,7 @@ learning objectives:
 
 authors:
     - 'Ian G. Williams'
+    - 'Patrick Smyth'
 
 instructors:
     - 'Ian G. Williams'
@@ -34,7 +35,7 @@ prerequisites:
 
 installation:
     - visual-studio-code: 
-        description: (Strongly recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://code.visualstudio.com/) ("VS Code") will be used and the exercise instructions are designed for this. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
+        description: (Strongly recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") will be used and the exercise instructions are designed for this. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
 
 readings:
     - "[Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) by Tim Berners-Lee. This concept paper, originally published in 1989 and converted to HTML format here, is the proposal that led to HTML. It is a foundational document of the Internet."
@@ -68,7 +69,7 @@ resources:
 
 # Getting Started with HTML and CSS
 
-Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between navigate through information via links, traveling from page to page until we find what we need. Our journey through hypertext is unique to our experience. Information retrieval systems such as encyclopedia indexes and library cataloging systems pre-date digital navigation tools such as links, but follow the same logic. With **hypertext**, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.  
+Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between navigate through information via links, traveling from page to page until we find what we need. Our journey through hypertext is unique to our experience. Information retrieval systems such as encyclopedia indexes and library cataloging systems pre-date digital navigation tools such as links, but follow the same logic. With **hypertext**, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
   
 <Info>**Fun fact**: More than 90% of all websites (whose markup language we know) use HTML
 [(w3techs.com)](https://w3techs.com/technologies/details/ml-html/all/all).</Info>
@@ -284,7 +285,7 @@ When you open the empty template, you'll see a mostly blank web page that displa
 
 When you "**View Page Source**," you should see the code for the basic template.
 
-![Source code](/images/html-css/index_blank_source.pnd)
+![Source code](/images/html-css/index_blank_source.png)
 
 Viewing the page, no content should render except for `... ...`, because there is no content in the template at this time.
 
@@ -445,8 +446,21 @@ If I wanted to indicate that "About" is a subheading in my page, which element s
 # Links
 
 **Links** are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites.
-  
+
+![Diagram of links between pages in HTML](/images/html-css/HTML_links.png)
+
 The **`<a>`** tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web. You can also use it to link to a particular location on a page—we'll see an example of this in the section on Classes and IDs.
+
+```html
+<a> </a>
+```
+
+Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific desitionation.
+
+```html
+<a href=""> </a>
+```
+In the following pages we'll explore relative and absolute links.
 
 ## Option One: Relative Links
 
