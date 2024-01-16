@@ -211,7 +211,7 @@ What is the difference between a plain text document and a rich text document? (
 
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
-- Plain text cannot be marked up.
+- Plain text cannot be marked up.*
 - Rich text is styled text, _i.e.,_ plain text completed by information such as font size, format, and colors.*
 - One can't determine whether there is a difference between the two without looking at their content.
 </Quiz>
@@ -1211,7 +1211,7 @@ What is the difference between a plain text document and a rich text document? (
 <Quiz>
 - Plain text contains no formatting, only line breaks and spacing.*
 - Rich text is styled text, i.e., plain text completed by information such as font size, format, and colors.*
-- Plain text cannot be marked up.
+- Plain text cannot be marked up.*
 - One can't determine whether there is a difference between the two without looking at their content. 
 </Quiz>
 
