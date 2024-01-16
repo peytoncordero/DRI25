@@ -455,6 +455,13 @@ The **`<a>`** tag, or **anchor tag**, creates a link to another document. You ca
 <a> </a>
 ```
 
+Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific desitionation.
+
+```html
+<a href=""> </a>
+```
+In the following pages we'll explore relative and absolute links.
+
 ## Option One: Relative Links
 
 **Relative links** take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
