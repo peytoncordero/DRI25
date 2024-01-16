@@ -15,7 +15,7 @@ learning objectives:
     - Move content and files in the filesystem. 
     - Search across and within text files.
 
-estimated time: 3 hours
+estimated time: 4 hours
 
 prerequisites: 
     - None: 
