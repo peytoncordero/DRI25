@@ -704,6 +704,7 @@ Here is a more advanced challenge if you're up for it. Feel free to try this on 
 You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp). Here is the sample code from the previous section.
 
 **List**
+
 ```html
 <ul>
     <li>Item 1</li>
@@ -713,6 +714,7 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 ```
 
 **Ordered list**
+
 ```html
 <ol>
     <li>Item 1</li>
@@ -722,11 +724,13 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 ```
 
 **Line break**
+
 ```html
 <br />
 ```
 
 **Comment**
+
 ```html
 <!--- --->
 ```
