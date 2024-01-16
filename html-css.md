@@ -927,11 +927,11 @@ p {
 }
 ```
 
-The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings.  
+The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings. In other words, every time the `<h1>` tag is called, the contents of this rule will also be applied.
   
-The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  
+The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  For `h1`, the declarations set  `font-family` to `arial`, `background-color` to `grey`, and `color` to `dark grey`.
   
-Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
+Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors (`#navbar` and `.intro`) are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
 
 ## Challenge
 
@@ -1053,7 +1053,11 @@ In HTML, classes and ids are added to the first part of a tag. Here's an example
 
 Note that it's possible to assign more than one class to an element—just leave a blank space between the two classes, as in the baseball examples above.
 
-**Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this: `<a href="#mets">Mets</a>`.
+**Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this:
+
+```html
+`<a href="#mets">Mets</a>`.
+```
 
 ## CSS Selectors
 
