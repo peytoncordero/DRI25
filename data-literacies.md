@@ -4,20 +4,36 @@ cover title: Data Literacies
 description: 'What is data? What counts as data? What are the ethical implications when working with data? How can we manage our data? These are questions we will explore throughout the workshop. Data is foundational to nearly all digital projects and often help us to understand and express our ideas and narratives. Hence, in order to do digital work, we should know how data is captured, constructed, and manipulated. We will also engage with the ethical dimensions of what it means to work with data, from collection to visualization to management.'
 
 learning objectives:
-    - Know the stages of data from collection to analysis
-    - Learn about intitutional compliance when working with data and digital projects
-    - Consider ethicial implacations beyond the institution around working with different types of data and analysis of data
-    - Learn best practices to manage and store data
+    - Define data in the context of digital research
+    - Distinguish forms of data and data formats
+    - Review the stages of data from collection to analysis
+    - Differentiate institutional ethical requirements and situated ethical responsibilities 
+    - Use the “impact approach” to evaluate the possible effects of different decisions made by the researchers in the different stages on data
+    - Apply data management practices to store and manage data
 
 estimated time:
     - 2 - 3 hours
 
 prerequisites: 
-    - command-line:
+    - Command Line:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
+instructor: 
+    - 'Tuka Al-Sahlani'
+    
+authors:
+    - 'Leanne Fan'
+    - 'Di Yoong'
+    - 'Stephen Zweibel'
+    - 'Kelsey Chatlosh' 
+    
+editors:
+    - 'Patrick Sweeney'
+    - 'Patrick Smyth' 
+    - 'Lisa Rhody' 
+
 before getting started:
-    - "[Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. This dataset is the responses to the question,“Describe one or more of the research materials you either a) previously worked with; and/or b) are interested in working with”, collected from DRI 2024 attendees. You can download the file by selecting the 'Download' icon below.
+    - "[Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. This dataset is the responses collected from the DRI 2024 attendees. You can download the file by selecting the 'Download' icon below.
 
     <Download files='Research_Data_DRI24.csv'>
 
@@ -53,23 +69,27 @@ In this workshop we will be discussing the basics of research data in terms of m
 These quotes below offers **a variety of perspectives** to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
 *University*
+
 Material or information on which an argument, theory, test or hypothesis, or another research output is based.
 
 >>— [Queensland University of Technology. Manual of Procedures and Policies. Section 2.8.3.](http://www.mopp.qut.edu.au/D/D_02_08.jsp)
 
 
 *Digital Project Management*
+
 What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
 
 >>— [Marieke Guy](http://www.slideshare.net/MariekeGuy/bridging-the-gap-between-researchers-and-research-data-management)
 
 
 *Government Insitution*
+
 Research data is defined as the recorded factual material commonly accepted in the scientific community as necessary to validate research findings, but not any of the following: preliminary analyses, drafts of scientific papers, plans for future research, peer reviews, or communications with colleagues.
 
 >>— [OMB-110, Subpart C, section 36, (d) (i)](https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-110.pdf)
 
 *Data Science*
+
 The short answer is that we can’t always trust empirical measures at face value: data is always biased, measurements always contain errors, systems always have confounders, and people always make assumptions
 
 >>— [Angela Bassa](https://medium.com/@angebassa/data-alone-isnt-ground-truth-9e733079dfd4)
@@ -77,19 +97,17 @@ The short answer is that we can’t always trust empirical measures at face valu
 
 Broadly, research data can be understood as **materials or information necessary to come to your conclusion** but what these materials and information is depends on your project.
 
-<Info>
-**Reflection** What is the definition of data in your field? 
-</Info>
-
-## Being Data
+<!--## Being Data
 
 Data exists in different forms and goes through a series of stages. It can be in any of these forms, or types/methods of storing gathered data, at different stages of manipulation by a researcher to take the data from information to conclusion.
 
 Here you will find the terms we will use throughout the workshop for the stages of data and the terms for the forms of data.
 
-![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code.](/images/data-ethics/being-data.gif)
+![Table of the Stage of Data and Form of Data. Stages of data are raw, cleaned, processed, analyzed, and visualized. Forms of data are textual, numeric, audio, video, image, and code.](/images/data-ethics/being-data.gif) -->
 
-## Forms of Data
+<!-- make below page a gif form vs format-->
+
+## Forms of Data 
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
 
@@ -126,7 +144,7 @@ There are many ways to represent data, just as there are many sources of data. W
 Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-research-data/)
 
 <Info>
-As mentioned in the Command Line workshop, proprietory software is owned by the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware.
+As mentioned in the Command Line workshop, proprietory software is owned by the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware. (add note about format)
 </Info> 
 
 
@@ -145,13 +163,38 @@ Research data can be defined as: (select all that apply)
 - objective and error-free.
 </Quiz>
 
+## Challenge: Forms of Data 
+
+Below you will find two frontmatter pages of two distinct digital projects. As you inspect the information present in each image, consider these questions:
+1. What are some forms of data used in the project?
+2. What are some forms of data outputted by the project?
+3. Where was the data retrieved from to complete the project? 
+
+![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
+
+[Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/) is an archival project that "seeks to shed light on the buried stories of African American women with math and science degrees who began working at NACA (now NASA) in 1943 in secret, segregated facilities."
+
+<Secret>
+From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data maybe outputed as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. This is the [data source page](https://omeka.macalester.edu/humancomputerproject/items/browse) for Human Computers At NASA.
+</Secret>
+
+![Screenshot of the frontmatter of an audio community mapping project called Listen for the Iraqis in NYC!](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
+
+[Listen for the Iraqis in NYC!](https://www.arcgis.com/apps/Cascade/index.html?appid=caace3a2d1624aecac2754b5802de3fc) is an audio community mapping project that seeks to locate the Iraqi population in nYC using their own voices. 
+
+<Secret>
+From the image, we can deduce that audio recordings of participants and a map (geospatial data) were used to complile this project. Given the details in the text on the right of the screen, we learn that the researcher will provide a map (geospatial data) and testemants (audio files) for us to peruse. The researcher has gathered digital field notes in the form of audio files from participants through a survey. The Call for Participants for Listen for the Iraqis in NYC! can be found [here](https://docs.google.com/document/d/1G8RxmEILImlW4O5LgRQ5I3e3JOlg0Sg6b7dM2CmrvEQ/edit).
+</Secret>
+
 # Institutional Compliance for Data and Research
  
 ### Institutional Review Board (IRB)
 
-Before we discuss our ethical obligations when working with data, let's review the institutional ethical perspective.
+[The Institutional Review Board (IRB)](https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/institutional-review-boards-irbs-and-protection-human-subjects-clinical-trials) is a floor for ethical responsibility at your university that came to pass after outrage about horrific unethical research studies done on people. A prime example of these grotesque studies is the [Tuskegee Syphillis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html). 
 
-The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
+Born from concerns of the ethical choices made in biomedical and behavorial research, IRB compliance is not broadly applicable. This leaves holes in insitutional ethical regualtions and requires researches in other fields, such as the social sciences, to find other ethical regulations or devise field specific ethical considers.
+
+<!--The policies and principles stipulated in the [Belmont Report](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html#xbasic) largely inform those of an Institutional Review Board (IRB). 
 
 It is importnat to note that the Belmont Report (1979) was published by The National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research after attention and outrage was brought about harm done to people during unethical research studies, such as the [Tuskegee Syphillis Study (1932-1972)](https://www.cdc.gov/tuskegee/index.html).
 
@@ -175,15 +218,15 @@ Three core principles of the Belmont report are:
 >> "Who ought to receive the benefits of research and bear its burdens? This is a question of justice, in the sense of "fairness in distribution" or "what is deserved." An injustice occurs when some benefit to which a person is entitled is denied without good reason or when some burden is imposed unduly... There are several widely accepted formulations of just ways to distribute burdens and benefits... These formulations are (1) to each person an equal share, (2) to each person according to individual need, (3) to each person according to individual effort, (4) to each person according to societal contribution, and (5) to each person according to merit."
 </Secret>
 
-Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.
+Every university or research institution must, legally, have its own or an affiliated IRB. The IRB is intended to provide oversight, administrative support, and educational training to ensure that research done at that location complies with federal and state regulations, and university or institutional policy.make 1 page-->
 
-## When is an IRB required?
+### When is an IRB required?
 
 Usually, IRB review is required when *ALL* of the criteria below are met:
 
-* The investigator is conducting research or clinical investigation,
-* The proposed research or clinical investigation involves human subjects, and
-* Your university or research institution is engaged in the research or clinical investigation involving human subjects.
+* The investigator is conducting **research** or **clinical investigation**,
+* The proposed **research** or **clinical investigation** involves human subjects, and
+* Your university or research institution is **engaged** in the research or clinical investigation involving human subjects.
 
 An IRB is an institutional complaince that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project ethics beyond compliance.
 
@@ -215,34 +258,12 @@ HRPP/IRB Required?
 Yes
 </Secret>
 
-For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf)
+For guidance and  more examples see [The CUNY Human Research Protection Program (HRPP), "CUNY HRPP Guidance: When is CUNY HRPP or IRB Review Required?"](https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/research/research-compliance/human-research-protection-program-hrpp/hrpp-policies-procedures/HRPP_IRB_Review_Required.pdf) 
 
-
-## Challenge: Forms of Data 
-
-Below you will find two frontmatter pages of two distinct digital projects. As you inspect the information present in each image, consider these questions:
-1. What are some forms of data used in the project?
-2. What are some forms of data outputted by the project?
-3. Where was the data retrieved from to complete the project? 
-
-![Screenshot of the landing page for the digital archive project called Human-Computers-At-NASA](/images/data-ethics/Human-Computers-At-NASA.png)
-
-[Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/) is an archival project that "seeks to shed light on the buried stories of African American women with math and science degrees who began working at NACA (now NASA) in 1943 in secret, segregated facilities."
-
-<Secret>
-From the image, we can deduce that newspaper articles (digital copies of text) and photographs (digital copies of images) were used to compile this archive. Noticing the highlighted name in the news article, the data maybe outputed as searchable text, searchable database, and/or searchable images. The data most likely was retrieved from a database and/or non-digital field notes. This is the [data source page](https://omeka.macalester.edu/humancomputerproject/items/browse) for Human Computers At NASA.
-</Secret>
-
-![Screenshot of the frontmatter of an audio community mapping project called Listen for the Iraqis in NYC!](/images/data-ethics/Listen-for-the-Iraqis-in-NYC.png)
-
-[Listen for the Iraqis in NYC!](https://www.arcgis.com/apps/Cascade/index.html?appid=caace3a2d1624aecac2754b5802de3fc) is an audio community mapping project that seeks to locate the Iraqi population in nYC using their own voices. 
-
-<Secret>
-From the image, we can deduce that audio recordings of participants and a map (geospatial data) were used to complile this project. Given the details in the text on the right of the screen, we learn that the researcher will provide a map (geospatial data) and testemants (audio files) for us to peruse. The researcher has gathered digital field notes in the form of audio files from participants through a survey. The Call for Participants for Listen for the Iraqis in NYC! can be found [here](https://docs.google.com/document/d/1G8RxmEILImlW4O5LgRQ5I3e3JOlg0Sg6b7dM2CmrvEQ/edit).
-</Secret>
 
 # Stages of Data
 
+<!--Insert image of linear stages of data-->
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
 
 **collection of "raw" data**
@@ -280,15 +301,17 @@ At the end of our analysis, a decision is then made about how we would present t
 
 <Info>
 
-The previous page articulates one cycle in which data goes from collection to transformation to visualization. This is also *not* the only way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
+There is no one way to go through the stages. For example, we could do a preliminary analysis first, such as running a correlation of variables, to explore what is missing before we begin the process of cleaning. Often, we also end up doing multiple iterations of cleaning and analysis, making decisions and choices to collapse particular variables or remove them entirely at each iterations. Making sure that we keep a clear documentation of our process will ensure that we are accountable to the data we have collected/are using and also ensure that our results can be replicated and reproduced if others choose to work on our "raw" data. While, making these decisions seems innocuous, there are ethical considerations, beyond the institution, and imapcts we must evaluate in the process.
 
 </Info>
 
 # Ethics Beyond Compliance 
 
-As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance. We will think of ethics as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight. Using this definiton of ethics, we then consider ethics as situated. **Situated ethics refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [Helen Simons and Robin Usher, Situated Ethics in Educational Research, 2000](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). 
+As we learn to manipulate date, we will consider our ethicl obligations beyond insitutional compliance such as an IRB. We will think of ethics as the moral principles that an individual aims to follow in practice to the best of their ability, research, and foresight. Using this definiton of ethics, we then consider ethics as situated.
 
-Situated ethics argues that ethical concerns will vary amongst people, disciplines, projects, tools, and contexts depending on the particular situated perspective of that person, group, or project.
+ **Situated ethics refers to the notion that a person's understandings of and commitments to ethics or morality are greatly linked to their own experiences, positionalities, and political orientations, as well as the particular context in which that person is putting such ethics into practice** [Helen Simons and Robin Usher, Situated Ethics in Educational Research, 2000](https://api.taylorfrancis.com/content/books/mono/download?identifierName=doi&identifierValue=10.4324/9780203354896&type=googlepdf). 
+
+<!--Situated ethics argues that ethical concerns will vary amongst people, disciplines, projects, tools, and contexts depending on the particular situated perspective of that person, group, or project.-->
 
 Thinking through how ethical ideas and practices, or lack thereof, are situated may prompt questions such as: How is data retrieved? By whom? For whom? From where? Why? 
 
@@ -298,7 +321,7 @@ In the Command Line workshop you learned about the history of the computer and c
 
 ## Levels of Impact
 
-Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education"](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methododlogy dependent on reflection, awarness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact." This "impact approach" helps us expand our ethical imagination and consider ethics beyond perscriptives and compliance. 
+Annette Markham in ["OKCupid data release fiasco: It’s time to rethink ethics education", 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/) asserts that ethical digital research is a methododlogy dependent on reflection, awarness of the debates and concerns in our respective fields, and accountability for the choices we make at each stage of our research. Thus, given the precarious nature of digital research and data we need to use a "what if" approach that will help us evaluate "the possible or probable impact, rather than the prevention of the impact." This "impact approach" helps us expand our ethical imagination and consider ethics beyond perscriptives and compliance. 
 
 Drawing from Markham (2016), we will focus on three levels of impact:
 
@@ -314,10 +337,10 @@ Additionally, this workshop will address the range of impact, or the range of ac
 
 Throughout the workshop we will refer to the impacts by number for quick refernce.
 
-<Info>
+<!--<Info>
 **Reflection**
 Now would be a good point to reflect on some ethical debates and conserns happening in your field
-</Info>
+</Info>-->
 
 ## Challenge: Ethics Beyond Compliance 
 
@@ -338,7 +361,7 @@ The reveal above is only one of the possible considerations, but there might be 
 
 "Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
 
-But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, I may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require me to filter out missing entries and collapse variables or fields before I can run my analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
+But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, We may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require us to filter out missing entries and collapse variables or fields before we can run our analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
@@ -346,7 +369,15 @@ If you are interested in further exploration and discussion of the ethics of "ra
 
 #### Direct effects on people
 
-#### What counts as "human"? What data should be off limits?
+![An image of two people at two seperate screens with the person on the left calmly typing and the person on the right aggressively typing.](/images/data-ethics/DRI24-participant-research-data-type.png)
+
+"At the most basic level of an impact approach, we might ask **how our methods of data collection impact humans, directly.** If one is interviewing, or the data is visibly connected to a person, this is easy to see. But a distance principle might help us recognize that when the data is very distant from where it originated, it can seem disconnected from persons, or what some regulators call ‘human subjects." ([Annette Markham, 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/),emphasis added)
+
+This brings us to several questions:
+1. What counts as "human"? What data should be off limits?
+2. How do we account for personhood?
+3. What is the distance principal? How does it impact the data we decide to collect?
+4. What is "public" data?
 
 ## Data and Labor
 
