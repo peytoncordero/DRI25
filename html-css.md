@@ -446,7 +446,9 @@ If I wanted to indicate that "About" is a subheading in my page, which element s
 # Links
 
 **Links** are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites.
-  
+
+![Diagram of links between pages in HTML](/images/html-css/HTML_links.png)
+
 The **`<a>`** tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web. You can also use it to link to a particular location on a page—we'll see an example of this in the section on Classes and IDs.
 
 ## Option One: Relative Links
