@@ -184,7 +184,7 @@ Open data formats are usually available to anyone free-of-charge and allows for 
 A demonstration:
 
 1. Open [this file](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `Research_Data_DRI24.csv` and click `Save Link As` to download the file to your local computer (it's the same Research_Data_DRI24.csv from above!)
-2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/cats.xlsx?raw=true). Unlike the previous, this is a proprietary format!
+2. Now do the same with [this Excel file](https://github.com/GC-DRI/DRI24/blob/main/uploads/data-literacies/Research_Data_DRI24.xlsx). Unlike the previous, this is a proprietary format!
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
@@ -523,7 +523,7 @@ The dataset would be a "raw" dataset for you becasue you would most likely need 
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. Structured data consists of clearly defined data types with patterns that make them easily searchable; while unstructured data is “everything else.”Unstructured data can be an open source book from the Gutenberg project and a structured data can be a csv file or a our dataset. 
 
 Here is a reminder of the list of structred forms and formats we reviewed earlier in the workshop:
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
@@ -537,11 +537,52 @@ Here is a reminder of the list of structred forms and formats we reviewed earlie
 - Matlab files & 3D Models (e.g. `.stl`, `.dae`, `.3ds`)
 - Metadata & Paradata (e.g. `.xml`, `.json`)
 
+## Data Structures: Tidy Data
+
+There are different guidelines to the processing of data, one of which is the [Tidy Data](https://www.jstatsoft.org/article/view/v059i10) format, which follows these rules in structuring data:
+
+1. Each variable is in a column.
+2. Each observation is a row.
+3. Each value is a cell.
+
+Look at this example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` structure below). How might that complicate the concept of **Tidy Data**?
+
+```json
+{
+    "Cats": [
+            {
+                "Calico": [
+                    {
+                        "firstName": "Smally",
+                        "lastName":"McTiny"
+                    },
+                    {
+                        "firstName": "Kitty",
+                        "lastName": "Kitty"
+                    }
+                ],
+                "Tortoiseshell": [
+                    {
+                        "firstName": "Foots",
+                        "lastName":"Smith"
+                    },
+                    {
+                        "firstName": "Tiger",
+                        "lastName":"Jaws"
+                    }
+                ]
+            }
+        ]
+}
+```
+
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
+
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
 
 
-
+<!-->
 ## The Importance of Using Open Data Formats
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
@@ -616,6 +657,7 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
         <th colspan="3"> For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
     </tr>
 </table>
+<-->
 
 ## Evaluation
 
@@ -636,33 +678,38 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 - are free-of-charge to use.*
 </Quiz>
 
+3. Tiny data format only allows one value per cell.
+
+<Quiz>
+- True*
+- False
+</Quiz>
+
 ## Challenge: Processed/Transformed
 
-1. How do you decide the formats to store your data when you transition from 'raw' to 'processed/transformed' data? What are some of your considerations?
-2. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
-3. If you are saving the file `moSmall.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
-
-### Solution:
+1. Explore the `Research_Data_DRI24.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
 
 <Secret>
-1. I usually go with the conventions of the field as it allows me to share my "in progress" work easily with my research lab and collaborators. The file conventions can range from `.csv` to `.json`.
-2. I will keep columns (variables) relevant to my question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. I will also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
-3. I will choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types I may no longer have access to opening the dataset. **or** I will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes I've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
+There are a few options to for this reveal. One option would be to ask what is the data form most used by the DRI participants? In order to answer this question, you may choose to keep only forms and ignore inputs such as "Open City Data" or "Archive" and keep "Text" and "Images". 
+</Secret>
+
+2. If you are saving the file `Research_Data_DRI24.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
+
+<Secret>
+The choice is based on the reasons you have to choose the proprietary spreedsheet or csv. You might choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types you may no longer have access to opening the dataset. **or** You will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes you've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
 </Secret>
 
 ### Keywords
 
-Do you remember the glossary terms from this section?
-
 - [CSV (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/csv.md)
-- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
-- [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)
+<!--- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
+- [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)<-->
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
 
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
 
-## Side Note on Data Structures: Tidy Data
+<!--## Side Note on Data Structures: Tidy Data
 
 There are different guidelines to the processing of data, one of which is the [Tidy Data](https://www.jstatsoft.org/article/view/v059i10) format, which follows these rules in structuring data:
 
@@ -701,7 +748,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 }
 ```
 
-While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.<-->
 
 ## Evaluation
 
@@ -729,11 +776,9 @@ While tiny data is a really popular method of structuring and organizing data, i
 
 ### Keywords
 
-Do you remember the glossary terms from this section?
-
 - [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
-# More Stages of Data: Cleaned
+# Stages of Data: Cleaned
 
 High quality data is measured in its **validity**, **accuracy**, **completeness**, **consistency**, and **uniformity**.
 
