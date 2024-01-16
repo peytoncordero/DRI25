@@ -604,12 +604,10 @@ Do you want to check the solution?
 What does the <kbd>up arrow</kbd> do?
 
 <Quiz>
-    
 - It quits the terminal.
 - It undoes my last command.
 - It inserts my last command.*
 - It shows me what folder I am working in.
-  
 </Quiz>
 
 ### Reflection
