@@ -822,6 +822,8 @@ Cleaning data is the work of correcting the errors listed above, and moving towa
 
 ### Validity
 
+![Image of a data set with invalid values.](images/data-ethics/cleaning-validity.png)
+
 Measurements must be valid, in that they must conform to set constraints:
 
 1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
