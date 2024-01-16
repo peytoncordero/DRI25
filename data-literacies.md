@@ -18,7 +18,7 @@ prerequisites:
     - Command Line:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
-facilitator: 
+instructors: 
     - 'Tuka Al-Sahlani'
     
 authors:
