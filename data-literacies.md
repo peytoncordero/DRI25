@@ -33,7 +33,7 @@ editors:
     - 'Lisa Rhody' 
 
 before getting started:
-    - "[Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). (recommended) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. This dataset is the responses collected from the DRI 2024 attendees. You can download the file by selecting the 'Download' icon below.
+    - "[Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). (required) The dataset, `Research_Data_DRI24.csv`, will be used throughout the challenges in the workshop. This dataset is the responses collected from the DRI 2024 attendees. You can download the file by selecting the 'Download' icon below.
 
     <Download files='Research_Data_DRI24.csv'>
 
@@ -64,7 +64,7 @@ additional datasets:
 
 In this workshop we will be discussing the basics of research data in terms of material, transformation, and presentation. We will also be discussing the ethical issues that arise in data collection, cleaning, and representation. Because everyone has a different approach and understanding to data and ethics, this workshop will also include multiple sites for discussions to help us think through what data literacies mean within our projects and broader applications.
 
-### What Constitutes Research Data?
+## What Constitutes Research Data?
 
 These quotes below offers **a variety of perspectives** to understanding research data across different stakeholders. The inclusion of these different approaches to research data is to suggest that there is no singular, definitive approach, and is dependent on multiple factors, including your project considerations.
 
@@ -111,7 +111,85 @@ Here you will find the terms we will use throughout the workshop for the stages 
 
 There are many ways to represent data, just as there are many sources of data. What can you/do you count as data? Here's a small list of possibilities of collections of digital objects acquired and generated during research.
 
-**What are some forms of data you use in your research?**
+<br />
+<table>
+    <caption><strong>A small list of open multimedia formats (more information of each file format is linked in their entries):</strong></caption>
+    <tr>
+        <th>Form</th>
+        <th>Format</th>
+        <th>Common file extensions</th>
+    </tr>
+    <tr>
+        <th rowspan="3">Images</th>
+        <td><a href="https://www.lifewire.com/tif-tiff-file-2622393">TIFF</a> (Tagged Image File Format) </td>
+        <td>`.tiff`, `.tif`</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/JPEG_2000">JPEG2000</a></td>
+        <td>`.jp2`, `.jpf`, `.jpx`</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.libpng.org/pub/png/pngintro.html">PNG</a> (Portable Network Graphics)</td>
+        <td>`.png`</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Text</th>
+        <td><a href="https://help.ceda.ac.uk/article/4429-ascii-formats">ASCII</a>  (American Standard Code for Information Interchange)</td>
+        <td>`.ascii`, `.dat`, `.txt`</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/PDF">PDF</a> (Portable Document Format)</td>
+        <td>`.pdf`</td>
+    </tr>
+    <tr>
+        <td><a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV</a> (Comma-Separated Values</td>
+        <td>`.csv`</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Audio</th>
+        <td><a href="https://xiph.org/flac/index.html">FLAC</a> (Free Lossless Audio Codec)</td>
+        <td>`.flac`</td>
+    </tr>
+    <tr>
+        <td><a href="https://xiph.org/ogg/">ogg</a></td>
+        <td>`.ogg`</td>
+    </tr>
+    <tr>
+        <th rowspan="1">Video</th>
+        <td><a href="https://www.lifewire.com/mp4-file-2622024">MPEG-4</a></td>
+        <td>`.mp4`</td>
+    </tr>
+    <tr>
+        <th rowspan="3">Others</th>
+        <td><a href="https://www.w3schools.com/xml/xml_whatis.asp">XML</a> (Extensible Markup Language)</td>
+        <td>`.xml`</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.json.org/json-en.html">JSON</a> (JavaScript Object Notation</td>
+        <td>`.json`</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.3dsystems.com/quickparts/learning-center/what-is-stl-file">STL</a> (STereoLithography file format—used in 3D modeling)</td>
+        <td>`.stl`</td>
+    </tr>
+    <tr>
+        <th colspan="3"> For a list of file formats, consider the Library of Congress' list of <a href="https://www.loc.gov/preservation/digital/formats/fdd/browse_list.shtml#"> Sustainability of Digital Formats</a>.</th>
+    </tr>
+</table>
+
+## The Importance of Using Open Data Formats
+
+Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. 
+
+A demonstration:
+
+1. Open [this file](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `Research_Data_DRI24.csv` and click `Save Link As` to download the file to your local computer (it's the same Research_Data_DRI24.csv from above!)
+2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/cats.xlsx?raw=true). Unlike the previous, this is a proprietary format!
+
+Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
+
+
+<!--**What are some forms of data you use in your research?**
 
 <Secret>
 - Non-digital text (lab books, field notebooks)
@@ -125,7 +203,7 @@ There are many ways to represent data, just as there are many sources of data. W
 - Artistic products
 - Curriculum materials (e.g. course syllabi)
 </Secret>
-<!--introduce applicants dataset before hand -->
+
 
 **The above forms of data can be formated in different structures using various open source or proprietary computing applications. For example, the text in your application can be  of  can be foramted as a spreadsheet or a database. What formats have you used to structure or organize your data?**
 
@@ -145,12 +223,13 @@ Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-re
 
 <Info>
 As mentioned in the Command Line workshop, proprietory software is owned by the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietory softeware. (add note about format)
-</Info> 
+</Info> -->
 
 
 ## What forms of data do you use?
 
 ![A bar graph of the types of data DRI Winter 2024 participants use in their research.](/images/data-ethics/DRI24-participant-research-data-type.png)
+
 
 ## Evaluate
 
@@ -359,9 +438,9 @@ The reveal above is only one of the possible considerations, but there might be 
 
 # Stages of Data: Raw
 
-"Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc.. It could be in any of the forms listed in the previous section.
+"Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc. t could be in any of the forms listed in the Forms of Data Section. <!--how do I link a page from the workshop-->
 
-But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, We may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require us to filter out missing entries and collapse variables or fields before we can run our analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
+But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, we may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require us to filter out missing entries and collapse variables or fields before we can run our analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
 If you are interested in further exploration and discussion of the ethics of "raw" data, please consider reading [Drucker's article](http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html) which has made useful distinctions between "data" (understood as given) and "capta" (taken or "captured") that also troubles the distinction between "raw" and "processed" data. 
 
@@ -369,15 +448,21 @@ If you are interested in further exploration and discussion of the ethics of "ra
 
 #### Direct effects on people
 
-![An image of two people at two seperate screens with the person on the left calmly typing and the person on the right aggressively typing.](/images/data-ethics/DRI24-participant-research-data-type.png)
+![An image of two people at two seperate screens with the person on the left calmly typing and the person on the right aggressively typing.](/images/data-ethics/realperson.png)
 
 "At the most basic level of an impact approach, we might ask **how our methods of data collection impact humans, directly.** If one is interviewing, or the data is visibly connected to a person, this is easy to see. But a distance principle might help us recognize that when the data is very distant from where it originated, it can seem disconnected from persons, or what some regulators call ‘human subjects." ([Annette Markham, 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/),emphasis added)
 
 This brings us to several questions:
-1. What counts as "human"? What data should be off limits?
-2. How do we account for personhood?
-3. What is the distance principal? How does it impact the data we decide to collect?
-4. What is "public" data?
+1. [What counts as "human"? What data should be off limits?](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact1.md)
+2. [How do we account for personhood?](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact1cont.md)
+3. [What is the distance principal? How does it impact the data we decide to collect?](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact1.md)
+4. [What is "public" data?](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact1cont.md)
+
+The definitions of terms such as "human" and "public" are ambigious. They are dependent on the forms of data, the context of the data, and the relatiosnhip of the data to the source and the researcher. 
+
+We return to our data set [Research_Data_DRI24.csv](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) that is now on a public site that is designed to be widely accessible. Would we consider this data set, "public" date from our understanding of the general term "public"?
+
+For guidelines and working definitons of "human", "public", and "personhood" see [the 2012 Ethical Decision-Making and Internet Research report by the AoIR Ethics Working Committee](http://aoir.org/reports/ethics2.pdf).
 
 ## Data and Labor
 
@@ -405,9 +490,9 @@ For a deeper discussion on data and labor, consider Catherine D'Ignazio and Laur
 - can only be collected from participants.
 </Quiz>
 
-## Challenge: Raw Data and Labor
+## Challenge: Raw Data
 
-1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
+<!--1. Do you think "big data" is "raw data"? Why or why not? Do quantity of data play into our assumptions of "rawness"?
 
 <Secret>
 I think big data can be raw data depending on how the data is obtained and the processes I need to take before I can apply an analysis. I think that with large datasets, I always assume "rawness" because I won't need all of the variables or there will be decisions that need to be made about missing entries.
@@ -423,12 +508,12 @@ I think my approach to scraped data is similar to big data.
 
 <Secret>
 Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
-</Secret>
+</Secret>-->
 
-4. If you have not done so, open up `moSmall.csv` from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
+At this time, please [Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). As mentionend ealier this dataset is the responses from the DRI24 attendee application. Considering you contributed to this data set, would you evaluate this file to be a "raw" dataset?
 
 <Secret>
-The dataset is "raw" to me as I will likely be working on removing certain variables/entries to work towards my question.
+The dataset would be a "raw" dataset for you becasue you would most likely need to remove certain variables/entries to work towards your question.
 </Secret>
 
 ### Keywords
@@ -440,7 +525,7 @@ The dataset is "raw" to me as I will likely be working on removing certain varia
 
 Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. This can also take many forms, e.g., a table. 
 
-Here is a reminder of the list of structred forms or formats we reviewed earlier in the workshop:
+Here is a reminder of the list of structred forms and formats we reviewed earlier in the workshop:
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
 - Audio (e.g. `.mp3`, `.wav`, `.aac`)
 - Video (e.g. `.mov`, `.mp4`)
@@ -461,7 +546,7 @@ Here is a reminder of the list of structred forms or formats we reviewed earlier
 
 A small detour to discuss data formats. Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software cease to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily open or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. A demonstration:
 
-1. Open [this file](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/cats.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `cats.csv` and click `Save Link As` to download the file to your local computer (it's the same cats.csv from above!)
+1. Open [this file](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `Research_Data_DRI24.csv` and click `Save Link As` to download the file to your local computer (it's the same Research_Data_DRI24.csv from above!)
 2. Now do the same with [this Excel file](https://github.com/DHRI-Curriculum/data-literacies/blob/v2.0/files/cats.xlsx?raw=true). Unlike the previous, this is a proprietary format!
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
@@ -470,8 +555,8 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 <table>
     <caption><strong>A small list of open multimedia formats (more information of each file format is linked in their entries):</strong></caption>
     <tr>
-        <th>Types</th>
-        <th>Examples</th>
+        <th>Form</th>
+        <th>Format</th>
         <th>Common file extensions</th>
     </tr>
     <tr>
