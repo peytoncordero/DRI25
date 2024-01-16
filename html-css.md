@@ -309,7 +309,9 @@ Do you remember the glossary terms from this section?
 # Tags and Elements
 
 Tags and elements are the structuring components of html webpages.  
-  
+
+![Diagram of tags and elements](/images/html-css/HTML_tags_elements.png)
+
 **Elements** identify the different parts of a page, such as paragraphs, headings, titles, body text, images and more. Elements are demarcated by tags which enclose the content of an element (ex. `<head>` and `</head>` are tags that denote the head element of your page).  
   
 **Tags** demarcate elements in one of two ways. As with the paragraph element below, an element can have an opening and a closing tag, with the content in between.
