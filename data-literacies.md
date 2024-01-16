@@ -18,7 +18,7 @@ prerequisites:
     - Command Line:
         description: (required) This workshop makes reference to concepts from the Command Line workshop, and having some knowledge about how to use the command line will be central for anyone who wants to learn about how to handle and process data and data analysis.
 
-instructor: 
+instructors: 
     - 'Tuka Al-Sahlani'
     
 authors:
@@ -822,6 +822,8 @@ Cleaning data is the work of correcting the errors listed above, and moving towa
 
 ### Validity
 
+![Image of a data set with invalid values.](images/data-ethics/cleaning-validity.png)
+
 Measurements must be valid, in that they must conform to set constraints:
 
 1. The aforementioned "yes" or "y" or "1" should all be changed to one response.
@@ -831,6 +833,8 @@ Measurements must be valid, in that they must conform to set constraints:
 ### Accuracy
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
+
+![Image of Open Maps with error for 123 Fake street.](images/data-ethics/cleaning-accuracy.png)
 
 Unfortunately, accuracy is mostly achieved in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
@@ -1063,11 +1067,23 @@ An example of effective data visualization can be seen in W.E.B. Du Bois [data p
 
 ## Range of impact, or the range of accessibility
 
+"[The]impact approach is targeted toward the possible or probable impact, rather than the prevention of impact in the first place. It acknowledges that we change the world as we conduct even the smallest of scientific studies, and therefore, we must take some personal responsibility for our methods." ([Annette Markham, 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/))
 
+Some areas to consider as we expand our [range](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/range.md) of ethical imagination beyond the three levels of impact are:
+
+- Accessibility to people with disabilities
+
+- International accessibility and language access
+
+- Openness and accessibility
+
+- What or when *not* to make things accessible
+
+- When might we decide *not* to record data or delete it
 
 ## Challenge: Visualizations
 
-As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply.
+As we transform our results into visuals, we are also trying to tell a narrative about the data we collected. Data visualization can help us to decode information and share quickly and simply. Consider the range of impacts as you think through these questions.
 
 1. What are we assuming when we choose to visually represent data in particular ways?
 
@@ -1093,7 +1109,7 @@ Exaggerated differences through the choice of scales on the x and y-axis can mis
 Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story.
 </Secret>
 
-5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
+<!--5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
 
 <Secret>
 The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, it make one wonder how effective it is.
@@ -1102,14 +1118,14 @@ The difficulty of representing this dataset is how at first glance there's an as
 
 # Data Literacy and Ethics
 
-Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.
+Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.<-->
 
-### Some Additional Exploration
+### Additional Exploration
 
 - If you were collecting and/or analyzing data on folx in power, such as looking at the data from [Tweets of Congress'](https://alexlitel.github.io/congresstweets/) project, would that change the way you consider your answers to the previous questions?
 - Current [ethical guidelines](https://www.asc.upenn.edu/research/centers/safe-lab/ethics) from SAFE Lab at University of Pennsylvania have decided to alter the text of social media post to render it unsearchable. Why and when would you consider (or not) altering the collected tweets for publication? 
 
-# Some Concluding Thoughts
+# Concluding Thoughts
 
 Data and ethics are contextually driven. As such, there isn’t always a risk-free approach. We often have to work through ethical dilemmas while thinking through information that we may not have (what are the risks of doing/not doing this work?). We have approached a moment where the question is no longer what we could do but what we should do. Given this saturated data-driven world we currently live in, there is value in pausing and consider why and what we are collecting, researching, analyzing, and understanding. Starting on a new project, especially one dealing with "big" data can be exciting but we now also have to first consider who does the data collected benefit and [why is it important are important](https://www.manifestno.com/). The IRB (Institutional Review Board)'s regulations may form the starting point of our considerations but should not be the ending point of how we consider contextually-driven ethics and data projects.
 
@@ -1117,20 +1133,7 @@ In addition, open access is not always the answer to concerns of reproducibility
 
 For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, [What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)
 
-# Theory to Practice
-
-Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  Below the quiz segment you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.
-
-You may also want to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. This dataset is adapted from the one compiled by Jeremy Singer-Vine for his 2015 BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) which includes information on refugee arrivals to the United States between 2005 and 2015 from the Department of State’s Refugee Processing Center." 
-
-Some questions to ask in preperation are:
-- Who collected this data? 
-- How and why is this data being collected? 
-- What assumptions are baked into this data? 
-- What consequences do data have in the world? 
-- What does this data tell us about our world?
-
-### Review your knowledge: 6 questions from the lessons
+## Review your knowledge: questions from the lessons
 
 TODO: fix links to pages of lessons
 
@@ -1193,6 +1196,83 @@ __6. Tiny data format only allows one value per cell. (Select one of the followi
 </Quiz>
 
 Revisit lesson [Side Note on Data Structures: Tidy Data](/workshops/data-ethics/?page=6) to learn more.
+
+# Theory to Practice
+
+Now that you've gained an understanding of some of the considerations around data and ethics, let's think a bit further about how you may apply some of what we have discussed in your work.  <!--Below the quiz segment you will find some additional readings that dives deeper into some of the topics that were covered in our lessons. If you would like, you can also consider exploring the "Projects or Challenges to Try" to see how you might apply what you've learnt.<-->
+
+We invite you to consider the ethical implications of the dataset of [Refugee Arrivals](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/refugee-arrivals-by-destination.csv) that you will learn to manipulate in the Pandas workshop. This dataset is adapted from the one compiled by Jeremy Singer-Vine for his 2015 BuzzFeed article [“Where U.S. Refugees Come From — And Go — In Charts.”](https://www.buzzfeednews.com/article/jsvine/where-us-refugees-come-from-and-go-in-charts#.vooNwy74jO) which includes information on refugee arrivals to the United States between 2005 and 2015 from the Department of State’s Refugee Processing Center." 
+
+Some questions to ask in preperation are:
+- Who collected this data? 
+- How and why is this data being collected? 
+- What assumptions are baked into this data? 
+- What consequences do data have in the world? 
+- What does this data tell us about our world?
+
+<!--### Review your knowledge: 6 questions from the lessons
+
+TODO: fix links to pages of lessons
+
+__1. Structured data can be: (Select all that apply)__
+
+<Quiz>
+- a XML list.*
+- a Excel table.*
+- an email chain.
+- a collection of text files.
+</Quiz>
+
+Revisit lesson [Stages of Data: Processed/Transformed](/workshops/data-ethics/?page=5) to learn more.
+
+__2. Descriptive analysis help us summarize a data set. (Select one of the following)__
+
+<Quiz>
+- True*
+- False
+</Quiz>
+
+Revisit lesson [More Stages of Data: Analyzed](/workshops/data-ethics/?page=8) to learn more.
+
+__3. Measurements are accurate when: (Select one of the following)__
+
+<Quiz>
+- they represent the correct values.*
+- observations do not contradict each other.
+- when they are unique responses (e.g. no duplication).
+- when the same unit of measure is used in all relevant measurements.
+</Quiz>
+
+Revisit lesson [More Stages of Data: Cleaned](/workshops/data-ethics/?page=7) to learn more.
+
+__4. Research data can be defined as: (Select all that apply)__
+
+<Quiz>
+- materials or information necessary to come to my conclusion.*
+- the recorded factual material commonly accepted in the scientific community as necessary to validate research findings.*
+- method of collection and analysis.
+- objective and error-free.
+</Quiz>
+
+Revisit lesson [Data is Foundational](/workshops/data-ethics/?page=2) to learn more.
+
+__5. The stages of data is a single iteration process, i.e. there is a fixed stage progression from data collection to visualization. (Select one of the following)__
+
+<Quiz>
+- False*
+- True
+</Quiz>
+
+Revisit lesson [Stages of Data: Raw](/workshops/data-ethics/?page=4) to learn more.
+
+__6. Tiny data format only allows one value per cell. (Select one of the following)__
+
+<Quiz>
+- True*
+- False
+</Quiz>
+
+Revisit lesson [Side Note on Data Structures: Tidy Data](/workshops/data-ethics/?page=6) to learn more.<-->
 
 ## Suggested Further Resources
 
