@@ -545,6 +545,15 @@ There are different guidelines to the processing of data, one of which is the [T
 2. Each observation is a row.
 3. Each value is a cell.
 
+But not all rectangular data is tidy. Here is an example of how tabular (or rectangular) data can be transformed into more tidy data. 
+
+![One large craph showing untidy data and three smaller graphs showing tidy datat](/images/data-ethics/tidy-v-untidy.png)
+
+What new variables were created? 
+
+What does each of the three tables represent?
+
+
 Look at this example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` structure below). How might that complicate the concept of **Tidy Data**?
 
 ```json
@@ -575,6 +584,10 @@ Look at this example of cats to see how they may or may not follow those guideli
         ]
 }
 ```
+
+How would you convert this nested data set into a tidy data structure? 
+
+![One large craph showing untidy data and three smaller graphs showing tidy datat](/images/data-ethics/tidy-v-untidy.png)
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
