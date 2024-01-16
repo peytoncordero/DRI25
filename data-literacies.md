@@ -545,14 +545,6 @@ There are different guidelines to the processing of data, one of which is the [T
 2. Each observation is a row.
 3. Each value is a cell.
 
-But not all rectangular data is tidy. Here is an example of how tabular (or rectangular) data can be transformed into more tidy data. 
-
-![One large craph showing untidy data and three smaller graphs showing tidy datat](/images/data-ethics/tidy-v-untidy.png)
-
-What new variables were created? 
-
-What does each of the three tables represent?
-
 
 Look at this example of cats to see how they may or may not follow those guidelines. **Important note:** some data formats allow for more than one dimension of data (like the `JSON` structure below). How might that complicate the concept of **Tidy Data**?
 
@@ -587,13 +579,35 @@ Look at this example of cats to see how they may or may not follow those guideli
 
 How would you convert this nested data set into a tidy data structure? 
 
-![One large craph showing untidy data and three smaller graphs showing tidy datat](/images/data-ethics/tidy-v-untidy.png)
+![Cat Json data converted to a tidy data table](/images/data-ethics/cat-tidy-table.png)
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
+### Table doesnt not equal tidy
+
+But not all rectangular data is tidy. Here is an example of how tabular (or rectangular) data can be transformed into more tidy data. 
+
+![One large craph showing untidy data and three smaller graphs showing tidy data](/images/data-ethics/tidy-v-untidy.png)
+
+What new variables were created? 
+
+What does each of the three tables represent?
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
 
+### Politics of Knowledge Production
+
+![Image of a diagram where bias goes in nand bias goes out](/images/data-ethics/bias.png)
+
+"At another level, we can ask how our methods of organizing data, analytical interpretations, or findings as shared datasets are being used—or might be used—**to build definitional categories or to profile particular groups** in ways that could impact livelihoods or lives. Are we contributing positive or negative categorizations?" ([Annette Markham, 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/),emphasis added)
+
+For ethical considerations of the [impact of our knowledge production](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact2cont.md),it can be helpful to think through the concepts of Gramsci's hegemony, Foucault's discourse, and  Hall's "policing the crisis". An example of the politics of power production can be found in Julia Angwen and Jeff Larson's, ["Bias in Criminal Risk Scores Is Mathematically Inevitable, Researchers Say," 2016](https://www.propublica.org/article/bias-in-criminal-risk-scores-is-mathematically-inevitable-researchers-say) article.
+
+[Decisions on the categories and boundaries scholars use shape our:](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact2cont.md)
+- Datasets
+- Catalogues
+- Maps
+- Algorithms
 
 <!-->
 ## The Importance of Using Open Data Formats
@@ -718,8 +732,7 @@ The choice is based on the reasons you have to choose the proprietary spreedshee
 <!--- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
 - [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)<-->
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
-
-## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
+- [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
 
 <!--## Side Note on Data Structures: Tidy Data
@@ -761,7 +774,7 @@ Look back at our example of cats to see how they may or may not follow those gui
 }
 ```
 
-While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.<-->
+While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.<
 
 ## Evaluation
 
@@ -789,7 +802,7 @@ While tiny data is a really popular method of structuring and organizing data, i
 
 ### Keywords
 
-- [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
+- [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)<-->
 
 # Stages of Data: Cleaned
 
@@ -803,7 +816,7 @@ Processed data, even in a table, is going to be full of errors:
 4. Impossible negative numbers, like an age of "-37"
 5. Dubious outliers
 6. Duplicated rows
-7. And many more!
+And many more!
 
 Cleaning data is the work of correcting the errors listed above, and moving towards high quality. This work can be done manually or programmatically.
 
@@ -849,7 +862,7 @@ Measurements are *accurate* when: (select one)
 1. How do we know when our data is cleaned enough?
 
 <Secret>
-Often this is decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. Generally, empty entries are removed from the data sets. Perhaps if one is working with social media data, they may remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). One may decide here is where to cleaning. Some might suggest the removal of stop words like "the" "a" "an," but some may feel uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if one were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
+Often this is decided before the cleaning process begins, perhaps after some quick visualization or analysis of the "raw" data. Generally, empty entries are removed from the data sets. Perhaps if one is working with social media data, they may remove URLs as these influence the topic modelling algorithms (e.g. "http" may end up being the most prominent topic of the corpus). One may decide here is where to stop cleaning. Some might suggest the removal of stop words like "the" "a" "an," but some may consider imapact II, politics of knowledge production, and feel uncertain about the removal of these words. This is especially because the dictionary of stop words were generated through canon western texts that is not representative of the many variations of English. For example, if one were looking at the tweets of Singaporean youths, the stop word dictionary may not be appropriate.
 </Secret>
 
 2. What happens to the data that is removed?
@@ -858,7 +871,7 @@ Often this is decided before the cleaning process begins, perhaps after some qui
 Usually the IRB desires that the data is destroyed. Removed data can remain in the original "raw" file. The file that is cleaned is usually a duplicate file to allow for recovery in case a researcher made a poor decision in the process of cleaning.
 </Secret>
 
-3. Explore the `moSmall.csv` dataset.
+<!-->3. Explore the `moSmall.csv` dataset.
     - Are all the measurements valid? Try checking the `Object ID` column for duplicates.
     - How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
     - Is the data collected completed? How might you deal with the NA or empty fields?
@@ -873,9 +886,13 @@ Usually the IRB desires that the data is destroyed. Removed data can remain in t
     - The data collected is not completed. There are missing fields. Depending on where the missing field is, you may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, you may choose to not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and you may choose to drop that row if this becomes a useful variable for your analysis.
     - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. You may assume that the NA can stand in for the object being in the public domain.
     - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. You may assume `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in mythis analysis, the proportion will only record female artists' objects against the rest of the collected items. You may not to be able to necessarily answer the larger question of all non-cisgender men against the total in this case.
-</Secret>
+</Secret><!-->
 
-# More Stages of Data: Analyzed
+## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
+
+
+
+# Stages of Data: Analyzed
 
 Analysis can take many forms (just like the rest of this stuff!), but many techniques fall within a couple of categories:
 
