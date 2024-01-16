@@ -855,29 +855,12 @@ It means that we created two files instead of a single one. The first of them `c
 
 ### Practices for better interaction with the computer
 
-
 Our graphical user interfaces allow us to save files with spaces between words in the name (e.g. 'interesting name.docx'), and we usually don’t think about the consequences of those naming practices. Imagine instead of 'cheat sheet.txt' you were attempting to open in the command line a very important file for a project such as '*final data.csv*' using the CLI! 
 
 For best digital practices, we recommend:
 - Make sure that file names do *not* contain spaces.
 - Use creative capitalization (InterestingName.docx), dashes (interesting_name.docx), or underscores (interesting_name.docx) instead. Keep in mind that the command line is case-preserving, which means that capitalization matters when you type commands.
 - Avoid using periods in your file and folder names, as they sometimes can prompt you to confuse them with file extensions (e.g., the full name of a PDF file is usually file.pdf) or system files (which contain core functions for your operative system). 
-
-## Fun time 
-**Treasure hunting!** 
-
-Now that you have learned commands to navigate the filesystem and create new files, we will go on a treasure hunt.
-
-To start the hunt
-1. Access the folder `command-line-treasure-hunt`
-2. Once there, ask the computer to print the instructions from README.md
-
-Right now you should be able to read those instructions! Pay attention to them and remember to take your time to check spelling and case sensitivity so that your commands work well! 
-
-Good luck! 
-
-
-![Image that looks like a vintage videogame and has a cat saying you can do it next to a treasure.](/images/command-line/TreasureHunting.gif "Treasure Hunting")
 
 ## Review
 ### Evaluation
@@ -1238,6 +1221,21 @@ What is the difference between a plain text document and a rich text document? (
 **Reflection**
 
 Thinking of the experience with the CLI in this workshop, what are some operations that the command line allowed you to perform that you cannot perform with the GIU? What new information have you learned about your relationship with your machine in this workshop?
+
+## Game 
+**Treasure hunting!** 
+
+Now that you have learned how to interact in the command line, we will go on a treasure hunt.
+
+To start the hunt
+1. Access the folder `command-line-treasure-hunt`
+2. Once there, ask the computer to print the instructions from README.md
+
+Right now you should be able to read those instructions! Pay attention to them and remember to take your time to check spelling and case sensitivity so that your commands work well! 
+
+Good luck! 
+
+![Image that looks like a vintage videogame and has a cat saying you can do it next to a treasure.](/images/command-line/TreasureHunting.gif "Treasure Hunting")
 
 # Transferring knowledge
 ### How to use find the terminal in your computer
