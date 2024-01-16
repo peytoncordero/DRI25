@@ -890,7 +890,19 @@ Usually the IRB desires that the data is destroyed. Removed data can remain in t
 
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
+![Image of a water rippling.](/images/data-ethics/ripple.jpg)
 
+Each choice we make while manipulating our data ripples to other areas of our scholarship, instiution, and communities (locally and globally). 
+
+"At a third level of impact, we can consider **the social, economic, or political changes caused** by one’s research processes or products, in both the short and long term." ([Annette Markham, 2016](https://annettemarkham.com/2016/05/okcupid-data-release-fiasco-its-time-to-rethink-ethics-education/),emphasis added)
+
+We can consider this [level of impact](https://raw.githubusercontent.com/DHRI-Curriculum/ethics/master/sections/impact3.md) by asking questions about labor, survlliance, social and political discourse, etc. 
+
+1. Whose labor and what materials are used to make the digital tools you use? How should we (those who benefit from the labor of other people) attribute others' labor? How can we (users of these tools) be held accountable?
+2. Could your research or project be used to justify or facilitate potentially harmful control or surveillance?
+3. Could it influence social or political discourse? Modes of profit?
+
+<!--We are visiting this impact between discussing cleaning data and analyzing data, becasue as we discussed earlier most of our reflections and decision making happen at these two stages.<--> 
 
 # Stages of Data: Analyzed
 
@@ -923,9 +935,6 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 
 As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
 
-![Bias in= Bias out](/images/data-ethics/bias.png)
-
-## Level of Impact III: Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
 ## Evaluation
 
@@ -957,7 +966,7 @@ Potential misuse we should concern ourselves with is the weaponization of margin
 4. What can happen when we are trying to just go for the next big thing (tool/methods/algorithms) or just ran out of time and/or budget for our project?
 
 <Secret> 
-4. In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communitiies, our priority is that our work is meaningful to them and the excitement of exploring a new tool can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
+In chasing the next big thing, the original intentions for beginning the project might be lost. When working with communitiies, our priority is that our work is meaningful to them and the excitement of exploring a new tool can sometimes distract us from this intention. Running out of time and/or budget can also mean that the project may end abruptly, and relationships built could be strained in a haphazard wrap up. This brings us back to making sure that before the project begins to spend a significant amount of time on project planning to reduce the chances of this happening.
 </Secret>
 
 ### Keywords
@@ -966,7 +975,7 @@ Potential misuse we should concern ourselves with is the weaponization of margin
 - [Inferential Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/inferential-analysis.md)
 - [Qualitative Analysis](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/qualitative-analysis.md)
 
-# More Stages of Data: Visualized
+# Stages of Data: Visualized
 
 Visualizing your data helps you tell a story and construct a narrative that guides your audience in understanding your interpretation of a collected, cleaned, and analyzed dataset. Depending on the type of analysis you ran, different kinds of visualization can be more effective than others. In the table below are some examples of data visualization that can help you convey the message of your data and the ethical considerations you have been evealuting throughout your project. 
 
@@ -1053,6 +1062,8 @@ This table is a teaser for the many possibilities of what data visualization can
 An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
 
 ## Range of impact, or the range of accessibility
+
+
 
 ## Challenge: Visualizations
 
