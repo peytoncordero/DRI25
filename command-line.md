@@ -48,8 +48,8 @@ ethical considerations:
     - "'The command line' is laden with masculine and military metaphors, which is reflective of the history of computing and programming. As Wendy Hui Kyong Chun discusses in *On Software, or the Persistence of Visual Knowledge* (2004), almost all human computers in the US during World War II were young women. Human computers received commands from analysts —predominantly men with the military— that they then had to interpret and act upon the machine. As Chun argues, 'computation depends on 'yes, sir' in response to short declarative sentences and imperatives that are in essence commands’."  
     
 projects:
-   - Feminist Linguistics Repository:
-        description: Digital specialized repository of Indisciplinadxs, a community of Feminist Linguists from the Americas. The Command Line is used in the project for doing installations, configuring a home server, and collaborating remotely.   
+    - Feminist Linguistics Repository:
+        description: This digital repository was created by Silvia Rivera Alfaro as her Interactive Technology and Pedagogy project. It belongs to Indisciplinadxs, a community of practice that was founded by LAILaC students along with feminist linguists from across the Americas. The command line is used in the project for doing installations of different programs required for DSpace and to install this repository software. The repository is hosted on a single-board computer so the command line was used to configure it as a home server. The command line is used to go into developer mode and make improvements in the front–end of the repository. It is also used for collaborating remotely in case of troubleshooting and to give general maintenance to the project.   
         link: https://repositorio.linguisticafeminista.com/ 
    - Fair World 64: 
         description: A Text-Based Game of the 1964–1965 World's Fair. A recent digital capstone project by Christofer Gass runs a Python script on the command line.
@@ -66,68 +66,67 @@ resources:
 
 # Introduction
 
-Welcome to the Command Line Workshop! Understanding the logic of the command line and the architecture of the information on a computer are basic digital skills that will help you build up others by providing you with foundational knowledge about human-computer interaction. This workshop will also help you advance more easily when learning programming languages by helping you understand how our commands are translated to computers and the details that make a difference in the interaction with your computers. 
+Learning how to use the command line and how to navigate your computer’s information architecture is an important skill upon which future workshops and technical concepts rely. The command line is a text-based form of human-computer interaction that allows you to communicate directly with your computer. Understanding how your computer works and how to navigate and search without relying on the graphical interface of your operating system (usually MacOS, Windows, or Linux) provides a knowledge base for learning programming languages like Python, R, or Javascript. 
 
-The command line is a basic tool to create several projects. It allows you to
+The command line looks like a blinking cursor on the screen waiting for a user to type in instructions. Working from the command line, you can:
 
-- Easily automate tasks such as creating, copying, and converting files
+- Automate tasks such as creating, copying, and converting files
 - Set up your programming environment
 - Run programs you create
 - Access the (many) programs and utilities that do not have graphical equivalents
 - Access and control other computers remotely 
-- Collaborate remotely in digital projects
-- Install certain programs, including server-side software (or more advanced software-as-a-service software)
+- Collaborate with others working across a distributed network of computers
+- Install software, including server-side software 
 
 And there are other uses that you will find according to your interests and the places your future projects might take you! 
 
+This workshop will show you some features of the command line, and over time, you may prefer to use the command line rather than your operating system’s graphical interface for many tasks. 
+
 # What is the command line?
 
-To get to this page of the workshop, you might have clicked on `next` or touched the bottom with your finger. In this way, you are interacting with your computer. The command line is another means of human-computer interaction. 
+The command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
+You might already be familiar with operating systems such as MacOS, Windows, Linux, Android, or iOS. An operating system is a software that manages the hardware and programs of your computer. When you opened your browser to start this workshop, you used your operating system’s graphical interface to find an icon that represents your browser (either Google Chrome, Mozilla Firefox, or another) and you double clicked on it to open. 
 
-To be precise, the command line is a text-based interface that allows you to communicate with your computer. You input text commands and the interface interprets them into appropriate operating system functions. 
-
-In this image you can see how the Command Line Interface (CLI) looks on a Mac computer:
+The following image shows a command line on a Mac, where it is called Terminal. The command line allows you to send commands to your operating system’s shell to be interpreted as instructions for your computer to follow.
 
 ![It is a simple program with a plain background and letters. On the first line, it says: Last Login: Wed Dec 27 16:34:06 on console. The second line says: base _silvira@Silvias-MBP ~ % immediately followed by the cursor showing it is where you write](/images/command-line/How-command-Line-looks-like.png "Terminal")
-
-To refer to the CLI, people also use the terms "Bash", "Terminal", or "Shell". Although these terms imply different levels of abstraction in certain contexts, they are commonly used interchangeably. 
 
 As we mentioned on the front page of this workshop, the command line is laden with masculine and military metaphors that come from the incarnated relationship of computer development and the technological arms race. To understand the relationship between computers and warfare, the essay [As We May Think](https://www.w3.org/History/1945/vbush/vbush-all.shtml), written in 1945, is a good source to reflect on the role of science in World War II. 
 
 ## Command line and humans
 
-As we mentioned, the command line is a way of interacting with computers. [Human-computer interactions (HCI)](https://ieeexplore.ieee.org/abstract/document/9140327) go hand in hand with the developments in hardware over time. In this section, we learn about different ways HCI to get a better understanding of why the command line is a basic and useful digital skill.
+The command line is a way of interacting with computers. Historically, [human-computer interaction (HCI)](https://ieeexplore.ieee.org/abstract/document/9140327) has driven hardware development. In this section, we learn about different forms HCI to understand why the command line is a basic and useful digital skill.
 
-The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority were women](https://www.jstor.org/stable/25147356?seq=1), as they were contracted as cheaper labor, despite having the same abilities. This is a photo of the team of computers who worked calculating the trajectory of the first US satellite, the Explorer 1. 
+The first “computers” were humans: it was an occupation. Before electronic computers, people were paid to develop mathematical operations. The [majority](https://www.jstor.org/stable/25147356?seq=1) were women:they were contracted as cheaper labor, despite having the same abilities, who were treated as secretaries. The photo below shows the women computers who calculated the trajectory of the first US satellite, the Explorer 1. 
  
 ![A group of all women human computers](/images/command-line/ComputersForExplorer1Trayectory.jpg)
 
 <Info>
     
-We recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive on the hidden labor of African-American women at NASA starting in 1943.
+To learn about the hidden labor of African-American women at NASA starting in 1943, we recommend [Human Computers at NASA](https://omeka.macalester.edu/humancomputerproject/), a digital archive.
 **Bonus:** This archive is done with Omeka, a program that requires installations using the command line.
 
 </Info>
 
-The first electronic programmable computer was ENIAC (Electrical Numerical Integrator and Calculator), which was created in 1945. It was hardware the size of a room (1,800 square feet / 167 square meters) conceived for [warfare purposes](https://www.jstor.org/stable/45363261), which was designed by two men and programmed by six women. 
+The Electrical Numerical Integrator and Calculator (ENIAC), which was created in 1945, was the first electronic, programmable computer. At 1,800 square feet (167 square meters) it occupied an entire room. In fact, it would have been as large as the average house at the time. Its purpose was [warfare](https://www.jstor.org/stable/45363261). The enormous size of computers in the 1940s alone made them challenging to interface with. 
 
 <Info>
     
-Although ENIAC was developed by women and men, the references are usually to the hardware developers and not so much to the programmers. We recommend [The Forgotten Female Programmers Who Created Modern Tech](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech), a 6-minute radio program that includes the voice of one of the ENIAC programmers. This program helps to understand the role of women in programming. 
+Although ENIAC was developed by women and men, available histories typically focus on  hardware developers, who were often male, over programmers, who were often female. [The Forgotten Female Programmers Who Created Modern Tech](https://www.npr.org/sections/alltechconsidered/2014/10/06/345799830/the-forgotten-female-programmers-who-created-modern-tech) is a six-minute radio program that includes the voice of one of the ENIAC programmers. 
 
 </Info>
 
-As HCI depends on the available technology, ENIAC used *punch cards*. This is how punched cards look: 
+In order to tell ENIAC –and other early computers– what to do, programmers used *punch cards*, a piece of thick paper with holes. The holes represented machine code, which is the information electronic computers need to perform calculations. This is how punched cards look: 
 
 ![A used punch card](/images/command-line/Punch-card.png "Punch card")
 
 <Info>
     
-Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s, they were used to automate the operation of the loom, key to the Industrial Revolution. This type of card became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created a program. She is known as the first computer programmer.
+Punch cards have been around since 1725 to operate looms in textile manufacturing. In the 1800s, they were used to automate the operation of the loom, key to the Industrial Revolution.  This type of card became important for computing way before electrical computers existed. The idea of a mechanical computer device was intertwined with the loom machines. To learn about it we recommend this [article about Ada Lovelace](https://theconversation.com/ada-lovelaces-skills-with-language-music-and-needlepoint-contributed-to-her-pioneering-work-in-computing-193930), who proposed the use of punch cards and created a program. She is known as the first computer programmer.
     
 </Info>
 
-Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunchs were invented-. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. 
+Punching cards was not a quick or friendly way to interact with computers -even after mechanical keypunches were invented. Interacting with the computers required physically traveling to a place and going into a specific room. Also, to communicate with those first machines, people required very specialized knowledge, especially mathematics. 
 
 ## Resizing computers 
  
