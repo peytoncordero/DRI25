@@ -196,7 +196,6 @@ Text editors are not used to edit rich text documents because of the encoding. I
 While it doesn't matter which text editor you choose, you should try to become comfortable with at least one. Ultimately, choosing a text editor has as much to do with personality as it does with functionality!
 
 ## Review
-
 ### Evaluation
 
 What is the command line? (Select one)
@@ -222,7 +221,6 @@ As the command line is a way to interact with a computer, think of how you inter
 Now, think of factors that can affect how people interact with computers and the consequences. Consider how gender, disability, or other socioeconomic factors you might want to consider can affect the interaction. For example, some studies demonstrate there is a gender digital divide in the reasons to interact with computers. 
 
 <Keywords>
-
 - Character
  An individual symbol that is represented by bytes to the computer.
 
@@ -249,7 +247,6 @@ A program used for creating plain text.
 
 -Word processor
 A program used to create rich text.
-
 </Keywords>
 
 # Hands-on!
