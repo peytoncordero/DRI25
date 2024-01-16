@@ -616,7 +616,7 @@ Do you follow a specific system to organize it?
 Is it possible for you to draw a diagram representing it? 
 Now, keep in mind your responses to these questions and relate them to the information from the workshop: what practices could help you improve in managing your digital information?
 
-<Keywords
+<Keywords>
 - Home
 User's directory in a multi-user computer. 
 
