@@ -736,7 +736,7 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 
 Now that we have covered the fundamentals of HTML, it's time to move on to CSS.
 
-**CSS** stands for **Cascading Style Sheets**. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page.  
+**CSS** stands for **Cascading Style Sheets**. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page. Like HTML, CSS is fundamental to much of the Internet today. Even if you use another means for creating a website (such as WordPress, GitHub Pages, or Wix), styling it effectively will involve the use of CSS.
   
 Examples of what CSS can help you determine include:
 
@@ -899,6 +899,8 @@ Is the following code-snippet an example of **inline styling** or **internal sty
 </Quiz>
 
 # Rule Sets
+
+![anatomy of a sample CSS rule set](/images/html-css/CSS_syntax.png)
 
 CSS is based on **selectors** and **declarations**, which together form rule sets (or just "rules"). Rule sets comprise an external styling file with a **`.css`** extension. Here is the contents of a sample `.css` file:
 
