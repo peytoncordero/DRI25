@@ -451,6 +451,10 @@ If I wanted to indicate that "About" is a subheading in my page, which element s
 
 The **`<a>`** tag, or **anchor tag**, creates a link to another document. You can use the `<a>` tag to link to other documents or webpages you created for the same site or to documents located elsewhere on the web. You can also use it to link to a particular location on a page—we'll see an example of this in the section on Classes and IDs.
 
+```html
+<a> </a>
+```
+
 ## Option One: Relative Links
 
 **Relative links** take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
