@@ -89,11 +89,13 @@ Fundamentally, then, a script or program is *a set of instructions given to the 
 
 ### Cascading Style Sheets (CSS)
 
-**CSS** is usually used in conjunction with HTML. HTML tells the browser what the different parts of a document _are_. CSS tells the browser what the parts of the document should _look like_. It is essentially a set of rules that are applied when rendering an HTML document. Its name—Cascading Style Sheets—refers to the fact that there is an order of precedence in how the browser applies CSS rules to a document. More specific rules overwrite less specific rules.
+**CSS** is usually used in conjunction with HTML, and was developed by [Håkon Wium Lie](https://www.wiumlie.no/en) in 1994 to add more control over display. Prior to CSS's introduction, websites were often displayed in different styles depending upon the web browser used, the computer's monitor, or other factors external to the code itself.
+
+HTML tells the browser what the different parts of a document _are_. CSS tells the browser what the parts of the document should _look like_. It is essentially a set of rules that are applied when rendering an HTML document. Its name—Cascading Style Sheets—refers to the fact that there is an order of precedence in how the browser applies CSS rules to a document. The __"style sheets"__ refers to print publishing practices of having uniform styles and standards, such as used in American Pscyhological Association, Chicago, and Modern Language Association formatting guidelines. They are __"cascading"__ because more specific rules overwrite less specific rules.
 
 ### Where Does the Internet Come In?
 
-Together, these languages can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
+Together, **HTML** and **CSS** can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
 However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='49'>`how to get your website from your local computer onto the internet`</Link>.
 
@@ -444,7 +446,7 @@ If I wanted to indicate that "About" is a subheading in my page, which element s
 
 # Links
 
-**Links** are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites.
+**Links** are the foundation of the World Wide Web, and thus are an important component of most websites. Hyperlinking text enables users to move between the different webpages on your site (sometimes in the form of a menu or navigation bar), or connect to other resources or information on other websites. They allow the user to call and connect with information beyond the present file.
 
 ![Diagram of links between pages in HTML](/images/html-css/HTML_links.png)
 
@@ -463,7 +465,7 @@ In the following pages we'll explore relative and absolute links.
 
 ## Option One: Relative Links
 
-**Relative links** take the current page as an origin point and search for other files within the same folder or directory. This method is useful for creating links to pages within your own site.
+**Relative links** take the current page as an origin point and search for other files within the same folder or directory. They do not search outside of the bounded object in which it is located. This method is useful for creating links to pages within your own site.
 
 The following appears as a link to the `about.html` page in the same folder as `index.html`:
 
@@ -479,7 +481,7 @@ This link is asking the browser to look for a file titled `about.html` in the sa
 
 ## Option Two: Absolute Links
 
-An **absolute link** includes information that allows the browser to find resources on other websites. This information includes the site domain—such as `google.com`—and often the protocol—such as `http` or `https`.
+An **absolute link** includes information that allows the browser to find resources on other websites, folders, and directories. In other words, it follows absolute and specific instructions to the path of something. This information includes the site domain—such as `google.com`—and often the protocol—such as `http` or `https`.
 
 ```html
 <a href="https://www.google.com">Google</a>
@@ -491,6 +493,10 @@ On your webpage it will appear as:
 
 This pathway is directing your browser to look online for this text document at the URL address provided.
 
+<Info>__Tip:__
+HTTP stands for 'hypertext transfer protocol', and is also a foundational component of the internet. HTTPS stands for 'hypertext transfer protocol secure', which encrypts the data transferred through the protocol. 
+</Info>
+
 ## More on Links
 
 Each example above includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
@@ -501,9 +507,11 @@ There is another technical difference between the two options above.
 
 ### Relative vs. Absolute Links: When to Use Which One
 
+![diagram of HTML relative vs absolute links](/images/html-css/HTML_links2.png)
+
 Use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
 
-For other instances, such as referring to pages or information on external sites, use absolute links.
+For other instances, such as referring to pages or information on external sites (or directories), use absolute links.
 
 ## Activity
 
@@ -844,9 +852,9 @@ For example, if you want the text of your first paragraph to be red, but the tex
 
 It's best practice to use Option 3, **external styling**, for a number of reasons:
 
-1. It helps us remember what each language focuses on: HTML is for _content_, CSS is for _styling_. (This is sometimes referred to as the principle of ["separation of concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/))
-2. It helps us maintain consistency across the various pages of our site as _multiple HTML files can link to the same stylesheet_.
-3. Because multiple HTML files can link to the same CSS file, it's not necessary to write the same CSS code multiple times. Once suffices. (This is sometimes referred to as the ["Don't Repeat Yourself" principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), or simply _DRY_.)
+1. **Clarity** It helps us remember what each language focuses on: HTML is for _content_, CSS is for _styling_. (This is sometimes referred to as the principle of ["separation of concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/))
+2. **Consistency** It helps us maintain consistency across the various pages of our site as _multiple HTML files can link to the same stylesheet_.
+3. **Simplicity** Because multiple HTML files can link to the same CSS file, it's not necessary to write the same CSS code multiple times. Once suffices. (This is sometimes referred to as the ["Don't Repeat Yourself" principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), or simply _DRY_.)
 
 Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
 
@@ -965,7 +973,7 @@ The formatting of the text on your page should change accordingly. Your `<h1>` s
 
 <!--TODO: screenshot of output -->
 
-What are some other rules you might set for different HTML elements? Do a quick Google search for a CSS rule that changes the appearance of your page, such as putting a border around an element.
+What are some other rules you might set for different HTML elements? Do a quick Google search for a CSS rule that changes the appearance of your page, such as [putting a border around an element](https://www.w3schools.com/css/css_border.asp).
 
 ## Evaluation
 
@@ -1006,7 +1014,7 @@ This rule also applies to how you integrate CSS into your HTML to style your con
 
 # Classes and IDs
 
-**Classes** and **IDs** enable more fine-grained styling by allowing you to define your own selectors. The difference between classes and IDs is that IDs are unique, used to identify one specific element or part of an element, whereas classes are used to identify multiple instances of the same type of element.  
+**Classes** and **IDs** enable more fine-grained styling by allowing you to define your own selectors. The difference between classes and IDs is that IDs are __unique__, used to identify one specific element or part of an element, whereas classes are used to identify multiple instances of the same type of element.  
   
 Basically, if you're styling a part of your page that is unique, such as the navbar or footer, use an ID. If you're styling something that recurs in different places, like an info box or form field, use a class. 
   
@@ -1056,12 +1064,12 @@ Note that it's possible to assign more than one class to an element—just leave
 **Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this:
 
 ```html
-`<a href="#mets">Mets</a>`.
+`<a href="#mets">Mets</a>`
 ```
 
 ## CSS Selectors
 
-Class selectors in CSS are denoted with a period in front of the class name you're creating. They look like this:
+**Class selectors** in CSS are denoted with a period in front of the class name you're creating. They look like this:
 
 ```css
 #navbar {
