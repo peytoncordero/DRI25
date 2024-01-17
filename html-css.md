@@ -507,9 +507,11 @@ There is another technical difference between the two options above.
 
 ### Relative vs. Absolute Links: When to Use Which One
 
+![diagram of HTML relative vs absolute links](/images/html-css/HTML_links2.png)
+
 Use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
 
-For other instances, such as referring to pages or information on external sites, use absolute links.
+For other instances, such as referring to pages or information on external sites (or directories), use absolute links.
 
 ## Activity
 
