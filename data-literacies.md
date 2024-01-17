@@ -1145,9 +1145,8 @@ __1. Structured data can be: (Select all that apply)__
 - an email chain.
 - a collection of text files.
 </Quiz>
-<Link workshop='python' page=5> some text </Link>
 
-Revisit Lesson <Link workshop='data-literacies' page=5>Stages of Data: Processed/Transformed</Link> to learn more.
+Revisit Lesson <Link workshop='data-literacies' page=20>Stages of Data: Processed/Transformed</Link> to learn more.
 
 __2. Descriptive analysis help us summarize a data set. (Select one of the following)__
 
