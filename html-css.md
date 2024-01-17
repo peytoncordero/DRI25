@@ -4,8 +4,6 @@ cover title: HTML & CSS
 description: 'HTML (Hypertext Markup Language) is used to create and organize the content of a website. CSS (Cascading Style Sheets) is used for website design and layout. Together, these languages form the foundation of the World Wide Web. They are the basis of what one needs to know to create useful and well-designed websites, and to read the source code of existing websites and website templates. This workshop walks participants through the fundamentals of HTML and CSS. The purpose of this unit is to help participants understand the rudiments of making websites, with the intention of providing a strong base of knowledge from which to imagine web-based digital humanities projects.'
 
 learning objectives:
-
-    - At the end of this workshop, you will be able to...
     - Familiarize yourself with the anatomy of a webpage and how the Internet works.
     - Understand the basics of the HTML and CSS markup languages.
     - Use HTML, CSS, and a text editor to build a small locally-hosted website.
@@ -21,20 +19,19 @@ instructors:
 editors:
     - 'Ian G. Williams'
 
-facilitators: 
-    name: 'Ian G. Williams'
-    description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
+# facilitators: 
+#     name: 'Ian G. Williams'
+#     description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
 
 estimated time:
     - 2-3 hours
 
 prerequisites:
-    - command-line:
+    - Command Line:
         description: (Required) This workshop makes reference to concepts from the Command Line workshop, in particular, in creating new folders and files, as well as moving around in file directories. It includes opportunities to utilize Command Line on your operating system.  Completing the Command Line workshop will make you more comfortable with working with HTML/CSS.
         required: true
 
-installation:
-    - visual-studio-code: 
+    - Visual Studio Code: 
         description: (Strongly recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") will be used and the exercise instructions are designed for this. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
 
 readings:
@@ -309,7 +306,9 @@ Do you remember the glossary terms from this section?
 # Tags and Elements
 
 Tags and elements are the structuring components of html webpages.  
-  
+
+![Diagram of tags and elements](/images/html-css/HTML_tags_elements.png)
+
 **Elements** identify the different parts of a page, such as paragraphs, headings, titles, body text, images and more. Elements are demarcated by tags which enclose the content of an element (ex. `<head>` and `</head>` are tags that denote the head element of your page).  
   
 **Tags** demarcate elements in one of two ways. As with the paragraph element below, an element can have an opening and a closing tag, with the content in between.
@@ -702,6 +701,7 @@ Here is a more advanced challenge if you're up for it. Feel free to try this on 
 You can learn more about making tables using HTML [here](https://www.w3schools.com/html/html_tables.asp). Here is the sample code from the previous section.
 
 **List**
+
 ```html
 <ul>
     <li>Item 1</li>
@@ -711,6 +711,7 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 ```
 
 **Ordered list**
+
 ```html
 <ol>
     <li>Item 1</li>
@@ -720,11 +721,13 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 ```
 
 **Line break**
+
 ```html
 <br />
 ```
 
 **Comment**
+
 ```html
 <!--- --->
 ```
@@ -733,7 +736,7 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 
 Now that we have covered the fundamentals of HTML, it's time to move on to CSS.
 
-**CSS** stands for **Cascading Style Sheets**. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page.  
+**CSS** stands for **Cascading Style Sheets**. This language works in coordination with HTML, but is its own language with its own rules and terminology. In contrast to HTML, which is responsible for the content of the page, CSS is responsible for the presentation of the page. Like HTML, CSS is fundamental to much of the Internet today. Even if you use another means for creating a website (such as WordPress, GitHub Pages, or Wix), styling it effectively will involve the use of CSS.
   
 Examples of what CSS can help you determine include:
 
@@ -897,6 +900,8 @@ Is the following code-snippet an example of **inline styling** or **internal sty
 
 # Rule Sets
 
+![anatomy of a sample CSS rule set](/images/html-css/CSS_syntax.png)
+
 CSS is based on **selectors** and **declarations**, which together form rule sets (or just "rules"). Rule sets comprise an external styling file with a **`.css`** extension. Here is the contents of a sample `.css` file:
 
 ```css
@@ -922,11 +927,11 @@ p {
 }
 ```
 
-The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings.  
+The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings. In other words, every time the `<h1>` tag is called, the contents of this rule will also be applied.
   
-The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  
+The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  For `h1`, the declarations set  `font-family` to `arial`, `background-color` to `grey`, and `color` to `dark grey`.
   
-Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
+Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors (`#navbar` and `.intro`) are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
 
 ## Challenge
 
@@ -1048,7 +1053,11 @@ In HTML, classes and ids are added to the first part of a tag. Here's an example
 
 Note that it's possible to assign more than one class to an element—just leave a blank space between the two classes, as in the baseball examples above.
 
-**Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this: `<a href="#mets">Mets</a>`.
+**Bonus:** ID selectors can be used to create links that can be used for navigation _within_ a page. For example, to add a link to the page that takes the user directly to the line that reads "New York Mets," we might write a HTML link like this:
+
+```html
+`<a href="#mets">Mets</a>`.
+```
 
 ## CSS Selectors
 
