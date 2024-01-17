@@ -1146,7 +1146,7 @@ __1. Structured data can be: (Select all that apply)__
 - a collection of text files.
 </Quiz>
 
-Revisit Lesson <Link page=5 workshop='data-literacies'>Stages of Data: Processed/Transformed</Link> to learn more.
+Revisit Lesson <Link page='5' workshop='data-literacies'>Stages of Data: Processed/Transformed</Link> to learn more.
 
 __2. Descriptive analysis help us summarize a data set. (Select one of the following)__
 
@@ -1155,7 +1155,7 @@ __2. Descriptive analysis help us summarize a data set. (Select one of the follo
 - False
 </Quiz>
 
-Revisit lesson <Link page=8 workshop='data-literacies'>More Stages of Data: Analyzed</Link> to learn more.
+Revisit lesson <Link page='8' workshop='data-literacies'>More Stages of Data: Analyzed</Link> to learn more.
 
 __3. Measurements are accurate when: (Select one of the following)__
 
@@ -1166,7 +1166,7 @@ __3. Measurements are accurate when: (Select one of the following)__
 - when the same unit of measure is used in all relevant measurements.
 </Quiz>
 
-Revisit Lesson <Link page=7 workshop='data-literacies'>More Stages of Data: Cleaned</Link> to learn more.
+Revisit Lesson <Link page='7' workshop='data-literacies'>More Stages of Data: Cleaned</Link> to learn more.
 
 __4. Research data can be defined as: (Select all that apply)__
 
@@ -1177,7 +1177,7 @@ __4. Research data can be defined as: (Select all that apply)__
 - objective and error-free.
 </Quiz>
 
-Review lesson <Link page=2 workshop='data-literacies'>Data is Foundational</Link> to learn more.
+Review lesson <Link page='2' workshop='data-literacies'>Data is Foundational</Link> to learn more.
 
 __5. The stages of data is a single iteration process, i.e. there is a fixed stage progression from data collection to visualization. (Select one of the following)__
 
@@ -1186,7 +1186,7 @@ __5. The stages of data is a single iteration process, i.e. there is a fixed sta
 - True
 </Quiz>
 
-Revisit Lesson <Link page=4 workshop='data-literacies'>Stages of Data: Raw</Link> to learn more.
+Revisit Lesson <Link page='4' workshop='data-literacies'>Stages of Data: Raw</Link> to learn more.
 
 __6. Tiny data format only allows one value per cell. (Select one of the following)__
 
@@ -1195,7 +1195,7 @@ __6. Tiny data format only allows one value per cell. (Select one of the followi
 - False
 </Quiz>
 
-Revisit Lesson <Link page=6 workshop='data-literacies'>Side Note on Data Structures: Tidy Data</Link> to learn more.
+Revisit Lesson <Link page='6' workshop='data-literacies'>Side Note on Data Structures: Tidy Data</Link> to learn more.
 
 # Theory to Practice
 
