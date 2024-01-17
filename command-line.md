@@ -562,7 +562,7 @@ Now that you have a `projects` folder, let's move foo.txt to this folder.
 
 You need to be located in the same folder that contains the file to be able to move it. This is why it is important to know the path to the file. In our case, we created foo.txt in `/home/user/`. 
 
-Use `pdw` to make sure you are in the right folder.
+Use `pwd` to make sure you are in the right folder.
 
 ```console
 $ pwd
@@ -1127,11 +1127,11 @@ We explored the difference between word processors and text editors and their re
 
 Via our emulator, we interacted with the computer on a terminal and practiced commands for
 
-1) Navigating the file structure in a computer (`pwd`, `ls`, `cd`, `cd ..`, `cd~`).
-2) Creating new files and directories (`touch`, `echo`, `mkdir`).
-3) Moving content ( `>`, `|`) and files (`v`) to new locations within the file structure.
-4) Searching within text files (`cat`, `nano`)
-5) Doing a basic exploration of a text dataset (`grep`, `less`, `head`, `tail`, `uniq`, `|`, `-`)
+1. Navigating the file structure in a computer (`pwd`, `ls`, `cd`, `cd ..`, `cd~`).
+2. Creating new files and directories (`touch`, `echo`, `mkdir`).
+3. Moving content ( `>`, `|`) and files (`v`) to new locations within the file structure.
+4. Searching within text files (`cat`, `nano`)
+5. Doing a basic exploration of a text dataset (`grep`, `less`, `head`, `tail`, `uniq`, `|`, `-`)
 
 We documented the commands on a cheat sheet that can be used for reference! Additionally, we learn important tips to navigate the file system and to make our experience with the command line smoother and more efficient.
 
