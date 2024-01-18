@@ -1264,8 +1264,8 @@ Bonus points: if you want to get the groove of just typing instead of pointing a
 
 With this terminal, you will apply many of the commands we have learned today, but not all of them. Here you can find the [Windows documentation to use Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4). To access this terminal you have two options:
 
-Go to the Start menu. Type PowerShell. Click on the Windows Power Shell to open it. 
-Go to the Start menu. Click Start. Then click on All Programs. Go to Accessories. There, click the Windows PowerShell folder. There you will see Windows PowerShell. Click on it to open it.
+1. Go to the Start menu. Type PowerShell. Click on the Windows Power Shell to open it.
+2.  Go to the Start menu. Click Start. Then click on All Programs. Go to Accessories. There, click the Windows PowerShell folder. There you will see Windows PowerShell. Click on it to open it.
 
 
  ### Alternative 3: Command 
