@@ -1126,7 +1126,7 @@ The difficulty of representing this dataset is how at first glance there's an as
 ![Plot of media objects in public domain by gender of artist](/images/data-ethics/genderPD.png)
 </Secret>
 
-# Data Literacy and Ethics
+<!--# Data Literacy and Ethics
 
 Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.<-->
 
