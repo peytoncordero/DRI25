@@ -182,9 +182,11 @@ Open data formats are usually available to anyone free-of-charge and allows for 
 An illustration:
 
 1. A screenshot of the moSmall dataset as a cvs file.
+
 ![A screenshot of the csv file of the moSmall dataset.](/images/data-ethics/moSmall-csv.png)
 
 2. A screenshot of the moSmall dataset as an Excel file (.xlsx). Unlike the previous image, this is a proprietary format.
+
 ![A screenshot of the excel file of the moSmall dataset.](/images/data-ethics/moSmall-xlsx.png)
  
  
