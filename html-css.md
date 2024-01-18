@@ -986,7 +986,7 @@ Create a blank stylesheet using the command line (following option 3, external s
 Make sure you're in the `projects` folder
 
 ```console
-cd ~/Desktop/htmlpractice/projects
+$ cd ~/Desktop/htmlpractice/projects
 ```
 
 Create `style.css`
