@@ -983,9 +983,22 @@ Option 3, external styling, is preferred by most web developers because __it's m
 
 Create a blank stylesheet using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
 
+Make sure you're in the `projects` folder
+
+```console
+cd ~/Desktop/htmlpractice/projects
+```
+
+Create `style.css`
+
 ```console
 $ touch style.css
 ```
+
+Open `style.css` in VS Code
+
+```console
+$ code style.css```
 
 To link your stylesheet with your `index.html` file, insert the following code into the `<head>` element of that `index.html` file:
 
