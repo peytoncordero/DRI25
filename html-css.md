@@ -888,8 +888,9 @@ For example, if you want the text of your first paragraph to be red, but the tex
     </body>
 </html>
 ```
+Here's what the code looks like displayed in a browser.
 
-<!--- Add screenshot of the output --->
+![Screenshot of inline css rendered in browser](/images/html-css/css_inline.png)
 
 ## Option 2: Internal
 
@@ -923,6 +924,9 @@ For example, if you want the text of your first paragraph to be red, but the tex
     </body>
 </html>
 ```
+Here's what the code looks like displayed in a browser.
+
+![Screenshot of internal CSS rendered in browser](/images/html-css/css_internal.png)
 
 ## Option 3: External (Recommended)
 
@@ -960,6 +964,10 @@ Styling instructions from CSS is then contained in the `style.css` document.
             font-family: cursive;
         }
 ```
+
+Here's what the code looks like displayed in a browser.
+
+![Screeshot of the external CSS code rendered in a browser](/images/html-css/css_external.png)
 
 ## Best Practices
 
