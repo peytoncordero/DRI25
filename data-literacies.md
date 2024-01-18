@@ -346,7 +346,8 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 # Stages of Data
 
-<!--Insert image of linear stages of data-->
+![Stages of data illustration with images of the data corresponding to the stage.](/images/data-ethics/stages-of-data-linear.png)
+
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
 
 **collection of "raw" data**
