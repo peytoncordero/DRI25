@@ -574,9 +574,9 @@ $ touch about.html
 
 ### Check If It Worked
 
-When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page.
+When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
 
-<!---TODO: add graphic, video, or image showing connection --->
+![diagram of links in updated sample files](/images/html-css/HTML_links3.png)
 
 Congratulations, you have just created hyperlinks. This is a foundational component of the entire Internet.
 
