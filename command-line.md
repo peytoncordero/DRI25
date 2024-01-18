@@ -1246,7 +1246,21 @@ You can change the color of your Terminal or BashShell background and text by se
 
 ## Windows Users
 
-### Alternative 1: Power Shell
+### Alternative 1: Git Bash (recommended)
+
+To use all the commands just as we used them in this workshop, we recommend using Git Bash. If you haven't installed it yet, you can follow [these instructions](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/git.md). 
+
+The reason to use Git Bash as the command line on Windows is that it allows you to run the same commands as you would on a computer running macOS or Linux. Git Bash includes core utilities available on Linux that are not available on Windows.
+- Look for Git Bash in your programs menu and open it.
+- If you can't find the git folder, just type git bash in the search box and select git bash when it appears.
+- Open the program.
+- When the terminal pops up, you will likely see either a window with black text over a white background or colored text over a black background. You know you're in the right place when you see the `$`.
+
+Note that the sign for you being in the right place might also be a `%` or a `#` depending on your operating system.
+
+Bonus points: if you want to get the groove of just typing instead of pointing and clicking, you can press windows to open the Start menu, start typing git bash, and then hit enter to open a git bash window. This will pull up a command window without touching your mousepad.
+
+### Alternative 2: Power Shell
 
 With this terminal, you will apply the same commands we have learned today. Here you can find the [Windows documentation to use Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4). To access this terminal you have two options:
 
@@ -1254,7 +1268,7 @@ Go to the Start menu. Type PowerShell. Click on the Windows Power Shell to open 
 Go to the Start menu. Click Start. Then click on All Programs. Go to Accessories. There, click the Windows PowerShell folder. There you will see Windows PowerShell. Click on it to open it.
 
 
- ### Alternative 2: Command 
+ ### Alternative 3: Command 
  
 Windows also has a proprietary version of the command line. For this reason, some of the commands differ from those we studied in this workshop. Use [this Windows documentation](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands) to find the commands if you want to use this version. 
 
