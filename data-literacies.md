@@ -882,7 +882,7 @@ Often this is decided before the cleaning process begins, perhaps after some qui
 Usually the IRB desires that the data is destroyed. Removed data can remain in the original "raw" file. The file that is cleaned is usually a duplicate file to allow for recovery in case a researcher made a poor decision in the process of cleaning.
 </Secret>
 
-<!-->3. Explore the `moSmall.csv` dataset.
+3. Explore the `moSmall.csv` dataset.
     - Are all the measurements valid? Try checking the `Object ID` column for duplicates.
     - How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
     - Is the data collected completed? How might you deal with the NA or empty fields?
@@ -891,13 +891,13 @@ Usually the IRB desires that the data is destroyed. Removed data can remain in t
     - As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
 <Secret>
-3. Exploring the dataset, here are possible responses to the questions:
+Exploring the dataset, here are possible responses to the questions:
     - Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
     - You may choose to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
     - The data collected is not completed. There are missing fields. Depending on where the missing field is, you may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, you may choose to not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and you may choose to drop that row if this becomes a useful variable for your analysis.
     - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. You may assume that the NA can stand in for the object being in the public domain.
     - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. You may assume `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in this analysis, the proportion will only record female artists' objects against the rest of the collected items. You may not be able to necessarily answer the larger question of all non-cisgender men against the total in this case.
-</Secret><!-->
+</Secret>
 
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
