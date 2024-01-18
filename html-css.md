@@ -679,10 +679,6 @@ The updated verison should display as follows.
 
 ![Screenshot of updated index.html with image added](/images/html-css/boilerstoryimage_capture.png)
 
-<Info>__Tip__:
-You can also instruct the browser to display images at a specific size. Check out [this guide](https://www.w3schools.com/html/html_images.asp) for several ways to do this.
-</Info>
-
 ## Evaluation
 
 Does including "alt text" in websites improve their accessibility?
@@ -690,6 +686,14 @@ Does including "alt text" in websites improve their accessibility?
 <Quiz>
 - Yes*
 - No
+</Quiz>
+
+What unit does the browser use for setting image size?
+
+<Quiz>
+- Inches
+- Centimeters
+- Pixels*
 </Quiz>
 
 # Conventions
