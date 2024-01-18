@@ -190,7 +190,7 @@ In this activity we aim to complete the following tasks:
 
 4. Add the basic HTML template to `index.html`
 
-5. Open `index.html` in a browswer and view the source code.
+5. Open `index.html` in a browser and view the source code.
 
 To do this, we'll follow these steps. We'll use the command line to create the folders and file:
 
