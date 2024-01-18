@@ -515,10 +515,10 @@ I think my approach to scraped data is similar to big data.
 Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
 </Secret>-->
 
-At this time, please [Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). As mentioned earlier this dataset is the responses from the DRI24 attendee application. Considering you contributed to this data set, would you evaluate this file to be a "raw" dataset?
+If you have not done so, please download [`moSmall.csv`](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) and open it from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
 
 <Secret>
-The dataset would be a "raw" dataset for you because you would most likely need to remove certain variables/entries to work towards your question.
+The dataset would be a "raw" dataset for you because you would most likely need to remove certain variables/entries to work towards your question or in this case our question: “What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists?”
 </Secret>
 
 ### Keywords
@@ -528,7 +528,7 @@ The dataset would be a "raw" dataset for you because you would most likely need 
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. Structured data consists of clearly defined data types with patterns that make them easily searchable; while unstructured data is “everything else.”Unstructured data can be an open source book from the Gutenberg project and a structured data can be a csv file or a our dataset. 
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as structured data. **Structured data consists of clearly defined data types with patterns that make them easily searchable**; while unstructured data is “everything else.”Unstructured data can be an open source book from the Gutenberg project and a structured data can be a csv file or a our dataset. 
 
 Here is a reminder of the list of structured forms and formats we reviewed earlier in the workshop:
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
@@ -587,7 +587,7 @@ How would you convert this nested data set into a tidy data structure?
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
-### Table doesn't not equal tidy
+### Table form does not equal Tidy
 
 But not all rectangular data is tidy. Here is an example of how tabular (or rectangular) data can be transformed into more tidy data. 
 
@@ -596,6 +596,10 @@ But not all rectangular data is tidy. Here is an example of how tabular (or rect
 What new variables were created? 
 
 What does each of the three tables represent?
+
+<!--## Data Managment -->
+
+
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
 
@@ -718,23 +722,21 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 ## Challenge: Processed/Transformed
 
-1. Explore the `Research_Data_DRI24.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
+1. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
 
 <Secret>
-There are a few options for this reveal. One option would be to ask what is the data form most used by the DRI participants? In order to answer this question, you may choose to keep only forms and ignore inputs such as "Open City Data" or "Archive" and keep "Text" and "Images". 
+You would keep columns (variables) relevant to our question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. We would also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
 </Secret>
 
-2. If you are saving the file `Research_Data_DRI24.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
+2.  If you are saving the file `moSmall.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
 
 <Secret>
-The choice is based on the reasons you have to choose the proprietary spreadsheet or csv. You might choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types you may no longer have access to opening the dataset. **or** You will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes you've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
+It is recommended to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types you may no longer have access to opening the dataset. **or** you will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes you'd have made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
 </Secret>
 
 ### Keywords
 
 - [CSV (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/csv.md)
-<!--- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
-- [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)<-->
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
 - [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
@@ -826,7 +828,8 @@ Cleaning data is the work of correcting the errors listed above, and moving towa
 
 ### Validity
 
-![Image of a data set with invalid values.](images/data-ethics/cleaning-validity.png)
+![Image of a data set with invalid values.](/images/data-ethics/cleaning-validity.png)
+
 
 Measurements must be valid, in that they must conform to set constraints:
 
@@ -838,13 +841,13 @@ Measurements must be valid, in that they must conform to set constraints:
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
 
-![Image of Open Maps with error for 123 Fake street.](images/data-ethics/cleaning-accuracy.png)
+![Image of Open Maps with error for 123 Fake street.](/images/data-ethics/cleaning-accuracy.png)
 
 Unfortunately, accuracy is mostly achieved in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
 ### Completeness
 
-Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank.
+Measurements must be complete, in that they must represent everything that might be known. *This also is nearly impossible to achieve in the cleaning process!* For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank.
 
 ### Consistency
 
