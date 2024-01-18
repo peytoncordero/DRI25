@@ -180,7 +180,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
-In this activity we aim to complete the following tasks:
+In this activity we aim to complete the following tasks (instructions follow):
 
 1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
 
@@ -190,13 +190,13 @@ In this activity we aim to complete the following tasks:
 
 4. Add the basic HTML template to `index.html`
 
-5. Open `index.html` in a browswer and view the source code.
+5. Open `index.html` in a browser and view the source code.
 
 To do this, we'll follow these steps. We'll use the command line to create the folders and file:
 
 1. Open your terminal:
 
-    On macOS, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon.
+    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
 
     On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 
@@ -401,7 +401,7 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 ## Activity
 
-Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example above or create your own:
+Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
@@ -421,7 +421,29 @@ Using your text editor, add the following elements to your `index.html`. Add tex
 <p></p> 
 ```
 
-Then, re-save the file. Open it in your browser again or refresh the page if still opened.
+For reference, here is an updated template:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h1>
+
+        </h1>
+        <p>
+
+        </p>
+    </body>
+
+</html>
+```
+
+Once you have updated your ``index.hmtl`` file, re-save it. Open it in your browser again or refresh the page if still opened.
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
@@ -456,7 +478,7 @@ The **`<a>`** tag, or **anchor tag**, creates a link to another document. You ca
 <a> </a>
 ```
 
-Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific desitionation.
+Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific destination.
 
 ```html
 <a href=""> </a>
@@ -499,7 +521,7 @@ HTTP stands for 'hypertext transfer protocol', and is also a foundational compon
 
 ## More on Links
 
-Each example above includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
+Each example from the previous two pages includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
 
 The `<a>` tag, or anchor tag, creates a link. The text within the `<a>` and `</a>` tags, the anchor text, is what a visitor to the site will see and can click on. The `href=` attribute tells the browser where the user should be directed when they click the link.
 
@@ -515,6 +537,13 @@ For other instances, such as referring to pages or information on external sites
 
 ## Activity
 
+**Note**
+If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
+
+```console
+$ cd ~Desktop/projects/htmlpractice
+```
+
 1. Create a new text file called `about.html` in your `htmlpractice` folder. Copy over the HTML from your `index.html` file, but change the text in the `<h1>` element to "About."
 
 From your command line you can enter this code:
@@ -523,13 +552,7 @@ From your command line you can enter this code:
 $ touch about.html
 ```
 
-If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
-
-```console
-$ cd ~Desktop/projects/htmlpractice
-```
-
-2. In your `index.html` file, add a relative link leading to your "About" page.
+2. Switch to VS Code. If you closed your `index.html` file, re-open it. In your `index.html` file, add a relative link leading to your "About" page.
 
 ```html
 <a href="about.html">About</a>
@@ -538,7 +561,7 @@ $ cd ~Desktop/projects/htmlpractice
 3. Also add a relative link from your "About" page to your `index.html` page. In this link, call your `index.html` page "Home" (Reminder: `index.html` is the default homepage)
 
 ```html
-<a href="home.html">Home</a>
+<a href="index.html">Home</a>
 ```
 
 4. Lastly, include an absolute link to a page of your choosing. Remember that an absolute link includes the protocol (for example, `http:`) and also a domain (for example, `cuny.edu`), such as `http://cuny.edu/about`.
@@ -551,9 +574,9 @@ $ cd ~Desktop/projects/htmlpractice
 
 ### Check If It Worked
 
-When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page.
+When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
 
-<!---TODO: add graphic, video, or image showing connection --->
+![diagram of links in updated sample files](/images/html-css/HTML_links3.png)
 
 Congratulations, you have just created hyperlinks. This is a foundational component of the entire Internet.
 
@@ -621,7 +644,40 @@ Give the file a simple name. Also, the name **cannot** have spaces. A good pract
 <img alt="This is an image" src="image.jpeg" />
 ```
 
+You can also control the display size of the image by adding `style`. These are defined in terms of pixel sizes, which the brower will interpret. Check out [this guide](https://www.w3schools.com/html/html_images.asp) for more on setting image size.
+
+```html
+<img alt="This is an image" src="image.jpeg" style=width:640px;height:480px;/>
+```
+
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
+
+For reference, here is the modified boiler story.
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+         <img alt="This is an image" src="image.jpeg" style="width:800px;height:600px;" />
+    </body>
+
+</html>
+```
+
+The updated verison should display as follows.
+
+![Screenshot of updated index.html with image added](/images/html-css/boilerstoryimage_capture.png)
 
 ## Evaluation
 
@@ -630,6 +686,14 @@ Does including "alt text" in websites improve their accessibility?
 <Quiz>
 - Yes*
 - No
+</Quiz>
+
+What unit does the browser use for setting image size?
+
+<Quiz>
+- Inches
+- Centimeters
+- Pixels*
 </Quiz>
 
 # Conventions
@@ -641,6 +705,36 @@ Here are a few examples:
 - Some tags are self-closing, while others require a closing tag. Self-closing tags are called **void tags**, and are generally self-closing because you wouldn't need or want to add another element within a tag. They also generally end with a forward slash (`/`) to mark the end of the tag.
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
 - Your code should be **nested**. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
+
+This is an example of the boiler story code, without any nesting:
+
+```html
+<!DOCTYPE html><html lang="en"><head><title>A boring story</title></head><body><h1>Cleaning my boiler</h1><p>When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.</p><img alt="This is an image" src="boiler.jpg" style="width:800px;height:600px;" /></body></html>
+```
+
+This is the same code, with nesting:
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+         <img alt="This is an image" src="image.jpeg" style="width:800px;height:600px;" />
+    </body>
+
+</html>
+```
+
 
 <Info>__Tip:__
 While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
@@ -1475,6 +1569,8 @@ Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and
 - [Wordpress](https://wordpress.org/) is the most widely used content management service. Similar to Omeka, it provides a Graphical User Interface for building websites. However, unlike Omeka, Wordpress provides many additional functionalities that vary in their use, scale, and complexity. Wordpress can be used to make a variety of different kinds of websites, from course-websites to scholarly publications, and much more. The [Wordpress Turorial for Beginners](https://wordpress.com/learn/) provides a helpful introduction to this tool. 
 
 - [Github Pages](https://pages.github.com/) can be useful to more advanced users for hosting HTML/CSS files and publishing them directly on the internet. It draws on a Github repository to build static websites. Websites that are hosted on Github pages tend to have a URL that ends in `github.io`. The official Github documentation has a well written guide on [creating a Github Pages site](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
+
+-[Neocities](https://neocities.org/tutorials) is a social network of over 700,000 ad-free websites designed to "bring back the lost individual creativity of the web". The platform offers free static web hosting and integrated tools, including an in-browser HTML editor. 
 
 
 ## Projects or Challenges to Try
