@@ -937,9 +937,28 @@ For example, if you want the text of your first paragraph to be red, but the tex
     </head>
 
     <body>
-        ...
+        <h1>
+            Heading One
+        </h1>
+        <p>
+            Content of paragraph
+        <p>
     </body>
 </html>
+```
+
+Styling instructions from CSS is then contained in the `style.css` document.
+
+```css
+        h1 {
+          color: solid red;
+          text-decoration: underline;
+    
+        }
+        p {
+            color: violet;
+            font-family: cursive;
+        }
 ```
 
 ## Best Practices
@@ -964,6 +983,20 @@ To link your stylesheet with your `index.html` file, insert the following code i
 
 ```html
 <link rel="stylesheet" href="style.css" />
+```
+
+The `style.css` file will then contain style information, such as this
+
+```css
+     h1 {
+        color: solid red;
+        text-decoration: underline;
+    
+    }
+    p {
+        color: violet;
+        font-family: cursive;
+    }
 ```
 
 ## Evaluation
