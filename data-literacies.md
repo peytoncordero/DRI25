@@ -181,14 +181,15 @@ Open data formats are usually available to anyone free-of-charge and allows for 
 
 An illustration:
 
-1. A screenshot of the moSmall.cvs file
-![A screenshot of the csv file of the moSmall file.](/images/data-ethics/moSmall-csv.png)
-Open [this file]
-2. A screenshot of the msSmall.xl 
-![A screenshot of the csv file of the moSmall file.](/images/data-ethics/moSmall-csv.png)
- 
- Unlike the previous, this is a proprietary format!
+1. A screenshot of the moSmall dataset as a cvs file.
 
+![A screenshot of the csv file of the moSmall dataset.](/images/data-ethics/moSmall-csv.png)
+
+2. A screenshot of the moSmall dataset as an Excel file (.xlsx). Unlike the previous image, this is a proprietary format.
+
+![A screenshot of the excel file of the moSmall dataset.](/images/data-ethics/moSmall-xlsx.png)
+ 
+ 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
 
@@ -345,7 +346,8 @@ For guidance and  more examples see [The CUNY Human Research Protection Program 
 
 # Stages of Data
 
-<!--Insert image of linear stages of data-->
+![Stages of data illustration with images of the data corresponding to the stage.](/images/data-ethics/stages-of-data-linear.png)
+
 We begin without data. Then it is observed, or made, or imagined, or generated. After that, it goes through further transformations. Stages of data typically consist of:
 
 **collection of "raw" data**
@@ -513,10 +515,10 @@ I think my approach to scraped data is similar to big data.
 Currently I collect through either pushshift.io or scrap permissible social media sites on my own or with my collaborator (who will have appropriate authorship). I know that my field of psychology is guilty of the discussion on mechanical turk and also often rely on undergraduates for experimental data collection who would have to sign up for experiments for credits in class or do the labour of working in the lab for the promises of bettering their resume for grad school applications.
 </Secret>-->
 
-At this time, please [Download the workshop dataset](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv). As mentioned earlier this dataset is the responses from the DRI24 attendee application. Considering you contributed to this data set, would you evaluate this file to be a "raw" dataset?
+If you have not done so, please download [`moSmall.csv`](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) and open it from your local computer/laptop. As the original file has about 500,000 entries, we've taken a random sample of 1% of the [original dataset](https://github.com/metmuseum/openaccess). In this case, would you consider this file to be a "raw" dataset?
 
 <Secret>
-The dataset would be a "raw" dataset for you because you would most likely need to remove certain variables/entries to work towards your question.
+The dataset would be a "raw" dataset for you because you would most likely need to remove certain variables/entries to work towards your question or in this case our question: “What proportion of the artwork collected and/or hosted in the Met are by non cis-gender men artists?”
 </Secret>
 
 ### Keywords
@@ -526,7 +528,7 @@ The dataset would be a "raw" dataset for you because you would most likely need 
 
 # Stages of Data: Processed/Transformed
 
-Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as **structured data**. Structured data consists of clearly defined data types with patterns that make them easily searchable; while unstructured data is “everything else.”Unstructured data can be an open source book from the Gutenberg project and a structured data can be a csv file or a our dataset. 
+Processing data puts it into a state more readily available for analysis and makes the data legible. For instance, it could be rendered as structured data. **Structured data consists of clearly defined data types with patterns that make them easily searchable**; while unstructured data is “everything else.”Unstructured data can be an open source book from the Gutenberg project and a structured data can be a csv file or a our dataset. 
 
 Here is a reminder of the list of structured forms and formats we reviewed earlier in the workshop:
 - Spreadsheets (e.g. `.xlsx`, `.numbers`, `.csv`)
@@ -585,7 +587,7 @@ How would you convert this nested data set into a tidy data structure?
 
 While tiny data is a really popular method of structuring and organizing data, it is not the only way to do so. Depending on the type of data you have, it is also not always the best way to structure data.
 
-### Table doesn't not equal tidy
+### Table form does not equal Tidy
 
 But not all rectangular data is tidy. Here is an example of how tabular (or rectangular) data can be transformed into more tidy data. 
 
@@ -594,6 +596,17 @@ But not all rectangular data is tidy. Here is an example of how tabular (or rect
 What new variables were created? 
 
 What does each of the three tables represent?
+
+## Data Managment 
+
+![A story told by file names. Image of inconsistant file names.](/images/data-ethics/file-naming-version-control.png)
+
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+
+For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
+
+For a thorough understanding of the impact of data management on our research and the ethical quandries that may arise from poor data management, please head over to Stephen Zweibel's interactive website [Data Management](https://zweibel.net/presentations/data.html#/).
+
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
 
@@ -716,23 +729,21 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 
 ## Challenge: Processed/Transformed
 
-1. Explore the `Research_Data_DRI24.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
+1. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
 
 <Secret>
-There are a few options for this reveal. One option would be to ask what is the data form most used by the DRI participants? In order to answer this question, you may choose to keep only forms and ignore inputs such as "Open City Data" or "Archive" and keep "Text" and "Images". 
+You would keep columns (variables) relevant to our question, such as the `Artist Gender`, `Is Public Domain` and `Rights and Reproduction` columns. We would also keep some of the descriptive columns such as `Object ID` and `Artist Role` to help contextualize the results (e.g. what kind of roles do female artists tend to take on?)
 </Secret>
 
-2. If you are saving the file `Research_Data_DRI24.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
+2.  If you are saving the file `moSmall.csv` in a proprietary spreadsheet application like Microsoft Excel (Windows/macOS) or Numbers (macOS), you may be prompted to save the file as `.xlsx` or `.numbers`. What format would you choose to save it in? Why would you choose to do so?
 
 <Secret>
-The choice is based on the reasons you have to choose the proprietary spreadsheet or csv. You might choose to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types you may no longer have access to opening the dataset. **or** You will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes you've made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
+It is recommended to keep it in a `.csv` file type as it can be opened up by more programs and if Microsoft stops supporting `.xlsx` file types you may no longer have access to opening the dataset. **or** you will choose to switch to a `.xlsx` format as it is easier to use on a graphical user interface like Microsoft Excel. Any stylistic changes you'd have made to the file will remain as well, such as alternative highlighting rows for readability or bolding column headings.
 </Secret>
 
 ### Keywords
 
 - [CSV (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/csv.md)
-<!--- [XML (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/xml.md)
-- [JSON (file format)](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/json.md)<-->
 - [Open Data Formats](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/open-data-formats.md)
 - [Tidy Data](https://github.com/DHRI-Curriculum/glossary/blob/v2.0/terms/tidy-data.md)
 
@@ -824,7 +835,8 @@ Cleaning data is the work of correcting the errors listed above, and moving towa
 
 ### Validity
 
-![Image of a data set with invalid values.](images/data-ethics/cleaning-validity.png)
+![Image of a data set with invalid values.](/images/data-ethics/cleaning-validity.png)
+
 
 Measurements must be valid, in that they must conform to set constraints:
 
@@ -836,13 +848,13 @@ Measurements must be valid, in that they must conform to set constraints:
 
 Measurements must be accurate, in that they must represent the correct values. While an observation may be valid, it might at the same time be inaccurate. 123 Fake street is a valid, inaccurate street address.
 
-![Image of Open Maps with error for 123 Fake street.](images/data-ethics/cleaning-accuracy.png)
+![Image of Open Maps with error for 123 Fake street.](/images/data-ethics/cleaning-accuracy.png)
 
 Unfortunately, accuracy is mostly achieved in the observation process. To be achieved in the cleaning process, an outside trusted source would have to be cross-referenced.
 
 ### Completeness
 
-Measurements must be complete, in that they must represent everything that might be known. This also is nearly impossible to achieve in the cleaning process! For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank.
+Measurements must be complete, in that they must represent everything that might be known. *This also is nearly impossible to achieve in the cleaning process!* For instance in a survey, it would be necessary to re-interview someone whose previous answer to a question was left blank.
 
 ### Consistency
 
@@ -877,7 +889,7 @@ Often this is decided before the cleaning process begins, perhaps after some qui
 Usually the IRB desires that the data is destroyed. Removed data can remain in the original "raw" file. The file that is cleaned is usually a duplicate file to allow for recovery in case a researcher made a poor decision in the process of cleaning.
 </Secret>
 
-<!-->3. Explore the `moSmall.csv` dataset.
+3. Explore the `moSmall.csv` dataset.
     - Are all the measurements valid? Try checking the `Object ID` column for duplicates.
     - How might you check if the `Is Public Domain` accurately represents the copyrights of the media objects?
     - Is the data collected completed? How might you deal with the NA or empty fields?
@@ -886,13 +898,13 @@ Usually the IRB desires that the data is destroyed. Removed data can remain in t
     - As the dataset is not one that we personally collected, how do we make sense that only `Female` or `|` is collected as responses in the column (with the exception of NA and empty fields)? What do we have to do to the data to make sure it is uniform? What decisions do we make in this process?
 
 <Secret>
-3. Exploring the dataset, here are possible responses to the questions:
+Exploring the dataset, here are possible responses to the questions:
     - Using `Object ID` indicates that there is no duplicates in the dataset. Every entry is unique.
     - You may choose to compare it to another trusted source like a database from [The Getty Research Institute](https://www.getty.edu/research/tools/).
     - The data collected is not completed. There are missing fields. Depending on where the missing field is, you may choose to code it as `0` for the ease of analysis. For example, the column `Dynasty` only contain 1 meaningful entry within this sample data set, as such, you may choose to not run any analysis that may rely on this column and choose to drop it. The column `Accession Year` only has 1 NA and you may choose to drop that row if this becomes a useful variable for your analysis.
     - While the `Rights and Reproduction` contains a lot of NA and inappropriate responses (e.g. "Ceramics"), for the most part, for the items labeled as `YES` in the column `Is Public Domain` the corresponding column in `Rights and Reproduction` does not record a copyright holder. You may assume that the NA can stand in for the object being in the public domain.
     - Taking only `Female` as a valid gender response, everything else will be converted to a `0` for ease of analysis. You may assume `|` as equivalent to a NA or an empty field rather than an alternative gender. Hence in this analysis, the proportion will only record female artists' objects against the rest of the collected items. You may not be able to necessarily answer the larger question of all non-cisgender men against the total in this case.
-</Secret><!-->
+</Secret>
 
 ## Level of Impact III: Social, Political, and Economic Impacts of Projects or Research
 
@@ -929,13 +941,13 @@ Techniques geared towards summarizing a data set, such as:
 Techniques geared towards testing a hypothesis about a population, based on your data set, such as:
 
 - Extrapolation
-- P-Value calculation
+- P-Value calculation/Regression
 
 ### Qualitative Analysis
 
 Techniques geared towards understanding a phenomenon, rather than predicting and testing hypotheses, such as:
 
-- Grounded Theory/[Computational Grounded Theory](https://drive.google.com/file/d/0BxI6W5IIG74FeEtGbjQ0WF9uM0U/view)
+- Grounded Theory/[Computational Grounded Theory](https://journals.sagepub.com/doi/full/10.1177/0049124117729703)
 - Content Analysis
 - Text Analysis
 
@@ -956,12 +968,14 @@ Descriptive analysis helps us summarize a data set.
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
 
 <Secret>
-You may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. IMany end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+You may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. You may end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+</Secret>
 
 2. How do we guide our decisions of interpretation with our choices of analyses?
 
 <Secret>
 The interpretation of the results should align itself with the type of analyses that you ran. In addition, it should be guided in some capacity by previous work in this area to inform your understanding and the ethical implications you have evaluated.
+</Secret>
 
 3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
 
@@ -1059,11 +1073,12 @@ Visualizing your data helps you tell a story and construct a narrative that guid
         <td><img src="/images/data-ethics/rgraph_hexbin.png" alt="Hexbin graph"><figcaption>From <a href="https://www.r-graph-gallery.com/328-hexbin-map-of-the-usa.html" target="_blank">R Graph Gallery.</a></figcaption></td>
     </tr>
     <tr>
-        <th colspan="4"> Adapted from <a href="https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_"> Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data</a>, <a href="https://datavizcatalogue.com/">The Data Visualization Catalogue</a>, and <a href="https://www.data-to-viz.com/">From Data to Viz</a></th>
-    <tr>
 </table>
 
-This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. 
+Adapted from [Stephanie D. Evergreen (2019) Effective data visualization : The right chart for the right data](https://us.sagepub.com/en-us/nam/effective-data-visualization/book265203_), [The Data Visualization Catalogue](https://datavizcatalogue.com/), and [From Data to Viz](https://www.data-to-viz.com/)
+
+<!--This table is a teaser for the many possibilities of what data visualization can be. Creating a visual for your data is an art form and you can sometimes find yourself spending a significant amount of time looking for the best ways to visualize your data. -->
+
 
 An example of effective data visualization can be seen in W.E.B. Du Bois [data portraits at the Paris Exposition in 1900](https://www.loc.gov/pictures/search/?q=%22lot%2011931%22%20NOT%20medal&st=grid&co=anedub&loclr=blogpic), as part of [the Exhibit of American Negroes](https://en.wikipedia.org/wiki/The_Exhibit_of_American_Negroes_). Using engaging hand-drawn visualizations, he tells the narrative of what it meant to be Black in post-Emancipation America as he translates sociological research and census data to reach beyond the academy. Head [here](https://hyperallergic.com/476334/how-w-e-b-du-bois-meticulously-visualized-20th-century-black-america/) to read more about Du Bois' project.
 
@@ -1111,16 +1126,16 @@ Exaggerated differences through the choice of scales on the x and y-axis can mis
 Data visualization can help us convey dense information quickly. The casual viewer can glance at the visualization and understand what we are trying to communicate with our data. Data visualization also can be affective device, like the DuBois' examples which helps to tell the urgency of the narrative/story.
 </Secret>
 
-<!--5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
+5. Can you try to plot the `moSmall.csv` dataset based on the `Artist Gender` variable? What would you have to do before you can plot this graph? How might you explain what your visualization represents?
 
 <Secret>
-The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, it make one wonder how effective it is.
+The difficulty of representing this dataset is how at first glance there's an assumption that gender is binary given that only 2 bars are representing the dataset. Even though the other bar is labeled `Unknown` to suggest that this is not a comprehensive breakdown, it makes one wonder how effective it is.
 ![Plot of media objects in public domain by gender of artist](/images/data-ethics/genderPD.png)
 </Secret>
 
-# Data Literacy and Ethics
+<!--# Data Literacy and Ethics
 
-Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.<-->
+Throughout the workshop we have been thinking together through some of the potential ethical concerns that might crop up as we proceed with our own projects. Just as we have discussed thus far, we hope that you see that data and ethics is an ongoing process throughout the lifespans of your project(s) and don’t often come with easy answers.-->
 
 ### Additional Exploration
 
