@@ -934,13 +934,13 @@ Techniques geared towards summarizing a data set, such as:
 Techniques geared towards testing a hypothesis about a population, based on your data set, such as:
 
 - Extrapolation
-- P-Value calculation
+- P-Value calculation/Regression
 
 ### Qualitative Analysis
 
 Techniques geared towards understanding a phenomenon, rather than predicting and testing hypotheses, such as:
 
-- Grounded Theory/[Computational Grounded Theory](https://drive.google.com/file/d/0BxI6W5IIG74FeEtGbjQ0WF9uM0U/view)
+- Grounded Theory/[Computational Grounded Theory](https://journals.sagepub.com/doi/full/10.1177/0049124117729703)
 - Content Analysis
 - Text Analysis
 
@@ -961,12 +961,14 @@ Descriptive analysis helps us summarize a data set.
 1. As we consider the types of analysis that we choose to apply onto our data set, what are we representing and leaving out?
 
 <Secret>
-You may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. IMany end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+You may choose to leave out data that are perceived to be outliers, especially if they differ too much from the "normal" curve. You may end up representing only those who fall within the "normal" curve which may not actually be an equitable representation. This would require considering ethical impact two: the ramifications of (re)producing categories.
+</Secret>
 
 2. How do we guide our decisions of interpretation with our choices of analyses?
 
 <Secret>
 The interpretation of the results should align itself with the type of analyses that you ran. In addition, it should be guided in some capacity by previous work in this area to inform your understanding and the ethical implications you have evaluated.
+</Secret>
 
 3. Are we comfortable with the intended use of our research? Are we comfortable with the unintended use of our research? What are potential misuses of our outputs?
 
