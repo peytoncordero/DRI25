@@ -646,6 +646,36 @@ Give the file a simple name. Also, the name **cannot** have spaces. A good pract
 
 Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
+For reference, here is the modified boiler story.
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+         <img alt="This is an image" src="image.jpeg" />
+    </body>
+
+</html>
+```
+
+<!---TODO: Add screenshot of rendered page with image --->
+
+
+<Info>__Tip__:
+You can also instruct the browser to display images at a specific size. Check out [this guide](https://www.w3schools.com/html/html_images.asp) for several ways to do this.
+</Info>
+
 ## Evaluation
 
 Does including "alt text" in websites improve their accessibility?
