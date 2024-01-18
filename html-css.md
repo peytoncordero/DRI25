@@ -432,8 +432,12 @@ For reference, here is an updated template:
     </head>
 
     <body>
-        <h1></h1>
-        <p></p>
+        <h1>
+
+        </h1>
+        <p>
+
+        </p>
     </body>
 
 </html>
@@ -474,7 +478,7 @@ The **`<a>`** tag, or **anchor tag**, creates a link to another document. You ca
 <a> </a>
 ```
 
-Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific desitionation.
+Within the <a> tag, you'll need a hyperlink reference, or href, to direct a link to a specific destination.
 
 ```html
 <a href=""> </a>
@@ -517,7 +521,7 @@ HTTP stands for 'hypertext transfer protocol', and is also a foundational compon
 
 ## More on Links
 
-Each example above includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
+Each example from the previous two pages includes an `href`—a hypertext reference—which is an example of an **attribute**. Attributes offer __secondary information__ about an element.
 
 The `<a>` tag, or anchor tag, creates a link. The text within the `<a>` and `</a>` tags, the anchor text, is what a visitor to the site will see and can click on. The `href=` attribute tells the browser where the user should be directed when they click the link.
 
@@ -533,6 +537,13 @@ For other instances, such as referring to pages or information on external sites
 
 ## Activity
 
+**Note**
+If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
+
+```console
+$ cd ~Desktop/projects/htmlpractice
+```
+
 1. Create a new text file called `about.html` in your `htmlpractice` folder. Copy over the HTML from your `index.html` file, but change the text in the `<h1>` element to "About."
 
 From your command line you can enter this code:
@@ -541,13 +552,7 @@ From your command line you can enter this code:
 $ touch about.html
 ```
 
-If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
-
-```console
-$ cd ~Desktop/projects/htmlpractice
-```
-
-2. In your `index.html` file, add a relative link leading to your "About" page.
+2. Switch to VS Code. If you closed your `index.html` file, re-open it. In your `index.html` file, add a relative link leading to your "About" page.
 
 ```html
 <a href="about.html">About</a>
