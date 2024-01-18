@@ -179,10 +179,15 @@ There are many ways to represent data, just as there are many sources of data. W
 
 Open data formats are usually available to anyone free-of-charge and allows for easy reusability. Proprietary formats often hold copyrights, patents, or have other restrictions placed on them, and are dependent on (expensive) licensed softwares. If the licensed software ceases to support its proprietary format or it becomes obsolete, you may be stuck with a file format that cannot be easily opened or (re)used (e.g. .mac). For accessibility, future-proofing, and preservation, keep your data in open, sustainable formats. 
 
-A demonstration:
+An illustration:
 
-1. Open [this file](https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/data-literacies/Research_Data_DRI24.csv) in a [text editor](https://github.com/DHRI-Curriculum/insights/blob/v2.0/pages/choosing-a-text-editor.md) (e.g. Visual Studio Code, TextEdit (macOS), NotePad (Windows) ), and then in an app like Excel. This is a CSV, an open, text-only, file format. To save the file onto your local computer, right click on `Research_Data_DRI24.csv` and click `Save Link As` to download the file to your local computer (it's the same Research_Data_DRI24.csv from above!)
-2. Now do the same with [this Excel file](https://github.com/GC-DRI/DRI24/blob/main/uploads/data-literacies/Research_Data_DRI24.xlsx). Unlike the previous, this is a proprietary format!
+1. A screenshot of the moSmall.cvs file
+![A screenshot of the csv file of the moSmall file.](/images/data-ethics/moSmall-csv.png)
+Open [this file]
+2. A screenshot of the msSmall.xl 
+![A screenshot of the csv file of the moSmall file.](/images/data-ethics/moSmall-csv.png)
+ 
+ Unlike the previous, this is a proprietary format!
 
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
