@@ -34,8 +34,7 @@ editors:
 
 before getting started:
     - "[Download the workshop dataset](https://raw.githubusercontent.com/DHRI-Curriculum/data-literacies/v2.0/files/moSmall.csv) (required) The dataset, `moSmall.csv`, will be used throughout the challenges in the workshop. To save the file to your local computer, right click on the _Download the workshop dataset_ link and choose `Save Link As...`. Note: It is important to make sure your file is saved as a `.csv` file. Original dataset taken from [The Metropolitan Museum of Art's Creative Commons Zero](https://github.com/metmuseum/openaccess). Or, you can download the file by selecting the 'Download' icon below."
-<Download files= 'moSmall.csv'>
-
+    <Download files='moSmall.csv'>
 readings:
     - In [Big? Smart? Clean? Messy? Data in the Humanities](http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/), Christof Schöch discusses what data means in the humanities and the necessity of 'smart big data.'
     - The book, [Bit By Bit: Social Research in the Digital Age](https://www.bitbybitbook.com/en/1st-ed/preface/), written by Matthew Salganik, approaches data and social research from a computational social science perspective. He also discusses the idea of 'readymade' and 'custommade' data alongside ethics."
