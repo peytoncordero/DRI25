@@ -561,7 +561,7 @@ $ touch about.html
 3. Also add a relative link from your "About" page to your `index.html` page. In this link, call your `index.html` page "Home" (Reminder: `index.html` is the default homepage)
 
 ```html
-<a href="home.html">Home</a>
+<a href="index.html">Home</a>
 ```
 
 4. Lastly, include an absolute link to a page of your choosing. Remember that an absolute link includes the protocol (for example, `http:`) and also a domain (for example, `cuny.edu`), such as `http://cuny.edu/about`.
