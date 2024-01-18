@@ -706,6 +706,36 @@ Here are a few examples:
 - Use lower case. While HTML is not case sensitive, it makes scanning the code easier, and makes it look more consistent.
 - Your code should be **nested**. This is not a technical necessity either—blank space has no meaning in html. However, this makes it easier to scan the code quickly, which is particularly helpful when you run into errors! It also makes it easier for others to read your code.
 
+This is an example of the boiler story code, without any nesting:
+
+```html
+<!DOCTYPE html><html lang="en"><head><title>A boring story</title></head><body><h1>Cleaning my boiler</h1><p>When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.</p><img alt="This is an image" src="boiler.jpg" style="width:800px;height:600px;" /></body></html>
+```
+
+This is the same code, with nesting:
+
+```html
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>A boring story</title>
+    </head>
+
+    <body>
+        <h1>
+            Cleaning my boiler
+        </h1>
+        <p>
+            When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
+        </p>
+         <img alt="This is an image" src="image.jpeg" style="width:800px;height:600px;" />
+    </body>
+
+</html>
+```
+
+
 <Info>__Tip:__
 While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
 </Info>
