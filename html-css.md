@@ -180,7 +180,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
-In this activity we aim to complete the following tasks:
+In this activity we aim to complete the following tasks (instructions follow):
 
 1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
 
@@ -196,7 +196,7 @@ To do this, we'll follow these steps. We'll use the command line to create the f
 
 1. Open your terminal:
 
-    On macOS, press `⌘ + space` (**command** and **space**), then type `Terminal`. Click the `Terminal` icon.
+    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
 
     On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 
@@ -401,7 +401,7 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 ## Activity
 
-Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example above or create your own:
+Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
@@ -421,7 +421,25 @@ Using your text editor, add the following elements to your `index.html`. Add tex
 <p></p> 
 ```
 
-Then, re-save the file. Open it in your browser again or refresh the page if still opened.
+For reference, here is an updated template:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h1></h1>
+        <p></p>
+    </body>
+
+</html>
+```
+
+Once you have updated your ``index.hmtl`` file, re-save it. Open it in your browser again or refresh the page if still opened.
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
