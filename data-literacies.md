@@ -605,7 +605,7 @@ Before beginning your data collection, manipulation, and transformation, a good 
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
-For a thorough understanding of the impact of data management on our research and the ethical quandries that may arise from poor data management, please head over to Stephen Zweibel's interactive website [Data Management](https://zweibel.net/presentations/data.html#/)
+For a thorough understanding of the impact of data management on our research and the ethical quandries that may arise from poor data management, please head over to Stephen Zweibel's interactive website [Data Management](https://zweibel.net/presentations/data.html#/).
 
 
 ## Level of Impact II: Politics of Knowledge Production and Categorization
