@@ -53,7 +53,7 @@ resources:
 
 When we think of "research data," we often think of numbers, things that can be summarized, statisticized, summed/subtracted, multiplied/divided, and charted. 
 
-In Data Ethics, we covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
+In _Data Ethics_, we covered what data is, which can include text. Whether it's 'Moby Dick,' every romance novel written since 1750, or today's newspaper or Twitter feed, we can transform both written and spoken language into data that can be quantified and visualized.
 
 This workshop approaches text analysis similar to introductions to quantitative analysis, starting with text analysis equivalents of the basics like mean, median, and mode. 
 
@@ -80,7 +80,7 @@ There are infinitely many corpora, and, sometimes, you will want to make your ow
 
 ## A Note About Languages
 
-Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. No citation needed, just the body of post-structuralist scholarship. 
+Languages are inherently social, fraught with the power dynamics inherent in any social phenomenon. No citation needed, just the whole body of post-structuralist scholarship. 
 
 Many existing tools for textual analysis, including the NLTK package used in this workshop, support many other languages, due to amazing contributions from the Python Text Analysis community. The support, however, varies according to the desired task. Not all functions and tools will be available for all the supported languages. The good news is that the available tools keep growing in quantity and quality.
 
@@ -103,7 +103,7 @@ Many existing tools for textual analysis, including the NLTK package used in thi
 Which of the following could be considered a corpus?
 
 <Quiz>
-- My 2 year-old nephew’s random keyboard mashings
+- My 2-year-old nephew’s random keyboard mashings
 - Your grocery list for this past week
 - All of our grocery lists from this past week *
 - Your grocery lists from 2013-2023 *
@@ -136,14 +136,14 @@ Start with a new JupyterLite file.
 
 When in *Command Mode*
  * Add new cells with <kbd>A</kbd>
- * Delete cells with <kbd>B</kbd>
+ * Delete cells with <kbd>D</kbd>
 
 Run code in cell with (<kbd>shift</kbd> + <kbd>enter</kbd>).
 
 <Info>If you don't see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a _silent success_.
 </Info>
 
-JupyterLite print commands without the `print` function, but it will only print one thing per cell (the last command). Some times we want to print more than one thing so we should specify `print`. 
+JupyterLite print outputs/returns without the `print` function, but it will only print one thing per cell (the last output/return). Some times we want to print more than one thing so we should specify `print`. 
 
 
 ## Loading Corpus
@@ -254,7 +254,7 @@ Pick a text, text1 through text9, and think about its topic.
 
 Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural Addresses of US Presidents_, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
 
-In our own research, these preconveived notions is **theory**. 
+In our own research, these preconceived notions is **theory**. 
 
 <Info>What can we expect from a dataset of NYC real estate prices over time, based on what we think we know about changes in neighborhood composition?
 </Info>
@@ -308,7 +308,7 @@ measuring what we intend to measure?” Does our operationalization match
 our conceptual definition? To ensure validity we must recognize gaps between
 what is important and what is easy to measure." [Source](https://www.frontiersin.org/articles/10.3389/frai.2020.00062/full)
 
-As good researchers, we know that we must make a strong theorectical and empirical case for why what we're measuring reflects our concept. 
+As good researchers, we know that we must make a strong theoretical and empirical case for why what we're measuring reflects our concept. 
 
 "When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
 
@@ -348,7 +348,7 @@ text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne","Margaret"]
 
 Looking at this visualization, who is the main character?
 
-Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Wihtout even knowing the story of _Sense and Sensibility_, we might be able to guess the narrative, maybe even relationships between characters, helping us develop a visual of the story.
+Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Without having even read the book of _Sense and Sensibility_, we might be able to guess the narrative, maybe even relationships between characters, helping us develop a visual of the story.
 
 ## Challenge
 
@@ -834,7 +834,8 @@ Try googling:
 [Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
 
 <Secret>
-Google search results may vary but this is one I got in Jan. 2024
+Google search results may vary but this is one I got in Jan. 2024:
+
 [Word Cloud python library displays an apostrophe at the end of every word](https://stackoverflow.com/questions/59529467/word-cloud-python-library-displays-an-apostrophe-at-the-end-of-every-word)
 </Secret>
 
