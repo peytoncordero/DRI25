@@ -61,6 +61,9 @@ This workshop approaches text analysis similar to introductions to quantitative 
  * How do we get text ready to be analyzed?
  * What can we learn from the text computationally? 
 
+ 
+<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
+
 
 ## Corpora
 
@@ -93,7 +96,6 @@ Many existing tools for textual analysis, including the NLTK package used in thi
 * German at 3.7%
 </Info>
 
-<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
 
 <p style="text-align: center;">Is this surprising?
 </p>
