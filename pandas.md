@@ -208,6 +208,8 @@ We will connect to the dataset directly from this [Github link](https://raw.gith
 
 
 ```python
+import pyodide_http # makes it possible to read https links in pyodide
+pyodide_http.patch_all()
 url = 'https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/pandas/refugee-arrivals-by-destination.csv'
 refugee_df = pd.read_csv(url, delimiter=",", encoding='utf-8')
 ```
