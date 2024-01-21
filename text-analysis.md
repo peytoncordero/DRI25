@@ -182,8 +182,12 @@ nltk.download('nps_chat')
 nltk.download('treebank')
 nltk.download('webtext')
 nltk.download('wordnet')
+nltk.download('stopwords')
+
 ```
 The pre-loaded NLTK texts are preformatted data sets. 
+
+Where do we find more information about this package? [NLTK Documentation] (https://www.nltk.org/)
 
 Here, we are importing just the books from NLTK:
 
