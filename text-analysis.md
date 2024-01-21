@@ -93,6 +93,7 @@ Many existing tools for textual analysis, including the NLTK package used in thi
 * German at 3.7%
 </Info>
 
+<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
 
 <p style="text-align: center;">Is this surprising?
 </p>
@@ -260,7 +261,7 @@ Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural
 
 In our own research, these preconceived notions is **theory**. 
 
-<Info>What can we expect from a dataset of NYC real estate prices over time, based on what we think we know about changes in neighborhood composition?
+<Info>Based on THEORY, what can we expect from a dataset about ice cream consumption and temperature? I'm trying to think of the least controversial question possible.
 </Info>
 
 The conceptualization stage of research is *defining* the concept of our research question.
