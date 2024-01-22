@@ -61,6 +61,7 @@ This workshop approaches text analysis similar to introductions to quantitative 
  * How do we get text ready to be analyzed?
  * What can we learn from the text computationally? 
 
+ The following button will load a jupyterlite notebook with necessary code for the workshop.
  
 <Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
 
