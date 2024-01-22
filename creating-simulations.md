@@ -78,11 +78,11 @@ As you can see, we will be covering quite a lot of new concepts and skills. It i
 
 ## Getting Started
 
-A full source file of the program we will be writing in this section can be downloaded here: <Download files='DiceSim_full.ipynb'>
+A full source file of the program we will be writing in this section can be imported here: 
+
+<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/creating-simulations/DiceSim_full.ipynb' />
 
 You are welcome to use the source file as a reference, but we encourage you to try to write the code yourself first. If you get stuck, you can always refer to the source file for help. 
-
-<Info>To access the file, click the "Download" button above, and then save the file to your computer. You can then upload the file to your Jupyter environment by clicking the "Upload" button on the left-hand side of the environment (the upward arrow).</Info>
 
 Let's begin writing our own program by opening Jupyter notebooks. On the side of the screen, click the "Open Code Editor" button to slide out the Jupyter environment. First, let's create a new Python file called `DiceSim` (the Python (Pyodide) version will suffice). Because we will be using random numbers, and because we want to perform statistical methods on values, we will need to import two libraries at the top:
 
@@ -280,25 +280,6 @@ __Syntax:__
 _Function_: Functions are defined using the `def` keyword and can be called using the function name.
 _Method_: Methods also use the def keyword but are defined within a class and are accessed using dot notation (`object.method()` or `class.method()`).
 
-Here's a simple example in Python to illustrate the differences:
-
-```python
-    # function
-    def add(a, b):
-        return a + b
-
-    # method
-    class Math:
-        def add(self, a, b):
-            return a + b
-
-    # function call
-    add(1, 2)
-
-    # method call
-    Math().add(1, 2)
-```
-
 </Secret>
 
 <Keywords>
@@ -336,7 +317,9 @@ __Concepts to focus on:__
 
 ## Getting Started
 
-You can download the full source file for this section here: <Download files='CritterSim_full.ipynb'>
+You can import the full source file for this section here: 
+
+<Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/creating-simulations/CritterSim_full.ipynb' />
 
 Again, while you can use the source file as a reference, we encourage you to try to write the code yourself first. If you get stuck, you can always refer to the source file for help.
 
