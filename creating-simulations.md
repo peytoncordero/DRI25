@@ -58,7 +58,7 @@ First, let's create our dice rolling simulation. We will create a program that a
 
 The general outline and goals for this part of the workshop are as follows:
 
-__1)__ Create a simple dice rolling function to demonstrate classes and objects on a basic level.
+__1)__ Create a simple dice rolling program to demonstrate classes and objects on a basic level.
 
 Concepts we'll focus on:
 - Class declaration and naming conventions
@@ -264,7 +264,7 @@ And that's it! If you run the final cell, you should see a report of the results
 
 ## Evaluation
 
-What are some differences between a function and a method?
+What are some differences and similarities between a function and a method?
 
 <Secret>
     
@@ -291,9 +291,6 @@ Methods are functions that belong to a class. They are called using __.__ (dot) 
 
 - self
 The keyword self represents an instance of a class and binds its attributes with the given arguments.
-
-- return
-The return statement allows you to access a value once a given function or method has finished running.
 </Keywords>
 
 # Part 2 - The Critter Simulator
@@ -406,7 +403,7 @@ We begin by defining our class, passing the `self` parameter like usual. Our oth
 
 ## Populating the Simulation
 
-Now that we have created our Critter class, let's create a function that will populate our simulation with critters. I say function (not method), because it will live outside of our Critter class. Were we building a much more complex program, we'd likely want to create an entirely new Simulation class to control this aspect. Because our program is relatively simple, however, we'll simplify our code using a function. In a new cell, type the following:
+Now that we have created our Critter class, let's create a function that will populate our simulation with critters. I say function (not method), because it will live outside of our Critter class. Were we building a much more complex program, we'd likely want to create an entirely new Simulation class to control this aspect. Because our program is relatively simple, however, we'll simplify our code using a function. Take a look at the following code:
 
 ```python
 #populate our simulation with critters
@@ -416,7 +413,11 @@ def popSim():
     print(len(critterList))
 ```
 
+Try to read through it line by line and describe what it does. Can you explain it? After giving it a try, you can reveal the description below.
+
+<Secret>
 Here we have created a new function `popSim()`. This function will take our `startPopulation` variable defined above and populate our `critterList` with that many objects. To give our simulation an added element of randomness, each starting critter will be created with a random age between 2 and 45. Lastly, we print the length of our `critterList` to make sure it is working properly.
+</Secret>
 
 To run the function, create a new cell and type the following:
 
