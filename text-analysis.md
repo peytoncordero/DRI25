@@ -321,7 +321,7 @@ As good researchers, we know that we must make a strong theoretical and empirica
 "When a measure becomes a target, it ceases to be a good measure" - [Goodhart's law](https://arxiv.org/pdf/1803.04585.pdf)
 
 <Info>Maybe paying per captured cobra head isn't the best way to incentivize eradication of cobras?</Info>
-
+<!-- this doesn't make any sense-->
 
 ## Evaluation
 
