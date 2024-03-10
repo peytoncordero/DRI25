@@ -981,7 +981,7 @@ You might use this method if you were going to teach your own Git & GitHub works
 
 ## Challenge
 
-1. Fork and clone [the repository for this workshop on GitHub](https://github.com/DHRI-Curriculum/git). Note not only _what_ you are doing, but also _where_ you are working when completing these two different tasks.
+1. Fork and clone [the repository for this workshop on GitHub](https://github.com/GC-DRI/DRI24). Note not only _what_ you are doing, but also _where_ you are working when completing these two different tasks.
 2. Make changes to the files on your local machine. Remember to save them!
 3. Use the 3-step process of stage, commit and push to return the amended files to the repository on GitHub.
 
