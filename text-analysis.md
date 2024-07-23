@@ -61,7 +61,7 @@ This workshop approaches text analysis similar to introductions to quantitative 
  * How do we get text ready to be analyzed?
  * What can we learn from the text computationally? 
 
- The following button will load a jupyterlite notebook with necessary code for the workshop.
+ The following button will load a JupyterLite notebook with necessary code for the workshop.
  
 <Jupyter IPYNB='https://raw.githubusercontent.com/GC-DRI/DRI24/main/uploads/text-analysis/TextAnalysis.ipynb' />
 
@@ -132,7 +132,7 @@ The Python we will be learning builds on the foundations from Intro to Python an
 
 Start with a new JupyterLite file.
 
-**Reviewing Jupyterlite**
+**Reviewing JupyterLite**
 
 *Edit Mode* - to edit code, <kbd>Enter</kbd> any cell
 
@@ -160,7 +160,7 @@ import pyodide_http
 pyodide_http.patch_all()
 ```
 
-We will also need `wordcloud` and `matplotlib` libraries for data visualization, import it now:
+We will also need the `wordcloud`, `matplotlib`, and `tkinter` libraries for data visualization, so let's import them now:
 
 Because of a quirk of Jupyter notebooks, we need to specify that `matplotlib` should display its graphs in the notebook (as opposed to in a separate window), so we type this command (this is technically a Jupyter command, not Python):
 
@@ -169,6 +169,8 @@ Because of a quirk of Jupyter notebooks, we need to specify that `matplotlib` sh
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 %matplotlib inline
+%pip install tk
+import tk
 ```
 Next, we need to load all of the NLTK corpora into our program. `all-corpora` will download every resource within NLTK (a bit of an overkill) but interesting to see. Takes a couple minutes to load.  
 
@@ -262,7 +264,7 @@ Pick a text, text1 through text9, and think about its topic.
 
 Some of these texts, such as the _Book of Genesis_ or a collection of _Inaugural Addresses of US Presidents_, come with preconceived notions. These notions are often shaped by cultural, societal, and popular perceptions and references.
 
-In our own research, these preconceived notions is **theory**. 
+In our own research, these preconceived notions constitute **theory**. 
 
 <Info>Based on THEORY, what can we expect from a dataset about ice cream consumption and temperature? I'm trying to think of the least controversial question possible.
 </Info>
@@ -352,9 +354,10 @@ text1.dispersion_plot(["whale", "monster"])
 A graph should appear with a tick mark everywhere that "whale" appears and everywhere that "monster" appears. Knowing the story, we can interpret this graph and align it to what we know of how the narrative progresses, helping us develop a visual of the story — where the whale goes from being a whale to being a monster to being a whale again. If we did not know the story, this could give us hints of the narrative arc.
 
 ```python
-text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne","Margaret"])```
+text2.dispersion_plot(["Brandon","Elinor","Lucy","Edward","Marianne","Margaret"])
+```
 
-Looking at this visualization, who is the main character?
+Looking at the resulting visualization, who is the main character?
 
 Why might a tool like this be useful? A graph should appear with a tick mark everywhere each “character name” appears. Without having even read the book of _Sense and Sensibility_, we might be able to guess the narrative, maybe even relationships between characters, helping us develop a visual of the story.
 
@@ -384,7 +387,7 @@ Check all sentences below that are correct:
 <Quiz>
 - You can get a visual representation of occurrences of a word with the `dispersion_plot` method.*
 - The `dispersion_plot` method allows you to input a list of strings, as long as you split them with commas.*
-- Contrary to grammar rule, in a list of strings, the commas must come outside of the quotation marks.*
+- Contrary to grammatical rules, in a list of strings, the commas must come outside of the quotation marks.*
 </Quiz>
 
 # Types vs. Tokens
@@ -836,10 +839,10 @@ plt.imshow(wordcloud)
 
 ## How do we get rid of apostrophes? 
 
-Googling for the answers to your coding questions is an essential part of being a coder. Let's try out how to google a problem and use the solution: how to get rid of are there apostrophes?
+Googling for the answers to your coding questions is an essential part of being a coder. Let's try out how to google a problem: how to get rid of the apostrophes in our WordCloud?
 
 Try googling: 
-[Word Cloud python library displays an apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
+[Word Cloud python library displays apostrophes](https://www.google.com/search?q=Word+Cloud+python+library+displays+an+apostrophe)
 
 <Secret>
 Google search results may vary but this is one I got in Jan. 2024:
@@ -1127,39 +1130,21 @@ Now that we have seen and implemented a series of text analysis techniques, let'
 
 You could use something such as historic newspapers, or Supreme Court proceedings, or use any txt file on your computer. Here we will use [Project Gutenberg](http://www.gutenberg.org). 
 
-Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including `.txt`. You can download these to your computer or access them via the url. We'll use the latter. We found _Don Quixote_ in the archive (see [here](http://www.gutenberg.org/files/996/996-0.txt)), and will work with that.
+Project Gutenberg is an archive of public domain written works, available in a wide variety of formats, including `.txt`. You can download these to your computer or access them via a url. We'll use the former in this example. We found _Don Quixote_ in the archive, and will work with that.
 
-The Python package `urllib` comes installed with Python. Since we are only going to use the `urlopen` function, we will just import that one.
+First, [open the link in your browser](http://www.gutenberg.org/files/996/996-0.txt) to see the text. Next, save the text to your computer. You can do this by right-clicking anywhere on the page and selecting "Save As." Save the file as `don-quixote.txt`.
 
-In the next cell, type:
+Next, you'll want to upload the file to your Jupyter Notebook. You can do this by clicking on the "Upload" button in the Jupyter Notebook interface (it looks like a little arrow pointing up). You should see the file amidst your other files in the notebook directory.
 
-```python
-from urllib.request import urlopen
-```
-
-The `urlopen` function allows your program to interact with files on the internet by opening them. It does not read them, however—they are just available to be read in the next line. This is the default behavior any time a file is opened and read by Python. One reason is that you might want to read a file in different ways. For example, if you have a _really_ big file—think big data—you might want to read line-by-line rather than the whole thing at once.
-
-Now let's specify which URL we are going to use. Though you might be able to find _Don Quixote_ in the Project Gutenberg files, please type this in so that we are all using the same format (there are multiple `.txt` files on the site, one with utf-8 encoding, another with ascii encoding). We want the utf-8 encoded one. The difference between these is beyond the scope of this tutorial, but you can check out this [introduction to character encoding](https://www.w3.org/International/questions/qa-what-is-encoding) from The World Wide Web Consortium (W3C) if you are interested.
-
-Set the URL we want to a variable:
+Next, we will open the file and read its contents. We will use the `open` function to open the file, and the `read` method to read its contents. 
 
 ```python
-my_url = "https://raw.githubusercontent.com/GITenberg/Don-Quixote_996/master/996.txt"
+file_path = 'don-quixote.txt'
+with open(file_path, 'r', encoding='utf-8') as file:
+    don = file.read()
 ```
 
-We still need to open the file and read the file. You will have to do this with files stored locally as well. (in which case, you would type the path to the file (i.e., `data/texts/mytext.txt`) in place of `my_url`)
-
-```python
-file = urlopen(my_url)
-
-raw = file.read()
-```
-
-This file is in bytes, so we need to decode it into a string. In the next cell, type:
-
-```python
-don = raw.decode()
-```
+Now we have the full text of _Don Quixote_ in the variable `don`.
 
 Now let's check on what kind of object we have in the "don" variable. Type:
 
@@ -1168,11 +1153,6 @@ type(don)
 ```
 This should be a string. 
 
-But what's in the don object anyway...
-
-```python
-don
-```
 Great! We have just read in our first file.
 
 # Make Your Own Corpus (continued)
@@ -1285,7 +1265,6 @@ If you want to spice your challenge up, do the first three operations _in a sing
 Check all sentences below that are correct:
 
 <Quiz>
-- `urlopen` can save the contents of a webpage into a variable.*
 - To use NLTK functions on a string, we can transform it into a NLTK Text object.*
 - NLTK let's you tokenize (split) a giant string into a list of substrings, considering punctuations and edge cases like `don't`.*
 </Quiz>

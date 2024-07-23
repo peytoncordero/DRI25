@@ -49,7 +49,7 @@ ethical considerations:
 
 projects:
     - The Simplest Data Science Project Using Pandas & Matplotlib:
-        description: Further deepen your Pandas skills while making beautiful data visualizations in Matplolib using a dataset (from Kaggle) of forest fires in Brazil.
+        description: Further deepen your Pandas skills while making beautiful data visualizations in Matplotlib using a dataset (from Kaggle) of forest fires in Brazil.
         link: https://towardsdatascience.com/the-simplest-data-science-project-using-pandas-matplotlib-9d7042e7ce6f
     - Make a Gradebook With Python & pandas:
         description: Learn how you can automate the process of calculating grades at the end of the semester using Pandas
@@ -176,7 +176,7 @@ A powerful Python library for data manipulation and analysis, particularly desig
 </Keywords>
 
 
-## Import Pandas
+## Import Pandas and Matplotlib
 
 In the first blank cell, type the following command to import the Pandas library into our Jupyter Notebook. To run the command, you can click the “Run” button in the top toolbar, or you can click shift + return. 
 
@@ -185,10 +185,12 @@ In the first blank cell, type the following command to import the Pandas library
 
 ```python
 import pandas as pd
+import matplotlib
 ```
 
-This import statement not only imports the Pandas library but also gives it the alias “pd.” Using this alias will save us from having to type out the entire word “Pandas” each time we need to use it. Libraries are sets of instructions that Python can use to perform specialized functions. 
+The first import statement not only imports the Pandas library but also gives it the alias “pd.” Using this alias will save us from having to type out the entire word “Pandas” each time we need to use it. Libraries are sets of instructions that Python can use to perform specialized functions. 
 
+The second import, `matplotlib`, is used to import the Matplotlib library, which is a plotting library for Python and Pandas. We will use Matplotlib to create visualizations of our data later in the workshop.
 
 If you don’t see an error when you run the notebook—that is, if there is no output—you can move on to the next step. It is not rare in programming that when you do things right, the result will be nothing happening. This is what we like to call a silent success.
 
@@ -251,7 +253,7 @@ What is a DataFrame?
 # Data exploration
 In the following section we will learn how to view the DataFrame in addition to viewing smaller sections of it. 
 
-## Display the Dataframe
+## Display the DataFrame
 
 To display the DataFrame, we can run a cell with the variable name of the DataFrame:
 
@@ -391,7 +393,7 @@ Let’s take a look at a few elements in this DataFame:
 * Index
     * The bolded ascending numbers in the very left-hand column of the DataFrame is called the Pandas Index. You can select rows based on the Index.
     * By default, the Index is a sequence of numbers starting with zero. However, you can change the Index to something else, such as one of the columns in your dataset.
-    * The default index is a Unique ID - that being said, the index does not have to be a Unique ID. You can set your index to be any column in your Dataframe
+    * The default index is a Unique ID - that being said, the index does not have to be a Unique ID. You can set your index to be any column in your DataFrame
 * Truncation
     * The DataFrame is truncated, signaled by the ellipses in the middle … of every column.
     * The DataFrame is truncated because by default, Pandas will display 60 rows and 20 columns. You can change these default settings see [documentation](https://pandas.pydata.org/pandas-docs/stable/user_guide/options.html)
@@ -406,7 +408,7 @@ In a Pandas DataFrame, the index serves as a unique identifier for each row, all
 </Keywords>
 
 
-## Display a selection of the Dataframe
+## Display a selection of the DataFrame
 We can also display the first 2 rows of the DataFrame with the `.head()` method
 
 
@@ -777,7 +779,7 @@ In Pandas, the .head() method is used to display the first few rows of a DataFra
 </Keywords>
 
 
-## Display a random sample of the Dataframe
+## Display a random sample of the DataFrame
 
 We can also look at a random sample of data with the `.sample()` method
 
@@ -941,7 +943,7 @@ refugee_df.sample(15)
 
 
 
-We can tell it's a random sample since the index numbers are completly disorganized. 
+We can tell it's a random sample since the index numbers are completely disorganized. 
 
 <Keywords>
 - .sample()
@@ -2424,7 +2426,7 @@ What is the primary purpose of the == operator in Python?
 In the following section we will learn how to sort and group columns in order to perform calculations.  
 
 <Info>
-Did you know you can perform both quantative and qualitative manipulations across entire columns in Pandas? You can use the .apply() method along with a lambda function or a user-defined function to transform text values. For instance, apply the .str accessor to access string methods like .lower() or .replace() for case normalization or substitution. The apply function works element-wise, allowing you to process each element in the column independently. This approach empowers you to clean, modify, or extract information from text columns with ease, facilitating comprehensive data preparation for analysis.
+Did you know you can perform both quantitative and qualitative manipulations across entire columns in Pandas? You can use the .apply() method along with a lambda function or a user-defined function to transform text values. For instance, apply the .str accessor to access string methods like .lower() or .replace() for case normalization or substitution. The apply function works element-wise, allowing you to process each element in the column independently. This approach empowers you to clean, modify, or extract information from text columns with ease, facilitating comprehensive data preparation for analysis.
 </Info>
 
 ## Stacking requests
@@ -2693,7 +2695,7 @@ In Pandas, the .groupby() method is used to group rows of a DataFrame based on o
 </Keywords>
 
 ## Convert Series Object to Dataframe
-You will notice that our output is not a Dataframe. Instead, it's a Series Object, which doesn't allow us to select data or make further calculations on the data. We can convert it to a Dataframe by first storing the command above in a new variable and stacking two extra commands" `to_frame` and `reset_index`:
+You will notice that our output is not a Dataframe. Instead, it's a Series Object, which doesn't allow us to select data or make further calculations on the data. We can convert it to a Dataframe by first storing the command above in a new variable and stacking two extra commands, `to_frame` and `reset_index`:
 
 
 ```python

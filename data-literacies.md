@@ -311,7 +311,7 @@ Usually, IRB review is required when *ALL* of the criteria below are met:
 * The proposed **research** or **clinical investigation** involves human subjects, and
 * Your university or research institution is **engaged** in the research or clinical investigation involving human subjects.
 
-An IRB is an institutional comcompliance laince that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project ethics beyond compliance.
+An IRB is an institutional compliance that may not consider other ethical impacts. As we move forward in this workshop we will consider data and digital project ethics beyond compliance.
 
 #### Example: Oral History Projects
 

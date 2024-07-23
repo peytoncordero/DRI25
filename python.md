@@ -468,7 +468,7 @@ Our functions do not have to be "mathematical" in nature. Let's say that I wante
 
 ```python
 def greet():
-    print("Hello! How are you today?")`  
+    print("Hello! How are you today?")  
 greet()
 ```
 
@@ -1490,7 +1490,7 @@ You should get output like this:
 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
 ```
 
-The above output shows some of the methods and attributes for Python strings that can be accessed using the dot (`.`) syntax. Also, be aware that Python doesn't print all the possible methods and attributes, just what it considers to be most important. Also, when using `dir()`, you'll mostly want to ignore the methods and attributes that have underscores around them. They mainly have to do with the internals of the Python language. For now, ignore the information within underscores (like `__add__`) and focus on the stuff surrouned by single quotes (like `startswith`).
+The above output shows some of the methods and attributes for Python strings that can be accessed using the dot (`.`) syntax. Also, be aware that Python doesn't print all the possible methods and attributes, just what it considers to be most important. Also, when using `dir()`, you'll mostly want to ignore the methods and attributes that have underscores around them. They mainly have to do with the internals of the Python language. For now, ignore the information within underscores (like `__add__`) and focus on the stuff surrounded by single quotes (like `startswith`).
 
 You can also use `dir()` to see what functions are available from Python libraries that you import. Try importing the `random` library again and see what you get when you enter `dir(random)` in the REPL.
 
