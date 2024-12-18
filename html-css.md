@@ -99,6 +99,8 @@ HTML tells the browser what the different parts of a document _are_. CSS tells t
 
 Together, **HTML** and **CSS** can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
 
+<!-- TODO: fix internal link (currently broken)-->
+
 However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='49'>`how to get your website from your local computer onto the internet`</Link>.
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet.
@@ -182,63 +184,14 @@ The **body section** contains the content of the page, including paragraphs, ima
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
+
 In this activity we aim to complete the following tasks (instructions follow):
 
-1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
+<!-- TODO: Test flow of this, possibly re-order steps -->
 
-2. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
+1. Click the button in the top right section of the main window that states **`<OPEN CODE EDITOR>`**. Three sub-windows will pop up within the editor; on the left will be a HTML, CSS, and JavaScript windows. On the right will be the output, which displays the end-product.
 
-3. Inside that folder, create a new text file and save it as `index.html`.
-
-4. Add the basic HTML template to `index.html`
-
-5. Open `index.html` in a browser and view the source code.
-
-To do this, we'll follow these steps. We'll use the command line to create the folders and file:
-
-1. Open your terminal:
-
-    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
-
-    On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
-
-2. Navigate to your projects folder using this command:
-
-    ```console
-    $ cd ~/Desktop/
-    ```
-
-3. Create the `projects` folder:
-
-    ```console
-    $ mkdir projects
-    ```
-
-4. Navigate to the `projects`folder:
-
-    ```console
-    $ cd projects
-    ```
-
-5. Create the `htmlprojects` subfolder:
-
-    ```console
-    $ mkdir htmlpractice
-    ```
-
-6. Create the `index.html` file:
-
-    ```console
-    $ touch index.html
-    ```
-
-7. Open the `index.html` file with VS Code:
-
-```console
-$ code index.html
-```
-
-8. Copy and paste the **HTML template** we saw in the last page into the new file:
+2. Copy and paste (or type) the HTML template from the previous page into the HTML sub-window.
 
 ```html
 <!DOCTYPE html>
@@ -254,12 +207,106 @@ $ code index.html
 
 </html>
 ```
-9. Save the changes to the file.
+
+3. Export the code as a file, which will appear in your `Downloads` folder.
+
+4. Rename the file from its default name of `webpage.html` to `index.html`.
+
+5. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
+
+6. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
+
+7. Move `index.html` to the `htmlpractice` sub-folder.
+
+8. Open `index.html` in a browser and view the source code.
+
+To do this, we'll follow these steps. We'll use the code editor here to create the initial file, then we'll use the command line to create the folders and and manipulate the exported file:
+
+1. Click **`OPEN CODE EDITOR`** to open the code editor.
+
+2.  Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        ...
+    </head>
+
+    <body>
+        ...
+    </body>
+
+</html>
+```
+
+3. Click the `Download` button, which is directly above the HTML portion of the code editor. This will export the contents as an HTML file
+
+![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
+
+4. Open your `Downloads` folder and find the file, which will be named **'webpage.html'**. Rename the file to **'index.html'**.
+
+5. Open your terminal:
+
+    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
+
+    On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+
+6. Navigate to your 'Downloads' folder.
+
+    ```console
+    $ cd ~/Downloads/
+    ```
+
+7. Change the file name of 'webpage.html' to 'index.html'
+
+```console
+$ mv website.html index.html
+```
+
+8. Navigate to your Desktop folder using this command:
+
+    ```console
+    $ cd ~/Desktop/
+    ```
+
+9. Create the `projects` folder:
+
+    ```console
+    $ mkdir projects
+    ```
+
+10. Navigate to the `projects`folder:
+
+    ```console
+    $ cd projects
+    ```
+
+11. Create the `htmlprojects` subfolder:
+
+    ```console
+    $ mkdir htmlpractice
+    ```
+
+<!--TODO: test and possibly fix this -->
+
+12. Move the `index.html` file to `htmlprojects`.
+
+```console
+$ mv users/Ian/Downloads/index.html ./htmlprojects
+```
+
+13. Open the `index.html` file with **VS Code**:
+
+```console
+$ code index.html
+```
 
 **Note**
     The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-10. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
+14. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
 
     - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
         If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
@@ -403,7 +450,9 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 ## Activity
 
-Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
+<!-- TODO: Edit and adapt to in-page emulator-->
+
+Using either the in-browser **`CODE EDITOR`** to edit your code and export after, or your text editor to add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
@@ -445,7 +494,11 @@ For reference, here is an updated template:
 </html>
 ```
 
-Once you have updated your ``index.hmtl`` file, re-save it. Open it in your browser again or refresh the page if still opened.
+If you use the **`CODE EDITOR`**, download the file, rename it to `index.html`, and move it to the `htmlprojects` folder. Over-write the existing `index.html`.
+
+If you are using your text editor to updated your existing `index.hmtl` file, re-save it.
+
+When you have updated or replaced the `index.html` file, open it in your browser again or refresh the page if still opened.
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
@@ -461,7 +514,7 @@ The heading should appear at the top of the page, followed by the paragraph text
 
 ## Evaluation
 
-If I wanted to indicate that "About" is a subheading in my page, which element should I use?
+If I wanted to indicate that **"About"** is a subheading in my page, which element should I use?
 
 <Quiz>
 - `<head>`
@@ -539,6 +592,10 @@ For other instances, such as referring to pages or information on external sites
 
 ## Activity
 
+<!--TODO adapt this -->
+
+Here we will create a new file, which we will then link to. It is possible to do this using the in-browser code editor, but not optimal. These instructions will follow from working on your local computer.
+
 **Note**
 If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
 
@@ -554,7 +611,34 @@ From your command line you can enter this code:
 $ touch about.html
 ```
 
-2. Switch to VS Code. If you closed your `index.html` file, re-open it. In your `index.html` file, add a relative link leading to your "About" page.
+For reference, here is the updated HTML template for this file:
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h1>
+            About
+        </h1>
+        <p>
+
+        </p>
+    </body>
+
+</html>
+```
+
+
+<Info>__Tip:__
+If you do this first step through the in-text code editor, you can follow the example. Once you download the file, rename it to `about.html` and move it to the `htmlpractice` folder.</Info>
+
+2. Switch to **VS Code**. If you closed your `index.html` file, re-open it. In your `index.html` file, add a relative link leading to your "About" page.
 
 ```html
 <a href="about.html">About</a>
@@ -576,11 +660,11 @@ $ touch about.html
 
 ### Check If It Worked
 
-When your pages are updated, you should be able to navigate from your "Home" page to your "About" page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
+When your pages are updated, you should be able to navigate from your `"Home"` page to your `"About"` page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
 
 ![diagram of links in updated sample files](/images/html-css/HTML_links3.png)
 
-Congratulations, you have just created hyperlinks. This is a foundational component of the entire Internet.
+Congratulations, you have just created **hyperlinks**. This is a foundational component of the entire Internet.
 
 ## Evaluation
 
@@ -601,7 +685,7 @@ Do you remember the glossary terms from this section?
 
 **Images** are another important component of websites. Sometimes these just help bring your website to life, but other times they can help communicate information to users.  
   
-Images are referenced with the **`<img>`** tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The **`src`** attribute stands for **"source"** and communicates __secondary information__ to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a void tag.  
+Images are referenced with the **`<img>`** tag. Similar to the `<a>` tag, `<img>` requires an attribute, in this case `src`. The **`src`** attribute stands for **"source"** and communicates __secondary information__ to your browser that identifies and locates the image. Unlike many other tags, the `<img>` tag does not need to be closed, making it an example of a __void tag__.  
   
 The following element pulls in an image located in the same folder as the `.html` file:  
   
@@ -633,14 +717,28 @@ If you're planning to use images that you did not take or make yourself, you'll 
 
 This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/help/following-copyright-guidelines-for-images/) includes more information on licensure and a list of places where you can find reuseable images.
 
+<Info>__Tip:__
+The Internet today is increasingly filled with AI-generated media, incuding text, code, images, audio, and video. Images generated using artificial intelligence software, such as Midjourney, Dall-E, and Stable Diffusion operate in an ever-evolving 'gray area' for licensure and copyright, as well as an emerging domain of digital culture. [This report by the US Copyright Office](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf), published July 2024, reviews several aspects of this area.
+</Info>
+
 ## Activity
+
+<!--TODO: Possibly revise or reformat this tip -->
+
+In this activity we will practice the skills we just learned, to save and link an image in your `index.html` file.
+
+<Info>__Tip:__
+From here out, is becomes increasingly challenging to use the in-text code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
+</Info>
 
 Download and save an image from the web, download and save this image of a boiler, or move an image from your computer into the same folder as your `index.html` file.
 
 ![Image of a boiler](/images/html-css/boiler.jpg)
 
+The absolute link to the image file is [here](https://github.com/GC-DRI/DRI25/blob/main/images/html-css/boiler.jpg).
+
 <Info>__Tip:__
-Give the file a simple name. Also, the name **cannot** have spaces. A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+Give the file a simple name. Also, the name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
 
 ```html
 <img alt="This is an image" src="image.jpeg" />
@@ -677,7 +775,7 @@ For reference, here is the modified boiler story.
 </html>
 ```
 
-The updated verison should display as follows.
+The updated version should display as follows.
 
 ![Screenshot of updated index.html with image added](/images/html-css/boilerstoryimage_capture.png)
 
@@ -700,7 +798,7 @@ What unit does the browser use for setting image size?
 
 # Conventions
 
-As we’ve gone through the different components of creating a webpage, you likely have noticed some common **conventions** or **industry standards** for creating a webpage using HTML. Can you guess any of these?  
+As we’ve gone through the different components of creating a webpage, you likely have noticed some common **conventions** or **industry standards** for creating a webpage using HTML. These standards make it easier to communicate your thinking and choices to other coders and web developers. Can you guess any of these?  
   
 Here are a few examples:
 
@@ -737,6 +835,8 @@ This is the same code, with nesting:
 </html>
 ```
 
+Both instances produce the same output, but which one is easier to read the code for?
+
 
 <Info>__Tip:__
 While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
@@ -744,7 +844,7 @@ While VSCode usually auto-indents and auto-completes tags, it’s not foolproof.
 
 # Major Challenge: Create a Small Website
 
-In this major challenge, we will begin creating a "small" website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character). Parim Satyal's website on [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) may provide some inspiration.
+In this major challenge, we will begin creating a "small" website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character). Parim Satyal's website on [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) may provide some inspiration. You may also want to look at GCDI Digital Fellow Sam O'Hana's [website](https://www.samohana.com/), which is written in HTML.
   
 The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about yourself.  
   
@@ -787,7 +887,7 @@ To **make a line break** or give space between different elements:
 <br />
 ```
 
-To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers.
+To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
 
 ```html
 <!--- --->
@@ -835,6 +935,8 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 ```html
 <!--- --->
 ```
+
+<!--TODO: Add sample file to download demonstrating all of these characteristics, with dropdown/popdown option? -->
 
 # CSS Basics
 
@@ -981,7 +1083,13 @@ It's best practice to use Option 3, **external styling**, for a number of reason
 
 Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
 
+<Info>__TIP:__
+The code editor on this page emulates practice of External CSS, presuming a separate file for CSS. However, in the exported file, CSS will render is Internal, embedded at the header of 'webpage.html'.
+</Info>
+
 ## Challenge: Activity
+
+<!-- TODO: Adapt for code editor? How to work around internal built into export?-->
 
 Create a blank stylesheet using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
 
@@ -1093,6 +1201,8 @@ Note the different syntax being used to select items for for styling with rule s
 
 ## Challenge
 
+<!--TODO: Adapt to code editor? Same challenge of internal CSS export in 'webpage.html'-->
+
 Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into your `style.css` file and re-save the file. Then open or refresh your `index.html` file in your browser and see what happens.  
   
 ```css
@@ -1160,7 +1270,7 @@ p strong {
 
 ...then the text of your paragraph would be green, but where the strong tag is found in the paragraph, __the text would be bold and red__. In other words, the more specific styling for the `<strong>` text in your paragraph will override the less specific styling of the paragraph in general. This would occur **regardless of the order these rule sets appear in the stylesheet.**  
   
-This rule also applies to how you integrate CSS into your HTML to style your content. For example, if you link to an external stylesheet, and you add inline or internal CSS into your HTML, the inline or internal CSS will override the rules set in the external stylesheet. Similarly, the inline CSS will override the internal CSS.
+This rule also applies to how you integrate CSS into your HTML to style your content. For example, __if you link to an external stylesheet, and you add inline or internal CSS into your HTML, the inline or internal CSS will override the rules set in the external stylesheet__. Similarly, the inline CSS will override the internal CSS.
 
 # Classes and IDs
 
@@ -1379,6 +1489,10 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Personal Website Using CSS
 
+<Info>__Tip__
+This exercise should be conducted on your text editor.
+</Info>
+
 Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.
   
 I encourage you to use an external stylesheet with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
@@ -1424,7 +1538,7 @@ While this is a good starting point, one important question remains: how can I g
 
 # Making Your Website Public
 
-Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website onto the Internet so it can be shared?
+Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website from the local network of your computer's linked folders, onto the Internet so it can be shared?
   
 To get your site on the internet, you'll need **hosting**—that is, a remote computer that will stay on day in and day out to serve the website to visitors. In theory, you could host your website on your own computer, but in practice, it usually makes sense to purchase hosting from a hosting company or use a free service.  
   
@@ -1445,6 +1559,8 @@ In order to transfer your website files (also called your website's **directory*
 Assuming you all can manage accessing the internet on your own, let's focus on the latter two.
 
 ### FTP client
+
+<!--TODO: Add image/diagram of FTP system -->
 
 An **FTP client** is software designed specifically for the purpose of sharing files between computers. There are widely-used, freely-available GUI applications (i.e., applications that use a graphic user interface, or the point-and-click, user-friendly software interfaces you are used to) that you can download for use, including [Filezilla](https://filezilla-project.org/) and [Cyberduck](https://cyberduck.io/). You can also run an FTP client program through the command line on most computers, though the process varies by operating system.
 
@@ -1475,9 +1591,9 @@ Do you remember the glossary terms from this section?
 
 # Theory to Practice
 
-This workshop has provided an introduction to HTML and CSS. Through its discussion of tags, elements, and attributes, we have tried to cover the basic ways in which web pages are initially constructed in plaintext and then rendered on browsers. As we concieve of digital humanities projects, however, our visions quickly exceed the capacity of the commands that was covered in this workshop. Not only might we be interested in making information public on the internet, but we might also be interested in providing tools that facilitate interactivity and ease of use with the content that we are curating. Building these tools and incorporating them in our websites requires the additional knowledge of languages like Javascript, SQL, and [Python](http://www.github.com/DHRI-Curriculum/python), among many others. Digital humanities projects are often collaborative endeavors and bringing someone into the project who has these skills is an effective way to building well-designed websites.  
+This workshop has provided an introduction to HTML and CSS. Through its discussion of tags, elements, and attributes, we have tried to cover the basic ways in which web pages are initially constructed in plaintext and then rendered on browsers. As we concieve of digital humanities projects, however, our visions quickly exceed the capacity of the commands that was covered in this workshop. Not only might we be interested in making information public on the Internet, but we might also be interested in providing tools that facilitate interactivity and ease of use with the content that we are curating. Building these tools and incorporating them in our websites requires the additional knowledge of languages like Javascript, SQL, and [Python](http://www.github.com/DHRI-Curriculum/python), among many others. Digital humanities projects are often collaborative endeavors and bringing someone into the project who has these skills is an effective way to building well-designed websites.  
   
-Another way to build more complex design and functionality into your websites is by using a **Content Management System (CMS)**, which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [Wordpress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
+Another way to build more complex design and functionality into your websites is by using a **Content Management System (CMS)**, which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [WordPress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
 
 We may also want to use our newfound HTML and CSS skills to **more carefully examine existing online content**, through comparisons of timestamped website backups using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into creating a web scraping script.
 
@@ -1599,6 +1715,8 @@ __10. True or False: The primary difference between markup languages and program
 Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and CSS`</Link> to learn more.
 
 ## Suggested Further Readings
+
+<!-- TODO: Update references, add Internet History articles -->
 
 ### Platforms
 
