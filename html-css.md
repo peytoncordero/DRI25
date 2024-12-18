@@ -180,7 +180,7 @@ The **body section** contains the content of the page, including paragraphs, ima
 
 ## Activity
 
-<Info> __Tip__:
+<Info> __Tip:__
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
@@ -319,7 +319,7 @@ $ code index.html
 
     - For both operating systems, select **Firefox** or **Google Chrome** from the app list that appears.
 
-<Info>__Tip__:
+<Info>__Tip:__
 You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
 </Info>
 
@@ -502,7 +502,7 @@ When you have updated or replaced the `index.html` file, open it in your browser
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
-<Info>__Tip__:
+<Info>__Tip:__
 Although you don't need to break lines between opening and closing tags, note the conventions in the sample code of the boiler story, which follow industry standards.
 </Info>
 
@@ -723,7 +723,7 @@ The Internet today is increasingly filled with AI-generated media, incuding text
 
 ## Activity
 
-<!--TODO: Possibly revise or reformat this tip -->
+<!--TODO: Possibly revise or reformat this Tip -->
 
 In this activity we will practice the skills we just learned, to save and link an image in your `index.html` file.
 
@@ -1083,7 +1083,9 @@ It's best practice to use Option 3, **external styling**, for a number of reason
 
 Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
 
-<Info>__TIP:__
+<!-- TODO: revise the language of this tip -->
+
+<Info>__Tip:__
 The code editor on this page emulates practice of External CSS, presuming a separate file for CSS. However, in the exported file, CSS will render is Internal, embedded at the header of 'webpage.html'.
 </Info>
 
@@ -1374,7 +1376,7 @@ Note that it's possible to assign more than one class to an element—just leave
 </ul>
 ```
 
-<Info>__Tip__
+<Info>__Tip:__
 
 If you run into an error, be sure to _check your punctuation_. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
 </Info>
@@ -1489,8 +1491,8 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Personal Website Using CSS
 
-<Info>__Tip__
-This exercise should be conducted on your text editor.
+<Info>__Tip:__
+This exercise should be completed on your text editor.
 </Info>
 
 Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.
