@@ -34,7 +34,7 @@ prerequisites:
         required: true
 
     - Visual Studio Code: 
-        description: (Strongly recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") will be used and the exercise instructions are designed for this. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
+        description: (Strongly recommended) You can use any plain text editor, but for our purposes [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") will be used and some of the the exercise instructions are designed for this. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
 
 readings:
     - "[Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) by Tim Berners-Lee. This concept paper, originally published in 1989 and converted to HTML format here, is the proposal that led to HTML. It is a foundational document of the Internet."
@@ -91,13 +91,15 @@ Fundamentally, then, a script or program is *a set of instructions given to the 
 
 ### Cascading Style Sheets (CSS)
 
-**CSS** is usually used in conjunction with HTML, and was developed by [Håkon Wium Lie](https://www.wiumlie.no/en) in 1994 to add more control over display. Prior to CSS's introduction, websites were often displayed in different styles depending upon the web browser used, the computer's monitor, or other factors external to the code itself.
+**CSS** is usually used in conjunction with HTML, and was developed by [Håkon Wium Lie](https://www.wiumlie.no/en) in 1994 to add more control over display. Prior to CSS's introduction, websites were often displayed in different styles depending upon the web browser used, the computer's monitor, or other factors external to the code itself. CSS steering design back towards website creators and editors.
 
 HTML tells the browser what the different parts of a document _are_. CSS tells the browser what the parts of the document should _look like_. It is essentially a set of rules that are applied when rendering an HTML document. Its name—Cascading Style Sheets—refers to the fact that there is an order of precedence in how the browser applies CSS rules to a document. The __"style sheets"__ refers to print publishing practices of having uniform styles and standards, such as used in American Pscyhological Association, Chicago, and Modern Language Association formatting guidelines. They are __"cascading"__ because more specific rules overwrite less specific rules.
 
 ### Where Does the Internet Come In?
 
 Together, **HTML** and **CSS** can be used to write and style a website using a text editor (such as Visual Studio Code) directly from your computer. No internet access needed.
+
+<!-- TODO: fix internal link-->
 
 However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='49'>`how to get your website from your local computer onto the internet`</Link>.
 
@@ -178,67 +180,18 @@ The **body section** contains the content of the page, including paragraphs, ima
 
 ## Activity
 
+<<!-- TODO: move this? remove? hide? -->>
 <Info> __Tip__:
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
 In this activity we aim to complete the following tasks (instructions follow):
 
-1. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
+<!-- TODO: Convert this to work with native code editor -->
 
-2. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
+1. Click the button in the top right section of the main window that states ```<OPEN CODE EDITOR>```. Three sub-windows will pop up within the editor; on the left will be a HTML, CSS, and JavaScript windows. On the right will be the output, which displays the end-product.
 
-3. Inside that folder, create a new text file and save it as `index.html`.
-
-4. Add the basic HTML template to `index.html`
-
-5. Open `index.html` in a browser and view the source code.
-
-To do this, we'll follow these steps. We'll use the command line to create the folders and file:
-
-1. Open your terminal:
-
-    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
-
-    On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
-
-2. Navigate to your projects folder using this command:
-
-    ```console
-    $ cd ~/Desktop/
-    ```
-
-3. Create the `projects` folder:
-
-    ```console
-    $ mkdir projects
-    ```
-
-4. Navigate to the `projects`folder:
-
-    ```console
-    $ cd projects
-    ```
-
-5. Create the `htmlprojects` subfolder:
-
-    ```console
-    $ mkdir htmlpractice
-    ```
-
-6. Create the `index.html` file:
-
-    ```console
-    $ touch index.html
-    ```
-
-7. Open the `index.html` file with VS Code:
-
-```console
-$ code index.html
-```
-
-8. Copy and paste the **HTML template** we saw in the last page into the new file:
+2. Copy and paste (or type) the HTML template from the previous page into the HTML sub-window.
 
 ```html
 <!DOCTYPE html>
@@ -254,12 +207,107 @@ $ code index.html
 
 </html>
 ```
-9. Save the changes to the file.
+
+3. Export the code as a file, which will appear in your `Downloads` folder.
+
+4. Rename the file from its default name of `webpage.html` to `index.html`.
+
+5. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
+
+6. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
+
+7. Move `index.html` to the `htmlpractice` sub-folder.
+
+8. Open `index.html` in a browser and view the source code.
+
+To do this, we'll follow these steps. We'll use the code editor here to create the initial file, then we'll use the command line to create the folders and and manipulate the exported file:
+
+1. Click **`OPEN CODE EDITOR`** to open the code editor.
+
+2.  Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        ...
+    </head>
+
+    <body>
+        ...
+    </body>
+
+</html>
+```
+
+3. Click the `Download` button, which is directly above the HTML portion of the code editor. This will export the contents as an HTML file
+
+![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
+
+4. Open your `Downloads` folder and find the file, which will be named **'webpage.html'**. Rename the file to **'index.html'**.
+
+5. Open your terminal:
+
+    On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
+
+    On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+
+6. Navigate to your 'Downloads' folder.
+
+    ```console
+    $ cd ~/Downloads/
+    ```
+
+7. Change the file name of 'webpage.html' to 'index.html'
+
+```console
+$ mv website.html index.html
+```
+
+8. Navigate to your Desktop folder using this command:
+
+    ```console
+    $ cd ~/Desktop/
+    ```
+
+9. Create the `projects` folder:
+
+    ```console
+    $ mkdir projects
+    ```
+
+10. Navigate to the `projects`folder:
+
+    ```console
+    $ cd projects
+    ```
+
+11. Create the `htmlprojects` subfolder:
+
+    ```console
+    $ mkdir htmlpractice
+    ```
+
+<!--TODO: test and possibly fix this -->
+
+12. Move the `index.html` file to `htmlprojects`.
+
+```console
+$ mv users/Ian/Downloads/index.html ./htmlprojects
+```
+
+13. Open the `index.html` file with **VS Code**:
+
+```console
+$ code index.html
+```
+
 
 **Note**
     The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-10. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
+10. Once you've stored your new file in the appropriate folder, open it with a web browser using your graphical user interface (GUI):
 
     - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
         If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
@@ -403,6 +451,8 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 ## Activity
 
+<!-- TODO: Edit and adapt to in-page emulator-->
+
 Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
 
 - **Title**
@@ -538,6 +588,8 @@ Use relative links when referring to pages on your own site. The main advantage 
 For other instances, such as referring to pages or information on external sites (or directories), use absolute links.
 
 ## Activity
+
+<!-- TODO: Adapt. Decide where to 'branch off' from web editor to text editor-->
 
 **Note**
 If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
