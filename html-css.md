@@ -180,16 +180,16 @@ The **body section** contains the content of the page, including paragraphs, ima
 
 ## Activity
 
-<<!-- TODO: move this? remove? hide? -->>
+<!-- TODO: move this? remove? hide? -->
 <Info> __Tip__:
 If you have not already installed Visual Studio Code, you can [follow our installation guide here](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md). You can also click the following links for corresponding operation system specific installation instructions: [macOS](https://code.visualstudio.com/docs/setup/mac), [Windows](https://code.visualstudio.com/docs/setup/windows), [Linux](https://code.visualstudio.com/docs/setup/linux). You may also want to enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/).
 </Info>
 
 In this activity we aim to complete the following tasks (instructions follow):
 
-<!-- TODO: Convert this to work with native code editor -->
+<!-- TODO: Test flow of this, possibly re-order steps -->
 
-1. Click the button in the top right section of the main window that states ```<OPEN CODE EDITOR>```. Three sub-windows will pop up within the editor; on the left will be a HTML, CSS, and JavaScript windows. On the right will be the output, which displays the end-product.
+1. Click the button in the top right section of the main window that states **`<OPEN CODE EDITOR>`**. Three sub-windows will pop up within the editor; on the left will be a HTML, CSS, and JavaScript windows. On the right will be the output, which displays the end-product.
 
 2. Copy and paste (or type) the HTML template from the previous page into the HTML sub-window.
 
@@ -453,7 +453,7 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 <!-- TODO: Edit and adapt to in-page emulator-->
 
-Using your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
+Using your either the in-browser **`Code Editor`, or your text editor, add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
