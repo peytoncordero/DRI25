@@ -789,7 +789,7 @@ The Internet today is increasingly filled with AI-generated media, incuding text
 
 ## Activity
 
-In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor to start, but we you can practice with **VS Code** if you prefer.
+In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor to start, but you can practice with **VS Code** if you prefer.
 
 <Info>__Tip:__
 From here out, is becomes increasingly challenging to use the in-browser code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
@@ -797,7 +797,7 @@ From here out, is becomes increasingly challenging to use the in-browser code ed
 
 Here we will use an image linked to this lesson's source code on Github.
 
-![An image of a boiler](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg)
+![An image of a boiler](/images/html-css/boiler.jpg)
 
 The absolute link to the image file is [here](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg).
 
@@ -814,7 +814,9 @@ You can also control the display size of the image by adding `style`. These are 
 <img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" style=width:640px;height:480px;/>
 ```
 
-1. Using the code above as a reference, enter the code for your home page in the `CODE EDITOR`.
+### Instructions
+
+1. Using the code above as a reference, enter the code for your home page, with a link to an image, in the `CODE EDITOR`.
 
 2. View the output. Do you see an image?
 
@@ -935,6 +937,8 @@ Don't worry about getting the content just right. The important aspect of this e
 
 Here are three additional tags that might come in handy in assembling your page:
 
+### Lists
+
 To **make a list**, you open and close it with the **`<ul>`** tags, and each item is an enclosed **`<li>`** tag:
 
 ```html
@@ -949,11 +953,15 @@ The HTML above will produce an unordered (bulleted) list. To create an ordered (
 
 (This may come in handy when making your menu or navigation bar.)
 
+### Line Breaks
+
 To **make a line break** or give space between different elements:
 
 ```html
 <br />
 ```
+
+### Comments
 
 To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
 
