@@ -625,23 +625,10 @@ For other instances, such as referring to pages or information on external sites
 
 ## Activity
 
-<!--TODO adapt this -->
 
-<!--
-Here we will create a new file, which we will then link to. It is possible to do this using the in-browser code editor, but not optimal. These instructions will follow from working on your local computer.
+Here, we will use the in-browwer code editor to create a new file, which we will then download, rename, and move to the `htmlpractice` folder. We will then transition to using **VS Code** to edit the files on your local computer (as the in-text code editor cannot handle multiple HTML files).
 
-**Note**
-If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
-
-```console
-$ cd ~Desktop/projects/htmlpractice
-```
-
--->
-
-Here, we will use the code editor to create a new file, which we will then rename and move to the `htmlpractice` folder. We will then transition to using **VS Code** to edit the files on your local computer (as the in-text code editor cannot handle multiple HTML files).
-
-1. Using your `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
+1. Using the `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
 
 2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
 
@@ -671,10 +658,15 @@ For reference, here is the updated HTML template for this file:
 </html>
 ```
 
-<!-- TODO adapt this -->
+### Alternative Activity: Command Line
+
+You can also create `about.html` using the Command Line, and then edit it in **VS Code**. If you closed your command line you will first need to re-open it and navigate to the the `htmlpractice` sub-folder.
 
 <Info>__Command Line:__
-You can also create `about.html` using the Command Line, and then edit it in VS Code. You will need to be in the `htmlpractice` folder.
+
+```console
+$ cd ~Desktop/projects/htmlpractice
+```
 
 ```console
 $ touch about.html
@@ -784,7 +776,7 @@ If you're planning to use images that you did not take or make yourself, you'll 
 This [guide by the OpenLab at City Tech](https://openlab.citytech.cuny.edu/blog/help/following-copyright-guidelines-for-images/) includes more information on licensure and a list of places where you can find reuseable images.
 
 <Info>__Tip:__
-The Internet today is increasingly filled with AI-generated media, incuding text, code, images, audio, and video. Images generated using artificial intelligence software, such as Midjourney, Dall-E, and Stable Diffusion operate in an ever-evolving 'gray area' for licensure and copyright, as well as an emerging domain of digital culture. [This report by the US Copyright Office](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf), published July 2024, reviews several aspects of this area.
+The Internet is increasingly filled with AI-generated media, incuding text, code, images, audio, and video. Images generated using artificial intelligence software, such as Midjourney, Dall-E, and Stable Diffusion operate in an ever-evolving 'gray area' for licensure and copyright, as well as an emerging domain of digital culture. [This report by the US Copyright Office](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf), published July 2024, reviews several aspects of this area.
 </Info>
 
 ## Activity
@@ -939,7 +931,7 @@ Don't worry about getting the content just right. The important aspect of this e
 
 Here are three additional tags that might come in handy in assembling your page:
 
-### Lists
+**Lists**
 
 To **make a list**, you open and close it with the **`<ul>`** tags, and each item is an enclosed **`<li>`** tag:
 
@@ -955,7 +947,7 @@ The HTML above will produce an unordered (bulleted) list. To create an ordered (
 
 (This may come in handy when making your menu or navigation bar.)
 
-### Line Breaks
+**Line Breaks**
 
 To **make a line break** or give space between different elements:
 
@@ -963,7 +955,7 @@ To **make a line break** or give space between different elements:
 <br />
 ```
 
-### Comments
+**Comments**
 
 To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
 
@@ -1161,12 +1153,6 @@ It's best practice to use Option 3, **external styling**, for a number of reason
 
 Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
 
-<!-- TODO: revise the language of this tip -->
-
-<Info>__Tip:__
-The code editor on this page emulates practice of External CSS, presuming a separate file for CSS. However, in the exported file, CSS will render is Internal, embedded at the header of 'webpage.html'.
-</Info>
-
 ## Challenge: Activity
 
 <!-- TODO: Adapt for code editor? How to work around internal built into export?-->
@@ -1318,7 +1304,7 @@ Note the different syntax being used to select items for for styling with rule s
 
 <!--TODO: Adapt to code editor? Same challenge of internal CSS export in 'webpage.html'-->
 
-Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into your `style.css` file and re-save the file. Then open or refresh your `index.html` file in your browser and see what happens.  
+Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into the code editor, and see what happens. Then, update your your `style.css` file with the same CSS rules and re-save it. Open or refresh your `index.html` file in your browser. Do you see the same changes?
   
 ```css
 h1 {
