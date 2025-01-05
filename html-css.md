@@ -203,9 +203,9 @@ To do this, we'll follow these steps. We'll use the GUI for your local computer 
 
 <Info:>__Command Line:__
 The instructions for this section give you the steps to complete this task using GUI and Command Line. You only need to do one approach. Use whatever you feel comfortable with. If you choose the Command Line approach, you will first need to open your terminal:
-<br>
+
     On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
-<br>
+
     On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 </Info>
 
@@ -258,7 +258,6 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
 ![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
 
 <Info>__Command Line__:
-
 
     ```console
     $ mkdir htmlpractice
@@ -481,8 +480,6 @@ Note that the `<title>` is in the `<head>` element, which is where information a
 Note also that the elements and tags used in HTML have _meaning_. They provide information about the **structure** of a web page, showing how its parts work together. Those who make use of assistive technologies such as screen readers rely on this semantic information to navigate the page. Thus, it's important to use elements such as headers only when the information being marked calls for it. Making text large and/or bold for visual effect should be done using CSS. The Mozilla Developer Network has some good [introductory information on semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML).
 
 ## Activity
-
-<!-- TODO: Edit and adapt to in-page emulator-->
 
 In this activity, we'll use the code editor to update the template and add text for each element. We'll then download the file, move it to your `htmlproject` folder, and open it in your browser.
 
