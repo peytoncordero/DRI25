@@ -189,122 +189,146 @@ In this activity we aim to complete the following tasks (instructions follow):
 
 <!-- TODO: Test flow of this, possibly re-order steps -->
 
-1. Click the button in the top right section of the main window that states **`<OPEN CODE EDITOR>`**. Three sub-windows will pop up within the editor; on the left will be a HTML, CSS, and JavaScript windows. On the right will be the output, which displays the end-product.
+1. Create a coding environment to store files locally on your computer.
 
-2. Copy and paste (or type) the HTML template from the previous page into the HTML sub-window.
+2. Use the in-browser **Code Editor** to enter an HTML template and view its output.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
+3. Download code as an HTML file.
 
-    <head>
-        ...
-    </head>
+4. Move the file to your coding environment.
 
-    <body>
-        ...
-    </body>
+5. View the file output and analyze the source code, and the rendered text.
 
-</html>
-```
+To do this, we'll follow these steps. We'll use the GUI for your local computer to create the coding environment, then use the code editor in this website to create the initial file. Then, we'll export the file, locate it, open it, and inspect the output it on your local computer.
 
-3. Export the code as a file, which will appear in your `Downloads` folder.
+<Info:>__Tip:__
+The instructions for this section give you the steps to complete this task using GUI and command line. You only need to do one approach. Use whatever you feel comfortable with.
 
-4. Rename the file from its default name of `webpage.html` to `index.html`.
-
-5. Create a folder called `projects` (`~/Desktop/projects/htmlpractice`)
-
-6. Create a sub-folder called `htmlpractice` in your projects folder (`~/Desktop/projects/htmlpractice`).
-
-7. Move `index.html` to the `htmlpractice` sub-folder.
-
-8. Open `index.html` in a browser and view the source code.
-
-To do this, we'll follow these steps. We'll use the code editor here to create the initial file, then we'll use the command line to create the folders and and manipulate the exported file:
-
-1. Click **`OPEN CODE EDITOR`** to open the code editor.
-
-2.  Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        ...
-    </head>
-
-    <body>
-        ...
-    </body>
-
-</html>
-```
-
-3. Click the `Download` button, which is directly above the HTML portion of the code editor. This will export the contents as an HTML file
-
-![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
-
-4. Open your `Downloads` folder and find the file, which will be named **'webpage.html'**. Rename the file to **'index.html'**.
-
-5. Open your terminal:
+If you choose the Command Line approach, you will first need to open your terminal:
 
     On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
 
     On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
 
-6. Navigate to your 'Downloads' folder.
+
+</Info>
+
+1. Navigate to your `Desktop` folder.
+
+    For macOS, press `command` and `F3` simultaneously.
+
+    For Windows, press `windows key` and `D` simultaneously.
+
+<Info>
+For command line, type the following in your terminal:
+
+    ```console
+    $ cd ~/Desktop/
+    ```
+</Info>
+
+2. Create the `projects` folder.
+
+In GUI form, you will right-click and select `New Folder`. You will then rename this folder to `projects`.
+
+<Info>
+For command line, type the following in your terminal:
+
+    ```console
+    $ mkdir projects
+    ```
+</Info>
+
+3. Navigate to the `projects`folder. For GUI you will click the icon on your desktop to open it up.
+
+<Info>
+For command line, type the following in your terminal:
+
+    ```console
+    $ cd projects
+    ```
+</Info>
+
+4. Create the `htmlprojects` subfolder. For GUI, right-click and select 'New Folder'. You will then rename this folder to `projects`.
+
+<Info>
+For command line, type the following into your terminal:
+
+    ```console
+    $ mkdir htmlpractice
+    ```
+</Info>
+
+5. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
+
+6.  Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        ...
+    </head>
+
+    <body>
+        ...
+    </body>
+
+</html>
+```
+
+7. View the output from the code. What do you see?
+
+8. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
+
+![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
+
+9. Open to your **`'Downloads'`** folder and find the newly created `index.html` file.
+
+<Info>__Tip:__
+Feel free to use the GUI approach, but if you want to practice your command line skills you can do the following:
+
+</Info>
+
+10. Navigate to your `Downloads` folder.
+
+
+Using GUI:
+
+- For MacOS, click on the Finder button on your task bar, then press `command` `option` and `L` together.
+- For Windows, select File Explorer from the taskbar, or press the Windows logo key + E. Under Quick access, select Downloads.
+
+Command Line:
 
     ```console
     $ cd ~/Downloads/
     ```
 
-7. Change the file name of 'webpage.html' to 'index.html'
-
-```console
-$ mv website.html index.html
-```
-
-8. Navigate to your Desktop folder using this command:
-
-    ```console
-    $ cd ~/Desktop/
-    ```
-
-9. Create the `projects` folder:
-
-    ```console
-    $ mkdir projects
-    ```
-
-10. Navigate to the `projects`folder:
-
-    ```console
-    $ cd projects
-    ```
-
-11. Create the `htmlprojects` subfolder:
-
-    ```console
-    $ mkdir htmlpractice
-    ```
-
-<!--TODO: test and possibly fix this -->
-
-12. Move the `index.html` file to `htmlprojects`.
+11. Move the `index.html` file to `htmlprojects`.
 
 ```console
 $ mv users/Ian/Downloads/index.html ./htmlprojects
 ```
 
-13. Open the `index.html` file with **VS Code**:
+12. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
+
+13. Once viewing the file in your browser, open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+
+![Secondary menu](/images/html-css/index_blank_rightclick.png)
+
+14. Inspect and compare this to the code editor.
+
+15. Close the `index.html` file.
+
+**Note**
+    The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
+
+16. Open the `index.html` file with your browser **VS Code**:
 
 ```console
 $ code index.html
 ```
-
-**Note**
-    The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
 14. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
 
@@ -322,6 +346,8 @@ $ code index.html
 <Info>__Tip:__
 You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
 </Info>
+
+-->
 
 ### What Happens?
 
@@ -452,7 +478,7 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 <!-- TODO: Edit and adapt to in-page emulator-->
 
-Using either the in-browser **`CODE EDITOR`** to edit your code and export after, or your text editor to add the following elements to your `index.html`. Add text of your choosing between the opening and closing tags of each element. Feel free to copy from the example in the last page or create your own:
+Using the in-browser **`CODE EDITOR`** to add the following elements. Add any text of your choosing between the opening and closing tags of each element (__Title__, __Heading__, and __Paragraph__). Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
@@ -494,11 +520,28 @@ For reference, here is an updated template:
 </html>
 ```
 
+Inspect the output in the code editor, then click **`Download All Files`**.
+
+Locate the new `index.html` file (it may be 'index(1).html', or a further sequence).
+
+Move this file to your coding environment.
+
+Open the file in your browser.
+
+View the source code following the steps we practiced earlier:
+
+- Open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on Mac computers, this is usually a two-finger tap on the track pad, or you can press the <kbd>control</kbd> button then click the track pad).
+
+- Select `View Page Source` from the dropdown menu.
+
+![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/index_blank_viewsource.png)
+
+<!-- TODO clean this up 
 If you use the **`CODE EDITOR`**, download the file, rename it to `index.html`, and move it to the `htmlprojects` folder. Over-write the existing `index.html`.
 
-If you are using your text editor to updated your existing `index.hmtl` file, re-save it.
-
 When you have updated or replaced the `index.html` file, open it in your browser again or refresh the page if still opened.
+
+-->
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
@@ -508,7 +551,7 @@ Although you don't need to break lines between opening and closing tags, note th
 
 ### What Should You See?
 
-The heading should appear at the top of the page, followed by the paragraph text. The heading text should be larger. The title should appear in the browser window tab.
+The heading should appear at the top of the page, followed by the paragraph text. The heading text should be larger. The title should appear in the browser window tab. The organization of the page and display should follow the standard conventions of HTML.
 
 ![Image of the boiler example above rendered in Google Chrome](/images/html-css/boiler-example.png)
 
@@ -594,6 +637,7 @@ For other instances, such as referring to pages or information on external sites
 
 <!--TODO adapt this -->
 
+<!--
 Here we will create a new file, which we will then link to. It is possible to do this using the in-browser code editor, but not optimal. These instructions will follow from working on your local computer.
 
 **Note**
@@ -603,7 +647,11 @@ If you closed your command line you will first need to re-open it and navigate t
 $ cd ~Desktop/projects/htmlpractice
 ```
 
-1. Create a new text file called `about.html` in your `htmlpractice` folder. Copy over the HTML from your `index.html` file, but change the text in the `<h1>` element to "About."
+-->
+
+1. Using your `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
+
+<!-- TODO: move this
 
 From your command line you can enter this code:
 
@@ -611,8 +659,13 @@ From your command line you can enter this code:
 $ touch about.html
 ```
 
-For reference, here is the updated HTML template for this file:
+-->
 
+2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
+
+3. Move `about.html` to your `htmlpractice` folder.
+
+For reference, here is the updated HTML template for this file:
 
 ```html
 <!DOCTYPE html>
@@ -634,6 +687,7 @@ For reference, here is the updated HTML template for this file:
 </html>
 ```
 
+<!-- TODO adapt this -->
 
 <Info>__Tip:__
 If you do this first step through the in-text code editor, you can follow the example. Once you download the file, rename it to `about.html` and move it to the `htmlpractice` folder.</Info>
