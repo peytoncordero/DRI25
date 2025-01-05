@@ -645,6 +645,8 @@ Here, we will use the code editor to create a new file, which we will then renam
 
 2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
 
+![Screenshot of 'dowload all files' button](/images/html-css/download-button-instructions.png)
+
 3. Move `about.html` to your `htmlpractice` folder.
 
 For reference, here is the updated HTML template for this file:
@@ -671,7 +673,7 @@ For reference, here is the updated HTML template for this file:
 
 <!-- TODO adapt this -->
 
-<Info>__Tip:__
+<Info>__Command Line:__
 You can also create `about.html` using the Command Line, and then edit it in VS Code. You will need to be in the `htmlpractice` folder.
 
 ```console
@@ -680,7 +682,6 @@ $ touch about.html
 </Info>
 
 4. Open your `index.html` file. In your `index.html` file, add a relative link leading to your "About" page.
-
 
 ```html
 <a href="about.html">About</a>
@@ -698,8 +699,7 @@ $ touch about.html
 <a href="http://cuny.edu/about">CUNY</a>
 ```
 
-The full code is below if you want to see it.
-<details>
+The full code is below:
 
 ```html
 <!DOCTYPE html>
@@ -721,8 +721,6 @@ The full code is below if you want to see it.
 
 </html>
 ```
-
-</details>
 
 7. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser.
 
