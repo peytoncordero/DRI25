@@ -253,7 +253,7 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
 
 ![A screenshot of the projects folder with an untitled folder sub-folder](/images/html-css/projects-untitledfolder.png)
 
-![Screenshot of the right-click menu with 'Rename' higighted](/images/html-css/rename.png)
+![Screenshot of the right-click menu with 'Rename' highlighted](/images/html-css/rename.png)
 
 ![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
 
@@ -484,7 +484,9 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 <!-- TODO: Edit and adapt to in-page emulator-->
 
-Using the in-browser **`CODE EDITOR`** to add the following elements. Add any text of your choosing between the opening and closing tags of each element (__Title__, __Heading__, and __Paragraph__). Feel free to copy from the example in the last page or create your own:
+In this activity, we'll use the code editor to update the template and add text for each element. We'll then download the file, move it to your `htmlproject` folder, and open it in your browser.
+
+1. Using the in-browser **`CODE EDITOR`** to add the following elements. Add any text of your choosing between the opening and closing tags of each element (__Title__, __Heading__, and __Paragraph__). Feel free to copy from the example in the last page or create your own:
 
 - **Title**
 
@@ -526,28 +528,21 @@ For reference, here is an updated template:
 </html>
 ```
 
-Inspect the output in the code editor, then click **`Download All Files`**.
+2. Inspect the output in the code editor, then click **`Download All Files`**.
 
-Locate the new `index.html` file (it may be 'index(1).html', or a further sequence).
+3. Locate the new `index.html` file (it may be 'index(1).html', or a further sequence).
 
-Move this file to your coding environment.
+4. Move this file to your coding environment. Re-name it to `index.html` (you may have to overwrite your existin file).
 
-Open the file in your browser.
+4. Open the file in your browser.
 
-View the source code following the steps we practiced earlier:
+5. View the source code following the steps we practiced earlier:
 
 - Open the secondary menu (using a mouse, this would be the menu that opens when you right click on the page; on Mac computers, this is usually a two-finger tap on the track pad, or you can press the <kbd>control</kbd> button then click the track pad).
 
 - Select `View Page Source` from the dropdown menu.
 
 ![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/index_blank_viewsource.png)
-
-<!-- TODO clean this up 
-If you use the **`CODE EDITOR`**, download the file, rename it to `index.html`, and move it to the `htmlprojects` folder. Over-write the existing `index.html`.
-
-When you have updated or replaced the `index.html` file, open it in your browser again or refresh the page if still opened.
-
--->
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
@@ -655,17 +650,9 @@ $ cd ~Desktop/projects/htmlpractice
 
 -->
 
+Here, we will use the code editor to create a new file, which we will then rename and move to the `htmlpractice` folder. We will then transition to using **VS Code** to edit the files on your local computer (as the in-text code editor cannot handle multiple HTML files).
+
 1. Using your `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
-
-<!-- TODO: move this
-
-From your command line you can enter this code:
-
-```console
-$ touch about.html
-```
-
--->
 
 2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
 
@@ -696,27 +683,59 @@ For reference, here is the updated HTML template for this file:
 <!-- TODO adapt this -->
 
 <Info>__Tip:__
-If you do this first step through the in-text code editor, you can follow the example. Once you download the file, rename it to `about.html` and move it to the `htmlpractice` folder.</Info>
+You can also create `about.html` using the Command Line, and then edit it in VS Code. You will need to be in the `htmlpractice` folder.
 
-2. Switch to **VS Code**. If you closed your `index.html` file, re-open it. In your `index.html` file, add a relative link leading to your "About" page.
+```console
+$ touch about.html
+```
+</Info>
+
+4. Open your `index.html` file. In your `index.html` file, add a relative link leading to your "About" page.
+
 
 ```html
 <a href="about.html">About</a>
 ```
 
-3. Also add a relative link from your "About" page to your `index.html` page. In this link, call your `index.html` page "Home" (Reminder: `index.html` is the default homepage)
+5. Open your `about.html` file in **VS Code**. Add a relative link from your "About" page to your `index.html` page. In this link, call your `index.html` page "Home" (Reminder: `index.html` is the default homepage)
 
 ```html
 <a href="index.html">Home</a>
 ```
 
-4. Lastly, include an absolute link to a page of your choosing. Remember that an absolute link includes the protocol (for example, `http:`) and also a domain (for example, `cuny.edu`), such as `http://cuny.edu/about`.
+6. Lastly, include an absolute link (in your `index.html`) to a page of your choosing. Remember that an absolute link includes the protocol (for example, `http:`) and also a domain (for example, `cuny.edu`), such as `http://cuny.edu/about`.
 
 ```html
 <a href="http://cuny.edu/about">CUNY</a>
 ```
 
-5. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser.
+The full code is below if you want to see it.
+<details>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h1>
+            About
+        </h1>
+        <p>
+            <a href="index.html">Index</a>
+            <a href="https://www.cuny.edu/about">CUNY</a>
+        </p>
+    </body>
+
+</html>
+```
+
+</details>
+
+7. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser.
 
 ### Check If It Worked
 
@@ -783,34 +802,36 @@ The Internet today is increasingly filled with AI-generated media, incuding text
 
 ## Activity
 
-<!--TODO: Possibly revise or reformat this Tip -->
-
-In this activity we will practice the skills we just learned, to save and link an image in your `index.html` file.
+In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor to start, but we you can practice with **VS Code** if you prefer.
 
 <Info>__Tip:__
-From here out, is becomes increasingly challenging to use the in-text code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
+From here out, is becomes increasingly challenging to use the in-browser code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
 </Info>
 
-Download and save an image from the web, download and save this image of a boiler, or move an image from your computer into the same folder as your `index.html` file.
+Here we will use an image linked to this lesson's source code on Github.
 
-![Image of a boiler](/images/html-css/boiler.jpg)
+![An image of a boiler](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg)
 
-The absolute link to the image file is [here](https://github.com/GC-DRI/DRI25/blob/main/images/html-css/boiler.jpg).
+The absolute link to the image file is [here](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg).
 
 <Info>__Tip:__
-Give the file a simple name. Also, the name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
 
 ```html
-<img alt="This is an image" src="image.jpeg" />
+<img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" />
 ```
 
 You can also control the display size of the image by adding `style`. These are defined in terms of pixel sizes, which the brower will interpret. Check out [this guide](https://www.w3schools.com/html/html_images.asp) for more on setting image size.
 
 ```html
-<img alt="This is an image" src="image.jpeg" style=width:640px;height:480px;/>
+<img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" style=width:640px;height:480px;/>
 ```
 
-Using the code above as a reference, add that image into your `index.html` file, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
+1. Using the code above as a reference, enter the code for your home page in the `CODE EDITOR`.
+
+2. View the output. Do you see an image?
+
+3. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
 For reference, here is the modified boiler story.
 
@@ -829,7 +850,7 @@ For reference, here is the modified boiler story.
         <p>
             When I got to my basement that day, I knew that I just had to clean my boiler. It was just too dirty. Honestly, it was getting to be a hazard. So I got my wire brush and put on my most durable pair of boiler-cleaning overalls. It was going to be a long day.
         </p>
-         <img alt="This is an image" src="image.jpeg" style="width:800px;height:600px;" />
+         <img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" style="width:800px;height:600px;" />
     </body>
 
 </html>
