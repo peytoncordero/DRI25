@@ -231,6 +231,8 @@ For command line, type the following in your terminal:
 
 In GUI form, you will right-click and select `New Folder`. You will then rename this folder to `projects`.
 
+![Screenshot of right-click menu, with 'new folder' highlighted](/images/html-css/rightclick-new-folder.png)
+
 <Info>
 For command line, type the following in your terminal:
 
@@ -241,6 +243,8 @@ For command line, type the following in your terminal:
 
 3. Navigate to the `projects`folder. For GUI you will click the icon on your desktop to open it up.
 
+![Screenshot projects folder](/images/html-css/projects.png)
+
 <Info>
 For command line, type the following in your terminal:
 
@@ -249,7 +253,15 @@ For command line, type the following in your terminal:
     ```
 </Info>
 
-4. Create the `htmlprojects` subfolder. For GUI, right-click and select 'New Folder'. You will then rename this folder to `projects`.
+4. Create the `htmlprojects` subfolder.
+
+In GUI, open your `projects` folder, right-click, and select `New Folder`. You will then rename this folder to `htmlprojects`. Screenshots below are from MacOS.
+
+![A screenshot of the projects folder with an untitled folder sub-folder](/images/html-css/projects-untitledfolder.png)
+
+![Screenshot of the right-click menu with 'Rename' higighted](/images/html-css/rename.png)
+
+![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
 
 <Info>
 For command line, type the following into your terminal:
