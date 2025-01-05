@@ -201,16 +201,12 @@ In this activity we aim to complete the following tasks (instructions follow):
 
 To do this, we'll follow these steps. We'll use the GUI for your local computer to create the coding environment, then use the code editor in this website to create the initial file. Then, we'll export the file, locate it, open it, and inspect the output it on your local computer.
 
-<Info:>__Tip:__
-The instructions for this section give you the steps to complete this task using GUI and command line. You only need to do one approach. Use whatever you feel comfortable with.
-
-If you choose the Command Line approach, you will first need to open your terminal:
-
+<Info:>__Command Line:__
+The instructions for this section give you the steps to complete this task using GUI and Command Line. You only need to do one approach. Use whatever you feel comfortable with. If you choose the Command Line approach, you will first need to open your terminal:
+<br>
     On macOS, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon.
-
+<br>
     On Windows, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
-
-
 </Info>
 
 1. Navigate to your `Desktop` folder.
@@ -219,8 +215,7 @@ If you choose the Command Line approach, you will first need to open your termin
 
     For Windows, press `windows key` and `D` simultaneously.
 
-<Info>
-For command line, type the following in your terminal:
+<Info>__Command Line:__
 
     ```console
     $ cd ~/Desktop/
@@ -233,8 +228,8 @@ In GUI form, you will right-click and select `New Folder`. You will then rename 
 
 ![Screenshot of right-click menu, with 'new folder' highlighted](/images/html-css/rightclick-new-folder.png)
 
-<Info>
-For command line, type the following in your terminal:
+<Info>__Command Line:__
+
 
     ```console
     $ mkdir projects
@@ -245,8 +240,7 @@ For command line, type the following in your terminal:
 
 ![Screenshot projects folder](/images/html-css/projects.png)
 
-<Info>
-For command line, type the following in your terminal:
+<Info>__Command Line:__
 
     ```console
     $ cd projects
@@ -255,7 +249,7 @@ For command line, type the following in your terminal:
 
 4. Create the `htmlprojects` subfolder.
 
-In GUI, open your `projects` folder, right-click, and select `New Folder`. You will then rename this folder to `htmlprojects`. Screenshots below are from MacOS.
+In GUI, open your `projects` folder, open your secondary menu, and select `New Folder`. You will then rename this folder to `htmlprojects`. Screenshots below are from MacOS.
 
 ![A screenshot of the projects folder with an untitled folder sub-folder](/images/html-css/projects-untitledfolder.png)
 
@@ -263,8 +257,8 @@ In GUI, open your `projects` folder, right-click, and select `New Folder`. You w
 
 ![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
 
-<Info>
-For command line, type the following into your terminal:
+<Info>__Command Line__:
+
 
     ```console
     $ mkdir htmlpractice
@@ -272,6 +266,8 @@ For command line, type the following into your terminal:
 </Info>
 
 5. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
+
+![Screenshot of this website with 'open code editor' highlighted](/images/html-css/open-code-editor.png)
 
 6.  Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
 
@@ -299,7 +295,7 @@ For command line, type the following into your terminal:
 9. Open to your **`'Downloads'`** folder and find the newly created `index.html` file.
 
 <Info>__Tip:__
-Feel free to use the GUI approach, but if you want to practice your command line skills you can do the following:
+Feel free to use the GUI approach, but if you want to practice your command line skills, the instructions will be in these tip boxes below.
 
 </Info>
 
@@ -311,19 +307,36 @@ Using GUI:
 - For MacOS, click on the Finder button on your task bar, then press `command` `option` and `L` together.
 - For Windows, select File Explorer from the taskbar, or press the Windows logo key + E. Under Quick access, select Downloads.
 
+<Info>
 Command Line:
 
     ```console
     $ cd ~/Downloads/
     ```
+</Info>
 
 11. Move the `index.html` file to `htmlprojects`.
+
+<Info>
+Command Line:
 
 ```console
 $ mv users/Ian/Downloads/index.html ./htmlprojects
 ```
+</Info>
 
 12. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
+
+- On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
+
+If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
+
+        ```console
+        $ open index.html
+        ```
+
+- On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu.
+
 
 13. Once viewing the file in your browser, open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
 
@@ -336,30 +349,11 @@ $ mv users/Ian/Downloads/index.html ./htmlprojects
 **Note**
     The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-16. Open the `index.html` file with your browser **VS Code**:
-
-```console
-$ code index.html
-```
-
-14. Once you've created your new file, open it with a web browser using your graphical user interface (GUI):
-
-    - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
-        If you're using a Mac and would prefer to use the command line, you can also type `open index.html` from within your `htmlpractice` folder.
-
-        ```console
-        $ open index.html
-        ```
-
-    - On Windows, click the `projects` folder icon on your desktop. Navigate to `projects`, then `htmlpractice`. Double click the `index.html` file. If it does not open in a browser, right click the `index.html` icon and select "Open with..." from the menu.
-
-    - For both operating systems, select **Firefox** or **Google Chrome** from the app list that appears.
 
 <Info>__Tip:__
 You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
 </Info>
 
--->
 
 ### What Happens?
 
