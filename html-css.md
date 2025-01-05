@@ -820,7 +820,9 @@ You can also control the display size of the image by adding `style`. These are 
 
 2. View the output. Do you see an image?
 
-3. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
+3. Open and save the image, then download it and move it to your `htmlpractice` folder.
+
+4. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
 
 For reference, here is the modified boiler story.
 
@@ -1169,7 +1171,42 @@ The code editor on this page emulates practice of External CSS, presuming a sepa
 
 <!-- TODO: Adapt for code editor? How to work around internal built into export?-->
 
-Create a blank stylesheet using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
+Create a stylesheet for your `index.html` file. You can try this with the code editor here, and then try it on your local computer.
+
+1. Click the `OPEN CODE EDITOR` button.
+
+2. In the CSS section, add the following.
+
+```css
+     h1 {
+        color: solid red;
+        text-decoration: underline;
+    
+    }
+    p {
+        color: violet;
+        font-family: cursive;
+    }
+```
+3. Click the `Download All Files` button.
+
+4. Locate the `style.css` file in your `Downloads` folder and move it to your `htmlprojects` folder.
+
+5. Link your stylesheet with your `index.html` file.
+
+Insert the following code into the `<head>` element of that `index.html` file:
+
+```html
+<link rel="stylesheet" href="style.css" />
+```
+
+6. Save your `index.html` file and open it in your browser. Do you notice anything different?
+
+## Optional: Advanced Challenge
+
+You can also do this with your command line.
+
+Create a stylesheet for your website using the command line (following option 3, external styling, described above). In your `index.html` document, link to your style sheet and re-save the file.
 
 Make sure you're in the `projects` folder
 
