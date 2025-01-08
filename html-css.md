@@ -66,6 +66,12 @@ resources:
 
 ---
 
+<!-- TODOs: -->
+<!-- Review and fix all internal links  -->
+<!-- Migrate Command Line on-computer activities to end of lesson, simplify flow -->
+<!-- Update screenshots of any browswer activity to in-browser code editor and output -->
+<!-- Practice for 1 hour lesson, focused on in-browser editor -->
+
 # Getting Started with HTML and CSS
 
 Websites seem like these magical things that appear when we open our web browser (i.e. Chrome, Firefox, Safari). We know that websites are hypertext, meaning that we can click between navigate through information via links, traveling from page to page until we find what we need. Our journey through hypertext is unique to our experience. Information retrieval systems such as encyclopedia indexes and library cataloging systems pre-date digital navigation tools such as links, but follow the same logic. With **hypertext**, we can explore linked information in non-linear paths. What may be less obvious about websites is that, fundamentally **websites are plain text documents**, usually written in HTML or another web-based markup language, such as XML or XHTML.
@@ -189,17 +195,23 @@ In this activity we aim to complete the following tasks (instructions follow):
 
 <!-- TODO: Test flow of this, possibly re-order steps -->
 
-1. Create a coding environment to store files locally on your computer.
+<!-- TODO: Move this section further back -->
 
-2. Use the in-browser **Code Editor** to enter an HTML template and view its output.
+<!-- 1. Create a coding environment to store files locally on your computer. -->
 
-3. Download code as an HTML file.
+1. Use the in-browser **Code Editor** to enter an HTML template.
+
+2. View its output.
+
+<!-- 3. Download code as an HTML file.
 
 4. Move the file to your coding environment.
 
-5. View the file output and analyze the source code, and the rendered text.
+5. View the file output and analyze the source code, and the rendered text. -->
 
-To do this, we'll follow these steps. We'll use the GUI for your local computer to create the coding environment, then use the code editor in this website to create the initial file. Then, we'll export the file, locate it, open it, and inspect the output it on your local computer.
+To do this, we'll follow these steps. We'll  use the code editor in this website to create the initial file. Then, we'll explore how the code we entered renders formatted text in the simulated browser output.
+
+<!-- TODO: Move this, simplify it
 
 <Info:>__Command Line:__
 The instructions for this section give you the steps to complete this task using GUI and Command Line. You only need to do one approach. Use whatever you feel comfortable with. If you choose the Command Line approach, you will first need to open your terminal: **On macOS**, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon. **On Windows**, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
@@ -257,7 +269,7 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
     ```console
     $ mkdir htmlpractice
     ```
-</Info>
+</Info> -->
 
 5. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
 
@@ -617,6 +629,8 @@ There is another technical difference between the two options above.
 
 ### Relative vs. Absolute Links: When to Use Which One
 
+<!-- TODO: Fix this diagram (typo) -->
+
 ![diagram of HTML relative vs absolute links](/images/html-css/HTML_links2.png)
 
 Use relative links when referring to pages on your own site. The main advantage of using relative links to pages on your site is that your site will not break if it is moved to a different folder or environment.
@@ -625,16 +639,23 @@ For other instances, such as referring to pages or information on external sites
 
 ## Activity
 
+<!-- TODO: simplify this to in-browser activity -->
 
-Here, we will use the in-browwer code editor to create a new file, which we will then download, rename, and move to the `htmlpractice` folder. We will then transition to using **VS Code** to edit the files on your local computer (as the in-text code editor cannot handle multiple HTML files).
+Here, we will use the in-browser code editor to create a simple web page, which we will then examine.
 
 1. Using the `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
 
-2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
+2. Add a link to a website of your choosing. You can also use this link below, to the Graduate Center Digital Initiatives' CUNY Academic Commons page.
+
+```html
+<a href="https://gcdi.commons.cuny.edu"> Graduate Center Digital Initiatives </a>
+```
+
+<!-- 2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
 
 ![Screenshot of 'dowload all files' button](/images/html-css/download-button-instructions.png)
 
-3. Move `about.html` to your `htmlpractice` folder.
+3. Move `about.html` to your `htmlpractice` folder. -->
 
 For reference, here is the updated HTML template for this file:
 
@@ -657,6 +678,7 @@ For reference, here is the updated HTML template for this file:
 
 </html>
 ```
+<!-- TODO: Move or erase this:
 
 ### Alternative Activity: Command Line
 
@@ -714,9 +736,11 @@ The full code is below:
 </html>
 ```
 
-7. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser.
+7. Re-save your text files (`index.html` and `about.html`) and reopen or refresh them in your browser. -->
 
 ### Check If It Worked
+
+<!-- TODO: Modify this - remove relative link -->
 
 When your pages are updated, you should be able to navigate from your `"Home"` page to your `"About"` page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
 
@@ -781,11 +805,13 @@ The Internet is increasingly filled with AI-generated media, incuding text, code
 
 ## Activity
 
+<!-- TODO: Change this -->
+
 In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor to start, but you can practice with **VS Code** if you prefer.
 
-<Info>__Tip:__
+<!-- <Info>__Tip:__
 From here out, is becomes increasingly challenging to use the in-browser code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
-</Info>
+</Info> -->
 
 Here we will use an image linked to this lesson's source code on Github.
 
@@ -793,8 +819,9 @@ Here we will use an image linked to this lesson's source code on Github.
 
 The absolute link to the image file is [here](https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg).
 
-<Info>__Tip:__
-You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info>
+
+<!-- <Info>__Tip:__
+You can also save this file on our computer and give it a custom name. When saving files for local directories, give the file a simple name. The name **cannot** have spaces (this will produce errors). A good practice is to use either dashes or underscores where there would otherwise be spaces. For example: `this-is-an-image.jpg` or `this_is_an_image.jpg`.</Info> -->
 
 ```html
 <img alt="An image of a boiler" src="https://raw.githubusercontent.com/GC-DRI/DRI25/main/images/html-css/boiler.jpg" />
@@ -1143,15 +1170,15 @@ Here's what the code looks like displayed in a browser.
 
 ![Screeshot of the external CSS code rendered in a browser](/images/html-css/css_external.png)
 
-## Best Practices
-
-It's best practice to use Option 3, **external styling**, for a number of reasons:
+<Info>__Best Practices__:
 
 1. **Clarity** It helps us remember what each language focuses on: HTML is for _content_, CSS is for _styling_. (This is sometimes referred to as the principle of ["separation of concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/))
 2. **Consistency** It helps us maintain consistency across the various pages of our site as _multiple HTML files can link to the same stylesheet_.
 3. **Simplicity** Because multiple HTML files can link to the same CSS file, it's not necessary to write the same CSS code multiple times. Once suffices. (This is sometimes referred to as the ["Don't Repeat Yourself" principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), or simply _DRY_.)
 
 Option 3, external styling, is preferred by most web developers because __it's more manageable__ and because __it lends itself to greater consistency across the entire site__.
+
+</Info>
 
 ## Challenge: Activity
 
@@ -1477,7 +1504,7 @@ Note that it's possible to assign more than one class to an element—just leave
 
 <Info>__Tip:__
 
-If you run into an error, be sure to _check your punctuation_. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the<Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
+If you run into an error, be sure to _check your punctuation_. Oftentimes the problem is a typo, or overlooking a semi-colon, a period, etc. See the <Link workshop='html-css' page='47'>`Troubleshooting`</Link> section for more information on common issues.
 </Info>
 
 ## Evaluation
@@ -1716,7 +1743,7 @@ __2. Which one of the following options is a relative link? (Select one of the f
 - `<a href="https://www.nytimes.com/">The New York Times</a>`
 </Quiz>
 
-Revisit lesson<Link workshop='html-css' page='13'>`Links`</Link> to learn more.
+Revisit lesson <Link workshop='html-css' page='13'>`Links`</Link> to learn more.
 
 __3. Is the following code-snippet an example of inline styling or internal styling?__
 
@@ -1845,7 +1872,7 @@ Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and
 
 - [Github Pages](https://pages.github.com/) can be useful to more advanced users for hosting HTML/CSS files and publishing them directly on the internet. It draws on a Github repository to build static websites. Websites that are hosted on Github pages tend to have a URL that ends in `github.io`. The official Github documentation has a well written guide on [creating a Github Pages site](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
 
--[Neocities](https://neocities.org/tutorials) is a social network of over 700,000 ad-free websites designed to "bring back the lost individual creativity of the web". The platform offers free static web hosting and integrated tools, including an in-browser HTML editor. 
+- [Neocities](https://neocities.org/tutorials) is a social network of over 700,000 ad-free websites designed to "bring back the lost individual creativity of the web". The platform offers free static web hosting and integrated tools, including an in-browser HTML editor. 
 
 
 ## Projects or Challenges to Try
@@ -1873,6 +1900,8 @@ If you are unsure of which HTML/CSS commands to use, check out the [HTML Cheat S
 
 
 ## Discussion Questions
+
+<!-- TODO: Add image/visuals -->
 
 1. In this workshop, we focused on the fundamentals of HTML and CSS. The point was to provide an introduction to the workings of websites. In practice, however, the websites that we desire to build will have complex use cases. What are some websites that you imagine building? What kinds of interactive features would you like to have in your website?
 
