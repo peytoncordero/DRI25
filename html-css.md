@@ -26,7 +26,7 @@ editors:
 #     description: "Ian (he/him) is a doctoral student in the PhD Program in Social Welfare at the CUNY Graduate Center. He researches the intersections of emerging technologies, human services, and organizational systems. A licensed social worker, Ian has a strong foundation in the humanities. He likes to hang out with digital humanists and public interest technologists. Ian's first experiences with HTML date back to creating a website for his band back in the early 2000s."
 
 estimated time:
-    - 2-3 hours
+    - 1-2 hours
 
 prerequisites:
     - Command Line:
@@ -271,11 +271,11 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
     ```
 </Info> -->
 
-5. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
+1. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
 
 ![Screenshot of this website with 'open code editor' highlighted](/images/html-css/open-code-editor.png)
 
-6. Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
+2. Copy and paste the **HTML template** we saw in the last page into the new file (you can also manually type it if you want to):
 
 ```html
 <!DOCTYPE html>
@@ -292,34 +292,36 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
 </html>
 ```
 
-7. View the output from the code. What do you see?
+3. View the output from the code. What do you see?
 
-8. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
+4. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
 
 ![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
 
-9. Open to your **`'Downloads'`** folder and find the newly created `index.html` file.
+5. Open to your **`'Downloads'`** folder and find the newly created `index.html` file.
 
 <Info>__Tip:__
 Feel free to use the GUI approach, but if you want to practice your command line skills, the instructions will be in these tip boxes below.
 
 </Info>
 
-10. Navigate to your `Downloads` folder.
+6. Navigate to your `Downloads` folder.
 
 Using GUI:
 
-- For MacOS, click on the Finder button on your task bar, then press `command` `option` and `L` together.
-- For Windows, select File Explorer from the taskbar, or press the Windows logo key + E. Under Quick access, select Downloads.
+- For MacOS, click on the Finder button on your task bar, then press <kbd>command</kbd> <kbd>option</kbd> and <kbd>L</kbd> together.
+- For Windows, select File Explorer from the taskbar, or press the <kbd>Windows logo key</kbd> + <kbd>E</kbd>. Under Quick access, select Downloads.
 
-<Info>__Command Line:__
+<!-- TODO: Move this section to end -->
+
+<!-- <Info>__Command Line:__
 
     ```console
     $ cd ~/Downloads/
     ```
-</Info>
+</Info> -->
 
-11. Move the `index.html` file to `htmlprojects`.
+<!-- 11. Move the `index.html` file to `htmlprojects`.
 
 With GUI, drag and drop the file into the folder.
 
@@ -328,9 +330,9 @@ With GUI, drag and drop the file into the folder.
 ```console
 $ mv users/Ian/Downloads/index.html ./htmlprojects
 ```
-</Info>
+</Info> -->
 
-12. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
+7. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
 
 - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
 
@@ -343,20 +345,24 @@ $ open index.html
 ```
 </Info>
 
-13. Once viewing the file in your browser, open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
+8. Once viewing the file in your browser, open your secondary menu (right click on Windows, hold <kbd>control</kbd> and click with macOS) and view the page source.
 
 ![Secondary menu](/images/html-css/index_blank_rightclick.png)
 
-14. Inspect and compare this to the code editor.
+9. Inspect and compare this to the code editor.
 
-15. Close the `index.html` file.
+10. Close the `index.html` file.
+
+11. Return to this lesson in your browswer.
 
 **Note**
     The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-<Info>__Tip:__
+<!-- TODO: move this -->
+
+<!-- <Info>__Tip:__
 You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
-</Info>
+</Info> -->
 
 ### What Happens?
 
@@ -601,6 +607,10 @@ On your webpage it will appear as:
 
 This link is asking the browser to look for a file titled `about.html` in the same folder. If a file named `about.html` is not in the same folder, clicking the link will result in a `404` ("Page Not Found") error (as this broken link does).
 
+<Info>__Tip__:
+In the code editor, relative links will lead you to a `404` error. This is because it is designed to work on only one HTML file at at a time. However when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files.
+</Info>
+
 ## Option Two: Absolute Links
 
 An **absolute link** includes information that allows the browser to find resources on other websites, folders, and directories. In other words, it follows absolute and specific instructions to the path of something. This information includes the site domain—such as `google.com`—and often the protocol—such as `http` or `https`.
@@ -807,7 +817,7 @@ The Internet is increasingly filled with AI-generated media, incuding text, code
 
 <!-- TODO: Change this -->
 
-In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor to start, but you can practice with **VS Code** if you prefer.
+In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor.
 
 <!-- <Info>__Tip:__
 From here out, is becomes increasingly challenging to use the in-browser code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
@@ -839,9 +849,12 @@ You can also control the display size of the image by adding `style`. These are 
 
 2. View the output. Do you see an image?
 
+Move to end
+
+<!-- 
 3. Open and save the image, then download it and move it to your `htmlpractice` folder.
 
-4. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page.
+4. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page. -->
 
 For reference, here is the modified boiler story.
 
@@ -868,7 +881,7 @@ For reference, here is the modified boiler story.
 
 The updated version should display as follows.
 
-![Screenshot of updated index.html with image added](/images/html-css/boilerstoryimage_capture.png)
+![Screenshot of updated index.html with image added](/images/html-css/boilerstory-imagecapture-codeeditor.png)
 
 ## Evaluation
 
@@ -930,29 +943,41 @@ Both instances produce the same output, but which one is easier to read the code
 
 
 <Info>__Tip:__
-While VSCode usually auto-indents and auto-completes tags, it’s not foolproof. Always double check your code for errors.
+While code editor apps usually auto-indents and auto-completes tags, they are not not foolproof. Always double check your code for errors and learn to recognize common error patterns, as well as your own tendencies.
 </Info>
 
 # Major Challenge: Create a Small Website
 
+<!-- TODO: Change this to make a simpler version for the in-text browser
+
+Add image
+
+
+ -->
+
 In this major challenge, we will begin creating a "small" website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character). Parim Satyal's website on [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) may provide some inspiration. You may also want to look at GCDI Digital Fellow Sam O'Hana's [website](https://www.samohana.com/), which is written in HTML.
   
-The first step is to create a new folder called `website` in your `projects` folder on your desktop. Create an `index.html` as well as an `about.html` file inside that folder. These will be the landing page of your site, and a supplemental page that provides information about yourself.  
-  
-Add HTML to your `index.html` file. This page should include the following component:
+Using the in-browser code-editor to create a '[landing page](https://en.wikipedia.org/wiki/Landing_page)' for your website. Add HTML to your page file, using the template from previous activities, then start to add content to your page.
+
+This page should include the following component:
 
 - Doctype
 - Root element
 - Head and a body
 - Title for the page
-- One heading
-- One paragraph
+- Two headings
+- Two paragraphs
 - One image with alt text
-- A menu or navigation bar that links to your Home and About pages
+- A menu or navigation bar that links to an 'about.html' local file, and an absolute link.
 
 Think about the order of your content as you assemble the body of your page. Feel free to take language from your CV, or make something up for a fictional character. 
   
 Don't worry about getting the content just right. The important aspect of this exercise is to review the **structure of a webpage**, and **practice creating a webpage**.
+
+
+<!-- TODO:  -->
+
+<!-- TODO: Add instructions for desktop / command line manipulation -->
 
 ## Additional Tags
 
@@ -987,8 +1012,13 @@ To **make a line break** or give space between different elements:
 To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
 
 ```html
-<!--- --->
+<!-- -->
 ```
+
+
+<Info>__Tip__:
+Although you can manually type out comments, it requires seven distinct characters for the browser to recognize it. A missing `-` could produce an error. To save time and reduce the likelihood of errors, you can also comment out a line of code with a shortcut. Make sure your text cursor is in the line of code you want to comment out. Then press <kbd>command</kbd> + <kbd>/</kbd> (for Mac OS) or <kbd>windows key</kbd> + <kbd>L</kbd> (for Windows).
+</Info>
 
 ## Optional: Advanced Challenge
 
