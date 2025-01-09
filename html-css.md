@@ -948,10 +948,9 @@ While code editor apps usually auto-indents and auto-completes tags, they are no
 
 # Major Challenge: Create a Small Website
 
-<!-- TODO: Change this to make a simpler version for the in-text browser
 
-Add image
 
+<!-- TODO: Add image to top
 
  -->
 
@@ -974,10 +973,6 @@ Think about the order of your content as you assemble the body of your page. Fee
   
 Don't worry about getting the content just right. The important aspect of this exercise is to review the **structure of a webpage**, and **practice creating a webpage**.
 
-
-<!-- TODO:  -->
-
-<!-- TODO: Add instructions for desktop / command line manipulation -->
 
 ## Additional Tags
 
@@ -1214,7 +1209,7 @@ Option 3, external styling, is preferred by most web developers because __it's m
 
 <!-- TODO: Adapt for code editor? How to work around internal built into export?-->
 
-Create a stylesheet for your `index.html` file. You can try this with the code editor here, and then try it on your local computer.
+Create a stylesheet for your html file. You can try this with the code editor here.
 
 1. Click the `OPEN CODE EDITOR` button.
 
@@ -1232,7 +1227,7 @@ Create a stylesheet for your `index.html` file. You can try this with the code e
     }
 ```
 3. Click the `Download All Files` button.
-
+<!-- 
 4. Locate the `style.css` file in your `Downloads` folder and move it to your `htmlprojects` folder.
 
 5. Link your stylesheet with your `index.html` file.
@@ -1243,9 +1238,11 @@ Insert the following code into the `<head>` element of that `index.html` file:
 <link rel="stylesheet" href="style.css" />
 ```
 
-6. Save your `index.html` file and open it in your browser. Do you notice anything different?
+6. Save your `index.html` file and open it in your browser. Do you notice anything different? -->
 
-## Optional: Advanced Challenge
+<!-- TODO: Migrate this to end section?
+
+ ## Optional: Advanced Challenge
 
 You can also do this with your command line.
 
@@ -1286,7 +1283,7 @@ The `style.css` file will then contain style information, such as this
         color: violet;
         font-family: cursive;
     }
-```
+``` -->
 
 ## Evaluation
 
@@ -1317,6 +1314,7 @@ Is the following code-snippet an example of **inline styling** or **internal sty
     </body>
 </html>
 ```
+
 <Quiz>
 - Inline Styling
 - Internal Styling*
@@ -1361,7 +1359,7 @@ Note the different syntax being used to select items for for styling with rule s
 
 <!--TODO: Adapt to code editor? Same challenge of internal CSS export in 'webpage.html'-->
 
-Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into the code editor, and see what happens. Then, update your your `style.css` file with the same CSS rules and re-save it. Open or refresh your `index.html` file in your browser. Do you see the same changes?
+Copy and paste the CSS rules from <Link workshop='html-css' page='36'>`the previous section`</Link> into the code editor, and see what happens. See what happens?
   
 ```css
 h1 {
@@ -1560,6 +1558,8 @@ Below is a list of **useful properties** that can be modified with CSS, compiled
 
 ### Color
 
+<!-- TODO: Add imiages of colors? -->
+
 Determines text color. Can be a word or a hex value, like `#FFFFFF`:
 
 ```css
@@ -1647,13 +1647,13 @@ font-family: 'Lato', sans-serif;
 
 # Major Challenge: Styling Your Personal Website Using CSS
 
-<Info>__Tip:__
+<!-- <Info>__Tip:__
 This exercise should be completed on your text editor.
-</Info>
+</Info> -->
 
 Using the CSS basics we've just reviewed, and the list of properties found on the <Link workshop='html-css' page='45'>`Properties page`</Link> and online, give your website some styling.
   
-I encourage you to use an external stylesheet with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
+I encourage you to use the external stylesheet in the code editor with classes and IDs to style particular aspects of your site more specifically, but feel free to also play around with inline and internal styling if desired.
 
 For this challenge:
 - Change the color and size of your heading text.
@@ -1661,14 +1661,21 @@ For this challenge:
 - Change the background color of your navigation bar or menu.
 - Center your image on your page.
 - [Shape up your navigation bar.](https://github.com/DHRI-Curriculum/html-css/blob/v2.0/sections/_navbar-hint.md)
-  
-**Reminder:** After creating a stylesheet, you must link it to all HTML documents that you want this styling to apply to. You can do so with the `<link>` tag:
+
+<!-- TODO: move this further back? Make it a tip? -->
+
+<Info>__Tip:__
+When editing HTML and CSS documents in a text editor or on your computer, the HTML file will need to link to the external stylesheet. You must link it to all HTML documents that you want this styling to apply to. You can do so with the `<link>` tag:
 
 ```html
 <link rel="stylesheet" type="text/css" href="style.css" />
 ```
 
-This will tell your HTML document to apply the style rules from the text file named `style.css` in the same folder.
+This will tell your HTML document to apply the style rules from the text file named `style.css` in the same folder. Typically this is placed in the `<head>` section.
+
+</Info>
+
+
 
 # Troubleshooting
 
