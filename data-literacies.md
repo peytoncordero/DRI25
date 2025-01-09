@@ -229,22 +229,9 @@ Adapted from: [NC State](https://www.lib.ncsu.edu/do/data-management/defining-re
 As mentioned in the Command Line workshop, proprietary software is owned by the individual or company who published it and often comes with restrictions. Open source software is available for anyone to access or change the code and is less restrictive than proprietary software. (add note about format)
 </Info> -->
 
-
 ## What forms of data do you use?
 
 ![A bar graph of the types of data DRI Winter 2024 participants use in their research.](/images/data-ethics/DRI24-participant-research-data-type.png)
-
-
-## Evaluate
-
-Research data can be defined as: (select all that apply)
-
-<Quiz>
-- materials or information necessary to come to my conclusion.*
-- the recorded factual material commonly accepted in the scientific community as necessary to validate research findings.*
-- method of collection and analysis.
-- objective and error-free.
-</Quiz>
 
 ## Challenge: Forms of Data 
 
@@ -477,24 +464,6 @@ In addition to being mindful of paying a fair wage to the workers on such platfo
 
 For a deeper discussion on data and labor, consider Catherine D'Ignazio and Lauren Klein's chapter [Show Your Work](https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/2?readingCollection=0cd867ef) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/)*.
 
-## Evaluation
-
-1. The stages of data is a single iteration process, i.e. there is a fixed stage progression from data collection to visualization.
-
-<Quiz>
-- True
-- False*
-</Quiz>
-
-2. Which of the following statements are true for "raw" data: (select all that apply)
-
-<Quiz>
-- is data that is yet to be processed.*
-- is data that is received and/or collected.*
-- is the same to every researcher/research team.
-- can only be collected from participants.
-</Quiz>
-
 ## Challenge: Raw Data
 
 <!--1. Do you think "big data" is "raw data"? Why or why not? Does the quantity of data play into our assumptions of "rawness"?
@@ -701,32 +670,6 @@ Sustainable formats are generally unencrypted, uncompressed, and follow an open 
 </table>
 <-->
 
-## Evaluation
-
-1. Structured data can be: (select all that apply)
-
-<Quiz>
-- a XML list.*
-- a Excel table.*
-- an email chain.
-- a collection of text files.
-</Quiz>
-
-2. We may choose to store our data in open data formats because they: (select all that apply)
-
-<Quiz>
-- are sustainable.*
-- allow for easy reusability.*
-- are free-of-charge to use.*
-</Quiz>
-
-3. Tiny data format only allows one value per cell.
-
-<Quiz>
-- True*
-- False
-</Quiz>
-
 ## Challenge: Processed/Transformed
 
 1. Explore the `moSmall.csv` dataset, what questions might you ask with this dataset? What columns (variables) will you keep?
@@ -864,17 +807,6 @@ Measurements must be consistent, in that different observations must not contrad
 
 Measurements must be uniform, in that the same unit of measure must be used in all relevant measurements. If one person's height is listed in meters and another in feet, one measurement must be converted.
 
-## Evaluation
-
-Measurements are *accurate* when: (select one)
-
-<Quiz>
-- observations do not contradict each other.
-- they represent the correct values.*
-- when they are unique responses (e.g. no duplication).
-- when the same unit of measure is used in all relevant measurements.
-</Quiz>
-
 ## Challenge: When Do We Stop Cleaning?
 
 1. How do we know when our data is cleaned enough?
@@ -952,16 +884,6 @@ Techniques geared towards understanding a phenomenon, rather than predicting and
 - Text Analysis
 
 As we have discussed thus far, data are not neutral or objective. They are guided by and produced through our interests and assumptions, often shaped by our socio-political contexts. Hence, we must also understand that the forms of analyses we take to our data further shapes how we are choosing to tell the story. We are crafting a narrative through each of the stages of data that helps us communicate our projects to a wider audience. This is not to say that our analyses are not "empirical" or "scientific" but a suggestion to make transparent the theoretical foundations and perspectives that are guiding our interpretations. For a more nuanced perspective, consider [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2) in *[Data Feminism](https://data-feminism.mitpress.mit.edu/).*
-
-
-## Evaluation
-
-Descriptive analysis helps us summarize a data set.
-
-<Quiz>
-- True*
-- False
-</Quiz>
 
 ## Challenge: Analysis
 
@@ -1149,68 +1071,6 @@ Data and ethics are contextually driven. As such, there isn’t always a risk-fr
 In addition, open access is not always the answer to concerns of reproducibility and/or ethical considerations. There are moments where the decision to not have a dataset or analysis openly accessible is valid. For example, when you are working with marginalized or vulnerable populations, concerns for causing more harm justifies restricting access. We may choose to control who has access to decrease the chances of misrepresentations (intentional or otherwise) or having results taken out of context.
 
 For a set of great questions to help you think through your data exploration and project planning, please check out Kristen Hackett's Tagging the Tower post, [What to Consider when Planning a Digital Project.](https://digitalfellows.commons.gc.cuny.edu/2019/10/30/what-to-consider-when-planning-a-digital-project/)
-
-## Review your knowledge: questions from the lessons
-
-__1. Structured data can be: (Select all that apply)__
-
-<Quiz>
-- a XML list.*
-- a Excel table.*
-- an email chain.
-- a collection of text files.
-</Quiz>
-
-Revisit Lesson <Link page='20' workshop='data-literacies'>Stages of Data: Processed/Transformed</Link> to learn more.
-
-__2. Descriptive analysis help us summarize a data set. (Select one of the following)__
-
-<Quiz>
-- True*
-- False
-</Quiz>
-
-Revisit lesson <Link page='29' workshop='data-literacies'>Stages of Data: Analyzed</Link> to learn more.
-
-__3. Measurements are accurate when: (Select one of the following)__
-
-<Quiz>
-- they represent the correct values.*
-- observations do not contradict each other.
-- when they are unique responses (e.g. no duplication).
-- when the same unit of measure is used in all relevant measurements.
-</Quiz>
-
-Revisit Lesson <Link page='25' workshop='data-literacies'>Stages of Data: Cleaned</Link> to learn more.
-
-__4. Research data can be defined as: (Select all that apply)__
-
-<Quiz>
-- materials or information necessary to come to my conclusion.*
-- the recorded factual material commonly accepted in the scientific community as necessary to validate research findings.*
-- method of collection and analysis.
-- objective and error-free.
-</Quiz>
-
-Review lesson <Link page='2' workshop='data-literacies'>Data is Foundational</Link> to learn more.
-
-__5. The stages of data is a single iteration process, i.e. there is a fixed stage progression from data collection to visualization. (Select one of the following)__
-
-<Quiz>
-- False*
-- True
-</Quiz>
-
-Revisit Lesson <Link page='15' workshop='data-literacies'>Stages of Data: Raw</Link> to learn more.
-
-__6. Tiny data format only allows one value per cell. (Select one of the following)__
-
-<Quiz>
-- True*
-- False
-</Quiz>
-
-Revisit Lesson <Link page='21' workshop='data-literacies'>Data Structures: Tidy Data</Link> to learn more.
 
 # Theory to Practice
 
