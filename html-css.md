@@ -211,66 +211,6 @@ In this activity we aim to complete the following tasks (instructions follow):
 
 To do this, we'll follow these steps. We'll  use the code editor in this website to create the initial file. Then, we'll explore how the code we entered renders formatted text in the simulated browser output.
 
-<!-- TODO: Move this, simplify it
-
-<Info:>__Command Line:__
-The instructions for this section give you the steps to complete this task using GUI and Command Line. You only need to do one approach. Use whatever you feel comfortable with. If you choose the Command Line approach, you will first need to open your terminal: **On macOS**, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon. **On Windows**, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
-</Info>
-
-1. Navigate to your `Desktop` folder.
-
-    For macOS, press `command` and `F3` simultaneously.
-
-    For Windows, press `windows key` and `D` simultaneously.
-
-<Info>__Command Line:__
-
-    ```console
-    $ cd ~/Desktop/
-    ```
-</Info>
-
-2. Create the `projects` folder.
-
-In GUI form, you will right-click and select `New Folder`. You will then rename this folder to `projects`.
-
-![Screenshot of right-click menu, with 'new folder' highlighted](/images/html-css/rightclick-new-folder.png)
-
-<Info>__Command Line:__
-
-    ```console
-    $ mkdir projects
-    ```
-</Info>
-
-3. Navigate to the `projects`folder. For GUI you will click the icon on your desktop to open it up.
-
-![Screenshot projects folder](/images/html-css/projects.png)
-
-<Info>__Command Line:__
-
-    ```console
-    $ cd projects
-    ```
-</Info>
-
-4. Create the `htmlprojects` subfolder.
-
-In GUI, open your `projects` folder, open your secondary menu, and select `New Folder`. You will then rename this folder to `htmlprojects`. Screenshots below are from MacOS.
-
-![A screenshot of the projects folder with an untitled folder sub-folder](/images/html-css/projects-untitledfolder.png)
-
-![Screenshot of the right-click menu with 'Rename' highlighted](/images/html-css/rename.png)
-
-![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
-
-<Info>__Command Line__:
-
-    ```console
-    $ mkdir htmlpractice
-    ```
-</Info> -->
-
 1. Navigate back to your browser and to this lesson. Click **`OPEN CODE EDITOR`** to open the code editor.
 
 ![Screenshot of this website with 'open code editor' highlighted](/images/html-css/open-code-editor.png)
@@ -1679,6 +1619,8 @@ This will tell your HTML document to apply the style rules from the text file na
 
 # Troubleshooting
 
+<!-- TODO: Add image -->
+
 It is common—especially in the beginning—that you'll add or amend something to/in your text editor, but it won't present when rendered by your browser.  
   
 **Your first inclination should be to scan the text in your editor for errors**. Nesting will help tremendously with this task. Oftentimes it is as little as forgetting a semicolon or closing tag.  
@@ -1688,6 +1630,91 @@ Another investigative tactic is to **View Page Source** on the page opened in th
 If you think it is an **error with the HTML**, you'll be able to see it there.  
   
 If you think it is an **error with the CSS**, then from the Page Source you'll need to click on the link for the `style.css` page. The link to this page should be found in the head of your page. Don't see it? That may be the problem! If you do see it, open the link to see what CSS the browser is reading and applying to your HTML. It should match what you have in your text editor. If it looks like an earlier version of your style sheet, then maybe you need to re-save the document.
+
+# Getting Out of the Sandbox: Editing HTML and CSS on Your Computer
+
+This workshop was designed with a sandbox, the code editor, in mind. That sandbox facilitated the process of experimenting with HTML and CSS. You may have noticed that there is a `Dowload All Files` button on the code editor. This exports the files you created into three distinct outputs: index.html, style,css, and script.js.
+
+![Screenshot of download button](/images/html-css/download-button-instructions.png)
+
+Breaking out of the sandbox, you can use the skills you learned in this workshop to edit code on your computer. You can try downloading the files and opening them locally - either to view in your Internet browser, or to edit in a text or code editing software (our recommendation is VS Code, which is commonly used by coders and programmers). You can edit in your operating system's native text editor (TextEdit in MacOS, Notepad in Microsoft Office), though the functionality is more limited and some automated features that make coding and error checking-simpler (such as shortcuts for commenting) won't be available.
+
+If you want practice on your computer, you can complete the exercises we conducted by writing or editing code on your computer. This can allow you to link local files, such as images and multiple HTML files, in a shared directory.
+
+To code locally on your computer, you'll want to start with a coding environment. This is a cleanly organized, easily recognizable, easily located folder (and often, set of sub-folders) that store your code.
+
+## Activity: Creating a Coding Environment
+
+<!-- TODO: Move this, simplify it
+
+<Info:>__Command Line:__
+The instructions for this section give you the steps to complete this task using GUI and Command Line. You only need to do one approach. Use whatever you feel comfortable with. If you choose the Command Line approach, you will first need to open your terminal: **On macOS**, press `⌘ + space` (**command** and **space**) to open up `Spotlight Search`, then type `Terminal`. Click the `Terminal` icon. **On Windows**, press `Windows + R` (**Windows** and **R**) to open up the **Run** dialogue box. Then type `wt` and click `Ok`.
+</Info>
+
+-->
+
+Here we will create a coding environment on our computer's desktop, using your computer's GUI: a folder named `projects`, which a sub-folder named `htmlpractice`. Command line instructions are also listed below. We will then download the files from the code editor, locate them in your Downloads folder, and move them to your coding environment.
+
+1. Navigate to your `Desktop` folder.
+
+    For macOS, press `command` and `F3` simultaneously.
+
+    For Windows, press `windows key` and `D` simultaneously.
+
+<!-- TODO: Add screenshots or keyboard images -->
+
+<Info>__Command Line:__
+
+    ```console
+    $ cd ~/Desktop/
+    ```
+</Info>
+
+2. Create the `projects` folder.
+
+In GUI form, you will right-click and select `New Folder`. You will then rename this folder to `projects`.
+
+![Screenshot of right-click menu, with 'new folder' highlighted](/images/html-css/rightclick-new-folder.png)
+
+<Info>__Command Line:__
+
+    ```console
+    $ mkdir projects
+    ```
+</Info>
+
+3. Navigate to the `projects`folder. For GUI you will click the icon on your desktop to open it up.
+
+![Screenshot projects folder](/images/html-css/projects.png)
+
+<Info>__Command Line:__
+
+    ```console
+    $ cd projects
+    ```
+</Info>
+
+4. Create the `htmlprojects` subfolder.
+
+In GUI, open your `projects` folder, open your secondary menu, and select `New Folder`. You will then rename this folder to `htmlprojects`. Screenshots below are from MacOS.
+
+![A screenshot of the projects folder with an untitled folder sub-folder](/images/html-css/projects-untitledfolder.png)
+
+![Screenshot of the right-click menu with 'Rename' highlighted](/images/html-css/rename.png)
+
+![Screenshot of projects folder with htmlpractice sub-folder](/images/html-css/projects-htmlpractice.png)
+
+<Info>__Command Line__:
+
+    ```console
+    $ mkdir htmlpractice
+    ```
+</Info> -->
+
+<!-- TODO: download instructions -->
+
+
+<!-- TODO: migrate instructions here from earlier lesson, add images -->
 
 # Workshop Summary
 
