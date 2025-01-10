@@ -601,12 +601,6 @@ Here, we will use the in-browser code editor to create a simple web page, which 
 <a href="https://gcdi.commons.cuny.edu"> Graduate Center Digital Initiatives </a>
 ```
 
-<!-- 2. Download your new file by clicking the `Dowload All Files` button, locate it in your `Downloads` folder, and rename it to `about.html`.
-
-![Screenshot of 'dowload all files' button](/images/html-css/download-button-instructions.png)
-
-3. Move `about.html` to your `htmlpractice` folder. -->
-
 For reference, here is the updated HTML template for this file:
 
 ```html
@@ -1631,6 +1625,18 @@ If you think it is an **error with the HTML**, you'll be able to see it there.
   
 If you think it is an **error with the CSS**, then from the Page Source you'll need to click on the link for the `style.css` page. The link to this page should be found in the head of your page. Don't see it? That may be the problem! If you do see it, open the link to see what CSS the browser is reading and applying to your HTML. It should match what you have in your text editor. If it looks like an earlier version of your style sheet, then maybe you need to re-save the document.
 
+# Workshop Summary
+
+Through this workshop, you have learned the basics of two of the most commonly-used languages for building on the web: HTML and CSS.
+  
+**HTML, or Hypertext Markup Language**, organizes content on your page using elements denoted by tags (`<...>`). When rendered by your browser, these tags tell your browser that certain content is paragraph text, while other content is heading or title text, and so on. You can also use image (`<img>`) and link or anchor (`<a>`) tags to tell the browser to render an image on the page, or take the visitor to another page on your or another website. We also discussed some important conventions to consider when creating HTML documents, such as nesting.  
+  
+**CSS, or Cascading Style Sheets**, allows for further styling of your website through the application of a series of rule sets that are applied to different aspects/elements of your site. In order for CSS to render on a webpage, it must be integrated with your html, which can happen in three ways: inline, internal, and external. CSS rules can be of varying specificity, and in particular, through creating classes and IDs. We also discussed how the ordering of rule sets doesn't matter, because an important function of CSS is the way it filters and applies rules in accordance with the specificity of the rule.  
+  
+Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents. The choices made in designing websites are thus the products of particular circumstances that can be understood as socially, culturally, and historically specific. They set the foundation for the Internet as we know it today, and understanding a little HTML and CSS can go a long way in looking under the 'black box'.
+  
+While this is a good starting point, two important questions remains: how can I work on HTML and CSS files on my computer, and how can I get these text documents on the Internet so they can be accessed, and interacted with, and linked to by others? This is what we will discuss in the final lessons of this workshop.
+
 # Getting Out of the Sandbox: Editing HTML and CSS on Your Computer
 
 This workshop was designed with a sandbox, the code editor, in mind. That sandbox facilitated the process of experimenting with HTML and CSS. You may have noticed that there is a `Dowload All Files` button on the code editor. This exports the files you created into three distinct outputs: index.html, style,css, and script.js.
@@ -1709,24 +1715,23 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
     ```console
     $ mkdir htmlpractice
     ```
-</Info> -->
+</Info>
 
-<!-- TODO: download instructions -->
+5. Download your new files by clicking the `Dowload All Files` button.
+
+![Screenshot of 'dowload all files' button](/images/html-css/download-button-instructions.png)
+
+6. Locate them (`index.html`, `style.css`, and `script.js`)
+
+<Info>__Tip__:
+The export generates a `script.js` file, which is for JavaScript. We don't use this in this workshop, but similar to the separation of concerns principle with external CSS, a separate JavaScript file is industry standard for web development.
+</Info>
+
+7. Move `about.html` to your `htmlpractice` folder. -->
+
+<!-- TODO: add more images -->
 
 
-<!-- TODO: migrate instructions here from earlier lesson, add images -->
-
-# Workshop Summary
-
-Through this workshop, you have learned the basics of two of the most commonly-used languages for building on the web: HTML and CSS.
-  
-**HTML, or Hypertext Markup Language**, organizes content on your page using elements denoted by tags (`<...>`). When rendered by your browser, these tags tell your browser that certain content is paragraph text, while other content is heading or title text, and so on. You can also use image (`<img>`) and link or anchor (`<a>`) tags to tell the browser to render an image on the page, or take the visitor to another page on your or another website. We also discussed some important conventions to consider when creating HTML documents, such as nesting.  
-  
-**CSS, or Cascading Style Sheets**, allows for further styling of your website through the application of a series of rule sets that are applied to different aspects/elements of your site. In order for CSS to render on a webpage, it must be integrated with your html, which can happen in three ways: inline, internal, and external. CSS rules can be of varying specificity, and in particular, through creating classes and IDs. We also discussed how the ordering of rule sets doesn't matter, because an important function of CSS is the way it filters and applies rules in accordance with the specificity of the rule.  
-  
-Through understanding these languages in combination with one another, you can also reframe your understanding of the web—not as _poof! magic!_, but as a series of intentionally styled, hyperlinked text documents, with each website representing a folder of documents. The choices made in designing websites are thus the products of particular circumstances that can be understood as socially, culturally, and historically specific. They set the foundation for the Internet as we know it today, and understanding a little HTML and CSS can go a long way in looking under the 'black box'.
-  
-While this is a good starting point, one important question remains: how can I get these text documents on the Internet so they can be accessed, and interacted with, and linked to by others? This is what we will discuss in the final lesson of this workshop.
 
 # Making Your Website Public
 
