@@ -296,7 +296,8 @@ $ open index.html
 11. Return to this lesson in your browswer.
 
 **Note**
-    The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
+
+The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
 <!-- TODO: move this -->
 
@@ -1727,11 +1728,11 @@ In GUI, open your `projects` folder, open your secondary menu, and select `New F
 The export generates a `script.js` file, which is for JavaScript. We don't use this in this workshop, but similar to the separation of concerns principle with external CSS, a separate JavaScript file is industry standard for web development.
 </Info>
 
-7. Move `about.html` to your `htmlpractice` folder. -->
+7. Move `index.html`, `style.css`, and `script.js` to your `htmlpractice` folder.
+
+8. 
 
 <!-- TODO: add more images -->
-
-
 
 # Making Your Website Public
 
