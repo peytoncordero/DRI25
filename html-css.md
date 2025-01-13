@@ -977,7 +977,7 @@ To **make a line break** or give space between different elements:
 
 **Comments**
 
-To **make a comment** or add text that will not display on the rendered page, enter text between `<!---` and `--->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
+To **make a comment** or add text that will not display on the rendered page, enter text between `<!--` and `-->`. Comments are useful for helping annotate large chunks of code, to isolate snippets of code that contain errors you cannot identify, and for communicating your process with other coders and readers. They can also be useful for writing notes on where to do future work on a web page.
 
 ```html
 <!-- -->
