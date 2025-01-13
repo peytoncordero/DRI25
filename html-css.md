@@ -1028,10 +1028,10 @@ You can learn more about making tables using HTML [here](https://www.w3schools.c
 **Comment**
 
 ```html
-<!--- --->
+<!-- -->
 ```
 
-<!--TODO: Add sample file to download demonstrating all of these characteristics, with dropdown/popdown option? -->
+<!-- TODO: Add sample file to download demonstrating all of these characteristics, with dropdown/popdown option? -->
 
 # CSS Basics
 
@@ -1087,6 +1087,11 @@ For example, if you want the text of your first paragraph to be red, but the tex
     </body>
 </html>
 ```
+
+Here's what the code looks like in your code editor.
+
+![Screenshot of inline css rendered in code editor](/images/html-css/css-inline-codeeditor.png)
+
 Here's what the code looks like displayed in a browser.
 
 ![Screenshot of inline css rendered in browser](/images/html-css/css_inline.png)
@@ -1123,6 +1128,12 @@ Here's what the code looks like displayed in a browser.
     </body>
 </html>
 ```
+
+Here's what the code looks like in your code editor.
+
+![Screenshot of internal CSS rendered in the code editor](/images/html-css/css-internal-codeeditor.png)
+
+
 Here's what the code looks like displayed in a browser.
 
 ![Screenshot of internal CSS rendered in browser](/images/html-css/css_internal.png)
@@ -1164,6 +1175,11 @@ Styling instructions from CSS is then contained in the `style.css` document.
         }
 ```
 
+Here's what the code looks like displayed in your code editor.
+
+![Screenshot of the external CSS code rendered in the code editor](/images/html-css/css-external-codeeditor.png)
+
+
 Here's what the code looks like displayed in a browser.
 
 ![Screeshot of the external CSS code rendered in a browser](/images/html-css/css_external.png)
@@ -1199,8 +1215,15 @@ Create a stylesheet for your html file. You can try this with the code editor he
         font-family: cursive;
     }
 ```
+
+3. Explore how this changes your text.
+
+
+
+<!-- TODO: Migrate this
+
 3. Click the `Download All Files` button.
-<!-- 
+
 4. Locate the `style.css` file in your `Downloads` folder and move it to your `htmlprojects` folder.
 
 5. Link your stylesheet with your `index.html` file.
@@ -1773,6 +1796,9 @@ The export generates a `script.js` file, which is for JavaScript. We don't use t
 <!-- TODO: add more images -->
 
 # Making Your Website Public
+
+<iframe src="https://giphy.com/embed/lcs5BL0NIM4WMv61a9" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/perfect-loops-lcs5BL0NIM4WMv61a9">via GIPHY</a></p>
+
 
 Great job! Now you have an amazing website, but it's stuck on your computer where no one else can find it or view it. How do you get your website from the local network of your computer's linked folders, onto the Internet so it can be shared?
   
