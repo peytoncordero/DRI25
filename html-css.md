@@ -236,14 +236,14 @@ To do this, we'll follow these steps. We'll  use the code editor in this website
 
 3. View the output from the code. What do you see?
 
-![A screnshot of the code editor](/images//html-css/codeeditor-output-1.png)
-
-4. Replace the `...`'s in code with some text of your choosing (in between the two `head` and `body` markers). What do you see now? Do you see the output?
+![A screenshot of the code editor](/images//html-css/codeeditor-output-1.png)
 
 
-<!-- TODO: STOP HERE, migrate remainder below? -->
+While the code editor displays the HTML code, the window on the right displays the formatted text.
 
-<!-- 4. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
+<!-- TODO: Migrate remainder below to end of lesson?
+
+4. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
 
 ![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
 
@@ -328,7 +328,7 @@ Viewing the page, no content should render except for `... ...`, because there i
 
 ![Front matter](/images/html-css/index_blank.png)
 
--->
+END TODO -->
 
 ## Evaluation
 
@@ -442,7 +442,9 @@ Note also that the elements and tags used in HTML have _meaning_. They provide i
 
 ## Activity
 
-In this activity, we'll use the code editor to update the template and add text for each element. We'll then download the file, move it to your `htmlproject` folder, and open it in your browser.
+<!-- TODO: modify lesson for code editor -->
+
+In this activity, we'll use the code editor to update the template and add text for each element.
 
 1. Using the in-browser **`CODE EDITOR`** to add the following elements. Add any text of your choosing between the opening and closing tags of each element (__Title__, __Heading__, and __Paragraph__). Feel free to copy from the example in the last page or create your own:
 
@@ -486,7 +488,10 @@ For reference, here is an updated template:
 </html>
 ```
 
-2. Inspect the output in the code editor, then click **`Download All Files`**.
+2. Inspect the output in the code editor.
+
+
+<!-- TODO: Move this to end
 
 3. Locate the new `index.html` file (it may be 'index(1).html', or a further sequence).
 
@@ -501,6 +506,8 @@ For reference, here is an updated template:
 - Select `View Page Source` from the dropdown menu.
 
 ![Image showing dropdown menu that appears when right clicking on a website in Chrome or Firefox](/images/html-css/index_blank_viewsource.png)
+
+END TODO -->
 
 What do you notice about how the information is organized in the webpage? In other words, where are the title, heading, and paragraph text?
 
@@ -559,7 +566,7 @@ On your webpage it will appear as:
 This link is asking the browser to look for a file titled `about.html` in the same folder. If a file named `about.html` is not in the same folder, clicking the link will result in a `404` ("Page Not Found") error (as this broken link does).
 
 <Info>__Tip__:
-In the code editor, relative links will lead you to a `404` error. This is because it is designed to work on only one HTML file at at a time. However when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files.
+In the code editor, relative links will lead you to a `404` error. This is because it is designed to work on only one HTML file at at a time. However when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files stored in the same folder.
 </Info>
 
 ## Option Two: Absolute Links
@@ -590,7 +597,6 @@ There is another technical difference between the two options above.
 
 ### Relative vs. Absolute Links: When to Use Which One
 
-<!-- TODO: Fix this diagram (typo) -->
 
 ![diagram of HTML relative vs absolute links](/images/html-css/HTML_links2.png)
 
@@ -604,12 +610,18 @@ For other instances, such as referring to pages or information on external sites
 
 Here, we will use the in-browser code editor to create a simple web page, which we will then examine.
 
-1. Using the `CODE EDITOR`, create the basis of the 'About' page. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "About."
+1. Using the `CODE EDITOR`, make your page the 'Home' page.. Use the same HTML template from the previous activity, but change the text in the `<h1>` element to "Home."
 
-2. Add a link to a website of your choosing. You can also use this link below, to the Graduate Center Digital Initiatives' CUNY Academic Commons page.
+2. Add a relative link to `about.html`.
 
 ```html
-<a href="https://gcdi.commons.cuny.edu"> Graduate Center Digital Initiatives </a>
+<a href="about.html">About</a>
+```
+
+2. Add an absolute link to a website of your choosing. You can also use this link below, to the Graduate Center Digital Initiatives' CUNY Academic Commons page.
+
+```html
+<a href="https://gcdi.commons.cuny.edu">Graduate Center Digital Initiatives</a>
 ```
 
 For reference, here is the updated HTML template for this file:
@@ -624,7 +636,7 @@ For reference, here is the updated HTML template for this file:
 
     <body>
         <h1>
-            About
+            Home
         </h1>
         <p>
 
@@ -633,6 +645,9 @@ For reference, here is the updated HTML template for this file:
 
 </html>
 ```
+
+
+
 <!-- TODO: Move or erase this:
 
 ### Alternative Activity: Command Line
@@ -762,7 +777,7 @@ The Internet is increasingly filled with AI-generated media, incuding text, code
 
 <!-- TODO: Change this -->
 
-In this activity we will practice the skills we just learned, link an image in your `index.html` file. We will use the in-browser code editor.
+In this activity we will practice the skills we just learned, link an image in your existing HTML code. We will use the in-browser code editor.
 
 <!-- <Info>__Tip:__
 From here out, is becomes increasingly challenging to use the in-browser code editor, so it is advised that you use your text editor for the remainder of this lesson on HTML. You can resume scaffolding from the code editor when we begin exploring CSS.
