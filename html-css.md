@@ -234,7 +234,14 @@ To do this, we'll follow these steps. We'll  use the code editor in this website
 
 3. View the output from the code. What do you see?
 
-4. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
+![A screnshot of the code editor](/images//html-css/codeeditor-output-1.png)
+
+4. Replace the `...`'s in code with some text of your choosing (in between the two `head` and `body` markers). What do you see now? Do you see the output?
+
+
+<!-- TODO: STOP HERE, migrate remainder below? -->
+
+<!-- 4. Click the `Download All Files` button, which is directly above the HTML portion of the code editor. This will export the contents of each sub-editor as its own file.
 
 ![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
 
@@ -250,7 +257,7 @@ Feel free to use the GUI approach, but if you want to practice your command line
 Using GUI:
 
 - For MacOS, click on the Finder button on your task bar, then press <kbd>command</kbd> <kbd>option</kbd> and <kbd>L</kbd> together.
-- For Windows, select File Explorer from the taskbar, or press the <kbd>Windows logo key</kbd> + <kbd>E</kbd>. Under Quick access, select Downloads.
+- For Windows, select File Explorer from the taskbar, or press the <kbd>Windows logo key</kbd> + <kbd>E</kbd>. Under Quick access, select Downloads. -->
 
 <!-- TODO: Move this section to end -->
 
@@ -272,7 +279,7 @@ $ mv users/Ian/Downloads/index.html ./htmlprojects
 ```
 </Info> -->
 
-7. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
+<!-- 7. Open `index.html` with your browser. We recommend you use **Google Chrome** or **Mozilla Firefox**.
 
 - On macOS, click on the **Finder** in your dock (the apps at the bottom of the screen) and click on **Desktop** on the left. From there, navigate to `projects`, then `htmlpractice`. Alternately, you can click the projects folder icon on your **Desktop** and find it from there. 
 
@@ -299,11 +306,9 @@ $ open index.html
 
 The `index.html` file is your default homepage for the website we are creating. This is an industry standard, because web browsers tend to recognize the `index.html` page as the opening page to the directory that is your website. See [here](https://www.lifewire.com/index-html-page-3466505) for more explanation.
 
-<!-- TODO: move this -->
-
-<!-- <Info>__Tip:__
+ <Info>__Tip:__
 You can also use the **Live Server plugin** to open `index.html` from within VS Code. Right-click `index.html` and left-click `"Open With Live Server"`. The advantage to this is that changes will automatically refresh if you keep the file open. 
-</Info> -->
+</Info>
 
 ### What Happens?
 
@@ -320,6 +325,8 @@ When you "**View Page Source**," you should see the code for the basic template.
 Viewing the page, no content should render except for `... ...`, because there is no content in the template at this time.
 
 ![Front matter](/images/html-css/index_blank.png)
+
+-->
 
 ## Evaluation
 
@@ -379,6 +386,7 @@ Below is HTML that adds alternative text to an image—or text that describes th
 Adding alternative text to an image, as was done in this example, is vitally important. That information makes the image more accessible to those viewing your site. For instance, users with poor vision who may not be able to see your image will still understand what it is and why it's there if you provide alternative text describing it.  
   
 If you look back at the basic template in your `index.html` file, you'll see that the main sections of your file have **opening** and **closing** tags. Each of these main elements will eventually hold many other elements, many of which will be the content of our website.
+
 
 ## Evaluation
 
