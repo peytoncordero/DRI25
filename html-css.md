@@ -34,7 +34,7 @@ prerequisites:
         required: true
 
     - Visual Studio Code: 
-        description: (Strongly recommended) To edit HTML and CSS on your computer, you can use any plain text editor, but for we strongly suggest you download and install [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") for the more advanced exercises at the end of the workshop. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
+        description: (Strongly recommended) The majority of the exercises in this workshop will be conducted in an in-brower code editor. However, advanced pracictice of these skills will require editing code on your computer. To edit HTML and CSS on your computer, you can use any plain text editor, but for we strongly suggest you download and install [Visual Studio Code](https://github.com/DHRI-Curriculum/install/blob/v2.0/guides/visual-studio-code.md) ("VS Code") for the more advanced exercises at the end of the workshop. It is recommended that you also enable the [Live Server plugin](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/), but it is not necessary to follow the exercises.
 
 readings:
     - "[Information Management: A Proposal](https://www.w3.org/History/1989/proposal.html) by Tim Berners-Lee. This concept paper, originally published in 1989 and converted to HTML format here, is the proposal that led to HTML. It is a foundational document of the Internet."
