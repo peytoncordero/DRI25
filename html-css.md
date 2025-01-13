@@ -946,6 +946,21 @@ Think about the order of your content as you assemble the body of your page. Fee
   
 Don't worry about getting the content just right. The important aspect of this exercise is to review the **structure of a webpage**, and **practice creating a webpage**.
 
+Once you finish your website, click the `Download All Files` button, which is directly above the HTML portion of the code editor.
+
+![Screenshot of code editor, with the download button highlighted](/images/html-css/download-button-instructions.png)
+
+This will export the contents of each sub-editor as its own file (`index.html`, `style.css`, and `script.js`). For our purposes here, you'll want the `index.html` file.
+
+To access these files, you'll want to navigate to your `Downloads` folder.
+
+Using GUI:
+
+- For MacOS, click on the Finder button on your task bar, then press <kbd>command</kbd> <kbd>option</kbd> and <kbd>L</kbd> together.
+- For Windows, select File Explorer from the taskbar, or press the <kbd>Windows logo key</kbd> + <kbd>E</kbd>. Under Quick access, select `Downloads`. -->
+
+
+
 
 ## Additional Tags
 
@@ -1791,7 +1806,9 @@ The export generates a `script.js` file, which is for JavaScript. We don't use t
 
 7. Move `index.html`, `style.css`, and `script.js` to your `htmlpractice` folder.
 
-8. 
+8. Open index folder
+
+<!-- TODO: finish this activity -->
 
 <!-- TODO: add more images -->
 
