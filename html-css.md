@@ -203,6 +203,8 @@ In this activity we aim to complete the following tasks (instructions follow):
 
 2. View its output.
 
+3. Add new text to the code.
+
 <!-- 3. Download code as an HTML file.
 
 4. Move the file to your coding environment.
@@ -510,7 +512,7 @@ Although you don't need to break lines between opening and closing tags, note th
 
 The heading should appear at the top of the page, followed by the paragraph text. The heading text should be larger. The title should appear in the browser window tab. The organization of the page and display should follow the standard conventions of HTML.
 
-![Image of the boiler example above rendered in Google Chrome](/images/html-css/boiler-example.png)
+![Image of the boiler example above rendered in the code editor](/images/html-css/boilerstory-codeeditor.png)
 
 ## Evaluation
 
