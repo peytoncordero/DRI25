@@ -618,7 +618,7 @@ Here, we will use the in-browser code editor to create a simple web page, which 
 <a href="about.html">About</a>
 ```
 
-2. Add an absolute link to a website of your choosing. You can also use this link below, to the Graduate Center Digital Initiatives' CUNY Academic Commons page.
+2. Add an absolute link to a website address. You can use this link below, to the Graduate Center Digital Initiatives' CUNY Academic Commons page, or to any link of your choosing.
 
 ```html
 <a href="https://gcdi.commons.cuny.edu">Graduate Center Digital Initiatives</a>
