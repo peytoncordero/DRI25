@@ -1853,11 +1853,11 @@ Do you remember the glossary terms from this section?
 
 # Theory to Practice
 
-This workshop has provided an introduction to HTML and CSS. Through its discussion of tags, elements, and attributes, we have tried to cover the basic ways in which web pages are initially constructed in plaintext and then rendered on browsers. As we concieve of digital humanities projects, however, our visions quickly exceed the capacity of the commands that was covered in this workshop. Not only might we be interested in making information public on the Internet, but we might also be interested in providing tools that facilitate interactivity and ease of use with the content that we are curating. Building these tools and incorporating them in our websites requires the additional knowledge of languages like Javascript, SQL, and [Python](http://www.github.com/DHRI-Curriculum/python), among many others. Digital humanities projects are often collaborative endeavors and bringing someone into the project who has these skills is an effective way to building well-designed websites.  
+This workshop provided an introduction to HTML and CSS. Through its discussion of tags, elements, and attributes, we have tried to cover the basic ways in which web pages are initially constructed in plaintext and then rendered on browsers. As we concieve of digital humanities projects, however, our visions quickly exceed the capacity of the commands that was covered in this workshop. Not only might we be interested in making information public on the Internet, but we might also be interested in providing tools that facilitate interactivity and ease of use with the content that we are curating. Building these tools and incorporating them in our websites requires the additional knowledge of languages like Javascript, SQL, and [Python](https://app.dhrift.org/dynamic?user=GC-DRI&repo=DRI25&file=python&instUser=GC-DRI&instRepo=GCDRI25Schedule), among many others. Digital humanities projects are often collaborative endeavors and bringing someone into the project who has these skills is an effective way to building well-designed websites.  
   
 Another way to build more complex design and functionality into your websites is by using a **Content Management System (CMS)**, which refers to a suite of tools that facilitates easy website development and hosting on the internet. Most modern-day websites require functionalities that strains the limits of HTML and CSS. Content Management Systems allow users without any familiarity with advanced web-design languages and concepts to quickly build websites that are visually appealing and contain a variety of features. CMS platforms often provide a variety of tools that users can simply click, drag, and input content to create websites. No coding required! Popular content management systems in the digital humanities include [Omeka](https://www.omeka.net/), [Scalar](https://scalar.me/anvc/scalar/), [Libguides](https://www.springshare.com/libguides/), and [WordPress](https://wordpress.org/). These CMS have robust documentation and an active user community, both of which can help solve issues in website development. The suggested readings and tutorials provided below link to more information on selecting and using a CMS.
 
-We may also want to use our newfound HTML and CSS skills to **more carefully examine existing online content**, through comparisons of timestamped website backups using the [Internet Archive Wayback Machine](https://web.archive.org/). We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into creating a web scraping script.
+We may also want to use our newfound HTML and CSS skills to **more carefully examine existing online content**, through comparisons of timestamped website backups using the [Internet Archive Wayback Machine](https://web.archive.org/). We can read code as historical text. We may also want to utilize our skills in more advance programming to conduct web scraping exercises, examining in the words of Michael L Black, [**The World Wide Web as a Complex Data Set**](https://www.euppublishing.com/doi/pdf/10.3366/ijhac.2016.0162). After completing the Python workshops on DHRIFT, we may want to incorporate our HTML skills into creating a web scraping script.
 
 ## Review your knowledge: 10 questions from the lessons
 
@@ -2006,6 +2006,8 @@ Revisit lesson <Link workshop='html-css' page='2'>`Getting Started with HTML and
 
 - [Github Pages](https://pages.github.com/) can be useful to more advanced users for hosting HTML/CSS files and publishing them directly on the internet. It draws on a Github repository to build static websites. Websites that are hosted on Github pages tend to have a URL that ends in `github.io`. The official Github documentation has a well written guide on [creating a Github Pages site](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site).
 
+- [HTML For People](https://htmlforpeople.com/) is an ebook-as-website HTML tutorial website created by Blake Watson.
+
 - [Neocities](https://neocities.org/tutorials) is a social network of over 700,000 ad-free websites designed to "bring back the lost individual creativity of the web". The platform offers free static web hosting and integrated tools, including an in-browser HTML editor. 
 
 
@@ -2033,6 +2035,12 @@ To begin, create a folder called "courseWebsite" in your working directory. This
 If you are unsure of which HTML/CSS commands to use, check out the [HTML Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php) and the [CSS Cheat Sheet](https://courses.cs.washington.edu/courses/cse154/15sp/cheat-sheets/css-cheat-sheet.pdf), which provides a quick reference guide.
 
 
+### Build a "tiny archive"
+
+Alex Chan [documents her process](https://alexwlchan.net/2024/static-websites/) of building a 'tiny archive' using the static web.
+
+<!-- TODO: expand this -->
+
 ## Discussion Questions
 
 <!-- TODO: Add image/visuals -->
@@ -2040,3 +2048,5 @@ If you are unsure of which HTML/CSS commands to use, check out the [HTML Cheat S
 1. In this workshop, we focused on the fundamentals of HTML and CSS. The point was to provide an introduction to the workings of websites. In practice, however, the websites that we desire to build will have complex use cases. What are some websites that you imagine building? What kinds of interactive features would you like to have in your website?
 
 2. Some websites provide information clearly and in an engaging manner. Others might inundate with a barrage of content that leaves one mystified. What would you say are some of the characteristics of well-designed websites? Which websites do you consider a joy to use? What design elements (such as font, color, layout, and menus) stand out to you as being particularly important in making good websites?
+
+3. Sophisticated and interactive websites can be very feature rich, fun to build, and and eye-catching. They also have challenges inherent in their maintenance, and in learning how to build them. What are some advantages you might imagine 'static web' pages, which use HTML and CSS, might have? What are some use cases you can think of where their simplicity could be an advantage?
