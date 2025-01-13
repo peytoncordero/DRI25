@@ -566,7 +566,7 @@ On your webpage it will appear as:
 This link is asking the browser to look for a file titled `about.html` in the same folder. If a file named `about.html` is not in the same folder, clicking the link will result in a `404` ("Page Not Found") error (as this broken link does).
 
 <Info>__Tip__:
-In the code editor, relative links will lead you to a `404` error. This is because it is designed to work on only one HTML file at at a time. However when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files stored in the same folder.
+In the **`code editor`**, relative links will lead you to a `404` error. This is because it is designed to work on only one HTML file at at a time. However when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files stored in the same folder.
 </Info>
 
 ## Option Two: Absolute Links
@@ -712,11 +712,26 @@ The full code is below:
 
 <!-- TODO: Modify this - remove relative link -->
 
-When your pages are updated, you should be able to navigate from your `"Home"` page to your `"About"` page, and vice versa. You should also be able to navigate to the external web page (but not back to your page, though you can click 'back' on your brower to return).
+![screenshot of the code editor with the exercise in it](/images/html-css/links-codeeditor-example.png)
+
+When your pages are updated, you should have a relative and an absolute link in your code.
+
+![screenshot of 404 error with about.html](/images/html-css/links-abouthtml-404.png)
+
+You should be able to navigate from your `"Home"` page to `about.html` when you click to it, but you will get a `404` error as there is no file with that name in the local directory. Pay attention to how the browser follows the instruction, leading to `https://app.dhrift.org/about.html`.
+
+![a screenshot of the GCDI CUNY Academic Commons page](/images/html-css/links-external-gcdi.png)
+
+You should also be able to navigate to the external web page when clicking the link to it.
+
+
+<Info>__Tip__:
+Although in the **`code editor`**, relative links will lead you to a `404` error, when developing a website on your computer or a more sophisticated web-based code editor, you can call and edit multiple HTML files stored in the same folder.
+</Info>
 
 ![diagram of links in updated sample files](/images/html-css/HTML_links3.png)
 
-Congratulations, you have just created **hyperlinks**. This is a foundational component of the entire Internet.
+Congratulations, you have just created **hyperlinks**! This is a foundational component of the entire Internet.
 
 ## Evaluation
 
@@ -809,9 +824,9 @@ You can also control the display size of the image by adding `style`. These are 
 
 2. View the output. Do you see an image?
 
-Move to end
 
-<!-- 
+<!-- TODO: move to end
+
 3. Open and save the image, then download it and move it to your `htmlpractice` folder.
 
 4. Add the image into your `index.html` file using **VS Code**, re-save the file, and re-open or refresh the page in your browser. Your image should now appear on the page. -->
@@ -909,10 +924,8 @@ While code editor apps usually auto-indents and auto-completes tags, they are no
 # Major Challenge: Create a Small Website
 
 
+![an image of the words "LET'S GO!" in bright gold colors](/images/html-css/challenge-letsgo.jpg)
 
-<!-- TODO: Add image to top
-
- -->
 
 In this major challenge, we will begin creating a "small" website, which you can use as the starting point for a portfolio of your digital projects and academic work. Using the tags we've just reviewed, and two additional ones (see below), we will make a barebones website that provides information about yourself (or a fictional character). Parim Satyal's website on [Rediscovering the Small Web](https://neustadt.fr/essays/the-small-web/) may provide some inspiration. You may also want to look at GCDI Digital Fellow Sam O'Hana's [website](https://www.samohana.com/), which is written in HTML.
   
