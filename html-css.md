@@ -107,7 +107,7 @@ Together, **HTML** and **CSS** can be used to write and style a website using a 
 
 <!-- TODO: fix internal link (currently broken)-->
 
-However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='49'>`how to get your website from your local computer onto the internet`</Link>.
+However, internet access is necessary if you plan on making your website available to the public. At the end of this workshop, we will briefly discuss <Link workshop='html-css' page='50'>`how to get your website from your local computer onto the internet`</Link>.
 
 In our activities during this workshop we will focus on building locally-hosted websites. These are websites that you can open on your web browser, however, they only exist on your own device and are only accessible to you. Locally-hosted websites are not yet on the internet.
 
