@@ -630,7 +630,7 @@ As scholars, we have a responsibility to think critically about how we do or do 
 - [The Zine Librarians Code of Ethics](http://zinelibraries.info/code-of-ethics/)  
 - [Native-Land.ca (mapping project)](https://native-land.ca/)  
 - [Invasion of America: How the United States Took Over an Eighth of the World (mapping project)](http://usg.maps.arcgis.com/apps/webappviewer/index.html?id=eb6ca76e008543a89349ff2517db47e6)
-- [Homosaurus LGBTQ+ Linked Data Vocabulary (https://homosaurus.org/)  
+- [Homosaurus LGBTQ+ Linked Data Vocabulary](https://homosaurus.org/)  
 
 
 <!-->
