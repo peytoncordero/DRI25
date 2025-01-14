@@ -411,7 +411,7 @@ Drawing from Markham (2016), we will focus on three levels of impact:
 
 1. Direct impacts on people
 2. Ramifications of (re)producing categories
-3. Social, political and economic effects. 
+3. Social, political, economic, and environmental effects. 
 
 Additionally, this workshop will address the range of impact, or the range of accessibility to our work:
 
