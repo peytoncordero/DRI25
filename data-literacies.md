@@ -624,6 +624,15 @@ For ethical considerations of the [impact of our knowledge production](https://r
 - Maps
 - Algorithms
 
+As scholars, we have a responsibility to think critically about how we do or do not reproduce existing biases in the canons we reference, the data we use, and the conclusions we reach. Some projects that have tried to produce new, less-biased representations include: 
+
+- [The #StandingRockSyllabus](https://nycstandswithstandingrock.wordpress.com/standingrocksyllabus/)  
+- [The Zine Librarians Code of Ethics](http://zinelibraries.info/code-of-ethics/)  
+- [Native-Land.ca (mapping project)](https://native-land.ca/)  
+- [Invasion of America: How the United States Took Over an Eighth of the World (mapping project)](http://usg.maps.arcgis.com/apps/webappviewer/index.html?id=eb6ca76e008543a89349ff2517db47e6)
+- [Homosaurus LGBTQ+ Linked Data Vocabulary (https://homosaurus.org/)  
+
+
 <!-->
 ## The Importance of Using Open Data Formats
 
