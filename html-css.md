@@ -1356,13 +1356,13 @@ p {
 .intro {
     font-family: arial;
     background-color: grey;
-    color: dark-grey;
+    color: darkgray;
 }
 ```
 
 The first rule (which starts with the `h1` selector) applies to **all** `<h1>` tags on each page where your HTML document links to your stylesheet, and changes the font style and display of those headings. In other words, every time the `<h1>` tag is called, the contents of this rule will also be applied.
   
-The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  For `h1`, the declarations set  `font-family` to `arial`, `background-color` to `grey`, and `color` to `dark grey`.
+The lines within the curly braces (i.e. `{ ... }`) are called **declarations**, and they change the formatting of the elements in the HTML document. Each line in the declaration sets the value for a **property** and ends with a semicolon **(`;`)**.  For `h1`, the declarations set  `font-family` to `arial`, `background-color` to `grey`, and `color` to `darkgray`.
   
 Note the different syntax being used to select items for for styling with rule sets. The bottom two selectors (`#navbar` and `.intro`) are used to apply rule sets to **IDs** and **classes**. In general, adding classes and IDs to HTML elements allows for more specific styling—more on these soon!
 
@@ -1391,7 +1391,7 @@ p {
 .intro {
     font-family: arial;
     background-color: grey;
-    color: dark-grey;
+    color: darkgray;
 }
 ```
 ### What should happen?
