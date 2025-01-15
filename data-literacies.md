@@ -190,6 +190,7 @@ An illustration:
 ![A screenshot of the excel file of the moSmall dataset.](/images/data-ethics/moSmall-xlsx.png)
  
  
+
 Sustainable formats are generally unencrypted, uncompressed, and follow an open standard. 
 
 
@@ -443,7 +444,7 @@ The reveal above is only one of the possible considerations, but there might be 
 
 # Stages of Data: Raw
 
-"Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc. It could be in any of the forms listed in the <Link workshop='data-literacies' page='4'>Forms of Data Section.</Link>. 
+"Raw" data is yet to be processed, meaning it has yet to be manipulated by a human or computer. Received or collected data could be in any number of formats, locations, etc. It could be in any of the forms listed in the <Link workshop='data-literacies' page='4'>Forms of Data Section</Link>. 
 
 But "raw" data is a relative term, inasmuch as when one person finishes processing data and presents it as a finished product, another person may take that product and work on it further, and for them that data is "raw" data. For example, we may consider the [General Social Survey](http://gss.norc.org/) data to be "raw" as it will require us to filter out missing entries and collapse variables or fields before we can run our analysis. A researcher who participated in the creation of this survey may not consider the version on the site as "raw" because the "raw" version is the physical paper copies of the file. As you can see, this consideration of what is "raw" is non-definitive and is dependent on the project you are working on and the narrative you want to tell with the results.
 
@@ -919,6 +920,8 @@ We can consider this [level of impact](https://raw.githubusercontent.com/DHRI-Cu
 1. Whose labor and what materials are used to make the digital tools you use? How should we (those who benefit from the labor of other people) attribute others' labor? How can we (users of these tools) be held accountable?
 2. Could your research or project be used to justify or facilitate potentially harmful control or surveillance?
 3. Could it influence social or political discourse? Modes of profit?
+
+In addition, we must also consider the environmental impacts of our research. In the broadest sense, this requires us to think about how we can limit the footprint of everyday research practices (e.g., buying better and less, optimizing the use of digital technology, limiting travel and work-related trips, etc.), and how we can work from the "do no harm" principle. In biomedical research this means ensuring that the benefits of research are maximized while risk is minimized, and research-related risks to the environment should be identified in order for them to be eliminated or reduced. For more information, review ["Integrating environmental issues into research practices--An ethical responsibility" by the CNRS Ethics Committee](https://comite-ethique.cnrs.fr/wp-content/uploads/2023/01/OPINION-2022-43.pdf). 
 
 <!--We are visiting this impact between discussing cleaning data and analyzing data, because as we discussed earlier most of our reflections and decision making happen at these two stages.<--> 
 
