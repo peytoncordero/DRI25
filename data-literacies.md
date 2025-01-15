@@ -411,7 +411,7 @@ Drawing from Markham (2016), we will focus on three levels of impact:
 
 1. Direct impacts on people
 2. Ramifications of (re)producing categories
-3. Social, political and economic effects. 
+3. Social, political, economic, and environmental effects. 
 
 Additionally, this workshop will address the range of impact, or the range of accessibility to our work:
 
@@ -601,7 +601,7 @@ What does each of the three tables represent?
 
 ![A story told by file names. Image of inconsistant file names.](/images/data-ethics/file-naming-version-control.png)
 
-Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming) that demonstrates the problems of badly name files in our projects.
+Before beginning your data collection, manipulation, and transformation, a good practice is to determine your file naming conventions. How many times have named something as `XXX_FinalFINALFINAL.pdf` or have difficulty searching for a version of the file that contained all that good idea that was edited out in the `XXX_FinalFINALFINALFINAL.pdf` version? While tools like version controlling with git can be helpful, we can also begin with setting up file naming conventions that can help us succeed! Here's an example from [Stanford](https://guides.library.stanford.edu/data-best-practices) that demonstrates the problems of badly name files in our projects (scroll down to case studies).
 
 For example, The Graduate Center's [Data Management](https://libguides.gc.cuny.edu/c.php?g=159618&p=1045090) guide suggest that top level folders (such as your main project folder) should include your project title, a unique identifier and the date (year) of your project (e.g. `dataliteracies_XYZ_2020`). Your sub folders and individual files should follow a similar system, with an identifiable activity or project in the file name (e.g. a sub-folder of the project: `sections_xyz_2020`, a file in the project: `lessons_XYZ_2020.doc`).
 
@@ -623,6 +623,15 @@ For ethical considerations of the [impact of our knowledge production](https://r
 - Catalogs
 - Maps
 - Algorithms
+
+As scholars, we have a responsibility to think critically about how we do or do not reproduce existing biases in the canons we reference, the data we use, and the conclusions we reach. Some projects that have tried to produce new, less-biased representations include: 
+
+- [The #StandingRockSyllabus](https://nycstandswithstandingrock.wordpress.com/standingrocksyllabus/)  
+- [The Zine Librarians Code of Ethics](http://zinelibraries.info/code-of-ethics/)  
+- [Native-Land.ca (mapping project)](https://native-land.ca/)  
+- [Invasion of America: How the United States Took Over an Eighth of the World (mapping project)](http://usg.maps.arcgis.com/apps/webappviewer/index.html?id=eb6ca76e008543a89349ff2517db47e6)
+- [Homosaurus LGBTQ+ Linked Data Vocabulary](https://homosaurus.org/)  
+
 
 <!-->
 ## The Importance of Using Open Data Formats
